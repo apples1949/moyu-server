@@ -1,0 +1,100 @@
+//----------FILE MODIFICATION (YY/MM/DD): [2022/07/14] ---------------||
+//----------BY: CY----------------------||
+
+"Objects_Cache"
+{
+	"object_1"
+	{
+		"solid" "6"
+		"origin" "-6623 -10303 7852"
+		"angles" "360 359 0"
+		"model"	 "models/props_fortifications/concrete_wall001_96_reference.mdl"
+		"classname"	"prop_dynamic"
+	}
+	
+	"object_2"
+	{
+		"solid" "6"
+		"origin" "-6647 -10403 7920"
+		"angles" "1080 179 0"
+		"model"	 "models/props_doors/checkpoint_door_-01.mdl"
+		"classname"	"prop_dynamic"
+	}
+	
+	"object_3"
+	{
+		"solid" "6"
+		"origin" "-6645 -10588 7919"
+		"angles" "0 1 0"
+		"model"	 "models/lighthouse/checkpoint_door_lighthouse02.mdl"
+		"classname"	"prop_dynamic"
+	}
+	
+	"object_4"
+	{
+		"solid" "6"
+		"origin" "-6655 -10689 7876"
+		"angles" "0 180 0"
+		"model"	 "models/infected/hulk_l4d1.mdl"
+		"classname"	"prop_dynamic"
+	}
+	
+	"object_5"
+	{
+		"solid" "6"
+		"origin" "-7120 -10864 8082"
+		"angles" "0 269 0"
+		"model"	 "models/lighthouse/props/wooden_bridge_c.mdl"
+		"classname"	"prop_dynamic"
+	}
+	
+	"object_6"
+	{
+		"solid" "6"
+		"origin" "-8727 -11487 7671"
+		"angles" "0 179 0"
+		"model"	 "models/props_fortifications/concrete_barrier001_128_reference.mdl"
+		"classname"	"prop_dynamic"
+	}
+	
+	"object_7"
+	{
+		"solid" "6"
+		"origin" "-7745 -11712 7680"
+		"angles" "360 -1 0"
+		"model"	 "models/props_industrial/construction_crane.mdl"
+		"classname"	"prop_dynamic"
+	}
+	
+	"object_8"
+	{
+		"solid" "6"
+		"origin" "-7934 -11789 7768"
+		"angles" "0 -90 0"
+		"model"	 "models/props_wasteland/exterior_fence002e.mdl"
+		"classname"	"prop_dynamic"
+	}
+	
+	"object_9"
+	{
+		"solid" "6"
+		"origin" "-7745 -11814 7728"
+		"angles" "0 5 0"
+		"model"	 "models/props_interiors/toiletpaperroll.mdl"
+		"classname"	"prop_dynamic"
+	}
+	
+	"object_10"
+	{
+		"solid" "6"
+		"origin" "-7721 -11790 7728"
+		"angles" "0 -113 0"
+		"model"	 "models/props_interiors/toilet_c.mdl"
+		"classname"	"prop_dynamic"
+	}
+	
+	"total_cache"
+	{
+		"total" "10"
+	}
+}

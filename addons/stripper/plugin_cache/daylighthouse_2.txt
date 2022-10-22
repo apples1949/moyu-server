@@ -1,0 +1,37 @@
+//----------FILE MODIFICATION (YY/MM/DD): [2022/08/07] ---------------||
+//----------BY: CY----------------------||
+
+"Objects_Cache"
+{
+	"object_1"
+	{
+		"solid" "6"
+		"origin" "-5917 4663 56"
+		"angles" "-30 -69 0"
+		"model"	 "models/props_vehicles/boat_fishing02_static.mdl"
+		"classname"	"prop_dynamic"
+	}
+	
+	"object_2"
+	{
+		"solid" "6"
+		"origin" "-2588 6242 -48"
+		"angles" "0 77 0"
+		"model"	 "models/props_vehicles/boat_rescue_tug.mdl"
+		"classname"	"prop_dynamic"
+	}
+	
+	"object_3"
+	{
+		"solid" "6"
+		"origin" "-3869 4227 772"
+		"angles" "90 90 0"
+		"model"	 "models/props_update/brick_128.mdl"
+		"classname"	"prop_dynamic"
+	}
+	
+	"total_cache"
+	{
+		"total" "3"
+	}
+}

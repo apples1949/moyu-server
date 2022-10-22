@@ -1,0 +1,19 @@
+//----------FILE MODIFICATION (YY/MM/DD): [2022/07/27] ---------------||
+//----------BY: CY----------------------||
+
+"Objects_Cache"
+{
+	"object_1"
+	{
+		"solid" "6"
+		"origin" "-5204 3203 1620"
+		"angles" "0 0 0"
+		"model"	 "models/props_equipment/tablegreenhouse01.mdl"
+		"classname"	"prop_dynamic"
+	}
+	
+	"total_cache"
+	{
+		"total" "1"
+	}
+}

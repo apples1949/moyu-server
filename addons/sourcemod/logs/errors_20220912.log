@@ -1,0 +1,20 @@
+L 09/12/2022 - 08:44:39: SourceMod error session started
+L 09/12/2022 - 08:44:39: Info (map "c2m1_highway") (file "/root/Steam/steamapps/common/Left 4 Dead 2 Dedicated Server/left4dead2/addons/sourcemod/logs/errors_20220912.log")
+L 09/12/2022 - 08:44:39: [SM] Unable to load extension "rip.ext": /root/Steam/steamapps/common/Left 4 Dead 2 Dedicated Server/left4dead2/addons/sourcemod/extensions/rip.ext.so: cannot open shared object file: No such file or directory
+L 09/12/2022 - 08:44:39: [SM] Exception reported: 无法加载cfgs.txt文件!
+L 09/12/2022 - 08:44:39: [SM] Blaming: vote.smx
+L 09/12/2022 - 08:44:39: [SM] Call stack trace:
+L 09/12/2022 - 08:44:39: [SM]   [0] SetFailState
+L 09/12/2022 - 08:44:39: [SM]   [1] Line 35, E:\DownLoading\beifen\AstMod v2.6.1\left4dead2\addons\sourcemod\scripting\vote.sp::OnPluginStart
+L 09/12/2022 - 08:44:39: [SM] Unable to load plugin "vote.smx": Error detected in plugin startup (see error logs)
+L 09/12/2022 - 08:44:39: [SM] Unable to load plugin "l4d2_playtime_interface.smx": Required extension "REST in Pawn" file("rip.ext") not running
+L 09/12/2022 - 08:44:39: [SM] Unable to load plugin "Welcome.smx": Could not find required plugin "l4d2_playtime_interface"
+L 09/12/2022 - 08:44:40: [SM] Exception reported: 无法加载cfgs.txt文件!
+L 09/12/2022 - 08:44:40: [SM] Blaming: vote_advance.smx
+L 09/12/2022 - 08:44:40: [SM] Call stack trace:
+L 09/12/2022 - 08:44:40: [SM]   [0] SetFailState
+L 09/12/2022 - 08:44:40: [SM]   [1] Line 37, E:\DownLoading\beifen\AstMod v2.6.1\left4dead2\addons\sourcemod\scripting\vote_advance.sp::OnPluginStart
+L 09/12/2022 - 08:44:40: [SM] Unable to load plugin "vote_advance.smx": Error detected in plugin startup (see error logs)
+L 09/12/2022 - 08:44:40: [SM] Fatal error encountered parsing translation file "cannounce.phrases.txt"
+L 09/12/2022 - 08:44:40: [SM] Error (line 0, column 0): Stream failed to open
+L 09/13/2022 - 01:46:54: Error log file session closed.

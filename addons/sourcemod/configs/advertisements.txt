@@ -1,0 +1,48 @@
+﻿// Advertisements 2.1
+// by Tsunami
+//
+// Types
+// -----
+// center: Center message
+// chat: Chat message
+// hint: Hint message
+// menu: Menu message
+// top: Top message
+//
+// Flags (optional)
+// -----
+// Accepts flags of admins that will not see the advertisement.
+// When omitted everyone will see the advertisement.
+// When left empty only admins will see the advertisement.
+
+"Advertisements"
+{
+    "1"
+    {
+        "chat"		"{lightgreen}你是一个一个"
+    }
+    "2"
+    {
+        "chat"		"{lightgreen}进服时默认没有加载插件，请输入!match加载配置
+{lightgreen}若出现配置已加载的情况，请输入!rmatch来卸除当前插件"
+    }
+    "3"
+	{
+        "chat"		"{lightgreen}插件提供:Sir、Air
+{lightgreen}本服支持100tick"
+    }
+    "4"
+    {
+        "chat"		"{lightgreen}萌新多打多练别怕挨揍，大佬多教多带嘴下留情。
+{lightgreen}欢迎加群608715841认识更多清道夫同好"
+    }
+    "5"
+    {
+        "chat"		"{lightgreen}萌新建议抱团行动，一人单走，全体落难
+{lightgreen}中途暂停请双方聊天窗输入!ready以继续游戏"
+    }
+    "6"
+    {
+        "chat"		"{lightgreen}戒骄戒躁，冷静思考，谨记这是团队配合的模式"
+    {
+}

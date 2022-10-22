@@ -1,0 +1,106 @@
+L 09/15/2022 - 14:39:26: SourceMod error session started
+L 09/15/2022 - 14:39:26: Info (map "c2m1_highway") (file "/root/Steam/steamapps/common/Left 4 Dead 2 Dedicated Server/left4dead2/addons/sourcemod/logs/errors_20220915.log")
+L 09/15/2022 - 14:39:26: [confoglcompmod.smx] [Confogl] CvarSettings: Could not find CVar specified (confogl_ghost_warp)
+L 09/15/2022 - 14:39:26: [confoglcompmod.smx] [Confogl] CvarSettings: Could not find CVar specified (tankcontrol_print_all)
+L 09/15/2022 - 14:39:26: [confoglcompmod.smx] [Confogl] CvarSettings: Could not find CVar specified (l4d2_antibaiter_delay)
+L 09/15/2022 - 14:39:26: [confoglcompmod.smx] [Confogl] CvarSettings: Could not find CVar specified (l4d2_antibaiter_horde_timer)
+L 09/15/2022 - 14:39:26: [confoglcompmod.smx] [Confogl] CvarSettings: Could not find CVar specified (l4d2_antibaiter_progress)
+L 09/15/2022 - 14:39:26: [confoglcompmod.smx] [Confogl] CvarSettings: Could not find CVar specified (l4d2_MITSR_Pitchfork)
+L 09/15/2022 - 14:39:26: [confoglcompmod.smx] [Confogl] CvarSettings: Could not find CVar specified (l4d2_MITSR_Shovel)
+L 09/15/2022 - 14:39:26: [confoglcompmod.smx] [Confogl] CvarSettings: Could not find CVar specified (longer_tank_punch_getup)
+L 09/15/2022 - 14:39:26: [confoglcompmod.smx] [Confogl] CvarSettings: Could not find CVar specified (l4d_equalise_alarm_cars)
+L 09/15/2022 - 14:39:26: [confoglcompmod.smx] [Confogl] CvarSettings: Could not find CVar specified (l4d2_reload_speed_uzi)
+L 09/15/2022 - 14:39:26: [confoglcompmod.smx] [Confogl] CvarSettings: Could not find CVar specified (l4d2_reload_speed_silenced_smg)
+L 09/15/2022 - 14:39:26: [confoglcompmod.smx] [Confogl] CvarSettings: Could not find CVar specified (l4d2_reload_speed_mp5)
+L 09/15/2022 - 14:39:26: [confoglcompmod.smx] [Confogl] CvarSettings: Could not find CVar specified (l4d2_reload_speed_scout)
+L 09/15/2022 - 14:39:26: [confoglcompmod.smx] [Confogl] CvarSettings: Could not find CVar specified (sm2_bonus_per_survivor_multiplier)
+L 09/15/2022 - 14:39:26: [confoglcompmod.smx] [Confogl] CvarSettings: Could not find CVar specified (sm2_permament_health_proportion)
+L 09/15/2022 - 14:39:26: [confoglcompmod.smx] [Confogl] CvarSettings: Could not find CVar specified (sm2_pills_hp_factor)
+L 09/15/2022 - 14:39:26: [confoglcompmod.smx] [Confogl] CvarSettings: Could not find CVar specified (sm2_pills_max_bonus)
+L 09/15/2022 - 14:39:26: [confoglcompmod.smx] [Confogl] CvarSettings: Attempt to track ConVar l4d2_MITSR_Amount, which is already being tracked.
+L 09/15/2022 - 14:39:26: [confoglcompmod.smx] [Confogl] CvarSettings: Attempt to track ConVar l4d2_MITSR_FireAxe, which is already being tracked.
+L 09/15/2022 - 14:39:26: [confoglcompmod.smx] [Confogl] CvarSettings: Attempt to track ConVar l4d2_MITSR_BaseballBat, which is already being tracked.
+L 09/15/2022 - 14:39:30: Error log file session closed.
+L 09/15/2022 - 14:39:30: SourceMod error session started
+L 09/15/2022 - 14:39:30: Info (map "c2m1_highway") (file "/root/Steam/steamapps/common/Left 4 Dead 2 Dedicated Server/left4dead2/addons/sourcemod/logs/errors_20220915.log")
+L 09/15/2022 - 14:39:30: [SM] Fatal error encountered parsing translation file "cannounce.phrases.txt"
+L 09/15/2022 - 14:39:30: [SM] Error (line 0, column 0): Stream failed to open
+L 09/15/2022 - 14:41:07: [SM] Exception reported: 无法加载cfgs.txt文件!
+L 09/15/2022 - 14:41:07: [SM] Blaming: vote.smx
+L 09/15/2022 - 14:41:07: [SM] Call stack trace:
+L 09/15/2022 - 14:41:07: [SM]   [0] SetFailState
+L 09/15/2022 - 14:41:07: [SM]   [1] Line 35, E:\DownLoading\beifen\AstMod v2.6.1\left4dead2\addons\sourcemod\scripting\vote.sp::OnPluginStart
+L 09/15/2022 - 14:41:07: [SM] Unable to load plugin "vote.smx": Error detected in plugin startup (see error logs)
+L 09/15/2022 - 14:41:07: [SM] Unable to load plugin "l4d2_playtime_interface.smx": Required extension "REST in Pawn" file("rip.ext") not running
+L 09/15/2022 - 14:41:07: [SM] Unable to load plugin "Welcome.smx": Could not find required plugin "l4d2_playtime_interface"
+L 09/15/2022 - 14:41:07: [SM] Exception reported: 无法加载cfgs.txt文件!
+L 09/15/2022 - 14:41:07: [SM] Blaming: vote_advance.smx
+L 09/15/2022 - 14:41:07: [SM] Call stack trace:
+L 09/15/2022 - 14:41:07: [SM]   [0] SetFailState
+L 09/15/2022 - 14:41:07: [SM]   [1] Line 37, E:\DownLoading\beifen\AstMod v2.6.1\left4dead2\addons\sourcemod\scripting\vote_advance.sp::OnPluginStart
+L 09/15/2022 - 14:41:07: [SM] Unable to load plugin "vote_advance.smx": Error detected in plugin startup (see error logs)
+L 09/15/2022 - 14:41:36: Error log file session closed.
+L 09/15/2022 - 14:41:36: SourceMod error session started
+L 09/15/2022 - 14:41:36: Info (map "c2m1_highway") (file "/root/Steam/steamapps/common/Left 4 Dead 2 Dedicated Server/left4dead2/addons/sourcemod/logs/errors_20220915.log")
+L 09/15/2022 - 14:41:36: [SM] Fatal error encountered parsing translation file "cannounce.phrases.txt"
+L 09/15/2022 - 14:41:36: [SM] Error (line 0, column 0): Stream failed to open
+L 09/15/2022 - 20:19:00: [SM] Exception reported: 无法加载cfgs.txt文件!
+L 09/15/2022 - 20:19:00: [SM] Blaming: vote.smx
+L 09/15/2022 - 20:19:00: [SM] Call stack trace:
+L 09/15/2022 - 20:19:00: [SM]   [0] SetFailState
+L 09/15/2022 - 20:19:00: [SM]   [1] Line 35, E:\DownLoading\beifen\AstMod v2.6.1\left4dead2\addons\sourcemod\scripting\vote.sp::OnPluginStart
+L 09/15/2022 - 20:19:00: [SM] Unable to load plugin "vote.smx": Error detected in plugin startup (see error logs)
+L 09/15/2022 - 20:19:00: [SM] Unable to load plugin "l4d2_playtime_interface.smx": Required extension "REST in Pawn" file("rip.ext") not running
+L 09/15/2022 - 20:19:00: [SM] Unable to load plugin "Welcome.smx": Could not find required plugin "l4d2_playtime_interface"
+L 09/15/2022 - 20:19:00: [SM] Exception reported: 无法加载cfgs.txt文件!
+L 09/15/2022 - 20:19:00: [SM] Blaming: vote_advance.smx
+L 09/15/2022 - 20:19:00: [SM] Call stack trace:
+L 09/15/2022 - 20:19:00: [SM]   [0] SetFailState
+L 09/15/2022 - 20:19:00: [SM]   [1] Line 37, E:\DownLoading\beifen\AstMod v2.6.1\left4dead2\addons\sourcemod\scripting\vote_advance.sp::OnPluginStart
+L 09/15/2022 - 20:19:00: [SM] Unable to load plugin "vote_advance.smx": Error detected in plugin startup (see error logs)
+L 09/15/2022 - 20:20:29: [SM] Exception reported: Language phrase "Unknown City Desc" not found (arg 6)
+L 09/15/2022 - 20:20:29: [SM] Blaming: cannounce.smx
+L 09/15/2022 - 20:20:29: [SM] Call stack trace:
+L 09/15/2022 - 20:20:29: [SM]   [0] Format
+L 09/15/2022 - 20:20:29: [SM]   [1] Line 404, cannounce.sp::GetFormattedMessage
+L 09/15/2022 - 20:20:29: [SM]   [2] Line 274, cannounce.sp::PrintFormattedMessageToAll
+L 09/15/2022 - 20:20:29: [SM]   [3] Line 72, cannounce/countryshow.sp::OnPostAdminCheck_CountryShow
+L 09/15/2022 - 20:20:29: [SM]   [4] Line 168, cannounce.sp::OnClientPostAdminCheck
+L 09/15/2022 - 20:21:10: Error log file session closed.
+L 09/15/2022 - 20:21:10: SourceMod error session started
+L 09/15/2022 - 20:21:10: Info (map "daylighthouse") (file "/root/Steam/steamapps/common/Left 4 Dead 2 Dedicated Server/left4dead2/addons/sourcemod/logs/errors_20220915.log")
+L 09/15/2022 - 20:21:10: [SM] Fatal error encountered parsing translation file "cannounce.phrases.txt"
+L 09/15/2022 - 20:21:10: [SM] Error (line 0, column 0): Stream failed to open
+L 09/15/2022 - 20:21:19: [SM] Exception reported: Language phrase "Unknown City Desc" not found (arg 6)
+L 09/15/2022 - 20:21:19: [SM] Blaming: cannounce.smx
+L 09/15/2022 - 20:21:19: [SM] Call stack trace:
+L 09/15/2022 - 20:21:19: [SM]   [0] Format
+L 09/15/2022 - 20:21:19: [SM]   [1] Line 404, cannounce.sp::GetFormattedMessage
+L 09/15/2022 - 20:21:19: [SM]   [2] Line 274, cannounce.sp::PrintFormattedMessageToAll
+L 09/15/2022 - 20:21:19: [SM]   [3] Line 148, cannounce/countryshow.sp::event_PlayerDisc_CountryShow
+L 09/15/2022 - 20:21:19: [SM]   [4] Line 234, cannounce.sp::event_PlayerDisconnect
+L 09/15/2022 - 20:22:54: SourceMod error session started
+L 09/15/2022 - 20:22:54: Info (map "c2m1_highway") (file "/root/Steam/steamapps/common/Left 4 Dead 2 Dedicated Server/left4dead2/addons/sourcemod/logs/errors_20220915.log")
+L 09/15/2022 - 20:22:54: [SM] Unable to load extension "rip.ext": /root/Steam/steamapps/common/Left 4 Dead 2 Dedicated Server/left4dead2/addons/sourcemod/extensions/rip.ext.so: cannot open shared object file: No such file or directory
+L 09/15/2022 - 20:22:54: [SM] Exception reported: 无法加载cfgs.txt文件!
+L 09/15/2022 - 20:22:54: [SM] Blaming: vote.smx
+L 09/15/2022 - 20:22:54: [SM] Call stack trace:
+L 09/15/2022 - 20:22:54: [SM]   [0] SetFailState
+L 09/15/2022 - 20:22:54: [SM]   [1] Line 35, E:\DownLoading\beifen\AstMod v2.6.1\left4dead2\addons\sourcemod\scripting\vote.sp::OnPluginStart
+L 09/15/2022 - 20:22:54: [SM] Unable to load plugin "vote.smx": Error detected in plugin startup (see error logs)
+L 09/15/2022 - 20:22:54: [SM] Unable to load plugin "l4d2_playtime_interface.smx": Required extension "REST in Pawn" file("rip.ext") not running
+L 09/15/2022 - 20:22:54: [SM] Unable to load plugin "Welcome.smx": Could not find required plugin "l4d2_playtime_interface"
+L 09/15/2022 - 20:22:55: [SM] Exception reported: 无法加载cfgs.txt文件!
+L 09/15/2022 - 20:22:55: [SM] Blaming: vote_advance.smx
+L 09/15/2022 - 20:22:55: [SM] Call stack trace:
+L 09/15/2022 - 20:22:55: [SM]   [0] SetFailState
+L 09/15/2022 - 20:22:55: [SM]   [1] Line 37, E:\DownLoading\beifen\AstMod v2.6.1\left4dead2\addons\sourcemod\scripting\vote_advance.sp::OnPluginStart
+L 09/15/2022 - 20:22:55: [SM] Unable to load plugin "vote_advance.smx": Error detected in plugin startup (see error logs)
+L 09/15/2022 - 20:22:55: [SM] Fatal error encountered parsing translation file "cannounce.phrases.txt"
+L 09/15/2022 - 20:22:55: [SM] Error (line 0, column 0): Stream failed to open
+L 09/15/2022 - 22:53:06: Error log file session closed.
+L 09/15/2022 - 22:53:06: SourceMod error session started
+L 09/15/2022 - 22:53:06: Info (map "c2m1_highway") (file "/root/Steam/steamapps/common/Left 4 Dead 2 Dedicated Server/left4dead2/addons/sourcemod/logs/errors_20220915.log")
+L 09/15/2022 - 22:53:06: [SM] Fatal error encountered parsing translation file "cannounce.phrases.txt"
+L 09/15/2022 - 22:53:06: [SM] Error (line 0, column 0): Stream failed to open
+L 09/17/2022 - 20:43:55: Error log file session closed.

@@ -1,0 +1,40 @@
+L 09/11/2022 - 23:17:46: SourceMod error session started
+L 09/11/2022 - 23:17:46: Info (map "c2m1_highway") (file "/root/Steam/steamapps/common/Left 4 Dead 2 Dedicated Server/left4dead2/addons/sourcemod/logs/errors_20220911.log")
+L 09/11/2022 - 23:17:46: [SM] Exception reported: Language phrase "Unknown City Desc" not found (arg 6)
+L 09/11/2022 - 23:17:46: [SM] Blaming: cannounce.smx
+L 09/11/2022 - 23:17:46: [SM] Call stack trace:
+L 09/11/2022 - 23:17:46: [SM]   [0] Format
+L 09/11/2022 - 23:17:46: [SM]   [1] Line 404, cannounce.sp::GetFormattedMessage
+L 09/11/2022 - 23:17:46: [SM]   [2] Line 274, cannounce.sp::PrintFormattedMessageToAll
+L 09/11/2022 - 23:17:46: [SM]   [3] Line 72, cannounce/countryshow.sp::OnPostAdminCheck_CountryShow
+L 09/11/2022 - 23:17:46: [SM]   [4] Line 168, cannounce.sp::OnClientPostAdminCheck
+L 09/11/2022 - 23:18:56: Error log file session closed.
+L 09/11/2022 - 23:18:56: SourceMod error session started
+L 09/11/2022 - 23:18:56: Info (map "c2m1_highway") (file "/root/Steam/steamapps/common/Left 4 Dead 2 Dedicated Server/left4dead2/addons/sourcemod/logs/errors_20220911.log")
+L 09/11/2022 - 23:18:56: [SM] Fatal error encountered parsing translation file "cannounce.phrases.txt"
+L 09/11/2022 - 23:18:56: [SM] Error (line 0, column 0): Stream failed to open
+L 09/11/2022 - 23:27:47: Error log file session closed.
+L 09/11/2022 - 23:27:47: SourceMod error session started
+L 09/11/2022 - 23:27:47: Info (map "c2m2_fairgrounds") (file "/root/Steam/steamapps/common/Left 4 Dead 2 Dedicated Server/left4dead2/addons/sourcemod/logs/errors_20220911.log")
+L 09/11/2022 - 23:27:47: [SM] Fatal error encountered parsing translation file "cannounce.phrases.txt"
+L 09/11/2022 - 23:27:47: [SM] Error (line 0, column 0): Stream failed to open
+L 09/11/2022 - 23:36:59: Error log file session closed.
+L 09/11/2022 - 23:36:59: SourceMod error session started
+L 09/11/2022 - 23:36:59: Info (map "c2m3_coaster") (file "/root/Steam/steamapps/common/Left 4 Dead 2 Dedicated Server/left4dead2/addons/sourcemod/logs/errors_20220911.log")
+L 09/11/2022 - 23:36:59: [SM] Fatal error encountered parsing translation file "cannounce.phrases.txt"
+L 09/11/2022 - 23:36:59: [SM] Error (line 0, column 0): Stream failed to open
+L 09/11/2022 - 23:47:18: Error log file session closed.
+L 09/11/2022 - 23:47:18: SourceMod error session started
+L 09/11/2022 - 23:47:18: Info (map "c2m4_barns") (file "/root/Steam/steamapps/common/Left 4 Dead 2 Dedicated Server/left4dead2/addons/sourcemod/logs/errors_20220911.log")
+L 09/11/2022 - 23:47:18: [SM] Fatal error encountered parsing translation file "cannounce.phrases.txt"
+L 09/11/2022 - 23:47:18: [SM] Error (line 0, column 0): Stream failed to open
+L 09/11/2022 - 23:56:35: Error log file session closed.
+L 09/11/2022 - 23:56:35: SourceMod error session started
+L 09/11/2022 - 23:56:35: Info (map "c2m5_concert") (file "/root/Steam/steamapps/common/Left 4 Dead 2 Dedicated Server/left4dead2/addons/sourcemod/logs/errors_20220911.log")
+L 09/11/2022 - 23:56:35: [SM] Fatal error encountered parsing translation file "cannounce.phrases.txt"
+L 09/11/2022 - 23:56:35: [SM] Error (line 0, column 0): Stream failed to open
+L 09/11/2022 - 23:57:38: Error log file session closed.
+L 09/11/2022 - 23:57:38: SourceMod error session started
+L 09/11/2022 - 23:57:38: Info (map "c2m1_highway") (file "/root/Steam/steamapps/common/Left 4 Dead 2 Dedicated Server/left4dead2/addons/sourcemod/logs/errors_20220911.log")
+L 09/11/2022 - 23:57:38: [SM] Fatal error encountered parsing translation file "cannounce.phrases.txt"
+L 09/11/2022 - 23:57:38: [SM] Error (line 0, column 0): Stream failed to open

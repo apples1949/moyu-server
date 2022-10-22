@@ -1,0 +1,100 @@
+//----------FILE MODIFICATION (YY/MM/DD): [2022/08/14] ---------------||
+//----------BY: CY----------------------||
+
+"Objects_Cache"
+{
+	"object_1"
+	{
+		"solid" "6"
+		"origin" "-2087 -286 651"
+		"angles" "0 -90 0"
+		"model"	 "models/props_update/concrete_128.mdl"
+		"classname"	"prop_dynamic"
+	}
+	
+	"object_2"
+	{
+		"solid" "6"
+		"origin" "-481 478 427"
+		"angles" "0 90 0"
+		"model"	 "models/props_update/concrete_128.mdl"
+		"classname"	"prop_dynamic"
+	}
+	
+	"object_3"
+	{
+		"solid" "6"
+		"origin" "-3531 398 132"
+		"angles" "706 91 0"
+		"model"	 "models/deadbodies/dead_female_civilian_02.mdl"
+		"classname"	"prop_dynamic"
+	}
+	
+	"object_4"
+	{
+		"solid" "6"
+		"origin" "-1218 191 415"
+		"angles" "0 -180 0"
+		"model"	 "models/props_update/whitebrick_128.mdl"
+		"classname"	"prop_dynamic"
+	}
+	
+	"object_5"
+	{
+		"solid" "6"
+		"origin" "-590 -225 452"
+		"angles" "0 -50 0"
+		"model"	 "models/props_interiors/industrial_table01.mdl"
+		"classname"	"prop_dynamic"
+	}
+	
+	"object_6"
+	{
+		"solid" "6"
+		"origin" "-1566 -98 302"
+		"angles" "90 -181 0"
+		"model"	 "models/props_update/concrete_128.mdl"
+		"classname"	"prop_dynamic"
+	}
+	
+	"object_7"
+	{
+		"solid" "6"
+		"origin" "-1048 -143 576"
+		"angles" "0 90 0"
+		"model"	 "models/props_rooftop/vent_large1.mdl"
+		"classname"	"prop_dynamic"
+	}
+	
+	"object_8"
+	{
+		"solid" "6"
+		"origin" "-676 78 291"
+		"angles" "90 -91 0"
+		"model"	 "models/props_update/concrete_256.mdl"
+		"classname"	"prop_dynamic"
+	}
+	
+	"object_9"
+	{
+		"solid" "6"
+		"origin" "-3393 1246 166"
+		"angles" "6 383 -13"
+		"model"	 "models/props_waterfront/tour_bus.mdl"
+		"classname"	"prop_dynamic"
+	}
+	
+	"object_10"
+	{
+		"solid" "6"
+		"origin" "-3742 -255 384"
+		"angles" "90 179 0"
+		"model"	 "models/props_update/concrete_256.mdl"
+		"classname"	"prop_dynamic"
+	}
+	
+	"total_cache"
+	{
+		"total" "10"
+	}
+}

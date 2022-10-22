@@ -1,0 +1,325 @@
+//----------FILE MODIFICATION (YY/MM/DD): [2022/07/19] ---------------||
+//----------BY: CY----------------------||
+
+"Objects_Cache"
+{
+	"object_1"
+	{
+		"solid" "6"
+		"origin" "-6404 -9975 8215"
+		"angles" "0 89 0"
+		"model"	 "models/props_wasteland/exterior_fence002e.mdl"
+		"classname"	"prop_dynamic"
+	}
+	
+	"object_2"
+	{
+		"solid" "6"
+		"origin" "-5889 -9972 8215"
+		"angles" "0 90 0"
+		"model"	 "models/props_wasteland/exterior_fence002e.mdl"
+		"classname"	"prop_dynamic"
+	}
+	
+	"object_3"
+	{
+		"solid" "6"
+		"origin" "-6152 -10461 7947"
+		"angles" "360 268 0"
+		"model"	 "models/props_cemetery/crypts_wall.mdl"
+		"classname"	"prop_dynamic"
+	}
+	
+	"object_4"
+	{
+		"solid" "6"
+		"origin" "-5784 -10531 8352"
+		"angles" "0 -90 0"
+		"model"	 "models/props/cs_office/vending_machine.mdl"
+		"classname"	"prop_dynamic"
+	}
+	
+	"object_5"
+	{
+		"solid" "6"
+		"origin" "-5789 -10656 8352"
+		"angles" "0 -181 0"
+		"model"	 "models/props_equipment/snack_machine.mdl"
+		"classname"	"prop_dynamic"
+	}
+	
+	"object_6"
+	{
+		"solid" "6"
+		"origin" "-6747 -10980 8090"
+		"angles" "0 270 24"
+		"model"	 "models/props_swamp/plank001b_192.mdl"
+		"classname"	"prop_dynamic"
+	}
+	
+	"object_7"
+	{
+		"solid" "6"
+		"origin" "-6666 -10242 8215"
+		"angles" "0 -180 0"
+		"model"	 "models/props_wasteland/exterior_fence002e.mdl"
+		"classname"	"prop_dynamic"
+	}
+	
+	"object_8"
+	{
+		"solid" "6"
+		"origin" "-5619 -10241 8214"
+		"angles" "0 -1 0"
+		"model"	 "models/props_wasteland/exterior_fence002d.mdl"
+		"classname"	"prop_dynamic"
+	}
+	
+	"object_9"
+	{
+		"solid" "6"
+		"origin" "-6018 -11136 7982"
+		"angles" "0 -90 0"
+		"model"	 "models/props_exteriors/roadsidefence_512.mdl"
+		"classname"	"prop_dynamic"
+	}
+	
+	"object_10"
+	{
+		"solid" "6"
+		"origin" "-6402 -11020 8215"
+		"angles" "0 -90 0"
+		"model"	 "models/props_wasteland/exterior_fence002e.mdl"
+		"classname"	"prop_dynamic"
+	}
+	
+	"object_11"
+	{
+		"solid" "6"
+		"origin" "-5711 -10815 8352"
+		"angles" "0 18 0"
+		"model"	 "models/props_signs/raisedbillboard.mdl"
+		"classname"	"prop_dynamic"
+	}
+	
+	"object_12"
+	{
+		"solid" "6"
+		"origin" "-5841 -10739 7978"
+		"angles" "0 90 0"
+		"model"	 "models/props_cemetery/cemetery_column.mdl"
+		"classname"	"prop_dynamic"
+	}
+	
+	"object_13"
+	{
+		"solid" "6"
+		"origin" "-5803 -10739 7976"
+		"angles" "0 88 0"
+		"model"	 "models/props_cemetery/cemetery_column.mdl"
+		"classname"	"prop_dynamic"
+	}
+	
+	"object_14"
+	{
+		"solid" "6"
+		"origin" "-5881 -10738 7978"
+		"angles" "0 90 0"
+		"model"	 "models/props_cemetery/cemetery_column.mdl"
+		"classname"	"prop_dynamic"
+	}
+	
+	"object_15"
+	{
+		"solid" "6"
+		"origin" "-6923 -10981 8014"
+		"angles" "0 90 -23"
+		"model"	 "models/props_swamp/plank001b_192.mdl"
+		"classname"	"prop_dynamic"
+	}
+	
+	"object_16"
+	{
+		"solid" "6"
+		"origin" "-7285 -10879 7867"
+		"angles" "180 179 0"
+		"model"	 "models/props_swamp/plank001b_192.mdl"
+		"classname"	"prop_dynamic"
+	}
+	
+	"object_17"
+	{
+		"solid" "6"
+		"origin" "-7682 -10789 7776"
+		"angles" "0 449 90"
+		"model"	 "models/props_swamp/plank001b_192.mdl"
+		"classname"	"prop_dynamic"
+	}
+	
+	"object_18"
+	{
+		"solid" "6"
+		"origin" "-7451 -10981 7779"
+		"angles" "720 449 156"
+		"model"	 "models/props_swamp/plank001b_192.mdl"
+		"classname"	"prop_dynamic"
+	}
+	
+	"object_19"
+	{
+		"solid" "6"
+		"origin" "-7100 -10981 7937"
+		"angles" "0 90 -24"
+		"model"	 "models/props_swamp/plank001b_192.mdl"
+		"classname"	"prop_dynamic"
+	}
+	
+	"object_20"
+	{
+		"solid" "6"
+		"origin" "-7275 -10981 7860"
+		"angles" "360 90 -23"
+		"model"	 "models/props_swamp/plank001b_192.mdl"
+		"classname"	"prop_dynamic"
+	}
+	
+	"object_21"
+	{
+		"solid" "6"
+		"origin" "-7683 -10914 7775"
+		"angles" "0 91 90"
+		"model"	 "models/props_swamp/plank001b_192.mdl"
+		"classname"	"prop_dynamic"
+	}
+	
+	"object_22"
+	{
+		"solid" "6"
+		"origin" "-7398 -10794 7871"
+		"angles" "0 -92 0"
+		"model"	 "models/props_swamp/plank001b_192.mdl"
+		"classname"	"prop_dynamic"
+	}
+	
+	"object_23"
+	{
+		"solid" "6"
+		"origin" "-7591 -10916 7869"
+		"angles" "0 -92 0"
+		"model"	 "models/props_swamp/plank001b_192.mdl"
+		"classname"	"prop_dynamic"
+	}
+	
+	"object_24"
+	{
+		"solid" "6"
+		"origin" "-7591 -10874 7870"
+		"angles" "0 -91 0"
+		"model"	 "models/props_swamp/plank001b_192.mdl"
+		"classname"	"prop_dynamic"
+	}
+	
+	"object_25"
+	{
+		"solid" "6"
+		"origin" "-7401 -10961 7870"
+		"angles" "0 268 0"
+		"model"	 "models/props_swamp/plank001b_192.mdl"
+		"classname"	"prop_dynamic"
+	}
+	
+	"object_26"
+	{
+		"solid" "6"
+		"origin" "-7629 -10981 7706"
+		"angles" "0 89 -23"
+		"model"	 "models/props_swamp/plank001b_192.mdl"
+		"classname"	"prop_dynamic"
+	}
+	
+	"object_27"
+	{
+		"solid" "6"
+		"origin" "-7590 -10790 7871"
+		"angles" "0 268 0"
+		"model"	 "models/props_swamp/plank001b_192.mdl"
+		"classname"	"prop_dynamic"
+	}
+	
+	"object_28"
+	{
+		"solid" "6"
+		"origin" "-7590 -10833 7867"
+		"angles" "0 -91 180"
+		"model"	 "models/props_swamp/plank001b_192.mdl"
+		"classname"	"prop_dynamic"
+	}
+	
+	"object_29"
+	{
+		"solid" "6"
+		"origin" "-7592 -10956 7870"
+		"angles" "0 -92 0"
+		"model"	 "models/props_swamp/plank001b_192.mdl"
+		"classname"	"prop_dynamic"
+	}
+	
+	"object_30"
+	{
+		"solid" "6"
+		"origin" "-7682 -10872 7775"
+		"angles" "0 88 90"
+		"model"	 "models/props_swamp/plank001b_192.mdl"
+		"classname"	"prop_dynamic"
+	}
+	
+	"object_31"
+	{
+		"solid" "6"
+		"origin" "-7682 -10831 7775"
+		"angles" "180 89 90"
+		"model"	 "models/props_swamp/plank001b_192.mdl"
+		"classname"	"prop_dynamic"
+	}
+	
+	"object_32"
+	{
+		"solid" "6"
+		"origin" "-7400 -10877 7870"
+		"angles" "0 -91 0"
+		"model"	 "models/props_swamp/plank001b_192.mdl"
+		"classname"	"prop_dynamic"
+	}
+	
+	"object_33"
+	{
+		"solid" "6"
+		"origin" "-7400 -10836 7871"
+		"angles" "0 629 0"
+		"model"	 "models/props_swamp/plank001b_192.mdl"
+		"classname"	"prop_dynamic"
+	}
+	
+	"object_34"
+	{
+		"solid" "6"
+		"origin" "-7400 -10919 7870"
+		"angles" "0 269 0"
+		"model"	 "models/props_swamp/plank001b_192.mdl"
+		"classname"	"prop_dynamic"
+	}
+	
+	"object_35"
+	{
+		"solid" "6"
+		"origin" "-7683 -10955 7776"
+		"angles" "0 89 90"
+		"model"	 "models/props_swamp/plank001b_192.mdl"
+		"classname"	"prop_dynamic"
+	}
+	
+	"total_cache"
+	{
+		"total" "35"
+	}
+}

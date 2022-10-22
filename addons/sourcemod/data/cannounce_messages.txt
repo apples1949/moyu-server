@@ -1,0 +1,11 @@
+"CustomJoinMessages"
+{
+	"STEAM_1:0:246466989"
+	{
+		"playerwasnamed"		"down the drain"
+	}
+	"bot"
+	{
+		"playerwasnamed"		"Coach"
+	}
+}
