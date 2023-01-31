@@ -1,13 +1,19 @@
 # moyu servers.
-为实现多开并节省空间使用了多Sourcemod的方法，但cfg和脚本部分可能会影响每个sm上运行的服务器.                                   
+为实现多开并节省空间使用了多Sourcemod的方法                                 
 在addons中：                                                   
 sourcemod1:#1 moyu server >> 标准Zonemod服务器，添加了其他很多插件和模式                                  
 sourcemod2:#2 moyu server >> 电信Anne服插件.                                 
 sourcemod3:#3 moyu server >> 暂定                                             
-                                                    
-插件来源链接:                         
+                     
+这三个sm共享同一个addons(意味着三方图也是共享的)和cfg文件夹内以及其他的内容，为区分不同的cvar和相同的cvar不一样的值以及不同的服务器需要加载的插件，分写了多个cfg在里头                                     
+                     
+# 插件来源链接:                         
+https://github.com/SirPlease/L4D2-Competitive-Rework - Zonemod主框架                                          
+https://github.com/A1oneR/scAvogl - Air编写的清道夫插件，使用其中部分插件替换了Scavogl Rework的部分插件                                              
+https://github.com/A1oneR/AirMod - 添加了Air制作过或者在维护的模式                          
+https://github.com/fantasylidong/CompetitiveWithAnne - 电信云服Anne插件                     
+https://github.com/JoinedSenses/TF2-ServerHop - 用于游戏内查看其他服务器                          
+https://github.com/lechuga16/scavogl_rework - Zonemod但是是清道夫                               
 
-
-
-
-
+# To Do-                                   
+也许不会to do也许会，我懒想摸鱼  
