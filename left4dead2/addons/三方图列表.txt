@@ -52,7 +52,7 @@
 
 "切换至致命货运站 Fatal Freight Fix"
 
-"切换至生还之锋 Front of Survivors 1.8(仅限战役)"
+"切换至生还之锋 Front of Survivors v130"
 
 "切换至再见了晨茗 Farewell ChenMing(仅限战役)"
 
