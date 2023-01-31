@@ -1,0 +1,43 @@
+/*
+	******************************************************************************************************************************************************
+
+	You can display phrases in chat with color using any of the methods below:
+
+	Using color codes:
+		•  // Default (use instead of \x01), Alt + 01 Keyboard Shortcut
+		•  // Light Green (use instead of \x03), Alt + 03 Keyboard Shortcut
+		•  // Orange (use instead of \x04), Alt + 04 Keyboard Shortcut
+		•  // Olive (use instead of \x05), Alt + 05 Keyboard Shortcut
+
+	or
+
+	Using color tags:
+		• {default} // Default (use instead of \x01)
+		• {lightgreen} // Light Green (use instead of \x03)
+		• {orange} // Orange (use instead of \x04)
+		• {olive} // Green (use instead of \x05)
+
+	******************************************************************************************************************************************************
+*/
+
+"Phrases"
+{
+	"Press Key"
+	{
+		"#format"		"{1:s}"
+		"en"			"{olive}Press {orange}{1} {olive}to {orange}command {olive}common zombies attack at your crosshair"
+                "chi"			"{olive}按 {orange}{1} {olive}来 {orange}指挥 {olive}小丧尸攻击你所指的方向" 
+		"es"			"{olive}Presiona {orange}{1} {olive}para {orange}ordenar {olive}el ataque de zombies comunes en tu punto de mira"
+		"pt"			"{olive}Pressione {orange}{1} {olive}para {orange}comandar {olive}os zumbis a atacarem onde mira"
+		"pt_p"			"{olive}Pressione {orange}{1} {olive}para {orange}comandar {olive}os zumbis a atacarem onde mira"
+	}
+
+	"Skill Ready"
+	{
+		"en"			"{olive}Your {orange}command skill{olive} is {lightgreen}ready"
+                "chi"			"{olive}你的 {orange}指挥技能{olive} 已经 {lightgreen}准备完毕"
+		"es"			"{olive}Tu {orange}habilidad para mandar{olive} está {lightgreen}lista"
+		"pt"			"{olive}Sua {orange}habilidade de comandar{olive} esta {lightgreen}pronta"
+		"pt_p"			"{olive}Sua {orange}habilidade de comandar{olive} esta {lightgreen}pronta"
+	}
+}

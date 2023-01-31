@@ -1,0 +1,661 @@
+L 11/01/2022 - 12:43:34: SourceMod error session started
+L 11/01/2022 - 12:43:34: Info (map "c8m5_rooftop") (file "/root/Steam/steamapps/common/Left 4 Dead 2 Dedicated Server/left4dead2/addons/sourcemod/logs/errors_20221101.log")
+L 11/01/2022 - 12:43:34: [SM] Unable to load extension "rip.ext": /root/Steam/steamapps/common/Left 4 Dead 2 Dedicated Server/left4dead2/addons/sourcemod/extensions/rip.ext.so: cannot open shared object file: No such file or directory
+L 11/01/2022 - 12:43:34: [SM] Fatal error encountered parsing translation file "cannounce.phrases.txt"
+L 11/01/2022 - 12:43:34: [SM] Error (line 0, column 0): Stream failed to open
+L 11/01/2022 - 12:43:34: [SM] Unable to load plugin "l4d2_playtime_interface.smx": Required extension "REST in Pawn" file("rip.ext") not running
+L 11/01/2022 - 12:44:00: [SM] Exception reported: Language phrase "CA Admin" not found (arg 6)
+L 11/01/2022 - 12:44:00: [SM] Blaming: cannounce.smx
+L 11/01/2022 - 12:44:00: [SM] Call stack trace:
+L 11/01/2022 - 12:44:00: [SM]   [0] Format
+L 11/01/2022 - 12:44:00: [SM]   [1] Line 490, cannounce.sp::GetFormattedMessage
+L 11/01/2022 - 12:44:00: [SM]   [2] Line 274, cannounce.sp::PrintFormattedMessageToAll
+L 11/01/2022 - 12:44:00: [SM]   [3] Line 72, cannounce/countryshow.sp::OnPostAdminCheck_CountryShow
+L 11/01/2022 - 12:44:00: [SM]   [4] Line 168, cannounce.sp::OnClientPostAdminCheck
+L 11/01/2022 - 12:44:26: Error log file session closed.
+L 11/01/2022 - 12:44:26: SourceMod error session started
+L 11/01/2022 - 12:44:26: Info (map "c8m5_rooftop") (file "/root/Steam/steamapps/common/Left 4 Dead 2 Dedicated Server/left4dead2/addons/sourcemod/logs/errors_20221101.log")
+L 11/01/2022 - 12:44:26: [SM] Fatal error encountered parsing translation file "cannounce.phrases.txt"
+L 11/01/2022 - 12:44:26: [SM] Error (line 0, column 0): Stream failed to open
+L 11/01/2022 - 12:50:51: SourceMod error session started
+L 11/01/2022 - 12:50:51: Info (map "c8m5_rooftop") (file "/root/Steam/steamapps/common/Left 4 Dead 2 Dedicated Server/left4dead2/addons/sourcemod/logs/errors_20221101.log")
+L 11/01/2022 - 12:50:51: [SM] Unable to load extension "rip.ext": /root/Steam/steamapps/common/Left 4 Dead 2 Dedicated Server/left4dead2/addons/sourcemod/extensions/rip.ext.so: cannot open shared object file: No such file or directory
+L 11/01/2022 - 12:50:51: [SM] Fatal error encountered parsing translation file "cannounce.phrases.txt"
+L 11/01/2022 - 12:50:51: [SM] Error (line 0, column 0): Stream failed to open
+L 11/01/2022 - 12:50:51: [SM] Unable to load plugin "l4d2_playtime_interface.smx": Required extension "REST in Pawn" file("rip.ext") not running
+L 11/01/2022 - 13:25:39: SourceMod error session started
+L 11/01/2022 - 13:25:39: Info (map "c8m5_rooftop") (file "/root/Steam/steamapps/common/Left 4 Dead 2 Dedicated Server/left4dead2/addons/sourcemod/logs/errors_20221101.log")
+L 11/01/2022 - 13:25:39: [SM] Unable to load extension "rip.ext": /root/Steam/steamapps/common/Left 4 Dead 2 Dedicated Server/left4dead2/addons/sourcemod/extensions/rip.ext.so: cannot open shared object file: No such file or directory
+L 11/01/2022 - 13:25:39: [SM] Fatal error encountered parsing translation file "cannounce.phrases.txt"
+L 11/01/2022 - 13:25:39: [SM] Error (line 0, column 0): Stream failed to open
+L 11/01/2022 - 13:25:40: [SM] Unable to load plugin "l4d2_playtime_interface.smx": Required extension "REST in Pawn" file("rip.ext") not running
+L 11/01/2022 - 13:26:03: [SM] Exception reported: Language phrase "CA Admin" not found (arg 6)
+L 11/01/2022 - 13:26:03: [SM] Blaming: cannounce.smx
+L 11/01/2022 - 13:26:03: [SM] Call stack trace:
+L 11/01/2022 - 13:26:03: [SM]   [0] Format
+L 11/01/2022 - 13:26:03: [SM]   [1] Line 490, cannounce.sp::GetFormattedMessage
+L 11/01/2022 - 13:26:03: [SM]   [2] Line 274, cannounce.sp::PrintFormattedMessageToAll
+L 11/01/2022 - 13:26:03: [SM]   [3] Line 72, cannounce/countryshow.sp::OnPostAdminCheck_CountryShow
+L 11/01/2022 - 13:26:03: [SM]   [4] Line 168, cannounce.sp::OnClientPostAdminCheck
+L 11/01/2022 - 13:26:58: Error log file session closed.
+L 11/01/2022 - 13:26:58: SourceMod error session started
+L 11/01/2022 - 13:26:58: Info (map "c2m2_fairgrounds") (file "/root/Steam/steamapps/common/Left 4 Dead 2 Dedicated Server/left4dead2/addons/sourcemod/logs/errors_20221101.log")
+L 11/01/2022 - 13:26:58: [SM] Fatal error encountered parsing translation file "cannounce.phrases.txt"
+L 11/01/2022 - 13:26:58: [SM] Error (line 0, column 0): Stream failed to open
+L 11/01/2022 - 13:27:07: [SM] Exception reported: Language phrase "CA Admin" not found (arg 6)
+L 11/01/2022 - 13:27:07: [SM] Blaming: cannounce.smx
+L 11/01/2022 - 13:27:07: [SM] Call stack trace:
+L 11/01/2022 - 13:27:07: [SM]   [0] Format
+L 11/01/2022 - 13:27:07: [SM]   [1] Line 490, cannounce.sp::GetFormattedMessage
+L 11/01/2022 - 13:27:07: [SM]   [2] Line 274, cannounce.sp::PrintFormattedMessageToAll
+L 11/01/2022 - 13:27:07: [SM]   [3] Line 72, cannounce/countryshow.sp::OnPostAdminCheck_CountryShow
+L 11/01/2022 - 13:27:07: [SM]   [4] Line 168, cannounce.sp::OnClientPostAdminCheck
+L 11/01/2022 - 13:27:33: [confoglcompmod.smx] [Configs] Could not execute server config "addons/sourcemod/../../cfg/confogl_plugins.cfg", file not found
+L 11/01/2022 - 13:28:02: SourceMod error session started
+L 11/01/2022 - 13:28:02: Info (map "c8m5_rooftop") (file "/root/Steam/steamapps/common/Left 4 Dead 2 Dedicated Server/left4dead2/addons/sourcemod/logs/errors_20221101.log")
+L 11/01/2022 - 13:28:02: [SM] Unable to load extension "rip.ext": /root/Steam/steamapps/common/Left 4 Dead 2 Dedicated Server/left4dead2/addons/sourcemod/extensions/rip.ext.so: cannot open shared object file: No such file or directory
+L 11/01/2022 - 13:28:02: [SM] Fatal error encountered parsing translation file "cannounce.phrases.txt"
+L 11/01/2022 - 13:28:02: [SM] Error (line 0, column 0): Stream failed to open
+L 11/01/2022 - 13:28:02: [SM] Unable to load plugin "l4d2_playtime_interface.smx": Required extension "REST in Pawn" file("rip.ext") not running
+L 11/01/2022 - 13:28:27: [SM] Exception reported: Language phrase "CA Admin" not found (arg 6)
+L 11/01/2022 - 13:28:27: [SM] Blaming: cannounce.smx
+L 11/01/2022 - 13:28:27: [SM] Call stack trace:
+L 11/01/2022 - 13:28:27: [SM]   [0] Format
+L 11/01/2022 - 13:28:27: [SM]   [1] Line 490, cannounce.sp::GetFormattedMessage
+L 11/01/2022 - 13:28:27: [SM]   [2] Line 274, cannounce.sp::PrintFormattedMessageToAll
+L 11/01/2022 - 13:28:27: [SM]   [3] Line 72, cannounce/countryshow.sp::OnPostAdminCheck_CountryShow
+L 11/01/2022 - 13:28:27: [SM]   [4] Line 168, cannounce.sp::OnClientPostAdminCheck
+L 11/01/2022 - 13:28:42: [confoglcompmod.smx] [Confogl] CvarSettings: Could not find CVar specified (confogl_ghost_warp)
+L 11/01/2022 - 13:28:42: [confoglcompmod.smx] [Confogl] CvarSettings: Could not find CVar specified (longer_tank_punch_getup)
+L 11/01/2022 - 13:28:42: [confoglcompmod.smx] [Confogl] CvarSettings: Could not find CVar specified (l4d_equalise_alarm_cars)
+L 11/01/2022 - 13:28:45: Error log file session closed.
+L 11/01/2022 - 13:28:45: SourceMod error session started
+L 11/01/2022 - 13:28:45: Info (map "c8m5_rooftop") (file "/root/Steam/steamapps/common/Left 4 Dead 2 Dedicated Server/left4dead2/addons/sourcemod/logs/errors_20221101.log")
+L 11/01/2022 - 13:28:45: [SM] Fatal error encountered parsing translation file "cannounce.phrases.txt"
+L 11/01/2022 - 13:28:45: [SM] Error (line 0, column 0): Stream failed to open
+L 11/01/2022 - 13:31:50: Error log file session closed.
+L 11/01/2022 - 13:31:50: SourceMod error session started
+L 11/01/2022 - 13:31:50: Info (map "c2m1_highway") (file "/root/Steam/steamapps/common/Left 4 Dead 2 Dedicated Server/left4dead2/addons/sourcemod/logs/errors_20221101.log")
+L 11/01/2022 - 13:31:50: [SM] Fatal error encountered parsing translation file "cannounce.phrases.txt"
+L 11/01/2022 - 13:31:50: [SM] Error (line 0, column 0): Stream failed to open
+L 11/01/2022 - 13:49:27: [SM] Unable to load plugin "l4d2_playtime_interface.smx": Required extension "REST in Pawn" file("rip.ext") not running
+L 11/01/2022 - 13:49:37: [confoglcompmod.smx] [Confogl] CvarSettings: Could not find CVar specified (confogl_ghost_warp)
+L 11/01/2022 - 13:49:37: [confoglcompmod.smx] [Confogl] CvarSettings: Could not find CVar specified (longer_tank_punch_getup)
+L 11/01/2022 - 13:49:37: [confoglcompmod.smx] [Confogl] CvarSettings: Could not find CVar specified (l4d_equalise_alarm_cars)
+L 11/01/2022 - 13:49:40: Error log file session closed.
+L 11/01/2022 - 13:49:40: SourceMod error session started
+L 11/01/2022 - 13:49:40: Info (map "c2m1_highway") (file "/root/Steam/steamapps/common/Left 4 Dead 2 Dedicated Server/left4dead2/addons/sourcemod/logs/errors_20221101.log")
+L 11/01/2022 - 13:49:40: [SM] Fatal error encountered parsing translation file "cannounce.phrases.txt"
+L 11/01/2022 - 13:49:40: [SM] Error (line 0, column 0): Stream failed to open
+L 11/01/2022 - 13:57:09: [SM] Unable to load plugin "l4d2_playtime_interface.smx": Required extension "REST in Pawn" file("rip.ext") not running
+L 11/01/2022 - 13:57:25: [confoglcompmod.smx] [Confogl] CvarSettings: Could not find CVar specified (confogl_ghost_warp)
+L 11/01/2022 - 13:57:25: [confoglcompmod.smx] [Confogl] CvarSettings: Could not find CVar specified (longer_tank_punch_getup)
+L 11/01/2022 - 13:57:25: [confoglcompmod.smx] [Confogl] CvarSettings: Could not find CVar specified (l4d_equalise_alarm_cars)
+L 11/01/2022 - 13:57:28: Error log file session closed.
+L 11/01/2022 - 13:57:28: SourceMod error session started
+L 11/01/2022 - 13:57:28: Info (map "c2m1_highway") (file "/root/Steam/steamapps/common/Left 4 Dead 2 Dedicated Server/left4dead2/addons/sourcemod/logs/errors_20221101.log")
+L 11/01/2022 - 13:57:28: [SM] Fatal error encountered parsing translation file "cannounce.phrases.txt"
+L 11/01/2022 - 13:57:28: [SM] Error (line 0, column 0): Stream failed to open
+L 11/01/2022 - 14:09:09: Error log file session closed.
+L 11/01/2022 - 14:09:09: SourceMod error session started
+L 11/01/2022 - 14:09:09: Info (map "c8m5_rooftop") (file "/root/Steam/steamapps/common/Left 4 Dead 2 Dedicated Server/left4dead2/addons/sourcemod/logs/errors_20221101.log")
+L 11/01/2022 - 14:09:09: [SM] Fatal error encountered parsing translation file "cannounce.phrases.txt"
+L 11/01/2022 - 14:09:09: [SM] Error (line 0, column 0): Stream failed to open
+L 11/01/2022 - 14:22:28: [SM] Unable to load plugin "l4d2_playtime_interface.smx": Required extension "REST in Pawn" file("rip.ext") not running
+L 11/01/2022 - 14:22:38: [confoglcompmod.smx] [Confogl] CvarSettings: Could not find CVar specified (confogl_ghost_warp)
+L 11/01/2022 - 14:22:38: [confoglcompmod.smx] [Confogl] CvarSettings: Could not find CVar specified (longer_tank_punch_getup)
+L 11/01/2022 - 14:22:38: [confoglcompmod.smx] [Confogl] CvarSettings: Could not find CVar specified (l4d_equalise_alarm_cars)
+L 11/01/2022 - 14:22:41: Error log file session closed.
+L 11/01/2022 - 14:22:41: SourceMod error session started
+L 11/01/2022 - 14:22:41: Info (map "c8m5_rooftop") (file "/root/Steam/steamapps/common/Left 4 Dead 2 Dedicated Server/left4dead2/addons/sourcemod/logs/errors_20221101.log")
+L 11/01/2022 - 14:22:41: [SM] Fatal error encountered parsing translation file "cannounce.phrases.txt"
+L 11/01/2022 - 14:22:41: [SM] Error (line 0, column 0): Stream failed to open
+L 11/01/2022 - 14:25:29: SourceMod error session started
+L 11/01/2022 - 14:25:29: Info (map "c8m5_rooftop") (file "/root/Steam/steamapps/common/Left 4 Dead 2 Dedicated Server/left4dead2/addons/sourcemod/logs/errors_20221101.log")
+L 11/01/2022 - 14:25:29: [SM] Unable to load extension "rip.ext": /root/Steam/steamapps/common/Left 4 Dead 2 Dedicated Server/left4dead2/addons/sourcemod/extensions/rip.ext.so: cannot open shared object file: No such file or directory
+L 11/01/2022 - 14:25:29: [SM] Fatal error encountered parsing translation file "cannounce.phrases.txt"
+L 11/01/2022 - 14:25:29: [SM] Error (line 0, column 0): Stream failed to open
+L 11/01/2022 - 14:25:30: [SM] Unable to load plugin "l4d2_playtime_interface.smx": Required extension "REST in Pawn" file("rip.ext") not running
+L 11/01/2022 - 15:59:29: SourceMod error session started
+L 11/01/2022 - 15:59:29: Info (map "c8m5_rooftop") (file "/root/Steam/steamapps/common/Left 4 Dead 2 Dedicated Server/left4dead2/addons/sourcemod/logs/errors_20221101.log")
+L 11/01/2022 - 15:59:29: [SM] Unable to load extension "rip.ext": /root/Steam/steamapps/common/Left 4 Dead 2 Dedicated Server/left4dead2/addons/sourcemod/extensions/rip.ext.so: cannot open shared object file: No such file or directory
+L 11/01/2022 - 15:59:29: [SM] Fatal error encountered parsing translation file "cannounce.phrases.txt"
+L 11/01/2022 - 15:59:29: [SM] Error (line 0, column 0): Stream failed to open
+L 11/01/2022 - 15:59:29: [SM] Unable to load plugin "l4d2_playtime_interface.smx": Required extension "REST in Pawn" file("rip.ext") not running
+L 11/01/2022 - 16:00:02: [SM] Exception reported: Language phrase "CA Admin" not found (arg 6)
+L 11/01/2022 - 16:00:02: [SM] Blaming: cannounce.smx
+L 11/01/2022 - 16:00:02: [SM] Call stack trace:
+L 11/01/2022 - 16:00:02: [SM]   [0] Format
+L 11/01/2022 - 16:00:02: [SM]   [1] Line 490, cannounce.sp::GetFormattedMessage
+L 11/01/2022 - 16:00:02: [SM]   [2] Line 274, cannounce.sp::PrintFormattedMessageToAll
+L 11/01/2022 - 16:00:02: [SM]   [3] Line 72, cannounce/countryshow.sp::OnPostAdminCheck_CountryShow
+L 11/01/2022 - 16:00:02: [SM]   [4] Line 168, cannounce.sp::OnClientPostAdminCheck
+L 11/01/2022 - 16:00:28: Error log file session closed.
+L 11/01/2022 - 16:00:28: SourceMod error session started
+L 11/01/2022 - 16:00:28: Info (map "c2m1_highway") (file "/root/Steam/steamapps/common/Left 4 Dead 2 Dedicated Server/left4dead2/addons/sourcemod/logs/errors_20221101.log")
+L 11/01/2022 - 16:00:28: [SM] Fatal error encountered parsing translation file "cannounce.phrases.txt"
+L 11/01/2022 - 16:00:28: [SM] Error (line 0, column 0): Stream failed to open
+L 11/01/2022 - 16:00:38: [SM] Exception reported: Language phrase "CA Admin" not found (arg 6)
+L 11/01/2022 - 16:00:38: [SM] Blaming: cannounce.smx
+L 11/01/2022 - 16:00:38: [SM] Call stack trace:
+L 11/01/2022 - 16:00:38: [SM]   [0] Format
+L 11/01/2022 - 16:00:38: [SM]   [1] Line 490, cannounce.sp::GetFormattedMessage
+L 11/01/2022 - 16:00:38: [SM]   [2] Line 274, cannounce.sp::PrintFormattedMessageToAll
+L 11/01/2022 - 16:00:38: [SM]   [3] Line 72, cannounce/countryshow.sp::OnPostAdminCheck_CountryShow
+L 11/01/2022 - 16:00:38: [SM]   [4] Line 168, cannounce.sp::OnClientPostAdminCheck
+L 11/01/2022 - 16:01:54: SourceMod error session started
+L 11/01/2022 - 16:01:54: Info (map "c8m5_rooftop") (file "/root/Steam/steamapps/common/Left 4 Dead 2 Dedicated Server/left4dead2/addons/sourcemod/logs/errors_20221101.log")
+L 11/01/2022 - 16:01:54: [SM] Unable to load extension "rip.ext": /root/Steam/steamapps/common/Left 4 Dead 2 Dedicated Server/left4dead2/addons/sourcemod/extensions/rip.ext.so: cannot open shared object file: No such file or directory
+L 11/01/2022 - 16:01:54: [SM] Fatal error encountered parsing translation file "cannounce.phrases.txt"
+L 11/01/2022 - 16:01:54: [SM] Error (line 0, column 0): Stream failed to open
+L 11/01/2022 - 16:01:55: [SM] Unable to load plugin "l4d2_playtime_interface.smx": Required extension "REST in Pawn" file("rip.ext") not running
+L 11/01/2022 - 16:11:45: [SM] Exception reported: Language phrase "CA Admin" not found (arg 6)
+L 11/01/2022 - 16:11:45: [SM] Blaming: cannounce.smx
+L 11/01/2022 - 16:11:45: [SM] Call stack trace:
+L 11/01/2022 - 16:11:45: [SM]   [0] Format
+L 11/01/2022 - 16:11:45: [SM]   [1] Line 490, cannounce.sp::GetFormattedMessage
+L 11/01/2022 - 16:11:45: [SM]   [2] Line 274, cannounce.sp::PrintFormattedMessageToAll
+L 11/01/2022 - 16:11:45: [SM]   [3] Line 72, cannounce/countryshow.sp::OnPostAdminCheck_CountryShow
+L 11/01/2022 - 16:11:45: [SM]   [4] Line 168, cannounce.sp::OnClientPostAdminCheck
+L 11/01/2022 - 16:13:01: [confoglcompmod.smx] [Confogl] CvarSettings: Could not find CVar specified (confogl_ghost_warp)
+L 11/01/2022 - 16:13:01: [confoglcompmod.smx] [Confogl] CvarSettings: Could not find CVar specified (longer_tank_punch_getup)
+L 11/01/2022 - 16:13:01: [confoglcompmod.smx] [Confogl] CvarSettings: Could not find CVar specified (l4d_equalise_alarm_cars)
+L 11/01/2022 - 16:13:04: Error log file session closed.
+L 11/01/2022 - 16:13:04: SourceMod error session started
+L 11/01/2022 - 16:13:04: Info (map "c8m5_rooftop") (file "/root/Steam/steamapps/common/Left 4 Dead 2 Dedicated Server/left4dead2/addons/sourcemod/logs/errors_20221101.log")
+L 11/01/2022 - 16:13:04: [SM] Fatal error encountered parsing translation file "cannounce.phrases.txt"
+L 11/01/2022 - 16:13:04: [SM] Error (line 0, column 0): Stream failed to open
+L 11/01/2022 - 16:13:21: [SM] Unable to load plugin "l4d2_playtime_interface.smx": Required extension "REST in Pawn" file("rip.ext") not running
+L 11/01/2022 - 16:14:02: Error log file session closed.
+L 11/01/2022 - 16:14:02: SourceMod error session started
+L 11/01/2022 - 16:14:02: Info (map "c2m1_highway") (file "/root/Steam/steamapps/common/Left 4 Dead 2 Dedicated Server/left4dead2/addons/sourcemod/logs/errors_20221101.log")
+L 11/01/2022 - 16:14:02: [SM] Fatal error encountered parsing translation file "cannounce.phrases.txt"
+L 11/01/2022 - 16:14:02: [SM] Error (line 0, column 0): Stream failed to open
+L 11/01/2022 - 16:14:02: [SM] Unable to load plugin "l4d2_playtime_interface.smx": Required extension "REST in Pawn" file("rip.ext") not running
+L 11/01/2022 - 16:14:05: [confoglcompmod.smx] [Confogl] CvarSettings: Could not find CVar specified (confogl_ghost_warp)
+L 11/01/2022 - 16:14:05: [confoglcompmod.smx] [Confogl] CvarSettings: Could not find CVar specified (longer_tank_punch_getup)
+L 11/01/2022 - 16:14:05: [confoglcompmod.smx] [Confogl] CvarSettings: Could not find CVar specified (l4d_equalise_alarm_cars)
+L 11/01/2022 - 16:14:08: Error log file session closed.
+L 11/01/2022 - 16:14:08: SourceMod error session started
+L 11/01/2022 - 16:14:08: Info (map "c2m1_highway") (file "/root/Steam/steamapps/common/Left 4 Dead 2 Dedicated Server/left4dead2/addons/sourcemod/logs/errors_20221101.log")
+L 11/01/2022 - 16:14:08: [SM] Fatal error encountered parsing translation file "cannounce.phrases.txt"
+L 11/01/2022 - 16:14:08: [SM] Error (line 0, column 0): Stream failed to open
+L 11/01/2022 - 16:15:22: SourceMod error session started
+L 11/01/2022 - 16:15:22: Info (map "c8m5_rooftop") (file "/root/Steam/steamapps/common/Left 4 Dead 2 Dedicated Server/left4dead2/addons/sourcemod/logs/errors_20221101.log")
+L 11/01/2022 - 16:15:22: [SM] Fatal error encountered parsing translation file "cannounce.phrases.txt"
+L 11/01/2022 - 16:15:22: [SM] Error (line 0, column 0): Stream failed to open
+L 11/01/2022 - 16:22:28: [SM] Exception reported: Language phrase "CA Admin" not found (arg 6)
+L 11/01/2022 - 16:22:28: [SM] Blaming: cannounce.smx
+L 11/01/2022 - 16:22:28: [SM] Call stack trace:
+L 11/01/2022 - 16:22:28: [SM]   [0] Format
+L 11/01/2022 - 16:22:28: [SM]   [1] Line 490, cannounce.sp::GetFormattedMessage
+L 11/01/2022 - 16:22:28: [SM]   [2] Line 274, cannounce.sp::PrintFormattedMessageToAll
+L 11/01/2022 - 16:22:28: [SM]   [3] Line 72, cannounce/countryshow.sp::OnPostAdminCheck_CountryShow
+L 11/01/2022 - 16:22:28: [SM]   [4] Line 168, cannounce.sp::OnClientPostAdminCheck
+L 11/01/2022 - 16:22:41: Error log file session closed.
+L 11/01/2022 - 16:22:41: SourceMod error session started
+L 11/01/2022 - 16:22:41: Info (map "c2m1_highway") (file "/root/Steam/steamapps/common/Left 4 Dead 2 Dedicated Server/left4dead2/addons/sourcemod/logs/errors_20221101.log")
+L 11/01/2022 - 16:22:41: [SM] Fatal error encountered parsing translation file "cannounce.phrases.txt"
+L 11/01/2022 - 16:22:41: [SM] Error (line 0, column 0): Stream failed to open
+L 11/01/2022 - 16:22:52: [SM] Exception reported: Language phrase "CA Admin" not found (arg 6)
+L 11/01/2022 - 16:22:52: [SM] Blaming: cannounce.smx
+L 11/01/2022 - 16:22:52: [SM] Call stack trace:
+L 11/01/2022 - 16:22:52: [SM]   [0] Format
+L 11/01/2022 - 16:22:52: [SM]   [1] Line 490, cannounce.sp::GetFormattedMessage
+L 11/01/2022 - 16:22:52: [SM]   [2] Line 274, cannounce.sp::PrintFormattedMessageToAll
+L 11/01/2022 - 16:22:52: [SM]   [3] Line 72, cannounce/countryshow.sp::OnPostAdminCheck_CountryShow
+L 11/01/2022 - 16:22:52: [SM]   [4] Line 168, cannounce.sp::OnClientPostAdminCheck
+L 11/01/2022 - 16:26:52: Error log file session closed.
+L 11/01/2022 - 16:26:52: SourceMod error session started
+L 11/01/2022 - 16:26:52: Info (map "c2m1_highway") (file "/root/Steam/steamapps/common/Left 4 Dead 2 Dedicated Server/left4dead2/addons/sourcemod/logs/errors_20221101.log")
+L 11/01/2022 - 16:26:52: [SM] Fatal error encountered parsing translation file "cannounce.phrases.txt"
+L 11/01/2022 - 16:26:52: [SM] Error (line 0, column 0): Stream failed to open
+L 11/01/2022 - 16:26:53: [confoglcompmod.smx] [Confogl] CvarSettings: Could not find CVar specified (l4d_ready_survivor_freeze)
+L 11/01/2022 - 16:26:53: [confoglcompmod.smx] [Confogl] CvarSettings: Could not find CVar specified (l4d_ready_delay)
+L 11/01/2022 - 16:26:53: [confoglcompmod.smx] [Confogl] CvarSettings: Could not find CVar specified (l4d_ready_enable_sound)
+L 11/01/2022 - 16:26:53: [confoglcompmod.smx] [Confogl] CvarSettings: Could not find CVar specified (l4d_ready_chuckle)
+L 11/01/2022 - 16:26:53: [confoglcompmod.smx] [Confogl] CvarSettings: Could not find CVar specified (l4d_ready_live_sound)
+L 11/01/2022 - 16:26:53: [confoglcompmod.smx] [Confogl] CvarSettings: Could not find CVar specified (coinflip_delay)
+L 11/01/2022 - 16:26:53: [confoglcompmod.smx] [Confogl] CvarSettings: Could not find CVar specified (teamflip_delay)
+L 11/01/2022 - 16:26:53: [confoglcompmod.smx] [Confogl] CvarSettings: Could not find CVar specified (confogl_ghost_warp)
+L 11/01/2022 - 16:26:53: [confoglcompmod.smx] [Confogl] CvarSettings: Could not find CVar specified (tankcontrol_print_all)
+L 11/01/2022 - 16:26:53: [confoglcompmod.smx] [Confogl] CvarSettings: Could not find CVar specified (cssladders_enabled)
+L 11/01/2022 - 16:26:53: [confoglcompmod.smx] [Confogl] CvarSettings: Could not find CVar specified (cssladders_allow_m2)
+L 11/01/2022 - 16:26:53: [confoglcompmod.smx] [Confogl] CvarSettings: Could not find CVar specified (cssladders_allow_reload)
+L 11/01/2022 - 16:26:53: [confoglcompmod.smx] [Confogl] CvarSettings: Could not find CVar specified (cssladders_allow_shotgun_reload)
+L 11/01/2022 - 16:26:53: [confoglcompmod.smx] [Confogl] CvarSettings: Could not find CVar specified (cssladders_allow_switch)
+L 11/01/2022 - 16:26:53: [confoglcompmod.smx] [Confogl] CvarSettings: Could not find CVar specified (engine_fix_flags)
+L 11/01/2022 - 16:26:53: [confoglcompmod.smx] [Confogl] CvarSettings: Could not find CVar specified (crc_global)
+L 11/01/2022 - 16:26:53: [confoglcompmod.smx] [Confogl] CvarSettings: Could not find CVar specified (infected_fire_immunity)
+L 11/01/2022 - 16:26:53: [confoglcompmod.smx] [Confogl] CvarSettings: Could not find CVar specified (bot_kick_delay)
+L 11/01/2022 - 16:26:53: [confoglcompmod.smx] [Confogl] CvarSettings: Could not find CVar specified (sm_safeitemkill_saferooms)
+L 11/01/2022 - 16:26:53: [confoglcompmod.smx] [Confogl] CvarSettings: Could not find CVar specified (sm_safeitemkill_items)
+L 11/01/2022 - 16:26:53: [confoglcompmod.smx] [Confogl] CvarSettings: Could not find CVar specified (l4d_obey_boss_spawn_cvars)
+L 11/01/2022 - 16:26:53: [confoglcompmod.smx] [Confogl] CvarSettings: Could not find CVar specified (l4d_obey_boss_spawn_except_static)
+L 11/01/2022 - 16:26:53: [confoglcompmod.smx] [Confogl] CvarSettings: Could not find CVar specified (l4d_no_bash_kills)
+L 11/01/2022 - 16:26:53: [confoglcompmod.smx] [Confogl] CvarSettings: Could not find CVar specified (longer_tank_punch_getup)
+L 11/01/2022 - 16:26:53: [confoglcompmod.smx] [Confogl] CvarSettings: Could not find CVar specified (l4d_equalise_alarm_cars)
+L 11/01/2022 - 16:26:53: [confoglcompmod.smx] [Confogl] CvarSettings: Could not find CVar specified (z_leap_interval_post_ledge_hang)
+L 11/01/2022 - 16:26:53: [confoglcompmod.smx] [Confogl] CvarSettings: Could not find CVar specified (l4d2_slowdown_gunfire_si)
+L 11/01/2022 - 16:26:53: [confoglcompmod.smx] [Confogl] CvarSettings: Could not find CVar specified (l4d2_slowdown_gunfire_tank)
+L 11/01/2022 - 16:26:53: [confoglcompmod.smx] [Confogl] CvarSettings: Could not find CVar specified (l4d2_slowdown_water_tank)
+L 11/01/2022 - 16:26:53: [confoglcompmod.smx] [Confogl] CvarSettings: Could not find CVar specified (l4d2_slowdown_water_survivors)
+L 11/01/2022 - 16:26:53: [confoglcompmod.smx] [Confogl] CvarSettings: Could not find CVar specified (l4d2_slowdown_water_survivors_during_tank)
+L 11/01/2022 - 16:26:53: [confoglcompmod.smx] [Confogl] CvarSettings: Could not find CVar specified (l4d2_slowdown_crouch_speed_mod)
+L 11/01/2022 - 16:26:53: [confoglcompmod.smx] [Confogl] CvarSettings: Could not find CVar specified (l4d_tankdamage_enabled)
+L 11/01/2022 - 16:26:53: [confoglcompmod.smx] [Confogl] CvarSettings: Could not find CVar specified (l4d_tank_painfade)
+L 11/01/2022 - 16:26:53: [confoglcompmod.smx] [Confogl] CvarSettings: Could not find CVar specified (l4d_tank_painfade_duration)
+L 11/01/2022 - 16:26:53: [confoglcompmod.smx] [Confogl] CvarSettings: Could not find CVar specified (l4d_tank_painfade_flags)
+L 11/01/2022 - 16:26:53: [confoglcompmod.smx] [Confogl] CvarSettings: Could not find CVar specified (vs_tank_pound_damage)
+L 11/01/2022 - 16:26:53: [confoglcompmod.smx] [Confogl] CvarSettings: Could not find CVar specified (vs_tank_rock_damage)
+L 11/01/2022 - 16:26:53: [confoglcompmod.smx] [Confogl] CvarSettings: Could not find CVar specified (pickup_switch_flags)
+L 11/01/2022 - 16:26:53: [confoglcompmod.smx] [Confogl] CvarSettings: Could not find CVar specified (pickup_incap_flags)
+L 11/01/2022 - 16:26:53: [confoglcompmod.smx] [Confogl] CvarSettings: Could not find CVar specified (gfc_hittable_override)
+L 11/01/2022 - 16:26:53: [confoglcompmod.smx] [Confogl] CvarSettings: Could not find CVar specified (gfc_hittable_rage_override)
+L 11/01/2022 - 16:26:53: [confoglcompmod.smx] [Confogl] CvarSettings: Could not find CVar specified (gfc_rock_override)
+L 11/01/2022 - 16:26:53: [confoglcompmod.smx] [Confogl] CvarSettings: Could not find CVar specified (gfc_rock_rage_override)
+L 11/01/2022 - 16:26:53: [confoglcompmod.smx] [Confogl] CvarSettings: Could not find CVar specified (gfc_spit_extra_time)
+L 11/01/2022 - 16:26:53: [confoglcompmod.smx] [Confogl] CvarSettings: Could not find CVar specified (gfc_common_extra_time)
+L 11/01/2022 - 16:26:53: [confoglcompmod.smx] [Confogl] CvarSettings: Could not find CVar specified (gfc_hunter_duration)
+L 11/01/2022 - 16:26:53: [confoglcompmod.smx] [Confogl] CvarSettings: Could not find CVar specified (gfc_jockey_duration)
+L 11/01/2022 - 16:26:53: [confoglcompmod.smx] [Confogl] CvarSettings: Could not find CVar specified (gfc_smoker_duration)
+L 11/01/2022 - 16:26:53: [confoglcompmod.smx] [Confogl] CvarSettings: Could not find CVar specified (gfc_charger_duration)
+L 11/01/2022 - 16:26:53: [confoglcompmod.smx] [Confogl] CvarSettings: Could not find CVar specified (gfc_common_zc_flags)
+L 11/01/2022 - 16:26:53: [confoglcompmod.smx] [Confogl] CvarSettings: Could not find CVar specified (gfc_spit_zc_flags)
+L 11/01/2022 - 16:26:53: [confoglcompmod.smx] [Confogl] CvarSettings: Could not find CVar specified (gfc_godframe_glows)
+L 11/01/2022 - 16:26:53: [confoglcompmod.smx] [Confogl] CvarSettings: Could not find CVar specified (gfc_ff_min_time)
+L 11/01/2022 - 16:26:53: [confoglcompmod.smx] [Confogl] CvarSettings: Could not find CVar specified (l4d_pills_hot)
+L 11/01/2022 - 16:26:53: [confoglcompmod.smx] [Confogl] CvarSettings: Could not find CVar specified (l4d_pills_hot_interval)
+L 11/01/2022 - 16:26:53: [confoglcompmod.smx] [Confogl] CvarSettings: Could not find CVar specified (l4d_pills_hot_increment)
+L 11/01/2022 - 16:26:53: [confoglcompmod.smx] [Confogl] CvarSettings: Could not find CVar specified (l4d_pills_hot_total)
+L 11/01/2022 - 16:26:53: [confoglcompmod.smx] [Confogl] CvarSettings: Could not find CVar specified (l4d2_m2_hunter_penalty)
+L 11/01/2022 - 16:26:53: [confoglcompmod.smx] [Confogl] CvarSettings: Could not find CVar specified (l4d2_m2_jockey_penalty)
+L 11/01/2022 - 16:26:53: [confoglcompmod.smx] [Confogl] CvarSettings: Could not find CVar specified (l4d2_m2_smoker_penalty)
+L 11/01/2022 - 16:26:53: [confoglcompmod.smx] [Confogl] CvarSettings: Could not find CVar specified (l4d2_dominators)
+L 11/01/2022 - 16:26:53: [confoglcompmod.smx] [Confogl] CvarSettings: Could not find CVar specified (l4d2_spit_dmg)
+L 11/01/2022 - 16:26:53: [confoglcompmod.smx] [Confogl] CvarSettings: Could not find CVar specified (l4d2_spit_max_ticks)
+L 11/01/2022 - 16:26:53: [confoglcompmod.smx] [Confogl] CvarSettings: Could not find CVar specified (l4d2_spit_godframe_ticks)
+L 11/01/2022 - 16:26:53: [confoglcompmod.smx] [Confogl] CvarSettings: Could not find CVar specified (hc_gauntlet_finale_multiplier)
+L 11/01/2022 - 16:26:53: [confoglcompmod.smx] [Confogl] CvarSettings: Could not find CVar specified (hc_broken_forklift_standing_damage)
+L 11/01/2022 - 16:26:53: [confoglcompmod.smx] [Confogl] CvarSettings: Could not find CVar specified (hc_sflog_standing_damage)
+L 11/01/2022 - 16:26:53: [confoglcompmod.smx] [Confogl] CvarSettings: Could not find CVar specified (hc_bhlog_standing_damage)
+L 11/01/2022 - 16:26:53: [confoglcompmod.smx] [Confogl] CvarSettings: Could not find CVar specified (hc_handtruck_standing_damage)
+L 11/01/2022 - 16:26:53: [confoglcompmod.smx] [Confogl] CvarSettings: Could not find CVar specified (hc_car_standing_damage)
+L 11/01/2022 - 16:26:53: [confoglcompmod.smx] [Confogl] CvarSettings: Could not find CVar specified (hc_bumpercar_standing_damage)
+L 11/01/2022 - 16:26:53: [confoglcompmod.smx] [Confogl] CvarSettings: Could not find CVar specified (hc_forklift_standing_damage)
+L 11/01/2022 - 16:26:53: [confoglcompmod.smx] [Confogl] CvarSettings: Could not find CVar specified (hc_dumpster_standing_damage)
+L 11/01/2022 - 16:26:53: [confoglcompmod.smx] [Confogl] CvarSettings: Could not find CVar specified (hc_haybale_standing_damage)
+L 11/01/2022 - 16:26:53: [confoglcompmod.smx] [Confogl] CvarSettings: Could not find CVar specified (hc_baggage_standing_damage)
+L 11/01/2022 - 16:26:53: [confoglcompmod.smx] [Confogl] CvarSettings: Could not find CVar specified (hc_generator_trailer_standing_damage)
+L 11/01/2022 - 16:26:53: [confoglcompmod.smx] [Confogl] CvarSettings: Could not find CVar specified (hc_militia_rock_standing_damage)
+L 11/01/2022 - 16:26:53: [confoglcompmod.smx] [Confogl] CvarSettings: Could not find CVar specified (hc_sofa_chair_standing_damage)
+L 11/01/2022 - 16:26:53: [confoglcompmod.smx] [Confogl] CvarSettings: Could not find CVar specified (hc_atlas_ball_standing_damage)
+L 11/01/2022 - 16:26:53: [confoglcompmod.smx] [Confogl] CvarSettings: Could not find CVar specified (hc_ibeam_standing_damage)
+L 11/01/2022 - 16:26:53: [confoglcompmod.smx] [Confogl] CvarSettings: Could not find CVar specified (hc_diescraper_ball_standing_damage)
+L 11/01/2022 - 16:26:53: [confoglcompmod.smx] [Confogl] CvarSettings: Could not find CVar specified (hc_van_standing_damage)
+L 11/01/2022 - 16:26:53: [confoglcompmod.smx] [Confogl] CvarSettings: Could not find CVar specified (hc_incap_standard_damage)
+L 11/01/2022 - 16:26:53: [confoglcompmod.smx] [Confogl] CvarSettings: Could not find CVar specified (hc_disable_self_damage)
+L 11/01/2022 - 16:26:53: [confoglcompmod.smx] [Confogl] CvarSettings: Could not find CVar specified (hc_overhit_time)
+L 11/01/2022 - 16:26:53: [confoglcompmod.smx] [Confogl] CvarSettings: Could not find CVar specified (hc_unbreakable_forklifts)
+L 11/01/2022 - 16:26:53: [confoglcompmod.smx] [Confogl] CvarSettings: Could not find CVar specified (l4d2_disable_si_friendly_staggers)
+L 11/01/2022 - 16:26:53: [confoglcompmod.smx] [Confogl] CvarSettings: Could not find CVar specified (l4d2_block_infected_ff)
+L 11/01/2022 - 16:26:53: [confoglcompmod.smx] [Confogl] CvarSettings: Could not find CVar specified (l4d2_infected_ff_allow_tank)
+L 11/01/2022 - 16:26:53: [confoglcompmod.smx] [Confogl] CvarSettings: Could not find CVar specified (l4d2_reload_speed_uzi)
+L 11/01/2022 - 16:26:53: [confoglcompmod.smx] [Confogl] CvarSettings: Could not find CVar specified (l4d2_reload_speed_silenced_smg)
+L 11/01/2022 - 16:26:53: [confoglcompmod.smx] [Confogl] CvarSettings: Could not find CVar specified (l4d2_undoff_enable)
+L 11/01/2022 - 16:26:53: [confoglcompmod.smx] [Confogl] CvarSettings: Could not find CVar specified (l4d2_undoff_blockzerodmg)
+L 11/01/2022 - 16:26:53: [confoglcompmod.smx] [Confogl] CvarSettings: Could not find CVar specified (l4d2_undoff_permdmgfrac)
+L 11/01/2022 - 16:26:53: [confoglcompmod.smx] [Confogl] CvarSettings: Could not find CVar specified (sm_unsilentjockey_interval)
+L 11/01/2022 - 16:26:53: [confoglcompmod.smx] [Confogl] CvarSettings: Could not find CVar specified (collision_tankrock_common)
+L 11/01/2022 - 16:26:53: [confoglcompmod.smx] [Confogl] CvarSettings: Could not find CVar specified (collision_smoker_common)
+L 11/01/2022 - 16:26:53: [confoglcompmod.smx] [Confogl] CvarSettings: Could not find CVar specified (collision_tankrock_incap)
+L 11/01/2022 - 16:26:53: [confoglcompmod.smx] [Confogl] CvarSettings: Could not find CVar specified (sm_punchstuckfix_unstucktime)
+L 11/01/2022 - 16:26:53: [confoglcompmod.smx] [Confogl] CvarSettings: Could not find CVar specified (tpsf_debug_print)
+L 11/01/2022 - 16:26:53: [confoglcompmod.smx] [Confogl] CvarSettings: Could not find CVar specified (l4d2_shotgun_ff_multi)
+L 11/01/2022 - 16:26:53: [confoglcompmod.smx] [Confogl] CvarSettings: Could not find CVar specified (l4d2_shotgun_ff_min)
+L 11/01/2022 - 16:26:53: [confoglcompmod.smx] [Confogl] CvarSettings: Could not find CVar specified (l4d2_shotgun_ff_max)
+L 11/01/2022 - 16:26:53: [confoglcompmod.smx] [Confogl] CvarSettings: Could not find CVar specified (sm_uncinfblock_enabled)
+L 11/01/2022 - 16:26:53: [confoglcompmod.smx] [Confogl] CvarSettings: Could not find CVar specified (sm_uncinfblock_flags)
+L 11/01/2022 - 16:26:53: [confoglcompmod.smx] [Confogl] CvarSettings: Could not find CVar specified (sm_allowed_lerp_changes)
+L 11/01/2022 - 16:26:53: [confoglcompmod.smx] [Confogl] CvarSettings: Could not find CVar specified (sm_lerp_change_spec)
+L 11/01/2022 - 16:26:53: [confoglcompmod.smx] [Confogl] CvarSettings: Could not find CVar specified (sm_readyup_lerp_changes)
+L 11/01/2022 - 16:26:53: [confoglcompmod.smx] [Confogl] CvarSettings: Could not find CVar specified (sm_min_lerp)
+L 11/01/2022 - 16:26:53: [confoglcompmod.smx] [Confogl] CvarSettings: Could not find CVar specified (sm_max_lerp)
+L 11/01/2022 - 16:26:53: [confoglcompmod.smx] [Confogl] CvarSettings: Could not find CVar specified (sm_cfgmotd_title)
+L 11/01/2022 - 16:26:53: [confoglcompmod.smx] [Confogl] CvarSettings: Could not find CVar specified (sm_cfgmotd_url)
+L 11/01/2022 - 16:26:53: [confoglcompmod.smx] [Confogl] CvarSettings: Could not find CVar specified (ai_tank_bhop)
+L 11/01/2022 - 16:26:53: [confoglcompmod.smx] [Confogl] CvarSettings: Could not find CVar specified (ai_tank_rock)
+L 11/01/2022 - 16:26:53: [confoglcompmod.smx] [Confogl] CvarSettings: Could not find CVar specified (sgspread_ring1_bullets)
+L 11/01/2022 - 16:26:53: [confoglcompmod.smx] [Confogl] CvarSettings: Could not find CVar specified (sgspread_ring1_factor)
+L 11/01/2022 - 16:26:53: [confoglcompmod.smx] [Confogl] CvarSettings: Could not find CVar specified (sgspread_center_pellet)
+L 11/01/2022 - 16:27:05: [SM] Exception reported: Language phrase "CA Admin" not found (arg 6)
+L 11/01/2022 - 16:27:05: [SM] Blaming: cannounce.smx
+L 11/01/2022 - 16:27:05: [SM] Call stack trace:
+L 11/01/2022 - 16:27:05: [SM]   [0] Format
+L 11/01/2022 - 16:27:05: [SM]   [1] Line 490, cannounce.sp::GetFormattedMessage
+L 11/01/2022 - 16:27:05: [SM]   [2] Line 274, cannounce.sp::PrintFormattedMessageToAll
+L 11/01/2022 - 16:27:05: [SM]   [3] Line 72, cannounce/countryshow.sp::OnPostAdminCheck_CountryShow
+L 11/01/2022 - 16:27:05: [SM]   [4] Line 168, cannounce.sp::OnClientPostAdminCheck
+L 11/01/2022 - 16:27:36: Error log file session closed.
+L 11/01/2022 - 16:27:36: SourceMod error session started
+L 11/01/2022 - 16:27:36: Info (map "c2m1_highway") (file "/root/Steam/steamapps/common/Left 4 Dead 2 Dedicated Server/left4dead2/addons/sourcemod/logs/errors_20221101.log")
+L 11/01/2022 - 16:27:36: [SM] Fatal error encountered parsing translation file "cannounce.phrases.txt"
+L 11/01/2022 - 16:27:36: [SM] Error (line 0, column 0): Stream failed to open
+L 11/01/2022 - 16:27:37: [confoglcompmod.smx] [Confogl] CvarSettings: Could not find CVar specified (l4d_ready_survivor_freeze)
+L 11/01/2022 - 16:27:37: [confoglcompmod.smx] [Confogl] CvarSettings: Could not find CVar specified (l4d_ready_delay)
+L 11/01/2022 - 16:27:37: [confoglcompmod.smx] [Confogl] CvarSettings: Could not find CVar specified (l4d_ready_enable_sound)
+L 11/01/2022 - 16:27:37: [confoglcompmod.smx] [Confogl] CvarSettings: Could not find CVar specified (l4d_ready_chuckle)
+L 11/01/2022 - 16:27:37: [confoglcompmod.smx] [Confogl] CvarSettings: Could not find CVar specified (l4d_ready_live_sound)
+L 11/01/2022 - 16:27:37: [confoglcompmod.smx] [Confogl] CvarSettings: Could not find CVar specified (coinflip_delay)
+L 11/01/2022 - 16:27:37: [confoglcompmod.smx] [Confogl] CvarSettings: Could not find CVar specified (teamflip_delay)
+L 11/01/2022 - 16:27:37: [confoglcompmod.smx] [Confogl] CvarSettings: Could not find CVar specified (confogl_ghost_warp)
+L 11/01/2022 - 16:27:37: [confoglcompmod.smx] [Confogl] CvarSettings: Could not find CVar specified (tankcontrol_print_all)
+L 11/01/2022 - 16:27:37: [confoglcompmod.smx] [Confogl] CvarSettings: Could not find CVar specified (cssladders_enabled)
+L 11/01/2022 - 16:27:37: [confoglcompmod.smx] [Confogl] CvarSettings: Could not find CVar specified (cssladders_allow_m2)
+L 11/01/2022 - 16:27:37: [confoglcompmod.smx] [Confogl] CvarSettings: Could not find CVar specified (cssladders_allow_reload)
+L 11/01/2022 - 16:27:37: [confoglcompmod.smx] [Confogl] CvarSettings: Could not find CVar specified (cssladders_allow_shotgun_reload)
+L 11/01/2022 - 16:27:37: [confoglcompmod.smx] [Confogl] CvarSettings: Could not find CVar specified (cssladders_allow_switch)
+L 11/01/2022 - 16:27:37: [confoglcompmod.smx] [Confogl] CvarSettings: Could not find CVar specified (engine_fix_flags)
+L 11/01/2022 - 16:27:37: [confoglcompmod.smx] [Confogl] CvarSettings: Could not find CVar specified (crc_global)
+L 11/01/2022 - 16:27:37: [confoglcompmod.smx] [Confogl] CvarSettings: Could not find CVar specified (infected_fire_immunity)
+L 11/01/2022 - 16:27:37: [confoglcompmod.smx] [Confogl] CvarSettings: Could not find CVar specified (bot_kick_delay)
+L 11/01/2022 - 16:27:37: [confoglcompmod.smx] [Confogl] CvarSettings: Could not find CVar specified (sm_safeitemkill_saferooms)
+L 11/01/2022 - 16:27:37: [confoglcompmod.smx] [Confogl] CvarSettings: Could not find CVar specified (sm_safeitemkill_items)
+L 11/01/2022 - 16:27:37: [confoglcompmod.smx] [Confogl] CvarSettings: Could not find CVar specified (l4d_obey_boss_spawn_cvars)
+L 11/01/2022 - 16:27:37: [confoglcompmod.smx] [Confogl] CvarSettings: Could not find CVar specified (l4d_obey_boss_spawn_except_static)
+L 11/01/2022 - 16:27:37: [confoglcompmod.smx] [Confogl] CvarSettings: Could not find CVar specified (l4d_no_bash_kills)
+L 11/01/2022 - 16:27:37: [confoglcompmod.smx] [Confogl] CvarSettings: Could not find CVar specified (longer_tank_punch_getup)
+L 11/01/2022 - 16:27:37: [confoglcompmod.smx] [Confogl] CvarSettings: Could not find CVar specified (l4d_equalise_alarm_cars)
+L 11/01/2022 - 16:27:37: [confoglcompmod.smx] [Confogl] CvarSettings: Could not find CVar specified (z_leap_interval_post_ledge_hang)
+L 11/01/2022 - 16:27:37: [confoglcompmod.smx] [Confogl] CvarSettings: Could not find CVar specified (l4d2_slowdown_gunfire_si)
+L 11/01/2022 - 16:27:37: [confoglcompmod.smx] [Confogl] CvarSettings: Could not find CVar specified (l4d2_slowdown_gunfire_tank)
+L 11/01/2022 - 16:27:37: [confoglcompmod.smx] [Confogl] CvarSettings: Could not find CVar specified (l4d2_slowdown_water_tank)
+L 11/01/2022 - 16:27:37: [confoglcompmod.smx] [Confogl] CvarSettings: Could not find CVar specified (l4d2_slowdown_water_survivors)
+L 11/01/2022 - 16:27:37: [confoglcompmod.smx] [Confogl] CvarSettings: Could not find CVar specified (l4d2_slowdown_water_survivors_during_tank)
+L 11/01/2022 - 16:27:37: [confoglcompmod.smx] [Confogl] CvarSettings: Could not find CVar specified (l4d2_slowdown_crouch_speed_mod)
+L 11/01/2022 - 16:27:37: [confoglcompmod.smx] [Confogl] CvarSettings: Could not find CVar specified (l4d_tankdamage_enabled)
+L 11/01/2022 - 16:27:37: [confoglcompmod.smx] [Confogl] CvarSettings: Could not find CVar specified (l4d_tank_painfade)
+L 11/01/2022 - 16:27:37: [confoglcompmod.smx] [Confogl] CvarSettings: Could not find CVar specified (l4d_tank_painfade_duration)
+L 11/01/2022 - 16:27:37: [confoglcompmod.smx] [Confogl] CvarSettings: Could not find CVar specified (l4d_tank_painfade_flags)
+L 11/01/2022 - 16:27:37: [confoglcompmod.smx] [Confogl] CvarSettings: Could not find CVar specified (vs_tank_pound_damage)
+L 11/01/2022 - 16:27:37: [confoglcompmod.smx] [Confogl] CvarSettings: Could not find CVar specified (vs_tank_rock_damage)
+L 11/01/2022 - 16:27:37: [confoglcompmod.smx] [Confogl] CvarSettings: Could not find CVar specified (pickup_switch_flags)
+L 11/01/2022 - 16:27:37: [confoglcompmod.smx] [Confogl] CvarSettings: Could not find CVar specified (pickup_incap_flags)
+L 11/01/2022 - 16:27:37: [confoglcompmod.smx] [Confogl] CvarSettings: Could not find CVar specified (gfc_hittable_override)
+L 11/01/2022 - 16:27:37: [confoglcompmod.smx] [Confogl] CvarSettings: Could not find CVar specified (gfc_hittable_rage_override)
+L 11/01/2022 - 16:27:37: [confoglcompmod.smx] [Confogl] CvarSettings: Could not find CVar specified (gfc_rock_override)
+L 11/01/2022 - 16:27:37: [confoglcompmod.smx] [Confogl] CvarSettings: Could not find CVar specified (gfc_rock_rage_override)
+L 11/01/2022 - 16:27:37: [confoglcompmod.smx] [Confogl] CvarSettings: Could not find CVar specified (gfc_spit_extra_time)
+L 11/01/2022 - 16:27:37: [confoglcompmod.smx] [Confogl] CvarSettings: Could not find CVar specified (gfc_common_extra_time)
+L 11/01/2022 - 16:27:37: [confoglcompmod.smx] [Confogl] CvarSettings: Could not find CVar specified (gfc_hunter_duration)
+L 11/01/2022 - 16:27:37: [confoglcompmod.smx] [Confogl] CvarSettings: Could not find CVar specified (gfc_jockey_duration)
+L 11/01/2022 - 16:27:37: [confoglcompmod.smx] [Confogl] CvarSettings: Could not find CVar specified (gfc_smoker_duration)
+L 11/01/2022 - 16:27:37: [confoglcompmod.smx] [Confogl] CvarSettings: Could not find CVar specified (gfc_charger_duration)
+L 11/01/2022 - 16:27:37: [confoglcompmod.smx] [Confogl] CvarSettings: Could not find CVar specified (gfc_common_zc_flags)
+L 11/01/2022 - 16:27:37: [confoglcompmod.smx] [Confogl] CvarSettings: Could not find CVar specified (gfc_spit_zc_flags)
+L 11/01/2022 - 16:27:37: [confoglcompmod.smx] [Confogl] CvarSettings: Could not find CVar specified (gfc_godframe_glows)
+L 11/01/2022 - 16:27:37: [confoglcompmod.smx] [Confogl] CvarSettings: Could not find CVar specified (gfc_ff_min_time)
+L 11/01/2022 - 16:27:37: [confoglcompmod.smx] [Confogl] CvarSettings: Could not find CVar specified (l4d_pills_hot)
+L 11/01/2022 - 16:27:37: [confoglcompmod.smx] [Confogl] CvarSettings: Could not find CVar specified (l4d_pills_hot_interval)
+L 11/01/2022 - 16:27:37: [confoglcompmod.smx] [Confogl] CvarSettings: Could not find CVar specified (l4d_pills_hot_increment)
+L 11/01/2022 - 16:27:37: [confoglcompmod.smx] [Confogl] CvarSettings: Could not find CVar specified (l4d_pills_hot_total)
+L 11/01/2022 - 16:27:37: [confoglcompmod.smx] [Confogl] CvarSettings: Could not find CVar specified (l4d2_m2_hunter_penalty)
+L 11/01/2022 - 16:27:37: [confoglcompmod.smx] [Confogl] CvarSettings: Could not find CVar specified (l4d2_m2_jockey_penalty)
+L 11/01/2022 - 16:27:37: [confoglcompmod.smx] [Confogl] CvarSettings: Could not find CVar specified (l4d2_m2_smoker_penalty)
+L 11/01/2022 - 16:27:37: [confoglcompmod.smx] [Confogl] CvarSettings: Could not find CVar specified (l4d2_dominators)
+L 11/01/2022 - 16:27:37: [confoglcompmod.smx] [Confogl] CvarSettings: Could not find CVar specified (l4d2_spit_dmg)
+L 11/01/2022 - 16:27:37: [confoglcompmod.smx] [Confogl] CvarSettings: Could not find CVar specified (l4d2_spit_max_ticks)
+L 11/01/2022 - 16:27:37: [confoglcompmod.smx] [Confogl] CvarSettings: Could not find CVar specified (l4d2_spit_godframe_ticks)
+L 11/01/2022 - 16:27:37: [confoglcompmod.smx] [Confogl] CvarSettings: Could not find CVar specified (hc_gauntlet_finale_multiplier)
+L 11/01/2022 - 16:27:37: [confoglcompmod.smx] [Confogl] CvarSettings: Could not find CVar specified (hc_broken_forklift_standing_damage)
+L 11/01/2022 - 16:27:37: [confoglcompmod.smx] [Confogl] CvarSettings: Could not find CVar specified (hc_sflog_standing_damage)
+L 11/01/2022 - 16:27:37: [confoglcompmod.smx] [Confogl] CvarSettings: Could not find CVar specified (hc_bhlog_standing_damage)
+L 11/01/2022 - 16:27:37: [confoglcompmod.smx] [Confogl] CvarSettings: Could not find CVar specified (hc_handtruck_standing_damage)
+L 11/01/2022 - 16:27:37: [confoglcompmod.smx] [Confogl] CvarSettings: Could not find CVar specified (hc_car_standing_damage)
+L 11/01/2022 - 16:27:37: [confoglcompmod.smx] [Confogl] CvarSettings: Could not find CVar specified (hc_bumpercar_standing_damage)
+L 11/01/2022 - 16:27:37: [confoglcompmod.smx] [Confogl] CvarSettings: Could not find CVar specified (hc_forklift_standing_damage)
+L 11/01/2022 - 16:27:37: [confoglcompmod.smx] [Confogl] CvarSettings: Could not find CVar specified (hc_dumpster_standing_damage)
+L 11/01/2022 - 16:27:37: [confoglcompmod.smx] [Confogl] CvarSettings: Could not find CVar specified (hc_haybale_standing_damage)
+L 11/01/2022 - 16:27:37: [confoglcompmod.smx] [Confogl] CvarSettings: Could not find CVar specified (hc_baggage_standing_damage)
+L 11/01/2022 - 16:27:37: [confoglcompmod.smx] [Confogl] CvarSettings: Could not find CVar specified (hc_generator_trailer_standing_damage)
+L 11/01/2022 - 16:27:37: [confoglcompmod.smx] [Confogl] CvarSettings: Could not find CVar specified (hc_militia_rock_standing_damage)
+L 11/01/2022 - 16:27:37: [confoglcompmod.smx] [Confogl] CvarSettings: Could not find CVar specified (hc_sofa_chair_standing_damage)
+L 11/01/2022 - 16:27:37: [confoglcompmod.smx] [Confogl] CvarSettings: Could not find CVar specified (hc_atlas_ball_standing_damage)
+L 11/01/2022 - 16:27:37: [confoglcompmod.smx] [Confogl] CvarSettings: Could not find CVar specified (hc_ibeam_standing_damage)
+L 11/01/2022 - 16:27:37: [confoglcompmod.smx] [Confogl] CvarSettings: Could not find CVar specified (hc_diescraper_ball_standing_damage)
+L 11/01/2022 - 16:27:37: [confoglcompmod.smx] [Confogl] CvarSettings: Could not find CVar specified (hc_van_standing_damage)
+L 11/01/2022 - 16:27:37: [confoglcompmod.smx] [Confogl] CvarSettings: Could not find CVar specified (hc_incap_standard_damage)
+L 11/01/2022 - 16:27:37: [confoglcompmod.smx] [Confogl] CvarSettings: Could not find CVar specified (hc_disable_self_damage)
+L 11/01/2022 - 16:27:37: [confoglcompmod.smx] [Confogl] CvarSettings: Could not find CVar specified (hc_overhit_time)
+L 11/01/2022 - 16:27:37: [confoglcompmod.smx] [Confogl] CvarSettings: Could not find CVar specified (hc_unbreakable_forklifts)
+L 11/01/2022 - 16:27:37: [confoglcompmod.smx] [Confogl] CvarSettings: Could not find CVar specified (l4d2_disable_si_friendly_staggers)
+L 11/01/2022 - 16:27:37: [confoglcompmod.smx] [Confogl] CvarSettings: Could not find CVar specified (l4d2_block_infected_ff)
+L 11/01/2022 - 16:27:37: [confoglcompmod.smx] [Confogl] CvarSettings: Could not find CVar specified (l4d2_infected_ff_allow_tank)
+L 11/01/2022 - 16:27:37: [confoglcompmod.smx] [Confogl] CvarSettings: Could not find CVar specified (l4d2_reload_speed_uzi)
+L 11/01/2022 - 16:27:37: [confoglcompmod.smx] [Confogl] CvarSettings: Could not find CVar specified (l4d2_reload_speed_silenced_smg)
+L 11/01/2022 - 16:27:37: [confoglcompmod.smx] [Confogl] CvarSettings: Could not find CVar specified (l4d2_undoff_enable)
+L 11/01/2022 - 16:27:37: [confoglcompmod.smx] [Confogl] CvarSettings: Could not find CVar specified (l4d2_undoff_blockzerodmg)
+L 11/01/2022 - 16:27:37: [confoglcompmod.smx] [Confogl] CvarSettings: Could not find CVar specified (l4d2_undoff_permdmgfrac)
+L 11/01/2022 - 16:27:37: [confoglcompmod.smx] [Confogl] CvarSettings: Could not find CVar specified (sm_unsilentjockey_interval)
+L 11/01/2022 - 16:27:37: [confoglcompmod.smx] [Confogl] CvarSettings: Could not find CVar specified (collision_tankrock_common)
+L 11/01/2022 - 16:27:37: [confoglcompmod.smx] [Confogl] CvarSettings: Could not find CVar specified (collision_smoker_common)
+L 11/01/2022 - 16:27:37: [confoglcompmod.smx] [Confogl] CvarSettings: Could not find CVar specified (collision_tankrock_incap)
+L 11/01/2022 - 16:27:37: [confoglcompmod.smx] [Confogl] CvarSettings: Could not find CVar specified (sm_punchstuckfix_unstucktime)
+L 11/01/2022 - 16:27:37: [confoglcompmod.smx] [Confogl] CvarSettings: Could not find CVar specified (tpsf_debug_print)
+L 11/01/2022 - 16:27:37: [confoglcompmod.smx] [Confogl] CvarSettings: Could not find CVar specified (l4d2_shotgun_ff_multi)
+L 11/01/2022 - 16:27:37: [confoglcompmod.smx] [Confogl] CvarSettings: Could not find CVar specified (l4d2_shotgun_ff_min)
+L 11/01/2022 - 16:27:37: [confoglcompmod.smx] [Confogl] CvarSettings: Could not find CVar specified (l4d2_shotgun_ff_max)
+L 11/01/2022 - 16:27:37: [confoglcompmod.smx] [Confogl] CvarSettings: Could not find CVar specified (sm_uncinfblock_enabled)
+L 11/01/2022 - 16:27:37: [confoglcompmod.smx] [Confogl] CvarSettings: Could not find CVar specified (sm_uncinfblock_flags)
+L 11/01/2022 - 16:27:37: [confoglcompmod.smx] [Confogl] CvarSettings: Could not find CVar specified (sm_allowed_lerp_changes)
+L 11/01/2022 - 16:27:37: [confoglcompmod.smx] [Confogl] CvarSettings: Could not find CVar specified (sm_lerp_change_spec)
+L 11/01/2022 - 16:27:37: [confoglcompmod.smx] [Confogl] CvarSettings: Could not find CVar specified (sm_readyup_lerp_changes)
+L 11/01/2022 - 16:27:37: [confoglcompmod.smx] [Confogl] CvarSettings: Could not find CVar specified (sm_min_lerp)
+L 11/01/2022 - 16:27:37: [confoglcompmod.smx] [Confogl] CvarSettings: Could not find CVar specified (sm_max_lerp)
+L 11/01/2022 - 16:27:37: [confoglcompmod.smx] [Confogl] CvarSettings: Could not find CVar specified (sm_cfgmotd_title)
+L 11/01/2022 - 16:27:37: [confoglcompmod.smx] [Confogl] CvarSettings: Could not find CVar specified (sm_cfgmotd_url)
+L 11/01/2022 - 16:27:37: [confoglcompmod.smx] [Confogl] CvarSettings: Could not find CVar specified (ai_tank_bhop)
+L 11/01/2022 - 16:27:37: [confoglcompmod.smx] [Confogl] CvarSettings: Could not find CVar specified (ai_tank_rock)
+L 11/01/2022 - 16:27:37: [confoglcompmod.smx] [Confogl] CvarSettings: Could not find CVar specified (sgspread_ring1_bullets)
+L 11/01/2022 - 16:27:37: [confoglcompmod.smx] [Confogl] CvarSettings: Could not find CVar specified (sgspread_ring1_factor)
+L 11/01/2022 - 16:27:37: [confoglcompmod.smx] [Confogl] CvarSettings: Could not find CVar specified (sgspread_center_pellet)
+L 11/01/2022 - 16:27:48: [SM] Exception reported: Language phrase "CA Admin" not found (arg 6)
+L 11/01/2022 - 16:27:48: [SM] Blaming: cannounce.smx
+L 11/01/2022 - 16:27:48: [SM] Call stack trace:
+L 11/01/2022 - 16:27:48: [SM]   [0] Format
+L 11/01/2022 - 16:27:48: [SM]   [1] Line 490, cannounce.sp::GetFormattedMessage
+L 11/01/2022 - 16:27:48: [SM]   [2] Line 274, cannounce.sp::PrintFormattedMessageToAll
+L 11/01/2022 - 16:27:48: [SM]   [3] Line 72, cannounce/countryshow.sp::OnPostAdminCheck_CountryShow
+L 11/01/2022 - 16:27:48: [SM]   [4] Line 168, cannounce.sp::OnClientPostAdminCheck
+L 11/01/2022 - 16:28:09: [confoglcompmod.smx] [Confogl] CvarSettings: Could not find CVar specified (confogl_ghost_warp)
+L 11/01/2022 - 16:28:09: [confoglcompmod.smx] [Confogl] CvarSettings: Could not find CVar specified (longer_tank_punch_getup)
+L 11/01/2022 - 16:28:09: [confoglcompmod.smx] [Confogl] CvarSettings: Could not find CVar specified (l4d_equalise_alarm_cars)
+L 11/01/2022 - 16:28:12: Error log file session closed.
+L 11/01/2022 - 16:28:12: SourceMod error session started
+L 11/01/2022 - 16:28:12: Info (map "c2m1_highway") (file "/root/Steam/steamapps/common/Left 4 Dead 2 Dedicated Server/left4dead2/addons/sourcemod/logs/errors_20221101.log")
+L 11/01/2022 - 16:28:12: [SM] Fatal error encountered parsing translation file "cannounce.phrases.txt"
+L 11/01/2022 - 16:28:12: [SM] Error (line 0, column 0): Stream failed to open
+L 11/01/2022 - 16:29:50: [SM] Exception reported: Language phrase "CA Admin" not found (arg 6)
+L 11/01/2022 - 16:29:50: [SM] Blaming: cannounce.smx
+L 11/01/2022 - 16:29:50: [SM] Call stack trace:
+L 11/01/2022 - 16:29:50: [SM]   [0] Format
+L 11/01/2022 - 16:29:50: [SM]   [1] Line 490, cannounce.sp::GetFormattedMessage
+L 11/01/2022 - 16:29:50: [SM]   [2] Line 274, cannounce.sp::PrintFormattedMessageToAll
+L 11/01/2022 - 16:29:50: [SM]   [3] Line 148, cannounce/countryshow.sp::event_PlayerDisc_CountryShow
+L 11/01/2022 - 16:29:50: [SM]   [4] Line 234, cannounce.sp::event_PlayerDisconnect
+L 11/01/2022 - 16:30:06: SourceMod error session started
+L 11/01/2022 - 16:30:06: Info (map "c8m5_rooftop") (file "/root/Steam/steamapps/common/Left 4 Dead 2 Dedicated Server/left4dead2/addons/sourcemod/logs/errors_20221101.log")
+L 11/01/2022 - 16:30:06: [SM] Fatal error encountered parsing translation file "cannounce.phrases.txt"
+L 11/01/2022 - 16:30:06: [SM] Error (line 0, column 0): Stream failed to open
+L 11/01/2022 - 16:31:34: SourceMod error session started
+L 11/01/2022 - 16:31:34: Info (map "c8m5_rooftop") (file "/root/Steam/steamapps/common/Left 4 Dead 2 Dedicated Server/left4dead2/addons/sourcemod/logs/errors_20221101.log")
+L 11/01/2022 - 16:31:34: [SM] Fatal error encountered parsing translation file "cannounce.phrases.txt"
+L 11/01/2022 - 16:31:34: [SM] Error (line 0, column 0): Stream failed to open
+L 11/01/2022 - 16:46:07: SourceMod error session started
+L 11/01/2022 - 16:46:07: Info (map "c8m5_rooftop") (file "/root/Steam/steamapps/common/Left 4 Dead 2 Dedicated Server/left4dead2/addons/sourcemod/logs/errors_20221101.log")
+L 11/01/2022 - 16:46:07: [SM] Fatal error encountered parsing translation file "cannounce.phrases.txt"
+L 11/01/2022 - 16:46:07: [SM] Error (line 0, column 0): Stream failed to open
+L 11/01/2022 - 16:53:39: [SM] Exception reported: Language phrase "CA Admin" not found (arg 6)
+L 11/01/2022 - 16:53:39: [SM] Blaming: cannounce.smx
+L 11/01/2022 - 16:53:39: [SM] Call stack trace:
+L 11/01/2022 - 16:53:39: [SM]   [0] Format
+L 11/01/2022 - 16:53:39: [SM]   [1] Line 490, cannounce.sp::GetFormattedMessage
+L 11/01/2022 - 16:53:39: [SM]   [2] Line 274, cannounce.sp::PrintFormattedMessageToAll
+L 11/01/2022 - 16:53:39: [SM]   [3] Line 72, cannounce/countryshow.sp::OnPostAdminCheck_CountryShow
+L 11/01/2022 - 16:53:39: [SM]   [4] Line 168, cannounce.sp::OnClientPostAdminCheck
+L 11/01/2022 - 16:53:55: Error log file session closed.
+L 11/01/2022 - 16:53:55: SourceMod error session started
+L 11/01/2022 - 16:53:55: Info (map "c2m1_highway") (file "/root/Steam/steamapps/common/Left 4 Dead 2 Dedicated Server/left4dead2/addons/sourcemod/logs/errors_20221101.log")
+L 11/01/2022 - 16:53:55: [SM] Fatal error encountered parsing translation file "cannounce.phrases.txt"
+L 11/01/2022 - 16:53:55: [SM] Error (line 0, column 0): Stream failed to open
+L 11/01/2022 - 16:54:06: [SM] Exception reported: Language phrase "CA Admin" not found (arg 6)
+L 11/01/2022 - 16:54:06: [SM] Blaming: cannounce.smx
+L 11/01/2022 - 16:54:06: [SM] Call stack trace:
+L 11/01/2022 - 16:54:06: [SM]   [0] Format
+L 11/01/2022 - 16:54:06: [SM]   [1] Line 490, cannounce.sp::GetFormattedMessage
+L 11/01/2022 - 16:54:06: [SM]   [2] Line 274, cannounce.sp::PrintFormattedMessageToAll
+L 11/01/2022 - 16:54:06: [SM]   [3] Line 72, cannounce/countryshow.sp::OnPostAdminCheck_CountryShow
+L 11/01/2022 - 16:54:06: [SM]   [4] Line 168, cannounce.sp::OnClientPostAdminCheck
+L 11/01/2022 - 16:57:32: SourceMod error session started
+L 11/01/2022 - 16:57:32: Info (map "c8m5_rooftop") (file "/root/Steam/steamapps/common/Left 4 Dead 2 Dedicated Server/left4dead2/addons/sourcemod/logs/errors_20221101.log")
+L 11/01/2022 - 16:57:32: [SM] Fatal error encountered parsing translation file "cannounce.phrases.txt"
+L 11/01/2022 - 16:57:32: [SM] Error (line 0, column 0): Stream failed to open
+L 11/01/2022 - 16:59:56: SourceMod error session started
+L 11/01/2022 - 16:59:56: Info (map "c8m5_rooftop") (file "/root/Steam/steamapps/common/Left 4 Dead 2 Dedicated Server/left4dead2/addons/sourcemod/logs/errors_20221101.log")
+L 11/01/2022 - 16:59:56: [SM] Fatal error encountered parsing translation file "cannounce.phrases.txt"
+L 11/01/2022 - 16:59:56: [SM] Error (line 0, column 0): Stream failed to open
+L 11/01/2022 - 17:02:59: [SM] Exception reported: Language phrase "CA Admin" not found (arg 6)
+L 11/01/2022 - 17:02:59: [SM] Blaming: cannounce.smx
+L 11/01/2022 - 17:02:59: [SM] Call stack trace:
+L 11/01/2022 - 17:02:59: [SM]   [0] Format
+L 11/01/2022 - 17:02:59: [SM]   [1] Line 490, cannounce.sp::GetFormattedMessage
+L 11/01/2022 - 17:02:59: [SM]   [2] Line 274, cannounce.sp::PrintFormattedMessageToAll
+L 11/01/2022 - 17:02:59: [SM]   [3] Line 72, cannounce/countryshow.sp::OnPostAdminCheck_CountryShow
+L 11/01/2022 - 17:02:59: [SM]   [4] Line 168, cannounce.sp::OnClientPostAdminCheck
+L 11/01/2022 - 17:04:19: [SM] Exception reported: Language phrase "CA Admin" not found (arg 6)
+L 11/01/2022 - 17:04:19: [SM] Blaming: cannounce.smx
+L 11/01/2022 - 17:04:19: [SM] Call stack trace:
+L 11/01/2022 - 17:04:19: [SM]   [0] Format
+L 11/01/2022 - 17:04:19: [SM]   [1] Line 490, cannounce.sp::GetFormattedMessage
+L 11/01/2022 - 17:04:19: [SM]   [2] Line 274, cannounce.sp::PrintFormattedMessageToAll
+L 11/01/2022 - 17:04:19: [SM]   [3] Line 148, cannounce/countryshow.sp::event_PlayerDisc_CountryShow
+L 11/01/2022 - 17:04:19: [SM]   [4] Line 234, cannounce.sp::event_PlayerDisconnect
+L 11/01/2022 - 17:04:34: SourceMod error session started
+L 11/01/2022 - 17:04:34: Info (map "c8m5_rooftop") (file "/root/Steam/steamapps/common/Left 4 Dead 2 Dedicated Server/left4dead2/addons/sourcemod/logs/errors_20221101.log")
+L 11/01/2022 - 17:04:34: [SM] Fatal error encountered parsing translation file "cannounce.phrases.txt"
+L 11/01/2022 - 17:04:34: [SM] Error (line 0, column 0): Stream failed to open
+L 11/01/2022 - 17:10:42: SourceMod error session started
+L 11/01/2022 - 17:10:42: Info (map "c8m5_rooftop") (file "/root/Steam/steamapps/common/Left 4 Dead 2 Dedicated Server/left4dead2/addons/sourcemod/logs/errors_20221101.log")
+L 11/01/2022 - 17:10:42: [SM] Fatal error encountered parsing translation file "cannounce.phrases.txt"
+L 11/01/2022 - 17:10:42: [SM] Error (line 0, column 0): Stream failed to open
+L 11/01/2022 - 18:18:22: [SM] Exception reported: Language phrase "CA Admin" not found (arg 6)
+L 11/01/2022 - 18:18:22: [SM] Blaming: cannounce.smx
+L 11/01/2022 - 18:18:22: [SM] Call stack trace:
+L 11/01/2022 - 18:18:22: [SM]   [0] Format
+L 11/01/2022 - 18:18:22: [SM]   [1] Line 490, cannounce.sp::GetFormattedMessage
+L 11/01/2022 - 18:18:22: [SM]   [2] Line 274, cannounce.sp::PrintFormattedMessageToAll
+L 11/01/2022 - 18:18:22: [SM]   [3] Line 72, cannounce/countryshow.sp::OnPostAdminCheck_CountryShow
+L 11/01/2022 - 18:18:22: [SM]   [4] Line 168, cannounce.sp::OnClientPostAdminCheck
+L 11/01/2022 - 18:18:52: [confoglcompmod.smx] [Confogl] CvarSettings: Could not find CVar specified (confogl_ghost_warp)
+L 11/01/2022 - 18:18:52: [confoglcompmod.smx] [Confogl] CvarSettings: Could not find CVar specified (longer_tank_punch_getup)
+L 11/01/2022 - 18:18:52: [confoglcompmod.smx] [Confogl] CvarSettings: Could not find CVar specified (l4d_equalise_alarm_cars)
+L 11/01/2022 - 18:18:55: Error log file session closed.
+L 11/01/2022 - 18:18:55: SourceMod error session started
+L 11/01/2022 - 18:18:55: Info (map "c8m5_rooftop") (file "/root/Steam/steamapps/common/Left 4 Dead 2 Dedicated Server/left4dead2/addons/sourcemod/logs/errors_20221101.log")
+L 11/01/2022 - 18:18:55: [SM] Fatal error encountered parsing translation file "cannounce.phrases.txt"
+L 11/01/2022 - 18:18:55: [SM] Error (line 0, column 0): Stream failed to open
+L 11/01/2022 - 18:36:36: SourceMod error session started
+L 11/01/2022 - 18:36:36: Info (map "c8m5_rooftop") (file "/root/Steam/steamapps/common/Left 4 Dead 2 Dedicated Server/left4dead2/addons/sourcemod/logs/errors_20221101.log")
+L 11/01/2022 - 18:36:36: [SM] Fatal error encountered parsing translation file "cannounce.phrases.txt"
+L 11/01/2022 - 18:36:36: [SM] Error (line 0, column 0): Stream failed to open
+L 11/01/2022 - 21:10:40: [SM] Exception reported: Language phrase "CA Admin" not found (arg 6)
+L 11/01/2022 - 21:10:40: [SM] Blaming: cannounce.smx
+L 11/01/2022 - 21:10:40: [SM] Call stack trace:
+L 11/01/2022 - 21:10:40: [SM]   [0] Format
+L 11/01/2022 - 21:10:40: [SM]   [1] Line 490, cannounce.sp::GetFormattedMessage
+L 11/01/2022 - 21:10:40: [SM]   [2] Line 274, cannounce.sp::PrintFormattedMessageToAll
+L 11/01/2022 - 21:10:40: [SM]   [3] Line 72, cannounce/countryshow.sp::OnPostAdminCheck_CountryShow
+L 11/01/2022 - 21:10:40: [SM]   [4] Line 168, cannounce.sp::OnClientPostAdminCheck
+L 11/01/2022 - 21:11:19: Error log file session closed.
+L 11/01/2022 - 21:11:19: SourceMod error session started
+L 11/01/2022 - 21:11:19: Info (map "c2m1_highway") (file "/root/Steam/steamapps/common/Left 4 Dead 2 Dedicated Server/left4dead2/addons/sourcemod/logs/errors_20221101.log")
+L 11/01/2022 - 21:11:19: [SM] Fatal error encountered parsing translation file "cannounce.phrases.txt"
+L 11/01/2022 - 21:11:19: [SM] Error (line 0, column 0): Stream failed to open
+L 11/01/2022 - 21:11:31: [SM] Exception reported: Language phrase "CA Admin" not found (arg 6)
+L 11/01/2022 - 21:11:31: [SM] Blaming: cannounce.smx
+L 11/01/2022 - 21:11:31: [SM] Call stack trace:
+L 11/01/2022 - 21:11:31: [SM]   [0] Format
+L 11/01/2022 - 21:11:31: [SM]   [1] Line 490, cannounce.sp::GetFormattedMessage
+L 11/01/2022 - 21:11:31: [SM]   [2] Line 274, cannounce.sp::PrintFormattedMessageToAll
+L 11/01/2022 - 21:11:31: [SM]   [3] Line 72, cannounce/countryshow.sp::OnPostAdminCheck_CountryShow
+L 11/01/2022 - 21:11:31: [SM]   [4] Line 168, cannounce.sp::OnClientPostAdminCheck
+L 11/01/2022 - 21:11:48: [confoglcompmod.smx] [Confogl] CvarSettings: Could not find CVar specified (confogl_ghost_warp)
+L 11/01/2022 - 21:11:48: [confoglcompmod.smx] [Confogl] CvarSettings: Could not find CVar specified (longer_tank_punch_getup)
+L 11/01/2022 - 21:11:48: [confoglcompmod.smx] [Confogl] CvarSettings: Could not find CVar specified (l4d_equalise_alarm_cars)
+L 11/01/2022 - 21:11:51: Error log file session closed.
+L 11/01/2022 - 21:11:51: SourceMod error session started
+L 11/01/2022 - 21:11:51: Info (map "c2m1_highway") (file "/root/Steam/steamapps/common/Left 4 Dead 2 Dedicated Server/left4dead2/addons/sourcemod/logs/errors_20221101.log")
+L 11/01/2022 - 21:11:51: [SM] Fatal error encountered parsing translation file "cannounce.phrases.txt"
+L 11/01/2022 - 21:11:51: [SM] Error (line 0, column 0): Stream failed to open
+L 11/01/2022 - 21:37:05: SourceMod error session started
+L 11/01/2022 - 21:37:05: Info (map "c8m5_rooftop") (file "/root/Steam/steamapps/common/Left 4 Dead 2 Dedicated Server/left4dead2/addons/sourcemod/logs/errors_20221101.log")
+L 11/01/2022 - 21:37:05: [SM] Fatal error encountered parsing translation file "cannounce.phrases.txt"
+L 11/01/2022 - 21:37:05: [SM] Error (line 0, column 0): Stream failed to open
+L 11/01/2022 - 21:46:33: [SM] Exception reported: Language phrase "CA Admin" not found (arg 6)
+L 11/01/2022 - 21:46:33: [SM] Blaming: cannounce.smx
+L 11/01/2022 - 21:46:33: [SM] Call stack trace:
+L 11/01/2022 - 21:46:33: [SM]   [0] Format
+L 11/01/2022 - 21:46:33: [SM]   [1] Line 490, cannounce.sp::GetFormattedMessage
+L 11/01/2022 - 21:46:33: [SM]   [2] Line 274, cannounce.sp::PrintFormattedMessageToAll
+L 11/01/2022 - 21:46:33: [SM]   [3] Line 72, cannounce/countryshow.sp::OnPostAdminCheck_CountryShow
+L 11/01/2022 - 21:46:33: [SM]   [4] Line 168, cannounce.sp::OnClientPostAdminCheck
+L 11/01/2022 - 21:51:37: [SM] Exception reported: Language phrase "CA Admin" not found (arg 6)
+L 11/01/2022 - 21:51:37: [SM] Blaming: cannounce.smx
+L 11/01/2022 - 21:51:37: [SM] Call stack trace:
+L 11/01/2022 - 21:51:37: [SM]   [0] Format
+L 11/01/2022 - 21:51:37: [SM]   [1] Line 490, cannounce.sp::GetFormattedMessage
+L 11/01/2022 - 21:51:37: [SM]   [2] Line 274, cannounce.sp::PrintFormattedMessageToAll
+L 11/01/2022 - 21:51:37: [SM]   [3] Line 148, cannounce/countryshow.sp::event_PlayerDisc_CountryShow
+L 11/01/2022 - 21:51:37: [SM]   [4] Line 234, cannounce.sp::event_PlayerDisconnect
+L 11/01/2022 - 21:51:51: SourceMod error session started
+L 11/01/2022 - 21:51:51: Info (map "c8m5_rooftop") (file "/root/Steam/steamapps/common/Left 4 Dead 2 Dedicated Server/left4dead2/addons/sourcemod/logs/errors_20221101.log")
+L 11/01/2022 - 21:51:51: [SM] Fatal error encountered parsing translation file "cannounce.phrases.txt"
+L 11/01/2022 - 21:51:51: [SM] Error (line 0, column 0): Stream failed to open
+L 11/01/2022 - 21:52:09: [SM] Exception reported: Language phrase "CA Admin" not found (arg 6)
+L 11/01/2022 - 21:52:09: [SM] Blaming: cannounce.smx
+L 11/01/2022 - 21:52:09: [SM] Call stack trace:
+L 11/01/2022 - 21:52:09: [SM]   [0] Format
+L 11/01/2022 - 21:52:09: [SM]   [1] Line 490, cannounce.sp::GetFormattedMessage
+L 11/01/2022 - 21:52:09: [SM]   [2] Line 274, cannounce.sp::PrintFormattedMessageToAll
+L 11/01/2022 - 21:52:09: [SM]   [3] Line 72, cannounce/countryshow.sp::OnPostAdminCheck_CountryShow
+L 11/01/2022 - 21:52:09: [SM]   [4] Line 168, cannounce.sp::OnClientPostAdminCheck
+L 11/01/2022 - 21:52:51: Error log file session closed.
+L 11/01/2022 - 21:52:51: SourceMod error session started
+L 11/01/2022 - 21:52:51: Info (map "c2m2_fairgrounds") (file "/root/Steam/steamapps/common/Left 4 Dead 2 Dedicated Server/left4dead2/addons/sourcemod/logs/errors_20221101.log")
+L 11/01/2022 - 21:52:51: [SM] Fatal error encountered parsing translation file "cannounce.phrases.txt"
+L 11/01/2022 - 21:52:51: [SM] Error (line 0, column 0): Stream failed to open
+L 11/01/2022 - 21:52:59: [SM] Exception reported: Language phrase "CA Admin" not found (arg 6)
+L 11/01/2022 - 21:52:59: [SM] Blaming: cannounce.smx
+L 11/01/2022 - 21:52:59: [SM] Call stack trace:
+L 11/01/2022 - 21:52:59: [SM]   [0] Format
+L 11/01/2022 - 21:52:59: [SM]   [1] Line 490, cannounce.sp::GetFormattedMessage
+L 11/01/2022 - 21:52:59: [SM]   [2] Line 274, cannounce.sp::PrintFormattedMessageToAll
+L 11/01/2022 - 21:52:59: [SM]   [3] Line 72, cannounce/countryshow.sp::OnPostAdminCheck_CountryShow
+L 11/01/2022 - 21:52:59: [SM]   [4] Line 168, cannounce.sp::OnClientPostAdminCheck
+L 11/01/2022 - 21:54:27: [confoglcompmod.smx] [Confogl] CvarSettings: Could not find CVar specified (confogl_ghost_warp)
+L 11/01/2022 - 21:54:27: [confoglcompmod.smx] [Confogl] CvarSettings: Could not find CVar specified (longer_tank_punch_getup)
+L 11/01/2022 - 21:54:27: [confoglcompmod.smx] [Confogl] CvarSettings: Could not find CVar specified (l4d_equalise_alarm_cars)
+L 11/01/2022 - 21:54:30: Error log file session closed.
+L 11/01/2022 - 21:54:30: SourceMod error session started
+L 11/01/2022 - 21:54:30: Info (map "c2m2_fairgrounds") (file "/root/Steam/steamapps/common/Left 4 Dead 2 Dedicated Server/left4dead2/addons/sourcemod/logs/errors_20221101.log")
+L 11/01/2022 - 21:54:30: [SM] Fatal error encountered parsing translation file "cannounce.phrases.txt"
+L 11/01/2022 - 21:54:30: [SM] Error (line 0, column 0): Stream failed to open
+L 11/01/2022 - 22:28:32: Error log file session closed.
+L 11/01/2022 - 22:28:32: SourceMod error session started
+L 11/01/2022 - 22:28:32: Info (map "c2m3_coaster") (file "/root/Steam/steamapps/common/Left 4 Dead 2 Dedicated Server/left4dead2/addons/sourcemod/logs/errors_20221101.log")
+L 11/01/2022 - 22:28:32: [SM] Fatal error encountered parsing translation file "cannounce.phrases.txt"
+L 11/01/2022 - 22:28:32: [SM] Error (line 0, column 0): Stream failed to open
+L 11/01/2022 - 22:30:46: SourceMod error session started
+L 11/01/2022 - 22:30:46: Info (map "c8m5_rooftop") (file "/root/Steam/steamapps/common/Left 4 Dead 2 Dedicated Server/left4dead2/addons/sourcemod/logs/errors_20221101.log")
+L 11/01/2022 - 22:30:46: [SM] Fatal error encountered parsing translation file "cannounce.phrases.txt"
+L 11/01/2022 - 22:30:46: [SM] Error (line 0, column 0): Stream failed to open

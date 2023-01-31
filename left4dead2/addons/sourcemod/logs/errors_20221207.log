@@ -1,0 +1,146 @@
+L 12/07/2022 - 09:53:11: SourceMod error session started
+L 12/07/2022 - 09:53:11: Info (map "c2m1_highway") (file "/root/Steam/steamapps/common/Left 4 Dead 2 Dedicated Server/left4dead2/addons/sourcemod/logs/errors_20221207.log")
+L 12/07/2022 - 09:53:11: [SM] Unable to load extension "left4downtown.ext": /root/Steam/steamapps/common/Left 4 Dead 2 Dedicated Server/left4dead2/addons/sourcemod/extensions/left4downtown.ext.2.l4d2.so: undefined symbol: g_pMemAlloc
+L 12/07/2022 - 09:53:11: [SM] Unable to load plugin "Welcome.smx": Could not find required plugin "l4d2_playtime_interface"
+L 12/07/2022 - 09:53:11: [SM] Unable to load plugin "l4d_fyzb_en_v20.smx": Could not find required plugin "readyup"
+L 12/07/2022 - 20:51:05: SourceMod error session started
+L 12/07/2022 - 20:51:05: Info (map "c2m1_highway") (file "/root/Steam/steamapps/common/Left 4 Dead 2 Dedicated Server/left4dead2/addons/sourcemod/logs/errors_20221207.log")
+L 12/07/2022 - 20:51:05: [SM] Unable to load extension "left4downtown.ext": /root/Steam/steamapps/common/Left 4 Dead 2 Dedicated Server/left4dead2/addons/sourcemod/extensions/left4downtown.ext.2.l4d2.so: undefined symbol: g_pMemAlloc
+L 12/07/2022 - 20:51:05: [SM] Unable to load extension "geoip.ext": Failed to open GeoIP2 database.
+L 12/07/2022 - 20:51:05: [SM] Unable to load plugin "Welcome.smx": Could not find required plugin "l4d2_playtime_interface"
+L 12/07/2022 - 20:51:05: [SM] Unable to load plugin "l4d_fyzb_en_v20.smx": Could not find required plugin "readyup"
+L 12/07/2022 - 20:51:05: [SM] Unable to load plugin "savechat.smx": Required extension "GeoIP" file("geoip.ext") not running
+L 12/07/2022 - 20:51:05: [SM] Unable to load plugin "cannounce.smx": Required extension "GeoIP" file("geoip.ext") not running
+L 12/07/2022 - 20:51:46: SourceMod error session started
+L 12/07/2022 - 20:51:46: Info (map "c2m1_highway") (file "/root/Steam/steamapps/common/Left 4 Dead 2 Dedicated Server/left4dead2/addons/sourcemod/logs/errors_20221207.log")
+L 12/07/2022 - 20:51:46: [SM] Unable to load extension "left4downtown.ext": /root/Steam/steamapps/common/Left 4 Dead 2 Dedicated Server/left4dead2/addons/sourcemod/extensions/left4downtown.ext.2.l4d2.so: undefined symbol: g_pMemAlloc
+L 12/07/2022 - 20:51:46: [SM] Error parsing gameconfig file "/root/Steam/steamapps/common/Left 4 Dead 2 Dedicated Server/left4dead2/addons/sourcemod/gamedata/ladder_rambos.txt":
+L 12/07/2022 - 20:51:46: [SM] Error 1 on line 0, col 0: Stream failed to open
+L 12/07/2022 - 20:51:46: [SM] Unable to load extension "ladder_rambos.ext": Ladder Rambos -- Could not read ladder_rambos.txt.
+L 12/07/2022 - 20:51:46: [SM] Unable to load plugin "Welcome.smx": Could not find required plugin "l4d2_playtime_interface"
+L 12/07/2022 - 20:51:46: [SM] Unable to load plugin "l4d_fyzb_en_v20.smx": Could not find required plugin "readyup"
+L 12/07/2022 - 21:15:13: SourceMod error session started
+L 12/07/2022 - 21:15:13: Info (map "c2m1_highway") (file "/root/Steam/steamapps/common/Left 4 Dead 2 Dedicated Server/left4dead2/addons/sourcemod/logs/errors_20221207.log")
+L 12/07/2022 - 21:15:13: [SM] Unable to load extension "left4downtown.ext": /root/Steam/steamapps/common/Left 4 Dead 2 Dedicated Server/left4dead2/addons/sourcemod/extensions/left4downtown.ext.2.l4d2.so: undefined symbol: g_pMemAlloc
+L 12/07/2022 - 21:15:13: [SM] Unable to load plugin "Welcome.smx": Could not find required plugin "l4d2_playtime_interface"
+L 12/07/2022 - 21:15:13: [SM] Unable to load plugin "l4d_fyzb_en_v20.smx": Could not find required plugin "readyup"
+L 12/07/2022 - 21:18:25: [confoglcompmod.smx] [Configs] Custom config directory addons/sourcemod/../../cfg/cfgogl/Promod does not exist!
+L 12/07/2022 - 21:18:49: [SM] Exception reported: Couldn't find the 'OnWindupFinished_Sig' address
+L 12/07/2022 - 21:18:49: [SM] Blaming: optional/promod/l4d2_notankautoaim.smx
+L 12/07/2022 - 21:18:49: [SM] Call stack trace:
+L 12/07/2022 - 21:18:49: [SM]   [0] SetFailState
+L 12/07/2022 - 21:18:49: [SM]   [1] Line 24, C:\Users\Mr. DeWitt\Documents\GitHub\Equilibrium\addons\sourcemod\scripting\l4d2_notankautoaim.sp::OnPluginStart
+L 12/07/2022 - 21:18:49: [SM] Exception reported: Simple Chat Processor is not loaded. It is required for this plugin to work.
+L 12/07/2022 - 21:18:49: [SM] Blaming: optional/promod/l4d2_selfmute.smx
+L 12/07/2022 - 21:18:49: [SM] Call stack trace:
+L 12/07/2022 - 21:18:49: [SM]   [0] SetFailState
+L 12/07/2022 - 21:18:49: [SM]   [1] Line 60, l4d2_selfmute.sp::OnAllPluginsLoaded
+L 12/07/2022 - 21:19:33: Error log file session closed.
+L 12/07/2022 - 21:19:33: SourceMod error session started
+L 12/07/2022 - 21:19:33: Info (map "c2m1_highway") (file "/root/Steam/steamapps/common/Left 4 Dead 2 Dedicated Server/left4dead2/addons/sourcemod/logs/errors_20221207.log")
+L 12/07/2022 - 21:19:33: [SM] Unable to load plugin "Welcome.smx": Could not find required plugin "l4d2_playtime_interface"
+L 12/07/2022 - 21:19:33: [SM] Unable to load plugin "l4d_fyzb_en_v20.smx": Could not find required plugin "readyup"
+L 12/07/2022 - 21:19:34: [SM] Exception reported: g_pGameRules not available (NIX/2/1.102).
+L 12/07/2022 - 21:19:34: [SM] Blaming: left4dhooks.smx
+L 12/07/2022 - 21:19:34: [SM] Call stack trace:
+L 12/07/2022 - 21:19:34: [SM]   [0] ThrowNativeError
+L 12/07/2022 - 21:19:34: [SM]   [1] Line 5801, d:\SourcePawn11\left4dhooks.sp::ValidateAddress
+L 12/07/2022 - 21:19:34: [SM]   [2] Line 7248, d:\SourcePawn11\left4dhooks.sp::Native_GetVersusMaxCompletionScore
+L 12/07/2022 - 21:19:34: [SM]   [4] L4D_GetVersusMaxCompletionScore
+L 12/07/2022 - 21:19:34: [SM]   [5] Line 311, modules/MapInfo.sp::GetMapMaxScore
+L 12/07/2022 - 21:19:34: [SM]   [6] Line 102, modules/ScoreMod.sp::SM_OnMapStart
+L 12/07/2022 - 21:19:34: [SM]   [7] Line 117, confoglcompmod.sp::OnMapStart
+L 12/07/2022 - 21:19:34: [confoglcompmod.smx] [Confogl] CvarSettings: Could not find CVar specified (l4d_ready_survivor_freeze)
+L 12/07/2022 - 21:19:34: [confoglcompmod.smx] [Confogl] CvarSettings: Could not find CVar specified (l4d_ready_warp_team)
+L 12/07/2022 - 21:19:34: [confoglcompmod.smx] [Confogl] CvarSettings: Could not find CVar specified (l4d_ready_delay)
+L 12/07/2022 - 21:19:34: [confoglcompmod.smx] [Confogl] CvarSettings: Could not find CVar specified (l4d_ready_enable_sound)
+L 12/07/2022 - 21:19:34: [confoglcompmod.smx] [Confogl] CvarSettings: Could not find CVar specified (l4d_ready_chuckle)
+L 12/07/2022 - 21:19:34: [confoglcompmod.smx] [Confogl] CvarSettings: Could not find CVar specified (l4d_ready_live_sound)
+L 12/07/2022 - 21:19:34: [confoglcompmod.smx] [Confogl] CvarSettings: Could not find CVar specified (teamflip_delay)
+L 12/07/2022 - 21:19:34: [confoglcompmod.smx] [Confogl] CvarSettings: Could not find CVar specified (confogl_ghost_warp)
+L 12/07/2022 - 21:19:34: [confoglcompmod.smx] [Confogl] CvarSettings: Could not find CVar specified (confogl_ghost_warp_reload)
+L 12/07/2022 - 21:19:34: [confoglcompmod.smx] [Confogl] CvarSettings: Could not find CVar specified (tankcontrol_print_all)
+L 12/07/2022 - 21:19:34: [confoglcompmod.smx] [Confogl] CvarSettings: Could not find CVar specified (chestbump_patch_enabled)
+L 12/07/2022 - 21:19:34: [confoglcompmod.smx] [Confogl] CvarSettings: Attempt to track ConVar jockey_bunny_duration, which is already being tracked.
+L 12/07/2022 - 21:19:34: [confoglcompmod.smx] [Confogl] CvarSettings: Could not find CVar specified (l4d_obey_boss_spawn_cvars)
+L 12/07/2022 - 21:19:34: [confoglcompmod.smx] [Confogl] CvarSettings: Could not find CVar specified (l4d_obey_boss_spawn_except_static)
+L 12/07/2022 - 21:19:34: [confoglcompmod.smx] [Confogl] CvarSettings: Could not find CVar specified (gfc_hittable_override)
+L 12/07/2022 - 21:19:34: [confoglcompmod.smx] [Confogl] CvarSettings: Could not find CVar specified (gfc_hittable_rage_override)
+L 12/07/2022 - 21:19:34: [confoglcompmod.smx] [Confogl] CvarSettings: Could not find CVar specified (gfc_witch_override)
+L 12/07/2022 - 21:19:34: [confoglcompmod.smx] [Confogl] CvarSettings: Could not find CVar specified (gfc_spit_extra_time)
+L 12/07/2022 - 21:19:34: [confoglcompmod.smx] [Confogl] CvarSettings: Could not find CVar specified (gfc_common_extra_time)
+L 12/07/2022 - 21:19:34: [confoglcompmod.smx] [Confogl] CvarSettings: Could not find CVar specified (gfc_hunter_duration)
+L 12/07/2022 - 21:19:34: [confoglcompmod.smx] [Confogl] CvarSettings: Could not find CVar specified (gfc_jockey_duration)
+L 12/07/2022 - 21:19:34: [confoglcompmod.smx] [Confogl] CvarSettings: Could not find CVar specified (gfc_smoker_duration)
+L 12/07/2022 - 21:19:34: [confoglcompmod.smx] [Confogl] CvarSettings: Could not find CVar specified (gfc_charger_duration)
+L 12/07/2022 - 21:19:34: [confoglcompmod.smx] [Confogl] CvarSettings: Could not find CVar specified (gfc_common_zc_flags)
+L 12/07/2022 - 21:19:34: [confoglcompmod.smx] [Confogl] CvarSettings: Could not find CVar specified (gfc_spit_zc_flags)
+L 12/07/2022 - 21:19:34: [confoglcompmod.smx] [Confogl] CvarSettings: Could not find CVar specified (gfc_godframe_glows)
+L 12/07/2022 - 21:19:34: [confoglcompmod.smx] [Confogl] CvarSettings: Could not find CVar specified (l4d2_spit_dmg)
+L 12/07/2022 - 21:19:34: [confoglcompmod.smx] [Confogl] CvarSettings: Could not find CVar specified (l4d2_spit_max_ticks)
+L 12/07/2022 - 21:19:34: [confoglcompmod.smx] [Confogl] CvarSettings: Could not find CVar specified (l4d2_spit_godframe_ticks)
+L 12/07/2022 - 21:19:34: [confoglcompmod.smx] [Confogl] CvarSettings: Could not find CVar specified (sm_survivor_mvp_brevity)
+L 12/07/2022 - 21:19:34: [confoglcompmod.smx] [Confogl] CvarSettings: Could not find CVar specified (sm_stats_autoprint_vs_round)
+L 12/07/2022 - 21:19:34: [confoglcompmod.smx] [Confogl] CvarSettings: Could not find CVar specified (sgspread_center_pellet)
+L 12/07/2022 - 21:19:34: [confoglcompmod.smx] [Confogl] CvarSettings: Could not find CVar specified (sgspread_ring1_bullets)
+L 12/07/2022 - 21:19:34: [confoglcompmod.smx] [Confogl] CvarSettings: Could not find CVar specified (sgspread_ring1_factor)
+L 12/07/2022 - 21:19:34: [confoglcompmod.smx] [Confogl] CvarSettings: Could not find CVar specified (tank_print_type)
+L 12/07/2022 - 21:19:34: [confoglcompmod.smx] [Confogl] CvarSettings: Could not find CVar specified (SM_enable)
+L 12/07/2022 - 21:19:34: [confoglcompmod.smx] [Confogl] CvarSettings: Could not find CVar specified (SM_healthbonusratio)
+L 12/07/2022 - 21:19:34: [confoglcompmod.smx] [Confogl] CvarSettings: Could not find CVar specified (SM_survivalbonusratio)
+L 12/07/2022 - 21:19:34: [confoglcompmod.smx] [Confogl] CvarSettings: Could not find CVar specified (SM_tempmulti_incap_0)
+L 12/07/2022 - 21:19:34: [confoglcompmod.smx] [Confogl] CvarSettings: Could not find CVar specified (SM_tempmulti_incap_1)
+L 12/07/2022 - 21:19:34: [confoglcompmod.smx] [Confogl] CvarSettings: Could not find CVar specified (SM_tempmulti_incap_2)
+L 12/07/2022 - 21:19:34: [confoglcompmod.smx] [Confogl] CvarSettings: Could not find CVar specified (SM_first_aid_heal_percent)
+L 12/07/2022 - 21:19:34: [confoglcompmod.smx] [Confogl] CvarSettings: Could not find CVar specified (SM_pain_pills_health_value)
+L 12/07/2022 - 21:19:34: [confoglcompmod.smx] [Confogl] CvarSettings: Could not find CVar specified (SM_adrenaline_health_buffer)
+L 12/07/2022 - 21:19:34: [confoglcompmod.smx] [Confogl] CvarSettings: Could not find CVar specified (SM_mapmulti)
+L 12/07/2022 - 21:19:34: [confoglcompmod.smx] [Confogl] CvarSettings: Could not find CVar specified (SM_custommaxdistance)
+L 12/07/2022 - 21:19:34: [confoglcompmod.smx] [Confogl] CvarSettings: Could not find CVar specified (sm_hbonus_pointsmode)
+L 12/07/2022 - 21:19:34: [confoglcompmod.smx] [Confogl] CvarSettings: Could not find CVar specified (sm_hbonus_report)
+L 12/07/2022 - 21:19:34: [confoglcompmod.smx] [Confogl] CvarSettings: Could not find CVar specified (sm_pbonus_reportchanges)
+L 12/07/2022 - 21:19:34: [confoglcompmod.smx] [Confogl] CvarSettings: Could not find CVar specified (sm_pbonus_display)
+L 12/07/2022 - 21:19:34: [confoglcompmod.smx] [Confogl] CvarSettings: Could not find CVar specified (sm_simple_witch_bonus)
+L 12/07/2022 - 21:19:34: [confoglcompmod.smx] [Confogl] CvarSettings: Could not find CVar specified (sm_witch_bonus_print)
+L 12/07/2022 - 21:19:34: [confoglcompmod.smx] [Confogl] CvarSettings: Could not find CVar specified (sm_witch_bonus_always)
+L 12/07/2022 - 21:19:34: [confoglcompmod.smx] [Confogl] CvarSettings: Could not find CVar specified (sm_hbonus_configpath)
+L 12/07/2022 - 21:19:34: [SM] Exception reported: Game event "door_close" has no active hook
+L 12/07/2022 - 21:19:34: [SM] Blaming: confoglcompmod.smx
+L 12/07/2022 - 21:19:34: [SM] Call stack trace:
+L 12/07/2022 - 21:19:34: [SM]   [0] UnhookEvent
+L 12/07/2022 - 21:19:34: [SM]   [1] Line 177, modules/ScoreMod.sp::PluginDisable
+L 12/07/2022 - 21:19:34: [SM]   [2] Line 129, modules/ScoreMod.sp::SM_ConVarChanged_Enable
+L 12/07/2022 - 21:19:34: [SM]   [4] SetConVarString
+L 12/07/2022 - 21:19:34: [SM]   [5] Line 187, modules/CvarSettings.sp::SetEnforcedCvars
+L 12/07/2022 - 21:19:34: [SM]   [6] Line 49, modules/CvarSettings.sp::CVS_SetCvars_Cmd
+L 12/07/2022 - 21:19:38: Error log file session closed.
+L 12/07/2022 - 21:20:25: SourceMod error session started
+L 12/07/2022 - 21:20:25: Info (map "c2m1_highway") (file "/root/Steam/steamapps/common/Left 4 Dead 2 Dedicated Server/left4dead2/addons/sourcemod/logs/errors_20221207.log")
+L 12/07/2022 - 21:20:25: [SM] Unable to load extension "left4downtown.ext": /root/Steam/steamapps/common/Left 4 Dead 2 Dedicated Server/left4dead2/addons/sourcemod/extensions/left4downtown.ext.2.l4d2.so: undefined symbol: g_pMemAlloc
+L 12/07/2022 - 21:20:25: [SM] Unable to load plugin "Welcome.smx": Could not find required plugin "l4d2_playtime_interface"
+L 12/07/2022 - 21:20:25: [SM] Unable to load plugin "l4d_fyzb_en_v20.smx": Could not find required plugin "readyup"
+L 12/07/2022 - 21:21:22: [SM] Exception reported: Couldn't find the 'OnWindupFinished_Sig' address
+L 12/07/2022 - 21:21:22: [SM] Blaming: optional/promod/l4d2_notankautoaim.smx
+L 12/07/2022 - 21:21:22: [SM] Call stack trace:
+L 12/07/2022 - 21:21:22: [SM]   [0] SetFailState
+L 12/07/2022 - 21:21:22: [SM]   [1] Line 24, C:\Users\Mr. DeWitt\Documents\GitHub\Equilibrium\addons\sourcemod\scripting\l4d2_notankautoaim.sp::OnPluginStart
+L 12/07/2022 - 21:22:39: [SM] Exception reported: Client 1 is not connected
+L 12/07/2022 - 21:22:39: [SM] Blaming: optional/promod/lerpmonitor.smx
+L 12/07/2022 - 21:22:39: [SM] Call stack trace:
+L 12/07/2022 - 21:22:39: [SM]   [0] GetClientInfo
+L 12/07/2022 - 21:22:39: [SM]   [1] Line 250, lerpmonitor.sp::GetLerpTime
+L 12/07/2022 - 21:22:39: [SM]   [2] Line 185, lerpmonitor.sp::ProcessPlayerLerp
+L 12/07/2022 - 21:22:39: [SM]   [3] Line 110, lerpmonitor.sp::OnTeamChangeDelay
+L 12/07/2022 - 21:24:04: [SM] Exception reported: Client 1 is not connected
+L 12/07/2022 - 21:24:04: [SM] Blaming: optional/promod/lerpmonitor.smx
+L 12/07/2022 - 21:24:04: [SM] Call stack trace:
+L 12/07/2022 - 21:24:04: [SM]   [0] GetClientInfo
+L 12/07/2022 - 21:24:04: [SM]   [1] Line 250, lerpmonitor.sp::GetLerpTime
+L 12/07/2022 - 21:24:04: [SM]   [2] Line 185, lerpmonitor.sp::ProcessPlayerLerp
+L 12/07/2022 - 21:24:04: [SM]   [3] Line 110, lerpmonitor.sp::OnTeamChangeDelay
+L 12/07/2022 - 21:29:11: SourceMod error session started
+L 12/07/2022 - 21:29:11: Info (map "c2m1_highway") (file "/root/Steam/steamapps/common/Left 4 Dead 2 Dedicated Server/left4dead2/addons/sourcemod/logs/errors_20221207.log")
+L 12/07/2022 - 21:29:11: [SM] Unable to load extension "left4downtown.ext": /root/Steam/steamapps/common/Left 4 Dead 2 Dedicated Server/left4dead2/addons/sourcemod/extensions/left4downtown.ext.2.l4d2.so: undefined symbol: g_pMemAlloc
+L 12/07/2022 - 21:29:11: [SM] Unable to load plugin "Welcome.smx": Could not find required plugin "l4d2_playtime_interface"
+L 12/07/2022 - 21:29:11: [SM] Unable to load plugin "l4d_fyzb_en_v20.smx": Could not find required plugin "readyup"
+L 12/09/2022 - 18:36:02: Error log file session closed.

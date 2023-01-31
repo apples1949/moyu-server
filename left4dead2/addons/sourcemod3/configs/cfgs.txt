@@ -1,0 +1,121 @@
+"Cfgs"
+{
+
+	
+	"常用投票"
+	{
+		"sm_serverhp"
+		{
+   			"message" "全体回血"
+	 	}
+		"sm_votekick"
+		{
+			"message" "投票踢人（本队）"
+		}
+		"sm_vms"
+		{
+			"message" "强制移至旁观（本队）"
+		}
+		"exec vote/8people.cfg"
+		{
+   			"message" "关闭旁观"
+	 	}
+		"exec vote/12people.cfg"
+		{
+			"message" "加4个旁观位置"
+		}
+		"exec vote/16people.cfg"
+		{
+			"message" "加8个旁观位置"		
+		}
+	}
+	"投票换图"
+	{
+		"changelevel c8m5_rooftop"
+		{
+   			"message" "切换至c8m5屋顶"
+	 	}
+		"changelevel daylighthouse"
+		{
+			"message" "切换至Daylight灯塔"
+		}
+		"changelevel cedafever_m3"
+		{
+			"message" "切换至CedaFever Rooftop"
+		}
+		"changelevel roofdownthedrain"
+		{
+			"message" "切换至血本无归 Down The Drain"
+		}
+		"changelevel nothinggonelast10"
+		{
+			"message" "切换至无人生还 Nothing Last"
+		}
+	}
+	"清道夫模式切换"
+	{
+		"exec match/scavogl/4v4.cfg"
+		{
+			"message" "Scavogl 4v4 1.1.0"
+		}
+//		"exec match/scavogl/charge.cfg"
+//		{
+//			"message" "ScavCharge!!!"
+//		}
+		"exec match/scavogl/chargeT1.cfg"
+		{
+			"message" "ScavCharge!!! [Tier 1 Only]"
+		}
+//		"exec match/scavogl/party.cfg"
+//		{
+//			"message" "ScavParty!!!"
+//		}
+//		"exec match/scavogl/ride.cfg"
+//		{
+//			"message" "ScavRide!!!"
+//		}
+		"exec match/scavogl/3v3.cfg"
+		{
+			"message" "Scavogl 3v3"
+		}
+	  	"exec match/scavogl/2v2.cfg"
+	  	{
+	  		"message" "Scavogl 2v2"
+	  	}
+		"exec match/scavogl/1v1.cfg"
+		{
+			"message" "Scavogl 1v1"
+		}
+	//	"exec match/scavogl/parvet.cfg"
+	//	{
+	//		"message" "Palvyit 4v4 V.Alpha"
+	//	}
+	}
+	"训练模式切换"
+	{
+		"exec match/scavogl/train1v1.cfg"
+		{
+			"message" "ScavTrAin 1v1"
+		}
+	}
+	"全局管理"
+	{
+		"exec vote/ready.cfg"
+		{
+			"message" "关闭自动准备"
+		}
+		"exec vote/readyup.cfg"
+		{
+			"message" "开启自动准备"
+		}
+		"exec vote/svalltalk0.cfg"
+		{
+			"message" "关闭全体语音"
+		}
+		"exec vote/svalltalk1.cfg"
+		{
+			"message" "开启全体语音"
+		}
+	}
+}
+

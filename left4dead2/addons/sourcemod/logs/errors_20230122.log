@@ -1,0 +1,21 @@
+L 01/22/2023 - 16:21:42: SourceMod error session started
+L 01/22/2023 - 16:21:42: Info (map "c2m1_highway") (file "/root/Steam/steamapps/common/Left 4 Dead 2 Dedicated Server/left4dead2/addons/sourcemod/logs/errors_20230122.log")
+L 01/22/2023 - 16:21:42: [SM] Unable to load plugin "Welcome.smx": Could not find required plugin "l4d2_playtime_interface"
+L 01/22/2023 - 16:21:42: [SM] Unable to load plugin "l4d_fyzb_en_v20.smx": Could not find required plugin "readyup"
+L 01/22/2023 - 21:36:07: Error log file session closed.
+L 01/22/2023 - 22:16:50: SourceMod error session started
+L 01/22/2023 - 22:16:50: Info (map "c2m5_concert") (file "/root/Steam/steamapps/common/Left 4 Dead 2 Dedicated Server/left4dead2/addons/sourcemod/logs/errors_20230122.log")
+L 01/22/2023 - 22:16:50: [SM] Exception reported: Language phrase "DisruptReadyStatus" not found (arg 4)
+L 01/22/2023 - 22:16:50: [SM] Blaming: optional/readyup2.smx
+L 01/22/2023 - 22:16:50: [SM] Call stack trace:
+L 01/22/2023 - 22:16:50: [SM]   [0] VFormat
+L 01/22/2023 - 22:16:50: [SM]   [1] Line 241, colors::CPrintToChatAllEx
+L 01/22/2023 - 22:16:50: [SM]   [2] Line 1384, E:\DownLoading\beifen\sourcemod-1.11.0-git6826-windows\addons\sourcemod\scripting\readyup2.sp::CancelFullReady
+L 01/22/2023 - 22:16:50: [SM]   [3] Line 798, E:\DownLoading\beifen\sourcemod-1.11.0-git6826-windows\addons\sourcemod\scripting\readyup2.sp::Unready_Cmd
+L 01/22/2023 - 22:16:50: [SM]   [4] Line 749, E:\DownLoading\beifen\sourcemod-1.11.0-git6826-windows\addons\sourcemod\scripting\readyup2.sp::Vote_Callback
+L 01/22/2023 - 22:20:10: Error log file session closed.
+L 01/22/2023 - 22:27:14: SourceMod error session started
+L 01/22/2023 - 22:27:14: Info (map "c2m1_highway") (file "/root/Steam/steamapps/common/Left 4 Dead 2 Dedicated Server/left4dead2/addons/sourcemod/logs/errors_20230122.log")
+L 01/22/2023 - 22:27:14: [SM] Unable to load plugin "Welcome.smx": Could not find required plugin "l4d2_playtime_interface"
+L 01/22/2023 - 22:27:14: [SM] Unable to load plugin "l4d_fyzb_en_v20.smx": Could not find required plugin "readyup"
+L 01/23/2023 - 22:18:01: Error log file session closed.

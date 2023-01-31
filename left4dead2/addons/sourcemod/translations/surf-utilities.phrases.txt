@@ -1,0 +1,49 @@
+"Phrases"
+{
+	"MenuMyRankTitle"
+	{
+		"en"			"Your Record"
+		"ko"			"당신의 기록"
+	}
+	"MenuWorldRankTitle"
+	{
+		"#format"		"{1:s},{2:d}"
+		"en"			"Records For {1}:\n({2} records)"
+		"ko"			"{1} 맵의 기록:\n({2} 개의 기록)"
+	}
+	"ThereIsNothingToShow"
+	{
+		"en"			"There is Nothing To Show :("
+		"ko"			"보여줄 수 있는 기록이 없네요 :("
+	}
+	"MenuWorldRankSubmenu_Time"
+	{
+		"en"			"Time"
+		"ko"			"걸린 시간"
+	}
+	"MenuWorldRankSubmenu_Date"
+	{
+		"en"			"Date"
+		"ko"			"기록한 날짜"
+	}
+	
+	"SurfHudPB"
+	{
+		"#format"		"{1:02d},{2:06.3f},{3:02d},{4:06.3f},{5:.2f},{6:s}"
+		"en"			"Time: {1}:{2}s\nPB: {3}:{4}s\nSpeed: {5}\nPlayer: {6}"
+		"ko"			"걸린 시간: {1}:{2}초\n최고 기록: {3}:{4}초\n속도: {5}\n플레이어: {6}"
+	}
+	"SurfHud"
+	{
+		"#format"		"{1:02d},{2:06.3f},{3:.2f},{4:s}"
+		"en"			"Time: {1}:{2}s\nSpeed: {3}\nPlayer: {4}"
+		"ko"			"걸린 시간: {1}:{2}초\n속도: {3}\n플레이어: {4}"
+	}
+	
+	"ReachEndZone"
+	{
+		"#format"		"{1:.3f}"
+		"en"			"You've reached to End Zone in {1}s. This will be recorded in database."
+		"ko"			"{1}초 만에 도착하였습니다. 이 기록은 데이터베이스에 저장됩니다."
+	}
+}

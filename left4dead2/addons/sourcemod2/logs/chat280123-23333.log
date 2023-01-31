@@ -1,0 +1,1755 @@
+--=================================================================--
+[28/01/2023 08:08:19] --- 地图开始: c2m1_highway ---
+--=================================================================--
+[08:08:30] [CN] Reisen<2><STEAM_1:0:182922075><> 加入游戏 (223.74.0.202)
+[08:08:31] [Unassigned] Reisen: vmodenable 1
+[08:08:31] [Unassigned] Reisen: vban 0
+[08:08:34] [Survivor] Reisen: unpause 
+[08:08:39] [Survivor] Reisen: vocalize smartlook auto
+[08:08:40] [Survivor] Reisen: say !vote
+[08:08:40] [Survivor] Reisen: sm_vote 
+[08:08:41] [Survivor] Reisen: menuselect 1
+[08:08:42] [Survivor] Reisen: menuselect 3
+[08:08:43] [Survivor] Reisen: menuselect 3
+[08:08:43] [Survivor] Reisen: vote Yes
+[08:08:43] [Survivor] Reisen: menuselect 2
+--=================================================================--
+[28/01/2023 08:08:45] --- 地图开始: c2m1_highway ---
+--=================================================================--
+--=================================================================--
+[28/01/2023 08:08:48] --- 地图结束: c2m1_highway ---
+--=================================================================--
+--=================================================================--
+[28/01/2023 08:08:50] --- 回合开始: c2m1_highway ---
+--=================================================================--
+--=================================================================--
+[28/01/2023 08:08:50] --- 地图开始: c2m1_highway ---
+--=================================================================--
+[08:09:00] [CN] Reisen<2><STEAM_1:0:182922075><> 加入游戏 (223.74.0.202)
+[08:09:00] [Unassigned] Reisen: vmodenable 1
+[08:09:00] [Unassigned] Reisen: vban 0
+[08:09:01] [Unassigned] Reisen: unpause 
+[08:09:04] [Survivor] Reisen: say !vote
+[08:09:04] [Survivor] Reisen: sm_vote 
+[08:09:06] [Survivor] Reisen: menuselect 5
+[08:09:07] [Survivor] Reisen: vote Yes
+[08:09:07] [Survivor] Reisen: menuselect 1
+[08:09:09] [Survivor] Reisen: say !vote
+[08:09:09] [Survivor] Reisen: sm_vote 
+[08:09:09] [Survivor] Reisen: menuselect 3
+[08:09:10] [Survivor] Reisen: vote Yes
+[08:09:10] [Survivor] Reisen: menuselect 1
+[08:09:16] [Survivor] Reisen: nb_assault 
+[08:09:16] [Survivor] Reisen: nb_assault 
+[08:09:16] [Survivor] Reisen: give pain_pills
+[08:09:16] [Survivor] Reisen: give health
+[08:09:16] [Survivor] Reisen: give machete
+[08:09:20] [Survivor] Reisen: nb_assault 
+[08:09:21] [Survivor] Reisen: nb_assault 
+[08:09:29] [Survivor] Reisen: nb_assault 
+[08:09:35] [Survivor] Reisen: nb_assault 
+[08:09:38] [Survivor] Reisen: nb_assault 
+[08:09:45] [Survivor] Reisen: nb_assault 
+[08:09:50] [Survivor] Reisen: nb_assault 
+[08:10:02] [Survivor] Reisen: nb_assault 
+[08:10:05] [Survivor] Reisen: nb_assault 
+[08:10:07] [Survivor] Reisen: nb_assault 
+[08:10:11] [Survivor] Reisen: nb_assault 
+[08:10:14] [Survivor] Reisen: nb_assault 
+[08:10:21] [Survivor] Reisen: nb_assault 
+[08:10:23] [Survivor] Reisen: nb_assault 
+[08:10:24] [Survivor] Reisen: nb_assault 
+[08:10:26] [Survivor] Reisen: nb_assault 
+[08:10:35] [Survivor] Reisen: nb_assault 
+[08:10:37] [Survivor] Reisen: nb_assault 
+[08:10:55] [Survivor] Reisen: nb_assault 
+[08:11:04] [Survivor] Reisen: nb_assault 
+[08:11:10] [Survivor] Reisen: nb_assault 
+[08:11:12] [Survivor] Reisen: nb_assault 
+[08:11:14] [Survivor] Reisen: nb_assault 
+[08:11:15] [Survivor] Reisen: nb_assault 
+[08:11:23] [Survivor] Reisen: nb_assault 
+[08:11:40] [CN] 392594074<44><STEAM_1:1:568764921><> 加入游戏 (112.47.171.238)
+[08:11:41] [Unassigned] 392594074: vmodenable 1
+[08:11:41] [Unassigned] 392594074: vban 0
+[08:11:42] [Unassigned] 392594074: unpause 
+[08:11:44] [Survivor] Reisen: nb_assault 
+[08:11:58] [Survivor] Reisen: nb_assault 
+[08:11:59] [Spectator] 392594074: setpause 
+[08:12:00] [Survivor] Reisen: nb_assault 
+[08:12:02] 392594074<44><STEAM_1:1:568764921><> 离开游戏 (reason: Disconnect by user.)
+[08:12:02] [Survivor] Reisen: nb_assault 
+[08:12:05] [Survivor] Reisen: nb_assault 
+[08:12:13] [Survivor] Reisen: nb_assault 
+[08:12:16] [Survivor] Reisen: nb_assault 
+[08:12:21] [Survivor] Reisen: nb_assault 
+[08:12:21] [Survivor] Reisen: nb_assault 
+[08:12:24] [Survivor] Reisen: nb_assault 
+[08:12:27] [Survivor] Reisen: nb_assault 
+[08:12:31] [Survivor] Reisen: nb_assault 
+[08:12:36] [Survivor] Reisen: nb_assault 
+[08:12:38] [Survivor] Reisen: nb_assault 
+--=================================================================--
+[28/01/2023 08:12:41] --- 回合结束: c2m1_highway ---
+--=================================================================--
+--=================================================================--
+[28/01/2023 08:12:43] --- 回合结束: c2m1_highway ---
+--=================================================================--
+--=================================================================--
+[28/01/2023 08:12:44] --- 回合开始: c2m1_highway ---
+--=================================================================--
+[08:12:51] [Survivor] Reisen: nb_assault 
+[08:12:51] [Survivor] Reisen: nb_assault 
+[08:12:51] [Survivor] Reisen: give pain_pills
+[08:12:51] [Survivor] Reisen: give health
+[08:12:51] [Survivor] Reisen: give machete
+[08:12:56] [Survivor] Reisen: nb_assault 
+[08:12:57] [Survivor] Reisen: nb_assault 
+[08:13:00] [Survivor] Reisen: nb_assault 
+[08:13:03] [Survivor] Reisen: nb_assault 
+[08:13:13] [Survivor] Reisen: nb_assault 
+[08:13:16] [Survivor] Reisen: nb_assault 
+[08:13:20] [Survivor] Reisen: nb_assault 
+[08:13:26] [Survivor] Reisen: nb_assault 
+[08:13:34] [Survivor] Reisen: nb_assault 
+[08:13:41] [Survivor] Reisen: nb_assault 
+[08:13:45] [Survivor] Reisen: nb_assault 
+[08:13:50] [Survivor] Reisen: nb_assault 
+[08:13:55] [Survivor] Reisen: nb_assault 
+[08:13:57] [Survivor] Reisen: nb_assault 
+[08:13:59] [Survivor] Reisen: nb_assault 
+[08:14:04] [Survivor] Reisen: nb_assault 
+[08:14:07] [Survivor] Reisen: nb_assault 
+[08:14:12] [Survivor] Reisen: nb_assault 
+[08:14:13] [Survivor] Reisen: nb_assault 
+[08:14:17] [Survivor] Reisen: nb_assault 
+[08:14:23] [Survivor] Reisen: nb_assault 
+[08:14:26] [Survivor] Reisen: nb_assault 
+[08:14:30] [Survivor] Reisen: nb_assault 
+[08:14:32] [Survivor] Reisen: nb_assault 
+[08:14:36] [Survivor] Reisen: nb_assault 
+[08:14:38] [Survivor] Reisen: nb_assault 
+[08:14:43] [Survivor] Reisen: nb_assault 
+[08:14:51] [Survivor] Reisen: nb_assault 
+[08:14:54] [Survivor] Reisen: nb_assault 
+[08:14:56] [Survivor] Reisen: nb_assault 
+[08:14:57] [Survivor] Reisen: nb_assault 
+[08:15:02] [Survivor] Reisen: nb_assault 
+--=================================================================--
+[28/01/2023 08:15:06] --- 回合结束: c2m1_highway ---
+--=================================================================--
+--=================================================================--
+[28/01/2023 08:15:08] --- 回合结束: c2m1_highway ---
+--=================================================================--
+--=================================================================--
+[28/01/2023 08:15:09] --- 回合开始: c2m1_highway ---
+--=================================================================--
+[08:15:16] [Survivor] Reisen: nb_assault 
+[08:15:16] [Survivor] Reisen: nb_assault 
+[08:15:16] [Survivor] Reisen: give pain_pills
+[08:15:16] [Survivor] Reisen: give health
+[08:15:16] [Survivor] Reisen: give machete
+[08:15:19] [Survivor] Reisen: nb_assault 
+[08:15:22] [Survivor] Reisen: nb_assault 
+[08:15:26] [Survivor] Reisen: nb_assault 
+[08:15:29] [Survivor] Reisen: nb_assault 
+[08:15:33] [Survivor] Reisen: nb_assault 
+[08:15:38] [Survivor] Reisen: nb_assault 
+[08:15:41] [Survivor] Reisen: nb_assault 
+[08:15:43] [Survivor] Reisen: nb_assault 
+[08:15:48] [Survivor] Reisen: nb_assault 
+[08:15:52] [Survivor] Reisen: nb_assault 
+[08:15:55] [Survivor] Reisen: nb_assault 
+[08:15:59] [Survivor] Reisen: nb_assault 
+[08:16:01] [Survivor] Reisen: nb_assault 
+[08:16:04] [Survivor] Reisen: nb_assault 
+[08:16:08] [Survivor] Reisen: nb_assault 
+[08:16:11] [Survivor] Reisen: nb_assault 
+[08:16:16] [Survivor] Reisen: nb_assault 
+[08:16:19] [Survivor] Reisen: nb_assault 
+[08:16:28] [Survivor] Reisen: nb_assault 
+[08:16:35] [Survivor] Reisen: nb_assault 
+[08:16:37] [Survivor] Reisen: nb_assault 
+[08:16:44] [Survivor] Reisen: nb_assault 
+[08:16:48] [Survivor] Reisen: nb_assault 
+[08:16:49] [Survivor] Reisen: nb_assault 
+[08:16:59] [Survivor] Reisen: nb_assault 
+[08:17:04] [Survivor] Reisen: nb_assault 
+[08:17:07] [Survivor] Reisen: nb_assault 
+[08:17:10] [Survivor] Reisen: nb_assault 
+--=================================================================--
+[28/01/2023 08:17:13] --- 回合结束: c2m1_highway ---
+--=================================================================--
+--=================================================================--
+[28/01/2023 08:17:15] --- 回合结束: c2m1_highway ---
+--=================================================================--
+--=================================================================--
+[28/01/2023 08:17:16] --- 回合开始: c2m1_highway ---
+--=================================================================--
+[08:17:24] [Survivor] Reisen: give pain_pills
+[08:17:24] [Survivor] Reisen: give health
+[08:17:24] [Survivor] Reisen: give machete
+[08:17:24] [Survivor] Reisen: nb_assault 
+[08:17:24] [Survivor] Reisen: nb_assault 
+[08:17:27] [Survivor] Reisen: nb_assault 
+[08:17:32] [Survivor] Reisen: nb_assault 
+[08:17:33] [Survivor] Reisen: nb_assault 
+[08:17:37] [Survivor] Reisen: nb_assault 
+[08:17:44] [Survivor] Reisen: nb_assault 
+[08:17:45] [Survivor] Reisen: nb_assault 
+[08:17:50] [Survivor] Reisen: nb_assault 
+[08:17:54] [Survivor] Reisen: nb_assault 
+[08:17:59] [Survivor] Reisen: nb_assault 
+[08:18:01] [Survivor] Reisen: nb_assault 
+[08:18:06] [Survivor] Reisen: nb_assault 
+[08:18:07] [Survivor] Reisen: nb_assault 
+[08:18:10] [Survivor] Reisen: nb_assault 
+[08:18:12] [Survivor] Reisen: nb_assault 
+[08:18:14] [Survivor] Reisen: nb_assault 
+[08:18:16] [Survivor] Reisen: nb_assault 
+[08:18:18] [Survivor] Reisen: nb_assault 
+[08:18:20] [Survivor] Reisen: nb_assault 
+[08:18:21] [Survivor] Reisen: nb_assault 
+[08:18:31] [Survivor] Reisen: nb_assault 
+[08:18:35] [Survivor] Reisen: nb_assault 
+[08:18:39] [Survivor] Reisen: nb_assault 
+[08:18:42] [Survivor] Reisen: nb_assault 
+[08:18:50] [Survivor] Reisen: nb_assault 
+[08:18:54] [Survivor] Reisen: nb_assault 
+[08:18:56] [Survivor] Reisen: nb_assault 
+[08:19:02] [Survivor] Reisen: nb_assault 
+--=================================================================--
+[28/01/2023 08:19:06] --- 回合结束: c2m1_highway ---
+--=================================================================--
+[08:19:07] [Survivor] Reisen: say !vote
+[08:19:07] [Survivor] Reisen: sm_vote 
+--=================================================================--
+[28/01/2023 08:19:08] --- 回合结束: c2m1_highway ---
+--=================================================================--
+[08:19:09] [Survivor] Reisen: menuselect 2
+[08:19:09] [Survivor] Reisen: vote Yes
+[08:19:09] [Survivor] Reisen: menuselect 3
+--=================================================================--
+[28/01/2023 08:19:10] --- 回合开始: c2m1_highway ---
+--=================================================================--
+[08:19:16] [Survivor] Reisen: nb_assault 
+[08:19:16] [Survivor] Reisen: nb_assault 
+[08:19:16] [Survivor] Reisen: nb_assault 
+[08:19:17] [Survivor] Reisen: give pain_pills
+[08:19:17] [Survivor] Reisen: give health
+[08:19:17] [Survivor] Reisen: give machete
+[08:19:19] [Survivor] Reisen: nb_assault 
+[08:19:23] [Survivor] Reisen: nb_assault 
+[08:19:27] [Survivor] Reisen: nb_assault 
+[08:19:28] [Survivor] Reisen: nb_assault 
+[08:19:32] [Survivor] Reisen: nb_assault 
+[08:19:36] [Survivor] Reisen: nb_assault 
+[08:19:39] [Survivor] Reisen: nb_assault 
+[08:19:45] [Survivor] Reisen: nb_assault 
+[08:19:48] [Survivor] Reisen: nb_assault 
+[08:19:55] [Survivor] Reisen: nb_assault 
+[08:19:58] [Survivor] Reisen: nb_assault 
+[08:20:02] [Survivor] Reisen: nb_assault 
+[08:20:07] [Survivor] Reisen: nb_assault 
+[08:20:10] [Survivor] Reisen: nb_assault 
+[08:20:17] [Survivor] Reisen: nb_assault 
+[08:20:21] [Survivor] Reisen: nb_assault 
+[08:20:26] [Survivor] Reisen: nb_assault 
+[08:20:29] [Survivor] Reisen: nb_assault 
+[08:20:38] [Survivor] Reisen: nb_assault 
+[08:20:44] [Survivor] Reisen: nb_assault 
+[08:20:45] [Survivor] Reisen: nb_assault 
+[08:20:49] [Survivor] Reisen: nb_assault 
+[08:20:53] [Survivor] Reisen: nb_assault 
+[08:20:53] [Survivor] Reisen: nb_assault 
+[08:20:58] [Survivor] Reisen: nb_assault 
+[08:20:59] [Survivor] Reisen: nb_assault 
+[08:21:02] [Survivor] Reisen: nb_assault 
+[08:21:13] [Survivor] Reisen: nb_assault 
+[08:21:16] [Survivor] Reisen: nb_assault 
+[08:21:19] [Survivor] Reisen: nb_assault 
+[08:21:23] [Survivor] Reisen: nb_assault 
+[08:21:33] [Survivor] Reisen: nb_assault 
+[08:21:34] [Survivor] Reisen: nb_assault 
+--=================================================================--
+[28/01/2023 08:21:38] --- 回合结束: c2m1_highway ---
+--=================================================================--
+--=================================================================--
+[28/01/2023 08:21:40] --- 回合结束: c2m1_highway ---
+--=================================================================--
+--=================================================================--
+[28/01/2023 08:21:41] --- 回合开始: c2m1_highway ---
+--=================================================================--
+[08:21:49] [Survivor] Reisen: give pain_pills
+[08:21:49] [Survivor] Reisen: give health
+[08:21:49] [Survivor] Reisen: give machete
+[08:21:49] [Survivor] Reisen: nb_assault 
+[08:21:49] [Survivor] Reisen: nb_assault 
+[08:21:49] [Survivor] Reisen: nb_assault 
+[08:21:54] [Survivor] Reisen: nb_assault 
+[08:21:56] [Survivor] Reisen: nb_assault 
+[08:21:59] [Survivor] Reisen: nb_assault 
+[08:22:04] [Survivor] Reisen: nb_assault 
+[08:22:07] [Survivor] Reisen: nb_assault 
+[08:22:15] [Survivor] Reisen: nb_assault 
+[08:22:15] [Survivor] Reisen: nb_assault 
+[08:22:18] [Survivor] Reisen: nb_assault 
+[08:22:19] [Survivor] Reisen: nb_assault 
+[08:22:22] [Survivor] Reisen: nb_assault 
+[08:22:25] [Survivor] Reisen: nb_assault 
+[08:22:34] [Survivor] Reisen: nb_assault 
+[08:22:38] [Survivor] Reisen: nb_assault 
+[08:22:42] [Survivor] Reisen: nb_assault 
+[08:22:46] [Survivor] Reisen: nb_assault 
+[08:22:48] [Survivor] Reisen: nb_assault 
+[08:22:50] [Survivor] Reisen: nb_assault 
+--=================================================================--
+[28/01/2023 08:22:54] --- 回合结束: c2m1_highway ---
+--=================================================================--
+[08:22:55] [Survivor] Reisen: setpause 
+--=================================================================--
+[28/01/2023 08:22:56] --- 回合结束: c2m1_highway ---
+--=================================================================--
+--=================================================================--
+[28/01/2023 08:22:57] --- 回合开始: c2m1_highway ---
+--=================================================================--
+[08:23:01] [Survivor] Reisen: unpause 
+[08:23:05] [Survivor] Reisen: nb_assault 
+[08:23:05] [Survivor] Reisen: nb_assault 
+[08:23:05] [Survivor] Reisen: nb_assault 
+[08:23:06] [Survivor] Reisen: give pain_pills
+[08:23:06] [Survivor] Reisen: give health
+[08:23:06] [Survivor] Reisen: give machete
+[08:23:13] [Survivor] Reisen: nb_assault 
+[08:23:20] [Survivor] Reisen: nb_assault 
+[08:23:21] [Survivor] Reisen: nb_assault 
+[08:23:25] [Survivor] Reisen: nb_assault 
+[08:23:30] [Survivor] Reisen: nb_assault 
+[08:23:35] [Survivor] Reisen: nb_assault 
+[08:23:36] [Survivor] Reisen: nb_assault 
+[08:23:38] [Survivor] Reisen: nb_assault 
+[08:23:41] [Survivor] Reisen: nb_assault 
+[08:23:45] [Survivor] Reisen: nb_assault 
+[08:23:49] [Survivor] Reisen: nb_assault 
+[08:23:52] [Survivor] Reisen: nb_assault 
+[08:23:55] [Survivor] Reisen: nb_assault 
+[08:23:56] [Survivor] Reisen: nb_assault 
+[08:24:01] [Survivor] Reisen: nb_assault 
+[08:24:03] [Survivor] Reisen: nb_assault 
+[08:24:08] [Survivor] Reisen: nb_assault 
+[08:24:09] [Survivor] Reisen: nb_assault 
+[08:24:12] [Survivor] Reisen: nb_assault 
+--=================================================================--
+[28/01/2023 08:24:19] --- 回合结束: c2m1_highway ---
+--=================================================================--
+[08:24:19] [Survivor] Reisen: setpause 
+--=================================================================--
+[28/01/2023 08:24:21] --- 回合结束: c2m1_highway ---
+--=================================================================--
+--=================================================================--
+[28/01/2023 08:24:22] --- 回合开始: c2m1_highway ---
+--=================================================================--
+[08:24:23] [Survivor] Reisen: unpause 
+[08:24:29] [Survivor] Reisen: nb_assault 
+[08:24:29] [Survivor] Reisen: nb_assault 
+[08:24:29] [Survivor] Reisen: nb_assault 
+[08:24:29] [Survivor] Reisen: give pain_pills
+[08:24:29] [Survivor] Reisen: give health
+[08:24:29] [Survivor] Reisen: give machete
+[08:24:33] [Survivor] Reisen: nb_assault 
+[08:24:35] [Survivor] Reisen: nb_assault 
+[08:24:38] [Survivor] Reisen: nb_assault 
+[08:24:46] [Survivor] Reisen: nb_assault 
+[08:24:51] [Survivor] Reisen: nb_assault 
+[08:24:53] [Survivor] Reisen: nb_assault 
+[08:24:57] [Survivor] Reisen: nb_assault 
+[08:24:59] [Survivor] Reisen: nb_assault 
+[08:25:07] [Survivor] Reisen: nb_assault 
+[08:25:14] [Survivor] Reisen: nb_assault 
+[08:25:22] [Survivor] Reisen: nb_assault 
+[08:25:25] [Survivor] Reisen: nb_assault 
+[08:25:29] [Survivor] Reisen: nb_assault 
+[08:25:32] [Survivor] Reisen: nb_assault 
+[08:25:36] [Survivor] Reisen: nb_assault 
+--=================================================================--
+[28/01/2023 08:25:39] --- 回合结束: c2m1_highway ---
+--=================================================================--
+--=================================================================--
+[28/01/2023 08:25:41] --- 回合结束: c2m1_highway ---
+--=================================================================--
+--=================================================================--
+[28/01/2023 08:25:42] --- 回合开始: c2m1_highway ---
+--=================================================================--
+[08:25:53] [Survivor] Reisen: give pain_pills
+[08:25:53] [Survivor] Reisen: give health
+[08:25:53] [Survivor] Reisen: give machete
+[08:25:53] [Survivor] Reisen: nb_assault 
+[08:25:53] [Survivor] Reisen: nb_assault 
+[08:25:53] [Survivor] Reisen: nb_assault 
+[08:25:54] [Survivor] Reisen: nb_assault 
+[08:25:56] [Survivor] Reisen: nb_assault 
+[08:25:59] [Survivor] Reisen: nb_assault 
+[08:26:03] [Survivor] Reisen: nb_assault 
+[08:26:08] [Survivor] Reisen: nb_assault 
+[08:26:15] [Survivor] Reisen: nb_assault 
+[08:26:19] [Survivor] Reisen: nb_assault 
+[08:26:23] [Survivor] Reisen: nb_assault 
+[08:26:26] [Survivor] Reisen: nb_assault 
+[08:26:30] [Survivor] Reisen: nb_assault 
+[08:26:34] [Survivor] Reisen: nb_assault 
+[08:26:40] [Survivor] Reisen: nb_assault 
+[08:26:45] [Survivor] Reisen: nb_assault 
+[08:26:48] [Survivor] Reisen: nb_assault 
+[08:26:51] [Survivor] Reisen: nb_assault 
+[08:26:57] [Survivor] Reisen: nb_assault 
+[08:27:01] [Survivor] Reisen: nb_assault 
+[08:27:03] [Survivor] Reisen: nb_assault 
+[08:27:04] [Survivor] Reisen: nb_assault 
+--=================================================================--
+[28/01/2023 08:27:08] --- 回合结束: c2m1_highway ---
+--=================================================================--
+[08:27:10] [Survivor] Reisen: setpause 
+--=================================================================--
+[28/01/2023 08:27:10] --- 回合结束: c2m1_highway ---
+--=================================================================--
+--=================================================================--
+[28/01/2023 08:27:12] --- 回合开始: c2m1_highway ---
+--=================================================================--
+[08:27:15] [Survivor] Reisen: unpause 
+[08:27:19] [Survivor] Reisen: nb_assault 
+[08:27:19] [Survivor] Reisen: nb_assault 
+[08:27:19] [Survivor] Reisen: nb_assault 
+[08:27:20] [Survivor] Reisen: give pain_pills
+[08:27:20] [Survivor] Reisen: give health
+[08:27:20] [Survivor] Reisen: give machete
+[08:27:23] [Survivor] Reisen: nb_assault 
+[08:27:29] [Survivor] Reisen: nb_assault 
+[08:27:35] [Survivor] Reisen: nb_assault 
+[08:27:38] [Survivor] Reisen: nb_assault 
+[08:27:48] [Survivor] Reisen: nb_assault 
+[08:27:48] [Survivor] Reisen: nb_assault 
+[08:27:55] [Survivor] Reisen: nb_assault 
+[08:27:57] [Survivor] Reisen: nb_assault 
+[08:27:59] [Survivor] Reisen: nb_assault 
+[08:28:05] [Survivor] Reisen: nb_assault 
+[08:28:10] [Survivor] Reisen: nb_assault 
+[08:28:14] [Survivor] Reisen: nb_assault 
+[08:28:17] [Survivor] Reisen: nb_assault 
+[08:28:22] [Survivor] Reisen: nb_assault 
+[08:28:24] [Survivor] Reisen: nb_assault 
+[08:28:29] [Survivor] Reisen: nb_assault 
+[08:28:32] [Survivor] Reisen: nb_assault 
+[08:28:35] [Survivor] Reisen: nb_assault 
+[08:28:39] [Survivor] Reisen: nb_assault 
+[08:28:39] [Survivor] Reisen: nb_assault 
+[08:28:42] [Survivor] Reisen: nb_assault 
+[08:28:43] [Survivor] Reisen: vocalize smartlook auto
+[08:28:48] [Survivor] Reisen: nb_assault 
+[08:28:48] [Survivor] Reisen: nb_assault 
+[08:28:49] [Survivor] Reisen: nb_assault 
+[08:28:56] [Survivor] Reisen: nb_assault 
+--=================================================================--
+[28/01/2023 08:28:59] --- 回合结束: c2m1_highway ---
+--=================================================================--
+--=================================================================--
+[28/01/2023 08:29:01] --- 回合结束: c2m1_highway ---
+--=================================================================--
+--=================================================================--
+[28/01/2023 08:29:02] --- 回合开始: c2m1_highway ---
+--=================================================================--
+[08:29:10] [Survivor] Reisen: nb_assault 
+[08:29:10] [Survivor] Reisen: give pain_pills
+[08:29:10] [Survivor] Reisen: give health
+[08:29:10] [Survivor] Reisen: give machete
+[08:29:10] [Survivor] Reisen: nb_assault 
+[08:29:10] [Survivor] Reisen: nb_assault 
+[08:29:16] [Survivor] Reisen: nb_assault 
+[08:29:18] [Survivor] Reisen: nb_assault 
+[08:29:22] [Survivor] Reisen: nb_assault 
+[08:29:26] [Survivor] Reisen: nb_assault 
+[08:29:29] [Survivor] Reisen: nb_assault 
+[08:29:34] [Survivor] Reisen: nb_assault 
+[08:29:38] [Survivor] Reisen: nb_assault 
+[08:29:42] [Survivor] Reisen: nb_assault 
+[08:29:42] [Survivor] Reisen: nb_assault 
+[08:29:43] [Survivor] Reisen: vocalize smartlook auto
+[08:29:46] [Survivor] Reisen: nb_assault 
+[08:29:49] [Survivor] Reisen: nb_assault 
+[08:29:52] [Survivor] Reisen: nb_assault 
+[08:29:56] [Survivor] Reisen: nb_assault 
+[08:29:58] [Survivor] Reisen: nb_assault 
+[08:30:02] [Survivor] Reisen: nb_assault 
+[08:30:06] [Survivor] Reisen: nb_assault 
+--=================================================================--
+[28/01/2023 08:30:08] --- 回合结束: c2m1_highway ---
+--=================================================================--
+--=================================================================--
+[28/01/2023 08:30:10] --- 回合结束: c2m1_highway ---
+--=================================================================--
+--=================================================================--
+[28/01/2023 08:30:11] --- 回合开始: c2m1_highway ---
+--=================================================================--
+[08:30:19] [Survivor] Reisen: nb_assault 
+[08:30:19] [Survivor] Reisen: nb_assault 
+[08:30:19] [Survivor] Reisen: nb_assault 
+[08:30:19] [Survivor] Reisen: give pain_pills
+[08:30:19] [Survivor] Reisen: give health
+[08:30:19] [Survivor] Reisen: give machete
+[08:30:24] [Survivor] Reisen: nb_assault 
+[08:30:28] [Survivor] Reisen: nb_assault 
+[08:30:29] [Survivor] Reisen: nb_assault 
+[08:30:34] [Survivor] Reisen: nb_assault 
+[08:30:38] [Survivor] Reisen: nb_assault 
+[08:30:42] [Survivor] Reisen: nb_assault 
+[08:30:46] [Survivor] Reisen: nb_assault 
+[08:30:48] [Survivor] Reisen: nb_assault 
+[08:30:53] [Survivor] Reisen: nb_assault 
+[08:30:54] [Survivor] Reisen: nb_assault 
+[08:31:01] [Survivor] Reisen: nb_assault 
+[08:31:04] [Survivor] Reisen: nb_assault 
+[08:31:09] [Survivor] Reisen: nb_assault 
+[08:31:12] [Survivor] Reisen: nb_assault 
+[08:31:15] [Survivor] Reisen: nb_assault 
+[08:31:21] [Survivor] Reisen: nb_assault 
+[08:31:24] [Survivor] Reisen: nb_assault 
+[08:31:25] [Survivor] Reisen: nb_assault 
+[08:31:26] [Survivor] Reisen: vocalize smartlook auto
+[08:31:31] [Survivor] Reisen: nb_assault 
+[08:31:31] [Survivor] Reisen: nb_assault 
+[08:31:36] [Survivor] Reisen: nb_assault 
+[08:31:41] [Survivor] Reisen: nb_assault 
+[08:31:44] [Survivor] Reisen: vocalize smartlook auto
+[08:31:44] [Survivor] Reisen: nb_assault 
+[08:31:51] [Survivor] Reisen: nb_assault 
+[08:31:52] [Survivor] Reisen: vocalize smartlook auto
+[08:31:52] [Survivor] Reisen: nb_assault 
+[08:31:54] [Survivor] Reisen: nb_assault 
+[08:31:59] [Survivor] Reisen: nb_assault 
+[08:32:01] [Survivor] Reisen: nb_assault 
+[08:32:02] [Survivor] Reisen: vocalize smartlook auto
+[08:32:05] [Survivor] Reisen: nb_assault 
+[08:32:08] [Survivor] Reisen: nb_assault 
+[08:32:12] [Survivor] Reisen: nb_assault 
+[08:32:12] [Survivor] Reisen: vocalize smartlook auto
+[08:32:15] [Survivor] Reisen: nb_assault 
+--=================================================================--
+[28/01/2023 08:32:16] --- 回合结束: c2m1_highway ---
+--=================================================================--
+--=================================================================--
+[28/01/2023 08:32:18] --- 回合结束: c2m1_highway ---
+--=================================================================--
+--=================================================================--
+[28/01/2023 08:32:19] --- 回合开始: c2m1_highway ---
+--=================================================================--
+[08:32:27] [Survivor] Reisen: give pain_pills
+[08:32:27] [Survivor] Reisen: give health
+[08:32:27] [Survivor] Reisen: give machete
+[08:32:27] [Survivor] Reisen: nb_assault 
+[08:32:27] [Survivor] Reisen: nb_assault 
+[08:32:27] [Survivor] Reisen: nb_assault 
+[08:32:37] [Survivor] Reisen: nb_assault 
+[08:32:40] [Survivor] Reisen: nb_assault 
+[08:32:42] [Survivor] Reisen: nb_assault 
+[08:32:45] [Survivor] Reisen: vocalize smartlook auto
+[08:32:51] [Survivor] Reisen: nb_assault 
+[08:32:54] [Survivor] Reisen: nb_assault 
+[08:32:57] [Survivor] Reisen: nb_assault 
+[08:33:07] [Survivor] Reisen: nb_assault 
+[08:33:11] [Survivor] Reisen: nb_assault 
+[08:33:13] [Survivor] Reisen: nb_assault 
+[08:33:18] [Survivor] Reisen: nb_assault 
+[08:33:21] [Survivor] Reisen: nb_assault 
+[08:33:21] [Survivor] Reisen: nb_assault 
+[08:33:27] [Survivor] Reisen: nb_assault 
+[08:33:32] [Survivor] Reisen: nb_assault 
+[08:33:34] [Survivor] Reisen: nb_assault 
+[08:33:39] [Survivor] Reisen: nb_assault 
+[08:33:42] [Survivor] Reisen: nb_assault 
+[08:33:46] [Survivor] Reisen: nb_assault 
+[08:33:48] [Survivor] Reisen: nb_assault 
+[08:33:56] [Survivor] Reisen: nb_assault 
+[08:33:59] [Survivor] Reisen: nb_assault 
+--=================================================================--
+[28/01/2023 08:34:01] --- 回合结束: c2m1_highway ---
+--=================================================================--
+--=================================================================--
+[28/01/2023 08:34:03] --- 回合结束: c2m1_highway ---
+--=================================================================--
+--=================================================================--
+[28/01/2023 08:34:04] --- 回合开始: c2m1_highway ---
+--=================================================================--
+[08:34:14] [Survivor] Reisen: nb_assault 
+[08:34:14] [Survivor] Reisen: nb_assault 
+[08:34:14] [Survivor] Reisen: nb_assault 
+[08:34:14] [Survivor] Reisen: give pain_pills
+[08:34:14] [Survivor] Reisen: give health
+[08:34:14] [Survivor] Reisen: give machete
+[08:34:18] [Survivor] Reisen: nb_assault 
+[08:34:23] [Survivor] Reisen: nb_assault 
+[08:34:30] [Survivor] Reisen: nb_assault 
+[08:34:34] [Survivor] Reisen: nb_assault 
+[08:34:40] [Survivor] Reisen: nb_assault 
+[08:34:40] [Survivor] Reisen: nb_assault 
+[08:34:42] [Survivor] Reisen: nb_assault 
+[08:34:42] [Survivor] Reisen: vocalize smartlook auto
+[08:34:46] [Survivor] Reisen: nb_assault 
+[08:34:51] [Survivor] Reisen: nb_assault 
+[08:34:54] [Survivor] Reisen: nb_assault 
+[08:34:56] [Survivor] Reisen: nb_assault 
+[08:35:00] [Survivor] Reisen: nb_assault 
+[08:35:04] [Survivor] Reisen: nb_assault 
+[08:35:06] [Survivor] Reisen: nb_assault 
+[08:35:09] [Survivor] Reisen: vocalize smartlook auto
+[08:35:09] [Survivor] Reisen: nb_assault 
+[08:35:14] [Survivor] Reisen: nb_assault 
+[08:35:16] [Survivor] Reisen: nb_assault 
+[08:35:19] [Survivor] Reisen: nb_assault 
+[08:35:28] [Survivor] Reisen: nb_assault 
+[08:35:29] [Survivor] Reisen: nb_assault 
+[08:35:31] [Survivor] Reisen: nb_assault 
+[08:35:36] [Survivor] Reisen: nb_assault 
+[08:35:39] [Survivor] Reisen: nb_assault 
+[08:35:42] [Survivor] Reisen: nb_assault 
+[08:35:46] [Survivor] Reisen: nb_assault 
+[08:35:50] [Survivor] Reisen: nb_assault 
+[08:35:58] [Survivor] Reisen: nb_assault 
+[08:36:01] [Survivor] Reisen: nb_assault 
+[08:36:03] [Survivor] Reisen: nb_assault 
+[08:36:09] [Survivor] Reisen: nb_assault 
+[08:36:09] [Survivor] Reisen: nb_assault 
+--=================================================================--
+[28/01/2023 08:36:13] --- 回合结束: c2m1_highway ---
+--=================================================================--
+--=================================================================--
+[28/01/2023 08:36:15] --- 回合结束: c2m1_highway ---
+--=================================================================--
+--=================================================================--
+[28/01/2023 08:36:17] --- 回合开始: c2m1_highway ---
+--=================================================================--
+[08:36:24] [Survivor] Reisen: nb_assault 
+[08:36:24] [Survivor] Reisen: nb_assault 
+[08:36:24] [Survivor] Reisen: nb_assault 
+[08:36:24] [Survivor] Reisen: give pain_pills
+[08:36:24] [Survivor] Reisen: give health
+[08:36:24] [Survivor] Reisen: give machete
+[08:36:31] [Survivor] Reisen: nb_assault 
+[08:36:35] [Survivor] Reisen: nb_assault 
+[08:36:37] [Survivor] Reisen: nb_assault 
+[08:36:44] [Survivor] Reisen: nb_assault 
+[08:36:48] [Survivor] Reisen: nb_assault 
+[08:36:49] [Survivor] Reisen: nb_assault 
+[08:36:58] [Survivor] Reisen: nb_assault 
+[08:37:00] [Survivor] Reisen: nb_assault 
+[08:37:05] [Survivor] Reisen: nb_assault 
+[08:37:09] [Survivor] Reisen: nb_assault 
+[08:37:15] [Survivor] Reisen: nb_assault 
+[08:37:17] [Survivor] Reisen: nb_assault 
+[08:37:21] [Survivor] Reisen: nb_assault 
+[08:37:24] [Survivor] Reisen: nb_assault 
+[08:37:25] [Survivor] Reisen: nb_assault 
+[08:37:32] [Survivor] Reisen: nb_assault 
+[08:37:33] [Survivor] Reisen: nb_assault 
+[08:37:38] [Survivor] Reisen: nb_assault 
+[08:37:44] [Survivor] Reisen: nb_assault 
+[08:37:45] [Survivor] Reisen: nb_assault 
+[08:37:50] [Survivor] Reisen: nb_assault 
+[08:37:54] [Survivor] Reisen: nb_assault 
+[08:37:59] [Survivor] Reisen: nb_assault 
+[08:38:03] [Survivor] Reisen: nb_assault 
+[08:38:05] [Survivor] Reisen: nb_assault 
+[08:38:07] [Survivor] Reisen: nb_assault 
+[08:38:12] [Survivor] Reisen: nb_assault 
+[08:38:16] [Survivor] Reisen: nb_assault 
+[08:38:18] [Survivor] Reisen: nb_assault 
+[08:38:22] [Survivor] Reisen: nb_assault 
+[08:38:22] [Survivor] Reisen: vocalize smartlook auto
+[08:38:26] [Survivor] Reisen: nb_assault 
+[08:38:31] [Survivor] Reisen: nb_assault 
+[08:38:33] [Survivor] Reisen: nb_assault 
+[08:38:33] [Survivor] Reisen: vocalize smartlook auto
+[08:38:36] [Survivor] Reisen: nb_assault 
+--=================================================================--
+[28/01/2023 08:38:38] --- 回合结束: c2m1_highway ---
+--=================================================================--
+--=================================================================--
+[28/01/2023 08:38:40] --- 回合结束: c2m1_highway ---
+--=================================================================--
+--=================================================================--
+[28/01/2023 08:38:41] --- 回合开始: c2m1_highway ---
+--=================================================================--
+[08:38:43] [Survivor] Reisen: setpause 
+[08:38:47] [Survivor] Reisen: unpause 
+[08:38:52] [Survivor] Reisen: give pain_pills
+[08:38:52] [Survivor] Reisen: give health
+[08:38:52] [Survivor] Reisen: give machete
+[08:38:52] [Survivor] Reisen: nb_assault 
+[08:38:52] [Survivor] Reisen: nb_assault 
+[08:38:52] [Survivor] Reisen: nb_assault 
+[08:38:56] [Survivor] Reisen: nb_assault 
+[08:39:02] [Survivor] Reisen: nb_assault 
+[08:39:07] [Survivor] Reisen: nb_assault 
+[08:39:11] [Survivor] Reisen: nb_assault 
+[08:39:12] [Survivor] Reisen: nb_assault 
+[08:39:19] [Survivor] Reisen: nb_assault 
+[08:39:25] [Survivor] Reisen: nb_assault 
+[08:39:26] [Survivor] Reisen: nb_assault 
+[08:39:30] [Survivor] Reisen: nb_assault 
+[08:39:33] [Survivor] Reisen: nb_assault 
+[08:39:36] [Survivor] Reisen: nb_assault 
+[08:39:37] [Survivor] Reisen: nb_assault 
+[08:39:41] [Survivor] Reisen: nb_assault 
+[08:39:47] [Survivor] Reisen: nb_assault 
+[08:39:49] [Survivor] Reisen: nb_assault 
+[08:39:51] [Survivor] Reisen: nb_assault 
+[08:39:55] [Survivor] Reisen: nb_assault 
+[08:39:58] [Survivor] Reisen: setpause 
+[08:40:00] [Survivor] Reisen: nb_assault 
+[08:40:00] Reisen<2><STEAM_1:0:182922075><> 离开游戏 (reason: Disconnect by user.)
+--=================================================================--
+[28/01/2023 08:40:36] --- 回合开始: c2m1_highway ---
+--=================================================================--
+--=================================================================--
+[28/01/2023 08:40:36] --- 地图开始: c2m1_highway ---
+--=================================================================--
+--=================================================================--
+[28/01/2023 14:06:55] --- 地图结束: c2m1_highway ---
+--=================================================================--
+--=================================================================--
+[28/01/2023 14:06:57] --- 回合开始: c2m1_highway ---
+--=================================================================--
+--=================================================================--
+[28/01/2023 14:06:57] --- 地图开始: c2m1_highway ---
+--=================================================================--
+[14:07:09] [CN] 黑猫的赠礼<2><STEAM_1:1:501867733><> 加入游戏 (223.91.220.232)
+[14:07:10] [Unassigned] 黑猫的赠礼: vmodenable 1
+[14:07:10] [Unassigned] 黑猫的赠礼: vban 0
+[14:07:14] [Survivor] 黑猫的赠礼: unpause 
+[14:07:15] [Survivor] 黑猫的赠礼: vocalize smartlook auto
+[14:07:18] [Survivor] 黑猫的赠礼: say !vote
+[14:07:18] [Survivor] 黑猫的赠礼: sm_vote 
+[14:07:20] [Survivor] 黑猫的赠礼: menuselect 3
+[14:07:22] [Survivor] 黑猫的赠礼: vote Yes
+[14:07:22] [Survivor] 黑猫的赠礼: menuselect 2
+--=================================================================--
+[28/01/2023 14:07:23] --- 地图开始: c2m1_highway ---
+--=================================================================--
+--=================================================================--
+[28/01/2023 14:07:26] --- 地图结束: c2m1_highway ---
+--=================================================================--
+--=================================================================--
+[28/01/2023 14:07:28] --- 回合开始: c2m1_highway ---
+--=================================================================--
+--=================================================================--
+[28/01/2023 14:07:28] --- 地图开始: c2m1_highway ---
+--=================================================================--
+[14:07:39] [CN] 黑猫的赠礼<2><STEAM_1:1:501867733><> 加入游戏 (223.91.220.232)
+[14:07:39] [Unassigned] 黑猫的赠礼: vmodenable 1
+[14:07:39] [Unassigned] 黑猫的赠礼: vban 0
+[14:07:40] [Unassigned] 黑猫的赠礼: unpause 
+[14:07:47] [Survivor] 黑猫的赠礼: say !vote
+[14:07:47] [Survivor] 黑猫的赠礼: sm_vote 
+[14:07:49] [Survivor] 黑猫的赠礼: menuselect 2
+[14:07:49] [Survivor] 黑猫的赠礼: vote Yes
+[14:07:49] [Survivor] 黑猫的赠礼: menuselect 1
+[14:07:52] [Survivor] 黑猫的赠礼: say !vote
+[14:07:52] [Survivor] 黑猫的赠礼: sm_vote 
+[14:07:53] [Survivor] 黑猫的赠礼: menuselect 3
+[14:07:53] [Survivor] 黑猫的赠礼: vote Yes
+[14:07:53] [Survivor] 黑猫的赠礼: menuselect 1
+[14:07:56] [Survivor] 黑猫的赠礼: say !vote
+[14:07:56] [Survivor] 黑猫的赠礼: sm_vote 
+[14:08:00] [Survivor] 黑猫的赠礼: menuselect 9
+[14:08:05] [Survivor] 黑猫的赠礼: menuselect 3
+[14:08:06] [Survivor] 黑猫的赠礼: vote Yes
+[14:08:06] [Survivor] 黑猫的赠礼: menuselect 1
+[14:08:11] [Survivor] 黑猫的赠礼: say !buy
+[14:08:11] [Survivor] 黑猫的赠礼: sm_buy 
+[14:08:11] [Survivor] 黑猫的赠礼: menuselect 2
+[14:08:12] [Survivor] 黑猫的赠礼: menuselect 2
+[14:08:13] [Survivor] 黑猫的赠礼: menuselect 1
+[14:08:18] [Survivor] 黑猫的赠礼: vocalize smartlook auto
+[14:08:23] [Survivor] 黑猫的赠礼: give pain_pills
+[14:08:23] [Survivor] 黑猫的赠礼: give health
+[14:08:23] [Survivor] 黑猫的赠礼: give pistol_magnum
+[14:08:23] [Survivor] 黑猫的赠礼: nb_assault 
+[14:08:30] [Survivor] 黑猫的赠礼: nb_assault 
+[14:08:51] [Survivor] 黑猫的赠礼: nb_assault 
+[14:09:08] [Survivor] 黑猫的赠礼: nb_assault 
+[14:09:14] [Survivor] 黑猫的赠礼: nb_assault 
+[14:09:18] [Survivor] 黑猫的赠礼: nb_assault 
+[14:09:21] [Survivor] 黑猫的赠礼: nb_assault 
+[14:09:45] [Survivor] 黑猫的赠礼: nb_assault 
+[14:09:54] [Survivor] 黑猫的赠礼: nb_assault 
+[14:10:01] [Survivor] 黑猫的赠礼: nb_assault 
+[14:10:04] [Survivor] 黑猫的赠礼: vocalize smartlook auto
+[14:10:06] [Survivor] 黑猫的赠礼: nb_assault 
+[14:10:14] [Survivor] 黑猫的赠礼: nb_assault 
+[14:10:18] [Survivor] 黑猫的赠礼: nb_assault 
+[14:10:32] [Survivor] 黑猫的赠礼: nb_assault 
+[14:10:49] [Survivor] 黑猫的赠礼: nb_assault 
+[14:11:19] [Survivor] 黑猫的赠礼: nb_assault 
+[14:11:23] [Survivor] 黑猫的赠礼: nb_assault 
+--=================================================================--
+[28/01/2023 14:11:28] --- 回合结束: c2m1_highway ---
+--=================================================================--
+--=================================================================--
+[28/01/2023 14:11:30] --- 回合结束: c2m1_highway ---
+--=================================================================--
+--=================================================================--
+[28/01/2023 14:11:31] --- 回合开始: c2m1_highway ---
+--=================================================================--
+[14:12:01] [Survivor] 黑猫的赠礼: give pain_pills
+[14:12:01] [Survivor] 黑猫的赠礼: give health
+[14:12:01] [Survivor] 黑猫的赠礼: give pistol_magnum
+[14:12:01] [Survivor] 黑猫的赠礼: nb_assault 
+[14:12:11] [Survivor] 黑猫的赠礼: nb_assault 
+[14:12:19] [Survivor] 黑猫的赠礼: nb_assault 
+[14:12:47] [Survivor] 黑猫的赠礼: nb_assault 
+[14:12:51] [Survivor] 黑猫的赠礼: nb_assault 
+[14:12:56] [Survivor] 黑猫的赠礼: nb_assault 
+[14:13:06] [Survivor] 黑猫的赠礼: nb_assault 
+[14:13:10] [Survivor] 黑猫的赠礼: nb_assault 
+[14:13:19] [Survivor] 黑猫的赠礼: nb_assault 
+[14:13:20] [Survivor] 黑猫的赠礼: vocalize smartlook auto
+[14:13:29] [Survivor] 黑猫的赠礼: nb_assault 
+[14:13:40] [Survivor] 黑猫的赠礼: nb_assault 
+[14:13:43] [Survivor] 黑猫的赠礼: nb_assault 
+[14:13:50] [Survivor] 黑猫的赠礼: nb_assault 
+[14:13:56] [Survivor] 黑猫的赠礼: nb_assault 
+[14:14:15] [CN] 从容不迫<44><STEAM_1:1:624863688><> 加入游戏 (175.10.39.162)
+[14:14:16] [Unassigned] 从容不迫: vmodenable 1
+[14:14:16] [Unassigned] 从容不迫: vban 0
+[14:14:17] [Unassigned] 从容不迫: unpause 
+[14:14:27] [Spectator] 从容不迫: setpause 
+[14:14:28] [Survivor] 黑猫的赠礼: nb_assault 
+[14:14:31] [Survivor] 黑猫的赠礼: nb_assault 
+[14:14:37] [Survivor] 黑猫的赠礼: nb_assault 
+[14:14:44] [Survivor] 黑猫的赠礼: nb_assault 
+[14:14:48] [Survivor] 黑猫的赠礼: nb_assault 
+[14:14:57] [Survivor] 黑猫的赠礼: nb_assault 
+[14:15:06] [Survivor] 黑猫的赠礼: nb_assault 
+[14:15:10] [Survivor] 黑猫的赠礼: nb_assault 
+[14:15:14] 从容不迫<44><STEAM_1:1:624863688><> 离开游戏 (reason: Disconnect by user.)
+[14:15:15] [Survivor] 黑猫的赠礼: nb_assault 
+[14:15:19] [Survivor] 黑猫的赠礼: nb_assault 
+[14:15:25] [Survivor] 黑猫的赠礼: nb_assault 
+[14:15:40] [Survivor] 黑猫的赠礼: nb_assault 
+[14:15:44] [Survivor] 黑猫的赠礼: nb_assault 
+[14:15:50] [Survivor] 黑猫的赠礼: nb_assault 
+[14:16:00] [Survivor] 黑猫的赠礼: nb_assault 
+[14:16:05] [Survivor] 黑猫的赠礼: nb_assault 
+[14:16:13] [Survivor] 黑猫的赠礼: nb_assault 
+[14:16:23] [Survivor] 黑猫的赠礼: nb_assault 
+[14:16:29] [Survivor] 黑猫的赠礼: nb_assault 
+[14:16:42] [Survivor] 黑猫的赠礼: nb_assault 
+[14:16:50] [Survivor] 黑猫的赠礼: nb_assault 
+[14:16:59] [Survivor] 黑猫的赠礼: nb_assault 
+[14:17:06] [Survivor] 黑猫的赠礼: nb_assault 
+[14:17:12] [Survivor] 黑猫的赠礼: nb_assault 
+[14:17:26] [Survivor] 黑猫的赠礼: nb_assault 
+[14:17:32] [Survivor] 黑猫的赠礼: menuselect 5
+[14:17:33] [Survivor] 黑猫的赠礼: nb_assault 
+[14:17:40] [Survivor] 黑猫的赠礼: nb_assault 
+[14:17:54] [Survivor] 黑猫的赠礼: nb_assault 
+[14:18:10] [Survivor] 黑猫的赠礼: nb_assault 
+[14:18:28] [Survivor] 黑猫的赠礼: nb_assault 
+[14:18:29] [Survivor] 黑猫的赠礼: vocalize smartlook auto
+[14:18:29] [Survivor] 黑猫的赠礼: choose_closedoor 
+[14:18:29] [Survivor] 黑猫的赠礼: choose_closedoor 
+--=================================================================--
+[28/01/2023 14:18:30] --- 回合结束: c2m1_highway ---
+--=================================================================--
+[14:18:30] [Survivor] 黑猫的赠礼: give health
+[14:18:30] [Survivor] 黑猫的赠礼: give pistol
+[14:18:31] [Survivor] 黑猫的赠礼: vocalize smartlook auto
+--=================================================================--
+[28/01/2023 14:18:32] --- 回合结束: c2m1_highway ---
+--=================================================================--
+--=================================================================--
+[28/01/2023 14:18:36] --- 地图结束: c2m1_highway ---
+--=================================================================--
+--=================================================================--
+[28/01/2023 14:18:39] --- 回合开始: c2m2_fairgrounds ---
+--=================================================================--
+--=================================================================--
+[28/01/2023 14:18:39] --- 地图开始: c2m2_fairgrounds ---
+--=================================================================--
+[14:18:48] [CN] 黑猫的赠礼<2><STEAM_1:1:501867733><> 加入游戏 (223.91.220.232)
+[14:18:49] [Unassigned] 黑猫的赠礼: unpause 
+[14:18:49] [Unassigned] 黑猫的赠礼: vmodenable 1
+[14:18:49] [Unassigned] 黑猫的赠礼: vban 0
+[14:18:50] [Survivor] 黑猫的赠礼: vocalize smartlook auto
+[14:19:04] [Survivor] 黑猫的赠礼: choose_opendoor 
+[14:19:04] [Survivor] 黑猫的赠礼: choose_opendoor 
+[14:19:04] [Survivor] 黑猫的赠礼: choose_opendoor 
+[14:19:04] [Survivor] 黑猫的赠礼: choose_opendoor 
+[14:19:04] [Survivor] 黑猫的赠礼: choose_opendoor 
+[14:19:04] [Survivor] 黑猫的赠礼: choose_opendoor 
+[14:19:05] [Survivor] 黑猫的赠礼: give pain_pills
+[14:19:05] [Survivor] 黑猫的赠礼: give health
+[14:19:05] [Survivor] 黑猫的赠礼: give pistol_magnum
+[14:19:06] [Survivor] 黑猫的赠礼: nb_assault 
+[14:19:11] [Survivor] 黑猫的赠礼: nb_assault 
+[14:19:21] [Survivor] 黑猫的赠礼: nb_assault 
+[14:19:27] [Survivor] 黑猫的赠礼: vocalize smartlook auto
+[14:19:39] [Survivor] 黑猫的赠礼: vocalize smartlook auto
+[14:19:46] [Survivor] 黑猫的赠礼: nb_assault 
+[14:19:49] 3010679183<90><STEAM_1:1:725480913><> 离开游戏 (reason: 家庭共享账户无法进入本服务器组)
+[14:19:52] [Survivor] 黑猫的赠礼: nb_assault 
+[14:20:02] [Survivor] 黑猫的赠礼: nb_assault 
+--=================================================================--
+[28/01/2023 14:20:04] --- 回合结束: c2m2_fairgrounds ---
+--=================================================================--
+[14:20:06] [Survivor] 黑猫的赠礼: setpause 
+--=================================================================--
+[28/01/2023 14:20:06] --- 回合结束: c2m2_fairgrounds ---
+--=================================================================--
+--=================================================================--
+[28/01/2023 14:20:07] --- 回合开始: c2m2_fairgrounds ---
+--=================================================================--
+[14:20:08] 黑猫的赠礼<2><STEAM_1:1:501867733><> 离开游戏 (reason: Disconnect by user.)
+[14:20:09] [CN] 刘哥哥<93><STEAM_1:0:229881696><> 加入游戏 (222.136.216.54)
+[14:20:09] [Unassigned] 刘哥哥: vmodenable 1
+[14:20:09] [Unassigned] 刘哥哥: vban 0
+[14:20:10] [Unassigned] 刘哥哥: unpause 
+[14:20:13] [HK] 开摆青年<92><STEAM_1:1:558647257><> 加入游戏 (103.126.95.171)
+[14:20:13] [Unassigned] 开摆青年: vmodenable 1
+[14:20:16] [Unassigned] 开摆青年: unpause 
+[14:20:21] [Spectator] 刘哥哥: spec_next 
+[14:20:27] [Spectator] 开摆青年: spec_next 
+[14:20:28] [Spectator] 刘哥哥: menuselect 1
+[14:20:29] [Spectator] 刘哥哥: spec_next 
+[14:20:30] [Spectator] 刘哥哥: spec_next 
+[14:20:30] [Spectator] 刘哥哥: spec_next 
+[14:20:32] [Spectator] 开摆青年: spec_next 
+[14:20:32] [CN] 千澪花<104><STEAM_1:0:735622071><> 加入游戏 (219.155.182.117)
+[14:20:32] [Unassigned] 千澪花: vmodenable 1
+[14:20:32] [Unassigned] 千澪花: vban 0
+[14:20:32] [Spectator] 开摆青年: spec_prev 
+[14:20:32] [Spectator] 开摆青年: spec_next 
+[14:20:32] [Spectator] 开摆青年: spec_prev 
+[14:20:33] [Unassigned] 千澪花: unpause 
+[14:20:33] [Spectator] 开摆青年: spec_mode 
+[14:20:38] [Spectator] 开摆青年: setpause 
+[14:20:39] [Spectator] 千澪花: spec_next 
+[14:20:40] [Spectator] 千澪花: spec_next 
+[14:20:40] 开摆青年<92><STEAM_1:1:558647257><> 离开游戏 (reason: No Steam logon)
+[14:20:42] [Spectator] 千澪花: spec_mode 
+[14:20:46] [Spectator] 千澪花: spec_next 
+[14:20:46] [Spectator] 刘哥哥: setpause 
+[14:20:47] [Spectator] 千澪花: spec_next 
+[14:20:47] [Spectator] 千澪花: spec_next 
+[14:20:47] [Spectator] 千澪花: spec_prev 
+[14:20:48] 刘哥哥<93><STEAM_1:0:229881696><> 离开游戏 (reason: Disconnect by user.)
+[14:20:49] [Spectator] 千澪花: spec_next 
+[14:20:49] [Spectator] 千澪花: spec_next 
+[14:20:50] [Spectator] 千澪花: spec_next 
+[14:20:50] [Spectator] 千澪花: spec_next 
+[14:20:50] [Spectator] 千澪花: spec_next 
+[14:20:50] [Spectator] 千澪花: spec_next 
+[14:20:50] [Spectator] 千澪花: setpause 
+[14:20:52] [Spectator] 千澪花: unpause 
+[14:20:52] [Spectator] 千澪花: unpause 
+[14:20:52] [Spectator] 千澪花: setpause 
+[14:20:56] [Spectator] 千澪花: unpause 
+[14:20:56] [Spectator] 千澪花: unpause 
+[14:20:57] [Spectator] 千澪花: setpause 
+[14:21:02] [Spectator] 千澪花: unpause 
+[14:21:03] [Spectator] 千澪花: setpause 
+[14:21:03] [Spectator] 千澪花: unpause 
+[14:21:03] [Spectator] 千澪花: unpause 
+[14:21:04] [Spectator] 千澪花: spec_mode 
+[14:21:05] [Spectator] 千澪花: spec_mode 
+[14:21:05] [Spectator] 千澪花: spec_mode 
+[14:21:10] [Spectator] 千澪花: spec_next 
+[14:21:11] [Spectator] 千澪花: spec_next 
+[14:21:11] [Spectator] 千澪花: spec_next 
+[14:21:11] [Spectator] 千澪花: spec_next 
+[14:21:12] [Spectator] 千澪花: spec_next 
+[14:21:12] [Spectator] 千澪花: spec_next 
+[14:21:12] [Spectator] 千澪花: spec_next 
+[14:21:13] [Spectator] 千澪花: spec_next 
+[14:21:14] [Spectator] 千澪花: setpause 
+[14:21:15] [Spectator] 千澪花: unpause 
+[14:21:15] [Spectator] 千澪花: unpause 
+[14:21:15] [Spectator] 千澪花: setpause 
+[14:21:19] 千澪花<104><STEAM_1:0:735622071><> 离开游戏 (reason: Disconnect by user.)
+--=================================================================--
+[28/01/2023 14:21:54] --- 回合开始: c2m1_highway ---
+--=================================================================--
+--=================================================================--
+[28/01/2023 14:21:55] --- 地图开始: c2m1_highway ---
+--=================================================================--
+--=================================================================--
+[28/01/2023 17:58:37] --- 地图结束: c2m1_highway ---
+--=================================================================--
+--=================================================================--
+[28/01/2023 17:58:39] --- 回合开始: c2m1_highway ---
+--=================================================================--
+--=================================================================--
+[28/01/2023 17:58:39] --- 地图开始: c2m1_highway ---
+--=================================================================--
+[17:58:59] [CN] Sumee<3><STEAM_1:0:186835291><> 加入游戏 (119.135.161.1)
+[17:59:00] [Unassigned] Sumee: vmodenable 1
+[17:59:00] [Unassigned] Sumee: vban 0
+[17:59:03] [Survivor] Sumee: unpause 
+[17:59:04] [Survivor] Sumee: vocalize smartlook auto
+[17:59:10] [Survivor] Sumee: vocalize smartlook auto
+[17:59:19] [CN] VJac1<4><STEAM_1:0:55358119><> 加入游戏 (223.74.75.178)
+[17:59:19] [Unassigned] VJac1: vmodenable 1
+[17:59:19] [Unassigned] VJac1: vban 0
+[17:59:24] [Survivor] Sumee: vocalize smartlook auto
+[17:59:25] VJac1<4><STEAM_1:0:55358119><> 离开游戏 (reason: No Steam logon)
+[17:59:39] [HK] 今年24岁<8><STEAM_1:0:614935040><> 加入游戏 (152.32.175.22)
+[17:59:40] [Unassigned] 今年24岁: unpause 
+[17:59:40] [Unassigned] 今年24岁: vmodenable 1
+[17:59:40] [Unassigned] 今年24岁: vban 0
+[17:59:42] [Survivor] 今年24岁: setpause 
+[17:59:42] [Survivor] 今年24岁: unpause 
+[17:59:42] [Survivor] 今年24岁: unpause 
+[17:59:56] [Survivor] 今年24岁: vocalize smartlook auto
+[18:00:21] [CN] 蓝丶龙<9><STEAM_1:1:631618115><> 加入游戏 (113.87.156.172)
+[18:00:22] [Unassigned] 蓝丶龙: unpause 
+[18:00:22] [Unassigned] 蓝丶龙: vmodenable 1
+[18:00:22] [Unassigned] 蓝丶龙: vban 0
+[18:00:28] [Survivor] 蓝丶龙: setpause 
+[18:00:30] 蓝丶龙<9><STEAM_1:1:631618115><> 离开游戏 (reason: Disconnect by user.)
+[18:00:33] [Survivor] Sumee: say_team !ovte
+[18:00:38] [Survivor] Sumee: say_team !vote
+[18:00:38] [Survivor] Sumee: sm_vote 
+[18:00:41] [Survivor] Sumee: menuselect 3
+[18:00:45] [Survivor] Sumee: vote Yes
+[18:00:45] [Survivor] Sumee: menuselect 1
+[18:00:46] [Survivor] 今年24岁: vote Yes
+--=================================================================--
+[28/01/2023 18:00:48] --- 地图开始: c2m1_highway ---
+--=================================================================--
+--=================================================================--
+[28/01/2023 18:00:51] --- 地图结束: c2m1_highway ---
+--=================================================================--
+--=================================================================--
+[28/01/2023 18:00:53] --- 回合开始: c2m1_highway ---
+--=================================================================--
+--=================================================================--
+[28/01/2023 18:00:53] --- 地图开始: c2m1_highway ---
+--=================================================================--
+[18:01:08] [CN] ShadowKnight<2><STEAM_1:1:155664100><> 加入游戏 (120.239.71.171)
+[18:01:08] [Unassigned] ShadowKnight: vmodenable 1
+[18:01:09] [Unassigned] ShadowKnight: unpause 
+[18:01:11] [Spectator] ShadowKnight: spec_next 
+[18:01:13] [Spectator] ShadowKnight: vote No
+[18:01:14] [Spectator] ShadowKnight: spec_next 
+[18:01:15] [Spectator] ShadowKnight: spec_next 
+[18:01:19] [Spectator] ShadowKnight: say !jion
+[18:01:22] [Spectator] ShadowKnight: say !jiaru
+[18:01:30] [Spectator] ShadowKnight: vote No
+[18:01:31] [Spectator] ShadowKnight: vote No
+[18:01:35] [Spectator] ShadowKnight: say !jion
+[18:01:39] [Spectator] ShadowKnight: say !jiaru
+[18:01:40] [Spectator] ShadowKnight: setpause 
+[18:01:41] [Spectator] ShadowKnight: unpause 
+[18:01:41] [Spectator] ShadowKnight: unpause 
+[18:01:41] [Spectator] ShadowKnight: setpause 
+[18:01:43] ShadowKnight<2><STEAM_1:1:155664100><> 离开游戏 (reason: Disconnect by user.)
+[18:02:00] [CN] ShadowKnight<17><STEAM_1:1:155664100><> 加入游戏 (120.239.71.171)
+[18:02:00] [Unassigned] ShadowKnight: vmodenable 1
+[18:02:00] [Unassigned] ShadowKnight: vban 0
+[18:02:02] [Unassigned] ShadowKnight: unpause 
+[18:02:19] [CN] Sumee<3><STEAM_1:0:186835291><> 加入游戏 (119.135.161.1)
+[18:02:19] [Unassigned] Sumee: vmodenable 1
+[18:02:19] [Unassigned] Sumee: vban 0
+[18:02:20] [Unassigned] Sumee: unpause 
+[18:02:25] [Survivor] Sumee: vocalize smartlook auto
+[18:02:30] [Survivor] ShadowKnight: give pain_pills
+[18:02:30] [Survivor] ShadowKnight: give health
+[18:02:30] [Survivor] Sumee: give pain_pills
+[18:02:30] [Survivor] Sumee: give health
+[18:02:32] [Survivor] ShadowKnight: nb_assault 
+[18:02:48] [CN] 蓝丶龙<20><STEAM_1:1:631618115><> 加入游戏 (113.87.156.172)
+[18:02:49] [Unassigned] 蓝丶龙: vmodenable 1
+[18:02:49] [Unassigned] 蓝丶龙: vban 0
+[18:02:50] [Unassigned] 蓝丶龙: unpause 
+[18:02:55] [Spectator] 蓝丶龙: setpause 
+[18:02:57] [Survivor] Sumee: nb_assault 
+[18:02:57] 蓝丶龙<20><STEAM_1:1:631618115><> 离开游戏 (reason: Disconnect by user.)
+[18:03:18] [Survivor] ShadowKnight: nb_assault 
+[18:03:20] [Survivor] Sumee: nb_assault 
+[18:03:20] [CN] Yu Hin<33><STEAM_1:0:565072325><> 加入游戏 (120.239.74.139)
+[18:03:20] [Unassigned] Yu Hin: vmodenable 1
+[18:03:22] [Unassigned] Yu Hin: unpause 
+[18:03:27] [Survivor] ShadowKnight: vocalize PlayerAskReady #1533
+[18:03:33] [Spectator] Yu Hin: spec_mode 
+[18:03:33] [Spectator] Yu Hin: spec_next 
+[18:03:35] [Spectator] Yu Hin: spec_next 
+[18:03:38] [Spectator] Yu Hin: spec_next 
+[18:03:39] [Spectator] Yu Hin: spec_next 
+[18:03:42] [Survivor] Sumee: nb_assault 
+[18:03:42] [Survivor] ShadowKnight: nb_assault 
+[18:03:50] [HK] 今年24岁<8><STEAM_1:0:614935040><> 加入游戏 (152.32.175.22)
+[18:03:51] [Unassigned] 今年24岁: vmodenable 1
+[18:03:51] [Unassigned] 今年24岁: vban 0
+[18:03:52] [Unassigned] 今年24岁: unpause 
+[18:03:54] [Spectator] Yu Hin: say :join in
+[18:04:00] [Survivor] ShadowKnight: vocalize PlayerAskReady #1863
+[18:04:00] [Survivor] ShadowKnight: vocalize PlayerAskReady #1873
+[18:04:01] [Spectator] Yu Hin: spec_next 
+[18:04:03] [Spectator] 今年24岁: spec_prev 
+[18:04:03] [Spectator] 今年24岁: spec_next 
+[18:04:04] [Spectator] Yu Hin: spec_next 
+[18:04:04] [Spectator] 今年24岁: spec_prev 
+[18:04:05] [Spectator] Yu Hin: setpause 
+[18:04:07] [Survivor] Sumee: nb_assault 
+[18:04:07] [Survivor] ShadowKnight: nb_assault 
+[18:04:07] [Survivor] ShadowKnight: nb_assault 
+[18:04:30] [Spectator] Yu Hin: unpause 
+[18:04:30] [Spectator] Yu Hin: unpause 
+[18:04:30] [Survivor] ShadowKnight: nb_assault 
+[18:04:30] [Survivor] ShadowKnight: nb_assault 
+[18:04:33] [Spectator] Yu Hin: setpause 
+[18:04:34] [Spectator] 今年24岁: spec_next 
+[18:04:35] [Spectator] 今年24岁: spec_prev 
+[18:04:35] [Spectator] 今年24岁: spec_next 
+[18:04:35] [Spectator] 今年24岁: spec_prev 
+[18:04:35] [Spectator] 今年24岁: spec_next 
+[18:04:36] [Spectator] 今年24岁: spec_next 
+[18:04:36] [Spectator] 今年24岁: spec_prev 
+[18:04:36] [Spectator] Yu Hin: cl_in ratio 0.0
+[18:04:38] [Spectator] 今年24岁: spec_next 
+[18:04:38] [Spectator] 今年24岁: spec_next 
+[18:04:39] [Spectator] 今年24岁: spec_next 
+[18:04:41] [Spectator] 今年24岁: spec_prev 
+[18:04:43] [Spectator] Yu Hin: cl_inratio 0.0
+[18:04:49] [Spectator] 今年24岁: spec_next 
+[18:04:50] [Spectator] 今年24岁: spec_next 
+[18:04:50] [Spectator] 今年24岁: spec_next 
+[18:04:51] [Spectator] 今年24岁: spec_next 
+[18:04:51] [Spectator] 今年24岁: spec_next 
+[18:04:52] [Spectator] 今年24岁: spec_next 
+[18:04:53] [Spectator] 今年24岁: spec_next 
+[18:04:54] [Spectator] 今年24岁: spec_next 
+[18:04:54] [Spectator] 今年24岁: spec_next 
+[18:04:55] [Survivor] ShadowKnight: nb_assault 
+[18:04:55] [Survivor] Sumee: nb_assault 
+[18:04:55] [Survivor] Sumee: nb_assault 
+[18:04:55] [Spectator] 今年24岁: spec_next 
+[18:04:56] [Survivor] Sumee: say_team jion
+[18:04:57] [Survivor] ShadowKnight: vocalize PlayerAskReady #2438
+[18:04:57] [Survivor] ShadowKnight: vocalize PlayerAskReady #2442
+[18:04:58] [Spectator] 今年24岁: spec_mode 
+[18:05:03] [Spectator] 今年24岁: spec_mode 
+[18:05:05] [Spectator] 今年24岁: spec_next 
+[18:05:08] [Spectator] 今年24岁: spec_next 
+[18:05:09] [Spectator] 今年24岁: spec_next 
+[18:05:09] [Spectator] 今年24岁: spec_next 
+[18:05:12] [Spectator] 今年24岁: spec_next 
+[18:05:15] [Spectator] Yu Hin: cl_in ratio 0.0
+[18:05:18] [Survivor] ShadowKnight: nb_assault 
+[18:05:19] [Survivor] ShadowKnight: nb_assault 
+[18:05:19] [Survivor] Sumee: nb_assault 
+[18:05:21] [Survivor] ShadowKnight: nb_assault 
+[18:05:22] [Spectator] Yu Hin: unpause 
+[18:05:22] [Spectator] Yu Hin: unpause 
+[18:05:34] [Spectator] 今年24岁: spec_next 
+[18:05:35] [Spectator] 今年24岁: spec_next 
+[18:05:35] [Spectator] 今年24岁: spec_prev 
+[18:05:40] [Spectator] Yu Hin: setpause 
+[18:05:42] [Spectator] Yu Hin: cl_in ratio 0.0
+[18:05:42] [Survivor] ShadowKnight: nb_assault 
+[18:05:43] [Survivor] ShadowKnight: nb_assault 
+[18:05:43] [Survivor] ShadowKnight: nb_assault 
+[18:05:43] [Survivor] ShadowKnight: vocalize smartlook auto
+[18:05:46] [Survivor] ShadowKnight: nb_assault 
+[18:05:51] [Survivor] Sumee: nb_assault 
+[18:05:53] [Spectator] Yu Hin: cl_interlerp 0.05
+[18:05:55] [Spectator] 今年24岁: spec_mode 
+[18:05:55] [Spectator] 今年24岁: spec_mode 
+[18:05:57] [Spectator] 今年24岁: spec_next 
+[18:05:57] [Spectator] 今年24岁: spec_next 
+[18:05:58] [Spectator] 今年24岁: spec_prev 
+[18:06:02] [Spectator] Yu Hin: cl_inter_lerp 0.05
+[18:06:06] [Survivor] ShadowKnight: nb_assault 
+[18:06:12] [Survivor] ShadowKnight: nb_assault 
+[18:06:14] [Survivor] ShadowKnight: nb_assault 
+[18:06:30] [Survivor] ShadowKnight: nb_assault 
+[18:06:30] [Survivor] ShadowKnight: nb_assault 
+[18:06:31] [Spectator] 今年24岁: spec_next 
+[18:06:32] [Spectator] 今年24岁: spec_next 
+[18:06:34] [Survivor] Sumee: nb_assault 
+[18:06:36] [Survivor] Sumee: nb_assault 
+[18:06:37] [Spectator] Yu Hin: unpause 
+--=================================================================--
+[28/01/2023 18:06:41] --- 回合结束: c2m1_highway ---
+--=================================================================--
+--=================================================================--
+[28/01/2023 18:06:43] --- 回合结束: c2m1_highway ---
+--=================================================================--
+[18:06:43] [Spectator] Yu Hin: say :join in
+--=================================================================--
+[28/01/2023 18:06:44] --- 回合开始: c2m1_highway ---
+--=================================================================--
+[18:06:48] [Spectator] Yu Hin: spec_next 
+[18:06:48] [Spectator] 今年24岁: spec_next 
+[18:06:48] [Spectator] 今年24岁: spec_prev 
+[18:06:48] [Spectator] Yu Hin: spec_next 
+[18:06:49] [Spectator] 今年24岁: spec_next 
+[18:06:49] [Spectator] Yu Hin: spec_next 
+[18:06:52] [Survivor] Sumee: vocalize smartlook auto
+[18:07:00] [Spectator] 今年24岁: spec_mode 
+[18:07:00] [Spectator] 今年24岁: spec_next 
+[18:07:00] [Spectator] 今年24岁: spec_next 
+[18:07:00] [Spectator] 今年24岁: spec_prev 
+[18:07:00] [Spectator] 今年24岁: spec_prev 
+[18:07:00] [Spectator] 今年24岁: spec_next 
+[18:07:01] [Spectator] 今年24岁: spec_next 
+[18:07:01] [Spectator] 今年24岁: spec_mode 
+[18:07:02] [Spectator] 今年24岁: spec_mode 
+[18:07:02] [Spectator] 今年24岁: spec_mode 
+[18:07:03] [Spectator] 今年24岁: spec_mode 
+[18:07:04] [Spectator] Yu Hin: say !joinin
+[18:07:06] [Spectator] 今年24岁: setpause 
+[18:07:07] [Spectator] 今年24岁: unpause 
+[18:07:07] [Spectator] 今年24岁: unpause 
+[18:07:07] [Spectator] 今年24岁: spec_next 
+[18:07:08] [Spectator] 今年24岁: setpause 
+[18:07:09] 今年24岁<8><STEAM_1:0:614935040><> 离开游戏 (reason: No Steam logon)
+[18:07:13] [Spectator] Yu Hin: say !join
+[18:07:13] [Spectator] Yu Hin: sm_join 
+[18:07:13] [Spectator] Yu Hin: jointeam survivor
+[18:07:15] [Survivor] Yu Hin: vocalize smartlook auto
+[18:07:22] [Survivor] ShadowKnight: give pain_pills
+[18:07:22] [Survivor] ShadowKnight: give health
+[18:07:22] [Survivor] Sumee: give pain_pills
+[18:07:22] [Survivor] Sumee: give health
+[18:07:22] [Survivor] Yu Hin: give pain_pills
+[18:07:22] [Survivor] Yu Hin: give health
+[18:07:22] [Survivor] ShadowKnight: nb_assault 
+[18:07:22] [Survivor] Sumee: nb_assault 
+[18:07:23] [Survivor] ShadowKnight: nb_assault 
+[18:07:23] [Survivor] ShadowKnight: nb_assault 
+[18:07:23] [Survivor] ShadowKnight: nb_assault 
+[18:07:46] [Survivor] Yu Hin: nb_assault 
+[18:07:46] [Survivor] ShadowKnight: nb_assault 
+[18:07:47] [Survivor] Sumee: nb_assault 
+[18:07:47] [Survivor] Yu Hin: nb_assault 
+[18:08:10] [Survivor] Sumee: nb_assault 
+[18:08:10] [Survivor] ShadowKnight: nb_assault 
+[18:08:12] [CN] 蓝丶龙<110><STEAM_1:1:631618115><> 加入游戏 (202.103.169.22)
+[18:08:13] [Unassigned] 蓝丶龙: vmodenable 1
+[18:08:13] [Unassigned] 蓝丶龙: vban 0
+[18:08:15] [Unassigned] 蓝丶龙: unpause 
+[18:08:20] [Spectator] 蓝丶龙: spec_mode 
+[18:08:20] [Spectator] 蓝丶龙: setpause 
+[18:08:22] 蓝丶龙<110><STEAM_1:1:631618115><> 离开游戏 (reason: Disconnect by user.)
+[18:08:30] [Survivor] Sumee: nb_assault 
+[18:08:31] [Survivor] Sumee: nb_assault 
+[18:08:31] [Survivor] Yu Hin: nb_assault 
+[18:08:42] [Survivor] Sumee: say !vote
+[18:08:42] [Survivor] Sumee: sm_vote 
+[18:08:45] [Survivor] Sumee: menuselect 4
+[18:08:46] [Survivor] Sumee: vote Yes
+[18:08:46] [Survivor] Sumee: menuselect 4
+[18:08:48] [Survivor] Yu Hin: vote Yes
+[18:08:48] [Survivor] Yu Hin: vote Yes
+[18:08:49] [Survivor] ShadowKnight: vote Yes
+[18:08:54] [Survivor] Yu Hin: nb_assault 
+[18:08:54] [Survivor] ShadowKnight: nb_assault 
+[18:08:54] [Survivor] Sumee: nb_assault 
+[18:08:58] [Survivor] ShadowKnight: vocalize PlayerAskReady #4848
+[18:08:59] [Survivor] ShadowKnight: vocalize PlayerLaugh #4856
+[18:09:00] [Survivor] ShadowKnight: vocalize PlayerAskReady #4864
+[18:09:16] [Survivor] ShadowKnight: nb_assault 
+[18:09:17] [Survivor] Yu Hin: nb_assault 
+[18:09:17] [Survivor] ShadowKnight: nb_assault 
+[18:09:17] [Survivor] Yu Hin: nb_assault 
+[18:09:36] [Survivor] Yu Hin: vocalize smartlook auto
+[18:09:36] [Survivor] Sumee: vocalize smartlook auto
+[18:09:40] [Survivor] Sumee: nb_assault 
+[18:09:40] [Survivor] ShadowKnight: vocalize smartlook auto
+[18:09:40] [Survivor] Yu Hin: nb_assault 
+[18:09:41] [Survivor] ShadowKnight: nb_assault 
+[18:10:03] [Survivor] ShadowKnight: nb_assault 
+[18:10:03] [Survivor] ShadowKnight: nb_assault 
+[18:10:10] [Survivor] ShadowKnight: vocalize PlayerAskReady #5560
+[18:10:10] [Survivor] ShadowKnight: vocalize PlayerAskReady #5568
+[18:10:27] [Survivor] Sumee: nb_assault 
+[18:10:27] [Survivor] ShadowKnight: nb_assault 
+[18:10:27] [Survivor] Yu Hin: nb_assault 
+[18:10:27] [CN] 蓝丶龙<143><STEAM_1:1:631618115><> 加入游戏 (202.103.169.22)
+[18:10:27] [Unassigned] 蓝丶龙: vmodenable 1
+[18:10:27] [Unassigned] 蓝丶龙: vban 0
+[18:10:28] [Survivor] Yu Hin: nb_assault 
+[18:10:29] [Unassigned] 蓝丶龙: unpause 
+[18:10:30] [Survivor] ShadowKnight: vocalize PlayerAskReady #5769
+[18:10:32] [Spectator] 蓝丶龙: setpause 
+[18:10:33] 蓝丶龙<143><STEAM_1:1:631618115><> 离开游戏 (reason: Disconnect by user.)
+[18:10:38] [Survivor] Sumee: vocalize PlayerTaunt #5847
+[18:10:45] [Survivor] Yu Hin: motd 
+--=================================================================--
+[28/01/2023 18:10:48] --- 回合结束: c2m1_highway ---
+--=================================================================--
+[18:10:49] [Survivor] Yu Hin: joingame 
+[18:10:50] [Survivor] Yu Hin: setpause 
+--=================================================================--
+[28/01/2023 18:10:50] --- 回合结束: c2m1_highway ---
+--=================================================================--
+[18:10:51] [Survivor] Sumee: say_team !vote
+[18:10:51] [Survivor] Sumee: sm_vote 
+--=================================================================--
+[28/01/2023 18:10:52] --- 回合开始: c2m1_highway ---
+--=================================================================--
+[18:10:55] [Survivor] ShadowKnight: setpause 
+[18:10:55] [Survivor] Sumee: menuselect 5
+[18:10:58] [Survivor] Sumee: menuselect 9
+[18:10:58] [Survivor] Sumee: menuselect 9
+[18:11:01] [Survivor] ShadowKnight: unpause 
+[18:11:01] [Survivor] Sumee: vote Yes
+[18:11:01] [Survivor] Sumee: menuselect 7
+[18:11:03] [Survivor] ShadowKnight: vocalize smartlook auto
+[18:11:03] [Survivor] ShadowKnight: vote Yes
+[18:11:05] [Survivor] Sumee: vocalize smartlook auto
+[18:11:09] [Survivor] Sumee: vocalize smartlook auto
+[18:11:09] [Survivor] ShadowKnight: vote Yes
+[18:11:18] [Spectator] Yu Hin: unpause 
+[18:11:19] [Spectator] Yu Hin: setpause 
+[18:11:20] [Spectator] Yu Hin: unpause 
+[18:11:26] [Survivor] ShadowKnight: vocalize smartlook auto
+[18:11:30] [Spectator] Yu Hin: say !join
+[18:11:30] [Spectator] Yu Hin: sm_join 
+[18:11:30] [Spectator] Yu Hin: jointeam survivor
+[18:11:32] [Survivor] ShadowKnight: vocalize smartlook auto
+[18:11:37] [Survivor] Yu Hin: nb_assault 
+[18:11:37] [Survivor] ShadowKnight: give pain_pills
+[18:11:37] [Survivor] ShadowKnight: give health
+[18:11:37] [Survivor] Sumee: give pain_pills
+[18:11:37] [Survivor] Sumee: give health
+[18:11:37] [Survivor] Yu Hin: give pain_pills
+[18:11:37] [Survivor] Yu Hin: give health
+[18:11:38] [Survivor] Sumee: nb_assault 
+[18:12:04] [Survivor] Sumee: nb_assault 
+[18:12:04] [Survivor] Sumee: nb_assault 
+[18:12:32] [Survivor] Yu Hin: nb_assault 
+[18:12:32] [Survivor] ShadowKnight: nb_assault 
+[18:12:32] [Survivor] Yu Hin: nb_assault 
+[18:12:53] [Survivor] Sumee: nb_assault 
+[18:12:53] [Survivor] Yu Hin: nb_assault 
+[18:13:24] [Survivor] Yu Hin: nb_assault 
+[18:13:24] [Survivor] Sumee: nb_assault 
+[18:13:24] [Survivor] Yu Hin: nb_assault 
+[18:13:49] [Survivor] Yu Hin: nb_assault 
+[18:13:49] [Survivor] ShadowKnight: nb_assault 
+[18:13:50] [Survivor] ShadowKnight: nb_assault 
+[18:13:50] [Survivor] Sumee: nb_assault 
+[18:13:58] [CN] ljx2304521200<170><STEAM_1:1:639108898><> 加入游戏 (120.230.214.27)
+[18:13:58] [Unassigned] ljx2304521200: vmodenable 1
+[18:13:58] [Survivor] ShadowKnight: vocalize PlayerAskReady #7847
+[18:14:00] [Survivor] Yu Hin: vocalize smartlook auto
+[18:14:01] [Unassigned] ljx2304521200: unpause 
+[18:14:11] [Survivor] ShadowKnight: nb_assault 
+[18:14:11] [Survivor] Yu Hin: nb_assault 
+[18:14:11] [Survivor] Yu Hin: vocalize smartlook auto
+[18:14:11] [Survivor] Yu Hin: nb_assault 
+[18:14:13] [Survivor] ShadowKnight: vocalize PlayerAskReady #7995
+[18:14:14] [Survivor] ShadowKnight: vocalize PlayerAskReady #8002
+[18:14:15] [Survivor] ShadowKnight: vocalize PlayerAskReady #8011
+[18:14:39] [Survivor] ShadowKnight: nb_assault 
+[18:14:39] [Survivor] Yu Hin: nb_assault 
+[18:14:51] [Spectator] ljx2304521200: say !jg
+[18:14:51] [Spectator] ljx2304521200: sm_jg 
+[18:14:51] [Spectator] ljx2304521200: jointeam survivor
+[18:15:00] [Survivor] Sumee: nb_assault 
+[18:15:01] [Spectator] ljx2304521200: say !jg
+[18:15:01] [Spectator] ljx2304521200: sm_jg 
+[18:15:01] [Spectator] ljx2304521200: jointeam survivor
+[18:15:02] [Survivor] Sumee: nb_assault 
+[18:15:03] [Survivor] ShadowKnight: vocalize PlayerAskReady #8496
+[18:15:04] [Survivor] Yu Hin: nb_assault 
+[18:15:17] [Spectator] ljx2304521200: spec_next 
+[18:15:18] [Spectator] ljx2304521200: spec_next 
+[18:15:19] [Spectator] ljx2304521200: spec_next 
+[18:15:19] [Survivor] ShadowKnight: vocalize PlayerLaugh #8655
+[18:15:22] [Spectator] ljx2304521200: spec_next 
+[18:15:23] [Spectator] ljx2304521200: spec_next 
+[18:15:23] [Spectator] ljx2304521200: spec_next 
+[18:15:24] [Survivor] Sumee: say_team !zs
+[18:15:24] [Survivor] Sumee: sm_zs 
+[18:15:24] [Spectator] ljx2304521200: spec_next 
+--=================================================================--
+[28/01/2023 18:15:25] --- 回合结束: c2m1_highway ---
+--=================================================================--
+--=================================================================--
+[28/01/2023 18:15:27] --- 回合结束: c2m1_highway ---
+--=================================================================--
+--=================================================================--
+[28/01/2023 18:15:28] --- 回合开始: c2m1_highway ---
+--=================================================================--
+[18:15:34] [Survivor] ShadowKnight: vocalize smartlook auto
+[18:15:35] [Survivor] Yu Hin: vocalize smartlook auto
+[18:15:36] [Survivor] Sumee: vocalize smartlook auto
+[18:15:37] [Survivor] Yu Hin: vocalize smartlook auto
+[18:15:38] [Spectator] ljx2304521200: say !jg
+[18:15:38] [Spectator] ljx2304521200: sm_jg 
+[18:15:38] [Spectator] ljx2304521200: jointeam survivor
+[18:15:46] [Survivor] Sumee: nb_assault 
+[18:15:46] [Survivor] ShadowKnight: give pain_pills
+[18:15:46] [Survivor] ShadowKnight: give health
+[18:15:46] [Survivor] Sumee: give pain_pills
+[18:15:46] [Survivor] Sumee: give health
+[18:15:46] [Survivor] Yu Hin: give pain_pills
+[18:15:46] [Survivor] Yu Hin: give health
+[18:15:47] [Survivor] Sumee: nb_assault 
+[18:15:48] [Survivor] ShadowKnight: nb_assault 
+[18:15:55] [Spectator] ljx2304521200: say shit
+[18:16:11] [Survivor] Sumee: nb_assault 
+[18:16:11] [Survivor] ShadowKnight: nb_assault 
+[18:16:11] [Survivor] Sumee: nb_assault 
+[18:16:12] [Survivor] Sumee: nb_assault 
+[18:16:14] [Survivor] ShadowKnight: vocalize PlayerTaunt #9200
+[18:16:15] [Survivor] ShadowKnight: vocalize PlayerAskReady #9205
+[18:16:15] [Survivor] ShadowKnight: vocalize PlayerThanks #9213
+[18:16:41] [Survivor] ShadowKnight: nb_assault 
+[18:16:41] [Survivor] Sumee: nb_assault 
+[18:16:46] [Survivor] Yu Hin: nb_assault 
+[18:17:03] [Survivor] ShadowKnight: vocalize PlayerLaugh #9686
+[18:17:04] [Survivor] ShadowKnight: vocalize PlayerAskReady #9696
+[18:17:11] [Survivor] ShadowKnight: nb_assault 
+[18:17:11] [Survivor] Sumee: nb_assault 
+[18:17:20] [Survivor] Sumee: nb_assault 
+[18:17:41] [Survivor] Sumee: nb_assault 
+[18:17:41] [Survivor] ShadowKnight: nb_assault 
+[18:17:41] [Survivor] Sumee: nb_assault 
+[18:18:00] [Survivor] Yu Hin: vocalize PlayerNegative #10257
+[18:18:11] [Survivor] Yu Hin: nb_assault 
+[18:18:12] [Spectator] ljx2304521200: say ?
+[18:18:12] [Survivor] Sumee: nb_assault 
+[18:18:12] [Survivor] ShadowKnight: nb_assault 
+[18:18:17] [Survivor] ShadowKnight: nb_assault 
+[18:18:24] [Survivor] ShadowKnight: vocalize smartlook auto
+[18:18:28] [Survivor] Yu Hin: vocalize PlayerAskReady #10541
+[18:18:41] [Survivor] Sumee: nb_assault 
+[18:18:41] [Survivor] ShadowKnight: nb_assault 
+[18:18:42] [Spectator] ljx2304521200: say 这么多人旁观吗
+[18:18:46] [Survivor] ShadowKnight: vocalize PlayerAskReady #10721
+[18:18:48] [Survivor] ShadowKnight: vocalize PlayerAskReady #10736
+[18:18:48] [Survivor] Yu Hin: nb_assault 
+[18:18:52] [Survivor] ShadowKnight: vocalize PlayerAskReady #10782
+[18:18:53] [Survivor] ShadowKnight: vocalize PlayerTaunt #10788
+[18:18:54] [Survivor] ShadowKnight: vocalize PlayerAskReady #10795
+[18:19:12] [Survivor] Sumee: vocalize smartlook auto
+[18:19:13] [Survivor] ShadowKnight: nb_assault 
+[18:19:14] [Survivor] ShadowKnight: vocalize smartlook auto
+[18:19:23] [Survivor] Yu Hin: vocalize smartlook auto
+[18:19:40] [Survivor] ShadowKnight: nb_assault 
+[18:19:41] [Survivor] Sumee: nb_assault 
+[18:19:44] [Survivor] ShadowKnight: vocalize PlayerYes #11301
+[18:19:45] [Survivor] ShadowKnight: nb_assault 
+[18:19:56] [Survivor] Sumee: vocalize smartlook auto
+[18:20:06] [Survivor] ShadowKnight: vocalize smartlook auto
+[18:20:09] [Survivor] Yu Hin: vocalize smartlook auto
+[18:20:10] [Survivor] ShadowKnight: nb_assault 
+[18:20:11] [Survivor] Yu Hin: nb_assault 
+[18:20:12] [Survivor] Yu Hin: nb_assault 
+[18:20:35] [Spectator] ljx2304521200: say 这难度太大了
+[18:20:35] [Survivor] Sumee: say_team !zs
+[18:20:35] [Survivor] Sumee: sm_zs 
+--=================================================================--
+[28/01/2023 18:20:36] --- 回合结束: c2m1_highway ---
+--=================================================================--
+--=================================================================--
+[28/01/2023 18:20:38] --- 回合结束: c2m1_highway ---
+--=================================================================--
+--=================================================================--
+[28/01/2023 18:20:39] --- 回合开始: c2m1_highway ---
+--=================================================================--
+[18:20:45] [Spectator] ljx2304521200: spec_next 
+[18:20:46] [Spectator] ljx2304521200: spec_next 
+[18:20:46] [Spectator] ljx2304521200: spec_next 
+[18:20:48] [Survivor] Yu Hin: vocalize smartlook auto
+[18:20:50] [Survivor] ShadowKnight: give pain_pills
+[18:20:50] [Survivor] ShadowKnight: give health
+[18:20:50] [Survivor] Sumee: give pain_pills
+[18:20:50] [Survivor] Sumee: give health
+[18:20:50] [Survivor] Yu Hin: give pain_pills
+[18:20:50] [Survivor] Yu Hin: give health
+[18:20:51] [Survivor] Sumee: nb_assault 
+[18:20:51] [Survivor] Yu Hin: nb_assault 
+[18:20:52] [Survivor] Yu Hin: nb_assault 
+[18:20:52] [Survivor] Yu Hin: nb_assault 
+[18:20:57] [Survivor] ShadowKnight: vocalize PlayerAskReady #12029
+[18:20:58] [Survivor] ShadowKnight: vocalize PlayerAskReady #12035
+[18:21:18] [Survivor] ShadowKnight: nb_assault 
+[18:21:18] [Survivor] ShadowKnight: nb_assault 
+[18:21:18] [Survivor] Sumee: nb_assault 
+[18:21:18] [Survivor] Sumee: nb_assault 
+[18:21:46] [Survivor] Yu Hin: nb_assault 
+[18:21:47] [Survivor] Yu Hin: nb_assault 
+[18:21:47] [Survivor] Yu Hin: nb_assault 
+[18:22:03] [Survivor] ShadowKnight: vocalize PlayerAskReady #12687
+[18:22:15] [Spectator] ljx2304521200: spec_mode 
+[18:22:17] [Survivor] Yu Hin: nb_assault 
+[18:22:17] [Survivor] Sumee: nb_assault 
+[18:22:18] [Survivor] Yu Hin: nb_assault 
+[18:22:18] [Spectator] ljx2304521200: spec_next 
+[18:22:19] [Spectator] ljx2304521200: spec_next 
+[18:22:20] [Spectator] ljx2304521200: spec_prev 
+[18:22:21] [Spectator] ljx2304521200: spec_next 
+[18:22:24] [Survivor] ShadowKnight: vocalize PlayerHurrah #12896
+[18:22:25] [Survivor] ShadowKnight: vocalize PlayerAskReady #12904
+[18:22:30] [Survivor] Yu Hin: vocalize PlayerAskReady #12951
+[18:22:39] [Survivor] ShadowKnight: vocalize PlayerLaugh #13042
+[18:22:42] [Survivor] Yu Hin: vocalize PlayerAskReady #13072
+[18:22:42] [Survivor] Yu Hin: vocalize PlayerAskReady #13076
+--=================================================================--
+[28/01/2023 18:22:42] --- 回合结束: c2m1_highway ---
+--=================================================================--
+[18:22:43] [Survivor] Yu Hin: vocalize PlayerTaunt #13082
+--=================================================================--
+[28/01/2023 18:22:44] --- 回合结束: c2m1_highway ---
+--=================================================================--
+--=================================================================--
+[28/01/2023 18:22:46] --- 回合开始: c2m1_highway ---
+--=================================================================--
+[18:22:54] [Survivor] Yu Hin: vocalize smartlook auto
+[18:22:55] [Survivor] Yu Hin: vocalize smartlook auto
+[18:22:55] [Survivor] ShadowKnight: give pain_pills
+[18:22:55] [Survivor] ShadowKnight: give health
+[18:22:55] [Survivor] Sumee: give pain_pills
+[18:22:55] [Survivor] Sumee: give health
+[18:22:55] [Survivor] Yu Hin: give pain_pills
+[18:22:55] [Survivor] Yu Hin: give health
+[18:22:56] [Survivor] Yu Hin: nb_assault 
+[18:22:56] [Survivor] Sumee: nb_assault 
+[18:22:56] [Survivor] Yu Hin: vocalize smartlook auto
+[18:22:57] [Survivor] Yu Hin: nb_assault 
+[18:22:57] [Survivor] Yu Hin: nb_assault 
+[18:23:05] [Spectator] ljx2304521200: say 真有毅力
+[18:23:19] [Survivor] ShadowKnight: nb_assault 
+[18:23:19] [Survivor] ShadowKnight: nb_assault 
+[18:23:44] [Survivor] ShadowKnight: nb_assault 
+[18:23:45] [Survivor] Sumee: nb_assault 
+[18:23:45] [Survivor] Sumee: nb_assault 
+[18:23:46] [Spectator] ljx2304521200: say !join
+[18:23:46] [Spectator] ljx2304521200: sm_join 
+[18:23:46] [Spectator] ljx2304521200: jointeam survivor
+[18:23:52] [Survivor] ShadowKnight: vocalize PlayerAskReady #13773
+[18:23:52] [Survivor] ShadowKnight: vocalize PlayerNegative #13776
+[18:23:53] [Survivor] ShadowKnight: vocalize PlayerAskReady #13783
+[18:23:54] [Survivor] ShadowKnight: vocalize PlayerAskReady #13793
+[18:24:15] [Survivor] Sumee: nb_assault 
+[18:24:15] [Survivor] Sumee: nb_assault 
+[18:24:15] [Survivor] Yu Hin: nb_assault 
+[18:24:24] [Spectator] ljx2304521200: setpause 
+[18:24:29] [Spectator] ljx2304521200: cl 
+[18:24:36] [Survivor] ShadowKnight: nb_assault 
+[18:24:36] [Survivor] ShadowKnight: nb_assault 
+[18:24:36] [Survivor] ShadowKnight: nb_assault 
+[18:24:51] [Spectator] ljx2304521200: unpause 
+[18:24:59] [Survivor] Yu Hin: vocalize smartlook auto
+[18:25:02] [Survivor] Yu Hin: nb_assault 
+[18:25:02] [Survivor] Yu Hin: nb_assault 
+[18:25:33] [Survivor] Sumee: nb_assault 
+[18:25:33] [Survivor] Yu Hin: nb_assault 
+[18:25:46] [Survivor] ShadowKnight: vocalize smartlook auto
+[18:25:46] [Survivor] Yu Hin: vocalize smartlook auto
+[18:25:47] [Spectator] ljx2304521200: say !tank
+[18:25:47] [Spectator] ljx2304521200: sm_tank 
+[18:25:47] [Spectator] ljx2304521200: say /current
+[18:25:47] [Spectator] ljx2304521200: sm_current 
+[18:25:47] [Survivor] Sumee: vocalize smartlook auto
+[18:25:59] [Survivor] Sumee: nb_assault 
+[18:25:59] [Survivor] Sumee: nb_assault 
+[18:25:59] [Survivor] ShadowKnight: nb_assault 
+[18:26:01] [Survivor] Sumee: vocalize smartlook auto
+[18:26:09] [Survivor] Sumee: vocalize PlayerTaunt #15146
+[18:26:30] [Survivor] Yu Hin: nb_assault 
+[18:26:30] [Survivor] Sumee: nb_assault 
+[18:26:30] [Survivor] Yu Hin: nb_assault 
+--=================================================================--
+[28/01/2023 18:26:32] --- 回合结束: c2m1_highway ---
+--=================================================================--
+[18:26:33] [Survivor] Sumee: setpause 
+--=================================================================--
+[28/01/2023 18:26:34] --- 回合结束: c2m1_highway ---
+--=================================================================--
+--=================================================================--
+[28/01/2023 18:26:35] --- 回合开始: c2m1_highway ---
+--=================================================================--
+[18:26:38] Sumee<3><STEAM_1:0:186835291><> 离开游戏 (reason: Disconnect by user.)
+[18:26:39] [Survivor] Yu Hin: setpause 
+[18:26:39] [Survivor] ShadowKnight: setpause 
+[18:26:40] [Survivor] Yu Hin: unpause 
+[18:26:40] [Survivor] Yu Hin: setpause 
+[18:26:41] [Survivor] Yu Hin: vocalize smartlook auto
+[18:26:42] ShadowKnight<17><STEAM_1:1:155664100><> 离开游戏 (reason: Disconnect by user.)
+[18:26:43] Yu Hin<33><STEAM_1:0:565072325><> 离开游戏 (reason: Disconnect by user.)
+[18:27:07] [CN] 蓝丶龙<297><STEAM_1:1:631618115><> 加入游戏 (202.103.169.22)
+[18:27:08] [Unassigned] 蓝丶龙: vmodenable 1
+[18:27:08] [Unassigned] 蓝丶龙: vban 0
+[18:27:08] [Spectator] ljx2304521200: say !dance
+[18:27:08] [Spectator] ljx2304521200: sm_dance 
+[18:27:09] [Unassigned] 蓝丶龙: unpause 
+[18:27:13] [Spectator] ljx2304521200: menuselect 4
+[18:27:13] [Spectator] 蓝丶龙: spec_prev 
+[18:27:14] [Spectator] 蓝丶龙: setpause 
+[18:27:15] 蓝丶龙<297><STEAM_1:1:631618115><> 离开游戏 (reason: Disconnect by user.)
+[18:27:17] [Spectator] ljx2304521200: menuselect 6
+[18:27:26] [Spectator] ljx2304521200: spec_next 
+[18:27:27] [Spectator] ljx2304521200: spec_next 
+[18:27:27] [Spectator] ljx2304521200: spec_next 
+[18:27:29] [Spectator] ljx2304521200: spec_next 
+[18:27:30] [Spectator] ljx2304521200: spec_next 
+[18:27:36] [Spectator] ljx2304521200: say !jg
+[18:27:36] [Spectator] ljx2304521200: sm_jg 
+[18:27:36] [Spectator] ljx2304521200: jointeam survivor
+[18:27:40] [Spectator] ljx2304521200: setpause 
+[18:27:41] [Spectator] ljx2304521200: unpause 
+[18:27:42] [Spectator] ljx2304521200: setpause 
+[18:27:44] ljx2304521200<170><STEAM_1:1:639108898><> 离开游戏 (reason: Disconnect by user.)
+--=================================================================--
+[28/01/2023 18:28:11] --- 回合开始: c2m1_highway ---
+--=================================================================--
+--=================================================================--
+[28/01/2023 18:28:11] --- 地图开始: c2m1_highway ---
+--=================================================================--
+--=================================================================--
+[28/01/2023 23:12:48] --- 地图结束: c2m1_highway ---
+--=================================================================--
+--=================================================================--
+[28/01/2023 23:12:50] --- 回合开始: c2m1_highway ---
+--=================================================================--
+--=================================================================--
+[28/01/2023 23:12:50] --- 地图开始: c2m1_highway ---
+--=================================================================--
+[23:13:06] [CN] 23℃<2><STEAM_1:0:246466989><> 加入游戏 (223.149.53.89)
+[23:13:08] [Unassigned] 23℃: vmodenable 1
+[23:13:08] [Unassigned] 23℃: vban 0
+[23:13:11] [Infected] 23℃: unpause 
+[23:13:25] [Infected] 23℃: say /jg
+[23:13:25] [Infected] 23℃: sm_jg 
+[23:13:25] [Infected] 23℃: jointeam survivor
+[23:13:26] [Survivor] 23℃: vocalize smartlook auto
+[23:13:30] [Survivor] 23℃: vocalize smartlook auto
+[23:14:02] [Survivor] 23℃: vocalize smartlook auto
+[23:14:21] [Survivor] 23℃: vocalize smartlook auto
+[23:14:28] [Survivor] 23℃: say !xx
+[23:14:50] [Survivor] 23℃: say /match
+[23:14:50] [Survivor] 23℃: sm_match 
+[23:15:01] [Survivor] 23℃: menuselect 9
+[23:15:02] [Survivor] 23℃: menuselect 8
+[23:15:04] [Survivor] 23℃: menuselect 2
+[23:15:04] [Survivor] 23℃: vote Yes
+[23:15:04] [Survivor] 23℃: menuselect 1
+--=================================================================--
+[28/01/2023 23:15:06] --- 地图开始: c2m1_highway ---
+--=================================================================--
+--=================================================================--
+[28/01/2023 23:15:09] --- 地图结束: c2m1_highway ---
+--=================================================================--
+--=================================================================--
+[28/01/2023 23:15:11] --- 回合开始: c2m1_highway ---
+--=================================================================--
+--=================================================================--
+[28/01/2023 23:15:11] --- 地图开始: c2m1_highway ---
+--=================================================================--
+[23:15:24] [CN] 23℃<2><STEAM_1:0:246466989><> 加入游戏 (223.149.53.89)
+[23:15:25] [Unassigned] 23℃: unpause 
+[23:15:25] [Unassigned] 23℃: vmodenable 1
+[23:15:25] [Unassigned] 23℃: vban 0
+[23:16:52] [Survivor] 23℃: vote Yes
+[23:17:09] [Survivor] 23℃: say /inf
+[23:17:09] [Survivor] 23℃: sm_inf 
+[23:17:09] [Survivor] 23℃: jointeam infected
+[23:17:41] [Infected] 23℃: say /jg
+[23:17:41] [Infected] 23℃: sm_jg 
+[23:17:41] [Infected] 23℃: jointeam survivor
+[23:18:03] [Survivor] 23℃: sm_admin 
+[23:18:06] [Survivor] 23℃: menuselect 4
+[23:18:07] [Survivor] 23℃: sm_admin 
+[23:18:07] [Survivor] 23℃: menuselect 1
+[23:18:09] [Survivor] 23℃: menuselect 9
+[23:18:10] [Survivor] 23℃: menuselect 9
+[23:18:12] [Survivor] 23℃: menuselect 3
+[23:18:14] [Survivor] 23℃: menuselect 1
+[23:18:16] [Survivor] 23℃: menuselect 1
+[23:18:16] [Survivor] 23℃: menuselect 1
+[23:18:17] [Survivor] 23℃: menuselect 1
+[23:18:18] [Survivor] 23℃: menuselect 1
+[23:18:28] [Survivor] 23℃: menuselect 1
+[23:18:38] [Survivor] 23℃: say /inf
+[23:18:38] [Survivor] 23℃: sm_inf 
+[23:18:38] [Survivor] 23℃: jointeam infected
+--=================================================================--
+[28/01/2023 23:19:42] --- 回合结束: c2m1_highway ---
+--=================================================================--
+--=================================================================--
+[28/01/2023 23:19:57] --- 回合结束: c2m1_highway ---
+--=================================================================--
+--=================================================================--
+[28/01/2023 23:19:59] --- 回合开始: c2m1_highway ---
+--=================================================================--
+[23:20:02] [Survivor] 23℃: menuselect 1
+[23:20:07] [Survivor] 23℃: menuselect 1
+[23:20:07] [Survivor] 23℃: menuselect 1
+[23:20:08] [Survivor] 23℃: menuselect 1
+[23:20:09] [Survivor] 23℃: menuselect 1
+[23:20:12] [Survivor] 23℃: menuselect 1
+[23:20:13] [Survivor] 23℃: menuselect 1
+[23:20:14] [Survivor] 23℃: menuselect 1
+[23:20:14] [Survivor] 23℃: menuselect 1
+[23:20:15] [Survivor] 23℃: menuselect 1
+[23:20:35] [Survivor] 23℃: choose_opendoor 
+[23:20:35] [Survivor] 23℃: choose_opendoor 
+[23:20:49] [Survivor] 23℃: say /vote
+[23:20:49] [Survivor] 23℃: sm_vote 
+[23:20:56] [Survivor] 23℃: menuselect 7
+[23:20:59] [Survivor] 23℃: vote Yes
+[23:20:59] [Survivor] 23℃: menuselect 3
+[23:21:17] [Survivor] 23℃: vocalize smartlook auto
+[23:22:02] [Survivor] 23℃: say /match
+[23:22:02] [Survivor] 23℃: sm_match 
+[23:22:03] [Survivor] 23℃: menuselect 1
+[23:22:04] [Survivor] 23℃: menuselect 1
+[23:22:07] [Survivor] 23℃: say /rmatch
+[23:22:07] [Survivor] 23℃: sm_rmatch 
+[23:22:07] [Survivor] 23℃: vote Yes
+--=================================================================--
+[28/01/2023 23:22:08] --- 地图开始: c2m1_highway ---
+--=================================================================--
+[23:22:10] [Survivor] 23℃: menuselect 1
+[23:22:13] [Survivor] 23℃: say /match
+[23:22:13] [Survivor] 23℃: sm_match 
+[23:22:14] [Survivor] 23℃: menuselect 1
+[23:22:14] [Survivor] 23℃: vote Yes
+[23:22:14] [Survivor] 23℃: menuselect 1
+--=================================================================--
+[28/01/2023 23:22:15] --- 地图开始: c2m1_highway ---
+--=================================================================--
+--=================================================================--
+[28/01/2023 23:22:18] --- 地图结束: c2m1_highway ---
+--=================================================================--
+--=================================================================--
+[28/01/2023 23:22:20] --- 回合开始: c2m1_highway ---
+--=================================================================--
+--=================================================================--
+[28/01/2023 23:22:20] --- 地图开始: c2m1_highway ---
+--=================================================================--
+[23:22:34] [CN] 23℃<2><STEAM_1:0:246466989><> 加入游戏 (223.149.53.89)
+[23:22:36] [Unassigned] 23℃: unpause 
+[23:22:36] [Unassigned] 23℃: vmodenable 1
+[23:22:36] [Unassigned] 23℃: vban 0
+[23:22:42] [Spectator] 23℃: say /jg
+[23:22:42] [Spectator] 23℃: sm_jg 
+[23:22:42] [Spectator] 23℃: jointeam survivor
+[23:22:55] [Survivor] 23℃: vocalize smartlook auto
+[23:23:25] 23℃<2><STEAM_1:0:246466989><> 离开游戏 (reason: Disconnect by user.)
+--=================================================================--
+[28/01/2023 23:24:00] --- 回合开始: c2m1_highway ---
+--=================================================================--
+--=================================================================--
+[28/01/2023 23:24:00] --- 地图开始: c2m1_highway ---
+--=================================================================--
+--=================================================================--
+[29/01/2023 17:32:45] --- 地图结束: c2m1_highway ---
+--=================================================================--
+--=================================================================--
+[29/01/2023 17:32:47] --- 回合开始: c2m1_highway ---
+--=================================================================--

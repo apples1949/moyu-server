@@ -1,0 +1,78 @@
+L 01/15/2023 - 16:23:00: SourceMod error session started
+L 01/15/2023 - 16:23:00: Info (map "c8m5_rooftop") (file "/root/Steam/steamapps/common/Left 4 Dead 2 Dedicated Server/left4dead2/addons/sourcemod3/logs/errors_20230115.log")
+L 01/15/2023 - 16:23:00: [SM] Exception reported: Unable to load file: addons/sourcemod/data/steamsforaddons.txt
+L 01/15/2023 - 16:23:00: [SM] Blaming: l4d2_addonsmanager.smx
+L 01/15/2023 - 16:23:00: [SM] Call stack trace:
+L 01/15/2023 - 16:23:00: [SM]   [0] SetFailState
+L 01/15/2023 - 16:23:00: [SM]   [1] Line 238, E:\DownLoading\beifen\sourcemod-1.11.0-git6826-windows\addons\sourcemod\scripting\l4d2_addonsmanager.sp::LoadSteamIDWhiteList
+L 01/15/2023 - 16:23:00: [SM]   [2] Line 27, E:\DownLoading\beifen\sourcemod-1.11.0-git6826-windows\addons\sourcemod\scripting\l4d2_addonsmanager.sp::OnPluginStart
+L 01/15/2023 - 16:23:00: [SM] Unable to load plugin "l4d2_addonsmanager.smx": Error detected in plugin startup (see error logs)
+L 01/15/2023 - 16:23:08: [SM] Plugin "confogl_autoloader.smx" encountered error 23: Native detected error
+L 01/15/2023 - 16:23:08: [SM] Invalid data handle 0 (error 4) passed during timer end with TIMER_DATA_HNDL_CLOSE
+L 01/15/2023 - 16:23:08: [SM] Unable to call function "ExecuteConfig" due to above error(s).
+L 01/15/2023 - 16:23:08: [SM] Exception reported: Invalid client index 0
+L 01/15/2023 - 16:23:08: [SM] Blaming: confoglcompmod.smx
+L 01/15/2023 - 16:23:08: [SM] Call stack trace:
+L 01/15/2023 - 16:23:08: [SM]   [0] ThrowError
+L 01/15/2023 - 16:23:08: [SM]   [1] Line 64, C:\Users\Administrator\Desktop\SPCode.Portable\sourcepawn\configs\sm_1_10_0_6478\include\colors.inc::CPrintToChat
+L 01/15/2023 - 16:23:08: [SM]   [2] Line 240, modules/ReqMatch.sp::RM_Cmd_ForceMatch
+L 01/15/2023 - 16:24:04: Error log file session closed.
+L 01/15/2023 - 16:24:09: SourceMod error session started
+L 01/15/2023 - 16:24:09: Info (map "c8m5_rooftop") (file "/root/Steam/steamapps/common/Left 4 Dead 2 Dedicated Server/left4dead2/addons/sourcemod3/logs/errors_20230115.log")
+L 01/15/2023 - 16:24:09: [SM] Plugin "confogl_autoloader.smx" encountered error 23: Native detected error
+L 01/15/2023 - 16:24:09: [SM] Invalid data handle 0 (error 4) passed during timer end with TIMER_DATA_HNDL_CLOSE
+L 01/15/2023 - 16:24:09: [SM] Unable to call function "ExecuteConfig" due to above error(s).
+L 01/15/2023 - 16:24:09: [SM] Exception reported: Invalid client index 0
+L 01/15/2023 - 16:24:09: [SM] Blaming: confoglcompmod.smx
+L 01/15/2023 - 16:24:09: [SM] Call stack trace:
+L 01/15/2023 - 16:24:09: [SM]   [0] ThrowError
+L 01/15/2023 - 16:24:09: [SM]   [1] Line 64, C:\Users\Administrator\Desktop\SPCode.Portable\sourcepawn\configs\sm_1_10_0_6478\include\colors.inc::CPrintToChat
+L 01/15/2023 - 16:24:09: [SM]   [2] Line 240, modules/ReqMatch.sp::RM_Cmd_ForceMatch
+L 01/15/2023 - 16:24:59: SourceMod error session started
+L 01/15/2023 - 16:24:59: Info (map "c8m5_rooftop") (file "/root/Steam/steamapps/common/Left 4 Dead 2 Dedicated Server/left4dead2/addons/sourcemod3/logs/errors_20230115.log")
+L 01/15/2023 - 16:24:59: [SM] Exception reported: Unable to load file: addons/sourcemod/data/steamsforaddons.txt
+L 01/15/2023 - 16:24:59: [SM] Blaming: l4d2_addonsmanager.smx
+L 01/15/2023 - 16:24:59: [SM] Call stack trace:
+L 01/15/2023 - 16:24:59: [SM]   [0] SetFailState
+L 01/15/2023 - 16:24:59: [SM]   [1] Line 238, E:\DownLoading\beifen\sourcemod-1.11.0-git6826-windows\addons\sourcemod\scripting\l4d2_addonsmanager.sp::LoadSteamIDWhiteList
+L 01/15/2023 - 16:24:59: [SM]   [2] Line 27, E:\DownLoading\beifen\sourcemod-1.11.0-git6826-windows\addons\sourcemod\scripting\l4d2_addonsmanager.sp::OnPluginStart
+L 01/15/2023 - 16:24:59: [SM] Unable to load plugin "l4d2_addonsmanager.smx": Error detected in plugin startup (see error logs)
+L 01/15/2023 - 16:25:07: [SM] Plugin "confogl_autoloader.smx" encountered error 23: Native detected error
+L 01/15/2023 - 16:25:07: [SM] Invalid data handle 0 (error 4) passed during timer end with TIMER_DATA_HNDL_CLOSE
+L 01/15/2023 - 16:25:07: [SM] Unable to call function "ExecuteConfig" due to above error(s).
+L 01/15/2023 - 16:25:07: [SM] Exception reported: Invalid client index 0
+L 01/15/2023 - 16:25:07: [SM] Blaming: confoglcompmod.smx
+L 01/15/2023 - 16:25:07: [SM] Call stack trace:
+L 01/15/2023 - 16:25:07: [SM]   [0] ThrowError
+L 01/15/2023 - 16:25:07: [SM]   [1] Line 64, C:\Users\Administrator\Desktop\SPCode.Portable\sourcepawn\configs\sm_1_10_0_6478\include\colors.inc::CPrintToChat
+L 01/15/2023 - 16:25:07: [SM]   [2] Line 240, modules/ReqMatch.sp::RM_Cmd_ForceMatch
+L 01/15/2023 - 22:20:42: Error log file session closed.
+L 01/15/2023 - 22:20:48: SourceMod error session started
+L 01/15/2023 - 22:20:48: Info (map "c8m5_rooftop") (file "/root/Steam/steamapps/common/Left 4 Dead 2 Dedicated Server/left4dead2/addons/sourcemod3/logs/errors_20230115.log")
+L 01/15/2023 - 22:20:48: [SM] Plugin "confogl_autoloader.smx" encountered error 23: Native detected error
+L 01/15/2023 - 22:20:48: [SM] Invalid data handle 0 (error 4) passed during timer end with TIMER_DATA_HNDL_CLOSE
+L 01/15/2023 - 22:20:48: [SM] Unable to call function "ExecuteConfig" due to above error(s).
+L 01/15/2023 - 22:20:48: [SM] Exception reported: Invalid client index 0
+L 01/15/2023 - 22:20:48: [SM] Blaming: confoglcompmod.smx
+L 01/15/2023 - 22:20:48: [SM] Call stack trace:
+L 01/15/2023 - 22:20:48: [SM]   [0] ThrowError
+L 01/15/2023 - 22:20:48: [SM]   [1] Line 64, C:\Users\Administrator\Desktop\SPCode.Portable\sourcepawn\configs\sm_1_10_0_6478\include\colors.inc::CPrintToChat
+L 01/15/2023 - 22:20:48: [SM]   [2] Line 240, modules/ReqMatch.sp::RM_Cmd_ForceMatch
+L 01/15/2023 - 22:21:21: SourceMod error session started
+L 01/15/2023 - 22:21:21: Info (map "c8m5_rooftop") (file "/root/Steam/steamapps/common/Left 4 Dead 2 Dedicated Server/left4dead2/addons/sourcemod3/logs/errors_20230115.log")
+L 01/15/2023 - 22:21:21: [SM] Exception reported: Unable to load file: addons/sourcemod/data/steamsforaddons.txt
+L 01/15/2023 - 22:21:21: [SM] Blaming: l4d2_addonsmanager.smx
+L 01/15/2023 - 22:21:21: [SM] Call stack trace:
+L 01/15/2023 - 22:21:21: [SM]   [0] SetFailState
+L 01/15/2023 - 22:21:21: [SM]   [1] Line 238, E:\DownLoading\beifen\sourcemod-1.11.0-git6826-windows\addons\sourcemod\scripting\l4d2_addonsmanager.sp::LoadSteamIDWhiteList
+L 01/15/2023 - 22:21:21: [SM]   [2] Line 27, E:\DownLoading\beifen\sourcemod-1.11.0-git6826-windows\addons\sourcemod\scripting\l4d2_addonsmanager.sp::OnPluginStart
+L 01/15/2023 - 22:21:21: [SM] Unable to load plugin "l4d2_addonsmanager.smx": Error detected in plugin startup (see error logs)
+L 01/15/2023 - 22:21:30: [SM] Plugin "confogl_autoloader.smx" encountered error 23: Native detected error
+L 01/15/2023 - 22:21:30: [SM] Invalid data handle 0 (error 4) passed during timer end with TIMER_DATA_HNDL_CLOSE
+L 01/15/2023 - 22:21:30: [SM] Unable to call function "ExecuteConfig" due to above error(s).
+L 01/15/2023 - 22:21:30: [SM] Exception reported: Invalid client index 0
+L 01/15/2023 - 22:21:30: [SM] Blaming: confoglcompmod.smx
+L 01/15/2023 - 22:21:30: [SM] Call stack trace:
+L 01/15/2023 - 22:21:30: [SM]   [0] ThrowError
+L 01/15/2023 - 22:21:30: [SM]   [1] Line 64, C:\Users\Administrator\Desktop\SPCode.Portable\sourcepawn\configs\sm_1_10_0_6478\include\colors.inc::CPrintToChat
+L 01/15/2023 - 22:21:30: [SM]   [2] Line 240, modules/ReqMatch.sp::RM_Cmd_ForceMatch

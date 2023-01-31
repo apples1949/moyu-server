@@ -1,0 +1,35 @@
+"Games"
+{
+	"left4dead2"
+	{
+		"Addresses"
+        {
+            "FuncAddr"
+            {
+				"signature" "Patch"
+			}
+		}
+		"Offsets"
+		{
+			"PatchAddr"
+			{
+				"windows" "2346‬"
+				"linux"	"2334‬‬"
+			}
+			
+			"PatchCount"
+			{
+				"windows" "8"
+				"linux"	"4‬"
+			}
+		}
+		"Signatures"
+		{
+			"Patch"
+			{
+				"linux"			"@_ZN13CTerrorPlayer18OnTakeDamage_AliveERK15CTakeDamageInfo"
+				"windows"	 	"\x55\x8B\xEC\x81\xEC\x8C\x00\x00\x00\x53\x8B\x5D\x08"
+			}
+		}
+	}
+}

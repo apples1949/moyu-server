@@ -1,0 +1,37 @@
+﻿"Phrases"
+{
+	"speclisten_ad"
+	{
+		"en"		"{orange}<Speclistener> {olive}Spec type {orange}!hear {olive}off Speclistener. (default on)"
+		"chi"		"{orange}<Speclisten> {olive}旁观者输入 {orange}!hear {olive}可关闭监听模式{default}（默认开启）。"
+	}
+	"speclisten_On"
+	{
+		"en"		"{olive}[SpecListner] {default}Speclistener {orange}turns on"
+		"chi"		"{olive}[SpecListner] {default}监听 {orange}已启用"
+	}
+
+	"speclisten_Off"
+	{
+		"en"		"{olive}[SpecListner] {default}Speclistener {red}turns off"
+		"chi"		"{olive}[SpecListner] {default}监听 {red}已禁用"
+	}
+
+	"tittle_mode"
+	{
+		"en"		"Turn on Speclistener?"
+		"chi"		"是否打开监听模式？"
+	}
+
+	"select_on"
+	{
+		"en"		"yes"
+		"chi"		"是"
+	}
+
+	"select_off"
+	{
+		"en"		"no"
+		"chi"		"否"
+	}
+}

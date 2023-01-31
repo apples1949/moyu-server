@@ -1,0 +1,186 @@
+L 12/11/2022 - 14:28:14: SourceMod error session started
+L 12/11/2022 - 14:28:14: Info (map "c2m1_highway") (file "/root/Steam/steamapps/common/Left 4 Dead 2 Dedicated Server/left4dead2/addons/sourcemod/logs/errors_20221211.log")
+L 12/11/2022 - 14:28:14: [SM] Exception reported: Failed to create native "L4D2_IsMapDataAvailable", name is probably already in use
+L 12/11/2022 - 14:28:14: [SM] Blaming: optional/scavogl/l4d2lib.smx
+L 12/11/2022 - 14:28:14: [SM] Call stack trace:
+L 12/11/2022 - 14:28:14: [SM]   [0] CreateNative
+L 12/11/2022 - 14:28:14: [SM]   [1] Line 50, C:\Users\user\repos\misc-sourcemod-plugins\l4d2lib\l4d2lib.sp::AskPluginLoad2
+L 12/11/2022 - 14:28:14: [SM] Exception reported: Charger Chest Bump Offset or signature seems incorrect
+L 12/11/2022 - 14:28:14: [SM] Blaming: optional/scavogl/charger_chestbump_fix.smx
+L 12/11/2022 - 14:28:14: [SM] Call stack trace:
+L 12/11/2022 - 14:28:14: [SM]   [0] SetFailState
+L 12/11/2022 - 14:28:14: [SM]   [1] Line 131, C:\Users\Jacob\Desktop\l4d2dev\myplugins\charger_chestbump_fix.sp::FindPatchTarget
+L 12/11/2022 - 14:28:14: [SM]   [2] Line 30, C:\Users\Jacob\Desktop\l4d2dev\myplugins\charger_chestbump_fix.sp::OnPluginStart
+L 12/11/2022 - 14:28:14: [SM] Exception reported: Simple Chat Processor is not loaded. It is required for this plugin to work.
+L 12/11/2022 - 14:28:14: [SM] Blaming: optional/scavogl/l4d2_selfmute.smx
+L 12/11/2022 - 14:28:14: [SM] Call stack trace:
+L 12/11/2022 - 14:28:14: [SM]   [0] SetFailState
+L 12/11/2022 - 14:28:14: [SM]   [1] Line 60, l4d2_selfmute.sp::OnAllPluginsLoaded
+L 12/11/2022 - 14:28:14: [confoglcompmod.smx] [Confogl] CvarSettings: Could not find CVar specified (l4d_ready_survivor_freeze)
+L 12/11/2022 - 14:28:14: [confoglcompmod.smx] [Confogl] CvarSettings: Could not find CVar specified (l4d_ready_delay)
+L 12/11/2022 - 14:28:14: [confoglcompmod.smx] [Confogl] CvarSettings: Could not find CVar specified (l4d_ready_enable_sound)
+L 12/11/2022 - 14:28:14: [confoglcompmod.smx] [Confogl] CvarSettings: Could not find CVar specified (l4d_ready_chuckle)
+L 12/11/2022 - 14:28:14: [confoglcompmod.smx] [Confogl] CvarSettings: Could not find CVar specified (l4d_ready_live_sound)
+L 12/11/2022 - 14:28:14: [confoglcompmod.smx] [Confogl] CvarSettings: Could not find CVar specified (confogl_ghost_warp)
+L 12/11/2022 - 14:28:14: [confoglcompmod.smx] [Confogl] CvarSettings: Could not find CVar specified (confogl_ghost_warp_reload)
+L 12/11/2022 - 14:28:14: [confoglcompmod.smx] [Confogl] CvarSettings: Could not find CVar specified (l4d_obey_boss_spawn_cvars)
+L 12/11/2022 - 14:28:14: [confoglcompmod.smx] [Confogl] CvarSettings: Could not find CVar specified (l4d_obey_boss_spawn_except_static)
+L 12/11/2022 - 14:28:14: [confoglcompmod.smx] [Confogl] CvarSettings: Could not find CVar specified (l4d2_charger_chestbump_fix)
+L 12/11/2022 - 14:28:14: [confoglcompmod.smx] [Confogl] CvarSettings: Could not find CVar specified (gfc_hittable_override)
+L 12/11/2022 - 14:28:14: [confoglcompmod.smx] [Confogl] CvarSettings: Could not find CVar specified (gfc_witch_override)
+L 12/11/2022 - 14:28:14: [confoglcompmod.smx] [Confogl] CvarSettings: Could not find CVar specified (gfc_spit_extra_time)
+L 12/11/2022 - 14:28:14: [confoglcompmod.smx] [Confogl] CvarSettings: Could not find CVar specified (gfc_common_extra_time)
+L 12/11/2022 - 14:28:14: [confoglcompmod.smx] [Confogl] CvarSettings: Could not find CVar specified (gfc_hunter_duration)
+L 12/11/2022 - 14:28:14: [confoglcompmod.smx] [Confogl] CvarSettings: Could not find CVar specified (gfc_jockey_duration)
+L 12/11/2022 - 14:28:14: [confoglcompmod.smx] [Confogl] CvarSettings: Could not find CVar specified (gfc_smoker_duration)
+L 12/11/2022 - 14:28:14: [confoglcompmod.smx] [Confogl] CvarSettings: Could not find CVar specified (gfc_charger_duration)
+L 12/11/2022 - 14:28:14: [confoglcompmod.smx] [Confogl] CvarSettings: Could not find CVar specified (gfc_common_zc_flags)
+L 12/11/2022 - 14:28:14: [confoglcompmod.smx] [Confogl] CvarSettings: Could not find CVar specified (gfc_spit_zc_flags)
+L 12/11/2022 - 14:28:14: [confoglcompmod.smx] [Confogl] CvarSettings: Could not find CVar specified (gfc_godframe_glows)
+L 12/11/2022 - 14:28:14: [confoglcompmod.smx] [Confogl] CvarSettings: Could not find CVar specified (sm_survivor_mvp_brevity)
+L 12/11/2022 - 14:28:14: [confoglcompmod.smx] [Confogl] CvarSettings: Could not find CVar specified (sm_stats_autoprint_vs_round)
+L 12/11/2022 - 14:28:14: [confoglcompmod.smx] [Confogl] CvarSettings: Could not find CVar specified (sm_skill_report_flags)
+L 12/11/2022 - 14:28:14: [confoglcompmod.smx] [Confogl] CvarSettings: Could not find CVar specified (starting_item_flags)
+L 12/11/2022 - 14:28:18: Error log file session closed.
+L 12/11/2022 - 14:30:50: SourceMod error session started
+L 12/11/2022 - 14:30:50: Info (map "c2m1_highway") (file "/root/Steam/steamapps/common/Left 4 Dead 2 Dedicated Server/left4dead2/addons/sourcemod/logs/errors_20221211.log")
+L 12/11/2022 - 14:30:50: [SM] Unable to load extension "left4downtown.ext": /root/Steam/steamapps/common/Left 4 Dead 2 Dedicated Server/left4dead2/addons/sourcemod/extensions/left4downtown.ext.2.l4d2.so: undefined symbol: g_pMemAlloc
+L 12/11/2022 - 14:30:50: [SM] Unable to load plugin "Welcome.smx": Could not find required plugin "l4d2_playtime_interface"
+L 12/11/2022 - 14:30:50: [SM] Unable to load plugin "l4d_fyzb_en_v20.smx": Could not find required plugin "readyup"
+L 12/11/2022 - 14:32:46: [SM] Exception reported: Failed to create native "L4D2_IsMapDataAvailable", name is probably already in use
+L 12/11/2022 - 14:32:46: [SM] Blaming: optional/scavogl/l4d2lib.smx
+L 12/11/2022 - 14:32:46: [SM] Call stack trace:
+L 12/11/2022 - 14:32:46: [SM]   [0] CreateNative
+L 12/11/2022 - 14:32:46: [SM]   [1] Line 50, C:\Users\user\repos\misc-sourcemod-plugins\l4d2lib\l4d2lib.sp::AskPluginLoad2
+L 12/11/2022 - 14:32:46: [SM] Exception reported: Charger Chest Bump Offset or signature seems incorrect
+L 12/11/2022 - 14:32:46: [SM] Blaming: optional/scavogl/charger_chestbump_fix.smx
+L 12/11/2022 - 14:32:46: [SM] Call stack trace:
+L 12/11/2022 - 14:32:46: [SM]   [0] SetFailState
+L 12/11/2022 - 14:32:46: [SM]   [1] Line 131, C:\Users\Jacob\Desktop\l4d2dev\myplugins\charger_chestbump_fix.sp::FindPatchTarget
+L 12/11/2022 - 14:32:46: [SM]   [2] Line 30, C:\Users\Jacob\Desktop\l4d2dev\myplugins\charger_chestbump_fix.sp::OnPluginStart
+L 12/11/2022 - 14:32:46: [SM] Exception reported: Simple Chat Processor is not loaded. It is required for this plugin to work.
+L 12/11/2022 - 14:32:46: [SM] Blaming: optional/scavogl/l4d2_selfmute.smx
+L 12/11/2022 - 14:32:46: [SM] Call stack trace:
+L 12/11/2022 - 14:32:46: [SM]   [0] SetFailState
+L 12/11/2022 - 14:32:46: [SM]   [1] Line 60, l4d2_selfmute.sp::OnAllPluginsLoaded
+L 12/11/2022 - 14:32:46: [confoglcompmod.smx] [Confogl] CvarSettings: Could not find CVar specified (l4d_ready_survivor_freeze)
+L 12/11/2022 - 14:32:46: [confoglcompmod.smx] [Confogl] CvarSettings: Could not find CVar specified (l4d_ready_delay)
+L 12/11/2022 - 14:32:46: [confoglcompmod.smx] [Confogl] CvarSettings: Could not find CVar specified (l4d_ready_enable_sound)
+L 12/11/2022 - 14:32:46: [confoglcompmod.smx] [Confogl] CvarSettings: Could not find CVar specified (l4d_ready_chuckle)
+L 12/11/2022 - 14:32:46: [confoglcompmod.smx] [Confogl] CvarSettings: Could not find CVar specified (l4d_ready_live_sound)
+L 12/11/2022 - 14:32:46: [confoglcompmod.smx] [Confogl] CvarSettings: Could not find CVar specified (confogl_ghost_warp)
+L 12/11/2022 - 14:32:46: [confoglcompmod.smx] [Confogl] CvarSettings: Could not find CVar specified (confogl_ghost_warp_reload)
+L 12/11/2022 - 14:32:46: [confoglcompmod.smx] [Confogl] CvarSettings: Could not find CVar specified (sm_skeetstat_brevity)
+L 12/11/2022 - 14:32:46: [confoglcompmod.smx] [Confogl] CvarSettings: Could not find CVar specified (sm_1v1_dmgthreshold)
+L 12/11/2022 - 14:32:46: [confoglcompmod.smx] [Confogl] CvarSettings: Could not find CVar specified (l4d_obey_boss_spawn_cvars)
+L 12/11/2022 - 14:32:46: [confoglcompmod.smx] [Confogl] CvarSettings: Could not find CVar specified (l4d_obey_boss_spawn_except_static)
+L 12/11/2022 - 14:32:46: [confoglcompmod.smx] [Confogl] CvarSettings: Could not find CVar specified (l4d2_charger_chestbump_fix)
+L 12/11/2022 - 14:32:46: [confoglcompmod.smx] [Confogl] CvarSettings: Could not find CVar specified (gfc_hittable_override)
+L 12/11/2022 - 14:32:46: [confoglcompmod.smx] [Confogl] CvarSettings: Could not find CVar specified (gfc_witch_override)
+L 12/11/2022 - 14:32:46: [confoglcompmod.smx] [Confogl] CvarSettings: Could not find CVar specified (gfc_spit_extra_time)
+L 12/11/2022 - 14:32:46: [confoglcompmod.smx] [Confogl] CvarSettings: Could not find CVar specified (gfc_common_extra_time)
+L 12/11/2022 - 14:32:46: [confoglcompmod.smx] [Confogl] CvarSettings: Could not find CVar specified (gfc_hunter_duration)
+L 12/11/2022 - 14:32:46: [confoglcompmod.smx] [Confogl] CvarSettings: Could not find CVar specified (gfc_jockey_duration)
+L 12/11/2022 - 14:32:46: [confoglcompmod.smx] [Confogl] CvarSettings: Could not find CVar specified (gfc_smoker_duration)
+L 12/11/2022 - 14:32:46: [confoglcompmod.smx] [Confogl] CvarSettings: Could not find CVar specified (gfc_charger_duration)
+L 12/11/2022 - 14:32:46: [confoglcompmod.smx] [Confogl] CvarSettings: Could not find CVar specified (gfc_common_zc_flags)
+L 12/11/2022 - 14:32:46: [confoglcompmod.smx] [Confogl] CvarSettings: Could not find CVar specified (gfc_spit_zc_flags)
+L 12/11/2022 - 14:32:46: [confoglcompmod.smx] [Confogl] CvarSettings: Could not find CVar specified (gfc_godframe_glows)
+L 12/11/2022 - 14:32:46: [confoglcompmod.smx] [Confogl] CvarSettings: Could not find CVar specified (l4d2_meleecontrol_enable)
+L 12/11/2022 - 14:32:46: [confoglcompmod.smx] [Confogl] CvarSettings: Could not find CVar specified (l4d2_meleecontrol_melee_penalty)
+L 12/11/2022 - 14:32:46: [confoglcompmod.smx] [Confogl] CvarSettings: Could not find CVar specified (starting_item_flags)
+L 12/11/2022 - 14:32:46: [confoglcompmod.smx] [Confogl] CvarSettings: Could not find CVar specified (sound_block_hb)
+L 12/11/2022 - 14:32:50: Error log file session closed.
+L 12/11/2022 - 14:37:19: SourceMod error session started
+L 12/11/2022 - 14:37:19: Info (map "c2m1_highway") (file "/root/Steam/steamapps/common/Left 4 Dead 2 Dedicated Server/left4dead2/addons/sourcemod/logs/errors_20221211.log")
+L 12/11/2022 - 14:37:19: [SM] Unable to load plugin "Welcome.smx": Could not find required plugin "l4d2_playtime_interface"
+L 12/11/2022 - 14:37:19: [SM] Unable to load plugin "l4d_fyzb_en_v20.smx": Could not find required plugin "readyup"
+L 12/11/2022 - 16:49:06: SourceMod error session started
+L 12/11/2022 - 16:49:06: Info (map "c2m1_highway") (file "/root/Steam/steamapps/common/Left 4 Dead 2 Dedicated Server/left4dead2/addons/sourcemod/logs/errors_20221211.log")
+L 12/11/2022 - 16:49:06: [SM] Unable to load extension "left4downtown.ext": /root/Steam/steamapps/common/Left 4 Dead 2 Dedicated Server/left4dead2/addons/sourcemod/extensions/left4downtown.ext.2.l4d2.so: undefined symbol: g_pMemAlloc
+L 12/11/2022 - 16:49:06: [SM] Unable to load plugin "Welcome.smx": Could not find required plugin "l4d2_playtime_interface"
+L 12/11/2022 - 16:49:06: [SM] Unable to load plugin "l4d_fyzb_en_v20.smx": Could not find required plugin "readyup"
+L 12/11/2022 - 16:49:54: [optional/l4d2_weapon_attributes.smx] Bad attribute name: reloadduration.
+L 12/11/2022 - 16:49:54: [optional/l4d2_weapon_attributes.smx] Bad attribute name: reloadduration.
+L 12/11/2022 - 16:49:54: [optional/l4d2_weapon_attributes.smx] Bad attribute name: reloadduration.
+L 12/11/2022 - 16:49:54: [optional/l4d2_weapon_attributes.smx] Bad attribute name: reloadduration.
+L 12/11/2022 - 16:49:57: Error log file session closed.
+L 12/11/2022 - 16:49:59: SourceMod error session started
+L 12/11/2022 - 16:49:59: Info (map "c2m1_highway") (file "/root/Steam/steamapps/common/Left 4 Dead 2 Dedicated Server/left4dead2/addons/sourcemod/logs/errors_20221211.log")
+L 12/11/2022 - 16:49:59: [optional/l4d2_weapon_attributes.smx] Bad attribute name: reloadduration.
+L 12/11/2022 - 16:49:59: [optional/l4d2_weapon_attributes.smx] Bad attribute name: reloadduration.
+L 12/11/2022 - 17:07:10: [SM] Exception reported: Client 4 is not connected
+L 12/11/2022 - 17:07:10: [SM] Blaming: confoglcompmod.smx
+L 12/11/2022 - 17:07:10: [SM] Call stack trace:
+L 12/11/2022 - 17:07:10: [SM]   [0] KickClient
+L 12/11/2022 - 17:07:10: [SM]   [1] Line 72, modules/PasswordSystem.sp::PS_ConVarDone
+L 12/11/2022 - 17:07:11: Error log file session closed.
+L 12/11/2022 - 17:07:13: SourceMod error session started
+L 12/11/2022 - 17:07:13: Info (map "c2m2_fairgrounds") (file "/root/Steam/steamapps/common/Left 4 Dead 2 Dedicated Server/left4dead2/addons/sourcemod/logs/errors_20221211.log")
+L 12/11/2022 - 17:07:13: [optional/l4d2_weapon_attributes.smx] Bad attribute name: reloadduration.
+L 12/11/2022 - 17:07:13: [optional/l4d2_weapon_attributes.smx] Bad attribute name: reloadduration.
+L 12/11/2022 - 17:19:03: Error log file session closed.
+L 12/11/2022 - 17:19:05: SourceMod error session started
+L 12/11/2022 - 17:19:05: Info (map "c2m3_coaster") (file "/root/Steam/steamapps/common/Left 4 Dead 2 Dedicated Server/left4dead2/addons/sourcemod/logs/errors_20221211.log")
+L 12/11/2022 - 17:19:05: [optional/l4d2_weapon_attributes.smx] Bad attribute name: reloadduration.
+L 12/11/2022 - 17:19:05: [optional/l4d2_weapon_attributes.smx] Bad attribute name: reloadduration.
+L 12/11/2022 - 17:29:56: Error log file session closed.
+L 12/11/2022 - 17:29:58: SourceMod error session started
+L 12/11/2022 - 17:29:58: Info (map "c2m4_barns") (file "/root/Steam/steamapps/common/Left 4 Dead 2 Dedicated Server/left4dead2/addons/sourcemod/logs/errors_20221211.log")
+L 12/11/2022 - 17:29:58: [optional/l4d2_weapon_attributes.smx] Bad attribute name: reloadduration.
+L 12/11/2022 - 17:29:58: [optional/l4d2_weapon_attributes.smx] Bad attribute name: reloadduration.
+L 12/11/2022 - 17:40:00: Error log file session closed.
+L 12/11/2022 - 17:40:02: SourceMod error session started
+L 12/11/2022 - 17:40:02: Info (map "c2m5_concert") (file "/root/Steam/steamapps/common/Left 4 Dead 2 Dedicated Server/left4dead2/addons/sourcemod/logs/errors_20221211.log")
+L 12/11/2022 - 17:40:02: [optional/l4d2_weapon_attributes.smx] Bad attribute name: reloadduration.
+L 12/11/2022 - 17:40:02: [optional/l4d2_weapon_attributes.smx] Bad attribute name: reloadduration.
+L 12/11/2022 - 17:54:20: SourceMod error session started
+L 12/11/2022 - 17:54:20: Info (map "c2m1_highway") (file "/root/Steam/steamapps/common/Left 4 Dead 2 Dedicated Server/left4dead2/addons/sourcemod/logs/errors_20221211.log")
+L 12/11/2022 - 17:54:20: [SM] Unable to load extension "left4downtown.ext": /root/Steam/steamapps/common/Left 4 Dead 2 Dedicated Server/left4dead2/addons/sourcemod/extensions/left4downtown.ext.2.l4d2.so: undefined symbol: g_pMemAlloc
+L 12/11/2022 - 17:54:20: [SM] Unable to load plugin "Welcome.smx": Could not find required plugin "l4d2_playtime_interface"
+L 12/11/2022 - 17:54:20: [SM] Unable to load plugin "l4d_fyzb_en_v20.smx": Could not find required plugin "readyup"
+L 12/11/2022 - 17:55:21: [optional/l4d2_weapon_attributes.smx] Bad attribute name: reloadduration.
+L 12/11/2022 - 17:55:21: [optional/l4d2_weapon_attributes.smx] Bad attribute name: reloadduration.
+L 12/11/2022 - 17:55:21: [optional/l4d2_weapon_attributes.smx] Bad attribute name: reloadduration.
+L 12/11/2022 - 17:55:21: [optional/l4d2_weapon_attributes.smx] Bad attribute name: reloadduration.
+L 12/11/2022 - 17:55:24: Error log file session closed.
+L 12/11/2022 - 17:55:26: SourceMod error session started
+L 12/11/2022 - 17:55:26: Info (map "c2m1_highway") (file "/root/Steam/steamapps/common/Left 4 Dead 2 Dedicated Server/left4dead2/addons/sourcemod/logs/errors_20221211.log")
+L 12/11/2022 - 17:55:26: [optional/l4d2_weapon_attributes.smx] Bad attribute name: reloadduration.
+L 12/11/2022 - 17:55:26: [optional/l4d2_weapon_attributes.smx] Bad attribute name: reloadduration.
+L 12/11/2022 - 18:09:22: Error log file session closed.
+L 12/11/2022 - 18:09:24: SourceMod error session started
+L 12/11/2022 - 18:09:24: Info (map "c2m2_fairgrounds") (file "/root/Steam/steamapps/common/Left 4 Dead 2 Dedicated Server/left4dead2/addons/sourcemod/logs/errors_20221211.log")
+L 12/11/2022 - 18:09:24: [optional/l4d2_weapon_attributes.smx] Bad attribute name: reloadduration.
+L 12/11/2022 - 18:09:24: [optional/l4d2_weapon_attributes.smx] Bad attribute name: reloadduration.
+L 12/11/2022 - 18:23:02: Error log file session closed.
+L 12/11/2022 - 18:23:04: SourceMod error session started
+L 12/11/2022 - 18:23:04: Info (map "c2m3_coaster") (file "/root/Steam/steamapps/common/Left 4 Dead 2 Dedicated Server/left4dead2/addons/sourcemod/logs/errors_20221211.log")
+L 12/11/2022 - 18:23:04: [optional/l4d2_weapon_attributes.smx] Bad attribute name: reloadduration.
+L 12/11/2022 - 18:23:04: [optional/l4d2_weapon_attributes.smx] Bad attribute name: reloadduration.
+L 12/11/2022 - 18:29:02: Error log file session closed.
+L 12/11/2022 - 18:29:04: SourceMod error session started
+L 12/11/2022 - 18:29:04: Info (map "c2m4_barns") (file "/root/Steam/steamapps/common/Left 4 Dead 2 Dedicated Server/left4dead2/addons/sourcemod/logs/errors_20221211.log")
+L 12/11/2022 - 18:29:04: [optional/l4d2_weapon_attributes.smx] Bad attribute name: reloadduration.
+L 12/11/2022 - 18:29:04: [optional/l4d2_weapon_attributes.smx] Bad attribute name: reloadduration.
+L 12/11/2022 - 18:36:22: Error log file session closed.
+L 12/11/2022 - 18:36:24: SourceMod error session started
+L 12/11/2022 - 18:36:24: Info (map "c2m5_concert") (file "/root/Steam/steamapps/common/Left 4 Dead 2 Dedicated Server/left4dead2/addons/sourcemod/logs/errors_20221211.log")
+L 12/11/2022 - 18:36:24: [optional/l4d2_weapon_attributes.smx] Bad attribute name: reloadduration.
+L 12/11/2022 - 18:36:24: [optional/l4d2_weapon_attributes.smx] Bad attribute name: reloadduration.
+L 12/11/2022 - 18:45:12: SourceMod error session started
+L 12/11/2022 - 18:45:12: Info (map "c2m1_highway") (file "/root/Steam/steamapps/common/Left 4 Dead 2 Dedicated Server/left4dead2/addons/sourcemod/logs/errors_20221211.log")
+L 12/11/2022 - 18:45:12: [SM] Unable to load extension "left4downtown.ext": /root/Steam/steamapps/common/Left 4 Dead 2 Dedicated Server/left4dead2/addons/sourcemod/extensions/left4downtown.ext.2.l4d2.so: undefined symbol: g_pMemAlloc
+L 12/11/2022 - 18:45:12: [SM] Unable to load plugin "Welcome.smx": Could not find required plugin "l4d2_playtime_interface"
+L 12/11/2022 - 18:45:12: [SM] Unable to load plugin "l4d_fyzb_en_v20.smx": Could not find required plugin "readyup"
+L 12/11/2022 - 19:17:13: SourceMod error session started
+L 12/11/2022 - 19:17:13: Info (map "c2m1_highway") (file "/root/Steam/steamapps/common/Left 4 Dead 2 Dedicated Server/left4dead2/addons/sourcemod/logs/errors_20221211.log")
+L 12/11/2022 - 19:17:13: [SM] Unable to load extension "left4downtown.ext": /root/Steam/steamapps/common/Left 4 Dead 2 Dedicated Server/left4dead2/addons/sourcemod/extensions/left4downtown.ext.2.l4d2.so: undefined symbol: g_pMemAlloc
+L 12/11/2022 - 19:17:13: [SM] Unable to load plugin "Welcome.smx": Could not find required plugin "l4d2_playtime_interface"
+L 12/11/2022 - 19:17:13: [SM] Unable to load plugin "l4d_fyzb_en_v20.smx": Could not find required plugin "readyup"
+L 12/11/2022 - 19:50:36: SourceMod error session started
+L 12/11/2022 - 19:50:36: Info (map "c2m1_highway") (file "/root/Steam/steamapps/common/Left 4 Dead 2 Dedicated Server/left4dead2/addons/sourcemod/logs/errors_20221211.log")
+L 12/11/2022 - 19:50:36: [SM] Unable to load extension "left4downtown.ext": /root/Steam/steamapps/common/Left 4 Dead 2 Dedicated Server/left4dead2/addons/sourcemod/extensions/left4downtown.ext.2.l4d2.so: undefined symbol: g_pMemAlloc
+L 12/11/2022 - 19:50:36: [SM] Unable to load plugin "Welcome.smx": Could not find required plugin "l4d2_playtime_interface"
+L 12/11/2022 - 19:50:37: [SM] Unable to load plugin "l4d_fyzb_en_v20.smx": Could not find required plugin "readyup"
+L 12/12/2022 - 00:09:33: Error log file session closed.

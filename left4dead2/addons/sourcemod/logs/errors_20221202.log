@@ -1,0 +1,357 @@
+L 12/02/2022 - 13:01:29: SourceMod error session started
+L 12/02/2022 - 13:01:29: Info (map "c2m1_highway") (file "/root/Steam/steamapps/common/Left 4 Dead 2 Dedicated Server/left4dead2/addons/sourcemod/logs/errors_20221202.log")
+L 12/02/2022 - 13:01:29: [SM] Unable to load extension "left4downtown.ext": /root/Steam/steamapps/common/Left 4 Dead 2 Dedicated Server/left4dead2/addons/sourcemod/extensions/left4downtown.ext.2.l4d2.so: undefined symbol: g_pMemAlloc
+L 12/02/2022 - 13:01:30: [SM] Unable to load plugin "Welcome.smx": Could not find required plugin "l4d2_playtime_interface"
+L 12/02/2022 - 13:01:30: [SM] Fatal error encountered parsing translation file "SpecLister3.1.phrases.txt"
+L 12/02/2022 - 13:01:30: [SM] Error (line 0, column 0): Stream failed to open
+L 12/02/2022 - 13:01:30: [SM] Unable to load plugin "l4d_fyzb_en_v20.smx": Could not find required plugin "readyup"
+L 12/02/2022 - 13:01:30: [SM] Fatal error encountered parsing translation file "l4dffannounce.phrases.txt"
+L 12/02/2022 - 13:01:30: [SM] Error (line 0, column 0): Stream failed to open
+L 12/02/2022 - 13:02:57: [SM] Exception reported: Language phrase "announceff_chat_attack" not found (arg 4)
+L 12/02/2022 - 13:02:57: [SM] Blaming: l4dffannounce.smx
+L 12/02/2022 - 13:02:57: [SM] Call stack trace:
+L 12/02/2022 - 13:02:57: [SM]   [0] VFormat
+L 12/02/2022 - 13:02:57: [SM]   [1] Line 74, F:\游戏资料\sourcemod\scripting\include\colors.inc::CPrintToChat
+L 12/02/2022 - 13:02:57: [SM]   [2] Line 119, F:\游戏资料\sourcemod\scripting\l4dffannounce.sp::AnnounceFF
+L 12/02/2022 - 13:03:01: [SM] Exception reported: Language phrase "announceff_chat_attack" not found (arg 4)
+L 12/02/2022 - 13:03:01: [SM] Blaming: l4dffannounce.smx
+L 12/02/2022 - 13:03:01: [SM] Call stack trace:
+L 12/02/2022 - 13:03:01: [SM]   [0] VFormat
+L 12/02/2022 - 13:03:01: [SM]   [1] Line 74, F:\游戏资料\sourcemod\scripting\include\colors.inc::CPrintToChat
+L 12/02/2022 - 13:03:01: [SM]   [2] Line 119, F:\游戏资料\sourcemod\scripting\l4dffannounce.sp::AnnounceFF
+L 12/02/2022 - 13:03:19: [SM] Exception reported: Language phrase "announceff_chat_attack" not found (arg 4)
+L 12/02/2022 - 13:03:19: [SM] Blaming: l4dffannounce.smx
+L 12/02/2022 - 13:03:19: [SM] Call stack trace:
+L 12/02/2022 - 13:03:19: [SM]   [0] VFormat
+L 12/02/2022 - 13:03:19: [SM]   [1] Line 74, F:\游戏资料\sourcemod\scripting\include\colors.inc::CPrintToChat
+L 12/02/2022 - 13:03:19: [SM]   [2] Line 119, F:\游戏资料\sourcemod\scripting\l4dffannounce.sp::AnnounceFF
+L 12/02/2022 - 13:03:23: [SM] Exception reported: Language phrase "announceff_chat_attack" not found (arg 4)
+L 12/02/2022 - 13:03:23: [SM] Blaming: l4dffannounce.smx
+L 12/02/2022 - 13:03:23: [SM] Call stack trace:
+L 12/02/2022 - 13:03:23: [SM]   [0] VFormat
+L 12/02/2022 - 13:03:23: [SM]   [1] Line 74, F:\游戏资料\sourcemod\scripting\include\colors.inc::CPrintToChat
+L 12/02/2022 - 13:03:23: [SM]   [2] Line 119, F:\游戏资料\sourcemod\scripting\l4dffannounce.sp::AnnounceFF
+L 12/02/2022 - 13:03:28: [SM] Exception reported: Language phrase "speclisten_ad" not found (arg 4)
+L 12/02/2022 - 13:03:28: [SM] Blaming: SpecLister3.1.smx
+L 12/02/2022 - 13:03:28: [SM] Call stack trace:
+L 12/02/2022 - 13:03:28: [SM]   [0] VFormat
+L 12/02/2022 - 13:03:28: [SM]   [1] Line 74, E:\Games\steam\steamapps\common\Left 4 Dead 2\left4dead2\addons\sourcemod\scripting\include\colors.inc::CPrintToChat
+L 12/02/2022 - 13:03:28: [SM]   [2] Line 50, E:\Games\steam\steamapps\common\Left 4 Dead 2\left4dead2\addons\sourcemod\scripting\SpecLister3.1.sp::TimerAnnounce
+L 12/02/2022 - 13:03:31: [SM] Exception reported: Language phrase "speclisten_ad" not found (arg 4)
+L 12/02/2022 - 13:03:31: [SM] Blaming: SpecLister3.1.smx
+L 12/02/2022 - 13:03:31: [SM] Call stack trace:
+L 12/02/2022 - 13:03:31: [SM]   [0] VFormat
+L 12/02/2022 - 13:03:31: [SM]   [1] Line 74, E:\Games\steam\steamapps\common\Left 4 Dead 2\left4dead2\addons\sourcemod\scripting\include\colors.inc::CPrintToChat
+L 12/02/2022 - 13:03:31: [SM]   [2] Line 50, E:\Games\steam\steamapps\common\Left 4 Dead 2\left4dead2\addons\sourcemod\scripting\SpecLister3.1.sp::TimerAnnounce
+L 12/02/2022 - 13:03:31: [SM] Exception reported: Language phrase "speclisten_ad" not found (arg 4)
+L 12/02/2022 - 13:03:31: [SM] Blaming: SpecLister3.1.smx
+L 12/02/2022 - 13:03:31: [SM] Call stack trace:
+L 12/02/2022 - 13:03:31: [SM]   [0] VFormat
+L 12/02/2022 - 13:03:31: [SM]   [1] Line 74, E:\Games\steam\steamapps\common\Left 4 Dead 2\left4dead2\addons\sourcemod\scripting\include\colors.inc::CPrintToChat
+L 12/02/2022 - 13:03:31: [SM]   [2] Line 50, E:\Games\steam\steamapps\common\Left 4 Dead 2\left4dead2\addons\sourcemod\scripting\SpecLister3.1.sp::TimerAnnounce
+L 12/02/2022 - 13:03:31: [SM] Exception reported: Language phrase "speclisten_ad" not found (arg 4)
+L 12/02/2022 - 13:03:31: [SM] Blaming: SpecLister3.1.smx
+L 12/02/2022 - 13:03:31: [SM] Call stack trace:
+L 12/02/2022 - 13:03:31: [SM]   [0] VFormat
+L 12/02/2022 - 13:03:31: [SM]   [1] Line 74, E:\Games\steam\steamapps\common\Left 4 Dead 2\left4dead2\addons\sourcemod\scripting\include\colors.inc::CPrintToChat
+L 12/02/2022 - 13:03:31: [SM]   [2] Line 50, E:\Games\steam\steamapps\common\Left 4 Dead 2\left4dead2\addons\sourcemod\scripting\SpecLister3.1.sp::TimerAnnounce
+L 12/02/2022 - 13:04:01: [SM] Fatal error encountered parsing translation file "l4d2_mix.phrases.txt"
+L 12/02/2022 - 13:04:01: [SM] Error (line 0, column 0): Stream failed to open
+L 12/02/2022 - 13:04:01: [confoglcompmod.smx] [Confogl] CvarSettings: Could not find CVar specified (l4d2_spit_water_collision)
+L 12/02/2022 - 13:04:01: [confoglcompmod.smx] [Confogl] CvarSettings: Could not find CVar specified (l4d2_car_alarm_settings)
+L 12/02/2022 - 13:04:01: [confoglcompmod.smx] [Confogl] CvarSettings: Could not find CVar specified (l4d2_car_alarm_touch_capped)
+L 12/02/2022 - 13:04:01: [optional/l4d2_weapon_attributes.smx] Bad attribute name: reloadduration.
+L 12/02/2022 - 13:04:01: [optional/l4d2_weapon_attributes.smx] Bad attribute name: reloadduration.
+L 12/02/2022 - 13:04:01: [optional/l4d2_weapon_attributes.smx] Bad attribute name: reloadduration.
+L 12/02/2022 - 13:04:01: [optional/l4d2_weapon_attributes.smx] Bad attribute name: reloadduration.
+L 12/02/2022 - 13:04:05: Error log file session closed.
+L 12/02/2022 - 13:04:05: SourceMod error session started
+L 12/02/2022 - 13:04:05: Info (map "c2m1_highway") (file "/root/Steam/steamapps/common/Left 4 Dead 2 Dedicated Server/left4dead2/addons/sourcemod/logs/errors_20221202.log")
+L 12/02/2022 - 13:04:05: [SM] Fatal error encountered parsing translation file "SpecLister3.1.phrases.txt"
+L 12/02/2022 - 13:04:05: [SM] Error (line 0, column 0): Stream failed to open
+L 12/02/2022 - 13:04:05: [SM] Fatal error encountered parsing translation file "l4dffannounce.phrases.txt"
+L 12/02/2022 - 13:04:05: [SM] Error (line 0, column 0): Stream failed to open
+L 12/02/2022 - 13:04:05: [SM] Fatal error encountered parsing translation file "l4d2_mix.phrases.txt"
+L 12/02/2022 - 13:04:05: [SM] Error (line 0, column 0): Stream failed to open
+L 12/02/2022 - 13:04:06: [optional/l4d2_weapon_attributes.smx] Bad attribute name: reloadduration.
+L 12/02/2022 - 13:04:06: [optional/l4d2_weapon_attributes.smx] Bad attribute name: reloadduration.
+L 12/02/2022 - 13:05:06: SourceMod error session started
+L 12/02/2022 - 13:05:06: Info (map "c2m1_highway") (file "/root/Steam/steamapps/common/Left 4 Dead 2 Dedicated Server/left4dead2/addons/sourcemod/logs/errors_20221202.log")
+L 12/02/2022 - 13:05:06: [SM] Unable to load extension "left4downtown.ext": /root/Steam/steamapps/common/Left 4 Dead 2 Dedicated Server/left4dead2/addons/sourcemod/extensions/left4downtown.ext.2.l4d2.so: undefined symbol: g_pMemAlloc
+L 12/02/2022 - 13:05:06: [SM] Unable to load plugin "Welcome.smx": Could not find required plugin "l4d2_playtime_interface"
+L 12/02/2022 - 13:05:06: [SM] Fatal error encountered parsing translation file "SpecLister3.1.phrases.txt"
+L 12/02/2022 - 13:05:06: [SM] Error (line 0, column 0): Stream failed to open
+L 12/02/2022 - 13:05:06: [SM] Unable to load plugin "l4d_fyzb_en_v20.smx": Could not find required plugin "readyup"
+L 12/02/2022 - 13:05:06: [SM] Fatal error encountered parsing translation file "l4dffannounce.phrases.txt"
+L 12/02/2022 - 13:05:06: [SM] Error (line 0, column 0): Stream failed to open
+L 12/02/2022 - 13:05:37: [SM] Exception reported: Language phrase "announceff_chat_attack" not found (arg 4)
+L 12/02/2022 - 13:05:37: [SM] Blaming: l4dffannounce.smx
+L 12/02/2022 - 13:05:37: [SM] Call stack trace:
+L 12/02/2022 - 13:05:37: [SM]   [0] VFormat
+L 12/02/2022 - 13:05:37: [SM]   [1] Line 74, F:\游戏资料\sourcemod\scripting\include\colors.inc::CPrintToChat
+L 12/02/2022 - 13:05:37: [SM]   [2] Line 119, F:\游戏资料\sourcemod\scripting\l4dffannounce.sp::AnnounceFF
+L 12/02/2022 - 13:05:43: [SM] Exception reported: Language phrase "announceff_chat_attack" not found (arg 4)
+L 12/02/2022 - 13:05:43: [SM] Blaming: l4dffannounce.smx
+L 12/02/2022 - 13:05:43: [SM] Call stack trace:
+L 12/02/2022 - 13:05:43: [SM]   [0] VFormat
+L 12/02/2022 - 13:05:43: [SM]   [1] Line 74, F:\游戏资料\sourcemod\scripting\include\colors.inc::CPrintToChat
+L 12/02/2022 - 13:05:43: [SM]   [2] Line 119, F:\游戏资料\sourcemod\scripting\l4dffannounce.sp::AnnounceFF
+L 12/02/2022 - 13:05:49: [SM] Fatal error encountered parsing translation file "l4d2_mix.phrases.txt"
+L 12/02/2022 - 13:05:49: [SM] Error (line 0, column 0): Stream failed to open
+L 12/02/2022 - 13:05:52: Error log file session closed.
+L 12/02/2022 - 13:05:52: SourceMod error session started
+L 12/02/2022 - 13:05:52: Info (map "c2m1_highway") (file "/root/Steam/steamapps/common/Left 4 Dead 2 Dedicated Server/left4dead2/addons/sourcemod/logs/errors_20221202.log")
+L 12/02/2022 - 13:05:52: [SM] Fatal error encountered parsing translation file "SpecLister3.1.phrases.txt"
+L 12/02/2022 - 13:05:52: [SM] Error (line 0, column 0): Stream failed to open
+L 12/02/2022 - 13:05:52: [SM] Fatal error encountered parsing translation file "l4dffannounce.phrases.txt"
+L 12/02/2022 - 13:05:52: [SM] Error (line 0, column 0): Stream failed to open
+L 12/02/2022 - 13:05:52: [SM] Fatal error encountered parsing translation file "l4d2_mix.phrases.txt"
+L 12/02/2022 - 13:05:52: [SM] Error (line 0, column 0): Stream failed to open
+L 12/02/2022 - 13:06:14: [SM] Exception reported: Language phrase "start_condition" not found (arg 4)
+L 12/02/2022 - 13:06:14: [SM] Blaming: optional/l4d2_mix.smx
+L 12/02/2022 - 13:06:14: [SM] Call stack trace:
+L 12/02/2022 - 13:06:14: [SM]   [0] VFormat
+L 12/02/2022 - 13:06:14: [SM]   [1] Line 74, colors::CPrintToChat
+L 12/02/2022 - 13:06:14: [SM]   [2] Line 230, F:\游戏资料\sourcemod\scripting\l4d2_mix_2.sp::StartMixVote
+L 12/02/2022 - 13:06:14: [SM]   [3] Line 163, F:\游戏资料\sourcemod\scripting\l4d2_mix_2.sp::Cmd_MixStart
+L 12/02/2022 - 13:06:36: [SM] Exception reported: Language phrase "speclisten_On" not found (arg 4)
+L 12/02/2022 - 13:06:36: [SM] Blaming: optional/SpecLister3.1.smx
+L 12/02/2022 - 13:06:36: [SM] Call stack trace:
+L 12/02/2022 - 13:06:36: [SM]   [0] VFormat
+L 12/02/2022 - 13:06:36: [SM]   [1] Line 74, E:\Games\steam\steamapps\common\Left 4 Dead 2\left4dead2\addons\sourcemod\scripting\include\colors.inc::CPrintToChat
+L 12/02/2022 - 13:06:36: [SM]   [2] Line 62, E:\Games\steam\steamapps\common\Left 4 Dead 2\left4dead2\addons\sourcemod\scripting\SpecLister3.1.sp::PanelHandler1
+L 12/02/2022 - 13:06:48: [SM] Exception reported: Language phrase "speclisten_ad" not found (arg 4)
+L 12/02/2022 - 13:06:48: [SM] Blaming: optional/SpecLister3.1.smx
+L 12/02/2022 - 13:06:48: [SM] Call stack trace:
+L 12/02/2022 - 13:06:48: [SM]   [0] VFormat
+L 12/02/2022 - 13:06:48: [SM]   [1] Line 74, E:\Games\steam\steamapps\common\Left 4 Dead 2\left4dead2\addons\sourcemod\scripting\include\colors.inc::CPrintToChat
+L 12/02/2022 - 13:06:48: [SM]   [2] Line 50, E:\Games\steam\steamapps\common\Left 4 Dead 2\left4dead2\addons\sourcemod\scripting\SpecLister3.1.sp::TimerAnnounce
+L 12/02/2022 - 13:06:49: [SM] Exception reported: Language phrase "speclisten_ad" not found (arg 4)
+L 12/02/2022 - 13:06:49: [SM] Blaming: optional/SpecLister3.1.smx
+L 12/02/2022 - 13:06:49: [SM] Call stack trace:
+L 12/02/2022 - 13:06:49: [SM]   [0] VFormat
+L 12/02/2022 - 13:06:49: [SM]   [1] Line 74, E:\Games\steam\steamapps\common\Left 4 Dead 2\left4dead2\addons\sourcemod\scripting\include\colors.inc::CPrintToChat
+L 12/02/2022 - 13:06:49: [SM]   [2] Line 50, E:\Games\steam\steamapps\common\Left 4 Dead 2\left4dead2\addons\sourcemod\scripting\SpecLister3.1.sp::TimerAnnounce
+L 12/02/2022 - 13:06:49: [SM] Exception reported: Language phrase "speclisten_ad" not found (arg 4)
+L 12/02/2022 - 13:06:49: [SM] Blaming: optional/SpecLister3.1.smx
+L 12/02/2022 - 13:06:49: [SM] Call stack trace:
+L 12/02/2022 - 13:06:49: [SM]   [0] VFormat
+L 12/02/2022 - 13:06:49: [SM]   [1] Line 74, E:\Games\steam\steamapps\common\Left 4 Dead 2\left4dead2\addons\sourcemod\scripting\include\colors.inc::CPrintToChat
+L 12/02/2022 - 13:06:49: [SM]   [2] Line 50, E:\Games\steam\steamapps\common\Left 4 Dead 2\left4dead2\addons\sourcemod\scripting\SpecLister3.1.sp::TimerAnnounce
+L 12/02/2022 - 13:06:49: [SM] Exception reported: Language phrase "speclisten_ad" not found (arg 4)
+L 12/02/2022 - 13:06:49: [SM] Blaming: optional/SpecLister3.1.smx
+L 12/02/2022 - 13:06:49: [SM] Call stack trace:
+L 12/02/2022 - 13:06:49: [SM]   [0] VFormat
+L 12/02/2022 - 13:06:49: [SM]   [1] Line 74, E:\Games\steam\steamapps\common\Left 4 Dead 2\left4dead2\addons\sourcemod\scripting\include\colors.inc::CPrintToChat
+L 12/02/2022 - 13:06:49: [SM]   [2] Line 50, E:\Games\steam\steamapps\common\Left 4 Dead 2\left4dead2\addons\sourcemod\scripting\SpecLister3.1.sp::TimerAnnounce
+L 12/02/2022 - 13:07:03: [SM] Exception reported: Language phrase "announceff_chat_attack" not found (arg 4)
+L 12/02/2022 - 13:07:03: [SM] Blaming: l4dffannounce.smx
+L 12/02/2022 - 13:07:03: [SM] Call stack trace:
+L 12/02/2022 - 13:07:03: [SM]   [0] VFormat
+L 12/02/2022 - 13:07:03: [SM]   [1] Line 74, F:\游戏资料\sourcemod\scripting\include\colors.inc::CPrintToChat
+L 12/02/2022 - 13:07:03: [SM]   [2] Line 119, F:\游戏资料\sourcemod\scripting\l4dffannounce.sp::AnnounceFF
+L 12/02/2022 - 13:08:50: [SM] Exception reported: Language phrase "speclisten_ad" not found (arg 4)
+L 12/02/2022 - 13:08:50: [SM] Blaming: optional/SpecLister3.1.smx
+L 12/02/2022 - 13:08:50: [SM] Call stack trace:
+L 12/02/2022 - 13:08:50: [SM]   [0] VFormat
+L 12/02/2022 - 13:08:50: [SM]   [1] Line 74, E:\Games\steam\steamapps\common\Left 4 Dead 2\left4dead2\addons\sourcemod\scripting\include\colors.inc::CPrintToChat
+L 12/02/2022 - 13:08:50: [SM]   [2] Line 50, E:\Games\steam\steamapps\common\Left 4 Dead 2\left4dead2\addons\sourcemod\scripting\SpecLister3.1.sp::TimerAnnounce
+L 12/02/2022 - 13:09:56: [SM] Exception reported: Language phrase "speclisten_ad" not found (arg 4)
+L 12/02/2022 - 13:09:56: [SM] Blaming: optional/SpecLister3.1.smx
+L 12/02/2022 - 13:09:56: [SM] Call stack trace:
+L 12/02/2022 - 13:09:56: [SM]   [0] VFormat
+L 12/02/2022 - 13:09:56: [SM]   [1] Line 74, E:\Games\steam\steamapps\common\Left 4 Dead 2\left4dead2\addons\sourcemod\scripting\include\colors.inc::CPrintToChat
+L 12/02/2022 - 13:09:56: [SM]   [2] Line 50, E:\Games\steam\steamapps\common\Left 4 Dead 2\left4dead2\addons\sourcemod\scripting\SpecLister3.1.sp::TimerAnnounce
+L 12/02/2022 - 13:10:23: [SM] Exception reported: Language phrase "speclisten_Off" not found (arg 4)
+L 12/02/2022 - 13:10:23: [SM] Blaming: optional/SpecLister3.1.smx
+L 12/02/2022 - 13:10:23: [SM] Call stack trace:
+L 12/02/2022 - 13:10:23: [SM]   [0] VFormat
+L 12/02/2022 - 13:10:23: [SM]   [1] Line 74, E:\Games\steam\steamapps\common\Left 4 Dead 2\left4dead2\addons\sourcemod\scripting\include\colors.inc::CPrintToChat
+L 12/02/2022 - 13:10:23: [SM]   [2] Line 67, E:\Games\steam\steamapps\common\Left 4 Dead 2\left4dead2\addons\sourcemod\scripting\SpecLister3.1.sp::PanelHandler1
+L 12/02/2022 - 13:10:29: [SM] Exception reported: Language phrase "speclisten_On" not found (arg 4)
+L 12/02/2022 - 13:10:29: [SM] Blaming: optional/SpecLister3.1.smx
+L 12/02/2022 - 13:10:29: [SM] Call stack trace:
+L 12/02/2022 - 13:10:29: [SM]   [0] VFormat
+L 12/02/2022 - 13:10:29: [SM]   [1] Line 74, E:\Games\steam\steamapps\common\Left 4 Dead 2\left4dead2\addons\sourcemod\scripting\include\colors.inc::CPrintToChat
+L 12/02/2022 - 13:10:29: [SM]   [2] Line 62, E:\Games\steam\steamapps\common\Left 4 Dead 2\left4dead2\addons\sourcemod\scripting\SpecLister3.1.sp::PanelHandler1
+L 12/02/2022 - 13:15:47: [SM] Exception reported: Language phrase "announceff_chat_attack" not found (arg 4)
+L 12/02/2022 - 13:15:47: [SM] Blaming: l4dffannounce.smx
+L 12/02/2022 - 13:15:47: [SM] Call stack trace:
+L 12/02/2022 - 13:15:47: [SM]   [0] VFormat
+L 12/02/2022 - 13:15:47: [SM]   [1] Line 74, F:\游戏资料\sourcemod\scripting\include\colors.inc::CPrintToChat
+L 12/02/2022 - 13:15:47: [SM]   [2] Line 119, F:\游戏资料\sourcemod\scripting\l4dffannounce.sp::AnnounceFF
+L 12/02/2022 - 13:15:50: [SM] Exception reported: Language phrase "announceff_chat_attack" not found (arg 4)
+L 12/02/2022 - 13:15:50: [SM] Blaming: l4dffannounce.smx
+L 12/02/2022 - 13:15:50: [SM] Call stack trace:
+L 12/02/2022 - 13:15:50: [SM]   [0] VFormat
+L 12/02/2022 - 13:15:50: [SM]   [1] Line 74, F:\游戏资料\sourcemod\scripting\include\colors.inc::CPrintToChat
+L 12/02/2022 - 13:15:50: [SM]   [2] Line 119, F:\游戏资料\sourcemod\scripting\l4dffannounce.sp::AnnounceFF
+L 12/02/2022 - 13:15:52: [SM] Exception reported: Language phrase "announceff_chat_attack" not found (arg 4)
+L 12/02/2022 - 13:15:52: [SM] Blaming: l4dffannounce.smx
+L 12/02/2022 - 13:15:52: [SM] Call stack trace:
+L 12/02/2022 - 13:15:52: [SM]   [0] VFormat
+L 12/02/2022 - 13:15:52: [SM]   [1] Line 74, F:\游戏资料\sourcemod\scripting\include\colors.inc::CPrintToChat
+L 12/02/2022 - 13:15:52: [SM]   [2] Line 119, F:\游戏资料\sourcemod\scripting\l4dffannounce.sp::AnnounceFF
+L 12/02/2022 - 13:16:06: [SM] Unable to load plugin "Welcome.smx": Could not find required plugin "l4d2_playtime_interface"
+L 12/02/2022 - 13:16:06: [SM] Unable to load plugin "l4d_fyzb_en_v20.smx": Could not find required plugin "readyup"
+L 12/02/2022 - 13:16:11: [SM] Exception reported: Language phrase "announceff_chat_attack" not found (arg 4)
+L 12/02/2022 - 13:16:11: [SM] Blaming: l4dffannounce.smx
+L 12/02/2022 - 13:16:11: [SM] Call stack trace:
+L 12/02/2022 - 13:16:11: [SM]   [0] VFormat
+L 12/02/2022 - 13:16:11: [SM]   [1] Line 74, F:\游戏资料\sourcemod\scripting\include\colors.inc::CPrintToChat
+L 12/02/2022 - 13:16:11: [SM]   [2] Line 119, F:\游戏资料\sourcemod\scripting\l4dffannounce.sp::AnnounceFF
+L 12/02/2022 - 13:16:17: [SM] Exception reported: Language phrase "announceff_chat_attack" not found (arg 4)
+L 12/02/2022 - 13:16:17: [SM] Blaming: l4dffannounce.smx
+L 12/02/2022 - 13:16:17: [SM] Call stack trace:
+L 12/02/2022 - 13:16:17: [SM]   [0] VFormat
+L 12/02/2022 - 13:16:17: [SM]   [1] Line 74, F:\游戏资料\sourcemod\scripting\include\colors.inc::CPrintToChat
+L 12/02/2022 - 13:16:17: [SM]   [2] Line 119, F:\游戏资料\sourcemod\scripting\l4dffannounce.sp::AnnounceFF
+L 12/02/2022 - 13:17:24: SourceMod error session started
+L 12/02/2022 - 13:17:24: Info (map "c2m1_highway") (file "/root/Steam/steamapps/common/Left 4 Dead 2 Dedicated Server/left4dead2/addons/sourcemod/logs/errors_20221202.log")
+L 12/02/2022 - 13:17:24: [SM] Unable to load extension "left4downtown.ext": /root/Steam/steamapps/common/Left 4 Dead 2 Dedicated Server/left4dead2/addons/sourcemod/extensions/left4downtown.ext.2.l4d2.so: undefined symbol: g_pMemAlloc
+L 12/02/2022 - 13:17:24: [SM] Unable to load plugin "Welcome.smx": Could not find required plugin "l4d2_playtime_interface"
+L 12/02/2022 - 13:17:24: [SM] Fatal error encountered parsing translation file "SpecLister3.1.phrases.txt"
+L 12/02/2022 - 13:17:24: [SM] Error (line 0, column 0): Stream failed to open
+L 12/02/2022 - 13:17:24: [SM] Unable to load plugin "l4d_fyzb_en_v20.smx": Could not find required plugin "readyup"
+L 12/02/2022 - 13:17:25: [SM] Fatal error encountered parsing translation file "l4dffannounce.phrases.txt"
+L 12/02/2022 - 13:17:25: [SM] Error (line 0, column 0): Stream failed to open
+L 12/02/2022 - 13:40:17: SourceMod error session started
+L 12/02/2022 - 13:40:17: Info (map "c2m1_highway") (file "/root/Steam/steamapps/common/Left 4 Dead 2 Dedicated Server/left4dead2/addons/sourcemod/logs/errors_20221202.log")
+L 12/02/2022 - 13:40:17: [SM] Unable to load extension "left4downtown.ext": /root/Steam/steamapps/common/Left 4 Dead 2 Dedicated Server/left4dead2/addons/sourcemod/extensions/left4downtown.ext.2.l4d2.so: undefined symbol: g_pMemAlloc
+L 12/02/2022 - 13:40:17: [SM] Unable to load plugin "Welcome.smx": Could not find required plugin "l4d2_playtime_interface"
+L 12/02/2022 - 13:40:17: [SM] Fatal error encountered parsing translation file "SpecLister3.1.phrases.txt"
+L 12/02/2022 - 13:40:17: [SM] Error (line 0, column 0): Stream failed to open
+L 12/02/2022 - 13:40:17: [SM] Unable to load plugin "l4d_fyzb_en_v20.smx": Could not find required plugin "readyup"
+L 12/02/2022 - 13:40:17: [SM] Fatal error encountered parsing translation file "l4dffannounce.phrases.txt"
+L 12/02/2022 - 13:40:17: [SM] Error (line 0, column 0): Stream failed to open
+L 12/02/2022 - 13:51:02: [SM] Exception reported: Language phrase "speclisten_ad" not found (arg 4)
+L 12/02/2022 - 13:51:02: [SM] Blaming: SpecLister3.1.smx
+L 12/02/2022 - 13:51:02: [SM] Call stack trace:
+L 12/02/2022 - 13:51:02: [SM]   [0] VFormat
+L 12/02/2022 - 13:51:02: [SM]   [1] Line 74, E:\Games\steam\steamapps\common\Left 4 Dead 2\left4dead2\addons\sourcemod\scripting\include\colors.inc::CPrintToChat
+L 12/02/2022 - 13:51:02: [SM]   [2] Line 50, E:\Games\steam\steamapps\common\Left 4 Dead 2\left4dead2\addons\sourcemod\scripting\SpecLister3.1.sp::TimerAnnounce
+L 12/02/2022 - 13:51:06: [SM] Exception reported: Language phrase "speclisten_ad" not found (arg 4)
+L 12/02/2022 - 13:51:06: [SM] Blaming: SpecLister3.1.smx
+L 12/02/2022 - 13:51:06: [SM] Call stack trace:
+L 12/02/2022 - 13:51:06: [SM]   [0] VFormat
+L 12/02/2022 - 13:51:06: [SM]   [1] Line 74, E:\Games\steam\steamapps\common\Left 4 Dead 2\left4dead2\addons\sourcemod\scripting\include\colors.inc::CPrintToChat
+L 12/02/2022 - 13:51:06: [SM]   [2] Line 50, E:\Games\steam\steamapps\common\Left 4 Dead 2\left4dead2\addons\sourcemod\scripting\SpecLister3.1.sp::TimerAnnounce
+L 12/02/2022 - 13:51:06: [SM] Exception reported: Language phrase "speclisten_ad" not found (arg 4)
+L 12/02/2022 - 13:51:06: [SM] Blaming: SpecLister3.1.smx
+L 12/02/2022 - 13:51:06: [SM] Call stack trace:
+L 12/02/2022 - 13:51:06: [SM]   [0] VFormat
+L 12/02/2022 - 13:51:06: [SM]   [1] Line 74, E:\Games\steam\steamapps\common\Left 4 Dead 2\left4dead2\addons\sourcemod\scripting\include\colors.inc::CPrintToChat
+L 12/02/2022 - 13:51:06: [SM]   [2] Line 50, E:\Games\steam\steamapps\common\Left 4 Dead 2\left4dead2\addons\sourcemod\scripting\SpecLister3.1.sp::TimerAnnounce
+L 12/02/2022 - 13:51:06: [SM] Exception reported: Language phrase "speclisten_ad" not found (arg 4)
+L 12/02/2022 - 13:51:06: [SM] Blaming: SpecLister3.1.smx
+L 12/02/2022 - 13:51:06: [SM] Call stack trace:
+L 12/02/2022 - 13:51:06: [SM]   [0] VFormat
+L 12/02/2022 - 13:51:06: [SM]   [1] Line 74, E:\Games\steam\steamapps\common\Left 4 Dead 2\left4dead2\addons\sourcemod\scripting\include\colors.inc::CPrintToChat
+L 12/02/2022 - 13:51:06: [SM]   [2] Line 50, E:\Games\steam\steamapps\common\Left 4 Dead 2\left4dead2\addons\sourcemod\scripting\SpecLister3.1.sp::TimerAnnounce
+L 12/02/2022 - 13:51:22: [SM] Exception reported: Language phrase "announceff_chat_attack" not found (arg 4)
+L 12/02/2022 - 13:51:22: [SM] Blaming: l4dffannounce.smx
+L 12/02/2022 - 13:51:22: [SM] Call stack trace:
+L 12/02/2022 - 13:51:22: [SM]   [0] VFormat
+L 12/02/2022 - 13:51:22: [SM]   [1] Line 74, F:\游戏资料\sourcemod\scripting\include\colors.inc::CPrintToChat
+L 12/02/2022 - 13:51:22: [SM]   [2] Line 119, F:\游戏资料\sourcemod\scripting\l4dffannounce.sp::AnnounceFF
+L 12/02/2022 - 13:51:25: [SM] Exception reported: Language phrase "announceff_chat_attack" not found (arg 4)
+L 12/02/2022 - 13:51:25: [SM] Blaming: l4dffannounce.smx
+L 12/02/2022 - 13:51:25: [SM] Call stack trace:
+L 12/02/2022 - 13:51:25: [SM]   [0] VFormat
+L 12/02/2022 - 13:51:25: [SM]   [1] Line 74, F:\游戏资料\sourcemod\scripting\include\colors.inc::CPrintToChat
+L 12/02/2022 - 13:51:25: [SM]   [2] Line 119, F:\游戏资料\sourcemod\scripting\l4dffannounce.sp::AnnounceFF
+L 12/02/2022 - 13:52:09: [SM] Fatal error encountered parsing translation file "l4d2_mix.phrases.txt"
+L 12/02/2022 - 13:52:09: [SM] Error (line 0, column 0): Stream failed to open
+L 12/02/2022 - 13:52:09: [confoglcompmod.smx] [Confogl] CvarSettings: Could not find CVar specified (l4d2_spit_water_collision)
+L 12/02/2022 - 13:52:09: [confoglcompmod.smx] [Confogl] CvarSettings: Could not find CVar specified (l4d2_car_alarm_settings)
+L 12/02/2022 - 13:52:09: [confoglcompmod.smx] [Confogl] CvarSettings: Could not find CVar specified (l4d2_car_alarm_touch_capped)
+L 12/02/2022 - 13:52:09: [optional/l4d2_weapon_attributes.smx] Bad attribute name: reloadduration.
+L 12/02/2022 - 13:52:09: [optional/l4d2_weapon_attributes.smx] Bad attribute name: reloadduration.
+L 12/02/2022 - 13:52:09: [optional/l4d2_weapon_attributes.smx] Bad attribute name: reloadduration.
+L 12/02/2022 - 13:52:09: [optional/l4d2_weapon_attributes.smx] Bad attribute name: reloadduration.
+L 12/02/2022 - 13:52:12: Error log file session closed.
+L 12/02/2022 - 13:52:12: SourceMod error session started
+L 12/02/2022 - 13:52:12: Info (map "c2m1_highway") (file "/root/Steam/steamapps/common/Left 4 Dead 2 Dedicated Server/left4dead2/addons/sourcemod/logs/errors_20221202.log")
+L 12/02/2022 - 13:52:12: [SM] Fatal error encountered parsing translation file "SpecLister3.1.phrases.txt"
+L 12/02/2022 - 13:52:12: [SM] Error (line 0, column 0): Stream failed to open
+L 12/02/2022 - 13:52:12: [SM] Fatal error encountered parsing translation file "l4dffannounce.phrases.txt"
+L 12/02/2022 - 13:52:12: [SM] Error (line 0, column 0): Stream failed to open
+L 12/02/2022 - 13:52:12: [SM] Fatal error encountered parsing translation file "l4d2_mix.phrases.txt"
+L 12/02/2022 - 13:52:12: [SM] Error (line 0, column 0): Stream failed to open
+L 12/02/2022 - 13:52:14: [optional/l4d2_weapon_attributes.smx] Bad attribute name: reloadduration.
+L 12/02/2022 - 13:52:14: [optional/l4d2_weapon_attributes.smx] Bad attribute name: reloadduration.
+L 12/02/2022 - 13:52:40: [SM] Exception reported: Language phrase "start_condition" not found (arg 4)
+L 12/02/2022 - 13:52:40: [SM] Blaming: optional/l4d2_mix.smx
+L 12/02/2022 - 13:52:40: [SM] Call stack trace:
+L 12/02/2022 - 13:52:40: [SM]   [0] VFormat
+L 12/02/2022 - 13:52:40: [SM]   [1] Line 74, colors::CPrintToChat
+L 12/02/2022 - 13:52:40: [SM]   [2] Line 230, F:\游戏资料\sourcemod\scripting\l4d2_mix_2.sp::StartMixVote
+L 12/02/2022 - 13:52:40: [SM]   [3] Line 163, F:\游戏资料\sourcemod\scripting\l4d2_mix_2.sp::Cmd_MixStart
+L 12/02/2022 - 13:53:09: [SM] Exception reported: Language phrase "speclisten_ad" not found (arg 4)
+L 12/02/2022 - 13:53:09: [SM] Blaming: optional/SpecLister3.1.smx
+L 12/02/2022 - 13:53:09: [SM] Call stack trace:
+L 12/02/2022 - 13:53:09: [SM]   [0] VFormat
+L 12/02/2022 - 13:53:09: [SM]   [1] Line 74, E:\Games\steam\steamapps\common\Left 4 Dead 2\left4dead2\addons\sourcemod\scripting\include\colors.inc::CPrintToChat
+L 12/02/2022 - 13:53:09: [SM]   [2] Line 50, E:\Games\steam\steamapps\common\Left 4 Dead 2\left4dead2\addons\sourcemod\scripting\SpecLister3.1.sp::TimerAnnounce
+L 12/02/2022 - 13:53:09: [SM] Exception reported: Language phrase "speclisten_ad" not found (arg 4)
+L 12/02/2022 - 13:53:09: [SM] Blaming: optional/SpecLister3.1.smx
+L 12/02/2022 - 13:53:09: [SM] Call stack trace:
+L 12/02/2022 - 13:53:09: [SM]   [0] VFormat
+L 12/02/2022 - 13:53:09: [SM]   [1] Line 74, E:\Games\steam\steamapps\common\Left 4 Dead 2\left4dead2\addons\sourcemod\scripting\include\colors.inc::CPrintToChat
+L 12/02/2022 - 13:53:09: [SM]   [2] Line 50, E:\Games\steam\steamapps\common\Left 4 Dead 2\left4dead2\addons\sourcemod\scripting\SpecLister3.1.sp::TimerAnnounce
+L 12/02/2022 - 13:53:09: [SM] Exception reported: Language phrase "speclisten_ad" not found (arg 4)
+L 12/02/2022 - 13:53:09: [SM] Blaming: optional/SpecLister3.1.smx
+L 12/02/2022 - 13:53:09: [SM] Call stack trace:
+L 12/02/2022 - 13:53:09: [SM]   [0] VFormat
+L 12/02/2022 - 13:53:09: [SM]   [1] Line 74, E:\Games\steam\steamapps\common\Left 4 Dead 2\left4dead2\addons\sourcemod\scripting\include\colors.inc::CPrintToChat
+L 12/02/2022 - 13:53:09: [SM]   [2] Line 50, E:\Games\steam\steamapps\common\Left 4 Dead 2\left4dead2\addons\sourcemod\scripting\SpecLister3.1.sp::TimerAnnounce
+L 12/02/2022 - 13:53:09: [SM] Exception reported: Language phrase "speclisten_ad" not found (arg 4)
+L 12/02/2022 - 13:53:09: [SM] Blaming: optional/SpecLister3.1.smx
+L 12/02/2022 - 13:53:09: [SM] Call stack trace:
+L 12/02/2022 - 13:53:09: [SM]   [0] VFormat
+L 12/02/2022 - 13:53:09: [SM]   [1] Line 74, E:\Games\steam\steamapps\common\Left 4 Dead 2\left4dead2\addons\sourcemod\scripting\include\colors.inc::CPrintToChat
+L 12/02/2022 - 13:53:09: [SM]   [2] Line 50, E:\Games\steam\steamapps\common\Left 4 Dead 2\left4dead2\addons\sourcemod\scripting\SpecLister3.1.sp::TimerAnnounce
+L 12/02/2022 - 13:54:06: [SM] Exception reported: Language phrase "speclisten_ad" not found (arg 4)
+L 12/02/2022 - 13:54:06: [SM] Blaming: optional/SpecLister3.1.smx
+L 12/02/2022 - 13:54:06: [SM] Call stack trace:
+L 12/02/2022 - 13:54:06: [SM]   [0] VFormat
+L 12/02/2022 - 13:54:06: [SM]   [1] Line 74, E:\Games\steam\steamapps\common\Left 4 Dead 2\left4dead2\addons\sourcemod\scripting\include\colors.inc::CPrintToChat
+L 12/02/2022 - 13:54:06: [SM]   [2] Line 50, E:\Games\steam\steamapps\common\Left 4 Dead 2\left4dead2\addons\sourcemod\scripting\SpecLister3.1.sp::TimerAnnounce
+L 12/02/2022 - 13:54:33: [SM] Exception reported: Language phrase "speclisten_ad" not found (arg 4)
+L 12/02/2022 - 13:54:33: [SM] Blaming: optional/SpecLister3.1.smx
+L 12/02/2022 - 13:54:33: [SM] Call stack trace:
+L 12/02/2022 - 13:54:33: [SM]   [0] VFormat
+L 12/02/2022 - 13:54:33: [SM]   [1] Line 74, E:\Games\steam\steamapps\common\Left 4 Dead 2\left4dead2\addons\sourcemod\scripting\include\colors.inc::CPrintToChat
+L 12/02/2022 - 13:54:33: [SM]   [2] Line 50, E:\Games\steam\steamapps\common\Left 4 Dead 2\left4dead2\addons\sourcemod\scripting\SpecLister3.1.sp::TimerAnnounce
+L 12/02/2022 - 13:56:23: [SM] Exception reported: Language phrase "start_condition" not found (arg 4)
+L 12/02/2022 - 13:56:23: [SM] Blaming: optional/l4d2_mix.smx
+L 12/02/2022 - 13:56:23: [SM] Call stack trace:
+L 12/02/2022 - 13:56:23: [SM]   [0] VFormat
+L 12/02/2022 - 13:56:23: [SM]   [1] Line 74, colors::CPrintToChat
+L 12/02/2022 - 13:56:23: [SM]   [2] Line 230, F:\游戏资料\sourcemod\scripting\l4d2_mix_2.sp::StartMixVote
+L 12/02/2022 - 13:56:23: [SM]   [3] Line 163, F:\游戏资料\sourcemod\scripting\l4d2_mix_2.sp::Cmd_MixStart
+L 12/02/2022 - 13:57:11: SourceMod error session started
+L 12/02/2022 - 13:57:11: Info (map "c2m1_highway") (file "/root/Steam/steamapps/common/Left 4 Dead 2 Dedicated Server/left4dead2/addons/sourcemod/logs/errors_20221202.log")
+L 12/02/2022 - 13:57:11: [SM] Unable to load extension "left4downtown.ext": /root/Steam/steamapps/common/Left 4 Dead 2 Dedicated Server/left4dead2/addons/sourcemod/extensions/left4downtown.ext.2.l4d2.so: undefined symbol: g_pMemAlloc
+L 12/02/2022 - 13:57:11: [SM] Unable to load plugin "Welcome.smx": Could not find required plugin "l4d2_playtime_interface"
+L 12/02/2022 - 13:57:11: [SM] Fatal error encountered parsing translation file "SpecLister3.1.phrases.txt"
+L 12/02/2022 - 13:57:11: [SM] Error (line 0, column 0): Stream failed to open
+L 12/02/2022 - 13:57:11: [SM] Unable to load plugin "l4d_fyzb_en_v20.smx": Could not find required plugin "readyup"
+L 12/02/2022 - 13:57:11: [SM] Fatal error encountered parsing translation file "l4dffannounce.phrases.txt"
+L 12/02/2022 - 13:57:11: [SM] Error (line 0, column 0): Stream failed to open
+L 12/02/2022 - 14:59:56: SourceMod error session started
+L 12/02/2022 - 14:59:56: Info (map "c2m1_highway") (file "/root/Steam/steamapps/common/Left 4 Dead 2 Dedicated Server/left4dead2/addons/sourcemod/logs/errors_20221202.log")
+L 12/02/2022 - 14:59:56: [SM] Unable to load extension "left4downtown.ext": /root/Steam/steamapps/common/Left 4 Dead 2 Dedicated Server/left4dead2/addons/sourcemod/extensions/left4downtown.ext.2.l4d2.so: undefined symbol: g_pMemAlloc
+L 12/02/2022 - 14:59:56: [SM] Unable to load plugin "Welcome.smx": Could not find required plugin "l4d2_playtime_interface"
+L 12/02/2022 - 14:59:56: [SM] Unable to load plugin "l4d_fyzb_en_v20.smx": Could not find required plugin "readyup"
+L 12/02/2022 - 15:01:00: Error log file session closed.
+L 12/02/2022 - 15:05:02: SourceMod error session started
+L 12/02/2022 - 15:05:02: Info (map "c2m1_highway") (file "/root/Steam/steamapps/common/Left 4 Dead 2 Dedicated Server/left4dead2/addons/sourcemod/logs/errors_20221202.log")
+L 12/02/2022 - 15:05:02: [SM] Unable to load extension "left4downtown.ext": /root/Steam/steamapps/common/Left 4 Dead 2 Dedicated Server/left4dead2/addons/sourcemod/extensions/left4downtown.ext.2.l4d2.so: undefined symbol: g_pMemAlloc
+L 12/02/2022 - 15:05:02: [SM] Unable to load plugin "Welcome.smx": Could not find required plugin "l4d2_playtime_interface"
+L 12/02/2022 - 15:05:02: [SM] Unable to load plugin "l4d_fyzb_en_v20.smx": Could not find required plugin "readyup"
+L 12/02/2022 - 15:17:11: SourceMod error session started
+L 12/02/2022 - 15:17:11: Info (map "c2m1_highway") (file "/root/Steam/steamapps/common/Left 4 Dead 2 Dedicated Server/left4dead2/addons/sourcemod/logs/errors_20221202.log")
+L 12/02/2022 - 15:17:11: [SM] Unable to load extension "left4downtown.ext": /root/Steam/steamapps/common/Left 4 Dead 2 Dedicated Server/left4dead2/addons/sourcemod/extensions/left4downtown.ext.2.l4d2.so: undefined symbol: g_pMemAlloc
+L 12/02/2022 - 15:17:12: [SM] Unable to load plugin "Welcome.smx": Could not find required plugin "l4d2_playtime_interface"
+L 12/02/2022 - 15:17:12: [SM] Unable to load plugin "l4d_fyzb_en_v20.smx": Could not find required plugin "readyup"

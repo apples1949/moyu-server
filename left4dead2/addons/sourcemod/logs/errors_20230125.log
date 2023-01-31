@@ -1,0 +1,1901 @@
+L 01/25/2023 - 14:56:13: SourceMod error session started
+L 01/25/2023 - 14:56:13: Info (map "c2m1_highway") (file "/root/Steam/steamapps/common/Left 4 Dead 2 Dedicated Server/left4dead2/addons/sourcemod/logs/errors_20230125.log")
+L 01/25/2023 - 14:56:13: [SM] Unable to load plugin "Welcome.smx": Could not find required plugin "l4d2_playtime_interface"
+L 01/25/2023 - 14:56:13: [SM] Unable to load plugin "l4d_fyzb_en_v20.smx": Could not find required plugin "readyup"
+L 01/25/2023 - 14:56:16: [SM] Exception reported: Invalid memory access
+L 01/25/2023 - 14:56:16: [SM] Blaming: [Server] serverhop.smx
+L 01/25/2023 - 14:56:16: [SM] Call stack trace:
+L 01/25/2023 - 14:56:16: [SM]   [1] Line 386, C:\Users\lostine\Desktop\SourceMod-Linux编译平台\[Server] serverhop.sp::GetByte
+L 01/25/2023 - 14:56:16: [SM]   [2] Line 427, C:\Users\lostine\Desktop\SourceMod-Linux编译平台\[Server] serverhop.sp::OnSocketReceive
+L 01/25/2023 - 14:56:16: [SM] Exception reported: Invalid memory access
+L 01/25/2023 - 14:56:16: [SM] Blaming: [Server] serverhop.smx
+L 01/25/2023 - 14:56:16: [SM] Call stack trace:
+L 01/25/2023 - 14:56:16: [SM]   [1] Line 386, C:\Users\lostine\Desktop\SourceMod-Linux编译平台\[Server] serverhop.sp::GetByte
+L 01/25/2023 - 14:56:16: [SM]   [2] Line 427, C:\Users\lostine\Desktop\SourceMod-Linux编译平台\[Server] serverhop.sp::OnSocketReceive
+L 01/25/2023 - 14:56:26: [[Server] serverhop.smx] CleanUp: Server 124.220.44.187:23333 is down, no reply received within 1092616192 seconds.
+L 01/25/2023 - 14:56:26: [[Server] serverhop.smx] CleanUp: Server 124.220.44.187:2000 is down, no reply received within 1092616192 seconds.
+L 01/25/2023 - 14:57:16: [SM] Exception reported: Invalid memory access
+L 01/25/2023 - 14:57:16: [SM] Blaming: [Server] serverhop.smx
+L 01/25/2023 - 14:57:16: [SM] Call stack trace:
+L 01/25/2023 - 14:57:16: [SM]   [1] Line 386, C:\Users\lostine\Desktop\SourceMod-Linux编译平台\[Server] serverhop.sp::GetByte
+L 01/25/2023 - 14:57:16: [SM]   [2] Line 427, C:\Users\lostine\Desktop\SourceMod-Linux编译平台\[Server] serverhop.sp::OnSocketReceive
+L 01/25/2023 - 14:57:16: [SM] Exception reported: Invalid memory access
+L 01/25/2023 - 14:57:16: [SM] Blaming: [Server] serverhop.smx
+L 01/25/2023 - 14:57:16: [SM] Call stack trace:
+L 01/25/2023 - 14:57:16: [SM]   [1] Line 386, C:\Users\lostine\Desktop\SourceMod-Linux编译平台\[Server] serverhop.sp::GetByte
+L 01/25/2023 - 14:57:16: [SM]   [2] Line 427, C:\Users\lostine\Desktop\SourceMod-Linux编译平台\[Server] serverhop.sp::OnSocketReceive
+L 01/25/2023 - 14:57:26: [[Server] serverhop.smx] CleanUp: Server 124.220.44.187:23333 is down, no reply received within 1092616192 seconds.
+L 01/25/2023 - 14:57:26: [[Server] serverhop.smx] CleanUp: Server 124.220.44.187:2000 is down, no reply received within 1092616192 seconds.
+L 01/25/2023 - 14:58:16: [SM] Exception reported: Invalid memory access
+L 01/25/2023 - 14:58:16: [SM] Blaming: [Server] serverhop.smx
+L 01/25/2023 - 14:58:16: [SM] Call stack trace:
+L 01/25/2023 - 14:58:16: [SM]   [1] Line 386, C:\Users\lostine\Desktop\SourceMod-Linux编译平台\[Server] serverhop.sp::GetByte
+L 01/25/2023 - 14:58:16: [SM]   [2] Line 427, C:\Users\lostine\Desktop\SourceMod-Linux编译平台\[Server] serverhop.sp::OnSocketReceive
+L 01/25/2023 - 14:58:16: [SM] Exception reported: Invalid memory access
+L 01/25/2023 - 14:58:16: [SM] Blaming: [Server] serverhop.smx
+L 01/25/2023 - 14:58:16: [SM] Call stack trace:
+L 01/25/2023 - 14:58:16: [SM]   [1] Line 386, C:\Users\lostine\Desktop\SourceMod-Linux编译平台\[Server] serverhop.sp::GetByte
+L 01/25/2023 - 14:58:16: [SM]   [2] Line 427, C:\Users\lostine\Desktop\SourceMod-Linux编译平台\[Server] serverhop.sp::OnSocketReceive
+L 01/25/2023 - 14:58:26: [[Server] serverhop.smx] CleanUp: Server 124.220.44.187:23333 is down, no reply received within 1092616192 seconds.
+L 01/25/2023 - 14:58:26: [[Server] serverhop.smx] CleanUp: Server 124.220.44.187:2000 is down, no reply received within 1092616192 seconds.
+L 01/25/2023 - 14:59:16: [SM] Exception reported: Invalid memory access
+L 01/25/2023 - 14:59:16: [SM] Blaming: [Server] serverhop.smx
+L 01/25/2023 - 14:59:16: [SM] Call stack trace:
+L 01/25/2023 - 14:59:16: [SM]   [1] Line 386, C:\Users\lostine\Desktop\SourceMod-Linux编译平台\[Server] serverhop.sp::GetByte
+L 01/25/2023 - 14:59:16: [SM]   [2] Line 427, C:\Users\lostine\Desktop\SourceMod-Linux编译平台\[Server] serverhop.sp::OnSocketReceive
+L 01/25/2023 - 14:59:16: [SM] Exception reported: Invalid memory access
+L 01/25/2023 - 14:59:16: [SM] Blaming: [Server] serverhop.smx
+L 01/25/2023 - 14:59:16: [SM] Call stack trace:
+L 01/25/2023 - 14:59:16: [SM]   [1] Line 386, C:\Users\lostine\Desktop\SourceMod-Linux编译平台\[Server] serverhop.sp::GetByte
+L 01/25/2023 - 14:59:16: [SM]   [2] Line 427, C:\Users\lostine\Desktop\SourceMod-Linux编译平台\[Server] serverhop.sp::OnSocketReceive
+L 01/25/2023 - 14:59:26: [[Server] serverhop.smx] CleanUp: Server 124.220.44.187:23333 is down, no reply received within 1092616192 seconds.
+L 01/25/2023 - 14:59:26: [[Server] serverhop.smx] CleanUp: Server 124.220.44.187:2000 is down, no reply received within 1092616192 seconds.
+L 01/25/2023 - 15:00:16: [SM] Exception reported: Invalid memory access
+L 01/25/2023 - 15:00:16: [SM] Blaming: [Server] serverhop.smx
+L 01/25/2023 - 15:00:16: [SM] Call stack trace:
+L 01/25/2023 - 15:00:16: [SM]   [1] Line 386, C:\Users\lostine\Desktop\SourceMod-Linux编译平台\[Server] serverhop.sp::GetByte
+L 01/25/2023 - 15:00:16: [SM]   [2] Line 427, C:\Users\lostine\Desktop\SourceMod-Linux编译平台\[Server] serverhop.sp::OnSocketReceive
+L 01/25/2023 - 15:00:16: [SM] Exception reported: Invalid memory access
+L 01/25/2023 - 15:00:16: [SM] Blaming: [Server] serverhop.smx
+L 01/25/2023 - 15:00:16: [SM] Call stack trace:
+L 01/25/2023 - 15:00:16: [SM]   [1] Line 386, C:\Users\lostine\Desktop\SourceMod-Linux编译平台\[Server] serverhop.sp::GetByte
+L 01/25/2023 - 15:00:16: [SM]   [2] Line 427, C:\Users\lostine\Desktop\SourceMod-Linux编译平台\[Server] serverhop.sp::OnSocketReceive
+L 01/25/2023 - 15:00:26: [[Server] serverhop.smx] CleanUp: Server 124.220.44.187:23333 is down, no reply received within 1092616192 seconds.
+L 01/25/2023 - 15:00:26: [[Server] serverhop.smx] CleanUp: Server 124.220.44.187:2000 is down, no reply received within 1092616192 seconds.
+L 01/25/2023 - 15:01:16: [SM] Exception reported: Invalid memory access
+L 01/25/2023 - 15:01:16: [SM] Blaming: [Server] serverhop.smx
+L 01/25/2023 - 15:01:16: [SM] Call stack trace:
+L 01/25/2023 - 15:01:16: [SM]   [1] Line 386, C:\Users\lostine\Desktop\SourceMod-Linux编译平台\[Server] serverhop.sp::GetByte
+L 01/25/2023 - 15:01:16: [SM]   [2] Line 427, C:\Users\lostine\Desktop\SourceMod-Linux编译平台\[Server] serverhop.sp::OnSocketReceive
+L 01/25/2023 - 15:01:16: [SM] Exception reported: Invalid memory access
+L 01/25/2023 - 15:01:16: [SM] Blaming: [Server] serverhop.smx
+L 01/25/2023 - 15:01:16: [SM] Call stack trace:
+L 01/25/2023 - 15:01:16: [SM]   [1] Line 386, C:\Users\lostine\Desktop\SourceMod-Linux编译平台\[Server] serverhop.sp::GetByte
+L 01/25/2023 - 15:01:16: [SM]   [2] Line 427, C:\Users\lostine\Desktop\SourceMod-Linux编译平台\[Server] serverhop.sp::OnSocketReceive
+L 01/25/2023 - 15:01:26: [[Server] serverhop.smx] CleanUp: Server 124.220.44.187:23333 is down, no reply received within 1092616192 seconds.
+L 01/25/2023 - 15:01:26: [[Server] serverhop.smx] CleanUp: Server 124.220.44.187:2000 is down, no reply received within 1092616192 seconds.
+L 01/25/2023 - 15:02:16: [SM] Exception reported: Invalid memory access
+L 01/25/2023 - 15:02:16: [SM] Blaming: [Server] serverhop.smx
+L 01/25/2023 - 15:02:16: [SM] Call stack trace:
+L 01/25/2023 - 15:02:16: [SM]   [1] Line 386, C:\Users\lostine\Desktop\SourceMod-Linux编译平台\[Server] serverhop.sp::GetByte
+L 01/25/2023 - 15:02:16: [SM]   [2] Line 427, C:\Users\lostine\Desktop\SourceMod-Linux编译平台\[Server] serverhop.sp::OnSocketReceive
+L 01/25/2023 - 15:02:16: [SM] Exception reported: Invalid memory access
+L 01/25/2023 - 15:02:16: [SM] Blaming: [Server] serverhop.smx
+L 01/25/2023 - 15:02:16: [SM] Call stack trace:
+L 01/25/2023 - 15:02:16: [SM]   [1] Line 386, C:\Users\lostine\Desktop\SourceMod-Linux编译平台\[Server] serverhop.sp::GetByte
+L 01/25/2023 - 15:02:16: [SM]   [2] Line 427, C:\Users\lostine\Desktop\SourceMod-Linux编译平台\[Server] serverhop.sp::OnSocketReceive
+L 01/25/2023 - 15:02:26: [[Server] serverhop.smx] CleanUp: Server 124.220.44.187:23333 is down, no reply received within 1092616192 seconds.
+L 01/25/2023 - 15:02:26: [[Server] serverhop.smx] CleanUp: Server 124.220.44.187:2000 is down, no reply received within 1092616192 seconds.
+L 01/25/2023 - 15:03:16: [SM] Exception reported: Invalid memory access
+L 01/25/2023 - 15:03:16: [SM] Blaming: [Server] serverhop.smx
+L 01/25/2023 - 15:03:16: [SM] Call stack trace:
+L 01/25/2023 - 15:03:16: [SM]   [1] Line 386, C:\Users\lostine\Desktop\SourceMod-Linux编译平台\[Server] serverhop.sp::GetByte
+L 01/25/2023 - 15:03:16: [SM]   [2] Line 427, C:\Users\lostine\Desktop\SourceMod-Linux编译平台\[Server] serverhop.sp::OnSocketReceive
+L 01/25/2023 - 15:03:16: [SM] Exception reported: Invalid memory access
+L 01/25/2023 - 15:03:16: [SM] Blaming: [Server] serverhop.smx
+L 01/25/2023 - 15:03:16: [SM] Call stack trace:
+L 01/25/2023 - 15:03:16: [SM]   [1] Line 386, C:\Users\lostine\Desktop\SourceMod-Linux编译平台\[Server] serverhop.sp::GetByte
+L 01/25/2023 - 15:03:16: [SM]   [2] Line 427, C:\Users\lostine\Desktop\SourceMod-Linux编译平台\[Server] serverhop.sp::OnSocketReceive
+L 01/25/2023 - 15:03:26: [[Server] serverhop.smx] CleanUp: Server 124.220.44.187:23333 is down, no reply received within 1092616192 seconds.
+L 01/25/2023 - 15:03:26: [[Server] serverhop.smx] CleanUp: Server 124.220.44.187:2000 is down, no reply received within 1092616192 seconds.
+L 01/25/2023 - 15:04:16: [SM] Exception reported: Invalid memory access
+L 01/25/2023 - 15:04:16: [SM] Blaming: [Server] serverhop.smx
+L 01/25/2023 - 15:04:16: [SM] Call stack trace:
+L 01/25/2023 - 15:04:16: [SM]   [1] Line 386, C:\Users\lostine\Desktop\SourceMod-Linux编译平台\[Server] serverhop.sp::GetByte
+L 01/25/2023 - 15:04:16: [SM]   [2] Line 427, C:\Users\lostine\Desktop\SourceMod-Linux编译平台\[Server] serverhop.sp::OnSocketReceive
+L 01/25/2023 - 15:04:16: [SM] Exception reported: Invalid memory access
+L 01/25/2023 - 15:04:16: [SM] Blaming: [Server] serverhop.smx
+L 01/25/2023 - 15:04:16: [SM] Call stack trace:
+L 01/25/2023 - 15:04:16: [SM]   [1] Line 386, C:\Users\lostine\Desktop\SourceMod-Linux编译平台\[Server] serverhop.sp::GetByte
+L 01/25/2023 - 15:04:16: [SM]   [2] Line 427, C:\Users\lostine\Desktop\SourceMod-Linux编译平台\[Server] serverhop.sp::OnSocketReceive
+L 01/25/2023 - 15:04:26: [[Server] serverhop.smx] CleanUp: Server 124.220.44.187:23333 is down, no reply received within 1092616192 seconds.
+L 01/25/2023 - 15:04:26: [[Server] serverhop.smx] CleanUp: Server 124.220.44.187:2000 is down, no reply received within 1092616192 seconds.
+L 01/25/2023 - 15:05:16: [SM] Exception reported: Invalid memory access
+L 01/25/2023 - 15:05:16: [SM] Blaming: [Server] serverhop.smx
+L 01/25/2023 - 15:05:16: [SM] Call stack trace:
+L 01/25/2023 - 15:05:16: [SM]   [1] Line 386, C:\Users\lostine\Desktop\SourceMod-Linux编译平台\[Server] serverhop.sp::GetByte
+L 01/25/2023 - 15:05:16: [SM]   [2] Line 427, C:\Users\lostine\Desktop\SourceMod-Linux编译平台\[Server] serverhop.sp::OnSocketReceive
+L 01/25/2023 - 15:05:16: [SM] Exception reported: Invalid memory access
+L 01/25/2023 - 15:05:16: [SM] Blaming: [Server] serverhop.smx
+L 01/25/2023 - 15:05:16: [SM] Call stack trace:
+L 01/25/2023 - 15:05:16: [SM]   [1] Line 386, C:\Users\lostine\Desktop\SourceMod-Linux编译平台\[Server] serverhop.sp::GetByte
+L 01/25/2023 - 15:05:16: [SM]   [2] Line 427, C:\Users\lostine\Desktop\SourceMod-Linux编译平台\[Server] serverhop.sp::OnSocketReceive
+L 01/25/2023 - 15:05:26: [[Server] serverhop.smx] CleanUp: Server 124.220.44.187:23333 is down, no reply received within 1092616192 seconds.
+L 01/25/2023 - 15:05:26: [[Server] serverhop.smx] CleanUp: Server 124.220.44.187:2000 is down, no reply received within 1092616192 seconds.
+L 01/25/2023 - 15:05:49: SourceMod error session started
+L 01/25/2023 - 15:05:49: Info (map "c2m1_highway") (file "/root/Steam/steamapps/common/Left 4 Dead 2 Dedicated Server/left4dead2/addons/sourcemod/logs/errors_20230125.log")
+L 01/25/2023 - 15:05:49: [SM] Unable to load plugin "Welcome.smx": Could not find required plugin "l4d2_playtime_interface"
+L 01/25/2023 - 15:05:49: [SM] Unable to load plugin "l4d_fyzb_en_v20.smx": Could not find required plugin "readyup"
+L 01/25/2023 - 15:05:53: [[Server] serverhop.smx] Server 124.220.44.187:23333 is down: socket error 6 (errno 111)
+L 01/25/2023 - 15:06:53: [SM] Exception reported: Invalid memory access
+L 01/25/2023 - 15:06:53: [SM] Blaming: [Server] serverhop.smx
+L 01/25/2023 - 15:06:53: [SM] Call stack trace:
+L 01/25/2023 - 15:06:53: [SM]   [1] Line 386, C:\Users\lostine\Desktop\SourceMod-Linux编译平台\[Server] serverhop.sp::GetByte
+L 01/25/2023 - 15:06:53: [SM]   [2] Line 427, C:\Users\lostine\Desktop\SourceMod-Linux编译平台\[Server] serverhop.sp::OnSocketReceive
+L 01/25/2023 - 15:06:53: [SM] Exception reported: Invalid memory access
+L 01/25/2023 - 15:06:53: [SM] Blaming: [Server] serverhop.smx
+L 01/25/2023 - 15:06:53: [SM] Call stack trace:
+L 01/25/2023 - 15:06:53: [SM]   [1] Line 386, C:\Users\lostine\Desktop\SourceMod-Linux编译平台\[Server] serverhop.sp::GetByte
+L 01/25/2023 - 15:06:53: [SM]   [2] Line 427, C:\Users\lostine\Desktop\SourceMod-Linux编译平台\[Server] serverhop.sp::OnSocketReceive
+L 01/25/2023 - 15:07:03: [[Server] serverhop.smx] CleanUp: Server 124.220.44.187:23333 is down, no reply received within 1092616192 seconds.
+L 01/25/2023 - 15:07:03: [[Server] serverhop.smx] CleanUp: Server 124.220.44.187:2000 is down, no reply received within 1092616192 seconds.
+L 01/25/2023 - 15:07:53: [SM] Exception reported: Invalid memory access
+L 01/25/2023 - 15:07:53: [SM] Blaming: [Server] serverhop.smx
+L 01/25/2023 - 15:07:53: [SM] Call stack trace:
+L 01/25/2023 - 15:07:53: [SM]   [1] Line 386, C:\Users\lostine\Desktop\SourceMod-Linux编译平台\[Server] serverhop.sp::GetByte
+L 01/25/2023 - 15:07:53: [SM]   [2] Line 427, C:\Users\lostine\Desktop\SourceMod-Linux编译平台\[Server] serverhop.sp::OnSocketReceive
+L 01/25/2023 - 15:07:53: [SM] Exception reported: Invalid memory access
+L 01/25/2023 - 15:07:53: [SM] Blaming: [Server] serverhop.smx
+L 01/25/2023 - 15:07:53: [SM] Call stack trace:
+L 01/25/2023 - 15:07:53: [SM]   [1] Line 386, C:\Users\lostine\Desktop\SourceMod-Linux编译平台\[Server] serverhop.sp::GetByte
+L 01/25/2023 - 15:07:53: [SM]   [2] Line 427, C:\Users\lostine\Desktop\SourceMod-Linux编译平台\[Server] serverhop.sp::OnSocketReceive
+L 01/25/2023 - 15:08:03: [[Server] serverhop.smx] CleanUp: Server 124.220.44.187:23333 is down, no reply received within 1092616192 seconds.
+L 01/25/2023 - 15:08:03: [[Server] serverhop.smx] CleanUp: Server 124.220.44.187:2000 is down, no reply received within 1092616192 seconds.
+L 01/25/2023 - 15:08:53: [SM] Exception reported: Invalid memory access
+L 01/25/2023 - 15:08:53: [SM] Blaming: [Server] serverhop.smx
+L 01/25/2023 - 15:08:53: [SM] Call stack trace:
+L 01/25/2023 - 15:08:53: [SM]   [1] Line 386, C:\Users\lostine\Desktop\SourceMod-Linux编译平台\[Server] serverhop.sp::GetByte
+L 01/25/2023 - 15:08:53: [SM]   [2] Line 427, C:\Users\lostine\Desktop\SourceMod-Linux编译平台\[Server] serverhop.sp::OnSocketReceive
+L 01/25/2023 - 15:08:53: [SM] Exception reported: Invalid memory access
+L 01/25/2023 - 15:08:53: [SM] Blaming: [Server] serverhop.smx
+L 01/25/2023 - 15:08:53: [SM] Call stack trace:
+L 01/25/2023 - 15:08:53: [SM]   [1] Line 386, C:\Users\lostine\Desktop\SourceMod-Linux编译平台\[Server] serverhop.sp::GetByte
+L 01/25/2023 - 15:08:53: [SM]   [2] Line 427, C:\Users\lostine\Desktop\SourceMod-Linux编译平台\[Server] serverhop.sp::OnSocketReceive
+L 01/25/2023 - 15:09:03: [[Server] serverhop.smx] CleanUp: Server 124.220.44.187:23333 is down, no reply received within 1092616192 seconds.
+L 01/25/2023 - 15:09:03: [[Server] serverhop.smx] CleanUp: Server 124.220.44.187:2000 is down, no reply received within 1092616192 seconds.
+L 01/25/2023 - 15:09:53: [SM] Exception reported: Invalid memory access
+L 01/25/2023 - 15:09:53: [SM] Blaming: [Server] serverhop.smx
+L 01/25/2023 - 15:09:53: [SM] Call stack trace:
+L 01/25/2023 - 15:09:53: [SM]   [1] Line 386, C:\Users\lostine\Desktop\SourceMod-Linux编译平台\[Server] serverhop.sp::GetByte
+L 01/25/2023 - 15:09:53: [SM]   [2] Line 427, C:\Users\lostine\Desktop\SourceMod-Linux编译平台\[Server] serverhop.sp::OnSocketReceive
+L 01/25/2023 - 15:09:53: [SM] Exception reported: Invalid memory access
+L 01/25/2023 - 15:09:53: [SM] Blaming: [Server] serverhop.smx
+L 01/25/2023 - 15:09:53: [SM] Call stack trace:
+L 01/25/2023 - 15:09:53: [SM]   [1] Line 386, C:\Users\lostine\Desktop\SourceMod-Linux编译平台\[Server] serverhop.sp::GetByte
+L 01/25/2023 - 15:09:53: [SM]   [2] Line 427, C:\Users\lostine\Desktop\SourceMod-Linux编译平台\[Server] serverhop.sp::OnSocketReceive
+L 01/25/2023 - 15:10:03: [[Server] serverhop.smx] CleanUp: Server 124.220.44.187:23333 is down, no reply received within 1092616192 seconds.
+L 01/25/2023 - 15:10:03: [[Server] serverhop.smx] CleanUp: Server 124.220.44.187:2000 is down, no reply received within 1092616192 seconds.
+L 01/25/2023 - 15:10:53: [SM] Exception reported: Invalid memory access
+L 01/25/2023 - 15:10:53: [SM] Blaming: [Server] serverhop.smx
+L 01/25/2023 - 15:10:53: [SM] Call stack trace:
+L 01/25/2023 - 15:10:53: [SM]   [1] Line 386, C:\Users\lostine\Desktop\SourceMod-Linux编译平台\[Server] serverhop.sp::GetByte
+L 01/25/2023 - 15:10:53: [SM]   [2] Line 427, C:\Users\lostine\Desktop\SourceMod-Linux编译平台\[Server] serverhop.sp::OnSocketReceive
+L 01/25/2023 - 15:10:53: [SM] Exception reported: Invalid memory access
+L 01/25/2023 - 15:10:53: [SM] Blaming: [Server] serverhop.smx
+L 01/25/2023 - 15:10:53: [SM] Call stack trace:
+L 01/25/2023 - 15:10:53: [SM]   [1] Line 386, C:\Users\lostine\Desktop\SourceMod-Linux编译平台\[Server] serverhop.sp::GetByte
+L 01/25/2023 - 15:10:53: [SM]   [2] Line 427, C:\Users\lostine\Desktop\SourceMod-Linux编译平台\[Server] serverhop.sp::OnSocketReceive
+L 01/25/2023 - 15:11:03: [[Server] serverhop.smx] CleanUp: Server 124.220.44.187:23333 is down, no reply received within 1092616192 seconds.
+L 01/25/2023 - 15:11:03: [[Server] serverhop.smx] CleanUp: Server 124.220.44.187:2000 is down, no reply received within 1092616192 seconds.
+L 01/25/2023 - 15:11:53: [SM] Exception reported: Invalid memory access
+L 01/25/2023 - 15:11:53: [SM] Blaming: [Server] serverhop.smx
+L 01/25/2023 - 15:11:53: [SM] Call stack trace:
+L 01/25/2023 - 15:11:53: [SM]   [1] Line 386, C:\Users\lostine\Desktop\SourceMod-Linux编译平台\[Server] serverhop.sp::GetByte
+L 01/25/2023 - 15:11:53: [SM]   [2] Line 427, C:\Users\lostine\Desktop\SourceMod-Linux编译平台\[Server] serverhop.sp::OnSocketReceive
+L 01/25/2023 - 15:11:53: [SM] Exception reported: Invalid memory access
+L 01/25/2023 - 15:11:53: [SM] Blaming: [Server] serverhop.smx
+L 01/25/2023 - 15:11:53: [SM] Call stack trace:
+L 01/25/2023 - 15:11:53: [SM]   [1] Line 386, C:\Users\lostine\Desktop\SourceMod-Linux编译平台\[Server] serverhop.sp::GetByte
+L 01/25/2023 - 15:11:53: [SM]   [2] Line 427, C:\Users\lostine\Desktop\SourceMod-Linux编译平台\[Server] serverhop.sp::OnSocketReceive
+L 01/25/2023 - 15:12:03: [[Server] serverhop.smx] CleanUp: Server 124.220.44.187:23333 is down, no reply received within 1092616192 seconds.
+L 01/25/2023 - 15:12:03: [[Server] serverhop.smx] CleanUp: Server 124.220.44.187:2000 is down, no reply received within 1092616192 seconds.
+L 01/25/2023 - 15:12:53: [SM] Exception reported: Invalid memory access
+L 01/25/2023 - 15:12:53: [SM] Blaming: [Server] serverhop.smx
+L 01/25/2023 - 15:12:53: [SM] Call stack trace:
+L 01/25/2023 - 15:12:53: [SM]   [1] Line 386, C:\Users\lostine\Desktop\SourceMod-Linux编译平台\[Server] serverhop.sp::GetByte
+L 01/25/2023 - 15:12:53: [SM]   [2] Line 427, C:\Users\lostine\Desktop\SourceMod-Linux编译平台\[Server] serverhop.sp::OnSocketReceive
+L 01/25/2023 - 15:12:53: [SM] Exception reported: Invalid memory access
+L 01/25/2023 - 15:12:53: [SM] Blaming: [Server] serverhop.smx
+L 01/25/2023 - 15:12:53: [SM] Call stack trace:
+L 01/25/2023 - 15:12:53: [SM]   [1] Line 386, C:\Users\lostine\Desktop\SourceMod-Linux编译平台\[Server] serverhop.sp::GetByte
+L 01/25/2023 - 15:12:53: [SM]   [2] Line 427, C:\Users\lostine\Desktop\SourceMod-Linux编译平台\[Server] serverhop.sp::OnSocketReceive
+L 01/25/2023 - 15:13:03: [[Server] serverhop.smx] CleanUp: Server 124.220.44.187:23333 is down, no reply received within 1092616192 seconds.
+L 01/25/2023 - 15:13:03: [[Server] serverhop.smx] CleanUp: Server 124.220.44.187:2000 is down, no reply received within 1092616192 seconds.
+L 01/25/2023 - 15:13:53: [SM] Exception reported: Invalid memory access
+L 01/25/2023 - 15:13:53: [SM] Blaming: [Server] serverhop.smx
+L 01/25/2023 - 15:13:53: [SM] Call stack trace:
+L 01/25/2023 - 15:13:53: [SM]   [1] Line 386, C:\Users\lostine\Desktop\SourceMod-Linux编译平台\[Server] serverhop.sp::GetByte
+L 01/25/2023 - 15:13:53: [SM]   [2] Line 427, C:\Users\lostine\Desktop\SourceMod-Linux编译平台\[Server] serverhop.sp::OnSocketReceive
+L 01/25/2023 - 15:13:53: [SM] Exception reported: Invalid memory access
+L 01/25/2023 - 15:13:53: [SM] Blaming: [Server] serverhop.smx
+L 01/25/2023 - 15:13:53: [SM] Call stack trace:
+L 01/25/2023 - 15:13:53: [SM]   [1] Line 386, C:\Users\lostine\Desktop\SourceMod-Linux编译平台\[Server] serverhop.sp::GetByte
+L 01/25/2023 - 15:13:53: [SM]   [2] Line 427, C:\Users\lostine\Desktop\SourceMod-Linux编译平台\[Server] serverhop.sp::OnSocketReceive
+L 01/25/2023 - 15:14:03: [[Server] serverhop.smx] CleanUp: Server 124.220.44.187:23333 is down, no reply received within 1092616192 seconds.
+L 01/25/2023 - 15:14:03: [[Server] serverhop.smx] CleanUp: Server 124.220.44.187:2000 is down, no reply received within 1092616192 seconds.
+L 01/25/2023 - 15:14:53: [SM] Exception reported: Invalid memory access
+L 01/25/2023 - 15:14:53: [SM] Blaming: [Server] serverhop.smx
+L 01/25/2023 - 15:14:53: [SM] Call stack trace:
+L 01/25/2023 - 15:14:53: [SM]   [1] Line 386, C:\Users\lostine\Desktop\SourceMod-Linux编译平台\[Server] serverhop.sp::GetByte
+L 01/25/2023 - 15:14:53: [SM]   [2] Line 427, C:\Users\lostine\Desktop\SourceMod-Linux编译平台\[Server] serverhop.sp::OnSocketReceive
+L 01/25/2023 - 15:14:53: [SM] Exception reported: Invalid memory access
+L 01/25/2023 - 15:14:53: [SM] Blaming: [Server] serverhop.smx
+L 01/25/2023 - 15:14:53: [SM] Call stack trace:
+L 01/25/2023 - 15:14:53: [SM]   [1] Line 386, C:\Users\lostine\Desktop\SourceMod-Linux编译平台\[Server] serverhop.sp::GetByte
+L 01/25/2023 - 15:14:53: [SM]   [2] Line 427, C:\Users\lostine\Desktop\SourceMod-Linux编译平台\[Server] serverhop.sp::OnSocketReceive
+L 01/25/2023 - 15:15:03: [[Server] serverhop.smx] CleanUp: Server 124.220.44.187:23333 is down, no reply received within 1092616192 seconds.
+L 01/25/2023 - 15:15:03: [[Server] serverhop.smx] CleanUp: Server 124.220.44.187:2000 is down, no reply received within 1092616192 seconds.
+L 01/25/2023 - 15:15:53: [SM] Exception reported: Invalid memory access
+L 01/25/2023 - 15:15:53: [SM] Blaming: [Server] serverhop.smx
+L 01/25/2023 - 15:15:53: [SM] Call stack trace:
+L 01/25/2023 - 15:15:53: [SM]   [1] Line 386, C:\Users\lostine\Desktop\SourceMod-Linux编译平台\[Server] serverhop.sp::GetByte
+L 01/25/2023 - 15:15:53: [SM]   [2] Line 427, C:\Users\lostine\Desktop\SourceMod-Linux编译平台\[Server] serverhop.sp::OnSocketReceive
+L 01/25/2023 - 15:15:53: [SM] Exception reported: Invalid memory access
+L 01/25/2023 - 15:15:53: [SM] Blaming: [Server] serverhop.smx
+L 01/25/2023 - 15:15:53: [SM] Call stack trace:
+L 01/25/2023 - 15:15:53: [SM]   [1] Line 386, C:\Users\lostine\Desktop\SourceMod-Linux编译平台\[Server] serverhop.sp::GetByte
+L 01/25/2023 - 15:15:53: [SM]   [2] Line 427, C:\Users\lostine\Desktop\SourceMod-Linux编译平台\[Server] serverhop.sp::OnSocketReceive
+L 01/25/2023 - 15:16:03: [[Server] serverhop.smx] CleanUp: Server 124.220.44.187:23333 is down, no reply received within 1092616192 seconds.
+L 01/25/2023 - 15:16:03: [[Server] serverhop.smx] CleanUp: Server 124.220.44.187:2000 is down, no reply received within 1092616192 seconds.
+L 01/25/2023 - 15:16:25: SourceMod error session started
+L 01/25/2023 - 15:16:25: Info (map "c2m1_highway") (file "/root/Steam/steamapps/common/Left 4 Dead 2 Dedicated Server/left4dead2/addons/sourcemod/logs/errors_20230125.log")
+L 01/25/2023 - 15:16:25: [SM] Unable to load plugin "Welcome.smx": Could not find required plugin "l4d2_playtime_interface"
+L 01/25/2023 - 15:16:25: [SM] Unable to load plugin "l4d_fyzb_en_v20.smx": Could not find required plugin "readyup"
+L 01/25/2023 - 15:16:28: [SM] Exception reported: Invalid memory access
+L 01/25/2023 - 15:16:28: [SM] Blaming: [Server] serverhop.smx
+L 01/25/2023 - 15:16:28: [SM] Call stack trace:
+L 01/25/2023 - 15:16:28: [SM]   [1] Line 386, C:\Users\lostine\Desktop\SourceMod-Linux编译平台\[Server] serverhop.sp::GetByte
+L 01/25/2023 - 15:16:28: [SM]   [2] Line 427, C:\Users\lostine\Desktop\SourceMod-Linux编译平台\[Server] serverhop.sp::OnSocketReceive
+L 01/25/2023 - 15:16:28: [SM] Exception reported: Invalid memory access
+L 01/25/2023 - 15:16:28: [SM] Blaming: [Server] serverhop.smx
+L 01/25/2023 - 15:16:28: [SM] Call stack trace:
+L 01/25/2023 - 15:16:28: [SM]   [1] Line 386, C:\Users\lostine\Desktop\SourceMod-Linux编译平台\[Server] serverhop.sp::GetByte
+L 01/25/2023 - 15:16:28: [SM]   [2] Line 427, C:\Users\lostine\Desktop\SourceMod-Linux编译平台\[Server] serverhop.sp::OnSocketReceive
+L 01/25/2023 - 15:16:38: [[Server] serverhop.smx] CleanUp: Server 124.220.44.187:23333 is down, no reply received within 1092616192 seconds.
+L 01/25/2023 - 15:16:38: [[Server] serverhop.smx] CleanUp: Server 124.220.44.187:2000 is down, no reply received within 1092616192 seconds.
+L 01/25/2023 - 15:17:28: [SM] Exception reported: Invalid memory access
+L 01/25/2023 - 15:17:28: [SM] Blaming: [Server] serverhop.smx
+L 01/25/2023 - 15:17:28: [SM] Call stack trace:
+L 01/25/2023 - 15:17:28: [SM]   [1] Line 386, C:\Users\lostine\Desktop\SourceMod-Linux编译平台\[Server] serverhop.sp::GetByte
+L 01/25/2023 - 15:17:28: [SM]   [2] Line 427, C:\Users\lostine\Desktop\SourceMod-Linux编译平台\[Server] serverhop.sp::OnSocketReceive
+L 01/25/2023 - 15:17:28: [SM] Exception reported: Invalid memory access
+L 01/25/2023 - 15:17:28: [SM] Blaming: [Server] serverhop.smx
+L 01/25/2023 - 15:17:28: [SM] Call stack trace:
+L 01/25/2023 - 15:17:28: [SM]   [1] Line 386, C:\Users\lostine\Desktop\SourceMod-Linux编译平台\[Server] serverhop.sp::GetByte
+L 01/25/2023 - 15:17:28: [SM]   [2] Line 427, C:\Users\lostine\Desktop\SourceMod-Linux编译平台\[Server] serverhop.sp::OnSocketReceive
+L 01/25/2023 - 15:17:38: [[Server] serverhop.smx] CleanUp: Server 124.220.44.187:23333 is down, no reply received within 1092616192 seconds.
+L 01/25/2023 - 15:17:38: [[Server] serverhop.smx] CleanUp: Server 124.220.44.187:2000 is down, no reply received within 1092616192 seconds.
+L 01/25/2023 - 15:18:28: [SM] Exception reported: Invalid memory access
+L 01/25/2023 - 15:18:28: [SM] Blaming: [Server] serverhop.smx
+L 01/25/2023 - 15:18:28: [SM] Call stack trace:
+L 01/25/2023 - 15:18:28: [SM]   [1] Line 386, C:\Users\lostine\Desktop\SourceMod-Linux编译平台\[Server] serverhop.sp::GetByte
+L 01/25/2023 - 15:18:28: [SM]   [2] Line 427, C:\Users\lostine\Desktop\SourceMod-Linux编译平台\[Server] serverhop.sp::OnSocketReceive
+L 01/25/2023 - 15:18:28: [SM] Exception reported: Invalid memory access
+L 01/25/2023 - 15:18:28: [SM] Blaming: [Server] serverhop.smx
+L 01/25/2023 - 15:18:28: [SM] Call stack trace:
+L 01/25/2023 - 15:18:28: [SM]   [1] Line 386, C:\Users\lostine\Desktop\SourceMod-Linux编译平台\[Server] serverhop.sp::GetByte
+L 01/25/2023 - 15:18:28: [SM]   [2] Line 427, C:\Users\lostine\Desktop\SourceMod-Linux编译平台\[Server] serverhop.sp::OnSocketReceive
+L 01/25/2023 - 15:18:38: [[Server] serverhop.smx] CleanUp: Server 124.220.44.187:23333 is down, no reply received within 1092616192 seconds.
+L 01/25/2023 - 15:18:38: [[Server] serverhop.smx] CleanUp: Server 124.220.44.187:2000 is down, no reply received within 1092616192 seconds.
+L 01/25/2023 - 15:19:28: [SM] Exception reported: Invalid memory access
+L 01/25/2023 - 15:19:28: [SM] Blaming: [Server] serverhop.smx
+L 01/25/2023 - 15:19:28: [SM] Call stack trace:
+L 01/25/2023 - 15:19:28: [SM]   [1] Line 386, C:\Users\lostine\Desktop\SourceMod-Linux编译平台\[Server] serverhop.sp::GetByte
+L 01/25/2023 - 15:19:28: [SM]   [2] Line 427, C:\Users\lostine\Desktop\SourceMod-Linux编译平台\[Server] serverhop.sp::OnSocketReceive
+L 01/25/2023 - 15:19:28: [SM] Exception reported: Invalid memory access
+L 01/25/2023 - 15:19:28: [SM] Blaming: [Server] serverhop.smx
+L 01/25/2023 - 15:19:28: [SM] Call stack trace:
+L 01/25/2023 - 15:19:28: [SM]   [1] Line 386, C:\Users\lostine\Desktop\SourceMod-Linux编译平台\[Server] serverhop.sp::GetByte
+L 01/25/2023 - 15:19:28: [SM]   [2] Line 427, C:\Users\lostine\Desktop\SourceMod-Linux编译平台\[Server] serverhop.sp::OnSocketReceive
+L 01/25/2023 - 15:19:38: [[Server] serverhop.smx] CleanUp: Server 124.220.44.187:23333 is down, no reply received within 1092616192 seconds.
+L 01/25/2023 - 15:19:38: [[Server] serverhop.smx] CleanUp: Server 124.220.44.187:2000 is down, no reply received within 1092616192 seconds.
+L 01/25/2023 - 15:20:28: [SM] Exception reported: Invalid memory access
+L 01/25/2023 - 15:20:28: [SM] Blaming: [Server] serverhop.smx
+L 01/25/2023 - 15:20:28: [SM] Call stack trace:
+L 01/25/2023 - 15:20:28: [SM]   [1] Line 386, C:\Users\lostine\Desktop\SourceMod-Linux编译平台\[Server] serverhop.sp::GetByte
+L 01/25/2023 - 15:20:28: [SM]   [2] Line 427, C:\Users\lostine\Desktop\SourceMod-Linux编译平台\[Server] serverhop.sp::OnSocketReceive
+L 01/25/2023 - 15:20:28: [SM] Exception reported: Invalid memory access
+L 01/25/2023 - 15:20:28: [SM] Blaming: [Server] serverhop.smx
+L 01/25/2023 - 15:20:28: [SM] Call stack trace:
+L 01/25/2023 - 15:20:28: [SM]   [1] Line 386, C:\Users\lostine\Desktop\SourceMod-Linux编译平台\[Server] serverhop.sp::GetByte
+L 01/25/2023 - 15:20:28: [SM]   [2] Line 427, C:\Users\lostine\Desktop\SourceMod-Linux编译平台\[Server] serverhop.sp::OnSocketReceive
+L 01/25/2023 - 15:20:38: [[Server] serverhop.smx] CleanUp: Server 124.220.44.187:23333 is down, no reply received within 1092616192 seconds.
+L 01/25/2023 - 15:20:38: [[Server] serverhop.smx] CleanUp: Server 124.220.44.187:2000 is down, no reply received within 1092616192 seconds.
+L 01/25/2023 - 15:21:28: [SM] Exception reported: Invalid memory access
+L 01/25/2023 - 15:21:28: [SM] Blaming: [Server] serverhop.smx
+L 01/25/2023 - 15:21:28: [SM] Call stack trace:
+L 01/25/2023 - 15:21:28: [SM]   [1] Line 386, C:\Users\lostine\Desktop\SourceMod-Linux编译平台\[Server] serverhop.sp::GetByte
+L 01/25/2023 - 15:21:28: [SM]   [2] Line 427, C:\Users\lostine\Desktop\SourceMod-Linux编译平台\[Server] serverhop.sp::OnSocketReceive
+L 01/25/2023 - 15:21:28: [SM] Exception reported: Invalid memory access
+L 01/25/2023 - 15:21:28: [SM] Blaming: [Server] serverhop.smx
+L 01/25/2023 - 15:21:28: [SM] Call stack trace:
+L 01/25/2023 - 15:21:28: [SM]   [1] Line 386, C:\Users\lostine\Desktop\SourceMod-Linux编译平台\[Server] serverhop.sp::GetByte
+L 01/25/2023 - 15:21:28: [SM]   [2] Line 427, C:\Users\lostine\Desktop\SourceMod-Linux编译平台\[Server] serverhop.sp::OnSocketReceive
+L 01/25/2023 - 15:21:38: [[Server] serverhop.smx] CleanUp: Server 124.220.44.187:23333 is down, no reply received within 1092616192 seconds.
+L 01/25/2023 - 15:21:38: [[Server] serverhop.smx] CleanUp: Server 124.220.44.187:2000 is down, no reply received within 1092616192 seconds.
+L 01/25/2023 - 15:22:28: [SM] Exception reported: Invalid memory access
+L 01/25/2023 - 15:22:28: [SM] Blaming: [Server] serverhop.smx
+L 01/25/2023 - 15:22:28: [SM] Call stack trace:
+L 01/25/2023 - 15:22:28: [SM]   [1] Line 386, C:\Users\lostine\Desktop\SourceMod-Linux编译平台\[Server] serverhop.sp::GetByte
+L 01/25/2023 - 15:22:28: [SM]   [2] Line 427, C:\Users\lostine\Desktop\SourceMod-Linux编译平台\[Server] serverhop.sp::OnSocketReceive
+L 01/25/2023 - 15:22:28: [SM] Exception reported: Invalid memory access
+L 01/25/2023 - 15:22:28: [SM] Blaming: [Server] serverhop.smx
+L 01/25/2023 - 15:22:28: [SM] Call stack trace:
+L 01/25/2023 - 15:22:28: [SM]   [1] Line 386, C:\Users\lostine\Desktop\SourceMod-Linux编译平台\[Server] serverhop.sp::GetByte
+L 01/25/2023 - 15:22:28: [SM]   [2] Line 427, C:\Users\lostine\Desktop\SourceMod-Linux编译平台\[Server] serverhop.sp::OnSocketReceive
+L 01/25/2023 - 15:22:38: [[Server] serverhop.smx] CleanUp: Server 124.220.44.187:23333 is down, no reply received within 1092616192 seconds.
+L 01/25/2023 - 15:22:38: [[Server] serverhop.smx] CleanUp: Server 124.220.44.187:2000 is down, no reply received within 1092616192 seconds.
+L 01/25/2023 - 15:23:28: [SM] Exception reported: Invalid memory access
+L 01/25/2023 - 15:23:28: [SM] Blaming: [Server] serverhop.smx
+L 01/25/2023 - 15:23:28: [SM] Call stack trace:
+L 01/25/2023 - 15:23:28: [SM]   [1] Line 386, C:\Users\lostine\Desktop\SourceMod-Linux编译平台\[Server] serverhop.sp::GetByte
+L 01/25/2023 - 15:23:28: [SM]   [2] Line 427, C:\Users\lostine\Desktop\SourceMod-Linux编译平台\[Server] serverhop.sp::OnSocketReceive
+L 01/25/2023 - 15:23:28: [SM] Exception reported: Invalid memory access
+L 01/25/2023 - 15:23:28: [SM] Blaming: [Server] serverhop.smx
+L 01/25/2023 - 15:23:28: [SM] Call stack trace:
+L 01/25/2023 - 15:23:28: [SM]   [1] Line 386, C:\Users\lostine\Desktop\SourceMod-Linux编译平台\[Server] serverhop.sp::GetByte
+L 01/25/2023 - 15:23:28: [SM]   [2] Line 427, C:\Users\lostine\Desktop\SourceMod-Linux编译平台\[Server] serverhop.sp::OnSocketReceive
+L 01/25/2023 - 15:23:38: [[Server] serverhop.smx] CleanUp: Server 124.220.44.187:23333 is down, no reply received within 1092616192 seconds.
+L 01/25/2023 - 15:23:38: [[Server] serverhop.smx] CleanUp: Server 124.220.44.187:2000 is down, no reply received within 1092616192 seconds.
+L 01/25/2023 - 15:24:28: [SM] Exception reported: Invalid memory access
+L 01/25/2023 - 15:24:28: [SM] Blaming: [Server] serverhop.smx
+L 01/25/2023 - 15:24:28: [SM] Call stack trace:
+L 01/25/2023 - 15:24:28: [SM]   [1] Line 386, C:\Users\lostine\Desktop\SourceMod-Linux编译平台\[Server] serverhop.sp::GetByte
+L 01/25/2023 - 15:24:28: [SM]   [2] Line 427, C:\Users\lostine\Desktop\SourceMod-Linux编译平台\[Server] serverhop.sp::OnSocketReceive
+L 01/25/2023 - 15:24:28: [SM] Exception reported: Invalid memory access
+L 01/25/2023 - 15:24:28: [SM] Blaming: [Server] serverhop.smx
+L 01/25/2023 - 15:24:28: [SM] Call stack trace:
+L 01/25/2023 - 15:24:28: [SM]   [1] Line 386, C:\Users\lostine\Desktop\SourceMod-Linux编译平台\[Server] serverhop.sp::GetByte
+L 01/25/2023 - 15:24:28: [SM]   [2] Line 427, C:\Users\lostine\Desktop\SourceMod-Linux编译平台\[Server] serverhop.sp::OnSocketReceive
+L 01/25/2023 - 15:24:38: [[Server] serverhop.smx] CleanUp: Server 124.220.44.187:23333 is down, no reply received within 1092616192 seconds.
+L 01/25/2023 - 15:24:38: [[Server] serverhop.smx] CleanUp: Server 124.220.44.187:2000 is down, no reply received within 1092616192 seconds.
+L 01/25/2023 - 15:25:28: [SM] Exception reported: Invalid memory access
+L 01/25/2023 - 15:25:28: [SM] Blaming: [Server] serverhop.smx
+L 01/25/2023 - 15:25:28: [SM] Call stack trace:
+L 01/25/2023 - 15:25:28: [SM]   [1] Line 386, C:\Users\lostine\Desktop\SourceMod-Linux编译平台\[Server] serverhop.sp::GetByte
+L 01/25/2023 - 15:25:28: [SM]   [2] Line 427, C:\Users\lostine\Desktop\SourceMod-Linux编译平台\[Server] serverhop.sp::OnSocketReceive
+L 01/25/2023 - 15:25:28: [SM] Exception reported: Invalid memory access
+L 01/25/2023 - 15:25:28: [SM] Blaming: [Server] serverhop.smx
+L 01/25/2023 - 15:25:28: [SM] Call stack trace:
+L 01/25/2023 - 15:25:28: [SM]   [1] Line 386, C:\Users\lostine\Desktop\SourceMod-Linux编译平台\[Server] serverhop.sp::GetByte
+L 01/25/2023 - 15:25:28: [SM]   [2] Line 427, C:\Users\lostine\Desktop\SourceMod-Linux编译平台\[Server] serverhop.sp::OnSocketReceive
+L 01/25/2023 - 15:25:38: [[Server] serverhop.smx] CleanUp: Server 124.220.44.187:23333 is down, no reply received within 1092616192 seconds.
+L 01/25/2023 - 15:25:38: [[Server] serverhop.smx] CleanUp: Server 124.220.44.187:2000 is down, no reply received within 1092616192 seconds.
+L 01/25/2023 - 15:26:28: [SM] Exception reported: Invalid memory access
+L 01/25/2023 - 15:26:28: [SM] Blaming: [Server] serverhop.smx
+L 01/25/2023 - 15:26:28: [SM] Call stack trace:
+L 01/25/2023 - 15:26:28: [SM]   [1] Line 386, C:\Users\lostine\Desktop\SourceMod-Linux编译平台\[Server] serverhop.sp::GetByte
+L 01/25/2023 - 15:26:28: [SM]   [2] Line 427, C:\Users\lostine\Desktop\SourceMod-Linux编译平台\[Server] serverhop.sp::OnSocketReceive
+L 01/25/2023 - 15:26:28: [SM] Exception reported: Invalid memory access
+L 01/25/2023 - 15:26:28: [SM] Blaming: [Server] serverhop.smx
+L 01/25/2023 - 15:26:28: [SM] Call stack trace:
+L 01/25/2023 - 15:26:28: [SM]   [1] Line 386, C:\Users\lostine\Desktop\SourceMod-Linux编译平台\[Server] serverhop.sp::GetByte
+L 01/25/2023 - 15:26:28: [SM]   [2] Line 427, C:\Users\lostine\Desktop\SourceMod-Linux编译平台\[Server] serverhop.sp::OnSocketReceive
+L 01/25/2023 - 15:26:38: [[Server] serverhop.smx] CleanUp: Server 124.220.44.187:23333 is down, no reply received within 1092616192 seconds.
+L 01/25/2023 - 15:26:38: [[Server] serverhop.smx] CleanUp: Server 124.220.44.187:2000 is down, no reply received within 1092616192 seconds.
+L 01/25/2023 - 15:27:28: [SM] Exception reported: Invalid memory access
+L 01/25/2023 - 15:27:28: [SM] Blaming: [Server] serverhop.smx
+L 01/25/2023 - 15:27:28: [SM] Call stack trace:
+L 01/25/2023 - 15:27:28: [SM]   [1] Line 386, C:\Users\lostine\Desktop\SourceMod-Linux编译平台\[Server] serverhop.sp::GetByte
+L 01/25/2023 - 15:27:28: [SM]   [2] Line 427, C:\Users\lostine\Desktop\SourceMod-Linux编译平台\[Server] serverhop.sp::OnSocketReceive
+L 01/25/2023 - 15:27:28: [SM] Exception reported: Invalid memory access
+L 01/25/2023 - 15:27:28: [SM] Blaming: [Server] serverhop.smx
+L 01/25/2023 - 15:27:28: [SM] Call stack trace:
+L 01/25/2023 - 15:27:28: [SM]   [1] Line 386, C:\Users\lostine\Desktop\SourceMod-Linux编译平台\[Server] serverhop.sp::GetByte
+L 01/25/2023 - 15:27:28: [SM]   [2] Line 427, C:\Users\lostine\Desktop\SourceMod-Linux编译平台\[Server] serverhop.sp::OnSocketReceive
+L 01/25/2023 - 15:27:38: [[Server] serverhop.smx] CleanUp: Server 124.220.44.187:23333 is down, no reply received within 1092616192 seconds.
+L 01/25/2023 - 15:27:38: [[Server] serverhop.smx] CleanUp: Server 124.220.44.187:2000 is down, no reply received within 1092616192 seconds.
+L 01/25/2023 - 15:28:28: [SM] Exception reported: Invalid memory access
+L 01/25/2023 - 15:28:28: [SM] Blaming: [Server] serverhop.smx
+L 01/25/2023 - 15:28:28: [SM] Call stack trace:
+L 01/25/2023 - 15:28:28: [SM]   [1] Line 386, C:\Users\lostine\Desktop\SourceMod-Linux编译平台\[Server] serverhop.sp::GetByte
+L 01/25/2023 - 15:28:28: [SM]   [2] Line 427, C:\Users\lostine\Desktop\SourceMod-Linux编译平台\[Server] serverhop.sp::OnSocketReceive
+L 01/25/2023 - 15:28:28: [SM] Exception reported: Invalid memory access
+L 01/25/2023 - 15:28:28: [SM] Blaming: [Server] serverhop.smx
+L 01/25/2023 - 15:28:28: [SM] Call stack trace:
+L 01/25/2023 - 15:28:28: [SM]   [1] Line 386, C:\Users\lostine\Desktop\SourceMod-Linux编译平台\[Server] serverhop.sp::GetByte
+L 01/25/2023 - 15:28:28: [SM]   [2] Line 427, C:\Users\lostine\Desktop\SourceMod-Linux编译平台\[Server] serverhop.sp::OnSocketReceive
+L 01/25/2023 - 15:28:38: [[Server] serverhop.smx] CleanUp: Server 124.220.44.187:23333 is down, no reply received within 1092616192 seconds.
+L 01/25/2023 - 15:28:38: [[Server] serverhop.smx] CleanUp: Server 124.220.44.187:2000 is down, no reply received within 1092616192 seconds.
+L 01/25/2023 - 15:29:28: [SM] Exception reported: Invalid memory access
+L 01/25/2023 - 15:29:28: [SM] Blaming: [Server] serverhop.smx
+L 01/25/2023 - 15:29:28: [SM] Call stack trace:
+L 01/25/2023 - 15:29:28: [SM]   [1] Line 386, C:\Users\lostine\Desktop\SourceMod-Linux编译平台\[Server] serverhop.sp::GetByte
+L 01/25/2023 - 15:29:28: [SM]   [2] Line 427, C:\Users\lostine\Desktop\SourceMod-Linux编译平台\[Server] serverhop.sp::OnSocketReceive
+L 01/25/2023 - 15:29:28: [SM] Exception reported: Invalid memory access
+L 01/25/2023 - 15:29:28: [SM] Blaming: [Server] serverhop.smx
+L 01/25/2023 - 15:29:28: [SM] Call stack trace:
+L 01/25/2023 - 15:29:28: [SM]   [1] Line 386, C:\Users\lostine\Desktop\SourceMod-Linux编译平台\[Server] serverhop.sp::GetByte
+L 01/25/2023 - 15:29:28: [SM]   [2] Line 427, C:\Users\lostine\Desktop\SourceMod-Linux编译平台\[Server] serverhop.sp::OnSocketReceive
+L 01/25/2023 - 15:29:38: [[Server] serverhop.smx] CleanUp: Server 124.220.44.187:23333 is down, no reply received within 1092616192 seconds.
+L 01/25/2023 - 15:29:38: [[Server] serverhop.smx] CleanUp: Server 124.220.44.187:2000 is down, no reply received within 1092616192 seconds.
+L 01/25/2023 - 15:30:28: [SM] Exception reported: Invalid memory access
+L 01/25/2023 - 15:30:28: [SM] Blaming: [Server] serverhop.smx
+L 01/25/2023 - 15:30:28: [SM] Call stack trace:
+L 01/25/2023 - 15:30:28: [SM]   [1] Line 386, C:\Users\lostine\Desktop\SourceMod-Linux编译平台\[Server] serverhop.sp::GetByte
+L 01/25/2023 - 15:30:28: [SM]   [2] Line 427, C:\Users\lostine\Desktop\SourceMod-Linux编译平台\[Server] serverhop.sp::OnSocketReceive
+L 01/25/2023 - 15:30:28: [SM] Exception reported: Invalid memory access
+L 01/25/2023 - 15:30:28: [SM] Blaming: [Server] serverhop.smx
+L 01/25/2023 - 15:30:28: [SM] Call stack trace:
+L 01/25/2023 - 15:30:28: [SM]   [1] Line 386, C:\Users\lostine\Desktop\SourceMod-Linux编译平台\[Server] serverhop.sp::GetByte
+L 01/25/2023 - 15:30:28: [SM]   [2] Line 427, C:\Users\lostine\Desktop\SourceMod-Linux编译平台\[Server] serverhop.sp::OnSocketReceive
+L 01/25/2023 - 15:30:38: [[Server] serverhop.smx] CleanUp: Server 124.220.44.187:23333 is down, no reply received within 1092616192 seconds.
+L 01/25/2023 - 15:30:38: [[Server] serverhop.smx] CleanUp: Server 124.220.44.187:2000 is down, no reply received within 1092616192 seconds.
+L 01/25/2023 - 15:31:28: [SM] Exception reported: Invalid memory access
+L 01/25/2023 - 15:31:28: [SM] Blaming: [Server] serverhop.smx
+L 01/25/2023 - 15:31:28: [SM] Call stack trace:
+L 01/25/2023 - 15:31:28: [SM]   [1] Line 386, C:\Users\lostine\Desktop\SourceMod-Linux编译平台\[Server] serverhop.sp::GetByte
+L 01/25/2023 - 15:31:28: [SM]   [2] Line 427, C:\Users\lostine\Desktop\SourceMod-Linux编译平台\[Server] serverhop.sp::OnSocketReceive
+L 01/25/2023 - 15:31:28: [SM] Exception reported: Invalid memory access
+L 01/25/2023 - 15:31:28: [SM] Blaming: [Server] serverhop.smx
+L 01/25/2023 - 15:31:28: [SM] Call stack trace:
+L 01/25/2023 - 15:31:28: [SM]   [1] Line 386, C:\Users\lostine\Desktop\SourceMod-Linux编译平台\[Server] serverhop.sp::GetByte
+L 01/25/2023 - 15:31:28: [SM]   [2] Line 427, C:\Users\lostine\Desktop\SourceMod-Linux编译平台\[Server] serverhop.sp::OnSocketReceive
+L 01/25/2023 - 15:31:38: [[Server] serverhop.smx] CleanUp: Server 124.220.44.187:23333 is down, no reply received within 1092616192 seconds.
+L 01/25/2023 - 15:31:38: [[Server] serverhop.smx] CleanUp: Server 124.220.44.187:2000 is down, no reply received within 1092616192 seconds.
+L 01/25/2023 - 15:32:28: [SM] Exception reported: Invalid memory access
+L 01/25/2023 - 15:32:28: [SM] Blaming: [Server] serverhop.smx
+L 01/25/2023 - 15:32:28: [SM] Call stack trace:
+L 01/25/2023 - 15:32:28: [SM]   [1] Line 386, C:\Users\lostine\Desktop\SourceMod-Linux编译平台\[Server] serverhop.sp::GetByte
+L 01/25/2023 - 15:32:28: [SM]   [2] Line 427, C:\Users\lostine\Desktop\SourceMod-Linux编译平台\[Server] serverhop.sp::OnSocketReceive
+L 01/25/2023 - 15:32:28: [SM] Exception reported: Invalid memory access
+L 01/25/2023 - 15:32:28: [SM] Blaming: [Server] serverhop.smx
+L 01/25/2023 - 15:32:28: [SM] Call stack trace:
+L 01/25/2023 - 15:32:28: [SM]   [1] Line 386, C:\Users\lostine\Desktop\SourceMod-Linux编译平台\[Server] serverhop.sp::GetByte
+L 01/25/2023 - 15:32:28: [SM]   [2] Line 427, C:\Users\lostine\Desktop\SourceMod-Linux编译平台\[Server] serverhop.sp::OnSocketReceive
+L 01/25/2023 - 15:32:38: [[Server] serverhop.smx] CleanUp: Server 124.220.44.187:23333 is down, no reply received within 1092616192 seconds.
+L 01/25/2023 - 15:32:38: [[Server] serverhop.smx] CleanUp: Server 124.220.44.187:2000 is down, no reply received within 1092616192 seconds.
+L 01/25/2023 - 15:33:28: [SM] Exception reported: Invalid memory access
+L 01/25/2023 - 15:33:28: [SM] Blaming: [Server] serverhop.smx
+L 01/25/2023 - 15:33:28: [SM] Call stack trace:
+L 01/25/2023 - 15:33:28: [SM]   [1] Line 386, C:\Users\lostine\Desktop\SourceMod-Linux编译平台\[Server] serverhop.sp::GetByte
+L 01/25/2023 - 15:33:28: [SM]   [2] Line 427, C:\Users\lostine\Desktop\SourceMod-Linux编译平台\[Server] serverhop.sp::OnSocketReceive
+L 01/25/2023 - 15:33:28: [SM] Exception reported: Invalid memory access
+L 01/25/2023 - 15:33:28: [SM] Blaming: [Server] serverhop.smx
+L 01/25/2023 - 15:33:28: [SM] Call stack trace:
+L 01/25/2023 - 15:33:28: [SM]   [1] Line 386, C:\Users\lostine\Desktop\SourceMod-Linux编译平台\[Server] serverhop.sp::GetByte
+L 01/25/2023 - 15:33:28: [SM]   [2] Line 427, C:\Users\lostine\Desktop\SourceMod-Linux编译平台\[Server] serverhop.sp::OnSocketReceive
+L 01/25/2023 - 15:33:38: [[Server] serverhop.smx] CleanUp: Server 124.220.44.187:23333 is down, no reply received within 1092616192 seconds.
+L 01/25/2023 - 15:33:38: [[Server] serverhop.smx] CleanUp: Server 124.220.44.187:2000 is down, no reply received within 1092616192 seconds.
+L 01/25/2023 - 15:34:28: [SM] Exception reported: Invalid memory access
+L 01/25/2023 - 15:34:28: [SM] Blaming: [Server] serverhop.smx
+L 01/25/2023 - 15:34:28: [SM] Call stack trace:
+L 01/25/2023 - 15:34:28: [SM]   [1] Line 386, C:\Users\lostine\Desktop\SourceMod-Linux编译平台\[Server] serverhop.sp::GetByte
+L 01/25/2023 - 15:34:28: [SM]   [2] Line 427, C:\Users\lostine\Desktop\SourceMod-Linux编译平台\[Server] serverhop.sp::OnSocketReceive
+L 01/25/2023 - 15:34:28: [SM] Exception reported: Invalid memory access
+L 01/25/2023 - 15:34:28: [SM] Blaming: [Server] serverhop.smx
+L 01/25/2023 - 15:34:28: [SM] Call stack trace:
+L 01/25/2023 - 15:34:28: [SM]   [1] Line 386, C:\Users\lostine\Desktop\SourceMod-Linux编译平台\[Server] serverhop.sp::GetByte
+L 01/25/2023 - 15:34:28: [SM]   [2] Line 427, C:\Users\lostine\Desktop\SourceMod-Linux编译平台\[Server] serverhop.sp::OnSocketReceive
+L 01/25/2023 - 15:34:38: [[Server] serverhop.smx] CleanUp: Server 124.220.44.187:23333 is down, no reply received within 1092616192 seconds.
+L 01/25/2023 - 15:34:38: [[Server] serverhop.smx] CleanUp: Server 124.220.44.187:2000 is down, no reply received within 1092616192 seconds.
+L 01/25/2023 - 15:35:28: [SM] Exception reported: Invalid memory access
+L 01/25/2023 - 15:35:28: [SM] Blaming: [Server] serverhop.smx
+L 01/25/2023 - 15:35:28: [SM] Call stack trace:
+L 01/25/2023 - 15:35:28: [SM]   [1] Line 386, C:\Users\lostine\Desktop\SourceMod-Linux编译平台\[Server] serverhop.sp::GetByte
+L 01/25/2023 - 15:35:28: [SM]   [2] Line 427, C:\Users\lostine\Desktop\SourceMod-Linux编译平台\[Server] serverhop.sp::OnSocketReceive
+L 01/25/2023 - 15:35:28: [SM] Exception reported: Invalid memory access
+L 01/25/2023 - 15:35:28: [SM] Blaming: [Server] serverhop.smx
+L 01/25/2023 - 15:35:28: [SM] Call stack trace:
+L 01/25/2023 - 15:35:28: [SM]   [1] Line 386, C:\Users\lostine\Desktop\SourceMod-Linux编译平台\[Server] serverhop.sp::GetByte
+L 01/25/2023 - 15:35:28: [SM]   [2] Line 427, C:\Users\lostine\Desktop\SourceMod-Linux编译平台\[Server] serverhop.sp::OnSocketReceive
+L 01/25/2023 - 15:35:38: [[Server] serverhop.smx] CleanUp: Server 124.220.44.187:23333 is down, no reply received within 1092616192 seconds.
+L 01/25/2023 - 15:35:38: [[Server] serverhop.smx] CleanUp: Server 124.220.44.187:2000 is down, no reply received within 1092616192 seconds.
+L 01/25/2023 - 15:36:28: [SM] Exception reported: Invalid memory access
+L 01/25/2023 - 15:36:28: [SM] Blaming: [Server] serverhop.smx
+L 01/25/2023 - 15:36:28: [SM] Call stack trace:
+L 01/25/2023 - 15:36:28: [SM]   [1] Line 386, C:\Users\lostine\Desktop\SourceMod-Linux编译平台\[Server] serverhop.sp::GetByte
+L 01/25/2023 - 15:36:28: [SM]   [2] Line 427, C:\Users\lostine\Desktop\SourceMod-Linux编译平台\[Server] serverhop.sp::OnSocketReceive
+L 01/25/2023 - 15:36:28: [SM] Exception reported: Invalid memory access
+L 01/25/2023 - 15:36:28: [SM] Blaming: [Server] serverhop.smx
+L 01/25/2023 - 15:36:28: [SM] Call stack trace:
+L 01/25/2023 - 15:36:28: [SM]   [1] Line 386, C:\Users\lostine\Desktop\SourceMod-Linux编译平台\[Server] serverhop.sp::GetByte
+L 01/25/2023 - 15:36:28: [SM]   [2] Line 427, C:\Users\lostine\Desktop\SourceMod-Linux编译平台\[Server] serverhop.sp::OnSocketReceive
+L 01/25/2023 - 15:36:38: [[Server] serverhop.smx] CleanUp: Server 124.220.44.187:23333 is down, no reply received within 1092616192 seconds.
+L 01/25/2023 - 15:36:38: [[Server] serverhop.smx] CleanUp: Server 124.220.44.187:2000 is down, no reply received within 1092616192 seconds.
+L 01/25/2023 - 15:37:28: [SM] Exception reported: Invalid memory access
+L 01/25/2023 - 15:37:28: [SM] Blaming: [Server] serverhop.smx
+L 01/25/2023 - 15:37:28: [SM] Call stack trace:
+L 01/25/2023 - 15:37:28: [SM]   [1] Line 386, C:\Users\lostine\Desktop\SourceMod-Linux编译平台\[Server] serverhop.sp::GetByte
+L 01/25/2023 - 15:37:28: [SM]   [2] Line 427, C:\Users\lostine\Desktop\SourceMod-Linux编译平台\[Server] serverhop.sp::OnSocketReceive
+L 01/25/2023 - 15:37:28: [SM] Exception reported: Invalid memory access
+L 01/25/2023 - 15:37:28: [SM] Blaming: [Server] serverhop.smx
+L 01/25/2023 - 15:37:28: [SM] Call stack trace:
+L 01/25/2023 - 15:37:28: [SM]   [1] Line 386, C:\Users\lostine\Desktop\SourceMod-Linux编译平台\[Server] serverhop.sp::GetByte
+L 01/25/2023 - 15:37:28: [SM]   [2] Line 427, C:\Users\lostine\Desktop\SourceMod-Linux编译平台\[Server] serverhop.sp::OnSocketReceive
+L 01/25/2023 - 15:37:38: [[Server] serverhop.smx] CleanUp: Server 124.220.44.187:23333 is down, no reply received within 1092616192 seconds.
+L 01/25/2023 - 15:37:38: [[Server] serverhop.smx] CleanUp: Server 124.220.44.187:2000 is down, no reply received within 1092616192 seconds.
+L 01/25/2023 - 15:38:28: [SM] Exception reported: Invalid memory access
+L 01/25/2023 - 15:38:28: [SM] Blaming: [Server] serverhop.smx
+L 01/25/2023 - 15:38:28: [SM] Call stack trace:
+L 01/25/2023 - 15:38:28: [SM]   [1] Line 386, C:\Users\lostine\Desktop\SourceMod-Linux编译平台\[Server] serverhop.sp::GetByte
+L 01/25/2023 - 15:38:28: [SM]   [2] Line 427, C:\Users\lostine\Desktop\SourceMod-Linux编译平台\[Server] serverhop.sp::OnSocketReceive
+L 01/25/2023 - 15:38:28: [SM] Exception reported: Invalid memory access
+L 01/25/2023 - 15:38:28: [SM] Blaming: [Server] serverhop.smx
+L 01/25/2023 - 15:38:28: [SM] Call stack trace:
+L 01/25/2023 - 15:38:28: [SM]   [1] Line 386, C:\Users\lostine\Desktop\SourceMod-Linux编译平台\[Server] serverhop.sp::GetByte
+L 01/25/2023 - 15:38:28: [SM]   [2] Line 427, C:\Users\lostine\Desktop\SourceMod-Linux编译平台\[Server] serverhop.sp::OnSocketReceive
+L 01/25/2023 - 15:38:38: [[Server] serverhop.smx] CleanUp: Server 124.220.44.187:23333 is down, no reply received within 1092616192 seconds.
+L 01/25/2023 - 15:38:38: [[Server] serverhop.smx] CleanUp: Server 124.220.44.187:2000 is down, no reply received within 1092616192 seconds.
+L 01/25/2023 - 15:39:28: [SM] Exception reported: Invalid memory access
+L 01/25/2023 - 15:39:28: [SM] Blaming: [Server] serverhop.smx
+L 01/25/2023 - 15:39:28: [SM] Call stack trace:
+L 01/25/2023 - 15:39:28: [SM]   [1] Line 386, C:\Users\lostine\Desktop\SourceMod-Linux编译平台\[Server] serverhop.sp::GetByte
+L 01/25/2023 - 15:39:28: [SM]   [2] Line 427, C:\Users\lostine\Desktop\SourceMod-Linux编译平台\[Server] serverhop.sp::OnSocketReceive
+L 01/25/2023 - 15:39:28: [SM] Exception reported: Invalid memory access
+L 01/25/2023 - 15:39:28: [SM] Blaming: [Server] serverhop.smx
+L 01/25/2023 - 15:39:28: [SM] Call stack trace:
+L 01/25/2023 - 15:39:28: [SM]   [1] Line 386, C:\Users\lostine\Desktop\SourceMod-Linux编译平台\[Server] serverhop.sp::GetByte
+L 01/25/2023 - 15:39:28: [SM]   [2] Line 427, C:\Users\lostine\Desktop\SourceMod-Linux编译平台\[Server] serverhop.sp::OnSocketReceive
+L 01/25/2023 - 15:39:38: [[Server] serverhop.smx] CleanUp: Server 124.220.44.187:23333 is down, no reply received within 1092616192 seconds.
+L 01/25/2023 - 15:39:38: [[Server] serverhop.smx] CleanUp: Server 124.220.44.187:2000 is down, no reply received within 1092616192 seconds.
+L 01/25/2023 - 15:40:28: [SM] Exception reported: Invalid memory access
+L 01/25/2023 - 15:40:28: [SM] Blaming: [Server] serverhop.smx
+L 01/25/2023 - 15:40:28: [SM] Call stack trace:
+L 01/25/2023 - 15:40:28: [SM]   [1] Line 386, C:\Users\lostine\Desktop\SourceMod-Linux编译平台\[Server] serverhop.sp::GetByte
+L 01/25/2023 - 15:40:28: [SM]   [2] Line 427, C:\Users\lostine\Desktop\SourceMod-Linux编译平台\[Server] serverhop.sp::OnSocketReceive
+L 01/25/2023 - 15:40:28: [SM] Exception reported: Invalid memory access
+L 01/25/2023 - 15:40:28: [SM] Blaming: [Server] serverhop.smx
+L 01/25/2023 - 15:40:28: [SM] Call stack trace:
+L 01/25/2023 - 15:40:28: [SM]   [1] Line 386, C:\Users\lostine\Desktop\SourceMod-Linux编译平台\[Server] serverhop.sp::GetByte
+L 01/25/2023 - 15:40:28: [SM]   [2] Line 427, C:\Users\lostine\Desktop\SourceMod-Linux编译平台\[Server] serverhop.sp::OnSocketReceive
+L 01/25/2023 - 15:40:38: [[Server] serverhop.smx] CleanUp: Server 124.220.44.187:23333 is down, no reply received within 1092616192 seconds.
+L 01/25/2023 - 15:40:38: [[Server] serverhop.smx] CleanUp: Server 124.220.44.187:2000 is down, no reply received within 1092616192 seconds.
+L 01/25/2023 - 15:41:28: [SM] Exception reported: Invalid memory access
+L 01/25/2023 - 15:41:28: [SM] Blaming: [Server] serverhop.smx
+L 01/25/2023 - 15:41:28: [SM] Call stack trace:
+L 01/25/2023 - 15:41:28: [SM]   [1] Line 386, C:\Users\lostine\Desktop\SourceMod-Linux编译平台\[Server] serverhop.sp::GetByte
+L 01/25/2023 - 15:41:28: [SM]   [2] Line 427, C:\Users\lostine\Desktop\SourceMod-Linux编译平台\[Server] serverhop.sp::OnSocketReceive
+L 01/25/2023 - 15:41:28: [SM] Exception reported: Invalid memory access
+L 01/25/2023 - 15:41:28: [SM] Blaming: [Server] serverhop.smx
+L 01/25/2023 - 15:41:28: [SM] Call stack trace:
+L 01/25/2023 - 15:41:28: [SM]   [1] Line 386, C:\Users\lostine\Desktop\SourceMod-Linux编译平台\[Server] serverhop.sp::GetByte
+L 01/25/2023 - 15:41:28: [SM]   [2] Line 427, C:\Users\lostine\Desktop\SourceMod-Linux编译平台\[Server] serverhop.sp::OnSocketReceive
+L 01/25/2023 - 15:41:38: [[Server] serverhop.smx] CleanUp: Server 124.220.44.187:23333 is down, no reply received within 1092616192 seconds.
+L 01/25/2023 - 15:41:38: [[Server] serverhop.smx] CleanUp: Server 124.220.44.187:2000 is down, no reply received within 1092616192 seconds.
+L 01/25/2023 - 15:42:28: [SM] Exception reported: Invalid memory access
+L 01/25/2023 - 15:42:28: [SM] Blaming: [Server] serverhop.smx
+L 01/25/2023 - 15:42:28: [SM] Call stack trace:
+L 01/25/2023 - 15:42:28: [SM]   [1] Line 386, C:\Users\lostine\Desktop\SourceMod-Linux编译平台\[Server] serverhop.sp::GetByte
+L 01/25/2023 - 15:42:28: [SM]   [2] Line 427, C:\Users\lostine\Desktop\SourceMod-Linux编译平台\[Server] serverhop.sp::OnSocketReceive
+L 01/25/2023 - 15:42:28: [SM] Exception reported: Invalid memory access
+L 01/25/2023 - 15:42:28: [SM] Blaming: [Server] serverhop.smx
+L 01/25/2023 - 15:42:28: [SM] Call stack trace:
+L 01/25/2023 - 15:42:28: [SM]   [1] Line 386, C:\Users\lostine\Desktop\SourceMod-Linux编译平台\[Server] serverhop.sp::GetByte
+L 01/25/2023 - 15:42:28: [SM]   [2] Line 427, C:\Users\lostine\Desktop\SourceMod-Linux编译平台\[Server] serverhop.sp::OnSocketReceive
+L 01/25/2023 - 15:42:38: [[Server] serverhop.smx] CleanUp: Server 124.220.44.187:23333 is down, no reply received within 1092616192 seconds.
+L 01/25/2023 - 15:42:38: [[Server] serverhop.smx] CleanUp: Server 124.220.44.187:2000 is down, no reply received within 1092616192 seconds.
+L 01/25/2023 - 15:43:28: [SM] Exception reported: Invalid memory access
+L 01/25/2023 - 15:43:28: [SM] Blaming: [Server] serverhop.smx
+L 01/25/2023 - 15:43:28: [SM] Call stack trace:
+L 01/25/2023 - 15:43:28: [SM]   [1] Line 386, C:\Users\lostine\Desktop\SourceMod-Linux编译平台\[Server] serverhop.sp::GetByte
+L 01/25/2023 - 15:43:28: [SM]   [2] Line 427, C:\Users\lostine\Desktop\SourceMod-Linux编译平台\[Server] serverhop.sp::OnSocketReceive
+L 01/25/2023 - 15:43:28: [SM] Exception reported: Invalid memory access
+L 01/25/2023 - 15:43:28: [SM] Blaming: [Server] serverhop.smx
+L 01/25/2023 - 15:43:28: [SM] Call stack trace:
+L 01/25/2023 - 15:43:28: [SM]   [1] Line 386, C:\Users\lostine\Desktop\SourceMod-Linux编译平台\[Server] serverhop.sp::GetByte
+L 01/25/2023 - 15:43:28: [SM]   [2] Line 427, C:\Users\lostine\Desktop\SourceMod-Linux编译平台\[Server] serverhop.sp::OnSocketReceive
+L 01/25/2023 - 15:43:38: [[Server] serverhop.smx] CleanUp: Server 124.220.44.187:23333 is down, no reply received within 1092616192 seconds.
+L 01/25/2023 - 15:43:38: [[Server] serverhop.smx] CleanUp: Server 124.220.44.187:2000 is down, no reply received within 1092616192 seconds.
+L 01/25/2023 - 15:44:28: [SM] Exception reported: Invalid memory access
+L 01/25/2023 - 15:44:28: [SM] Blaming: [Server] serverhop.smx
+L 01/25/2023 - 15:44:28: [SM] Call stack trace:
+L 01/25/2023 - 15:44:28: [SM]   [1] Line 386, C:\Users\lostine\Desktop\SourceMod-Linux编译平台\[Server] serverhop.sp::GetByte
+L 01/25/2023 - 15:44:28: [SM]   [2] Line 427, C:\Users\lostine\Desktop\SourceMod-Linux编译平台\[Server] serverhop.sp::OnSocketReceive
+L 01/25/2023 - 15:44:28: [SM] Exception reported: Invalid memory access
+L 01/25/2023 - 15:44:28: [SM] Blaming: [Server] serverhop.smx
+L 01/25/2023 - 15:44:28: [SM] Call stack trace:
+L 01/25/2023 - 15:44:28: [SM]   [1] Line 386, C:\Users\lostine\Desktop\SourceMod-Linux编译平台\[Server] serverhop.sp::GetByte
+L 01/25/2023 - 15:44:28: [SM]   [2] Line 427, C:\Users\lostine\Desktop\SourceMod-Linux编译平台\[Server] serverhop.sp::OnSocketReceive
+L 01/25/2023 - 15:44:38: [[Server] serverhop.smx] CleanUp: Server 124.220.44.187:23333 is down, no reply received within 1092616192 seconds.
+L 01/25/2023 - 15:44:38: [[Server] serverhop.smx] CleanUp: Server 124.220.44.187:2000 is down, no reply received within 1092616192 seconds.
+L 01/25/2023 - 15:45:28: [SM] Exception reported: Invalid memory access
+L 01/25/2023 - 15:45:28: [SM] Blaming: [Server] serverhop.smx
+L 01/25/2023 - 15:45:28: [SM] Call stack trace:
+L 01/25/2023 - 15:45:28: [SM]   [1] Line 386, C:\Users\lostine\Desktop\SourceMod-Linux编译平台\[Server] serverhop.sp::GetByte
+L 01/25/2023 - 15:45:28: [SM]   [2] Line 427, C:\Users\lostine\Desktop\SourceMod-Linux编译平台\[Server] serverhop.sp::OnSocketReceive
+L 01/25/2023 - 15:45:28: [SM] Exception reported: Invalid memory access
+L 01/25/2023 - 15:45:28: [SM] Blaming: [Server] serverhop.smx
+L 01/25/2023 - 15:45:28: [SM] Call stack trace:
+L 01/25/2023 - 15:45:28: [SM]   [1] Line 386, C:\Users\lostine\Desktop\SourceMod-Linux编译平台\[Server] serverhop.sp::GetByte
+L 01/25/2023 - 15:45:28: [SM]   [2] Line 427, C:\Users\lostine\Desktop\SourceMod-Linux编译平台\[Server] serverhop.sp::OnSocketReceive
+L 01/25/2023 - 15:45:38: [[Server] serverhop.smx] CleanUp: Server 124.220.44.187:23333 is down, no reply received within 1092616192 seconds.
+L 01/25/2023 - 15:45:38: [[Server] serverhop.smx] CleanUp: Server 124.220.44.187:2000 is down, no reply received within 1092616192 seconds.
+L 01/25/2023 - 15:46:28: [SM] Exception reported: Invalid memory access
+L 01/25/2023 - 15:46:28: [SM] Blaming: [Server] serverhop.smx
+L 01/25/2023 - 15:46:28: [SM] Call stack trace:
+L 01/25/2023 - 15:46:28: [SM]   [1] Line 386, C:\Users\lostine\Desktop\SourceMod-Linux编译平台\[Server] serverhop.sp::GetByte
+L 01/25/2023 - 15:46:28: [SM]   [2] Line 427, C:\Users\lostine\Desktop\SourceMod-Linux编译平台\[Server] serverhop.sp::OnSocketReceive
+L 01/25/2023 - 15:46:28: [SM] Exception reported: Invalid memory access
+L 01/25/2023 - 15:46:28: [SM] Blaming: [Server] serverhop.smx
+L 01/25/2023 - 15:46:28: [SM] Call stack trace:
+L 01/25/2023 - 15:46:28: [SM]   [1] Line 386, C:\Users\lostine\Desktop\SourceMod-Linux编译平台\[Server] serverhop.sp::GetByte
+L 01/25/2023 - 15:46:28: [SM]   [2] Line 427, C:\Users\lostine\Desktop\SourceMod-Linux编译平台\[Server] serverhop.sp::OnSocketReceive
+L 01/25/2023 - 15:46:38: [[Server] serverhop.smx] CleanUp: Server 124.220.44.187:23333 is down, no reply received within 1092616192 seconds.
+L 01/25/2023 - 15:46:38: [[Server] serverhop.smx] CleanUp: Server 124.220.44.187:2000 is down, no reply received within 1092616192 seconds.
+L 01/25/2023 - 15:47:28: [SM] Exception reported: Invalid memory access
+L 01/25/2023 - 15:47:28: [SM] Blaming: [Server] serverhop.smx
+L 01/25/2023 - 15:47:28: [SM] Call stack trace:
+L 01/25/2023 - 15:47:28: [SM]   [1] Line 386, C:\Users\lostine\Desktop\SourceMod-Linux编译平台\[Server] serverhop.sp::GetByte
+L 01/25/2023 - 15:47:28: [SM]   [2] Line 427, C:\Users\lostine\Desktop\SourceMod-Linux编译平台\[Server] serverhop.sp::OnSocketReceive
+L 01/25/2023 - 15:47:28: [SM] Exception reported: Invalid memory access
+L 01/25/2023 - 15:47:28: [SM] Blaming: [Server] serverhop.smx
+L 01/25/2023 - 15:47:28: [SM] Call stack trace:
+L 01/25/2023 - 15:47:28: [SM]   [1] Line 386, C:\Users\lostine\Desktop\SourceMod-Linux编译平台\[Server] serverhop.sp::GetByte
+L 01/25/2023 - 15:47:28: [SM]   [2] Line 427, C:\Users\lostine\Desktop\SourceMod-Linux编译平台\[Server] serverhop.sp::OnSocketReceive
+L 01/25/2023 - 15:47:38: [[Server] serverhop.smx] CleanUp: Server 124.220.44.187:23333 is down, no reply received within 1092616192 seconds.
+L 01/25/2023 - 15:47:38: [[Server] serverhop.smx] CleanUp: Server 124.220.44.187:2000 is down, no reply received within 1092616192 seconds.
+L 01/25/2023 - 15:48:28: [SM] Exception reported: Invalid memory access
+L 01/25/2023 - 15:48:28: [SM] Blaming: [Server] serverhop.smx
+L 01/25/2023 - 15:48:28: [SM] Call stack trace:
+L 01/25/2023 - 15:48:28: [SM]   [1] Line 386, C:\Users\lostine\Desktop\SourceMod-Linux编译平台\[Server] serverhop.sp::GetByte
+L 01/25/2023 - 15:48:28: [SM]   [2] Line 427, C:\Users\lostine\Desktop\SourceMod-Linux编译平台\[Server] serverhop.sp::OnSocketReceive
+L 01/25/2023 - 15:48:28: [SM] Exception reported: Invalid memory access
+L 01/25/2023 - 15:48:28: [SM] Blaming: [Server] serverhop.smx
+L 01/25/2023 - 15:48:28: [SM] Call stack trace:
+L 01/25/2023 - 15:48:28: [SM]   [1] Line 386, C:\Users\lostine\Desktop\SourceMod-Linux编译平台\[Server] serverhop.sp::GetByte
+L 01/25/2023 - 15:48:28: [SM]   [2] Line 427, C:\Users\lostine\Desktop\SourceMod-Linux编译平台\[Server] serverhop.sp::OnSocketReceive
+L 01/25/2023 - 15:48:38: [[Server] serverhop.smx] CleanUp: Server 124.220.44.187:23333 is down, no reply received within 1092616192 seconds.
+L 01/25/2023 - 15:48:38: [[Server] serverhop.smx] CleanUp: Server 124.220.44.187:2000 is down, no reply received within 1092616192 seconds.
+L 01/25/2023 - 15:49:28: [SM] Exception reported: Invalid memory access
+L 01/25/2023 - 15:49:28: [SM] Blaming: [Server] serverhop.smx
+L 01/25/2023 - 15:49:28: [SM] Call stack trace:
+L 01/25/2023 - 15:49:28: [SM]   [1] Line 386, C:\Users\lostine\Desktop\SourceMod-Linux编译平台\[Server] serverhop.sp::GetByte
+L 01/25/2023 - 15:49:28: [SM]   [2] Line 427, C:\Users\lostine\Desktop\SourceMod-Linux编译平台\[Server] serverhop.sp::OnSocketReceive
+L 01/25/2023 - 15:49:28: [SM] Exception reported: Invalid memory access
+L 01/25/2023 - 15:49:28: [SM] Blaming: [Server] serverhop.smx
+L 01/25/2023 - 15:49:28: [SM] Call stack trace:
+L 01/25/2023 - 15:49:28: [SM]   [1] Line 386, C:\Users\lostine\Desktop\SourceMod-Linux编译平台\[Server] serverhop.sp::GetByte
+L 01/25/2023 - 15:49:28: [SM]   [2] Line 427, C:\Users\lostine\Desktop\SourceMod-Linux编译平台\[Server] serverhop.sp::OnSocketReceive
+L 01/25/2023 - 15:49:38: [[Server] serverhop.smx] CleanUp: Server 124.220.44.187:23333 is down, no reply received within 1092616192 seconds.
+L 01/25/2023 - 15:49:38: [[Server] serverhop.smx] CleanUp: Server 124.220.44.187:2000 is down, no reply received within 1092616192 seconds.
+L 01/25/2023 - 15:50:28: [SM] Exception reported: Invalid memory access
+L 01/25/2023 - 15:50:28: [SM] Blaming: [Server] serverhop.smx
+L 01/25/2023 - 15:50:28: [SM] Call stack trace:
+L 01/25/2023 - 15:50:28: [SM]   [1] Line 386, C:\Users\lostine\Desktop\SourceMod-Linux编译平台\[Server] serverhop.sp::GetByte
+L 01/25/2023 - 15:50:28: [SM]   [2] Line 427, C:\Users\lostine\Desktop\SourceMod-Linux编译平台\[Server] serverhop.sp::OnSocketReceive
+L 01/25/2023 - 15:50:28: [SM] Exception reported: Invalid memory access
+L 01/25/2023 - 15:50:28: [SM] Blaming: [Server] serverhop.smx
+L 01/25/2023 - 15:50:28: [SM] Call stack trace:
+L 01/25/2023 - 15:50:28: [SM]   [1] Line 386, C:\Users\lostine\Desktop\SourceMod-Linux编译平台\[Server] serverhop.sp::GetByte
+L 01/25/2023 - 15:50:28: [SM]   [2] Line 427, C:\Users\lostine\Desktop\SourceMod-Linux编译平台\[Server] serverhop.sp::OnSocketReceive
+L 01/25/2023 - 15:50:38: [[Server] serverhop.smx] CleanUp: Server 124.220.44.187:23333 is down, no reply received within 1092616192 seconds.
+L 01/25/2023 - 15:50:38: [[Server] serverhop.smx] CleanUp: Server 124.220.44.187:2000 is down, no reply received within 1092616192 seconds.
+L 01/25/2023 - 15:51:28: [SM] Exception reported: Invalid memory access
+L 01/25/2023 - 15:51:28: [SM] Blaming: [Server] serverhop.smx
+L 01/25/2023 - 15:51:28: [SM] Call stack trace:
+L 01/25/2023 - 15:51:28: [SM]   [1] Line 386, C:\Users\lostine\Desktop\SourceMod-Linux编译平台\[Server] serverhop.sp::GetByte
+L 01/25/2023 - 15:51:28: [SM]   [2] Line 427, C:\Users\lostine\Desktop\SourceMod-Linux编译平台\[Server] serverhop.sp::OnSocketReceive
+L 01/25/2023 - 15:51:28: [SM] Exception reported: Invalid memory access
+L 01/25/2023 - 15:51:28: [SM] Blaming: [Server] serverhop.smx
+L 01/25/2023 - 15:51:28: [SM] Call stack trace:
+L 01/25/2023 - 15:51:28: [SM]   [1] Line 386, C:\Users\lostine\Desktop\SourceMod-Linux编译平台\[Server] serverhop.sp::GetByte
+L 01/25/2023 - 15:51:28: [SM]   [2] Line 427, C:\Users\lostine\Desktop\SourceMod-Linux编译平台\[Server] serverhop.sp::OnSocketReceive
+L 01/25/2023 - 15:51:38: [[Server] serverhop.smx] CleanUp: Server 124.220.44.187:23333 is down, no reply received within 1092616192 seconds.
+L 01/25/2023 - 15:51:38: [[Server] serverhop.smx] CleanUp: Server 124.220.44.187:2000 is down, no reply received within 1092616192 seconds.
+L 01/25/2023 - 15:52:28: [SM] Exception reported: Invalid memory access
+L 01/25/2023 - 15:52:28: [SM] Blaming: [Server] serverhop.smx
+L 01/25/2023 - 15:52:28: [SM] Call stack trace:
+L 01/25/2023 - 15:52:28: [SM]   [1] Line 386, C:\Users\lostine\Desktop\SourceMod-Linux编译平台\[Server] serverhop.sp::GetByte
+L 01/25/2023 - 15:52:28: [SM]   [2] Line 427, C:\Users\lostine\Desktop\SourceMod-Linux编译平台\[Server] serverhop.sp::OnSocketReceive
+L 01/25/2023 - 15:52:28: [SM] Exception reported: Invalid memory access
+L 01/25/2023 - 15:52:28: [SM] Blaming: [Server] serverhop.smx
+L 01/25/2023 - 15:52:28: [SM] Call stack trace:
+L 01/25/2023 - 15:52:28: [SM]   [1] Line 386, C:\Users\lostine\Desktop\SourceMod-Linux编译平台\[Server] serverhop.sp::GetByte
+L 01/25/2023 - 15:52:28: [SM]   [2] Line 427, C:\Users\lostine\Desktop\SourceMod-Linux编译平台\[Server] serverhop.sp::OnSocketReceive
+L 01/25/2023 - 15:52:38: [[Server] serverhop.smx] CleanUp: Server 124.220.44.187:23333 is down, no reply received within 1092616192 seconds.
+L 01/25/2023 - 15:52:38: [[Server] serverhop.smx] CleanUp: Server 124.220.44.187:2000 is down, no reply received within 1092616192 seconds.
+L 01/25/2023 - 15:53:28: [SM] Exception reported: Invalid memory access
+L 01/25/2023 - 15:53:28: [SM] Blaming: [Server] serverhop.smx
+L 01/25/2023 - 15:53:28: [SM] Call stack trace:
+L 01/25/2023 - 15:53:28: [SM]   [1] Line 386, C:\Users\lostine\Desktop\SourceMod-Linux编译平台\[Server] serverhop.sp::GetByte
+L 01/25/2023 - 15:53:28: [SM]   [2] Line 427, C:\Users\lostine\Desktop\SourceMod-Linux编译平台\[Server] serverhop.sp::OnSocketReceive
+L 01/25/2023 - 15:53:28: [SM] Exception reported: Invalid memory access
+L 01/25/2023 - 15:53:28: [SM] Blaming: [Server] serverhop.smx
+L 01/25/2023 - 15:53:28: [SM] Call stack trace:
+L 01/25/2023 - 15:53:28: [SM]   [1] Line 386, C:\Users\lostine\Desktop\SourceMod-Linux编译平台\[Server] serverhop.sp::GetByte
+L 01/25/2023 - 15:53:28: [SM]   [2] Line 427, C:\Users\lostine\Desktop\SourceMod-Linux编译平台\[Server] serverhop.sp::OnSocketReceive
+L 01/25/2023 - 15:53:38: [[Server] serverhop.smx] CleanUp: Server 124.220.44.187:23333 is down, no reply received within 1092616192 seconds.
+L 01/25/2023 - 15:53:38: [[Server] serverhop.smx] CleanUp: Server 124.220.44.187:2000 is down, no reply received within 1092616192 seconds.
+L 01/25/2023 - 15:54:28: [SM] Exception reported: Invalid memory access
+L 01/25/2023 - 15:54:28: [SM] Blaming: [Server] serverhop.smx
+L 01/25/2023 - 15:54:28: [SM] Call stack trace:
+L 01/25/2023 - 15:54:28: [SM]   [1] Line 386, C:\Users\lostine\Desktop\SourceMod-Linux编译平台\[Server] serverhop.sp::GetByte
+L 01/25/2023 - 15:54:28: [SM]   [2] Line 427, C:\Users\lostine\Desktop\SourceMod-Linux编译平台\[Server] serverhop.sp::OnSocketReceive
+L 01/25/2023 - 15:54:28: [SM] Exception reported: Invalid memory access
+L 01/25/2023 - 15:54:28: [SM] Blaming: [Server] serverhop.smx
+L 01/25/2023 - 15:54:28: [SM] Call stack trace:
+L 01/25/2023 - 15:54:28: [SM]   [1] Line 386, C:\Users\lostine\Desktop\SourceMod-Linux编译平台\[Server] serverhop.sp::GetByte
+L 01/25/2023 - 15:54:28: [SM]   [2] Line 427, C:\Users\lostine\Desktop\SourceMod-Linux编译平台\[Server] serverhop.sp::OnSocketReceive
+L 01/25/2023 - 15:54:38: [[Server] serverhop.smx] CleanUp: Server 124.220.44.187:23333 is down, no reply received within 1092616192 seconds.
+L 01/25/2023 - 15:54:38: [[Server] serverhop.smx] CleanUp: Server 124.220.44.187:2000 is down, no reply received within 1092616192 seconds.
+L 01/25/2023 - 15:55:28: [SM] Exception reported: Invalid memory access
+L 01/25/2023 - 15:55:28: [SM] Blaming: [Server] serverhop.smx
+L 01/25/2023 - 15:55:28: [SM] Call stack trace:
+L 01/25/2023 - 15:55:28: [SM]   [1] Line 386, C:\Users\lostine\Desktop\SourceMod-Linux编译平台\[Server] serverhop.sp::GetByte
+L 01/25/2023 - 15:55:28: [SM]   [2] Line 427, C:\Users\lostine\Desktop\SourceMod-Linux编译平台\[Server] serverhop.sp::OnSocketReceive
+L 01/25/2023 - 15:55:28: [SM] Exception reported: Invalid memory access
+L 01/25/2023 - 15:55:28: [SM] Blaming: [Server] serverhop.smx
+L 01/25/2023 - 15:55:28: [SM] Call stack trace:
+L 01/25/2023 - 15:55:28: [SM]   [1] Line 386, C:\Users\lostine\Desktop\SourceMod-Linux编译平台\[Server] serverhop.sp::GetByte
+L 01/25/2023 - 15:55:28: [SM]   [2] Line 427, C:\Users\lostine\Desktop\SourceMod-Linux编译平台\[Server] serverhop.sp::OnSocketReceive
+L 01/25/2023 - 15:55:38: [[Server] serverhop.smx] CleanUp: Server 124.220.44.187:23333 is down, no reply received within 1092616192 seconds.
+L 01/25/2023 - 15:55:38: [[Server] serverhop.smx] CleanUp: Server 124.220.44.187:2000 is down, no reply received within 1092616192 seconds.
+L 01/25/2023 - 15:56:28: [SM] Exception reported: Invalid memory access
+L 01/25/2023 - 15:56:28: [SM] Blaming: [Server] serverhop.smx
+L 01/25/2023 - 15:56:28: [SM] Call stack trace:
+L 01/25/2023 - 15:56:28: [SM]   [1] Line 386, C:\Users\lostine\Desktop\SourceMod-Linux编译平台\[Server] serverhop.sp::GetByte
+L 01/25/2023 - 15:56:28: [SM]   [2] Line 427, C:\Users\lostine\Desktop\SourceMod-Linux编译平台\[Server] serverhop.sp::OnSocketReceive
+L 01/25/2023 - 15:56:28: [SM] Exception reported: Invalid memory access
+L 01/25/2023 - 15:56:28: [SM] Blaming: [Server] serverhop.smx
+L 01/25/2023 - 15:56:28: [SM] Call stack trace:
+L 01/25/2023 - 15:56:28: [SM]   [1] Line 386, C:\Users\lostine\Desktop\SourceMod-Linux编译平台\[Server] serverhop.sp::GetByte
+L 01/25/2023 - 15:56:28: [SM]   [2] Line 427, C:\Users\lostine\Desktop\SourceMod-Linux编译平台\[Server] serverhop.sp::OnSocketReceive
+L 01/25/2023 - 15:56:38: [[Server] serverhop.smx] CleanUp: Server 124.220.44.187:23333 is down, no reply received within 1092616192 seconds.
+L 01/25/2023 - 15:56:38: [[Server] serverhop.smx] CleanUp: Server 124.220.44.187:2000 is down, no reply received within 1092616192 seconds.
+L 01/25/2023 - 15:57:28: [SM] Exception reported: Invalid memory access
+L 01/25/2023 - 15:57:28: [SM] Blaming: [Server] serverhop.smx
+L 01/25/2023 - 15:57:28: [SM] Call stack trace:
+L 01/25/2023 - 15:57:28: [SM]   [1] Line 386, C:\Users\lostine\Desktop\SourceMod-Linux编译平台\[Server] serverhop.sp::GetByte
+L 01/25/2023 - 15:57:28: [SM]   [2] Line 427, C:\Users\lostine\Desktop\SourceMod-Linux编译平台\[Server] serverhop.sp::OnSocketReceive
+L 01/25/2023 - 15:57:28: [SM] Exception reported: Invalid memory access
+L 01/25/2023 - 15:57:28: [SM] Blaming: [Server] serverhop.smx
+L 01/25/2023 - 15:57:28: [SM] Call stack trace:
+L 01/25/2023 - 15:57:28: [SM]   [1] Line 386, C:\Users\lostine\Desktop\SourceMod-Linux编译平台\[Server] serverhop.sp::GetByte
+L 01/25/2023 - 15:57:28: [SM]   [2] Line 427, C:\Users\lostine\Desktop\SourceMod-Linux编译平台\[Server] serverhop.sp::OnSocketReceive
+L 01/25/2023 - 15:57:38: [[Server] serverhop.smx] CleanUp: Server 124.220.44.187:23333 is down, no reply received within 1092616192 seconds.
+L 01/25/2023 - 15:57:38: [[Server] serverhop.smx] CleanUp: Server 124.220.44.187:2000 is down, no reply received within 1092616192 seconds.
+L 01/25/2023 - 15:58:28: [SM] Exception reported: Invalid memory access
+L 01/25/2023 - 15:58:28: [SM] Blaming: [Server] serverhop.smx
+L 01/25/2023 - 15:58:28: [SM] Call stack trace:
+L 01/25/2023 - 15:58:28: [SM]   [1] Line 386, C:\Users\lostine\Desktop\SourceMod-Linux编译平台\[Server] serverhop.sp::GetByte
+L 01/25/2023 - 15:58:28: [SM]   [2] Line 427, C:\Users\lostine\Desktop\SourceMod-Linux编译平台\[Server] serverhop.sp::OnSocketReceive
+L 01/25/2023 - 15:58:28: [SM] Exception reported: Invalid memory access
+L 01/25/2023 - 15:58:28: [SM] Blaming: [Server] serverhop.smx
+L 01/25/2023 - 15:58:28: [SM] Call stack trace:
+L 01/25/2023 - 15:58:28: [SM]   [1] Line 386, C:\Users\lostine\Desktop\SourceMod-Linux编译平台\[Server] serverhop.sp::GetByte
+L 01/25/2023 - 15:58:28: [SM]   [2] Line 427, C:\Users\lostine\Desktop\SourceMod-Linux编译平台\[Server] serverhop.sp::OnSocketReceive
+L 01/25/2023 - 15:58:38: [[Server] serverhop.smx] CleanUp: Server 124.220.44.187:23333 is down, no reply received within 1092616192 seconds.
+L 01/25/2023 - 15:58:38: [[Server] serverhop.smx] CleanUp: Server 124.220.44.187:2000 is down, no reply received within 1092616192 seconds.
+L 01/25/2023 - 15:59:28: [SM] Exception reported: Invalid memory access
+L 01/25/2023 - 15:59:28: [SM] Blaming: [Server] serverhop.smx
+L 01/25/2023 - 15:59:28: [SM] Call stack trace:
+L 01/25/2023 - 15:59:28: [SM]   [1] Line 386, C:\Users\lostine\Desktop\SourceMod-Linux编译平台\[Server] serverhop.sp::GetByte
+L 01/25/2023 - 15:59:28: [SM]   [2] Line 427, C:\Users\lostine\Desktop\SourceMod-Linux编译平台\[Server] serverhop.sp::OnSocketReceive
+L 01/25/2023 - 15:59:28: [SM] Exception reported: Invalid memory access
+L 01/25/2023 - 15:59:28: [SM] Blaming: [Server] serverhop.smx
+L 01/25/2023 - 15:59:28: [SM] Call stack trace:
+L 01/25/2023 - 15:59:28: [SM]   [1] Line 386, C:\Users\lostine\Desktop\SourceMod-Linux编译平台\[Server] serverhop.sp::GetByte
+L 01/25/2023 - 15:59:28: [SM]   [2] Line 427, C:\Users\lostine\Desktop\SourceMod-Linux编译平台\[Server] serverhop.sp::OnSocketReceive
+L 01/25/2023 - 15:59:38: [[Server] serverhop.smx] CleanUp: Server 124.220.44.187:23333 is down, no reply received within 1092616192 seconds.
+L 01/25/2023 - 15:59:38: [[Server] serverhop.smx] CleanUp: Server 124.220.44.187:2000 is down, no reply received within 1092616192 seconds.
+L 01/25/2023 - 16:00:28: [SM] Exception reported: Invalid memory access
+L 01/25/2023 - 16:00:28: [SM] Blaming: [Server] serverhop.smx
+L 01/25/2023 - 16:00:28: [SM] Call stack trace:
+L 01/25/2023 - 16:00:28: [SM]   [1] Line 386, C:\Users\lostine\Desktop\SourceMod-Linux编译平台\[Server] serverhop.sp::GetByte
+L 01/25/2023 - 16:00:28: [SM]   [2] Line 427, C:\Users\lostine\Desktop\SourceMod-Linux编译平台\[Server] serverhop.sp::OnSocketReceive
+L 01/25/2023 - 16:00:28: [SM] Exception reported: Invalid memory access
+L 01/25/2023 - 16:00:28: [SM] Blaming: [Server] serverhop.smx
+L 01/25/2023 - 16:00:28: [SM] Call stack trace:
+L 01/25/2023 - 16:00:28: [SM]   [1] Line 386, C:\Users\lostine\Desktop\SourceMod-Linux编译平台\[Server] serverhop.sp::GetByte
+L 01/25/2023 - 16:00:28: [SM]   [2] Line 427, C:\Users\lostine\Desktop\SourceMod-Linux编译平台\[Server] serverhop.sp::OnSocketReceive
+L 01/25/2023 - 16:00:38: [[Server] serverhop.smx] CleanUp: Server 124.220.44.187:23333 is down, no reply received within 1092616192 seconds.
+L 01/25/2023 - 16:00:38: [[Server] serverhop.smx] CleanUp: Server 124.220.44.187:2000 is down, no reply received within 1092616192 seconds.
+L 01/25/2023 - 16:01:28: [SM] Exception reported: Invalid memory access
+L 01/25/2023 - 16:01:28: [SM] Blaming: [Server] serverhop.smx
+L 01/25/2023 - 16:01:28: [SM] Call stack trace:
+L 01/25/2023 - 16:01:28: [SM]   [1] Line 386, C:\Users\lostine\Desktop\SourceMod-Linux编译平台\[Server] serverhop.sp::GetByte
+L 01/25/2023 - 16:01:28: [SM]   [2] Line 427, C:\Users\lostine\Desktop\SourceMod-Linux编译平台\[Server] serverhop.sp::OnSocketReceive
+L 01/25/2023 - 16:01:28: [SM] Exception reported: Invalid memory access
+L 01/25/2023 - 16:01:28: [SM] Blaming: [Server] serverhop.smx
+L 01/25/2023 - 16:01:28: [SM] Call stack trace:
+L 01/25/2023 - 16:01:28: [SM]   [1] Line 386, C:\Users\lostine\Desktop\SourceMod-Linux编译平台\[Server] serverhop.sp::GetByte
+L 01/25/2023 - 16:01:28: [SM]   [2] Line 427, C:\Users\lostine\Desktop\SourceMod-Linux编译平台\[Server] serverhop.sp::OnSocketReceive
+L 01/25/2023 - 16:01:38: [[Server] serverhop.smx] CleanUp: Server 124.220.44.187:23333 is down, no reply received within 1092616192 seconds.
+L 01/25/2023 - 16:01:38: [[Server] serverhop.smx] CleanUp: Server 124.220.44.187:2000 is down, no reply received within 1092616192 seconds.
+L 01/25/2023 - 16:02:28: [SM] Exception reported: Invalid memory access
+L 01/25/2023 - 16:02:28: [SM] Blaming: [Server] serverhop.smx
+L 01/25/2023 - 16:02:28: [SM] Call stack trace:
+L 01/25/2023 - 16:02:28: [SM]   [1] Line 386, C:\Users\lostine\Desktop\SourceMod-Linux编译平台\[Server] serverhop.sp::GetByte
+L 01/25/2023 - 16:02:28: [SM]   [2] Line 427, C:\Users\lostine\Desktop\SourceMod-Linux编译平台\[Server] serverhop.sp::OnSocketReceive
+L 01/25/2023 - 16:02:28: [SM] Exception reported: Invalid memory access
+L 01/25/2023 - 16:02:28: [SM] Blaming: [Server] serverhop.smx
+L 01/25/2023 - 16:02:28: [SM] Call stack trace:
+L 01/25/2023 - 16:02:28: [SM]   [1] Line 386, C:\Users\lostine\Desktop\SourceMod-Linux编译平台\[Server] serverhop.sp::GetByte
+L 01/25/2023 - 16:02:28: [SM]   [2] Line 427, C:\Users\lostine\Desktop\SourceMod-Linux编译平台\[Server] serverhop.sp::OnSocketReceive
+L 01/25/2023 - 16:02:38: [[Server] serverhop.smx] CleanUp: Server 124.220.44.187:23333 is down, no reply received within 1092616192 seconds.
+L 01/25/2023 - 16:02:38: [[Server] serverhop.smx] CleanUp: Server 124.220.44.187:2000 is down, no reply received within 1092616192 seconds.
+L 01/25/2023 - 16:03:28: [SM] Exception reported: Invalid memory access
+L 01/25/2023 - 16:03:28: [SM] Blaming: [Server] serverhop.smx
+L 01/25/2023 - 16:03:28: [SM] Call stack trace:
+L 01/25/2023 - 16:03:28: [SM]   [1] Line 386, C:\Users\lostine\Desktop\SourceMod-Linux编译平台\[Server] serverhop.sp::GetByte
+L 01/25/2023 - 16:03:28: [SM]   [2] Line 427, C:\Users\lostine\Desktop\SourceMod-Linux编译平台\[Server] serverhop.sp::OnSocketReceive
+L 01/25/2023 - 16:03:28: [SM] Exception reported: Invalid memory access
+L 01/25/2023 - 16:03:28: [SM] Blaming: [Server] serverhop.smx
+L 01/25/2023 - 16:03:28: [SM] Call stack trace:
+L 01/25/2023 - 16:03:28: [SM]   [1] Line 386, C:\Users\lostine\Desktop\SourceMod-Linux编译平台\[Server] serverhop.sp::GetByte
+L 01/25/2023 - 16:03:28: [SM]   [2] Line 427, C:\Users\lostine\Desktop\SourceMod-Linux编译平台\[Server] serverhop.sp::OnSocketReceive
+L 01/25/2023 - 16:03:38: [[Server] serverhop.smx] CleanUp: Server 124.220.44.187:23333 is down, no reply received within 1092616192 seconds.
+L 01/25/2023 - 16:03:38: [[Server] serverhop.smx] CleanUp: Server 124.220.44.187:2000 is down, no reply received within 1092616192 seconds.
+L 01/25/2023 - 16:04:28: [SM] Exception reported: Invalid memory access
+L 01/25/2023 - 16:04:28: [SM] Blaming: [Server] serverhop.smx
+L 01/25/2023 - 16:04:28: [SM] Call stack trace:
+L 01/25/2023 - 16:04:28: [SM]   [1] Line 386, C:\Users\lostine\Desktop\SourceMod-Linux编译平台\[Server] serverhop.sp::GetByte
+L 01/25/2023 - 16:04:28: [SM]   [2] Line 427, C:\Users\lostine\Desktop\SourceMod-Linux编译平台\[Server] serverhop.sp::OnSocketReceive
+L 01/25/2023 - 16:04:28: [SM] Exception reported: Invalid memory access
+L 01/25/2023 - 16:04:28: [SM] Blaming: [Server] serverhop.smx
+L 01/25/2023 - 16:04:28: [SM] Call stack trace:
+L 01/25/2023 - 16:04:28: [SM]   [1] Line 386, C:\Users\lostine\Desktop\SourceMod-Linux编译平台\[Server] serverhop.sp::GetByte
+L 01/25/2023 - 16:04:28: [SM]   [2] Line 427, C:\Users\lostine\Desktop\SourceMod-Linux编译平台\[Server] serverhop.sp::OnSocketReceive
+L 01/25/2023 - 16:04:38: [[Server] serverhop.smx] CleanUp: Server 124.220.44.187:23333 is down, no reply received within 1092616192 seconds.
+L 01/25/2023 - 16:04:38: [[Server] serverhop.smx] CleanUp: Server 124.220.44.187:2000 is down, no reply received within 1092616192 seconds.
+L 01/25/2023 - 16:05:28: [SM] Exception reported: Invalid memory access
+L 01/25/2023 - 16:05:28: [SM] Blaming: [Server] serverhop.smx
+L 01/25/2023 - 16:05:28: [SM] Call stack trace:
+L 01/25/2023 - 16:05:28: [SM]   [1] Line 386, C:\Users\lostine\Desktop\SourceMod-Linux编译平台\[Server] serverhop.sp::GetByte
+L 01/25/2023 - 16:05:28: [SM]   [2] Line 427, C:\Users\lostine\Desktop\SourceMod-Linux编译平台\[Server] serverhop.sp::OnSocketReceive
+L 01/25/2023 - 16:05:28: [SM] Exception reported: Invalid memory access
+L 01/25/2023 - 16:05:28: [SM] Blaming: [Server] serverhop.smx
+L 01/25/2023 - 16:05:28: [SM] Call stack trace:
+L 01/25/2023 - 16:05:28: [SM]   [1] Line 386, C:\Users\lostine\Desktop\SourceMod-Linux编译平台\[Server] serverhop.sp::GetByte
+L 01/25/2023 - 16:05:28: [SM]   [2] Line 427, C:\Users\lostine\Desktop\SourceMod-Linux编译平台\[Server] serverhop.sp::OnSocketReceive
+L 01/25/2023 - 16:05:38: [[Server] serverhop.smx] CleanUp: Server 124.220.44.187:23333 is down, no reply received within 1092616192 seconds.
+L 01/25/2023 - 16:05:38: [[Server] serverhop.smx] CleanUp: Server 124.220.44.187:2000 is down, no reply received within 1092616192 seconds.
+L 01/25/2023 - 16:06:28: [SM] Exception reported: Invalid memory access
+L 01/25/2023 - 16:06:28: [SM] Blaming: [Server] serverhop.smx
+L 01/25/2023 - 16:06:28: [SM] Call stack trace:
+L 01/25/2023 - 16:06:28: [SM]   [1] Line 386, C:\Users\lostine\Desktop\SourceMod-Linux编译平台\[Server] serverhop.sp::GetByte
+L 01/25/2023 - 16:06:28: [SM]   [2] Line 427, C:\Users\lostine\Desktop\SourceMod-Linux编译平台\[Server] serverhop.sp::OnSocketReceive
+L 01/25/2023 - 16:06:28: [SM] Exception reported: Invalid memory access
+L 01/25/2023 - 16:06:28: [SM] Blaming: [Server] serverhop.smx
+L 01/25/2023 - 16:06:28: [SM] Call stack trace:
+L 01/25/2023 - 16:06:28: [SM]   [1] Line 386, C:\Users\lostine\Desktop\SourceMod-Linux编译平台\[Server] serverhop.sp::GetByte
+L 01/25/2023 - 16:06:28: [SM]   [2] Line 427, C:\Users\lostine\Desktop\SourceMod-Linux编译平台\[Server] serverhop.sp::OnSocketReceive
+L 01/25/2023 - 16:06:38: [[Server] serverhop.smx] CleanUp: Server 124.220.44.187:23333 is down, no reply received within 1092616192 seconds.
+L 01/25/2023 - 16:06:38: [[Server] serverhop.smx] CleanUp: Server 124.220.44.187:2000 is down, no reply received within 1092616192 seconds.
+L 01/25/2023 - 16:07:28: [SM] Exception reported: Invalid memory access
+L 01/25/2023 - 16:07:28: [SM] Blaming: [Server] serverhop.smx
+L 01/25/2023 - 16:07:28: [SM] Call stack trace:
+L 01/25/2023 - 16:07:28: [SM]   [1] Line 386, C:\Users\lostine\Desktop\SourceMod-Linux编译平台\[Server] serverhop.sp::GetByte
+L 01/25/2023 - 16:07:28: [SM]   [2] Line 427, C:\Users\lostine\Desktop\SourceMod-Linux编译平台\[Server] serverhop.sp::OnSocketReceive
+L 01/25/2023 - 16:07:28: [SM] Exception reported: Invalid memory access
+L 01/25/2023 - 16:07:28: [SM] Blaming: [Server] serverhop.smx
+L 01/25/2023 - 16:07:28: [SM] Call stack trace:
+L 01/25/2023 - 16:07:28: [SM]   [1] Line 386, C:\Users\lostine\Desktop\SourceMod-Linux编译平台\[Server] serverhop.sp::GetByte
+L 01/25/2023 - 16:07:28: [SM]   [2] Line 427, C:\Users\lostine\Desktop\SourceMod-Linux编译平台\[Server] serverhop.sp::OnSocketReceive
+L 01/25/2023 - 16:07:38: [[Server] serverhop.smx] CleanUp: Server 124.220.44.187:23333 is down, no reply received within 1092616192 seconds.
+L 01/25/2023 - 16:07:38: [[Server] serverhop.smx] CleanUp: Server 124.220.44.187:2000 is down, no reply received within 1092616192 seconds.
+L 01/25/2023 - 16:08:28: [SM] Exception reported: Invalid memory access
+L 01/25/2023 - 16:08:28: [SM] Blaming: [Server] serverhop.smx
+L 01/25/2023 - 16:08:28: [SM] Call stack trace:
+L 01/25/2023 - 16:08:28: [SM]   [1] Line 386, C:\Users\lostine\Desktop\SourceMod-Linux编译平台\[Server] serverhop.sp::GetByte
+L 01/25/2023 - 16:08:28: [SM]   [2] Line 427, C:\Users\lostine\Desktop\SourceMod-Linux编译平台\[Server] serverhop.sp::OnSocketReceive
+L 01/25/2023 - 16:08:28: [SM] Exception reported: Invalid memory access
+L 01/25/2023 - 16:08:28: [SM] Blaming: [Server] serverhop.smx
+L 01/25/2023 - 16:08:28: [SM] Call stack trace:
+L 01/25/2023 - 16:08:28: [SM]   [1] Line 386, C:\Users\lostine\Desktop\SourceMod-Linux编译平台\[Server] serverhop.sp::GetByte
+L 01/25/2023 - 16:08:28: [SM]   [2] Line 427, C:\Users\lostine\Desktop\SourceMod-Linux编译平台\[Server] serverhop.sp::OnSocketReceive
+L 01/25/2023 - 16:08:38: [[Server] serverhop.smx] CleanUp: Server 124.220.44.187:23333 is down, no reply received within 1092616192 seconds.
+L 01/25/2023 - 16:08:38: [[Server] serverhop.smx] CleanUp: Server 124.220.44.187:2000 is down, no reply received within 1092616192 seconds.
+L 01/25/2023 - 16:09:28: [SM] Exception reported: Invalid memory access
+L 01/25/2023 - 16:09:28: [SM] Blaming: [Server] serverhop.smx
+L 01/25/2023 - 16:09:28: [SM] Call stack trace:
+L 01/25/2023 - 16:09:28: [SM]   [1] Line 386, C:\Users\lostine\Desktop\SourceMod-Linux编译平台\[Server] serverhop.sp::GetByte
+L 01/25/2023 - 16:09:28: [SM]   [2] Line 427, C:\Users\lostine\Desktop\SourceMod-Linux编译平台\[Server] serverhop.sp::OnSocketReceive
+L 01/25/2023 - 16:09:28: [SM] Exception reported: Invalid memory access
+L 01/25/2023 - 16:09:28: [SM] Blaming: [Server] serverhop.smx
+L 01/25/2023 - 16:09:28: [SM] Call stack trace:
+L 01/25/2023 - 16:09:28: [SM]   [1] Line 386, C:\Users\lostine\Desktop\SourceMod-Linux编译平台\[Server] serverhop.sp::GetByte
+L 01/25/2023 - 16:09:28: [SM]   [2] Line 427, C:\Users\lostine\Desktop\SourceMod-Linux编译平台\[Server] serverhop.sp::OnSocketReceive
+L 01/25/2023 - 16:09:38: [[Server] serverhop.smx] CleanUp: Server 124.220.44.187:23333 is down, no reply received within 1092616192 seconds.
+L 01/25/2023 - 16:09:38: [[Server] serverhop.smx] CleanUp: Server 124.220.44.187:2000 is down, no reply received within 1092616192 seconds.
+L 01/25/2023 - 16:10:28: [SM] Exception reported: Invalid memory access
+L 01/25/2023 - 16:10:28: [SM] Blaming: [Server] serverhop.smx
+L 01/25/2023 - 16:10:28: [SM] Call stack trace:
+L 01/25/2023 - 16:10:28: [SM]   [1] Line 386, C:\Users\lostine\Desktop\SourceMod-Linux编译平台\[Server] serverhop.sp::GetByte
+L 01/25/2023 - 16:10:28: [SM]   [2] Line 427, C:\Users\lostine\Desktop\SourceMod-Linux编译平台\[Server] serverhop.sp::OnSocketReceive
+L 01/25/2023 - 16:10:28: [SM] Exception reported: Invalid memory access
+L 01/25/2023 - 16:10:28: [SM] Blaming: [Server] serverhop.smx
+L 01/25/2023 - 16:10:28: [SM] Call stack trace:
+L 01/25/2023 - 16:10:28: [SM]   [1] Line 386, C:\Users\lostine\Desktop\SourceMod-Linux编译平台\[Server] serverhop.sp::GetByte
+L 01/25/2023 - 16:10:28: [SM]   [2] Line 427, C:\Users\lostine\Desktop\SourceMod-Linux编译平台\[Server] serverhop.sp::OnSocketReceive
+L 01/25/2023 - 16:10:38: [[Server] serverhop.smx] CleanUp: Server 124.220.44.187:23333 is down, no reply received within 1092616192 seconds.
+L 01/25/2023 - 16:10:38: [[Server] serverhop.smx] CleanUp: Server 124.220.44.187:2000 is down, no reply received within 1092616192 seconds.
+L 01/25/2023 - 16:11:28: [SM] Exception reported: Invalid memory access
+L 01/25/2023 - 16:11:28: [SM] Blaming: [Server] serverhop.smx
+L 01/25/2023 - 16:11:28: [SM] Call stack trace:
+L 01/25/2023 - 16:11:28: [SM]   [1] Line 386, C:\Users\lostine\Desktop\SourceMod-Linux编译平台\[Server] serverhop.sp::GetByte
+L 01/25/2023 - 16:11:28: [SM]   [2] Line 427, C:\Users\lostine\Desktop\SourceMod-Linux编译平台\[Server] serverhop.sp::OnSocketReceive
+L 01/25/2023 - 16:11:28: [SM] Exception reported: Invalid memory access
+L 01/25/2023 - 16:11:28: [SM] Blaming: [Server] serverhop.smx
+L 01/25/2023 - 16:11:28: [SM] Call stack trace:
+L 01/25/2023 - 16:11:28: [SM]   [1] Line 386, C:\Users\lostine\Desktop\SourceMod-Linux编译平台\[Server] serverhop.sp::GetByte
+L 01/25/2023 - 16:11:28: [SM]   [2] Line 427, C:\Users\lostine\Desktop\SourceMod-Linux编译平台\[Server] serverhop.sp::OnSocketReceive
+L 01/25/2023 - 16:11:38: [[Server] serverhop.smx] CleanUp: Server 124.220.44.187:23333 is down, no reply received within 1092616192 seconds.
+L 01/25/2023 - 16:11:38: [[Server] serverhop.smx] CleanUp: Server 124.220.44.187:2000 is down, no reply received within 1092616192 seconds.
+L 01/25/2023 - 16:12:28: [SM] Exception reported: Invalid memory access
+L 01/25/2023 - 16:12:28: [SM] Blaming: [Server] serverhop.smx
+L 01/25/2023 - 16:12:28: [SM] Call stack trace:
+L 01/25/2023 - 16:12:28: [SM]   [1] Line 386, C:\Users\lostine\Desktop\SourceMod-Linux编译平台\[Server] serverhop.sp::GetByte
+L 01/25/2023 - 16:12:28: [SM]   [2] Line 427, C:\Users\lostine\Desktop\SourceMod-Linux编译平台\[Server] serverhop.sp::OnSocketReceive
+L 01/25/2023 - 16:12:28: [SM] Exception reported: Invalid memory access
+L 01/25/2023 - 16:12:28: [SM] Blaming: [Server] serverhop.smx
+L 01/25/2023 - 16:12:28: [SM] Call stack trace:
+L 01/25/2023 - 16:12:28: [SM]   [1] Line 386, C:\Users\lostine\Desktop\SourceMod-Linux编译平台\[Server] serverhop.sp::GetByte
+L 01/25/2023 - 16:12:28: [SM]   [2] Line 427, C:\Users\lostine\Desktop\SourceMod-Linux编译平台\[Server] serverhop.sp::OnSocketReceive
+L 01/25/2023 - 16:12:38: [[Server] serverhop.smx] CleanUp: Server 124.220.44.187:23333 is down, no reply received within 1092616192 seconds.
+L 01/25/2023 - 16:12:38: [[Server] serverhop.smx] CleanUp: Server 124.220.44.187:2000 is down, no reply received within 1092616192 seconds.
+L 01/25/2023 - 16:13:28: [SM] Exception reported: Invalid memory access
+L 01/25/2023 - 16:13:28: [SM] Blaming: [Server] serverhop.smx
+L 01/25/2023 - 16:13:28: [SM] Call stack trace:
+L 01/25/2023 - 16:13:28: [SM]   [1] Line 386, C:\Users\lostine\Desktop\SourceMod-Linux编译平台\[Server] serverhop.sp::GetByte
+L 01/25/2023 - 16:13:28: [SM]   [2] Line 427, C:\Users\lostine\Desktop\SourceMod-Linux编译平台\[Server] serverhop.sp::OnSocketReceive
+L 01/25/2023 - 16:13:28: [SM] Exception reported: Invalid memory access
+L 01/25/2023 - 16:13:28: [SM] Blaming: [Server] serverhop.smx
+L 01/25/2023 - 16:13:28: [SM] Call stack trace:
+L 01/25/2023 - 16:13:28: [SM]   [1] Line 386, C:\Users\lostine\Desktop\SourceMod-Linux编译平台\[Server] serverhop.sp::GetByte
+L 01/25/2023 - 16:13:28: [SM]   [2] Line 427, C:\Users\lostine\Desktop\SourceMod-Linux编译平台\[Server] serverhop.sp::OnSocketReceive
+L 01/25/2023 - 16:13:38: [[Server] serverhop.smx] CleanUp: Server 124.220.44.187:23333 is down, no reply received within 1092616192 seconds.
+L 01/25/2023 - 16:13:38: [[Server] serverhop.smx] CleanUp: Server 124.220.44.187:2000 is down, no reply received within 1092616192 seconds.
+L 01/25/2023 - 16:14:28: [SM] Exception reported: Invalid memory access
+L 01/25/2023 - 16:14:28: [SM] Blaming: [Server] serverhop.smx
+L 01/25/2023 - 16:14:28: [SM] Call stack trace:
+L 01/25/2023 - 16:14:28: [SM]   [1] Line 386, C:\Users\lostine\Desktop\SourceMod-Linux编译平台\[Server] serverhop.sp::GetByte
+L 01/25/2023 - 16:14:28: [SM]   [2] Line 427, C:\Users\lostine\Desktop\SourceMod-Linux编译平台\[Server] serverhop.sp::OnSocketReceive
+L 01/25/2023 - 16:14:28: [SM] Exception reported: Invalid memory access
+L 01/25/2023 - 16:14:28: [SM] Blaming: [Server] serverhop.smx
+L 01/25/2023 - 16:14:28: [SM] Call stack trace:
+L 01/25/2023 - 16:14:28: [SM]   [1] Line 386, C:\Users\lostine\Desktop\SourceMod-Linux编译平台\[Server] serverhop.sp::GetByte
+L 01/25/2023 - 16:14:28: [SM]   [2] Line 427, C:\Users\lostine\Desktop\SourceMod-Linux编译平台\[Server] serverhop.sp::OnSocketReceive
+L 01/25/2023 - 16:14:38: [[Server] serverhop.smx] CleanUp: Server 124.220.44.187:23333 is down, no reply received within 1092616192 seconds.
+L 01/25/2023 - 16:14:38: [[Server] serverhop.smx] CleanUp: Server 124.220.44.187:2000 is down, no reply received within 1092616192 seconds.
+L 01/25/2023 - 16:15:28: [SM] Exception reported: Invalid memory access
+L 01/25/2023 - 16:15:28: [SM] Blaming: [Server] serverhop.smx
+L 01/25/2023 - 16:15:28: [SM] Call stack trace:
+L 01/25/2023 - 16:15:28: [SM]   [1] Line 386, C:\Users\lostine\Desktop\SourceMod-Linux编译平台\[Server] serverhop.sp::GetByte
+L 01/25/2023 - 16:15:28: [SM]   [2] Line 427, C:\Users\lostine\Desktop\SourceMod-Linux编译平台\[Server] serverhop.sp::OnSocketReceive
+L 01/25/2023 - 16:15:28: [SM] Exception reported: Invalid memory access
+L 01/25/2023 - 16:15:28: [SM] Blaming: [Server] serverhop.smx
+L 01/25/2023 - 16:15:28: [SM] Call stack trace:
+L 01/25/2023 - 16:15:28: [SM]   [1] Line 386, C:\Users\lostine\Desktop\SourceMod-Linux编译平台\[Server] serverhop.sp::GetByte
+L 01/25/2023 - 16:15:28: [SM]   [2] Line 427, C:\Users\lostine\Desktop\SourceMod-Linux编译平台\[Server] serverhop.sp::OnSocketReceive
+L 01/25/2023 - 16:15:38: [[Server] serverhop.smx] CleanUp: Server 124.220.44.187:23333 is down, no reply received within 1092616192 seconds.
+L 01/25/2023 - 16:15:38: [[Server] serverhop.smx] CleanUp: Server 124.220.44.187:2000 is down, no reply received within 1092616192 seconds.
+L 01/25/2023 - 16:16:28: [SM] Exception reported: Invalid memory access
+L 01/25/2023 - 16:16:28: [SM] Blaming: [Server] serverhop.smx
+L 01/25/2023 - 16:16:28: [SM] Call stack trace:
+L 01/25/2023 - 16:16:28: [SM]   [1] Line 386, C:\Users\lostine\Desktop\SourceMod-Linux编译平台\[Server] serverhop.sp::GetByte
+L 01/25/2023 - 16:16:28: [SM]   [2] Line 427, C:\Users\lostine\Desktop\SourceMod-Linux编译平台\[Server] serverhop.sp::OnSocketReceive
+L 01/25/2023 - 16:16:28: [SM] Exception reported: Invalid memory access
+L 01/25/2023 - 16:16:28: [SM] Blaming: [Server] serverhop.smx
+L 01/25/2023 - 16:16:28: [SM] Call stack trace:
+L 01/25/2023 - 16:16:28: [SM]   [1] Line 386, C:\Users\lostine\Desktop\SourceMod-Linux编译平台\[Server] serverhop.sp::GetByte
+L 01/25/2023 - 16:16:28: [SM]   [2] Line 427, C:\Users\lostine\Desktop\SourceMod-Linux编译平台\[Server] serverhop.sp::OnSocketReceive
+L 01/25/2023 - 16:16:38: [[Server] serverhop.smx] CleanUp: Server 124.220.44.187:23333 is down, no reply received within 1092616192 seconds.
+L 01/25/2023 - 16:16:38: [[Server] serverhop.smx] CleanUp: Server 124.220.44.187:2000 is down, no reply received within 1092616192 seconds.
+L 01/25/2023 - 16:17:28: [SM] Exception reported: Invalid memory access
+L 01/25/2023 - 16:17:28: [SM] Blaming: [Server] serverhop.smx
+L 01/25/2023 - 16:17:28: [SM] Call stack trace:
+L 01/25/2023 - 16:17:28: [SM]   [1] Line 386, C:\Users\lostine\Desktop\SourceMod-Linux编译平台\[Server] serverhop.sp::GetByte
+L 01/25/2023 - 16:17:28: [SM]   [2] Line 427, C:\Users\lostine\Desktop\SourceMod-Linux编译平台\[Server] serverhop.sp::OnSocketReceive
+L 01/25/2023 - 16:17:28: [SM] Exception reported: Invalid memory access
+L 01/25/2023 - 16:17:28: [SM] Blaming: [Server] serverhop.smx
+L 01/25/2023 - 16:17:28: [SM] Call stack trace:
+L 01/25/2023 - 16:17:28: [SM]   [1] Line 386, C:\Users\lostine\Desktop\SourceMod-Linux编译平台\[Server] serverhop.sp::GetByte
+L 01/25/2023 - 16:17:28: [SM]   [2] Line 427, C:\Users\lostine\Desktop\SourceMod-Linux编译平台\[Server] serverhop.sp::OnSocketReceive
+L 01/25/2023 - 16:17:38: [[Server] serverhop.smx] CleanUp: Server 124.220.44.187:23333 is down, no reply received within 1092616192 seconds.
+L 01/25/2023 - 16:17:38: [[Server] serverhop.smx] CleanUp: Server 124.220.44.187:2000 is down, no reply received within 1092616192 seconds.
+L 01/25/2023 - 16:18:28: [SM] Exception reported: Invalid memory access
+L 01/25/2023 - 16:18:28: [SM] Blaming: [Server] serverhop.smx
+L 01/25/2023 - 16:18:28: [SM] Call stack trace:
+L 01/25/2023 - 16:18:28: [SM]   [1] Line 386, C:\Users\lostine\Desktop\SourceMod-Linux编译平台\[Server] serverhop.sp::GetByte
+L 01/25/2023 - 16:18:28: [SM]   [2] Line 427, C:\Users\lostine\Desktop\SourceMod-Linux编译平台\[Server] serverhop.sp::OnSocketReceive
+L 01/25/2023 - 16:18:28: [SM] Exception reported: Invalid memory access
+L 01/25/2023 - 16:18:28: [SM] Blaming: [Server] serverhop.smx
+L 01/25/2023 - 16:18:28: [SM] Call stack trace:
+L 01/25/2023 - 16:18:28: [SM]   [1] Line 386, C:\Users\lostine\Desktop\SourceMod-Linux编译平台\[Server] serverhop.sp::GetByte
+L 01/25/2023 - 16:18:28: [SM]   [2] Line 427, C:\Users\lostine\Desktop\SourceMod-Linux编译平台\[Server] serverhop.sp::OnSocketReceive
+L 01/25/2023 - 16:18:38: [[Server] serverhop.smx] CleanUp: Server 124.220.44.187:23333 is down, no reply received within 1092616192 seconds.
+L 01/25/2023 - 16:18:38: [[Server] serverhop.smx] CleanUp: Server 124.220.44.187:2000 is down, no reply received within 1092616192 seconds.
+L 01/25/2023 - 16:19:28: [SM] Exception reported: Invalid memory access
+L 01/25/2023 - 16:19:28: [SM] Blaming: [Server] serverhop.smx
+L 01/25/2023 - 16:19:28: [SM] Call stack trace:
+L 01/25/2023 - 16:19:28: [SM]   [1] Line 386, C:\Users\lostine\Desktop\SourceMod-Linux编译平台\[Server] serverhop.sp::GetByte
+L 01/25/2023 - 16:19:28: [SM]   [2] Line 427, C:\Users\lostine\Desktop\SourceMod-Linux编译平台\[Server] serverhop.sp::OnSocketReceive
+L 01/25/2023 - 16:19:28: [SM] Exception reported: Invalid memory access
+L 01/25/2023 - 16:19:28: [SM] Blaming: [Server] serverhop.smx
+L 01/25/2023 - 16:19:28: [SM] Call stack trace:
+L 01/25/2023 - 16:19:28: [SM]   [1] Line 386, C:\Users\lostine\Desktop\SourceMod-Linux编译平台\[Server] serverhop.sp::GetByte
+L 01/25/2023 - 16:19:28: [SM]   [2] Line 427, C:\Users\lostine\Desktop\SourceMod-Linux编译平台\[Server] serverhop.sp::OnSocketReceive
+L 01/25/2023 - 16:19:38: [[Server] serverhop.smx] CleanUp: Server 124.220.44.187:23333 is down, no reply received within 1092616192 seconds.
+L 01/25/2023 - 16:19:38: [[Server] serverhop.smx] CleanUp: Server 124.220.44.187:2000 is down, no reply received within 1092616192 seconds.
+L 01/25/2023 - 16:20:28: [SM] Exception reported: Invalid memory access
+L 01/25/2023 - 16:20:28: [SM] Blaming: [Server] serverhop.smx
+L 01/25/2023 - 16:20:28: [SM] Call stack trace:
+L 01/25/2023 - 16:20:28: [SM]   [1] Line 386, C:\Users\lostine\Desktop\SourceMod-Linux编译平台\[Server] serverhop.sp::GetByte
+L 01/25/2023 - 16:20:28: [SM]   [2] Line 427, C:\Users\lostine\Desktop\SourceMod-Linux编译平台\[Server] serverhop.sp::OnSocketReceive
+L 01/25/2023 - 16:20:28: [SM] Exception reported: Invalid memory access
+L 01/25/2023 - 16:20:28: [SM] Blaming: [Server] serverhop.smx
+L 01/25/2023 - 16:20:28: [SM] Call stack trace:
+L 01/25/2023 - 16:20:28: [SM]   [1] Line 386, C:\Users\lostine\Desktop\SourceMod-Linux编译平台\[Server] serverhop.sp::GetByte
+L 01/25/2023 - 16:20:28: [SM]   [2] Line 427, C:\Users\lostine\Desktop\SourceMod-Linux编译平台\[Server] serverhop.sp::OnSocketReceive
+L 01/25/2023 - 16:20:38: [[Server] serverhop.smx] CleanUp: Server 124.220.44.187:23333 is down, no reply received within 1092616192 seconds.
+L 01/25/2023 - 16:20:38: [[Server] serverhop.smx] CleanUp: Server 124.220.44.187:2000 is down, no reply received within 1092616192 seconds.
+L 01/25/2023 - 16:21:28: [SM] Exception reported: Invalid memory access
+L 01/25/2023 - 16:21:28: [SM] Blaming: [Server] serverhop.smx
+L 01/25/2023 - 16:21:28: [SM] Call stack trace:
+L 01/25/2023 - 16:21:28: [SM]   [1] Line 386, C:\Users\lostine\Desktop\SourceMod-Linux编译平台\[Server] serverhop.sp::GetByte
+L 01/25/2023 - 16:21:28: [SM]   [2] Line 427, C:\Users\lostine\Desktop\SourceMod-Linux编译平台\[Server] serverhop.sp::OnSocketReceive
+L 01/25/2023 - 16:21:28: [SM] Exception reported: Invalid memory access
+L 01/25/2023 - 16:21:28: [SM] Blaming: [Server] serverhop.smx
+L 01/25/2023 - 16:21:28: [SM] Call stack trace:
+L 01/25/2023 - 16:21:28: [SM]   [1] Line 386, C:\Users\lostine\Desktop\SourceMod-Linux编译平台\[Server] serverhop.sp::GetByte
+L 01/25/2023 - 16:21:28: [SM]   [2] Line 427, C:\Users\lostine\Desktop\SourceMod-Linux编译平台\[Server] serverhop.sp::OnSocketReceive
+L 01/25/2023 - 16:21:38: [[Server] serverhop.smx] CleanUp: Server 124.220.44.187:23333 is down, no reply received within 1092616192 seconds.
+L 01/25/2023 - 16:21:38: [[Server] serverhop.smx] CleanUp: Server 124.220.44.187:2000 is down, no reply received within 1092616192 seconds.
+L 01/25/2023 - 16:22:28: [SM] Exception reported: Invalid memory access
+L 01/25/2023 - 16:22:28: [SM] Blaming: [Server] serverhop.smx
+L 01/25/2023 - 16:22:28: [SM] Call stack trace:
+L 01/25/2023 - 16:22:28: [SM]   [1] Line 386, C:\Users\lostine\Desktop\SourceMod-Linux编译平台\[Server] serverhop.sp::GetByte
+L 01/25/2023 - 16:22:28: [SM]   [2] Line 427, C:\Users\lostine\Desktop\SourceMod-Linux编译平台\[Server] serverhop.sp::OnSocketReceive
+L 01/25/2023 - 16:22:28: [SM] Exception reported: Invalid memory access
+L 01/25/2023 - 16:22:28: [SM] Blaming: [Server] serverhop.smx
+L 01/25/2023 - 16:22:28: [SM] Call stack trace:
+L 01/25/2023 - 16:22:28: [SM]   [1] Line 386, C:\Users\lostine\Desktop\SourceMod-Linux编译平台\[Server] serverhop.sp::GetByte
+L 01/25/2023 - 16:22:28: [SM]   [2] Line 427, C:\Users\lostine\Desktop\SourceMod-Linux编译平台\[Server] serverhop.sp::OnSocketReceive
+L 01/25/2023 - 16:22:38: [[Server] serverhop.smx] CleanUp: Server 124.220.44.187:23333 is down, no reply received within 1092616192 seconds.
+L 01/25/2023 - 16:22:38: [[Server] serverhop.smx] CleanUp: Server 124.220.44.187:2000 is down, no reply received within 1092616192 seconds.
+L 01/25/2023 - 16:23:28: [SM] Exception reported: Invalid memory access
+L 01/25/2023 - 16:23:28: [SM] Blaming: [Server] serverhop.smx
+L 01/25/2023 - 16:23:28: [SM] Call stack trace:
+L 01/25/2023 - 16:23:28: [SM]   [1] Line 386, C:\Users\lostine\Desktop\SourceMod-Linux编译平台\[Server] serverhop.sp::GetByte
+L 01/25/2023 - 16:23:28: [SM]   [2] Line 427, C:\Users\lostine\Desktop\SourceMod-Linux编译平台\[Server] serverhop.sp::OnSocketReceive
+L 01/25/2023 - 16:23:28: [SM] Exception reported: Invalid memory access
+L 01/25/2023 - 16:23:28: [SM] Blaming: [Server] serverhop.smx
+L 01/25/2023 - 16:23:28: [SM] Call stack trace:
+L 01/25/2023 - 16:23:28: [SM]   [1] Line 386, C:\Users\lostine\Desktop\SourceMod-Linux编译平台\[Server] serverhop.sp::GetByte
+L 01/25/2023 - 16:23:28: [SM]   [2] Line 427, C:\Users\lostine\Desktop\SourceMod-Linux编译平台\[Server] serverhop.sp::OnSocketReceive
+L 01/25/2023 - 16:23:38: [[Server] serverhop.smx] CleanUp: Server 124.220.44.187:23333 is down, no reply received within 1092616192 seconds.
+L 01/25/2023 - 16:23:38: [[Server] serverhop.smx] CleanUp: Server 124.220.44.187:2000 is down, no reply received within 1092616192 seconds.
+L 01/25/2023 - 16:24:28: [SM] Exception reported: Invalid memory access
+L 01/25/2023 - 16:24:28: [SM] Blaming: [Server] serverhop.smx
+L 01/25/2023 - 16:24:28: [SM] Call stack trace:
+L 01/25/2023 - 16:24:28: [SM]   [1] Line 386, C:\Users\lostine\Desktop\SourceMod-Linux编译平台\[Server] serverhop.sp::GetByte
+L 01/25/2023 - 16:24:28: [SM]   [2] Line 427, C:\Users\lostine\Desktop\SourceMod-Linux编译平台\[Server] serverhop.sp::OnSocketReceive
+L 01/25/2023 - 16:24:28: [SM] Exception reported: Invalid memory access
+L 01/25/2023 - 16:24:28: [SM] Blaming: [Server] serverhop.smx
+L 01/25/2023 - 16:24:28: [SM] Call stack trace:
+L 01/25/2023 - 16:24:28: [SM]   [1] Line 386, C:\Users\lostine\Desktop\SourceMod-Linux编译平台\[Server] serverhop.sp::GetByte
+L 01/25/2023 - 16:24:28: [SM]   [2] Line 427, C:\Users\lostine\Desktop\SourceMod-Linux编译平台\[Server] serverhop.sp::OnSocketReceive
+L 01/25/2023 - 16:24:38: [[Server] serverhop.smx] CleanUp: Server 124.220.44.187:23333 is down, no reply received within 1092616192 seconds.
+L 01/25/2023 - 16:24:38: [[Server] serverhop.smx] CleanUp: Server 124.220.44.187:2000 is down, no reply received within 1092616192 seconds.
+L 01/25/2023 - 16:25:28: [SM] Exception reported: Invalid memory access
+L 01/25/2023 - 16:25:28: [SM] Blaming: [Server] serverhop.smx
+L 01/25/2023 - 16:25:28: [SM] Call stack trace:
+L 01/25/2023 - 16:25:28: [SM]   [1] Line 386, C:\Users\lostine\Desktop\SourceMod-Linux编译平台\[Server] serverhop.sp::GetByte
+L 01/25/2023 - 16:25:28: [SM]   [2] Line 427, C:\Users\lostine\Desktop\SourceMod-Linux编译平台\[Server] serverhop.sp::OnSocketReceive
+L 01/25/2023 - 16:25:28: [SM] Exception reported: Invalid memory access
+L 01/25/2023 - 16:25:28: [SM] Blaming: [Server] serverhop.smx
+L 01/25/2023 - 16:25:28: [SM] Call stack trace:
+L 01/25/2023 - 16:25:28: [SM]   [1] Line 386, C:\Users\lostine\Desktop\SourceMod-Linux编译平台\[Server] serverhop.sp::GetByte
+L 01/25/2023 - 16:25:28: [SM]   [2] Line 427, C:\Users\lostine\Desktop\SourceMod-Linux编译平台\[Server] serverhop.sp::OnSocketReceive
+L 01/25/2023 - 16:25:38: [[Server] serverhop.smx] CleanUp: Server 124.220.44.187:23333 is down, no reply received within 1092616192 seconds.
+L 01/25/2023 - 16:25:38: [[Server] serverhop.smx] CleanUp: Server 124.220.44.187:2000 is down, no reply received within 1092616192 seconds.
+L 01/25/2023 - 16:26:28: [SM] Exception reported: Invalid memory access
+L 01/25/2023 - 16:26:28: [SM] Blaming: [Server] serverhop.smx
+L 01/25/2023 - 16:26:28: [SM] Call stack trace:
+L 01/25/2023 - 16:26:28: [SM]   [1] Line 386, C:\Users\lostine\Desktop\SourceMod-Linux编译平台\[Server] serverhop.sp::GetByte
+L 01/25/2023 - 16:26:28: [SM]   [2] Line 427, C:\Users\lostine\Desktop\SourceMod-Linux编译平台\[Server] serverhop.sp::OnSocketReceive
+L 01/25/2023 - 16:26:28: [SM] Exception reported: Invalid memory access
+L 01/25/2023 - 16:26:28: [SM] Blaming: [Server] serverhop.smx
+L 01/25/2023 - 16:26:28: [SM] Call stack trace:
+L 01/25/2023 - 16:26:28: [SM]   [1] Line 386, C:\Users\lostine\Desktop\SourceMod-Linux编译平台\[Server] serverhop.sp::GetByte
+L 01/25/2023 - 16:26:28: [SM]   [2] Line 427, C:\Users\lostine\Desktop\SourceMod-Linux编译平台\[Server] serverhop.sp::OnSocketReceive
+L 01/25/2023 - 16:26:38: [[Server] serverhop.smx] CleanUp: Server 124.220.44.187:23333 is down, no reply received within 1092616192 seconds.
+L 01/25/2023 - 16:26:38: [[Server] serverhop.smx] CleanUp: Server 124.220.44.187:2000 is down, no reply received within 1092616192 seconds.
+L 01/25/2023 - 16:27:28: [SM] Exception reported: Invalid memory access
+L 01/25/2023 - 16:27:28: [SM] Blaming: [Server] serverhop.smx
+L 01/25/2023 - 16:27:28: [SM] Call stack trace:
+L 01/25/2023 - 16:27:28: [SM]   [1] Line 386, C:\Users\lostine\Desktop\SourceMod-Linux编译平台\[Server] serverhop.sp::GetByte
+L 01/25/2023 - 16:27:28: [SM]   [2] Line 427, C:\Users\lostine\Desktop\SourceMod-Linux编译平台\[Server] serverhop.sp::OnSocketReceive
+L 01/25/2023 - 16:27:28: [SM] Exception reported: Invalid memory access
+L 01/25/2023 - 16:27:28: [SM] Blaming: [Server] serverhop.smx
+L 01/25/2023 - 16:27:28: [SM] Call stack trace:
+L 01/25/2023 - 16:27:28: [SM]   [1] Line 386, C:\Users\lostine\Desktop\SourceMod-Linux编译平台\[Server] serverhop.sp::GetByte
+L 01/25/2023 - 16:27:28: [SM]   [2] Line 427, C:\Users\lostine\Desktop\SourceMod-Linux编译平台\[Server] serverhop.sp::OnSocketReceive
+L 01/25/2023 - 16:27:38: [[Server] serverhop.smx] CleanUp: Server 124.220.44.187:23333 is down, no reply received within 1092616192 seconds.
+L 01/25/2023 - 16:27:38: [[Server] serverhop.smx] CleanUp: Server 124.220.44.187:2000 is down, no reply received within 1092616192 seconds.
+L 01/25/2023 - 16:28:28: [SM] Exception reported: Invalid memory access
+L 01/25/2023 - 16:28:28: [SM] Blaming: [Server] serverhop.smx
+L 01/25/2023 - 16:28:28: [SM] Call stack trace:
+L 01/25/2023 - 16:28:28: [SM]   [1] Line 386, C:\Users\lostine\Desktop\SourceMod-Linux编译平台\[Server] serverhop.sp::GetByte
+L 01/25/2023 - 16:28:28: [SM]   [2] Line 427, C:\Users\lostine\Desktop\SourceMod-Linux编译平台\[Server] serverhop.sp::OnSocketReceive
+L 01/25/2023 - 16:28:28: [SM] Exception reported: Invalid memory access
+L 01/25/2023 - 16:28:28: [SM] Blaming: [Server] serverhop.smx
+L 01/25/2023 - 16:28:28: [SM] Call stack trace:
+L 01/25/2023 - 16:28:28: [SM]   [1] Line 386, C:\Users\lostine\Desktop\SourceMod-Linux编译平台\[Server] serverhop.sp::GetByte
+L 01/25/2023 - 16:28:28: [SM]   [2] Line 427, C:\Users\lostine\Desktop\SourceMod-Linux编译平台\[Server] serverhop.sp::OnSocketReceive
+L 01/25/2023 - 16:28:38: [[Server] serverhop.smx] CleanUp: Server 124.220.44.187:23333 is down, no reply received within 1092616192 seconds.
+L 01/25/2023 - 16:28:38: [[Server] serverhop.smx] CleanUp: Server 124.220.44.187:2000 is down, no reply received within 1092616192 seconds.
+L 01/25/2023 - 16:29:28: [SM] Exception reported: Invalid memory access
+L 01/25/2023 - 16:29:28: [SM] Blaming: [Server] serverhop.smx
+L 01/25/2023 - 16:29:28: [SM] Call stack trace:
+L 01/25/2023 - 16:29:28: [SM]   [1] Line 386, C:\Users\lostine\Desktop\SourceMod-Linux编译平台\[Server] serverhop.sp::GetByte
+L 01/25/2023 - 16:29:28: [SM]   [2] Line 427, C:\Users\lostine\Desktop\SourceMod-Linux编译平台\[Server] serverhop.sp::OnSocketReceive
+L 01/25/2023 - 16:29:28: [SM] Exception reported: Invalid memory access
+L 01/25/2023 - 16:29:28: [SM] Blaming: [Server] serverhop.smx
+L 01/25/2023 - 16:29:28: [SM] Call stack trace:
+L 01/25/2023 - 16:29:28: [SM]   [1] Line 386, C:\Users\lostine\Desktop\SourceMod-Linux编译平台\[Server] serverhop.sp::GetByte
+L 01/25/2023 - 16:29:28: [SM]   [2] Line 427, C:\Users\lostine\Desktop\SourceMod-Linux编译平台\[Server] serverhop.sp::OnSocketReceive
+L 01/25/2023 - 16:29:38: [[Server] serverhop.smx] CleanUp: Server 124.220.44.187:23333 is down, no reply received within 1092616192 seconds.
+L 01/25/2023 - 16:29:38: [[Server] serverhop.smx] CleanUp: Server 124.220.44.187:2000 is down, no reply received within 1092616192 seconds.
+L 01/25/2023 - 16:30:28: [SM] Exception reported: Invalid memory access
+L 01/25/2023 - 16:30:28: [SM] Blaming: [Server] serverhop.smx
+L 01/25/2023 - 16:30:28: [SM] Call stack trace:
+L 01/25/2023 - 16:30:28: [SM]   [1] Line 386, C:\Users\lostine\Desktop\SourceMod-Linux编译平台\[Server] serverhop.sp::GetByte
+L 01/25/2023 - 16:30:28: [SM]   [2] Line 427, C:\Users\lostine\Desktop\SourceMod-Linux编译平台\[Server] serverhop.sp::OnSocketReceive
+L 01/25/2023 - 16:30:28: [SM] Exception reported: Invalid memory access
+L 01/25/2023 - 16:30:28: [SM] Blaming: [Server] serverhop.smx
+L 01/25/2023 - 16:30:28: [SM] Call stack trace:
+L 01/25/2023 - 16:30:28: [SM]   [1] Line 386, C:\Users\lostine\Desktop\SourceMod-Linux编译平台\[Server] serverhop.sp::GetByte
+L 01/25/2023 - 16:30:28: [SM]   [2] Line 427, C:\Users\lostine\Desktop\SourceMod-Linux编译平台\[Server] serverhop.sp::OnSocketReceive
+L 01/25/2023 - 16:30:38: [[Server] serverhop.smx] CleanUp: Server 124.220.44.187:23333 is down, no reply received within 1092616192 seconds.
+L 01/25/2023 - 16:30:38: [[Server] serverhop.smx] CleanUp: Server 124.220.44.187:2000 is down, no reply received within 1092616192 seconds.
+L 01/25/2023 - 16:31:28: [SM] Exception reported: Invalid memory access
+L 01/25/2023 - 16:31:28: [SM] Blaming: [Server] serverhop.smx
+L 01/25/2023 - 16:31:28: [SM] Call stack trace:
+L 01/25/2023 - 16:31:28: [SM]   [1] Line 386, C:\Users\lostine\Desktop\SourceMod-Linux编译平台\[Server] serverhop.sp::GetByte
+L 01/25/2023 - 16:31:28: [SM]   [2] Line 427, C:\Users\lostine\Desktop\SourceMod-Linux编译平台\[Server] serverhop.sp::OnSocketReceive
+L 01/25/2023 - 16:31:28: [SM] Exception reported: Invalid memory access
+L 01/25/2023 - 16:31:28: [SM] Blaming: [Server] serverhop.smx
+L 01/25/2023 - 16:31:28: [SM] Call stack trace:
+L 01/25/2023 - 16:31:28: [SM]   [1] Line 386, C:\Users\lostine\Desktop\SourceMod-Linux编译平台\[Server] serverhop.sp::GetByte
+L 01/25/2023 - 16:31:28: [SM]   [2] Line 427, C:\Users\lostine\Desktop\SourceMod-Linux编译平台\[Server] serverhop.sp::OnSocketReceive
+L 01/25/2023 - 16:31:38: [[Server] serverhop.smx] CleanUp: Server 124.220.44.187:23333 is down, no reply received within 1092616192 seconds.
+L 01/25/2023 - 16:31:38: [[Server] serverhop.smx] CleanUp: Server 124.220.44.187:2000 is down, no reply received within 1092616192 seconds.
+L 01/25/2023 - 16:32:28: [SM] Exception reported: Invalid memory access
+L 01/25/2023 - 16:32:28: [SM] Blaming: [Server] serverhop.smx
+L 01/25/2023 - 16:32:28: [SM] Call stack trace:
+L 01/25/2023 - 16:32:28: [SM]   [1] Line 386, C:\Users\lostine\Desktop\SourceMod-Linux编译平台\[Server] serverhop.sp::GetByte
+L 01/25/2023 - 16:32:28: [SM]   [2] Line 427, C:\Users\lostine\Desktop\SourceMod-Linux编译平台\[Server] serverhop.sp::OnSocketReceive
+L 01/25/2023 - 16:32:28: [SM] Exception reported: Invalid memory access
+L 01/25/2023 - 16:32:28: [SM] Blaming: [Server] serverhop.smx
+L 01/25/2023 - 16:32:28: [SM] Call stack trace:
+L 01/25/2023 - 16:32:28: [SM]   [1] Line 386, C:\Users\lostine\Desktop\SourceMod-Linux编译平台\[Server] serverhop.sp::GetByte
+L 01/25/2023 - 16:32:28: [SM]   [2] Line 427, C:\Users\lostine\Desktop\SourceMod-Linux编译平台\[Server] serverhop.sp::OnSocketReceive
+L 01/25/2023 - 16:32:38: [[Server] serverhop.smx] CleanUp: Server 124.220.44.187:23333 is down, no reply received within 1092616192 seconds.
+L 01/25/2023 - 16:32:38: [[Server] serverhop.smx] CleanUp: Server 124.220.44.187:2000 is down, no reply received within 1092616192 seconds.
+L 01/25/2023 - 16:33:28: [SM] Exception reported: Invalid memory access
+L 01/25/2023 - 16:33:28: [SM] Blaming: [Server] serverhop.smx
+L 01/25/2023 - 16:33:28: [SM] Call stack trace:
+L 01/25/2023 - 16:33:28: [SM]   [1] Line 386, C:\Users\lostine\Desktop\SourceMod-Linux编译平台\[Server] serverhop.sp::GetByte
+L 01/25/2023 - 16:33:28: [SM]   [2] Line 427, C:\Users\lostine\Desktop\SourceMod-Linux编译平台\[Server] serverhop.sp::OnSocketReceive
+L 01/25/2023 - 16:33:28: [SM] Exception reported: Invalid memory access
+L 01/25/2023 - 16:33:28: [SM] Blaming: [Server] serverhop.smx
+L 01/25/2023 - 16:33:28: [SM] Call stack trace:
+L 01/25/2023 - 16:33:28: [SM]   [1] Line 386, C:\Users\lostine\Desktop\SourceMod-Linux编译平台\[Server] serverhop.sp::GetByte
+L 01/25/2023 - 16:33:28: [SM]   [2] Line 427, C:\Users\lostine\Desktop\SourceMod-Linux编译平台\[Server] serverhop.sp::OnSocketReceive
+L 01/25/2023 - 16:33:38: [[Server] serverhop.smx] CleanUp: Server 124.220.44.187:23333 is down, no reply received within 1092616192 seconds.
+L 01/25/2023 - 16:33:38: [[Server] serverhop.smx] CleanUp: Server 124.220.44.187:2000 is down, no reply received within 1092616192 seconds.
+L 01/25/2023 - 16:34:28: [SM] Exception reported: Invalid memory access
+L 01/25/2023 - 16:34:28: [SM] Blaming: [Server] serverhop.smx
+L 01/25/2023 - 16:34:28: [SM] Call stack trace:
+L 01/25/2023 - 16:34:28: [SM]   [1] Line 386, C:\Users\lostine\Desktop\SourceMod-Linux编译平台\[Server] serverhop.sp::GetByte
+L 01/25/2023 - 16:34:28: [SM]   [2] Line 427, C:\Users\lostine\Desktop\SourceMod-Linux编译平台\[Server] serverhop.sp::OnSocketReceive
+L 01/25/2023 - 16:34:28: [SM] Exception reported: Invalid memory access
+L 01/25/2023 - 16:34:28: [SM] Blaming: [Server] serverhop.smx
+L 01/25/2023 - 16:34:28: [SM] Call stack trace:
+L 01/25/2023 - 16:34:28: [SM]   [1] Line 386, C:\Users\lostine\Desktop\SourceMod-Linux编译平台\[Server] serverhop.sp::GetByte
+L 01/25/2023 - 16:34:28: [SM]   [2] Line 427, C:\Users\lostine\Desktop\SourceMod-Linux编译平台\[Server] serverhop.sp::OnSocketReceive
+L 01/25/2023 - 16:34:38: [[Server] serverhop.smx] CleanUp: Server 124.220.44.187:23333 is down, no reply received within 1092616192 seconds.
+L 01/25/2023 - 16:34:38: [[Server] serverhop.smx] CleanUp: Server 124.220.44.187:2000 is down, no reply received within 1092616192 seconds.
+L 01/25/2023 - 16:35:28: [SM] Exception reported: Invalid memory access
+L 01/25/2023 - 16:35:28: [SM] Blaming: [Server] serverhop.smx
+L 01/25/2023 - 16:35:28: [SM] Call stack trace:
+L 01/25/2023 - 16:35:28: [SM]   [1] Line 386, C:\Users\lostine\Desktop\SourceMod-Linux编译平台\[Server] serverhop.sp::GetByte
+L 01/25/2023 - 16:35:28: [SM]   [2] Line 427, C:\Users\lostine\Desktop\SourceMod-Linux编译平台\[Server] serverhop.sp::OnSocketReceive
+L 01/25/2023 - 16:35:28: [SM] Exception reported: Invalid memory access
+L 01/25/2023 - 16:35:28: [SM] Blaming: [Server] serverhop.smx
+L 01/25/2023 - 16:35:28: [SM] Call stack trace:
+L 01/25/2023 - 16:35:28: [SM]   [1] Line 386, C:\Users\lostine\Desktop\SourceMod-Linux编译平台\[Server] serverhop.sp::GetByte
+L 01/25/2023 - 16:35:28: [SM]   [2] Line 427, C:\Users\lostine\Desktop\SourceMod-Linux编译平台\[Server] serverhop.sp::OnSocketReceive
+L 01/25/2023 - 16:35:38: [[Server] serverhop.smx] CleanUp: Server 124.220.44.187:23333 is down, no reply received within 1092616192 seconds.
+L 01/25/2023 - 16:35:38: [[Server] serverhop.smx] CleanUp: Server 124.220.44.187:2000 is down, no reply received within 1092616192 seconds.
+L 01/25/2023 - 16:36:28: [SM] Exception reported: Invalid memory access
+L 01/25/2023 - 16:36:28: [SM] Blaming: [Server] serverhop.smx
+L 01/25/2023 - 16:36:28: [SM] Call stack trace:
+L 01/25/2023 - 16:36:28: [SM]   [1] Line 386, C:\Users\lostine\Desktop\SourceMod-Linux编译平台\[Server] serverhop.sp::GetByte
+L 01/25/2023 - 16:36:28: [SM]   [2] Line 427, C:\Users\lostine\Desktop\SourceMod-Linux编译平台\[Server] serverhop.sp::OnSocketReceive
+L 01/25/2023 - 16:36:28: [SM] Exception reported: Invalid memory access
+L 01/25/2023 - 16:36:28: [SM] Blaming: [Server] serverhop.smx
+L 01/25/2023 - 16:36:28: [SM] Call stack trace:
+L 01/25/2023 - 16:36:28: [SM]   [1] Line 386, C:\Users\lostine\Desktop\SourceMod-Linux编译平台\[Server] serverhop.sp::GetByte
+L 01/25/2023 - 16:36:28: [SM]   [2] Line 427, C:\Users\lostine\Desktop\SourceMod-Linux编译平台\[Server] serverhop.sp::OnSocketReceive
+L 01/25/2023 - 16:36:38: [[Server] serverhop.smx] CleanUp: Server 124.220.44.187:23333 is down, no reply received within 1092616192 seconds.
+L 01/25/2023 - 16:36:38: [[Server] serverhop.smx] CleanUp: Server 124.220.44.187:2000 is down, no reply received within 1092616192 seconds.
+L 01/25/2023 - 16:37:28: [SM] Exception reported: Invalid memory access
+L 01/25/2023 - 16:37:28: [SM] Blaming: [Server] serverhop.smx
+L 01/25/2023 - 16:37:28: [SM] Call stack trace:
+L 01/25/2023 - 16:37:28: [SM]   [1] Line 386, C:\Users\lostine\Desktop\SourceMod-Linux编译平台\[Server] serverhop.sp::GetByte
+L 01/25/2023 - 16:37:28: [SM]   [2] Line 427, C:\Users\lostine\Desktop\SourceMod-Linux编译平台\[Server] serverhop.sp::OnSocketReceive
+L 01/25/2023 - 16:37:28: [SM] Exception reported: Invalid memory access
+L 01/25/2023 - 16:37:28: [SM] Blaming: [Server] serverhop.smx
+L 01/25/2023 - 16:37:28: [SM] Call stack trace:
+L 01/25/2023 - 16:37:28: [SM]   [1] Line 386, C:\Users\lostine\Desktop\SourceMod-Linux编译平台\[Server] serverhop.sp::GetByte
+L 01/25/2023 - 16:37:28: [SM]   [2] Line 427, C:\Users\lostine\Desktop\SourceMod-Linux编译平台\[Server] serverhop.sp::OnSocketReceive
+L 01/25/2023 - 16:37:38: [[Server] serverhop.smx] CleanUp: Server 124.220.44.187:23333 is down, no reply received within 1092616192 seconds.
+L 01/25/2023 - 16:37:38: [[Server] serverhop.smx] CleanUp: Server 124.220.44.187:2000 is down, no reply received within 1092616192 seconds.
+L 01/25/2023 - 16:38:28: [SM] Exception reported: Invalid memory access
+L 01/25/2023 - 16:38:28: [SM] Blaming: [Server] serverhop.smx
+L 01/25/2023 - 16:38:28: [SM] Call stack trace:
+L 01/25/2023 - 16:38:28: [SM]   [1] Line 386, C:\Users\lostine\Desktop\SourceMod-Linux编译平台\[Server] serverhop.sp::GetByte
+L 01/25/2023 - 16:38:28: [SM]   [2] Line 427, C:\Users\lostine\Desktop\SourceMod-Linux编译平台\[Server] serverhop.sp::OnSocketReceive
+L 01/25/2023 - 16:38:28: [SM] Exception reported: Invalid memory access
+L 01/25/2023 - 16:38:28: [SM] Blaming: [Server] serverhop.smx
+L 01/25/2023 - 16:38:28: [SM] Call stack trace:
+L 01/25/2023 - 16:38:28: [SM]   [1] Line 386, C:\Users\lostine\Desktop\SourceMod-Linux编译平台\[Server] serverhop.sp::GetByte
+L 01/25/2023 - 16:38:28: [SM]   [2] Line 427, C:\Users\lostine\Desktop\SourceMod-Linux编译平台\[Server] serverhop.sp::OnSocketReceive
+L 01/25/2023 - 16:38:38: [[Server] serverhop.smx] CleanUp: Server 124.220.44.187:23333 is down, no reply received within 1092616192 seconds.
+L 01/25/2023 - 16:38:38: [[Server] serverhop.smx] CleanUp: Server 124.220.44.187:2000 is down, no reply received within 1092616192 seconds.
+L 01/25/2023 - 16:39:28: [SM] Exception reported: Invalid memory access
+L 01/25/2023 - 16:39:28: [SM] Blaming: [Server] serverhop.smx
+L 01/25/2023 - 16:39:28: [SM] Call stack trace:
+L 01/25/2023 - 16:39:28: [SM]   [1] Line 386, C:\Users\lostine\Desktop\SourceMod-Linux编译平台\[Server] serverhop.sp::GetByte
+L 01/25/2023 - 16:39:28: [SM]   [2] Line 427, C:\Users\lostine\Desktop\SourceMod-Linux编译平台\[Server] serverhop.sp::OnSocketReceive
+L 01/25/2023 - 16:39:28: [SM] Exception reported: Invalid memory access
+L 01/25/2023 - 16:39:28: [SM] Blaming: [Server] serverhop.smx
+L 01/25/2023 - 16:39:28: [SM] Call stack trace:
+L 01/25/2023 - 16:39:28: [SM]   [1] Line 386, C:\Users\lostine\Desktop\SourceMod-Linux编译平台\[Server] serverhop.sp::GetByte
+L 01/25/2023 - 16:39:28: [SM]   [2] Line 427, C:\Users\lostine\Desktop\SourceMod-Linux编译平台\[Server] serverhop.sp::OnSocketReceive
+L 01/25/2023 - 16:39:38: [[Server] serverhop.smx] CleanUp: Server 124.220.44.187:23333 is down, no reply received within 1092616192 seconds.
+L 01/25/2023 - 16:39:38: [[Server] serverhop.smx] CleanUp: Server 124.220.44.187:2000 is down, no reply received within 1092616192 seconds.
+L 01/25/2023 - 16:40:28: [SM] Exception reported: Invalid memory access
+L 01/25/2023 - 16:40:28: [SM] Blaming: [Server] serverhop.smx
+L 01/25/2023 - 16:40:28: [SM] Call stack trace:
+L 01/25/2023 - 16:40:28: [SM]   [1] Line 386, C:\Users\lostine\Desktop\SourceMod-Linux编译平台\[Server] serverhop.sp::GetByte
+L 01/25/2023 - 16:40:28: [SM]   [2] Line 427, C:\Users\lostine\Desktop\SourceMod-Linux编译平台\[Server] serverhop.sp::OnSocketReceive
+L 01/25/2023 - 16:40:28: [SM] Exception reported: Invalid memory access
+L 01/25/2023 - 16:40:28: [SM] Blaming: [Server] serverhop.smx
+L 01/25/2023 - 16:40:28: [SM] Call stack trace:
+L 01/25/2023 - 16:40:28: [SM]   [1] Line 386, C:\Users\lostine\Desktop\SourceMod-Linux编译平台\[Server] serverhop.sp::GetByte
+L 01/25/2023 - 16:40:28: [SM]   [2] Line 427, C:\Users\lostine\Desktop\SourceMod-Linux编译平台\[Server] serverhop.sp::OnSocketReceive
+L 01/25/2023 - 16:40:38: [[Server] serverhop.smx] CleanUp: Server 124.220.44.187:23333 is down, no reply received within 1092616192 seconds.
+L 01/25/2023 - 16:40:38: [[Server] serverhop.smx] CleanUp: Server 124.220.44.187:2000 is down, no reply received within 1092616192 seconds.
+L 01/25/2023 - 16:41:28: [SM] Exception reported: Invalid memory access
+L 01/25/2023 - 16:41:28: [SM] Blaming: [Server] serverhop.smx
+L 01/25/2023 - 16:41:28: [SM] Call stack trace:
+L 01/25/2023 - 16:41:28: [SM]   [1] Line 386, C:\Users\lostine\Desktop\SourceMod-Linux编译平台\[Server] serverhop.sp::GetByte
+L 01/25/2023 - 16:41:28: [SM]   [2] Line 427, C:\Users\lostine\Desktop\SourceMod-Linux编译平台\[Server] serverhop.sp::OnSocketReceive
+L 01/25/2023 - 16:41:28: [SM] Exception reported: Invalid memory access
+L 01/25/2023 - 16:41:28: [SM] Blaming: [Server] serverhop.smx
+L 01/25/2023 - 16:41:28: [SM] Call stack trace:
+L 01/25/2023 - 16:41:28: [SM]   [1] Line 386, C:\Users\lostine\Desktop\SourceMod-Linux编译平台\[Server] serverhop.sp::GetByte
+L 01/25/2023 - 16:41:28: [SM]   [2] Line 427, C:\Users\lostine\Desktop\SourceMod-Linux编译平台\[Server] serverhop.sp::OnSocketReceive
+L 01/25/2023 - 16:41:38: [[Server] serverhop.smx] CleanUp: Server 124.220.44.187:23333 is down, no reply received within 1092616192 seconds.
+L 01/25/2023 - 16:41:38: [[Server] serverhop.smx] CleanUp: Server 124.220.44.187:2000 is down, no reply received within 1092616192 seconds.
+L 01/25/2023 - 16:42:28: [SM] Exception reported: Invalid memory access
+L 01/25/2023 - 16:42:28: [SM] Blaming: [Server] serverhop.smx
+L 01/25/2023 - 16:42:28: [SM] Call stack trace:
+L 01/25/2023 - 16:42:28: [SM]   [1] Line 386, C:\Users\lostine\Desktop\SourceMod-Linux编译平台\[Server] serverhop.sp::GetByte
+L 01/25/2023 - 16:42:28: [SM]   [2] Line 427, C:\Users\lostine\Desktop\SourceMod-Linux编译平台\[Server] serverhop.sp::OnSocketReceive
+L 01/25/2023 - 16:42:28: [SM] Exception reported: Invalid memory access
+L 01/25/2023 - 16:42:28: [SM] Blaming: [Server] serverhop.smx
+L 01/25/2023 - 16:42:28: [SM] Call stack trace:
+L 01/25/2023 - 16:42:28: [SM]   [1] Line 386, C:\Users\lostine\Desktop\SourceMod-Linux编译平台\[Server] serverhop.sp::GetByte
+L 01/25/2023 - 16:42:28: [SM]   [2] Line 427, C:\Users\lostine\Desktop\SourceMod-Linux编译平台\[Server] serverhop.sp::OnSocketReceive
+L 01/25/2023 - 16:42:49: SourceMod error session started
+L 01/25/2023 - 16:42:49: Info (map "c2m1_highway") (file "/root/Steam/steamapps/common/Left 4 Dead 2 Dedicated Server/left4dead2/addons/sourcemod/logs/errors_20230125.log")
+L 01/25/2023 - 16:42:49: [SM] Unable to load plugin "Welcome.smx": Could not find required plugin "l4d2_playtime_interface"
+L 01/25/2023 - 16:42:49: [SM] Unable to load plugin "l4d_fyzb_en_v20.smx": Could not find required plugin "readyup"
+L 01/25/2023 - 16:48:45: SourceMod error session started
+L 01/25/2023 - 16:48:45: Info (map "c2m1_highway") (file "/root/Steam/steamapps/common/Left 4 Dead 2 Dedicated Server/left4dead2/addons/sourcemod/logs/errors_20230125.log")
+L 01/25/2023 - 16:48:45: [SM] Unable to load plugin "Welcome.smx": Could not find required plugin "l4d2_playtime_interface"
+L 01/25/2023 - 16:48:46: [SM] Unable to load plugin "l4d_fyzb_en_v20.smx": Could not find required plugin "readyup"
+L 01/25/2023 - 16:48:49: [serverhop.smx] Server 124.220.44.187:23333 is down: socket error 6 (errno 111)
+L 01/25/2023 - 17:00:30: SourceMod error session started
+L 01/25/2023 - 17:00:30: Info (map "c2m1_highway") (file "/root/Steam/steamapps/common/Left 4 Dead 2 Dedicated Server/left4dead2/addons/sourcemod/logs/errors_20230125.log")
+L 01/25/2023 - 17:00:30: [SM] Unable to load plugin "Welcome.smx": Could not find required plugin "l4d2_playtime_interface"
+L 01/25/2023 - 17:00:30: [SM] Unable to load plugin "l4d_fyzb_en_v20.smx": Could not find required plugin "readyup"
+L 01/25/2023 - 17:24:46: Error log file session closed.
+L 01/25/2023 - 17:27:08: SourceMod error session started
+L 01/25/2023 - 17:27:08: Info (map "c2m1_highway") (file "/root/Steam/steamapps/common/Left 4 Dead 2 Dedicated Server/left4dead2/addons/sourcemod/logs/errors_20230125.log")
+L 01/25/2023 - 17:27:08: [SM] Unable to load plugin "Welcome.smx": Could not find required plugin "l4d2_playtime_interface"
+L 01/25/2023 - 17:27:08: [SM] Unable to load plugin "l4d_fyzb_en_v20.smx": Could not find required plugin "readyup"
+L 01/25/2023 - 17:37:11: SourceMod error session started
+L 01/25/2023 - 17:37:11: Info (map "c2m1_highway") (file "/root/Steam/steamapps/common/Left 4 Dead 2 Dedicated Server/left4dead2/addons/sourcemod/logs/errors_20230125.log")
+L 01/25/2023 - 17:37:11: [SM] Unable to load plugin "Welcome.smx": Could not find required plugin "l4d2_playtime_interface"
+L 01/25/2023 - 17:37:11: [SM] Unable to load plugin "l4d_fyzb_en_v20.smx": Could not find required plugin "readyup"
+L 01/25/2023 - 17:46:03: SourceMod error session started
+L 01/25/2023 - 17:46:03: Info (map "c2m1_highway") (file "/root/Steam/steamapps/common/Left 4 Dead 2 Dedicated Server/left4dead2/addons/sourcemod/logs/errors_20230125.log")
+L 01/25/2023 - 17:46:03: [SM] Unable to load plugin "Welcome.smx": Could not find required plugin "l4d2_playtime_interface"
+L 01/25/2023 - 17:46:03: [SM] Unable to load plugin "l4d_fyzb_en_v20.smx": Could not find required plugin "readyup"
+L 01/25/2023 - 21:52:25: Error log file session closed.
+L 01/25/2023 - 21:52:46: SourceMod error session started
+L 01/25/2023 - 21:52:46: Info (map "c2m1_highway") (file "/root/Steam/steamapps/common/Left 4 Dead 2 Dedicated Server/left4dead2/addons/sourcemod/logs/errors_20230125.log")
+L 01/25/2023 - 21:52:46: [SM] Exception reported: Invalid index 1 (count: 1)
+L 01/25/2023 - 21:52:46: [SM] Blaming: optional/l4d_equalise_alarm_cars_scav.smx
+L 01/25/2023 - 21:52:46: [SM] Call stack trace:
+L 01/25/2023 - 21:52:46: [SM]   [0] ArrayList.GetString
+L 01/25/2023 - 21:52:46: [SM]   [1] Line 384, F:\Users\Administrator\Documents\GitHub\MoYu_Server_Stupid_Plugins\The Last Stand\l4d_equalise_alarm_cars\l4d_equalise_alarm_cars.sp::PatchAlarmedCars
+L 01/25/2023 - 21:53:03: Error log file session closed.
+L 01/25/2023 - 21:53:19: SourceMod error session started
+L 01/25/2023 - 21:53:19: Info (map "c8m5_rooftop") (file "/root/Steam/steamapps/common/Left 4 Dead 2 Dedicated Server/left4dead2/addons/sourcemod/logs/errors_20230125.log")
+L 01/25/2023 - 21:53:19: [SM] Exception reported: Client 2 is not in game
+L 01/25/2023 - 21:53:19: [SM] Blaming: optional/l4d2_scav_fix_nm5.smx
+L 01/25/2023 - 21:53:19: [SM] Call stack trace:
+L 01/25/2023 - 21:53:19: [SM]   [0] GetClientAbsOrigin
+L 01/25/2023 - 21:53:19: [SM]   [1] Line 76, E:\DownLoading\sourcemod-1.11.0-git6826-windows\addons\sourcemod\scripting\l4d2_scav_fix_nm5.sp::FindMisplacedCans
+L 01/25/2023 - 21:53:19: [SM]   [2] Line 53, E:\DownLoading\sourcemod-1.11.0-git6826-windows\addons\sourcemod\scripting\l4d2_scav_fix_nm5.sp::ScavTimerH
+L 01/25/2023 - 21:53:35: [SM] Exception reported: Client 2 is not in game
+L 01/25/2023 - 21:53:35: [SM] Blaming: optional/l4d2_scav_fix_nm5.smx
+L 01/25/2023 - 21:53:35: [SM] Call stack trace:
+L 01/25/2023 - 21:53:35: [SM]   [0] GetClientAbsOrigin
+L 01/25/2023 - 21:53:35: [SM]   [1] Line 76, E:\DownLoading\sourcemod-1.11.0-git6826-windows\addons\sourcemod\scripting\l4d2_scav_fix_nm5.sp::FindMisplacedCans
+L 01/25/2023 - 21:53:35: [SM]   [2] Line 53, E:\DownLoading\sourcemod-1.11.0-git6826-windows\addons\sourcemod\scripting\l4d2_scav_fix_nm5.sp::ScavTimerH
+L 01/25/2023 - 21:53:50: [SM] Exception reported: Client 2 is not in game
+L 01/25/2023 - 21:53:50: [SM] Blaming: optional/l4d2_scav_fix_nm5.smx
+L 01/25/2023 - 21:53:50: [SM] Call stack trace:
+L 01/25/2023 - 21:53:50: [SM]   [0] GetClientAbsOrigin
+L 01/25/2023 - 21:53:50: [SM]   [1] Line 76, E:\DownLoading\sourcemod-1.11.0-git6826-windows\addons\sourcemod\scripting\l4d2_scav_fix_nm5.sp::FindMisplacedCans
+L 01/25/2023 - 21:53:50: [SM]   [2] Line 53, E:\DownLoading\sourcemod-1.11.0-git6826-windows\addons\sourcemod\scripting\l4d2_scav_fix_nm5.sp::ScavTimerH
+L 01/25/2023 - 21:54:05: [SM] Exception reported: Client 2 is not in game
+L 01/25/2023 - 21:54:05: [SM] Blaming: optional/l4d2_scav_fix_nm5.smx
+L 01/25/2023 - 21:54:05: [SM] Call stack trace:
+L 01/25/2023 - 21:54:05: [SM]   [0] GetClientAbsOrigin
+L 01/25/2023 - 21:54:05: [SM]   [1] Line 76, E:\DownLoading\sourcemod-1.11.0-git6826-windows\addons\sourcemod\scripting\l4d2_scav_fix_nm5.sp::FindMisplacedCans
+L 01/25/2023 - 21:54:05: [SM]   [2] Line 53, E:\DownLoading\sourcemod-1.11.0-git6826-windows\addons\sourcemod\scripting\l4d2_scav_fix_nm5.sp::ScavTimerH
+L 01/25/2023 - 21:54:20: [SM] Exception reported: Client 2 is not in game
+L 01/25/2023 - 21:54:20: [SM] Blaming: optional/l4d2_scav_fix_nm5.smx
+L 01/25/2023 - 21:54:20: [SM] Call stack trace:
+L 01/25/2023 - 21:54:20: [SM]   [0] GetClientAbsOrigin
+L 01/25/2023 - 21:54:20: [SM]   [1] Line 76, E:\DownLoading\sourcemod-1.11.0-git6826-windows\addons\sourcemod\scripting\l4d2_scav_fix_nm5.sp::FindMisplacedCans
+L 01/25/2023 - 21:54:20: [SM]   [2] Line 53, E:\DownLoading\sourcemod-1.11.0-git6826-windows\addons\sourcemod\scripting\l4d2_scav_fix_nm5.sp::ScavTimerH
+L 01/25/2023 - 21:54:35: [SM] Exception reported: Client 2 is not in game
+L 01/25/2023 - 21:54:35: [SM] Blaming: optional/l4d2_scav_fix_nm5.smx
+L 01/25/2023 - 21:54:35: [SM] Call stack trace:
+L 01/25/2023 - 21:54:35: [SM]   [0] GetClientAbsOrigin
+L 01/25/2023 - 21:54:35: [SM]   [1] Line 76, E:\DownLoading\sourcemod-1.11.0-git6826-windows\addons\sourcemod\scripting\l4d2_scav_fix_nm5.sp::FindMisplacedCans
+L 01/25/2023 - 21:54:35: [SM]   [2] Line 53, E:\DownLoading\sourcemod-1.11.0-git6826-windows\addons\sourcemod\scripting\l4d2_scav_fix_nm5.sp::ScavTimerH
+L 01/25/2023 - 21:54:50: [SM] Exception reported: Client 2 is not in game
+L 01/25/2023 - 21:54:50: [SM] Blaming: optional/l4d2_scav_fix_nm5.smx
+L 01/25/2023 - 21:54:50: [SM] Call stack trace:
+L 01/25/2023 - 21:54:50: [SM]   [0] GetClientAbsOrigin
+L 01/25/2023 - 21:54:50: [SM]   [1] Line 76, E:\DownLoading\sourcemod-1.11.0-git6826-windows\addons\sourcemod\scripting\l4d2_scav_fix_nm5.sp::FindMisplacedCans
+L 01/25/2023 - 21:54:50: [SM]   [2] Line 53, E:\DownLoading\sourcemod-1.11.0-git6826-windows\addons\sourcemod\scripting\l4d2_scav_fix_nm5.sp::ScavTimerH
+L 01/25/2023 - 21:55:05: [SM] Exception reported: Client 2 is not in game
+L 01/25/2023 - 21:55:05: [SM] Blaming: optional/l4d2_scav_fix_nm5.smx
+L 01/25/2023 - 21:55:05: [SM] Call stack trace:
+L 01/25/2023 - 21:55:05: [SM]   [0] GetClientAbsOrigin
+L 01/25/2023 - 21:55:05: [SM]   [1] Line 76, E:\DownLoading\sourcemod-1.11.0-git6826-windows\addons\sourcemod\scripting\l4d2_scav_fix_nm5.sp::FindMisplacedCans
+L 01/25/2023 - 21:55:05: [SM]   [2] Line 53, E:\DownLoading\sourcemod-1.11.0-git6826-windows\addons\sourcemod\scripting\l4d2_scav_fix_nm5.sp::ScavTimerH
+L 01/25/2023 - 21:55:20: [SM] Exception reported: Client 2 is not in game
+L 01/25/2023 - 21:55:20: [SM] Blaming: optional/l4d2_scav_fix_nm5.smx
+L 01/25/2023 - 21:55:20: [SM] Call stack trace:
+L 01/25/2023 - 21:55:20: [SM]   [0] GetClientAbsOrigin
+L 01/25/2023 - 21:55:20: [SM]   [1] Line 76, E:\DownLoading\sourcemod-1.11.0-git6826-windows\addons\sourcemod\scripting\l4d2_scav_fix_nm5.sp::FindMisplacedCans
+L 01/25/2023 - 21:55:20: [SM]   [2] Line 53, E:\DownLoading\sourcemod-1.11.0-git6826-windows\addons\sourcemod\scripting\l4d2_scav_fix_nm5.sp::ScavTimerH
+L 01/25/2023 - 21:55:35: [SM] Exception reported: Client 2 is not in game
+L 01/25/2023 - 21:55:35: [SM] Blaming: optional/l4d2_scav_fix_nm5.smx
+L 01/25/2023 - 21:55:35: [SM] Call stack trace:
+L 01/25/2023 - 21:55:35: [SM]   [0] GetClientAbsOrigin
+L 01/25/2023 - 21:55:35: [SM]   [1] Line 76, E:\DownLoading\sourcemod-1.11.0-git6826-windows\addons\sourcemod\scripting\l4d2_scav_fix_nm5.sp::FindMisplacedCans
+L 01/25/2023 - 21:55:35: [SM]   [2] Line 53, E:\DownLoading\sourcemod-1.11.0-git6826-windows\addons\sourcemod\scripting\l4d2_scav_fix_nm5.sp::ScavTimerH
+L 01/25/2023 - 21:55:50: [SM] Exception reported: Client 2 is not in game
+L 01/25/2023 - 21:55:50: [SM] Blaming: optional/l4d2_scav_fix_nm5.smx
+L 01/25/2023 - 21:55:50: [SM] Call stack trace:
+L 01/25/2023 - 21:55:50: [SM]   [0] GetClientAbsOrigin
+L 01/25/2023 - 21:55:50: [SM]   [1] Line 76, E:\DownLoading\sourcemod-1.11.0-git6826-windows\addons\sourcemod\scripting\l4d2_scav_fix_nm5.sp::FindMisplacedCans
+L 01/25/2023 - 21:55:50: [SM]   [2] Line 53, E:\DownLoading\sourcemod-1.11.0-git6826-windows\addons\sourcemod\scripting\l4d2_scav_fix_nm5.sp::ScavTimerH
+L 01/25/2023 - 21:56:05: [SM] Exception reported: Client 2 is not in game
+L 01/25/2023 - 21:56:05: [SM] Blaming: optional/l4d2_scav_fix_nm5.smx
+L 01/25/2023 - 21:56:05: [SM] Call stack trace:
+L 01/25/2023 - 21:56:05: [SM]   [0] GetClientAbsOrigin
+L 01/25/2023 - 21:56:05: [SM]   [1] Line 76, E:\DownLoading\sourcemod-1.11.0-git6826-windows\addons\sourcemod\scripting\l4d2_scav_fix_nm5.sp::FindMisplacedCans
+L 01/25/2023 - 21:56:05: [SM]   [2] Line 53, E:\DownLoading\sourcemod-1.11.0-git6826-windows\addons\sourcemod\scripting\l4d2_scav_fix_nm5.sp::ScavTimerH
+L 01/25/2023 - 21:56:20: [SM] Exception reported: Client 2 is not in game
+L 01/25/2023 - 21:56:20: [SM] Blaming: optional/l4d2_scav_fix_nm5.smx
+L 01/25/2023 - 21:56:20: [SM] Call stack trace:
+L 01/25/2023 - 21:56:20: [SM]   [0] GetClientAbsOrigin
+L 01/25/2023 - 21:56:20: [SM]   [1] Line 76, E:\DownLoading\sourcemod-1.11.0-git6826-windows\addons\sourcemod\scripting\l4d2_scav_fix_nm5.sp::FindMisplacedCans
+L 01/25/2023 - 21:56:20: [SM]   [2] Line 53, E:\DownLoading\sourcemod-1.11.0-git6826-windows\addons\sourcemod\scripting\l4d2_scav_fix_nm5.sp::ScavTimerH
+L 01/25/2023 - 21:56:35: [SM] Exception reported: Client 2 is not in game
+L 01/25/2023 - 21:56:35: [SM] Blaming: optional/l4d2_scav_fix_nm5.smx
+L 01/25/2023 - 21:56:35: [SM] Call stack trace:
+L 01/25/2023 - 21:56:35: [SM]   [0] GetClientAbsOrigin
+L 01/25/2023 - 21:56:35: [SM]   [1] Line 76, E:\DownLoading\sourcemod-1.11.0-git6826-windows\addons\sourcemod\scripting\l4d2_scav_fix_nm5.sp::FindMisplacedCans
+L 01/25/2023 - 21:56:35: [SM]   [2] Line 53, E:\DownLoading\sourcemod-1.11.0-git6826-windows\addons\sourcemod\scripting\l4d2_scav_fix_nm5.sp::ScavTimerH
+L 01/25/2023 - 21:56:50: [SM] Exception reported: Client 2 is not in game
+L 01/25/2023 - 21:56:50: [SM] Blaming: optional/l4d2_scav_fix_nm5.smx
+L 01/25/2023 - 21:56:50: [SM] Call stack trace:
+L 01/25/2023 - 21:56:50: [SM]   [0] GetClientAbsOrigin
+L 01/25/2023 - 21:56:50: [SM]   [1] Line 76, E:\DownLoading\sourcemod-1.11.0-git6826-windows\addons\sourcemod\scripting\l4d2_scav_fix_nm5.sp::FindMisplacedCans
+L 01/25/2023 - 21:56:50: [SM]   [2] Line 53, E:\DownLoading\sourcemod-1.11.0-git6826-windows\addons\sourcemod\scripting\l4d2_scav_fix_nm5.sp::ScavTimerH
+L 01/25/2023 - 21:57:05: [SM] Exception reported: Client 2 is not in game
+L 01/25/2023 - 21:57:05: [SM] Blaming: optional/l4d2_scav_fix_nm5.smx
+L 01/25/2023 - 21:57:05: [SM] Call stack trace:
+L 01/25/2023 - 21:57:05: [SM]   [0] GetClientAbsOrigin
+L 01/25/2023 - 21:57:05: [SM]   [1] Line 76, E:\DownLoading\sourcemod-1.11.0-git6826-windows\addons\sourcemod\scripting\l4d2_scav_fix_nm5.sp::FindMisplacedCans
+L 01/25/2023 - 21:57:05: [SM]   [2] Line 53, E:\DownLoading\sourcemod-1.11.0-git6826-windows\addons\sourcemod\scripting\l4d2_scav_fix_nm5.sp::ScavTimerH
+L 01/25/2023 - 21:57:20: [SM] Exception reported: Client 2 is not in game
+L 01/25/2023 - 21:57:20: [SM] Blaming: optional/l4d2_scav_fix_nm5.smx
+L 01/25/2023 - 21:57:20: [SM] Call stack trace:
+L 01/25/2023 - 21:57:20: [SM]   [0] GetClientAbsOrigin
+L 01/25/2023 - 21:57:20: [SM]   [1] Line 76, E:\DownLoading\sourcemod-1.11.0-git6826-windows\addons\sourcemod\scripting\l4d2_scav_fix_nm5.sp::FindMisplacedCans
+L 01/25/2023 - 21:57:20: [SM]   [2] Line 53, E:\DownLoading\sourcemod-1.11.0-git6826-windows\addons\sourcemod\scripting\l4d2_scav_fix_nm5.sp::ScavTimerH
+L 01/25/2023 - 21:57:35: [SM] Exception reported: Client 2 is not in game
+L 01/25/2023 - 21:57:35: [SM] Blaming: optional/l4d2_scav_fix_nm5.smx
+L 01/25/2023 - 21:57:35: [SM] Call stack trace:
+L 01/25/2023 - 21:57:35: [SM]   [0] GetClientAbsOrigin
+L 01/25/2023 - 21:57:35: [SM]   [1] Line 76, E:\DownLoading\sourcemod-1.11.0-git6826-windows\addons\sourcemod\scripting\l4d2_scav_fix_nm5.sp::FindMisplacedCans
+L 01/25/2023 - 21:57:35: [SM]   [2] Line 53, E:\DownLoading\sourcemod-1.11.0-git6826-windows\addons\sourcemod\scripting\l4d2_scav_fix_nm5.sp::ScavTimerH
+L 01/25/2023 - 21:57:50: [SM] Exception reported: Client 2 is not in game
+L 01/25/2023 - 21:57:50: [SM] Blaming: optional/l4d2_scav_fix_nm5.smx
+L 01/25/2023 - 21:57:50: [SM] Call stack trace:
+L 01/25/2023 - 21:57:50: [SM]   [0] GetClientAbsOrigin
+L 01/25/2023 - 21:57:50: [SM]   [1] Line 76, E:\DownLoading\sourcemod-1.11.0-git6826-windows\addons\sourcemod\scripting\l4d2_scav_fix_nm5.sp::FindMisplacedCans
+L 01/25/2023 - 21:57:50: [SM]   [2] Line 53, E:\DownLoading\sourcemod-1.11.0-git6826-windows\addons\sourcemod\scripting\l4d2_scav_fix_nm5.sp::ScavTimerH
+L 01/25/2023 - 21:58:05: [SM] Exception reported: Client 2 is not in game
+L 01/25/2023 - 21:58:05: [SM] Blaming: optional/l4d2_scav_fix_nm5.smx
+L 01/25/2023 - 21:58:05: [SM] Call stack trace:
+L 01/25/2023 - 21:58:05: [SM]   [0] GetClientAbsOrigin
+L 01/25/2023 - 21:58:05: [SM]   [1] Line 76, E:\DownLoading\sourcemod-1.11.0-git6826-windows\addons\sourcemod\scripting\l4d2_scav_fix_nm5.sp::FindMisplacedCans
+L 01/25/2023 - 21:58:05: [SM]   [2] Line 53, E:\DownLoading\sourcemod-1.11.0-git6826-windows\addons\sourcemod\scripting\l4d2_scav_fix_nm5.sp::ScavTimerH
+L 01/25/2023 - 21:58:20: [SM] Exception reported: Client 2 is not in game
+L 01/25/2023 - 21:58:20: [SM] Blaming: optional/l4d2_scav_fix_nm5.smx
+L 01/25/2023 - 21:58:20: [SM] Call stack trace:
+L 01/25/2023 - 21:58:20: [SM]   [0] GetClientAbsOrigin
+L 01/25/2023 - 21:58:20: [SM]   [1] Line 76, E:\DownLoading\sourcemod-1.11.0-git6826-windows\addons\sourcemod\scripting\l4d2_scav_fix_nm5.sp::FindMisplacedCans
+L 01/25/2023 - 21:58:20: [SM]   [2] Line 53, E:\DownLoading\sourcemod-1.11.0-git6826-windows\addons\sourcemod\scripting\l4d2_scav_fix_nm5.sp::ScavTimerH
+L 01/25/2023 - 21:58:35: [SM] Exception reported: Client 2 is not in game
+L 01/25/2023 - 21:58:35: [SM] Blaming: optional/l4d2_scav_fix_nm5.smx
+L 01/25/2023 - 21:58:35: [SM] Call stack trace:
+L 01/25/2023 - 21:58:35: [SM]   [0] GetClientAbsOrigin
+L 01/25/2023 - 21:58:35: [SM]   [1] Line 76, E:\DownLoading\sourcemod-1.11.0-git6826-windows\addons\sourcemod\scripting\l4d2_scav_fix_nm5.sp::FindMisplacedCans
+L 01/25/2023 - 21:58:35: [SM]   [2] Line 53, E:\DownLoading\sourcemod-1.11.0-git6826-windows\addons\sourcemod\scripting\l4d2_scav_fix_nm5.sp::ScavTimerH
+L 01/25/2023 - 21:58:50: [SM] Exception reported: Client 2 is not in game
+L 01/25/2023 - 21:58:50: [SM] Blaming: optional/l4d2_scav_fix_nm5.smx
+L 01/25/2023 - 21:58:50: [SM] Call stack trace:
+L 01/25/2023 - 21:58:50: [SM]   [0] GetClientAbsOrigin
+L 01/25/2023 - 21:58:50: [SM]   [1] Line 76, E:\DownLoading\sourcemod-1.11.0-git6826-windows\addons\sourcemod\scripting\l4d2_scav_fix_nm5.sp::FindMisplacedCans
+L 01/25/2023 - 21:58:50: [SM]   [2] Line 53, E:\DownLoading\sourcemod-1.11.0-git6826-windows\addons\sourcemod\scripting\l4d2_scav_fix_nm5.sp::ScavTimerH
+L 01/25/2023 - 21:59:05: [SM] Exception reported: Client 2 is not in game
+L 01/25/2023 - 21:59:05: [SM] Blaming: optional/l4d2_scav_fix_nm5.smx
+L 01/25/2023 - 21:59:05: [SM] Call stack trace:
+L 01/25/2023 - 21:59:05: [SM]   [0] GetClientAbsOrigin
+L 01/25/2023 - 21:59:05: [SM]   [1] Line 76, E:\DownLoading\sourcemod-1.11.0-git6826-windows\addons\sourcemod\scripting\l4d2_scav_fix_nm5.sp::FindMisplacedCans
+L 01/25/2023 - 21:59:05: [SM]   [2] Line 53, E:\DownLoading\sourcemod-1.11.0-git6826-windows\addons\sourcemod\scripting\l4d2_scav_fix_nm5.sp::ScavTimerH
+L 01/25/2023 - 21:59:20: [SM] Exception reported: Client 2 is not in game
+L 01/25/2023 - 21:59:20: [SM] Blaming: optional/l4d2_scav_fix_nm5.smx
+L 01/25/2023 - 21:59:20: [SM] Call stack trace:
+L 01/25/2023 - 21:59:20: [SM]   [0] GetClientAbsOrigin
+L 01/25/2023 - 21:59:20: [SM]   [1] Line 76, E:\DownLoading\sourcemod-1.11.0-git6826-windows\addons\sourcemod\scripting\l4d2_scav_fix_nm5.sp::FindMisplacedCans
+L 01/25/2023 - 21:59:20: [SM]   [2] Line 53, E:\DownLoading\sourcemod-1.11.0-git6826-windows\addons\sourcemod\scripting\l4d2_scav_fix_nm5.sp::ScavTimerH
+L 01/25/2023 - 21:59:35: [SM] Exception reported: Client 2 is not in game
+L 01/25/2023 - 21:59:35: [SM] Blaming: optional/l4d2_scav_fix_nm5.smx
+L 01/25/2023 - 21:59:35: [SM] Call stack trace:
+L 01/25/2023 - 21:59:35: [SM]   [0] GetClientAbsOrigin
+L 01/25/2023 - 21:59:35: [SM]   [1] Line 76, E:\DownLoading\sourcemod-1.11.0-git6826-windows\addons\sourcemod\scripting\l4d2_scav_fix_nm5.sp::FindMisplacedCans
+L 01/25/2023 - 21:59:35: [SM]   [2] Line 53, E:\DownLoading\sourcemod-1.11.0-git6826-windows\addons\sourcemod\scripting\l4d2_scav_fix_nm5.sp::ScavTimerH
+L 01/25/2023 - 21:59:50: [SM] Exception reported: Client 2 is not in game
+L 01/25/2023 - 21:59:50: [SM] Blaming: optional/l4d2_scav_fix_nm5.smx
+L 01/25/2023 - 21:59:50: [SM] Call stack trace:
+L 01/25/2023 - 21:59:50: [SM]   [0] GetClientAbsOrigin
+L 01/25/2023 - 21:59:50: [SM]   [1] Line 76, E:\DownLoading\sourcemod-1.11.0-git6826-windows\addons\sourcemod\scripting\l4d2_scav_fix_nm5.sp::FindMisplacedCans
+L 01/25/2023 - 21:59:50: [SM]   [2] Line 53, E:\DownLoading\sourcemod-1.11.0-git6826-windows\addons\sourcemod\scripting\l4d2_scav_fix_nm5.sp::ScavTimerH
+L 01/25/2023 - 22:00:05: [SM] Exception reported: Client 2 is not in game
+L 01/25/2023 - 22:00:05: [SM] Blaming: optional/l4d2_scav_fix_nm5.smx
+L 01/25/2023 - 22:00:05: [SM] Call stack trace:
+L 01/25/2023 - 22:00:05: [SM]   [0] GetClientAbsOrigin
+L 01/25/2023 - 22:00:05: [SM]   [1] Line 76, E:\DownLoading\sourcemod-1.11.0-git6826-windows\addons\sourcemod\scripting\l4d2_scav_fix_nm5.sp::FindMisplacedCans
+L 01/25/2023 - 22:00:05: [SM]   [2] Line 53, E:\DownLoading\sourcemod-1.11.0-git6826-windows\addons\sourcemod\scripting\l4d2_scav_fix_nm5.sp::ScavTimerH
+L 01/25/2023 - 22:00:20: [SM] Exception reported: Client 2 is not in game
+L 01/25/2023 - 22:00:20: [SM] Blaming: optional/l4d2_scav_fix_nm5.smx
+L 01/25/2023 - 22:00:20: [SM] Call stack trace:
+L 01/25/2023 - 22:00:20: [SM]   [0] GetClientAbsOrigin
+L 01/25/2023 - 22:00:20: [SM]   [1] Line 76, E:\DownLoading\sourcemod-1.11.0-git6826-windows\addons\sourcemod\scripting\l4d2_scav_fix_nm5.sp::FindMisplacedCans
+L 01/25/2023 - 22:00:20: [SM]   [2] Line 53, E:\DownLoading\sourcemod-1.11.0-git6826-windows\addons\sourcemod\scripting\l4d2_scav_fix_nm5.sp::ScavTimerH
+L 01/25/2023 - 22:00:35: [SM] Exception reported: Client 2 is not in game
+L 01/25/2023 - 22:00:35: [SM] Blaming: optional/l4d2_scav_fix_nm5.smx
+L 01/25/2023 - 22:00:35: [SM] Call stack trace:
+L 01/25/2023 - 22:00:35: [SM]   [0] GetClientAbsOrigin
+L 01/25/2023 - 22:00:35: [SM]   [1] Line 76, E:\DownLoading\sourcemod-1.11.0-git6826-windows\addons\sourcemod\scripting\l4d2_scav_fix_nm5.sp::FindMisplacedCans
+L 01/25/2023 - 22:00:35: [SM]   [2] Line 53, E:\DownLoading\sourcemod-1.11.0-git6826-windows\addons\sourcemod\scripting\l4d2_scav_fix_nm5.sp::ScavTimerH
+L 01/25/2023 - 22:00:50: [SM] Exception reported: Client 2 is not in game
+L 01/25/2023 - 22:00:50: [SM] Blaming: optional/l4d2_scav_fix_nm5.smx
+L 01/25/2023 - 22:00:50: [SM] Call stack trace:
+L 01/25/2023 - 22:00:50: [SM]   [0] GetClientAbsOrigin
+L 01/25/2023 - 22:00:50: [SM]   [1] Line 76, E:\DownLoading\sourcemod-1.11.0-git6826-windows\addons\sourcemod\scripting\l4d2_scav_fix_nm5.sp::FindMisplacedCans
+L 01/25/2023 - 22:00:50: [SM]   [2] Line 53, E:\DownLoading\sourcemod-1.11.0-git6826-windows\addons\sourcemod\scripting\l4d2_scav_fix_nm5.sp::ScavTimerH
+L 01/25/2023 - 22:01:05: [SM] Exception reported: Client 2 is not in game
+L 01/25/2023 - 22:01:05: [SM] Blaming: optional/l4d2_scav_fix_nm5.smx
+L 01/25/2023 - 22:01:05: [SM] Call stack trace:
+L 01/25/2023 - 22:01:05: [SM]   [0] GetClientAbsOrigin
+L 01/25/2023 - 22:01:05: [SM]   [1] Line 76, E:\DownLoading\sourcemod-1.11.0-git6826-windows\addons\sourcemod\scripting\l4d2_scav_fix_nm5.sp::FindMisplacedCans
+L 01/25/2023 - 22:01:05: [SM]   [2] Line 53, E:\DownLoading\sourcemod-1.11.0-git6826-windows\addons\sourcemod\scripting\l4d2_scav_fix_nm5.sp::ScavTimerH
+L 01/25/2023 - 22:01:20: [SM] Exception reported: Client 2 is not in game
+L 01/25/2023 - 22:01:20: [SM] Blaming: optional/l4d2_scav_fix_nm5.smx
+L 01/25/2023 - 22:01:20: [SM] Call stack trace:
+L 01/25/2023 - 22:01:20: [SM]   [0] GetClientAbsOrigin
+L 01/25/2023 - 22:01:20: [SM]   [1] Line 76, E:\DownLoading\sourcemod-1.11.0-git6826-windows\addons\sourcemod\scripting\l4d2_scav_fix_nm5.sp::FindMisplacedCans
+L 01/25/2023 - 22:01:20: [SM]   [2] Line 53, E:\DownLoading\sourcemod-1.11.0-git6826-windows\addons\sourcemod\scripting\l4d2_scav_fix_nm5.sp::ScavTimerH
+L 01/25/2023 - 22:01:35: [SM] Exception reported: Client 2 is not in game
+L 01/25/2023 - 22:01:35: [SM] Blaming: optional/l4d2_scav_fix_nm5.smx
+L 01/25/2023 - 22:01:35: [SM] Call stack trace:
+L 01/25/2023 - 22:01:35: [SM]   [0] GetClientAbsOrigin
+L 01/25/2023 - 22:01:35: [SM]   [1] Line 76, E:\DownLoading\sourcemod-1.11.0-git6826-windows\addons\sourcemod\scripting\l4d2_scav_fix_nm5.sp::FindMisplacedCans
+L 01/25/2023 - 22:01:35: [SM]   [2] Line 53, E:\DownLoading\sourcemod-1.11.0-git6826-windows\addons\sourcemod\scripting\l4d2_scav_fix_nm5.sp::ScavTimerH
+L 01/25/2023 - 22:01:50: [SM] Exception reported: Client 2 is not in game
+L 01/25/2023 - 22:01:50: [SM] Blaming: optional/l4d2_scav_fix_nm5.smx
+L 01/25/2023 - 22:01:50: [SM] Call stack trace:
+L 01/25/2023 - 22:01:50: [SM]   [0] GetClientAbsOrigin
+L 01/25/2023 - 22:01:50: [SM]   [1] Line 76, E:\DownLoading\sourcemod-1.11.0-git6826-windows\addons\sourcemod\scripting\l4d2_scav_fix_nm5.sp::FindMisplacedCans
+L 01/25/2023 - 22:01:50: [SM]   [2] Line 53, E:\DownLoading\sourcemod-1.11.0-git6826-windows\addons\sourcemod\scripting\l4d2_scav_fix_nm5.sp::ScavTimerH
+L 01/25/2023 - 22:02:05: [SM] Exception reported: Client 2 is not in game
+L 01/25/2023 - 22:02:05: [SM] Blaming: optional/l4d2_scav_fix_nm5.smx
+L 01/25/2023 - 22:02:05: [SM] Call stack trace:
+L 01/25/2023 - 22:02:05: [SM]   [0] GetClientAbsOrigin
+L 01/25/2023 - 22:02:05: [SM]   [1] Line 76, E:\DownLoading\sourcemod-1.11.0-git6826-windows\addons\sourcemod\scripting\l4d2_scav_fix_nm5.sp::FindMisplacedCans
+L 01/25/2023 - 22:02:05: [SM]   [2] Line 53, E:\DownLoading\sourcemod-1.11.0-git6826-windows\addons\sourcemod\scripting\l4d2_scav_fix_nm5.sp::ScavTimerH
+L 01/25/2023 - 22:02:20: [SM] Exception reported: Client 2 is not in game
+L 01/25/2023 - 22:02:20: [SM] Blaming: optional/l4d2_scav_fix_nm5.smx
+L 01/25/2023 - 22:02:20: [SM] Call stack trace:
+L 01/25/2023 - 22:02:20: [SM]   [0] GetClientAbsOrigin
+L 01/25/2023 - 22:02:20: [SM]   [1] Line 76, E:\DownLoading\sourcemod-1.11.0-git6826-windows\addons\sourcemod\scripting\l4d2_scav_fix_nm5.sp::FindMisplacedCans
+L 01/25/2023 - 22:02:20: [SM]   [2] Line 53, E:\DownLoading\sourcemod-1.11.0-git6826-windows\addons\sourcemod\scripting\l4d2_scav_fix_nm5.sp::ScavTimerH
+L 01/25/2023 - 22:02:35: [SM] Exception reported: Client 2 is not in game
+L 01/25/2023 - 22:02:35: [SM] Blaming: optional/l4d2_scav_fix_nm5.smx
+L 01/25/2023 - 22:02:35: [SM] Call stack trace:
+L 01/25/2023 - 22:02:35: [SM]   [0] GetClientAbsOrigin
+L 01/25/2023 - 22:02:35: [SM]   [1] Line 76, E:\DownLoading\sourcemod-1.11.0-git6826-windows\addons\sourcemod\scripting\l4d2_scav_fix_nm5.sp::FindMisplacedCans
+L 01/25/2023 - 22:02:35: [SM]   [2] Line 53, E:\DownLoading\sourcemod-1.11.0-git6826-windows\addons\sourcemod\scripting\l4d2_scav_fix_nm5.sp::ScavTimerH
+L 01/25/2023 - 22:02:50: [SM] Exception reported: Client 2 is not in game
+L 01/25/2023 - 22:02:50: [SM] Blaming: optional/l4d2_scav_fix_nm5.smx
+L 01/25/2023 - 22:02:50: [SM] Call stack trace:
+L 01/25/2023 - 22:02:50: [SM]   [0] GetClientAbsOrigin
+L 01/25/2023 - 22:02:50: [SM]   [1] Line 76, E:\DownLoading\sourcemod-1.11.0-git6826-windows\addons\sourcemod\scripting\l4d2_scav_fix_nm5.sp::FindMisplacedCans
+L 01/25/2023 - 22:02:50: [SM]   [2] Line 53, E:\DownLoading\sourcemod-1.11.0-git6826-windows\addons\sourcemod\scripting\l4d2_scav_fix_nm5.sp::ScavTimerH
+L 01/25/2023 - 22:03:05: [SM] Exception reported: Client 2 is not in game
+L 01/25/2023 - 22:03:05: [SM] Blaming: optional/l4d2_scav_fix_nm5.smx
+L 01/25/2023 - 22:03:05: [SM] Call stack trace:
+L 01/25/2023 - 22:03:05: [SM]   [0] GetClientAbsOrigin
+L 01/25/2023 - 22:03:05: [SM]   [1] Line 76, E:\DownLoading\sourcemod-1.11.0-git6826-windows\addons\sourcemod\scripting\l4d2_scav_fix_nm5.sp::FindMisplacedCans
+L 01/25/2023 - 22:03:05: [SM]   [2] Line 53, E:\DownLoading\sourcemod-1.11.0-git6826-windows\addons\sourcemod\scripting\l4d2_scav_fix_nm5.sp::ScavTimerH
+L 01/25/2023 - 22:03:20: [SM] Exception reported: Client 2 is not in game
+L 01/25/2023 - 22:03:20: [SM] Blaming: optional/l4d2_scav_fix_nm5.smx
+L 01/25/2023 - 22:03:20: [SM] Call stack trace:
+L 01/25/2023 - 22:03:20: [SM]   [0] GetClientAbsOrigin
+L 01/25/2023 - 22:03:20: [SM]   [1] Line 76, E:\DownLoading\sourcemod-1.11.0-git6826-windows\addons\sourcemod\scripting\l4d2_scav_fix_nm5.sp::FindMisplacedCans
+L 01/25/2023 - 22:03:20: [SM]   [2] Line 53, E:\DownLoading\sourcemod-1.11.0-git6826-windows\addons\sourcemod\scripting\l4d2_scav_fix_nm5.sp::ScavTimerH
+L 01/25/2023 - 22:03:35: [SM] Exception reported: Client 2 is not in game
+L 01/25/2023 - 22:03:35: [SM] Blaming: optional/l4d2_scav_fix_nm5.smx
+L 01/25/2023 - 22:03:35: [SM] Call stack trace:
+L 01/25/2023 - 22:03:35: [SM]   [0] GetClientAbsOrigin
+L 01/25/2023 - 22:03:35: [SM]   [1] Line 76, E:\DownLoading\sourcemod-1.11.0-git6826-windows\addons\sourcemod\scripting\l4d2_scav_fix_nm5.sp::FindMisplacedCans
+L 01/25/2023 - 22:03:35: [SM]   [2] Line 53, E:\DownLoading\sourcemod-1.11.0-git6826-windows\addons\sourcemod\scripting\l4d2_scav_fix_nm5.sp::ScavTimerH
+L 01/25/2023 - 22:03:50: [SM] Exception reported: Client 2 is not in game
+L 01/25/2023 - 22:03:50: [SM] Blaming: optional/l4d2_scav_fix_nm5.smx
+L 01/25/2023 - 22:03:50: [SM] Call stack trace:
+L 01/25/2023 - 22:03:50: [SM]   [0] GetClientAbsOrigin
+L 01/25/2023 - 22:03:50: [SM]   [1] Line 76, E:\DownLoading\sourcemod-1.11.0-git6826-windows\addons\sourcemod\scripting\l4d2_scav_fix_nm5.sp::FindMisplacedCans
+L 01/25/2023 - 22:03:50: [SM]   [2] Line 53, E:\DownLoading\sourcemod-1.11.0-git6826-windows\addons\sourcemod\scripting\l4d2_scav_fix_nm5.sp::ScavTimerH
+L 01/25/2023 - 22:04:05: [SM] Exception reported: Client 2 is not in game
+L 01/25/2023 - 22:04:05: [SM] Blaming: optional/l4d2_scav_fix_nm5.smx
+L 01/25/2023 - 22:04:05: [SM] Call stack trace:
+L 01/25/2023 - 22:04:05: [SM]   [0] GetClientAbsOrigin
+L 01/25/2023 - 22:04:05: [SM]   [1] Line 76, E:\DownLoading\sourcemod-1.11.0-git6826-windows\addons\sourcemod\scripting\l4d2_scav_fix_nm5.sp::FindMisplacedCans
+L 01/25/2023 - 22:04:05: [SM]   [2] Line 53, E:\DownLoading\sourcemod-1.11.0-git6826-windows\addons\sourcemod\scripting\l4d2_scav_fix_nm5.sp::ScavTimerH
+L 01/25/2023 - 22:04:20: [SM] Exception reported: Client 2 is not in game
+L 01/25/2023 - 22:04:20: [SM] Blaming: optional/l4d2_scav_fix_nm5.smx
+L 01/25/2023 - 22:04:20: [SM] Call stack trace:
+L 01/25/2023 - 22:04:20: [SM]   [0] GetClientAbsOrigin
+L 01/25/2023 - 22:04:20: [SM]   [1] Line 76, E:\DownLoading\sourcemod-1.11.0-git6826-windows\addons\sourcemod\scripting\l4d2_scav_fix_nm5.sp::FindMisplacedCans
+L 01/25/2023 - 22:04:20: [SM]   [2] Line 53, E:\DownLoading\sourcemod-1.11.0-git6826-windows\addons\sourcemod\scripting\l4d2_scav_fix_nm5.sp::ScavTimerH
+L 01/25/2023 - 22:04:35: [SM] Exception reported: Client 2 is not in game
+L 01/25/2023 - 22:04:35: [SM] Blaming: optional/l4d2_scav_fix_nm5.smx
+L 01/25/2023 - 22:04:35: [SM] Call stack trace:
+L 01/25/2023 - 22:04:35: [SM]   [0] GetClientAbsOrigin
+L 01/25/2023 - 22:04:35: [SM]   [1] Line 76, E:\DownLoading\sourcemod-1.11.0-git6826-windows\addons\sourcemod\scripting\l4d2_scav_fix_nm5.sp::FindMisplacedCans
+L 01/25/2023 - 22:04:35: [SM]   [2] Line 53, E:\DownLoading\sourcemod-1.11.0-git6826-windows\addons\sourcemod\scripting\l4d2_scav_fix_nm5.sp::ScavTimerH
+L 01/25/2023 - 22:04:50: [SM] Exception reported: Client 2 is not in game
+L 01/25/2023 - 22:04:50: [SM] Blaming: optional/l4d2_scav_fix_nm5.smx
+L 01/25/2023 - 22:04:50: [SM] Call stack trace:
+L 01/25/2023 - 22:04:50: [SM]   [0] GetClientAbsOrigin
+L 01/25/2023 - 22:04:50: [SM]   [1] Line 76, E:\DownLoading\sourcemod-1.11.0-git6826-windows\addons\sourcemod\scripting\l4d2_scav_fix_nm5.sp::FindMisplacedCans
+L 01/25/2023 - 22:04:50: [SM]   [2] Line 53, E:\DownLoading\sourcemod-1.11.0-git6826-windows\addons\sourcemod\scripting\l4d2_scav_fix_nm5.sp::ScavTimerH
+L 01/25/2023 - 22:05:05: [SM] Exception reported: Client 2 is not in game
+L 01/25/2023 - 22:05:05: [SM] Blaming: optional/l4d2_scav_fix_nm5.smx
+L 01/25/2023 - 22:05:05: [SM] Call stack trace:
+L 01/25/2023 - 22:05:05: [SM]   [0] GetClientAbsOrigin
+L 01/25/2023 - 22:05:05: [SM]   [1] Line 76, E:\DownLoading\sourcemod-1.11.0-git6826-windows\addons\sourcemod\scripting\l4d2_scav_fix_nm5.sp::FindMisplacedCans
+L 01/25/2023 - 22:05:05: [SM]   [2] Line 53, E:\DownLoading\sourcemod-1.11.0-git6826-windows\addons\sourcemod\scripting\l4d2_scav_fix_nm5.sp::ScavTimerH
+L 01/25/2023 - 22:05:20: [SM] Exception reported: Client 2 is not in game
+L 01/25/2023 - 22:05:20: [SM] Blaming: optional/l4d2_scav_fix_nm5.smx
+L 01/25/2023 - 22:05:20: [SM] Call stack trace:
+L 01/25/2023 - 22:05:20: [SM]   [0] GetClientAbsOrigin
+L 01/25/2023 - 22:05:20: [SM]   [1] Line 76, E:\DownLoading\sourcemod-1.11.0-git6826-windows\addons\sourcemod\scripting\l4d2_scav_fix_nm5.sp::FindMisplacedCans
+L 01/25/2023 - 22:05:20: [SM]   [2] Line 53, E:\DownLoading\sourcemod-1.11.0-git6826-windows\addons\sourcemod\scripting\l4d2_scav_fix_nm5.sp::ScavTimerH
+L 01/25/2023 - 22:05:35: [SM] Exception reported: Client 2 is not in game
+L 01/25/2023 - 22:05:35: [SM] Blaming: optional/l4d2_scav_fix_nm5.smx
+L 01/25/2023 - 22:05:35: [SM] Call stack trace:
+L 01/25/2023 - 22:05:35: [SM]   [0] GetClientAbsOrigin
+L 01/25/2023 - 22:05:35: [SM]   [1] Line 76, E:\DownLoading\sourcemod-1.11.0-git6826-windows\addons\sourcemod\scripting\l4d2_scav_fix_nm5.sp::FindMisplacedCans
+L 01/25/2023 - 22:05:35: [SM]   [2] Line 53, E:\DownLoading\sourcemod-1.11.0-git6826-windows\addons\sourcemod\scripting\l4d2_scav_fix_nm5.sp::ScavTimerH
+L 01/25/2023 - 22:05:50: [SM] Exception reported: Client 2 is not in game
+L 01/25/2023 - 22:05:50: [SM] Blaming: optional/l4d2_scav_fix_nm5.smx
+L 01/25/2023 - 22:05:50: [SM] Call stack trace:
+L 01/25/2023 - 22:05:50: [SM]   [0] GetClientAbsOrigin
+L 01/25/2023 - 22:05:50: [SM]   [1] Line 76, E:\DownLoading\sourcemod-1.11.0-git6826-windows\addons\sourcemod\scripting\l4d2_scav_fix_nm5.sp::FindMisplacedCans
+L 01/25/2023 - 22:05:50: [SM]   [2] Line 53, E:\DownLoading\sourcemod-1.11.0-git6826-windows\addons\sourcemod\scripting\l4d2_scav_fix_nm5.sp::ScavTimerH
+L 01/25/2023 - 22:06:05: [SM] Exception reported: Client 2 is not in game
+L 01/25/2023 - 22:06:05: [SM] Blaming: optional/l4d2_scav_fix_nm5.smx
+L 01/25/2023 - 22:06:05: [SM] Call stack trace:
+L 01/25/2023 - 22:06:05: [SM]   [0] GetClientAbsOrigin
+L 01/25/2023 - 22:06:05: [SM]   [1] Line 76, E:\DownLoading\sourcemod-1.11.0-git6826-windows\addons\sourcemod\scripting\l4d2_scav_fix_nm5.sp::FindMisplacedCans
+L 01/25/2023 - 22:06:05: [SM]   [2] Line 53, E:\DownLoading\sourcemod-1.11.0-git6826-windows\addons\sourcemod\scripting\l4d2_scav_fix_nm5.sp::ScavTimerH
+L 01/25/2023 - 22:06:20: [SM] Exception reported: Client 2 is not in game
+L 01/25/2023 - 22:06:20: [SM] Blaming: optional/l4d2_scav_fix_nm5.smx
+L 01/25/2023 - 22:06:20: [SM] Call stack trace:
+L 01/25/2023 - 22:06:20: [SM]   [0] GetClientAbsOrigin
+L 01/25/2023 - 22:06:20: [SM]   [1] Line 76, E:\DownLoading\sourcemod-1.11.0-git6826-windows\addons\sourcemod\scripting\l4d2_scav_fix_nm5.sp::FindMisplacedCans
+L 01/25/2023 - 22:06:20: [SM]   [2] Line 53, E:\DownLoading\sourcemod-1.11.0-git6826-windows\addons\sourcemod\scripting\l4d2_scav_fix_nm5.sp::ScavTimerH
+L 01/25/2023 - 22:06:35: [SM] Exception reported: Client 2 is not in game
+L 01/25/2023 - 22:06:35: [SM] Blaming: optional/l4d2_scav_fix_nm5.smx
+L 01/25/2023 - 22:06:35: [SM] Call stack trace:
+L 01/25/2023 - 22:06:35: [SM]   [0] GetClientAbsOrigin
+L 01/25/2023 - 22:06:35: [SM]   [1] Line 76, E:\DownLoading\sourcemod-1.11.0-git6826-windows\addons\sourcemod\scripting\l4d2_scav_fix_nm5.sp::FindMisplacedCans
+L 01/25/2023 - 22:06:35: [SM]   [2] Line 53, E:\DownLoading\sourcemod-1.11.0-git6826-windows\addons\sourcemod\scripting\l4d2_scav_fix_nm5.sp::ScavTimerH
+L 01/25/2023 - 22:06:50: [SM] Exception reported: Client 2 is not in game
+L 01/25/2023 - 22:06:50: [SM] Blaming: optional/l4d2_scav_fix_nm5.smx
+L 01/25/2023 - 22:06:50: [SM] Call stack trace:
+L 01/25/2023 - 22:06:50: [SM]   [0] GetClientAbsOrigin
+L 01/25/2023 - 22:06:50: [SM]   [1] Line 76, E:\DownLoading\sourcemod-1.11.0-git6826-windows\addons\sourcemod\scripting\l4d2_scav_fix_nm5.sp::FindMisplacedCans
+L 01/25/2023 - 22:06:50: [SM]   [2] Line 53, E:\DownLoading\sourcemod-1.11.0-git6826-windows\addons\sourcemod\scripting\l4d2_scav_fix_nm5.sp::ScavTimerH
+L 01/25/2023 - 22:07:05: [SM] Exception reported: Client 2 is not in game
+L 01/25/2023 - 22:07:05: [SM] Blaming: optional/l4d2_scav_fix_nm5.smx
+L 01/25/2023 - 22:07:05: [SM] Call stack trace:
+L 01/25/2023 - 22:07:05: [SM]   [0] GetClientAbsOrigin
+L 01/25/2023 - 22:07:05: [SM]   [1] Line 76, E:\DownLoading\sourcemod-1.11.0-git6826-windows\addons\sourcemod\scripting\l4d2_scav_fix_nm5.sp::FindMisplacedCans
+L 01/25/2023 - 22:07:05: [SM]   [2] Line 53, E:\DownLoading\sourcemod-1.11.0-git6826-windows\addons\sourcemod\scripting\l4d2_scav_fix_nm5.sp::ScavTimerH
+L 01/25/2023 - 22:07:20: [SM] Exception reported: Client 2 is not in game
+L 01/25/2023 - 22:07:20: [SM] Blaming: optional/l4d2_scav_fix_nm5.smx
+L 01/25/2023 - 22:07:20: [SM] Call stack trace:
+L 01/25/2023 - 22:07:20: [SM]   [0] GetClientAbsOrigin
+L 01/25/2023 - 22:07:20: [SM]   [1] Line 76, E:\DownLoading\sourcemod-1.11.0-git6826-windows\addons\sourcemod\scripting\l4d2_scav_fix_nm5.sp::FindMisplacedCans
+L 01/25/2023 - 22:07:20: [SM]   [2] Line 53, E:\DownLoading\sourcemod-1.11.0-git6826-windows\addons\sourcemod\scripting\l4d2_scav_fix_nm5.sp::ScavTimerH
+L 01/25/2023 - 22:07:35: [SM] Exception reported: Client 2 is not in game
+L 01/25/2023 - 22:07:35: [SM] Blaming: optional/l4d2_scav_fix_nm5.smx
+L 01/25/2023 - 22:07:35: [SM] Call stack trace:
+L 01/25/2023 - 22:07:35: [SM]   [0] GetClientAbsOrigin
+L 01/25/2023 - 22:07:35: [SM]   [1] Line 76, E:\DownLoading\sourcemod-1.11.0-git6826-windows\addons\sourcemod\scripting\l4d2_scav_fix_nm5.sp::FindMisplacedCans
+L 01/25/2023 - 22:07:35: [SM]   [2] Line 53, E:\DownLoading\sourcemod-1.11.0-git6826-windows\addons\sourcemod\scripting\l4d2_scav_fix_nm5.sp::ScavTimerH
+L 01/25/2023 - 22:07:50: [SM] Exception reported: Client 2 is not in game
+L 01/25/2023 - 22:07:50: [SM] Blaming: optional/l4d2_scav_fix_nm5.smx
+L 01/25/2023 - 22:07:50: [SM] Call stack trace:
+L 01/25/2023 - 22:07:50: [SM]   [0] GetClientAbsOrigin
+L 01/25/2023 - 22:07:50: [SM]   [1] Line 76, E:\DownLoading\sourcemod-1.11.0-git6826-windows\addons\sourcemod\scripting\l4d2_scav_fix_nm5.sp::FindMisplacedCans
+L 01/25/2023 - 22:07:50: [SM]   [2] Line 53, E:\DownLoading\sourcemod-1.11.0-git6826-windows\addons\sourcemod\scripting\l4d2_scav_fix_nm5.sp::ScavTimerH
+L 01/25/2023 - 22:08:05: [SM] Exception reported: Client 2 is not in game
+L 01/25/2023 - 22:08:05: [SM] Blaming: optional/l4d2_scav_fix_nm5.smx
+L 01/25/2023 - 22:08:05: [SM] Call stack trace:
+L 01/25/2023 - 22:08:05: [SM]   [0] GetClientAbsOrigin
+L 01/25/2023 - 22:08:05: [SM]   [1] Line 76, E:\DownLoading\sourcemod-1.11.0-git6826-windows\addons\sourcemod\scripting\l4d2_scav_fix_nm5.sp::FindMisplacedCans
+L 01/25/2023 - 22:08:05: [SM]   [2] Line 53, E:\DownLoading\sourcemod-1.11.0-git6826-windows\addons\sourcemod\scripting\l4d2_scav_fix_nm5.sp::ScavTimerH
+L 01/25/2023 - 22:08:20: [SM] Exception reported: Client 2 is not in game
+L 01/25/2023 - 22:08:20: [SM] Blaming: optional/l4d2_scav_fix_nm5.smx
+L 01/25/2023 - 22:08:20: [SM] Call stack trace:
+L 01/25/2023 - 22:08:20: [SM]   [0] GetClientAbsOrigin
+L 01/25/2023 - 22:08:20: [SM]   [1] Line 76, E:\DownLoading\sourcemod-1.11.0-git6826-windows\addons\sourcemod\scripting\l4d2_scav_fix_nm5.sp::FindMisplacedCans
+L 01/25/2023 - 22:08:20: [SM]   [2] Line 53, E:\DownLoading\sourcemod-1.11.0-git6826-windows\addons\sourcemod\scripting\l4d2_scav_fix_nm5.sp::ScavTimerH
+L 01/25/2023 - 22:08:35: [SM] Exception reported: Client 2 is not in game
+L 01/25/2023 - 22:08:35: [SM] Blaming: optional/l4d2_scav_fix_nm5.smx
+L 01/25/2023 - 22:08:35: [SM] Call stack trace:
+L 01/25/2023 - 22:08:35: [SM]   [0] GetClientAbsOrigin
+L 01/25/2023 - 22:08:35: [SM]   [1] Line 76, E:\DownLoading\sourcemod-1.11.0-git6826-windows\addons\sourcemod\scripting\l4d2_scav_fix_nm5.sp::FindMisplacedCans
+L 01/25/2023 - 22:08:35: [SM]   [2] Line 53, E:\DownLoading\sourcemod-1.11.0-git6826-windows\addons\sourcemod\scripting\l4d2_scav_fix_nm5.sp::ScavTimerH
+L 01/25/2023 - 22:08:50: [SM] Exception reported: Client 2 is not in game
+L 01/25/2023 - 22:08:50: [SM] Blaming: optional/l4d2_scav_fix_nm5.smx
+L 01/25/2023 - 22:08:50: [SM] Call stack trace:
+L 01/25/2023 - 22:08:50: [SM]   [0] GetClientAbsOrigin
+L 01/25/2023 - 22:08:50: [SM]   [1] Line 76, E:\DownLoading\sourcemod-1.11.0-git6826-windows\addons\sourcemod\scripting\l4d2_scav_fix_nm5.sp::FindMisplacedCans
+L 01/25/2023 - 22:08:50: [SM]   [2] Line 53, E:\DownLoading\sourcemod-1.11.0-git6826-windows\addons\sourcemod\scripting\l4d2_scav_fix_nm5.sp::ScavTimerH
+L 01/25/2023 - 22:09:05: [SM] Exception reported: Client 2 is not in game
+L 01/25/2023 - 22:09:05: [SM] Blaming: optional/l4d2_scav_fix_nm5.smx
+L 01/25/2023 - 22:09:05: [SM] Call stack trace:
+L 01/25/2023 - 22:09:05: [SM]   [0] GetClientAbsOrigin
+L 01/25/2023 - 22:09:05: [SM]   [1] Line 76, E:\DownLoading\sourcemod-1.11.0-git6826-windows\addons\sourcemod\scripting\l4d2_scav_fix_nm5.sp::FindMisplacedCans
+L 01/25/2023 - 22:09:05: [SM]   [2] Line 53, E:\DownLoading\sourcemod-1.11.0-git6826-windows\addons\sourcemod\scripting\l4d2_scav_fix_nm5.sp::ScavTimerH
+L 01/25/2023 - 22:09:20: [SM] Exception reported: Client 2 is not in game
+L 01/25/2023 - 22:09:20: [SM] Blaming: optional/l4d2_scav_fix_nm5.smx
+L 01/25/2023 - 22:09:20: [SM] Call stack trace:
+L 01/25/2023 - 22:09:20: [SM]   [0] GetClientAbsOrigin
+L 01/25/2023 - 22:09:20: [SM]   [1] Line 76, E:\DownLoading\sourcemod-1.11.0-git6826-windows\addons\sourcemod\scripting\l4d2_scav_fix_nm5.sp::FindMisplacedCans
+L 01/25/2023 - 22:09:20: [SM]   [2] Line 53, E:\DownLoading\sourcemod-1.11.0-git6826-windows\addons\sourcemod\scripting\l4d2_scav_fix_nm5.sp::ScavTimerH
+L 01/25/2023 - 22:09:35: [SM] Exception reported: Client 2 is not in game
+L 01/25/2023 - 22:09:35: [SM] Blaming: optional/l4d2_scav_fix_nm5.smx
+L 01/25/2023 - 22:09:35: [SM] Call stack trace:
+L 01/25/2023 - 22:09:35: [SM]   [0] GetClientAbsOrigin
+L 01/25/2023 - 22:09:35: [SM]   [1] Line 76, E:\DownLoading\sourcemod-1.11.0-git6826-windows\addons\sourcemod\scripting\l4d2_scav_fix_nm5.sp::FindMisplacedCans
+L 01/25/2023 - 22:09:35: [SM]   [2] Line 53, E:\DownLoading\sourcemod-1.11.0-git6826-windows\addons\sourcemod\scripting\l4d2_scav_fix_nm5.sp::ScavTimerH
+L 01/25/2023 - 22:09:50: [SM] Exception reported: Client 2 is not in game
+L 01/25/2023 - 22:09:50: [SM] Blaming: optional/l4d2_scav_fix_nm5.smx
+L 01/25/2023 - 22:09:50: [SM] Call stack trace:
+L 01/25/2023 - 22:09:50: [SM]   [0] GetClientAbsOrigin
+L 01/25/2023 - 22:09:50: [SM]   [1] Line 76, E:\DownLoading\sourcemod-1.11.0-git6826-windows\addons\sourcemod\scripting\l4d2_scav_fix_nm5.sp::FindMisplacedCans
+L 01/25/2023 - 22:09:50: [SM]   [2] Line 53, E:\DownLoading\sourcemod-1.11.0-git6826-windows\addons\sourcemod\scripting\l4d2_scav_fix_nm5.sp::ScavTimerH
+L 01/25/2023 - 22:10:05: [SM] Exception reported: Client 2 is not in game
+L 01/25/2023 - 22:10:05: [SM] Blaming: optional/l4d2_scav_fix_nm5.smx
+L 01/25/2023 - 22:10:05: [SM] Call stack trace:
+L 01/25/2023 - 22:10:05: [SM]   [0] GetClientAbsOrigin
+L 01/25/2023 - 22:10:05: [SM]   [1] Line 76, E:\DownLoading\sourcemod-1.11.0-git6826-windows\addons\sourcemod\scripting\l4d2_scav_fix_nm5.sp::FindMisplacedCans
+L 01/25/2023 - 22:10:05: [SM]   [2] Line 53, E:\DownLoading\sourcemod-1.11.0-git6826-windows\addons\sourcemod\scripting\l4d2_scav_fix_nm5.sp::ScavTimerH
+L 01/25/2023 - 22:10:20: [SM] Exception reported: Client 2 is not in game
+L 01/25/2023 - 22:10:20: [SM] Blaming: optional/l4d2_scav_fix_nm5.smx
+L 01/25/2023 - 22:10:20: [SM] Call stack trace:
+L 01/25/2023 - 22:10:20: [SM]   [0] GetClientAbsOrigin
+L 01/25/2023 - 22:10:20: [SM]   [1] Line 76, E:\DownLoading\sourcemod-1.11.0-git6826-windows\addons\sourcemod\scripting\l4d2_scav_fix_nm5.sp::FindMisplacedCans
+L 01/25/2023 - 22:10:20: [SM]   [2] Line 53, E:\DownLoading\sourcemod-1.11.0-git6826-windows\addons\sourcemod\scripting\l4d2_scav_fix_nm5.sp::ScavTimerH
+L 01/25/2023 - 22:10:35: [SM] Exception reported: Client 2 is not in game
+L 01/25/2023 - 22:10:35: [SM] Blaming: optional/l4d2_scav_fix_nm5.smx
+L 01/25/2023 - 22:10:35: [SM] Call stack trace:
+L 01/25/2023 - 22:10:35: [SM]   [0] GetClientAbsOrigin
+L 01/25/2023 - 22:10:35: [SM]   [1] Line 76, E:\DownLoading\sourcemod-1.11.0-git6826-windows\addons\sourcemod\scripting\l4d2_scav_fix_nm5.sp::FindMisplacedCans
+L 01/25/2023 - 22:10:35: [SM]   [2] Line 53, E:\DownLoading\sourcemod-1.11.0-git6826-windows\addons\sourcemod\scripting\l4d2_scav_fix_nm5.sp::ScavTimerH
+L 01/25/2023 - 22:10:50: [SM] Exception reported: Client 2 is not in game
+L 01/25/2023 - 22:10:50: [SM] Blaming: optional/l4d2_scav_fix_nm5.smx
+L 01/25/2023 - 22:10:50: [SM] Call stack trace:
+L 01/25/2023 - 22:10:50: [SM]   [0] GetClientAbsOrigin
+L 01/25/2023 - 22:10:50: [SM]   [1] Line 76, E:\DownLoading\sourcemod-1.11.0-git6826-windows\addons\sourcemod\scripting\l4d2_scav_fix_nm5.sp::FindMisplacedCans
+L 01/25/2023 - 22:10:50: [SM]   [2] Line 53, E:\DownLoading\sourcemod-1.11.0-git6826-windows\addons\sourcemod\scripting\l4d2_scav_fix_nm5.sp::ScavTimerH
+L 01/25/2023 - 22:11:05: [SM] Exception reported: Client 2 is not in game
+L 01/25/2023 - 22:11:05: [SM] Blaming: optional/l4d2_scav_fix_nm5.smx
+L 01/25/2023 - 22:11:05: [SM] Call stack trace:
+L 01/25/2023 - 22:11:05: [SM]   [0] GetClientAbsOrigin
+L 01/25/2023 - 22:11:05: [SM]   [1] Line 76, E:\DownLoading\sourcemod-1.11.0-git6826-windows\addons\sourcemod\scripting\l4d2_scav_fix_nm5.sp::FindMisplacedCans
+L 01/25/2023 - 22:11:05: [SM]   [2] Line 53, E:\DownLoading\sourcemod-1.11.0-git6826-windows\addons\sourcemod\scripting\l4d2_scav_fix_nm5.sp::ScavTimerH
+L 01/25/2023 - 22:11:20: [SM] Exception reported: Client 2 is not in game
+L 01/25/2023 - 22:11:20: [SM] Blaming: optional/l4d2_scav_fix_nm5.smx
+L 01/25/2023 - 22:11:20: [SM] Call stack trace:
+L 01/25/2023 - 22:11:20: [SM]   [0] GetClientAbsOrigin
+L 01/25/2023 - 22:11:20: [SM]   [1] Line 76, E:\DownLoading\sourcemod-1.11.0-git6826-windows\addons\sourcemod\scripting\l4d2_scav_fix_nm5.sp::FindMisplacedCans
+L 01/25/2023 - 22:11:20: [SM]   [2] Line 53, E:\DownLoading\sourcemod-1.11.0-git6826-windows\addons\sourcemod\scripting\l4d2_scav_fix_nm5.sp::ScavTimerH
+L 01/25/2023 - 22:11:35: [SM] Exception reported: Client 2 is not in game
+L 01/25/2023 - 22:11:35: [SM] Blaming: optional/l4d2_scav_fix_nm5.smx
+L 01/25/2023 - 22:11:35: [SM] Call stack trace:
+L 01/25/2023 - 22:11:35: [SM]   [0] GetClientAbsOrigin
+L 01/25/2023 - 22:11:35: [SM]   [1] Line 76, E:\DownLoading\sourcemod-1.11.0-git6826-windows\addons\sourcemod\scripting\l4d2_scav_fix_nm5.sp::FindMisplacedCans
+L 01/25/2023 - 22:11:35: [SM]   [2] Line 53, E:\DownLoading\sourcemod-1.11.0-git6826-windows\addons\sourcemod\scripting\l4d2_scav_fix_nm5.sp::ScavTimerH
+L 01/25/2023 - 22:11:50: [SM] Exception reported: Client 2 is not in game
+L 01/25/2023 - 22:11:50: [SM] Blaming: optional/l4d2_scav_fix_nm5.smx
+L 01/25/2023 - 22:11:50: [SM] Call stack trace:
+L 01/25/2023 - 22:11:50: [SM]   [0] GetClientAbsOrigin
+L 01/25/2023 - 22:11:50: [SM]   [1] Line 76, E:\DownLoading\sourcemod-1.11.0-git6826-windows\addons\sourcemod\scripting\l4d2_scav_fix_nm5.sp::FindMisplacedCans
+L 01/25/2023 - 22:11:50: [SM]   [2] Line 53, E:\DownLoading\sourcemod-1.11.0-git6826-windows\addons\sourcemod\scripting\l4d2_scav_fix_nm5.sp::ScavTimerH
+L 01/25/2023 - 22:12:05: [SM] Exception reported: Client 2 is not in game
+L 01/25/2023 - 22:12:05: [SM] Blaming: optional/l4d2_scav_fix_nm5.smx
+L 01/25/2023 - 22:12:05: [SM] Call stack trace:
+L 01/25/2023 - 22:12:05: [SM]   [0] GetClientAbsOrigin
+L 01/25/2023 - 22:12:05: [SM]   [1] Line 76, E:\DownLoading\sourcemod-1.11.0-git6826-windows\addons\sourcemod\scripting\l4d2_scav_fix_nm5.sp::FindMisplacedCans
+L 01/25/2023 - 22:12:05: [SM]   [2] Line 53, E:\DownLoading\sourcemod-1.11.0-git6826-windows\addons\sourcemod\scripting\l4d2_scav_fix_nm5.sp::ScavTimerH
+L 01/25/2023 - 22:12:20: [SM] Exception reported: Client 2 is not in game
+L 01/25/2023 - 22:12:20: [SM] Blaming: optional/l4d2_scav_fix_nm5.smx
+L 01/25/2023 - 22:12:20: [SM] Call stack trace:
+L 01/25/2023 - 22:12:20: [SM]   [0] GetClientAbsOrigin
+L 01/25/2023 - 22:12:20: [SM]   [1] Line 76, E:\DownLoading\sourcemod-1.11.0-git6826-windows\addons\sourcemod\scripting\l4d2_scav_fix_nm5.sp::FindMisplacedCans
+L 01/25/2023 - 22:12:20: [SM]   [2] Line 53, E:\DownLoading\sourcemod-1.11.0-git6826-windows\addons\sourcemod\scripting\l4d2_scav_fix_nm5.sp::ScavTimerH
+L 01/25/2023 - 22:12:35: [SM] Exception reported: Client 2 is not in game
+L 01/25/2023 - 22:12:35: [SM] Blaming: optional/l4d2_scav_fix_nm5.smx
+L 01/25/2023 - 22:12:35: [SM] Call stack trace:
+L 01/25/2023 - 22:12:35: [SM]   [0] GetClientAbsOrigin
+L 01/25/2023 - 22:12:35: [SM]   [1] Line 76, E:\DownLoading\sourcemod-1.11.0-git6826-windows\addons\sourcemod\scripting\l4d2_scav_fix_nm5.sp::FindMisplacedCans
+L 01/25/2023 - 22:12:35: [SM]   [2] Line 53, E:\DownLoading\sourcemod-1.11.0-git6826-windows\addons\sourcemod\scripting\l4d2_scav_fix_nm5.sp::ScavTimerH
+L 01/25/2023 - 22:12:50: [SM] Exception reported: Client 2 is not in game
+L 01/25/2023 - 22:12:50: [SM] Blaming: optional/l4d2_scav_fix_nm5.smx
+L 01/25/2023 - 22:12:50: [SM] Call stack trace:
+L 01/25/2023 - 22:12:50: [SM]   [0] GetClientAbsOrigin
+L 01/25/2023 - 22:12:50: [SM]   [1] Line 76, E:\DownLoading\sourcemod-1.11.0-git6826-windows\addons\sourcemod\scripting\l4d2_scav_fix_nm5.sp::FindMisplacedCans
+L 01/25/2023 - 22:12:50: [SM]   [2] Line 53, E:\DownLoading\sourcemod-1.11.0-git6826-windows\addons\sourcemod\scripting\l4d2_scav_fix_nm5.sp::ScavTimerH
+L 01/25/2023 - 22:13:05: [SM] Exception reported: Client 2 is not in game
+L 01/25/2023 - 22:13:05: [SM] Blaming: optional/l4d2_scav_fix_nm5.smx
+L 01/25/2023 - 22:13:05: [SM] Call stack trace:
+L 01/25/2023 - 22:13:05: [SM]   [0] GetClientAbsOrigin
+L 01/25/2023 - 22:13:05: [SM]   [1] Line 76, E:\DownLoading\sourcemod-1.11.0-git6826-windows\addons\sourcemod\scripting\l4d2_scav_fix_nm5.sp::FindMisplacedCans
+L 01/25/2023 - 22:13:05: [SM]   [2] Line 53, E:\DownLoading\sourcemod-1.11.0-git6826-windows\addons\sourcemod\scripting\l4d2_scav_fix_nm5.sp::ScavTimerH
+L 01/25/2023 - 22:13:20: [SM] Exception reported: Client 2 is not in game
+L 01/25/2023 - 22:13:20: [SM] Blaming: optional/l4d2_scav_fix_nm5.smx
+L 01/25/2023 - 22:13:20: [SM] Call stack trace:
+L 01/25/2023 - 22:13:20: [SM]   [0] GetClientAbsOrigin
+L 01/25/2023 - 22:13:20: [SM]   [1] Line 76, E:\DownLoading\sourcemod-1.11.0-git6826-windows\addons\sourcemod\scripting\l4d2_scav_fix_nm5.sp::FindMisplacedCans
+L 01/25/2023 - 22:13:20: [SM]   [2] Line 53, E:\DownLoading\sourcemod-1.11.0-git6826-windows\addons\sourcemod\scripting\l4d2_scav_fix_nm5.sp::ScavTimerH
+L 01/25/2023 - 22:13:35: [SM] Exception reported: Client 2 is not in game
+L 01/25/2023 - 22:13:35: [SM] Blaming: optional/l4d2_scav_fix_nm5.smx
+L 01/25/2023 - 22:13:35: [SM] Call stack trace:
+L 01/25/2023 - 22:13:35: [SM]   [0] GetClientAbsOrigin
+L 01/25/2023 - 22:13:35: [SM]   [1] Line 76, E:\DownLoading\sourcemod-1.11.0-git6826-windows\addons\sourcemod\scripting\l4d2_scav_fix_nm5.sp::FindMisplacedCans
+L 01/25/2023 - 22:13:35: [SM]   [2] Line 53, E:\DownLoading\sourcemod-1.11.0-git6826-windows\addons\sourcemod\scripting\l4d2_scav_fix_nm5.sp::ScavTimerH
+L 01/25/2023 - 22:13:50: [SM] Exception reported: Client 2 is not in game
+L 01/25/2023 - 22:13:50: [SM] Blaming: optional/l4d2_scav_fix_nm5.smx
+L 01/25/2023 - 22:13:50: [SM] Call stack trace:
+L 01/25/2023 - 22:13:50: [SM]   [0] GetClientAbsOrigin
+L 01/25/2023 - 22:13:50: [SM]   [1] Line 76, E:\DownLoading\sourcemod-1.11.0-git6826-windows\addons\sourcemod\scripting\l4d2_scav_fix_nm5.sp::FindMisplacedCans
+L 01/25/2023 - 22:13:50: [SM]   [2] Line 53, E:\DownLoading\sourcemod-1.11.0-git6826-windows\addons\sourcemod\scripting\l4d2_scav_fix_nm5.sp::ScavTimerH
+L 01/25/2023 - 22:14:05: [SM] Exception reported: Client 2 is not in game
+L 01/25/2023 - 22:14:05: [SM] Blaming: optional/l4d2_scav_fix_nm5.smx
+L 01/25/2023 - 22:14:05: [SM] Call stack trace:
+L 01/25/2023 - 22:14:05: [SM]   [0] GetClientAbsOrigin
+L 01/25/2023 - 22:14:05: [SM]   [1] Line 76, E:\DownLoading\sourcemod-1.11.0-git6826-windows\addons\sourcemod\scripting\l4d2_scav_fix_nm5.sp::FindMisplacedCans
+L 01/25/2023 - 22:14:05: [SM]   [2] Line 53, E:\DownLoading\sourcemod-1.11.0-git6826-windows\addons\sourcemod\scripting\l4d2_scav_fix_nm5.sp::ScavTimerH
+L 01/25/2023 - 22:14:20: [SM] Exception reported: Client 2 is not in game
+L 01/25/2023 - 22:14:20: [SM] Blaming: optional/l4d2_scav_fix_nm5.smx
+L 01/25/2023 - 22:14:20: [SM] Call stack trace:
+L 01/25/2023 - 22:14:20: [SM]   [0] GetClientAbsOrigin
+L 01/25/2023 - 22:14:20: [SM]   [1] Line 76, E:\DownLoading\sourcemod-1.11.0-git6826-windows\addons\sourcemod\scripting\l4d2_scav_fix_nm5.sp::FindMisplacedCans
+L 01/25/2023 - 22:14:20: [SM]   [2] Line 53, E:\DownLoading\sourcemod-1.11.0-git6826-windows\addons\sourcemod\scripting\l4d2_scav_fix_nm5.sp::ScavTimerH
+L 01/25/2023 - 22:14:35: [SM] Exception reported: Client 2 is not in game
+L 01/25/2023 - 22:14:35: [SM] Blaming: optional/l4d2_scav_fix_nm5.smx
+L 01/25/2023 - 22:14:35: [SM] Call stack trace:
+L 01/25/2023 - 22:14:35: [SM]   [0] GetClientAbsOrigin
+L 01/25/2023 - 22:14:35: [SM]   [1] Line 76, E:\DownLoading\sourcemod-1.11.0-git6826-windows\addons\sourcemod\scripting\l4d2_scav_fix_nm5.sp::FindMisplacedCans
+L 01/25/2023 - 22:14:35: [SM]   [2] Line 53, E:\DownLoading\sourcemod-1.11.0-git6826-windows\addons\sourcemod\scripting\l4d2_scav_fix_nm5.sp::ScavTimerH
+L 01/25/2023 - 22:14:50: [SM] Exception reported: Client 2 is not in game
+L 01/25/2023 - 22:14:50: [SM] Blaming: optional/l4d2_scav_fix_nm5.smx
+L 01/25/2023 - 22:14:50: [SM] Call stack trace:
+L 01/25/2023 - 22:14:50: [SM]   [0] GetClientAbsOrigin
+L 01/25/2023 - 22:14:50: [SM]   [1] Line 76, E:\DownLoading\sourcemod-1.11.0-git6826-windows\addons\sourcemod\scripting\l4d2_scav_fix_nm5.sp::FindMisplacedCans
+L 01/25/2023 - 22:14:50: [SM]   [2] Line 53, E:\DownLoading\sourcemod-1.11.0-git6826-windows\addons\sourcemod\scripting\l4d2_scav_fix_nm5.sp::ScavTimerH
+L 01/25/2023 - 22:15:05: [SM] Exception reported: Client 2 is not in game
+L 01/25/2023 - 22:15:05: [SM] Blaming: optional/l4d2_scav_fix_nm5.smx
+L 01/25/2023 - 22:15:05: [SM] Call stack trace:
+L 01/25/2023 - 22:15:05: [SM]   [0] GetClientAbsOrigin
+L 01/25/2023 - 22:15:05: [SM]   [1] Line 76, E:\DownLoading\sourcemod-1.11.0-git6826-windows\addons\sourcemod\scripting\l4d2_scav_fix_nm5.sp::FindMisplacedCans
+L 01/25/2023 - 22:15:05: [SM]   [2] Line 53, E:\DownLoading\sourcemod-1.11.0-git6826-windows\addons\sourcemod\scripting\l4d2_scav_fix_nm5.sp::ScavTimerH
+L 01/25/2023 - 22:15:20: [SM] Exception reported: Client 2 is not in game
+L 01/25/2023 - 22:15:20: [SM] Blaming: optional/l4d2_scav_fix_nm5.smx
+L 01/25/2023 - 22:15:20: [SM] Call stack trace:
+L 01/25/2023 - 22:15:20: [SM]   [0] GetClientAbsOrigin
+L 01/25/2023 - 22:15:20: [SM]   [1] Line 76, E:\DownLoading\sourcemod-1.11.0-git6826-windows\addons\sourcemod\scripting\l4d2_scav_fix_nm5.sp::FindMisplacedCans
+L 01/25/2023 - 22:15:20: [SM]   [2] Line 53, E:\DownLoading\sourcemod-1.11.0-git6826-windows\addons\sourcemod\scripting\l4d2_scav_fix_nm5.sp::ScavTimerH
+L 01/25/2023 - 22:15:35: [SM] Exception reported: Client 2 is not in game
+L 01/25/2023 - 22:15:35: [SM] Blaming: optional/l4d2_scav_fix_nm5.smx
+L 01/25/2023 - 22:15:35: [SM] Call stack trace:
+L 01/25/2023 - 22:15:35: [SM]   [0] GetClientAbsOrigin
+L 01/25/2023 - 22:15:35: [SM]   [1] Line 76, E:\DownLoading\sourcemod-1.11.0-git6826-windows\addons\sourcemod\scripting\l4d2_scav_fix_nm5.sp::FindMisplacedCans
+L 01/25/2023 - 22:15:35: [SM]   [2] Line 53, E:\DownLoading\sourcemod-1.11.0-git6826-windows\addons\sourcemod\scripting\l4d2_scav_fix_nm5.sp::ScavTimerH
+L 01/25/2023 - 22:15:50: [SM] Exception reported: Client 2 is not in game
+L 01/25/2023 - 22:15:50: [SM] Blaming: optional/l4d2_scav_fix_nm5.smx
+L 01/25/2023 - 22:15:50: [SM] Call stack trace:
+L 01/25/2023 - 22:15:50: [SM]   [0] GetClientAbsOrigin
+L 01/25/2023 - 22:15:50: [SM]   [1] Line 76, E:\DownLoading\sourcemod-1.11.0-git6826-windows\addons\sourcemod\scripting\l4d2_scav_fix_nm5.sp::FindMisplacedCans
+L 01/25/2023 - 22:15:50: [SM]   [2] Line 53, E:\DownLoading\sourcemod-1.11.0-git6826-windows\addons\sourcemod\scripting\l4d2_scav_fix_nm5.sp::ScavTimerH
+L 01/25/2023 - 22:16:05: [SM] Exception reported: Client 2 is not in game
+L 01/25/2023 - 22:16:05: [SM] Blaming: optional/l4d2_scav_fix_nm5.smx
+L 01/25/2023 - 22:16:05: [SM] Call stack trace:
+L 01/25/2023 - 22:16:05: [SM]   [0] GetClientAbsOrigin
+L 01/25/2023 - 22:16:05: [SM]   [1] Line 76, E:\DownLoading\sourcemod-1.11.0-git6826-windows\addons\sourcemod\scripting\l4d2_scav_fix_nm5.sp::FindMisplacedCans
+L 01/25/2023 - 22:16:05: [SM]   [2] Line 53, E:\DownLoading\sourcemod-1.11.0-git6826-windows\addons\sourcemod\scripting\l4d2_scav_fix_nm5.sp::ScavTimerH
+L 01/25/2023 - 22:16:20: [SM] Exception reported: Client 2 is not in game
+L 01/25/2023 - 22:16:20: [SM] Blaming: optional/l4d2_scav_fix_nm5.smx
+L 01/25/2023 - 22:16:20: [SM] Call stack trace:
+L 01/25/2023 - 22:16:20: [SM]   [0] GetClientAbsOrigin
+L 01/25/2023 - 22:16:20: [SM]   [1] Line 76, E:\DownLoading\sourcemod-1.11.0-git6826-windows\addons\sourcemod\scripting\l4d2_scav_fix_nm5.sp::FindMisplacedCans
+L 01/25/2023 - 22:16:20: [SM]   [2] Line 53, E:\DownLoading\sourcemod-1.11.0-git6826-windows\addons\sourcemod\scripting\l4d2_scav_fix_nm5.sp::ScavTimerH
+L 01/25/2023 - 22:16:35: [SM] Exception reported: Client 1 is not in game
+L 01/25/2023 - 22:16:35: [SM] Blaming: optional/l4d2_scav_fix_nm5.smx
+L 01/25/2023 - 22:16:35: [SM] Call stack trace:
+L 01/25/2023 - 22:16:35: [SM]   [0] GetClientAbsOrigin
+L 01/25/2023 - 22:16:35: [SM]   [1] Line 76, E:\DownLoading\sourcemod-1.11.0-git6826-windows\addons\sourcemod\scripting\l4d2_scav_fix_nm5.sp::FindMisplacedCans
+L 01/25/2023 - 22:16:35: [SM]   [2] Line 53, E:\DownLoading\sourcemod-1.11.0-git6826-windows\addons\sourcemod\scripting\l4d2_scav_fix_nm5.sp::ScavTimerH
+L 01/25/2023 - 22:16:48: SourceMod error session started
+L 01/25/2023 - 22:16:48: Info (map "c2m1_highway") (file "/root/Steam/steamapps/common/Left 4 Dead 2 Dedicated Server/left4dead2/addons/sourcemod/logs/errors_20230125.log")
+L 01/25/2023 - 22:16:48: [SM] Unable to load plugin "Welcome.smx": Could not find required plugin "l4d2_playtime_interface"
+L 01/25/2023 - 22:16:48: [SM] Unable to load plugin "l4d_fyzb_en_v20.smx": Could not find required plugin "readyup"
+L 01/26/2023 - 05:58:52: Error log file session closed.

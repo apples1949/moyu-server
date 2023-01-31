@@ -1,0 +1,869 @@
+--=================================================================--
+[31/01/2023 09:22:46] --- 地图开始: c2m1_highway ---
+--=================================================================--
+[09:23:03] [CN] 知足常乐<2><STEAM_1:0:182922075><> 加入游戏 (223.74.0.220)
+[09:23:03] [Unassigned] 知足常乐: vmodenable 1
+[09:23:07] [Survivor] 知足常乐: unpause 
+[09:23:08] [CN] tp223344<3><STEAM_1:0:586570414><> 加入游戏 (116.7.159.220)
+[09:23:08] [Unassigned] tp223344: vmodenable 1
+[09:23:08] [Unassigned] tp223344: vban 0
+[09:23:10] [Unassigned] tp223344: unpause 
+[09:23:20] [Survivor] tp223344: vocalize smartlook auto
+[09:23:21] [Survivor] tp223344: menuselect 1
+[09:23:25] [Survivor] tp223344: setpause 
+[09:23:26] tp223344<3><STEAM_1:0:586570414><> 离开游戏 (reason: Disconnect by user.)
+[09:23:29] [Survivor] 知足常乐: say !vote
+[09:23:29] [Survivor] 知足常乐: sm_vote 
+[09:23:32] [Survivor] 知足常乐: vocalize smartlook auto
+[09:23:35] [Survivor] 知足常乐: menuselect 3
+[09:23:35] [Survivor] 知足常乐: vote Yes
+[09:23:35] [Survivor] 知足常乐: menuselect 2
+--=================================================================--
+[31/01/2023 09:23:37] --- 地图开始: c2m1_highway ---
+--=================================================================--
+--=================================================================--
+[31/01/2023 09:23:40] --- 地图结束: c2m1_highway ---
+--=================================================================--
+--=================================================================--
+[31/01/2023 09:23:42] --- 回合开始: c2m1_highway ---
+--=================================================================--
+--=================================================================--
+[31/01/2023 09:23:42] --- 地图开始: c2m1_highway ---
+--=================================================================--
+[09:23:55] [CN] 知足常乐<2><STEAM_1:0:182922075><> 加入游戏 (223.74.0.220)
+[09:23:55] [Unassigned] 知足常乐: vmodenable 1
+[09:23:55] [Unassigned] 知足常乐: vban 0
+[09:23:56] [Unassigned] 知足常乐: unpause 
+[09:23:59] [Survivor] 知足常乐: +s3 
+[09:23:59] [Survivor] 知足常乐: x0 
+[09:24:01] [Survivor] 知足常乐: say !vote
+[09:24:01] [Survivor] 知足常乐: sm_vote 
+[09:24:02] [Survivor] 知足常乐: menuselect 3
+[09:24:02] [Survivor] 知足常乐: vote Yes
+[09:24:02] [Survivor] 知足常乐: menuselect 1
+[09:24:04] [Survivor] 知足常乐: say !vote
+[09:24:04] [Survivor] 知足常乐: sm_vote 
+[09:24:06] [Survivor] 知足常乐: menuselect 5
+[09:24:07] [Survivor] 知足常乐: vote Yes
+[09:24:07] [Survivor] 知足常乐: menuselect 1
+[09:24:14] [Survivor] 知足常乐: say !vote
+[09:24:14] [Survivor] 知足常乐: sm_vote 
+[09:24:20] [CN] Envied<8><STEAM_1:1:160085584><> 加入游戏 (61.136.115.243)
+[09:24:21] [Unassigned] Envied: vmodenable 1
+[09:24:21] [Unassigned] Envied: vban 0
+[09:24:23] [Survivor] 知足常乐: menuselect 6
+[09:24:24] [Survivor] 知足常乐: vote Yes
+[09:24:24] [Survivor] 知足常乐: menuselect 1
+[09:24:24] [Unassigned] Envied: unpause 
+[09:24:29] [Spectator] Envied: setpause 
+[09:24:30] Envied<8><STEAM_1:1:160085584><> 离开游戏 (reason: Disconnect by user.)
+[09:24:48] [Survivor] 知足常乐: nb_assault 
+[09:24:48] [Survivor] 知足常乐: nb_assault 
+[09:24:48] [Survivor] 知足常乐: give pain_pills
+[09:24:48] [Survivor] 知足常乐: give health
+[09:24:48] [Survivor] 知足常乐: give machete
+[09:24:51] [Survivor] 知足常乐: nb_assault 
+[09:24:54] [Survivor] 知足常乐: nb_assault 
+[09:24:59] [Survivor] 知足常乐: nb_assault 
+[09:25:02] [Survivor] 知足常乐: nb_assault 
+[09:25:04] [Survivor] 知足常乐: nb_assault 
+[09:25:09] [Survivor] 知足常乐: nb_assault 
+[09:25:15] [Survivor] 知足常乐: nb_assault 
+[09:25:23] [Survivor] 知足常乐: nb_assault 
+[09:25:26] [Survivor] 知足常乐: nb_assault 
+[09:25:30] [Survivor] 知足常乐: nb_assault 
+[09:25:32] [Survivor] 知足常乐: nb_assault 
+[09:25:34] [Survivor] 知足常乐: nb_assault 
+[09:25:36] [Survivor] 知足常乐: nb_assault 
+[09:25:37] [Survivor] 知足常乐: nb_assault 
+[09:25:41] [Survivor] 知足常乐: nb_assault 
+[09:25:45] [Survivor] 知足常乐: nb_assault 
+[09:25:53] [Survivor] 知足常乐: nb_assault 
+[09:25:57] [Survivor] 知足常乐: nb_assault 
+[09:26:01] [Survivor] 知足常乐: nb_assault 
+[09:26:05] [Survivor] 知足常乐: nb_assault 
+[09:26:06] [Survivor] 知足常乐: nb_assault 
+[09:26:07] [Survivor] 知足常乐: nb_assault 
+[09:26:12] [Survivor] 知足常乐: nb_assault 
+[09:26:15] [Survivor] 知足常乐: nb_assault 
+[09:26:21] [Survivor] 知足常乐: nb_assault 
+[09:26:25] [Survivor] 知足常乐: nb_assault 
+[09:26:28] [Survivor] 知足常乐: nb_assault 
+[09:26:31] [Survivor] 知足常乐: nb_assault 
+[09:26:34] [Survivor] 知足常乐: nb_assault 
+[09:26:35] [Survivor] 知足常乐: nb_assault 
+[09:26:41] [Survivor] 知足常乐: nb_assault 
+[09:26:44] [Survivor] 知足常乐: nb_assault 
+[09:26:51] [Survivor] 知足常乐: nb_assault 
+[09:26:54] [Survivor] 知足常乐: nb_assault 
+[09:26:56] [Survivor] 知足常乐: nb_assault 
+[09:27:05] [Survivor] 知足常乐: nb_assault 
+--=================================================================--
+[31/01/2023 09:27:11] --- 回合结束: c2m1_highway ---
+--=================================================================--
+--=================================================================--
+[31/01/2023 09:27:13] --- 回合结束: c2m1_highway ---
+--=================================================================--
+--=================================================================--
+[31/01/2023 09:27:14] --- 回合开始: c2m1_highway ---
+--=================================================================--
+[09:27:21] [Survivor] 知足常乐: nb_assault 
+[09:27:22] [Survivor] 知足常乐: nb_assault 
+[09:27:22] [Survivor] 知足常乐: give pain_pills
+[09:27:22] [Survivor] 知足常乐: give health
+[09:27:22] [Survivor] 知足常乐: give machete
+[09:27:28] [Survivor] 知足常乐: nb_assault 
+[09:27:30] [Survivor] 知足常乐: nb_assault 
+[09:27:36] [Survivor] 知足常乐: nb_assault 
+[09:27:38] [Survivor] 知足常乐: nb_assault 
+[09:27:42] [Survivor] 知足常乐: nb_assault 
+[09:27:45] [Survivor] 知足常乐: nb_assault 
+[09:27:49] [Survivor] 知足常乐: nb_assault 
+[09:27:54] [Survivor] 知足常乐: nb_assault 
+[09:27:57] [Survivor] 知足常乐: nb_assault 
+[09:28:01] [Survivor] 知足常乐: nb_assault 
+[09:28:06] [Survivor] 知足常乐: nb_assault 
+[09:28:15] [Survivor] 知足常乐: nb_assault 
+[09:28:21] [Survivor] 知足常乐: nb_assault 
+[09:28:28] [Survivor] 知足常乐: nb_assault 
+[09:28:30] [Survivor] 知足常乐: nb_assault 
+[09:28:32] [Survivor] 知足常乐: nb_assault 
+[09:28:35] [Survivor] 知足常乐: nb_assault 
+[09:28:40] [Survivor] 知足常乐: nb_assault 
+[09:28:44] [Survivor] 知足常乐: nb_assault 
+[09:28:46] [Survivor] 知足常乐: nb_assault 
+[09:28:51] [Survivor] 知足常乐: nb_assault 
+[09:28:54] [Survivor] 知足常乐: nb_assault 
+[09:28:59] [Survivor] 知足常乐: nb_assault 
+[09:29:06] [Survivor] 知足常乐: nb_assault 
+[09:29:08] [HK] Envied<79><STEAM_1:1:160085584><> 加入游戏 (202.181.155.169)
+[09:29:08] [Survivor] 知足常乐: nb_assault 
+[09:29:08] [Unassigned] Envied: vmodenable 1
+[09:29:08] [Unassigned] Envied: vban 0
+[09:29:10] [Survivor] 知足常乐: nb_assault 
+[09:29:12] [Unassigned] Envied: unpause 
+[09:29:13] [Survivor] 知足常乐: nb_assault 
+[09:29:15] [Spectator] Envied: setpause 
+[09:29:16] [Survivor] 知足常乐: nb_assault 
+[09:29:17] [Survivor] 知足常乐: nb_assault 
+[09:29:17] Envied<79><STEAM_1:1:160085584><> 离开游戏 (reason: Disconnect by user.)
+--=================================================================--
+[31/01/2023 09:29:20] --- 回合结束: c2m1_highway ---
+--=================================================================--
+--=================================================================--
+[31/01/2023 09:29:22] --- 回合结束: c2m1_highway ---
+--=================================================================--
+--=================================================================--
+[31/01/2023 09:29:23] --- 回合开始: c2m1_highway ---
+--=================================================================--
+[09:29:48] [Survivor] 知足常乐: nb_assault 
+[09:29:48] [Survivor] 知足常乐: nb_assault 
+[09:29:48] [Survivor] 知足常乐: give pain_pills
+[09:29:48] [Survivor] 知足常乐: give health
+[09:29:48] [Survivor] 知足常乐: give machete
+[09:30:01] [Survivor] 知足常乐: nb_assault 
+[09:30:04] [Survivor] 知足常乐: nb_assault 
+[09:30:06] [Survivor] 知足常乐: nb_assault 
+[09:30:08] [Survivor] 知足常乐: nb_assault 
+[09:30:09] [Survivor] 知足常乐: nb_assault 
+[09:30:15] [Survivor] 知足常乐: nb_assault 
+[09:30:18] [Survivor] 知足常乐: nb_assault 
+[09:30:22] [Survivor] 知足常乐: nb_assault 
+[09:30:25] [Survivor] 知足常乐: nb_assault 
+[09:30:31] [Survivor] 知足常乐: nb_assault 
+[09:30:35] [Survivor] 知足常乐: nb_assault 
+[09:30:41] [Survivor] 知足常乐: nb_assault 
+[09:30:47] [Survivor] 知足常乐: nb_assault 
+[09:30:51] [Survivor] 知足常乐: nb_assault 
+[09:30:54] [Survivor] 知足常乐: nb_assault 
+[09:30:59] [Survivor] 知足常乐: nb_assault 
+[09:31:01] [Survivor] 知足常乐: nb_assault 
+[09:31:12] [Survivor] 知足常乐: nb_assault 
+[09:31:15] [Survivor] 知足常乐: nb_assault 
+[09:31:18] [Survivor] 知足常乐: nb_assault 
+[09:31:22] [Survivor] 知足常乐: nb_assault 
+[09:31:23] [Survivor] 知足常乐: nb_assault 
+[09:31:27] [Survivor] 知足常乐: nb_assault 
+[09:31:32] [Survivor] 知足常乐: nb_assault 
+[09:31:34] [Survivor] 知足常乐: nb_assault 
+--=================================================================--
+[31/01/2023 09:31:38] --- 回合结束: c2m1_highway ---
+--=================================================================--
+--=================================================================--
+[31/01/2023 09:31:40] --- 回合结束: c2m1_highway ---
+--=================================================================--
+--=================================================================--
+[31/01/2023 09:31:41] --- 回合开始: c2m1_highway ---
+--=================================================================--
+[09:31:48] [Survivor] 知足常乐: nb_assault 
+[09:31:48] [Survivor] 知足常乐: nb_assault 
+[09:31:49] [Survivor] 知足常乐: give pain_pills
+[09:31:49] [Survivor] 知足常乐: give health
+[09:31:49] [Survivor] 知足常乐: give machete
+[09:31:54] [Survivor] 知足常乐: nb_assault 
+[09:31:57] [Survivor] 知足常乐: nb_assault 
+[09:31:59] [Survivor] 知足常乐: nb_assault 
+[09:32:01] [Survivor] 知足常乐: nb_assault 
+[09:32:02] [Survivor] 知足常乐: nb_assault 
+[09:32:06] [Survivor] 知足常乐: nb_assault 
+[09:32:09] [Survivor] 知足常乐: nb_assault 
+[09:32:13] [Survivor] 知足常乐: nb_assault 
+[09:32:17] [Survivor] 知足常乐: nb_assault 
+[09:32:21] [Survivor] 知足常乐: nb_assault 
+[09:32:24] [Survivor] 知足常乐: nb_assault 
+[09:32:26] [Survivor] 知足常乐: nb_assault 
+[09:32:31] [Survivor] 知足常乐: nb_assault 
+[09:32:38] [Survivor] 知足常乐: nb_assault 
+[09:32:40] [Survivor] 知足常乐: nb_assault 
+[09:32:45] [Survivor] 知足常乐: nb_assault 
+[09:32:48] [Survivor] 知足常乐: nb_assault 
+[09:32:54] [Survivor] 知足常乐: nb_assault 
+[09:33:04] [Survivor] 知足常乐: nb_assault 
+[09:33:08] [Survivor] 知足常乐: nb_assault 
+[09:33:12] [Survivor] 知足常乐: nb_assault 
+[09:33:18] [Survivor] 知足常乐: nb_assault 
+[09:33:18] [Survivor] 知足常乐: nb_assault 
+[09:33:27] [Survivor] 知足常乐: nb_assault 
+[09:33:33] [Survivor] 知足常乐: nb_assault 
+[09:33:40] [Survivor] 知足常乐: nb_assault 
+[09:33:43] [Survivor] 知足常乐: nb_assault 
+[09:33:44] [Survivor] 知足常乐: nb_assault 
+[09:33:48] [Survivor] 知足常乐: nb_assault 
+[09:33:50] [Survivor] 知足常乐: nb_assault 
+[09:33:53] [Survivor] 知足常乐: nb_assault 
+[09:33:56] [Survivor] 知足常乐: nb_assault 
+[09:33:57] [Survivor] 知足常乐: nb_assault 
+--=================================================================--
+[31/01/2023 09:34:01] --- 回合结束: c2m1_highway ---
+--=================================================================--
+--=================================================================--
+[31/01/2023 09:34:03] --- 回合结束: c2m1_highway ---
+--=================================================================--
+--=================================================================--
+[31/01/2023 09:34:05] --- 回合开始: c2m1_highway ---
+--=================================================================--
+[09:34:11] [Survivor] 知足常乐: nb_assault 
+[09:34:11] [Survivor] 知足常乐: nb_assault 
+[09:34:12] [Survivor] 知足常乐: give pain_pills
+[09:34:12] [Survivor] 知足常乐: give health
+[09:34:12] [Survivor] 知足常乐: give machete
+[09:34:17] [CN] alone7<167><STEAM_1:0:716349132><> 加入游戏 (129.211.209.172)
+[09:34:17] [Unassigned] alone7: vmodenable 1
+[09:34:17] [Unassigned] alone7: vban 0
+[09:34:18] [Unassigned] alone7: unpause 
+[09:34:22] [Spectator] alone7: spec_next 
+[09:34:22] [Survivor] 知足常乐: nb_assault 
+[09:34:23] [Spectator] alone7: spec_next 
+[09:34:24] [Spectator] alone7: spec_next 
+[09:34:26] [Survivor] 知足常乐: nb_assault 
+[09:34:27] [Spectator] alone7: spec_next 
+[09:34:29] [CN] 不妥<166><STEAM_1:0:692304246><> 加入游戏 (211.156.92.138)
+[09:34:29] [Unassigned] 不妥: vmodenable 1
+[09:34:30] [Survivor] 知足常乐: nb_assault 
+[09:34:32] [Unassigned] 不妥: unpause 
+[09:34:33] [Spectator] alone7: spec_next 
+[09:34:35] [Survivor] 知足常乐: nb_assault 
+[09:34:37] [Spectator] 不妥: spec_next 
+[09:34:38] [Spectator] 不妥: spec_next 
+[09:34:38] [Survivor] 知足常乐: nb_assault 
+[09:34:39] [Spectator] alone7: setpause 
+[09:34:39] [Spectator] 不妥: spec_next 
+[09:34:39] [Survivor] 知足常乐: nb_assault 
+[09:34:40] alone7<167><STEAM_1:0:716349132><> 离开游戏 (reason: Disconnect by user.)
+[09:34:40] [Spectator] 不妥: spec_next 
+[09:34:41] [Survivor] 知足常乐: nb_assault 
+[09:34:41] [Spectator] 不妥: spec_next 
+[09:34:42] [Spectator] 不妥: spec_next 
+[09:34:43] [Spectator] 不妥: spec_next 
+[09:34:45] [Survivor] 知足常乐: nb_assault 
+[09:34:45] [Spectator] 不妥: setpause 
+[09:34:48] 不妥<166><STEAM_1:0:692304246><> 离开游戏 (reason: Disconnect by user.)
+[09:34:50] [Survivor] 知足常乐: nb_assault 
+[09:34:57] [Survivor] 知足常乐: nb_assault 
+[09:34:58] [Survivor] 知足常乐: nb_assault 
+[09:35:01] [Survivor] 知足常乐: nb_assault 
+[09:35:03] [Survivor] 知足常乐: nb_assault 
+[09:35:06] [Survivor] 知足常乐: nb_assault 
+[09:35:13] [Survivor] 知足常乐: nb_assault 
+[09:35:16] [Survivor] 知足常乐: nb_assault 
+[09:35:22] [Survivor] 知足常乐: nb_assault 
+[09:35:25] [Survivor] 知足常乐: nb_assault 
+[09:35:28] [Survivor] 知足常乐: nb_assault 
+[09:35:31] [Survivor] 知足常乐: nb_assault 
+[09:35:37] [Survivor] 知足常乐: nb_assault 
+[09:35:42] [Survivor] 知足常乐: nb_assault 
+[09:35:47] [Survivor] 知足常乐: nb_assault 
+[09:35:53] [Survivor] 知足常乐: nb_assault 
+[09:35:57] [Survivor] 知足常乐: nb_assault 
+[09:36:00] [Survivor] 知足常乐: nb_assault 
+[09:36:04] [Survivor] 知足常乐: nb_assault 
+[09:36:06] [Survivor] 知足常乐: nb_assault 
+[09:36:11] [Survivor] 知足常乐: nb_assault 
+[09:36:15] [Survivor] 知足常乐: nb_assault 
+[09:36:18] [Survivor] 知足常乐: nb_assault 
+[09:36:20] [Survivor] 知足常乐: nb_assault 
+[09:36:25] [Survivor] 知足常乐: nb_assault 
+[09:36:30] [Survivor] 知足常乐: nb_assault 
+--=================================================================--
+[31/01/2023 09:36:34] --- 回合结束: c2m1_highway ---
+--=================================================================--
+--=================================================================--
+[31/01/2023 09:36:36] --- 回合结束: c2m1_highway ---
+--=================================================================--
+--=================================================================--
+[31/01/2023 09:36:37] --- 回合开始: c2m1_highway ---
+--=================================================================--
+[09:36:44] [Survivor] 知足常乐: nb_assault 
+[09:36:44] [Survivor] 知足常乐: nb_assault 
+[09:36:44] [Survivor] 知足常乐: give pain_pills
+[09:36:44] [Survivor] 知足常乐: give health
+[09:36:44] [Survivor] 知足常乐: give machete
+[09:36:51] [Survivor] 知足常乐: nb_assault 
+[09:36:53] [Survivor] 知足常乐: nb_assault 
+[09:36:56] [Survivor] 知足常乐: nb_assault 
+[09:36:59] [Survivor] 知足常乐: nb_assault 
+[09:37:03] [Survivor] 知足常乐: nb_assault 
+[09:37:08] [Survivor] 知足常乐: nb_assault 
+[09:37:13] [Survivor] 知足常乐: nb_assault 
+[09:37:14] [Survivor] 知足常乐: nb_assault 
+[09:37:16] [HK] Envied<222><STEAM_1:1:160085584><> 加入游戏 (202.181.155.169)
+[09:37:17] [Unassigned] Envied: vmodenable 1
+[09:37:17] [Unassigned] Envied: vban 0
+[09:37:19] [Survivor] 知足常乐: nb_assault 
+[09:37:20] [Unassigned] Envied: unpause 
+[09:37:21] [Survivor] 知足常乐: nb_assault 
+[09:37:24] [Spectator] Envied: setpause 
+[09:37:25] Envied<222><STEAM_1:1:160085584><> 离开游戏 (reason: Disconnect by user.)
+[09:37:25] [Survivor] 知足常乐: nb_assault 
+[09:37:32] [Survivor] 知足常乐: nb_assault 
+[09:37:35] [Survivor] 知足常乐: nb_assault 
+[09:37:39] [Survivor] 知足常乐: nb_assault 
+[09:37:40] [Survivor] 知足常乐: nb_assault 
+[09:37:43] [Survivor] 知足常乐: nb_assault 
+[09:37:50] [Survivor] 知足常乐: nb_assault 
+[09:37:53] [Survivor] 知足常乐: nb_assault 
+[09:37:53] [Survivor] 知足常乐: nb_assault 
+[09:38:00] [Survivor] 知足常乐: nb_assault 
+[09:38:03] [Survivor] 知足常乐: nb_assault 
+[09:38:04] [Survivor] 知足常乐: nb_assault 
+[09:38:13] [Survivor] 知足常乐: nb_assault 
+[09:38:18] [Survivor] 知足常乐: nb_assault 
+[09:38:19] [Survivor] 知足常乐: nb_assault 
+[09:38:22] [Survivor] 知足常乐: nb_assault 
+[09:38:27] [Survivor] 知足常乐: nb_assault 
+[09:38:29] [Survivor] 知足常乐: nb_assault 
+[09:38:34] [Survivor] 知足常乐: nb_assault 
+[09:38:35] [Survivor] 知足常乐: nb_assault 
+[09:38:38] [Survivor] 知足常乐: nb_assault 
+--=================================================================--
+[31/01/2023 09:38:41] --- 回合结束: c2m1_highway ---
+--=================================================================--
+[09:38:41] [Survivor] 知足常乐: setpause 
+[09:38:42] [Survivor] 知足常乐: unpause 
+[09:38:42] [Survivor] 知足常乐: unpause 
+--=================================================================--
+[31/01/2023 09:38:43] --- 回合结束: c2m1_highway ---
+--=================================================================--
+[09:38:43] [Survivor] 知足常乐: setpause 
+--=================================================================--
+[31/01/2023 09:38:44] --- 回合开始: c2m1_highway ---
+--=================================================================--
+[09:38:54] [Survivor] 知足常乐: unpause 
+[09:39:02] [Survivor] 知足常乐: nb_assault 
+[09:39:02] [Survivor] 知足常乐: nb_assault 
+[09:39:02] [Survivor] 知足常乐: give pain_pills
+[09:39:02] [Survivor] 知足常乐: give health
+[09:39:02] [Survivor] 知足常乐: give machete
+[09:39:07] [Survivor] 知足常乐: nb_assault 
+[09:39:13] [Survivor] 知足常乐: nb_assault 
+[09:39:18] [Survivor] 知足常乐: nb_assault 
+[09:39:22] [Survivor] 知足常乐: nb_assault 
+[09:39:27] [Survivor] 知足常乐: nb_assault 
+[09:39:31] [Survivor] 知足常乐: nb_assault 
+[09:39:32] [Survivor] 知足常乐: nb_assault 
+[09:39:35] [Survivor] 知足常乐: nb_assault 
+[09:39:40] [Survivor] 知足常乐: nb_assault 
+[09:39:46] [Survivor] 知足常乐: nb_assault 
+[09:39:50] [Survivor] 知足常乐: nb_assault 
+[09:39:53] [Survivor] 知足常乐: nb_assault 
+[09:39:55] [Survivor] 知足常乐: nb_assault 
+[09:40:03] [Survivor] 知足常乐: nb_assault 
+[09:40:08] [Survivor] 知足常乐: nb_assault 
+[09:40:12] [Survivor] 知足常乐: nb_assault 
+[09:40:17] [Survivor] 知足常乐: nb_assault 
+[09:40:22] [Survivor] 知足常乐: nb_assault 
+[09:40:30] [Survivor] 知足常乐: nb_assault 
+[09:40:35] [Survivor] 知足常乐: nb_assault 
+[09:40:37] [Survivor] 知足常乐: nb_assault 
+[09:40:39] [Survivor] 知足常乐: nb_assault 
+--=================================================================--
+[31/01/2023 09:40:46] --- 回合结束: c2m1_highway ---
+--=================================================================--
+[09:40:47] [Survivor] 知足常乐: setpause 
+--=================================================================--
+[31/01/2023 09:40:48] --- 回合结束: c2m1_highway ---
+--=================================================================--
+--=================================================================--
+[31/01/2023 09:40:49] --- 回合开始: c2m1_highway ---
+--=================================================================--
+[09:40:52] [Survivor] 知足常乐: unpause 
+[09:40:57] [Survivor] 知足常乐: nb_assault 
+[09:40:57] [Survivor] 知足常乐: nb_assault 
+[09:40:57] [Survivor] 知足常乐: give pain_pills
+[09:40:57] [Survivor] 知足常乐: give health
+[09:40:57] [Survivor] 知足常乐: give machete
+[09:41:10] [Survivor] 知足常乐: nb_assault 
+[09:41:14] [Survivor] 知足常乐: nb_assault 
+[09:41:20] [Survivor] 知足常乐: nb_assault 
+[09:41:24] [Survivor] 知足常乐: nb_assault 
+[09:41:28] [Survivor] 知足常乐: nb_assault 
+[09:41:31] [Survivor] 知足常乐: nb_assault 
+[09:41:38] [Survivor] 知足常乐: nb_assault 
+[09:41:41] [Survivor] 知足常乐: nb_assault 
+[09:41:47] [Survivor] 知足常乐: nb_assault 
+[09:41:51] [Survivor] 知足常乐: nb_assault 
+[09:41:52] [Survivor] 知足常乐: nb_assault 
+[09:41:56] [Survivor] 知足常乐: nb_assault 
+[09:42:01] [Survivor] 知足常乐: nb_assault 
+[09:42:03] [Survivor] 知足常乐: nb_assault 
+[09:42:09] [Survivor] 知足常乐: nb_assault 
+[09:42:12] [Survivor] 知足常乐: nb_assault 
+[09:42:14] [Survivor] 知足常乐: nb_assault 
+[09:42:19] [Survivor] 知足常乐: nb_assault 
+[09:42:22] [Survivor] 知足常乐: nb_assault 
+[09:42:27] [Survivor] 知足常乐: nb_assault 
+[09:42:29] [Survivor] 知足常乐: nb_assault 
+[09:42:31] [Survivor] 知足常乐: nb_assault 
+[09:42:36] [Survivor] 知足常乐: nb_assault 
+--=================================================================--
+[31/01/2023 09:42:42] --- 回合结束: c2m1_highway ---
+--=================================================================--
+--=================================================================--
+[31/01/2023 09:42:44] --- 回合结束: c2m1_highway ---
+--=================================================================--
+--=================================================================--
+[31/01/2023 09:42:45] --- 回合开始: c2m1_highway ---
+--=================================================================--
+[09:42:46] [Survivor] 知足常乐: setpause 
+[09:42:49] [Survivor] 知足常乐: unpause 
+[09:42:54] [Survivor] 知足常乐: nb_assault 
+[09:42:54] [Survivor] 知足常乐: nb_assault 
+[09:42:54] [Survivor] 知足常乐: give pain_pills
+[09:42:54] [Survivor] 知足常乐: give health
+[09:42:54] [Survivor] 知足常乐: give machete
+[09:43:00] [Survivor] 知足常乐: nb_assault 
+[09:43:01] [Survivor] 知足常乐: nb_assault 
+[09:43:07] [Survivor] 知足常乐: nb_assault 
+[09:43:10] [Survivor] 知足常乐: nb_assault 
+[09:43:17] [Survivor] 知足常乐: nb_assault 
+[09:43:22] [Survivor] 知足常乐: nb_assault 
+[09:43:27] [Survivor] 知足常乐: nb_assault 
+[09:43:33] [Survivor] 知足常乐: nb_assault 
+[09:43:39] [Survivor] 知足常乐: nb_assault 
+[09:43:43] [Survivor] 知足常乐: nb_assault 
+[09:43:51] [Survivor] 知足常乐: nb_assault 
+[09:43:57] [Survivor] 知足常乐: nb_assault 
+[09:44:02] [Survivor] 知足常乐: nb_assault 
+[09:44:07] [Survivor] 知足常乐: nb_assault 
+[09:44:09] [Survivor] 知足常乐: nb_assault 
+[09:44:11] [Survivor] 知足常乐: nb_assault 
+[09:44:16] [Survivor] 知足常乐: nb_assault 
+[09:44:18] [Survivor] 知足常乐: nb_assault 
+[09:44:21] [Survivor] 知足常乐: nb_assault 
+[09:44:24] [Survivor] 知足常乐: nb_assault 
+[09:44:29] [Survivor] 知足常乐: nb_assault 
+[09:44:32] [Survivor] 知足常乐: nb_assault 
+[09:44:33] [Survivor] 知足常乐: nb_assault 
+--=================================================================--
+[31/01/2023 09:44:37] --- 回合结束: c2m1_highway ---
+--=================================================================--
+--=================================================================--
+[31/01/2023 09:44:39] --- 回合结束: c2m1_highway ---
+--=================================================================--
+--=================================================================--
+[31/01/2023 09:44:41] --- 回合开始: c2m1_highway ---
+--=================================================================--
+[09:44:48] [Survivor] 知足常乐: nb_assault 
+[09:44:49] [Survivor] 知足常乐: nb_assault 
+[09:44:49] [Survivor] 知足常乐: give pain_pills
+[09:44:49] [Survivor] 知足常乐: give health
+[09:44:49] [Survivor] 知足常乐: give machete
+[09:44:56] [Survivor] 知足常乐: nb_assault 
+[09:44:59] [Survivor] 知足常乐: nb_assault 
+[09:45:02] [Survivor] 知足常乐: nb_assault 
+[09:45:08] [Survivor] 知足常乐: nb_assault 
+[09:45:13] [Survivor] 知足常乐: nb_assault 
+[09:45:17] [Survivor] 知足常乐: nb_assault 
+[09:45:20] [Survivor] 知足常乐: nb_assault 
+[09:45:25] [Survivor] 知足常乐: nb_assault 
+[09:45:29] [Survivor] 知足常乐: nb_assault 
+[09:45:33] [Survivor] 知足常乐: nb_assault 
+[09:45:38] [Survivor] 知足常乐: nb_assault 
+[09:45:40] [Survivor] 知足常乐: nb_assault 
+[09:45:49] [Survivor] 知足常乐: nb_assault 
+[09:45:51] [Survivor] 知足常乐: nb_assault 
+[09:45:55] [Survivor] 知足常乐: nb_assault 
+[09:45:56] [Survivor] 知足常乐: nb_assault 
+[09:46:03] [Survivor] 知足常乐: nb_assault 
+[09:46:10] [Survivor] 知足常乐: nb_assault 
+[09:46:11] [Survivor] 知足常乐: nb_assault 
+[09:46:15] [Survivor] 知足常乐: nb_assault 
+[09:46:18] [Survivor] 知足常乐: nb_assault 
+[09:46:20] [Survivor] 知足常乐: nb_assault 
+[09:46:25] [Survivor] 知足常乐: nb_assault 
+[09:46:28] [Survivor] 知足常乐: nb_assault 
+[09:46:29] [Survivor] 知足常乐: nb_assault 
+[09:46:35] [Survivor] 知足常乐: nb_assault 
+[09:46:37] [Survivor] 知足常乐: nb_assault 
+[09:46:44] [Survivor] 知足常乐: nb_assault 
+[09:46:46] [Survivor] 知足常乐: nb_assault 
+[09:46:50] [Survivor] 知足常乐: nb_assault 
+[09:46:52] [Survivor] 知足常乐: nb_assault 
+--=================================================================--
+[31/01/2023 09:46:57] --- 回合结束: c2m1_highway ---
+--=================================================================--
+--=================================================================--
+[31/01/2023 09:46:59] --- 回合结束: c2m1_highway ---
+--=================================================================--
+[09:46:59] [Survivor] 知足常乐: setpause 
+--=================================================================--
+[31/01/2023 09:47:00] --- 回合开始: c2m1_highway ---
+--=================================================================--
+[09:47:01] 知足常乐<2><STEAM_1:0:182922075><> 离开游戏 (reason: Disconnect by user.)
+--=================================================================--
+[31/01/2023 09:47:36] --- 回合开始: c2m1_highway ---
+--=================================================================--
+--=================================================================--
+[31/01/2023 09:47:36] --- 地图开始: c2m1_highway ---
+--=================================================================--
+--=================================================================--
+[31/01/2023 11:21:17] --- 地图结束: c2m1_highway ---
+--=================================================================--
+--=================================================================--
+[31/01/2023 11:21:20] --- 回合开始: c2m1_highway ---
+--=================================================================--
+--=================================================================--
+[31/01/2023 11:21:20] --- 地图开始: c2m1_highway ---
+--=================================================================--
+[11:21:32] [CN] 知足常乐<3><STEAM_1:0:182922075><> 加入游戏 (223.74.0.220)
+[11:21:33] [Unassigned] 知足常乐: vmodenable 1
+[11:21:33] [Unassigned] 知足常乐: vban 0
+[11:21:36] [Survivor] 知足常乐: unpause 
+[11:21:40] [CN] 徙倚上清秋<2><STEAM_1:0:541490655><> 加入游戏 (111.17.78.113)
+[11:21:40] [Unassigned] 徙倚上清秋: vmodenable 1
+[11:21:40] [Unassigned] 徙倚上清秋: vban 0
+[11:21:40] [Survivor] 知足常乐: vocalize smartlook auto
+[11:21:42] [Survivor] 知足常乐: vocalize smartlook auto
+[11:21:43] [Survivor] 知足常乐: vocalize smartlook auto
+[11:21:43] [Unassigned] 徙倚上清秋: unpause 
+[11:21:46] [Survivor] 徙倚上清秋: vocalize smartlook auto
+[11:21:51] [Survivor] 知足常乐: say 你练11hunter吗
+[11:21:54] [Survivor] 徙倚上清秋: vocalize smartlook auto
+[11:21:58] [Survivor] 知足常乐: say 阿不
+[11:22:02] [Survivor] 知足常乐: say 是1vhunter
+[11:22:04] 徙倚上清秋<2><STEAM_1:0:541490655><> 离开游戏 (reason: No Steam logon)
+[11:22:07] [Survivor] 知足常乐: vocalize PlayerYes #464
+[11:22:08] [Survivor] 知足常乐: vocalize PlayerNo #474
+[11:22:19] [Survivor] 知足常乐: vocalize smartlook auto
+[11:22:24] [Survivor] 知足常乐: vocalize smartlook auto
+[11:23:33] [Survivor] 知足常乐: say 怎么样
+[11:23:37] [CN] 徙倚上清秋<12><STEAM_1:0:541490655><> 加入游戏 (111.17.78.113)
+[11:23:37] [Unassigned] 徙倚上清秋: vmodenable 1
+[11:23:38] [Survivor] 知足常乐: say 1vhunters
+[11:23:39] [Unassigned] 徙倚上清秋: unpause 
+[11:23:58] [Survivor] 知足常乐: say 这个还没设置呢
+[11:24:18] [Survivor] 徙倚上清秋: say 1vhunters没跑过图
+[11:24:32] [Survivor] 徙倚上清秋: say 静态不好爆 动态我都没爆过 定位烂
+[11:24:34] [Survivor] 知足常乐: say 就是练练枪法
+[11:24:44] [Survivor] 徙倚上清秋: say ok
+[11:24:46] [Survivor] 知足常乐: say 单人装逼也可以的
+[11:24:52] [Survivor] 知足常乐: say 但是我觉得更难点
+[11:24:56] [Survivor] 知足常乐: say !vote
+[11:24:56] [Survivor] 知足常乐: sm_vote 
+[11:24:57] [Survivor] 知足常乐: menuselect 3
+[11:24:58] [Survivor] 知足常乐: vote Yes
+[11:24:58] [Survivor] 知足常乐: menuselect 2
+[11:24:59] [Survivor] 知足常乐: vocalize smartlook auto
+[11:25:03] [Survivor] 徙倚上清秋: vote Yes
+--=================================================================--
+[31/01/2023 11:25:05] --- 地图开始: c2m1_highway ---
+--=================================================================--
+--=================================================================--
+[31/01/2023 11:25:08] --- 地图结束: c2m1_highway ---
+--=================================================================--
+--=================================================================--
+[31/01/2023 11:25:10] --- 回合开始: c2m1_highway ---
+--=================================================================--
+--=================================================================--
+[31/01/2023 11:25:10] --- 地图开始: c2m1_highway ---
+--=================================================================--
+[11:25:20] [CN] 知足常乐<3><STEAM_1:0:182922075><> 加入游戏 (223.74.0.220)
+[11:25:20] [Unassigned] 知足常乐: vmodenable 1
+[11:25:20] [Unassigned] 知足常乐: vban 0
+[11:25:21] [Unassigned] 知足常乐: unpause 
+[11:25:26] [CN] 徙倚上清秋<12><STEAM_1:0:541490655><> 加入游戏 (111.17.78.113)
+[11:25:28] [Unassigned] 徙倚上清秋: vmodenable 1
+[11:25:28] [Unassigned] 徙倚上清秋: vban 0
+[11:25:28] [Unassigned] 徙倚上清秋: unpause 
+[11:25:30] [Spectator] 知足常乐: spec_mode 
+[11:25:31] [Spectator] 知足常乐: spec_mode 
+[11:25:31] [Spectator] 知足常乐: spec_mode 
+[11:25:55] [Survivor] 徙倚上清秋: vocalize smartlook auto
+[11:26:03] [Survivor] 徙倚上清秋: give pain_pills
+[11:26:03] [Survivor] 徙倚上清秋: give health
+[11:26:03] [Survivor] 徙倚上清秋: nb_assault 
+[11:26:03] [Survivor] 徙倚上清秋: nb_assault 
+[11:26:06] [Spectator] 知足常乐: spec_mode 
+[11:26:26] [Survivor] 徙倚上清秋: nb_assault 
+[11:26:26] [Survivor] 徙倚上清秋: nb_assault 
+[11:26:50] [Survivor] 徙倚上清秋: nb_assault 
+[11:27:06] [Survivor] 徙倚上清秋: nb_assault 
+[11:27:15] [Survivor] 徙倚上清秋: nb_assault 
+[11:27:17] [Survivor] 徙倚上清秋: nb_assault 
+[11:27:37] [Survivor] 徙倚上清秋: vocalize smartlook auto
+[11:27:38] [Survivor] 徙倚上清秋: nb_assault 
+[11:27:39] [Survivor] 徙倚上清秋: nb_assault 
+[11:28:02] [Survivor] 徙倚上清秋: nb_assault 
+--=================================================================--
+[31/01/2023 11:28:08] --- 回合结束: c2m1_highway ---
+--=================================================================--
+[11:28:10] [Survivor] 徙倚上清秋: say D
+--=================================================================--
+[31/01/2023 11:28:10] --- 回合结束: c2m1_highway ---
+--=================================================================--
+--=================================================================--
+[31/01/2023 11:28:11] --- 回合开始: c2m1_highway ---
+--=================================================================--
+[11:28:13] [Spectator] 知足常乐: say 话说你一直都只有30fps以下吗
+[11:28:28] 徙倚上清秋<12><STEAM_1:0:541490655><> 离开游戏 (reason: No Steam logon)
+[11:28:33] [Spectator] 知足常乐: say !vote
+[11:28:33] [Spectator] 知足常乐: sm_vote 
+[11:28:35] [Spectator] 知足常乐: say_team !join
+[11:28:35] [Spectator] 知足常乐: sm_join 
+[11:28:35] [Spectator] 知足常乐: jointeam survivor
+[11:28:36] [Survivor] 知足常乐: vocalize smartlook auto
+[11:28:41] [Survivor] 知足常乐: say !vote
+[11:28:41] [Survivor] 知足常乐: sm_vote 
+[11:28:42] [Survivor] 知足常乐: menuselect 2
+[11:28:43] [Survivor] 知足常乐: vote Yes
+[11:28:43] [Survivor] 知足常乐: menuselect 2
+[11:28:45] [Survivor] 知足常乐: say !vote
+[11:28:45] [Survivor] 知足常乐: sm_vote 
+[11:28:45] [Survivor] 知足常乐: menuselect 3
+[11:28:46] [Survivor] 知足常乐: vote Yes
+[11:28:46] [Survivor] 知足常乐: menuselect 1
+[11:28:47] [Survivor] 知足常乐: say !vote
+[11:28:47] [Survivor] 知足常乐: sm_vote 
+[11:28:48] [Survivor] 知足常乐: menuselect 3
+[11:28:49] [Survivor] 知足常乐: vote Yes
+[11:28:49] [Survivor] 知足常乐: menuselect 1
+[11:28:50] [Survivor] 知足常乐: say !vote
+[11:28:50] [Survivor] 知足常乐: sm_vote 
+[11:28:52] [Survivor] 知足常乐: menuselect 5
+[11:28:52] [Survivor] 知足常乐: vote Yes
+[11:28:52] [Survivor] 知足常乐: menuselect 1
+[11:29:07] [Survivor] 知足常乐: nb_assault 
+[11:29:07] [Survivor] 知足常乐: nb_assault 
+[11:29:08] [Survivor] 知足常乐: give pain_pills
+[11:29:08] [Survivor] 知足常乐: give health
+[11:29:08] [Survivor] 知足常乐: give machete
+[11:29:14] [Survivor] 知足常乐: nb_assault 
+[11:29:15] [Survivor] 知足常乐: nb_assault 
+[11:29:19] [Survivor] 知足常乐: nb_assault 
+[11:29:24] [Survivor] 知足常乐: nb_assault 
+[11:29:27] [Survivor] 知足常乐: nb_assault 
+[11:29:28] [Survivor] 知足常乐: nb_assault 
+[11:29:29] [CN] 徙倚上清秋<51><STEAM_1:0:541490655><> 加入游戏 (111.17.78.113)
+[11:29:29] [Unassigned] 徙倚上清秋: vmodenable 1
+[11:29:30] [Unassigned] 徙倚上清秋: unpause 
+[11:29:32] [Survivor] 知足常乐: nb_assault 
+[11:29:38] [Survivor] 知足常乐: nb_assault 
+[11:29:41] [Spectator] 徙倚上清秋: say 之前一直是30fps左右
+[11:29:42] [Survivor] 知足常乐: nb_assault 
+[11:29:46] [Survivor] 知足常乐: nb_assault 
+[11:29:49] [Spectator] 徙倚上清秋: say 现在好多了 70左右
+[11:29:50] [Survivor] 知足常乐: nb_assault 
+[11:29:54] [Survivor] 知足常乐: nb_assault 
+[11:29:57] [Survivor] 知足常乐: nb_assault 
+[11:30:03] [CN] 毁人不倦<61><STEAM_1:1:587236725><> 加入游戏 (106.112.86.76)
+[11:30:03] [Unassigned] 毁人不倦: vmodenable 1
+[11:30:03] [Unassigned] 毁人不倦: vban 0
+[11:30:05] [Unassigned] 毁人不倦: unpause 
+[11:30:06] [Spectator] 徙倚上清秋: say 以前是ht天上飞打不中的那种
+[11:30:15] [Spectator] 毁人不倦: spec_next 
+[11:30:17] [Spectator] 毁人不倦: setpause 
+[11:30:19] [Survivor] 知足常乐: nb_assault 
+[11:30:19] 毁人不倦<61><STEAM_1:1:587236725><> 离开游戏 (reason: Disconnect by user.)
+[11:30:23] [Survivor] 知足常乐: nb_assault 
+[11:30:33] [Survivor] 知足常乐: nb_assault 
+[11:30:37] [Survivor] 知足常乐: nb_assault 
+[11:30:43] [Survivor] 知足常乐: nb_assault 
+[11:30:55] [Survivor] 知足常乐: nb_assault 
+[11:30:58] [Survivor] 知足常乐: nb_assault 
+[11:31:00] [Survivor] 知足常乐: nb_assault 
+[11:31:01] [Survivor] 知足常乐: nb_assault 
+[11:31:05] [Survivor] 知足常乐: nb_assault 
+[11:31:09] [Survivor] 知足常乐: nb_assault 
+[11:31:10] [Survivor] 知足常乐: nb_assault 
+[11:31:19] [Survivor] 知足常乐: nb_assault 
+[11:31:25] [Survivor] 知足常乐: nb_assault 
+--=================================================================--
+[31/01/2023 11:31:32] --- 回合结束: c2m1_highway ---
+--=================================================================--
+--=================================================================--
+[31/01/2023 11:31:34] --- 回合结束: c2m1_highway ---
+--=================================================================--
+--=================================================================--
+[31/01/2023 11:31:35] --- 回合开始: c2m1_highway ---
+--=================================================================--
+[11:31:39] [Survivor] 知足常乐: say 我总感觉这个喷子很奇怪
+[11:31:43] [Survivor] 知足常乐: say 贴脸打不中
+[11:31:47] 徙倚上清秋<51><STEAM_1:0:541490655><> 离开游戏 (reason: No Steam logon)
+[11:31:49] [Survivor] 知足常乐: nb_assault 
+[11:31:49] [Survivor] 知足常乐: nb_assault 
+[11:31:49] [Survivor] 知足常乐: give pain_pills
+[11:31:49] [Survivor] 知足常乐: give health
+[11:31:49] [Survivor] 知足常乐: give machete
+[11:31:56] [Survivor] 知足常乐: nb_assault 
+[11:31:57] [Survivor] 知足常乐: nb_assault 
+[11:32:04] [Survivor] 知足常乐: nb_assault 
+[11:32:06] [Survivor] 知足常乐: nb_assault 
+[11:32:18] [Survivor] 知足常乐: nb_assault 
+[11:32:22] [Survivor] 知足常乐: nb_assault 
+[11:32:29] [Survivor] 知足常乐: nb_assault 
+[11:32:31] [Survivor] 知足常乐: nb_assault 
+[11:32:33] [Survivor] 知足常乐: nb_assault 
+[11:32:37] [Survivor] 知足常乐: nb_assault 
+[11:32:41] [Survivor] 知足常乐: nb_assault 
+[11:32:44] [Survivor] 知足常乐: nb_assault 
+[11:32:46] [Survivor] 知足常乐: nb_assault 
+[11:32:50] [Survivor] 知足常乐: nb_assault 
+[11:32:55] [Survivor] 知足常乐: nb_assault 
+[11:33:01] [Survivor] 知足常乐: nb_assault 
+[11:33:04] [Survivor] 知足常乐: nb_assault 
+[11:33:06] [Survivor] 知足常乐: nb_assault 
+[11:33:09] [Survivor] 知足常乐: nb_assault 
+[11:33:13] [Survivor] 知足常乐: nb_assault 
+[11:33:17] [Survivor] 知足常乐: nb_assault 
+[11:33:21] [Survivor] 知足常乐: nb_assault 
+[11:33:26] [Survivor] 知足常乐: nb_assault 
+[11:33:28] [Survivor] 知足常乐: nb_assault 
+[11:33:32] [Survivor] 知足常乐: nb_assault 
+[11:33:33] [Survivor] 知足常乐: nb_assault 
+[11:33:36] [Survivor] 知足常乐: nb_assault 
+[11:33:38] [Survivor] 知足常乐: nb_assault 
+[11:33:45] [Survivor] 知足常乐: setpause 
+[11:33:46] [Survivor] 知足常乐: unpause 
+[11:33:46] [Survivor] 知足常乐: unpause 
+[11:33:46] [Survivor] 知足常乐: nb_assault 
+[11:33:51] [Survivor] 知足常乐: nb_assault 
+[11:33:56] [Survivor] 知足常乐: nb_assault 
+[11:34:00] [Survivor] 知足常乐: nb_assault 
+--=================================================================--
+[31/01/2023 11:34:04] --- 回合结束: c2m1_highway ---
+--=================================================================--
+--=================================================================--
+[31/01/2023 11:34:06] --- 回合结束: c2m1_highway ---
+--=================================================================--
+--=================================================================--
+[31/01/2023 11:34:08] --- 回合开始: c2m1_highway ---
+--=================================================================--
+[11:34:17] [Survivor] 知足常乐: nb_assault 
+[11:34:17] [Survivor] 知足常乐: nb_assault 
+[11:34:17] [Survivor] 知足常乐: give pain_pills
+[11:34:17] [Survivor] 知足常乐: give health
+[11:34:17] [Survivor] 知足常乐: give machete
+[11:34:20] [Survivor] 知足常乐: nb_assault 
+[11:34:33] [Survivor] 知足常乐: nb_assault 
+[11:34:37] [Survivor] 知足常乐: nb_assault 
+[11:34:42] [Survivor] 知足常乐: nb_assault 
+[11:34:46] [Survivor] 知足常乐: nb_assault 
+[11:34:47] [Survivor] 知足常乐: nb_assault 
+[11:34:51] [Survivor] 知足常乐: nb_assault 
+[11:34:54] [Survivor] 知足常乐: nb_assault 
+[11:34:55] [Survivor] 知足常乐: nb_assault 
+[11:35:05] [Survivor] 知足常乐: nb_assault 
+[11:35:11] [Survivor] 知足常乐: nb_assault 
+[11:35:16] [Survivor] 知足常乐: nb_assault 
+[11:35:17] [CN] 六杠<136><STEAM_1:1:635020104><> 加入游戏 (39.74.21.82)
+[11:35:17] [Unassigned] 六杠: vmodenable 1
+[11:35:17] [Unassigned] 六杠: vban 0
+[11:35:18] [Unassigned] 六杠: unpause 
+[11:35:20] [Survivor] 知足常乐: nb_assault 
+[11:35:21] [Survivor] 知足常乐: nb_assault 
+[11:35:23] [Spectator] 六杠: spec_next 
+[11:35:25] [Spectator] 六杠: spec_next 
+[11:35:26] [Survivor] 知足常乐: nb_assault 
+[11:35:29] [Survivor] 知足常乐: nb_assault 
+[11:35:33] [Survivor] 知足常乐: nb_assault 
+[11:35:35] [Survivor] 知足常乐: nb_assault 
+[11:35:41] [Survivor] 知足常乐: nb_assault 
+[11:35:44] [Survivor] 知足常乐: nb_assault 
+[11:35:46] [Spectator] 六杠: spec_next 
+[11:35:48] [Survivor] 知足常乐: nb_assault 
+[11:35:49] [Spectator] 六杠: spec_next 
+[11:35:50] [Survivor] 知足常乐: nb_assault 
+[11:35:52] [Survivor] 知足常乐: nb_assault 
+[11:35:55] [Survivor] 知足常乐: nb_assault 
+--=================================================================--
+[31/01/2023 11:35:57] --- 回合结束: c2m1_highway ---
+--=================================================================--
+[11:35:58] [Survivor] 知足常乐: setpause 
+--=================================================================--
+[31/01/2023 11:35:59] --- 回合结束: c2m1_highway ---
+--=================================================================--
+[11:35:59] 知足常乐<3><STEAM_1:0:182922075><> 离开游戏 (reason: Disconnect by user.)
+--=================================================================--
+[31/01/2023 11:36:00] --- 回合开始: c2m1_highway ---
+--=================================================================--
+[11:36:04] [Spectator] 六杠: spec_next 
+[11:36:05] [Spectator] 六杠: spec_next 
+[11:36:08] [Spectator] 六杠: spec_next 
+[11:36:09] [Spectator] 六杠: setpause 
+[11:36:10] 六杠<136><STEAM_1:1:635020104><> 离开游戏 (reason: Disconnect by user.)
+--=================================================================--
+[31/01/2023 11:36:45] --- 回合开始: c2m1_highway ---
+--=================================================================--
+--=================================================================--
+[31/01/2023 11:36:45] --- 地图开始: c2m1_highway ---
+--=================================================================--
+--=================================================================--
+[31/01/2023 14:11:28] --- 地图结束: c2m1_highway ---
+--=================================================================--
+--=================================================================--
+[31/01/2023 14:11:30] --- 回合开始: c2m1_highway ---
+--=================================================================--
+--=================================================================--
+[31/01/2023 14:11:30] --- 地图开始: c2m1_highway ---
+--=================================================================--
+[14:11:52] [CN] 偷偷玩<2><STEAM_1:1:608216680><> 加入游戏 (117.170.100.93)
+[14:11:54] [Unassigned] 偷偷玩: vmodenable 1
+[14:11:54] [Unassigned] 偷偷玩: vban 0
+[14:11:57] [Survivor] 偷偷玩: unpause 
+[14:11:58] [Survivor] 偷偷玩: vocalize smartlook auto
+[14:12:06] [Survivor] 偷偷玩: say_team !match
+[14:12:06] [Survivor] 偷偷玩: sm_match 
+[14:12:09] [Survivor] 偷偷玩: menuselect 9
+[14:12:12] [Survivor] 偷偷玩: say_team !vote
+[14:12:12] [Survivor] 偷偷玩: sm_vote 
+[14:12:15] [Survivor] 偷偷玩: menuselect 5
+[14:12:18] [Survivor] 偷偷玩: menuselect 9
+[14:12:22] [Survivor] 偷偷玩: menuselect 9
+[14:12:25] [Survivor] 偷偷玩: vote Yes
+[14:12:25] [Survivor] 偷偷玩: menuselect 7
+--=================================================================--
+[31/01/2023 14:12:25] --- 地图结束: c2m1_highway ---
+--=================================================================--
+--=================================================================--
+[31/01/2023 14:12:31] --- 回合开始: l4d2_daybreak01_hotel ---
+--=================================================================--
+--=================================================================--
+[31/01/2023 14:12:31] --- 地图开始: l4d2_daybreak01_hotel ---
+--=================================================================--
+[14:12:37] 偷偷玩<2><STEAM_1:1:608216680><> 离开游戏 (reason: Disconnect by user.)
+--=================================================================--
+[31/01/2023 14:13:16] --- 回合开始: c2m1_highway ---
+--=================================================================--
+--=================================================================--
+[31/01/2023 14:13:16] --- 地图开始: c2m1_highway ---
+--=================================================================--

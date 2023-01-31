@@ -1,0 +1,13 @@
+"Phrases"
+{
+	"round2end_difference"
+	{
+		"en"			"[{red}!{default}] Difference: {olive}%d {default}({orange}%d in total{default})"
+		"chi"			"[{red}!{default}] 回合分差: {olive}%d {default}(总分差：{orange}%d {default})"
+	}
+	"round2end_difference_eq"
+	{
+		"en"			"[{red}!{default}] Difference: {olive}%d "
+		"chi"			"[{red}!{default}] 回合分差: {olive}%d "
+	}
+}

@@ -1,0 +1,765 @@
+L 11/02/2022 - 09:04:59: SourceMod error session started
+L 11/02/2022 - 09:04:59: Info (map "c2m1_highway") (file "/root/Steam/steamapps/common/Left 4 Dead 2 Dedicated Server/left4dead2/addons/sourcemod/logs/errors_20221102.log")
+L 11/02/2022 - 09:04:59: [confoglcompmod.smx] [Confogl] CvarSettings: Could not find CVar specified (confogl_ghost_warp)
+L 11/02/2022 - 09:04:59: [confoglcompmod.smx] [Confogl] CvarSettings: Could not find CVar specified (longer_tank_punch_getup)
+L 11/02/2022 - 09:04:59: [confoglcompmod.smx] [Confogl] CvarSettings: Could not find CVar specified (l4d_equalise_alarm_cars)
+L 11/02/2022 - 09:05:02: Error log file session closed.
+L 11/02/2022 - 13:18:41: SourceMod error session started
+L 11/02/2022 - 13:18:41: Info (map "c8m5_rooftop") (file "/root/Steam/steamapps/common/Left 4 Dead 2 Dedicated Server/left4dead2/addons/sourcemod/logs/errors_20221102.log")
+L 11/02/2022 - 13:18:41: [SM] Unable to load plugin "Welcome.smx": Could not find required plugin "l4d2_playtime_interface"
+L 11/02/2022 - 13:19:14: [SM] Exception reported: Failed to create native "AddStringToReadyFooter", name is probably already in use
+L 11/02/2022 - 13:19:14: [SM] Blaming: optional/readyup.smx
+L 11/02/2022 - 13:19:14: [SM] Call stack trace:
+L 11/02/2022 - 13:19:14: [SM]   [0] CreateNative
+L 11/02/2022 - 13:19:14: [SM]   [1] Line 184, readyup.sp::AskPluginLoad2
+L 11/02/2022 - 13:19:17: Error log file session closed.
+L 11/02/2022 - 13:22:37: SourceMod error session started
+L 11/02/2022 - 13:22:37: Info (map "c8m5_rooftop") (file "/root/Steam/steamapps/common/Left 4 Dead 2 Dedicated Server/left4dead2/addons/sourcemod/logs/errors_20221102.log")
+L 11/02/2022 - 13:22:37: [SM] Exception reported: Client index 0 is invalid
+L 11/02/2022 - 13:22:37: [SM] Blaming: optional/l4d2_scavenge_tank.smx
+L 11/02/2022 - 13:22:37: [SM] Call stack trace:
+L 11/02/2022 - 13:22:37: [SM]   [0] ChangeClientTeam
+L 11/02/2022 - 13:22:37: [SM]   [1] Line 356, /home/forums/content/files/5/6/3/1/5/101119.attach::SpawnTank
+L 11/02/2022 - 13:22:37: [SM]   [2] Line 242, /home/forums/content/files/5/6/3/1/5/101119.attach::Event_GasCanPourCompleted
+L 11/02/2022 - 13:22:51: [SM] Exception reported: Client index 0 is invalid
+L 11/02/2022 - 13:22:51: [SM] Blaming: optional/l4d2_scavenge_tank.smx
+L 11/02/2022 - 13:22:51: [SM] Call stack trace:
+L 11/02/2022 - 13:22:51: [SM]   [0] ChangeClientTeam
+L 11/02/2022 - 13:22:51: [SM]   [1] Line 356, /home/forums/content/files/5/6/3/1/5/101119.attach::SpawnTank
+L 11/02/2022 - 13:22:51: [SM]   [2] Line 242, /home/forums/content/files/5/6/3/1/5/101119.attach::Event_GasCanPourCompleted
+L 11/02/2022 - 13:23:03: [SM] Exception reported: Client index 0 is invalid
+L 11/02/2022 - 13:23:03: [SM] Blaming: optional/l4d2_scavenge_tank.smx
+L 11/02/2022 - 13:23:03: [SM] Call stack trace:
+L 11/02/2022 - 13:23:03: [SM]   [0] ChangeClientTeam
+L 11/02/2022 - 13:23:03: [SM]   [1] Line 356, /home/forums/content/files/5/6/3/1/5/101119.attach::SpawnTank
+L 11/02/2022 - 13:23:03: [SM]   [2] Line 242, /home/forums/content/files/5/6/3/1/5/101119.attach::Event_GasCanPourCompleted
+L 11/02/2022 - 13:23:18: [SM] Exception reported: Client index 0 is invalid
+L 11/02/2022 - 13:23:18: [SM] Blaming: optional/l4d2_scavenge_tank.smx
+L 11/02/2022 - 13:23:18: [SM] Call stack trace:
+L 11/02/2022 - 13:23:18: [SM]   [0] ChangeClientTeam
+L 11/02/2022 - 13:23:18: [SM]   [1] Line 356, /home/forums/content/files/5/6/3/1/5/101119.attach::SpawnTank
+L 11/02/2022 - 13:23:18: [SM]   [2] Line 242, /home/forums/content/files/5/6/3/1/5/101119.attach::Event_GasCanPourCompleted
+L 11/02/2022 - 13:28:11: Error log file session closed.
+L 11/02/2022 - 13:29:29: SourceMod error session started
+L 11/02/2022 - 13:29:29: Info (map "c8m5_rooftop") (file "/root/Steam/steamapps/common/Left 4 Dead 2 Dedicated Server/left4dead2/addons/sourcemod/logs/errors_20221102.log")
+L 11/02/2022 - 13:29:29: [SM] Unable to load plugin "Welcome.smx": Could not find required plugin "l4d2_playtime_interface"
+L 11/02/2022 - 14:08:55: SourceMod error session started
+L 11/02/2022 - 14:08:55: Info (map "c8m5_rooftop") (file "/root/Steam/steamapps/common/Left 4 Dead 2 Dedicated Server/left4dead2/addons/sourcemod/logs/errors_20221102.log")
+L 11/02/2022 - 14:08:55: [SM] Unable to load plugin "Welcome.smx": Could not find required plugin "l4d2_playtime_interface"
+L 11/02/2022 - 14:10:14: Error log file session closed.
+L 11/02/2022 - 14:11:13: SourceMod error session started
+L 11/02/2022 - 14:11:13: Info (map "c2m1_highway") (file "/root/Steam/steamapps/common/Left 4 Dead 2 Dedicated Server/left4dead2/addons/sourcemod/logs/errors_20221102.log")
+L 11/02/2022 - 14:11:13: [confoglcompmod.smx] [Confogl] CvarSettings: Could not find CVar specified (confogl_ghost_warp)
+L 11/02/2022 - 14:11:13: [confoglcompmod.smx] [Confogl] CvarSettings: Could not find CVar specified (longer_tank_punch_getup)
+L 11/02/2022 - 14:11:13: [confoglcompmod.smx] [Confogl] CvarSettings: Could not find CVar specified (l4d_equalise_alarm_cars)
+L 11/02/2022 - 14:11:16: Error log file session closed.
+L 11/02/2022 - 14:45:21: SourceMod error session started
+L 11/02/2022 - 14:45:21: Info (map "c8m5_rooftop") (file "/root/Steam/steamapps/common/Left 4 Dead 2 Dedicated Server/left4dead2/addons/sourcemod/logs/errors_20221102.log")
+L 11/02/2022 - 14:45:21: [SM] Unable to load plugin "Welcome.smx": Could not find required plugin "l4d2_playtime_interface"
+L 11/02/2022 - 14:48:32: SourceMod error session started
+L 11/02/2022 - 14:48:32: Info (map "c8m5_rooftop") (file "/root/Steam/steamapps/common/Left 4 Dead 2 Dedicated Server/left4dead2/addons/sourcemod/logs/errors_20221102.log")
+L 11/02/2022 - 14:48:32: [SM] Unable to load plugin "Welcome.smx": Could not find required plugin "l4d2_playtime_interface"
+L 11/02/2022 - 16:17:25: SourceMod error session started
+L 11/02/2022 - 16:17:25: Info (map "c8m5_rooftop") (file "/root/Steam/steamapps/common/Left 4 Dead 2 Dedicated Server/left4dead2/addons/sourcemod/logs/errors_20221102.log")
+L 11/02/2022 - 16:17:25: [SM] Failed to load plugin "anticheat/smac/smac_css_fixes.smx": This module will not work for this mod and should be removed..
+L 11/02/2022 - 16:17:25: [SM] Failed to load plugin "anticheat/smac/smac_hl2dm_fixes.smx": This module will not work for this mod and should be removed..
+L 11/02/2022 - 16:17:25: [SM] Failed to load plugin "anticheat/smac/smac_css_antismoke.smx": This module will not work for this mod and should be removed..
+L 11/02/2022 - 16:17:25: [SM] Failed to load plugin "anticheat/smac/smac_css_antiflash.smx": This module will not work for this mod and should be removed..
+L 11/02/2022 - 16:17:25: [SM] Unable to load plugin "Welcome.smx": Could not find required plugin "l4d2_playtime_interface"
+L 11/02/2022 - 16:17:25: [SM] Exception reported: Database failure: Could not find Database conf "sourcebans"
+L 11/02/2022 - 16:17:25: [SM] Blaming: sbpp_main.smx
+L 11/02/2022 - 16:17:25: [SM] Call stack trace:
+L 11/02/2022 - 16:17:25: [SM]   [0] SetFailState
+L 11/02/2022 - 16:17:25: [SM]   [1] Line 216, sbpp_main.sp::OnPluginStart
+L 11/02/2022 - 16:17:25: [SM] Unable to load plugin "sbpp_main.smx": Error detected in plugin startup (see error logs)
+L 11/02/2022 - 16:17:25: [SM] Fatal error encountered parsing translation file "sourcecomms.phrases.txt"
+L 11/02/2022 - 16:17:25: [SM] Error (line 0, column 0): Stream failed to open
+L 11/02/2022 - 16:17:25: [SM] Exception reported: Database failure: could not find database config: sourcebans
+L 11/02/2022 - 16:17:25: [SM] Blaming: sbpp_comms.smx
+L 11/02/2022 - 16:17:25: [SM] Call stack trace:
+L 11/02/2022 - 16:17:25: [SM]   [0] SetFailState
+L 11/02/2022 - 16:17:25: [SM]   [1] Line 219, sbpp_comms.sp::OnPluginStart
+L 11/02/2022 - 16:17:25: [SM] Unable to load plugin "sbpp_comms.smx": Error detected in plugin startup (see error logs)
+L 11/02/2022 - 16:17:25: [SM] Unable to load plugin "sbpp_report.smx": Could not find required plugin "sourcebans++"
+L 11/02/2022 - 16:17:25: [SM] Fatal error encountered parsing translation file "sourcesleuth.phrases.txt"
+L 11/02/2022 - 16:17:25: [SM] Error (line 0, column 0): Stream failed to open
+L 11/02/2022 - 16:17:27: [SM] Exception reported: Failed to connect to SourceBans DB, Could not find database config "sourcebans"
+L 11/02/2022 - 16:17:27: [SM] Blaming: sbpp_checker.smx
+L 11/02/2022 - 16:17:27: [SM] Call stack trace:
+L 11/02/2022 - 16:17:27: [SM]   [0] SetFailState
+L 11/02/2022 - 16:17:27: [SM]   [1] Line 75, sbpp_checker.sp::OnDatabaseConnected
+L 11/02/2022 - 16:17:27: [sbpp_sleuth.smx] SourceSleuth: Database connection error: Could not find database config "sourcebans"
+L 11/02/2022 - 16:19:46: Error log file session closed.
+L 11/02/2022 - 16:19:46: SourceMod error session started
+L 11/02/2022 - 16:19:46: Info (map "c8m5_rooftop") (file "/root/Steam/steamapps/common/Left 4 Dead 2 Dedicated Server/left4dead2/addons/sourcemod/logs/errors_20221102.log")
+L 11/02/2022 - 16:19:46: [SM] Fatal error encountered parsing translation file "sourcecomms.phrases.txt"
+L 11/02/2022 - 16:19:46: [SM] Error (line 0, column 0): Stream failed to open
+L 11/02/2022 - 16:19:46: [SM] Fatal error encountered parsing translation file "sourcesleuth.phrases.txt"
+L 11/02/2022 - 16:19:46: [SM] Error (line 0, column 0): Stream failed to open
+L 11/02/2022 - 16:20:40: SourceMod error session started
+L 11/02/2022 - 16:20:40: Info (map "c8m5_rooftop") (file "/root/Steam/steamapps/common/Left 4 Dead 2 Dedicated Server/left4dead2/addons/sourcemod/logs/errors_20221102.log")
+L 11/02/2022 - 16:20:40: [SM] Failed to load plugin "anticheat/smac/smac_css_fixes.smx": This module will not work for this mod and should be removed..
+L 11/02/2022 - 16:20:40: [SM] Failed to load plugin "anticheat/smac/smac_hl2dm_fixes.smx": This module will not work for this mod and should be removed..
+L 11/02/2022 - 16:20:40: [SM] Failed to load plugin "anticheat/smac/smac_css_antismoke.smx": This module will not work for this mod and should be removed..
+L 11/02/2022 - 16:20:40: [SM] Failed to load plugin "anticheat/smac/smac_css_antiflash.smx": This module will not work for this mod and should be removed..
+L 11/02/2022 - 16:20:40: [SM] Unable to load plugin "Welcome.smx": Could not find required plugin "l4d2_playtime_interface"
+L 11/02/2022 - 16:20:40: [SM] Exception reported: Database failure: Could not find Database conf "sourcebans"
+L 11/02/2022 - 16:20:40: [SM] Blaming: sbpp_main.smx
+L 11/02/2022 - 16:20:40: [SM] Call stack trace:
+L 11/02/2022 - 16:20:40: [SM]   [0] SetFailState
+L 11/02/2022 - 16:20:40: [SM]   [1] Line 216, sbpp_main.sp::OnPluginStart
+L 11/02/2022 - 16:20:40: [SM] Unable to load plugin "sbpp_main.smx": Error detected in plugin startup (see error logs)
+L 11/02/2022 - 16:20:40: [SM] Fatal error encountered parsing translation file "sourcecomms.phrases.txt"
+L 11/02/2022 - 16:20:40: [SM] Error (line 0, column 0): Stream failed to open
+L 11/02/2022 - 16:20:40: [SM] Exception reported: Database failure: could not find database config: sourcebans
+L 11/02/2022 - 16:20:40: [SM] Blaming: sbpp_comms.smx
+L 11/02/2022 - 16:20:40: [SM] Call stack trace:
+L 11/02/2022 - 16:20:40: [SM]   [0] SetFailState
+L 11/02/2022 - 16:20:40: [SM]   [1] Line 219, sbpp_comms.sp::OnPluginStart
+L 11/02/2022 - 16:20:40: [SM] Unable to load plugin "sbpp_comms.smx": Error detected in plugin startup (see error logs)
+L 11/02/2022 - 16:20:40: [SM] Unable to load plugin "sbpp_report.smx": Could not find required plugin "sourcebans++"
+L 11/02/2022 - 16:20:40: [SM] Fatal error encountered parsing translation file "sourcesleuth.phrases.txt"
+L 11/02/2022 - 16:20:40: [SM] Error (line 0, column 0): Stream failed to open
+L 11/02/2022 - 16:20:42: [SM] Exception reported: Failed to connect to SourceBans DB, Could not find database config "sourcebans"
+L 11/02/2022 - 16:20:42: [SM] Blaming: sbpp_checker.smx
+L 11/02/2022 - 16:20:42: [SM] Call stack trace:
+L 11/02/2022 - 16:20:42: [SM]   [0] SetFailState
+L 11/02/2022 - 16:20:42: [SM]   [1] Line 75, sbpp_checker.sp::OnDatabaseConnected
+L 11/02/2022 - 16:20:42: [sbpp_sleuth.smx] SourceSleuth: Database connection error: Could not find database config "sourcebans"
+L 11/02/2022 - 16:51:31: Error log file session closed.
+L 11/02/2022 - 16:51:31: SourceMod error session started
+L 11/02/2022 - 16:51:31: Info (map "c8m5_rooftop") (file "/root/Steam/steamapps/common/Left 4 Dead 2 Dedicated Server/left4dead2/addons/sourcemod/logs/errors_20221102.log")
+L 11/02/2022 - 16:51:31: [SM] Fatal error encountered parsing translation file "sourcecomms.phrases.txt"
+L 11/02/2022 - 16:51:31: [SM] Error (line 0, column 0): Stream failed to open
+L 11/02/2022 - 16:51:31: [SM] Fatal error encountered parsing translation file "sourcesleuth.phrases.txt"
+L 11/02/2022 - 16:51:31: [SM] Error (line 0, column 0): Stream failed to open
+L 11/02/2022 - 16:52:09: SourceMod error session started
+L 11/02/2022 - 16:52:09: Info (map "c8m5_rooftop") (file "/root/Steam/steamapps/common/Left 4 Dead 2 Dedicated Server/left4dead2/addons/sourcemod/logs/errors_20221102.log")
+L 11/02/2022 - 16:52:09: [SM] Failed to load plugin "anticheat/smac/smac_css_fixes.smx": This module will not work for this mod and should be removed..
+L 11/02/2022 - 16:52:09: [SM] Failed to load plugin "anticheat/smac/smac_hl2dm_fixes.smx": This module will not work for this mod and should be removed..
+L 11/02/2022 - 16:52:09: [SM] Failed to load plugin "anticheat/smac/smac_css_antismoke.smx": This module will not work for this mod and should be removed..
+L 11/02/2022 - 16:52:09: [SM] Failed to load plugin "anticheat/smac/smac_css_antiflash.smx": This module will not work for this mod and should be removed..
+L 11/02/2022 - 16:52:09: [SM] Unable to load plugin "Welcome.smx": Could not find required plugin "l4d2_playtime_interface"
+L 11/02/2022 - 16:52:09: [SM] Exception reported: Database failure: Could not find Database conf "sourcebans"
+L 11/02/2022 - 16:52:09: [SM] Blaming: sbpp_main.smx
+L 11/02/2022 - 16:52:09: [SM] Call stack trace:
+L 11/02/2022 - 16:52:09: [SM]   [0] SetFailState
+L 11/02/2022 - 16:52:09: [SM]   [1] Line 216, sbpp_main.sp::OnPluginStart
+L 11/02/2022 - 16:52:09: [SM] Unable to load plugin "sbpp_main.smx": Error detected in plugin startup (see error logs)
+L 11/02/2022 - 16:52:09: [SM] Fatal error encountered parsing translation file "sourcecomms.phrases.txt"
+L 11/02/2022 - 16:52:09: [SM] Error (line 0, column 0): Stream failed to open
+L 11/02/2022 - 16:52:09: [SM] Exception reported: Database failure: could not find database config: sourcebans
+L 11/02/2022 - 16:52:09: [SM] Blaming: sbpp_comms.smx
+L 11/02/2022 - 16:52:09: [SM] Call stack trace:
+L 11/02/2022 - 16:52:09: [SM]   [0] SetFailState
+L 11/02/2022 - 16:52:09: [SM]   [1] Line 219, sbpp_comms.sp::OnPluginStart
+L 11/02/2022 - 16:52:09: [SM] Unable to load plugin "sbpp_comms.smx": Error detected in plugin startup (see error logs)
+L 11/02/2022 - 16:52:09: [SM] Unable to load plugin "sbpp_report.smx": Could not find required plugin "sourcebans++"
+L 11/02/2022 - 16:52:10: [SM] Fatal error encountered parsing translation file "sourcesleuth.phrases.txt"
+L 11/02/2022 - 16:52:10: [SM] Error (line 0, column 0): Stream failed to open
+L 11/02/2022 - 16:52:12: [SM] Exception reported: Failed to connect to SourceBans DB, Could not find database config "sourcebans"
+L 11/02/2022 - 16:52:12: [SM] Blaming: sbpp_checker.smx
+L 11/02/2022 - 16:52:12: [SM] Call stack trace:
+L 11/02/2022 - 16:52:12: [SM]   [0] SetFailState
+L 11/02/2022 - 16:52:12: [SM]   [1] Line 75, sbpp_checker.sp::OnDatabaseConnected
+L 11/02/2022 - 16:52:12: [sbpp_sleuth.smx] SourceSleuth: Database connection error: Could not find database config "sourcebans"
+L 11/02/2022 - 16:53:09: Error log file session closed.
+L 11/02/2022 - 16:53:09: SourceMod error session started
+L 11/02/2022 - 16:53:09: Info (map "c8m5_rooftop") (file "/root/Steam/steamapps/common/Left 4 Dead 2 Dedicated Server/left4dead2/addons/sourcemod/logs/errors_20221102.log")
+L 11/02/2022 - 16:53:09: [SM] Fatal error encountered parsing translation file "sourcecomms.phrases.txt"
+L 11/02/2022 - 16:53:09: [SM] Error (line 0, column 0): Stream failed to open
+L 11/02/2022 - 16:53:09: [SM] Fatal error encountered parsing translation file "sourcesleuth.phrases.txt"
+L 11/02/2022 - 16:53:09: [SM] Error (line 0, column 0): Stream failed to open
+L 11/02/2022 - 16:54:44: Error log file session closed.
+L 11/02/2022 - 16:54:44: SourceMod error session started
+L 11/02/2022 - 16:54:44: Info (map "cedafever_m3") (file "/root/Steam/steamapps/common/Left 4 Dead 2 Dedicated Server/left4dead2/addons/sourcemod/logs/errors_20221102.log")
+L 11/02/2022 - 16:54:44: [SM] Fatal error encountered parsing translation file "sourcecomms.phrases.txt"
+L 11/02/2022 - 16:54:44: [SM] Error (line 0, column 0): Stream failed to open
+L 11/02/2022 - 16:54:44: [SM] Fatal error encountered parsing translation file "sourcesleuth.phrases.txt"
+L 11/02/2022 - 16:54:44: [SM] Error (line 0, column 0): Stream failed to open
+L 11/02/2022 - 16:55:02: [SM] Exception reported: Client 5 is not in game
+L 11/02/2022 - 16:55:02: [SM] Blaming: optional/l4d2_cedafever_autofix.smx
+L 11/02/2022 - 16:55:02: [SM] Call stack trace:
+L 11/02/2022 - 16:55:02: [SM]   [0] GetClientAbsOrigin
+L 11/02/2022 - 16:55:02: [SM]   [1] Line 71, E:\DownLoading\beifen\sourcemod-1.11.0-git6826-windows\addons\sourcemod\scripting\l4d2_cedafever_autofix.sp::FindMisplacedCans
+L 11/02/2022 - 16:55:02: [SM]   [2] Line 48, E:\DownLoading\beifen\sourcemod-1.11.0-git6826-windows\addons\sourcemod\scripting\l4d2_cedafever_autofix.sp::ScavTimerH
+L 11/02/2022 - 16:55:17: [SM] Exception reported: Client 5 is not in game
+L 11/02/2022 - 16:55:17: [SM] Blaming: optional/l4d2_cedafever_autofix.smx
+L 11/02/2022 - 16:55:17: [SM] Call stack trace:
+L 11/02/2022 - 16:55:17: [SM]   [0] GetClientAbsOrigin
+L 11/02/2022 - 16:55:17: [SM]   [1] Line 71, E:\DownLoading\beifen\sourcemod-1.11.0-git6826-windows\addons\sourcemod\scripting\l4d2_cedafever_autofix.sp::FindMisplacedCans
+L 11/02/2022 - 16:55:17: [SM]   [2] Line 48, E:\DownLoading\beifen\sourcemod-1.11.0-git6826-windows\addons\sourcemod\scripting\l4d2_cedafever_autofix.sp::ScavTimerH
+L 11/02/2022 - 16:55:32: [SM] Exception reported: Client 5 is not in game
+L 11/02/2022 - 16:55:32: [SM] Blaming: optional/l4d2_cedafever_autofix.smx
+L 11/02/2022 - 16:55:32: [SM] Call stack trace:
+L 11/02/2022 - 16:55:32: [SM]   [0] GetClientAbsOrigin
+L 11/02/2022 - 16:55:32: [SM]   [1] Line 71, E:\DownLoading\beifen\sourcemod-1.11.0-git6826-windows\addons\sourcemod\scripting\l4d2_cedafever_autofix.sp::FindMisplacedCans
+L 11/02/2022 - 16:55:32: [SM]   [2] Line 48, E:\DownLoading\beifen\sourcemod-1.11.0-git6826-windows\addons\sourcemod\scripting\l4d2_cedafever_autofix.sp::ScavTimerH
+L 11/02/2022 - 16:55:47: [SM] Exception reported: Client 5 is not in game
+L 11/02/2022 - 16:55:47: [SM] Blaming: optional/l4d2_cedafever_autofix.smx
+L 11/02/2022 - 16:55:47: [SM] Call stack trace:
+L 11/02/2022 - 16:55:47: [SM]   [0] GetClientAbsOrigin
+L 11/02/2022 - 16:55:47: [SM]   [1] Line 71, E:\DownLoading\beifen\sourcemod-1.11.0-git6826-windows\addons\sourcemod\scripting\l4d2_cedafever_autofix.sp::FindMisplacedCans
+L 11/02/2022 - 16:55:47: [SM]   [2] Line 48, E:\DownLoading\beifen\sourcemod-1.11.0-git6826-windows\addons\sourcemod\scripting\l4d2_cedafever_autofix.sp::ScavTimerH
+L 11/02/2022 - 16:56:02: [SM] Exception reported: Client 5 is not in game
+L 11/02/2022 - 16:56:02: [SM] Blaming: optional/l4d2_cedafever_autofix.smx
+L 11/02/2022 - 16:56:02: [SM] Call stack trace:
+L 11/02/2022 - 16:56:02: [SM]   [0] GetClientAbsOrigin
+L 11/02/2022 - 16:56:02: [SM]   [1] Line 71, E:\DownLoading\beifen\sourcemod-1.11.0-git6826-windows\addons\sourcemod\scripting\l4d2_cedafever_autofix.sp::FindMisplacedCans
+L 11/02/2022 - 16:56:02: [SM]   [2] Line 48, E:\DownLoading\beifen\sourcemod-1.11.0-git6826-windows\addons\sourcemod\scripting\l4d2_cedafever_autofix.sp::ScavTimerH
+L 11/02/2022 - 16:56:17: [SM] Exception reported: Client 5 is not in game
+L 11/02/2022 - 16:56:17: [SM] Blaming: optional/l4d2_cedafever_autofix.smx
+L 11/02/2022 - 16:56:17: [SM] Call stack trace:
+L 11/02/2022 - 16:56:17: [SM]   [0] GetClientAbsOrigin
+L 11/02/2022 - 16:56:17: [SM]   [1] Line 71, E:\DownLoading\beifen\sourcemod-1.11.0-git6826-windows\addons\sourcemod\scripting\l4d2_cedafever_autofix.sp::FindMisplacedCans
+L 11/02/2022 - 16:56:17: [SM]   [2] Line 48, E:\DownLoading\beifen\sourcemod-1.11.0-git6826-windows\addons\sourcemod\scripting\l4d2_cedafever_autofix.sp::ScavTimerH
+L 11/02/2022 - 16:56:32: [SM] Exception reported: Client 5 is not in game
+L 11/02/2022 - 16:56:32: [SM] Blaming: optional/l4d2_cedafever_autofix.smx
+L 11/02/2022 - 16:56:32: [SM] Call stack trace:
+L 11/02/2022 - 16:56:32: [SM]   [0] GetClientAbsOrigin
+L 11/02/2022 - 16:56:32: [SM]   [1] Line 71, E:\DownLoading\beifen\sourcemod-1.11.0-git6826-windows\addons\sourcemod\scripting\l4d2_cedafever_autofix.sp::FindMisplacedCans
+L 11/02/2022 - 16:56:32: [SM]   [2] Line 48, E:\DownLoading\beifen\sourcemod-1.11.0-git6826-windows\addons\sourcemod\scripting\l4d2_cedafever_autofix.sp::ScavTimerH
+L 11/02/2022 - 16:56:47: [SM] Exception reported: Client 5 is not in game
+L 11/02/2022 - 16:56:47: [SM] Blaming: optional/l4d2_cedafever_autofix.smx
+L 11/02/2022 - 16:56:47: [SM] Call stack trace:
+L 11/02/2022 - 16:56:47: [SM]   [0] GetClientAbsOrigin
+L 11/02/2022 - 16:56:47: [SM]   [1] Line 71, E:\DownLoading\beifen\sourcemod-1.11.0-git6826-windows\addons\sourcemod\scripting\l4d2_cedafever_autofix.sp::FindMisplacedCans
+L 11/02/2022 - 16:56:47: [SM]   [2] Line 48, E:\DownLoading\beifen\sourcemod-1.11.0-git6826-windows\addons\sourcemod\scripting\l4d2_cedafever_autofix.sp::ScavTimerH
+L 11/02/2022 - 16:57:02: [SM] Exception reported: Client 5 is not in game
+L 11/02/2022 - 16:57:02: [SM] Blaming: optional/l4d2_cedafever_autofix.smx
+L 11/02/2022 - 16:57:02: [SM] Call stack trace:
+L 11/02/2022 - 16:57:02: [SM]   [0] GetClientAbsOrigin
+L 11/02/2022 - 16:57:02: [SM]   [1] Line 71, E:\DownLoading\beifen\sourcemod-1.11.0-git6826-windows\addons\sourcemod\scripting\l4d2_cedafever_autofix.sp::FindMisplacedCans
+L 11/02/2022 - 16:57:02: [SM]   [2] Line 48, E:\DownLoading\beifen\sourcemod-1.11.0-git6826-windows\addons\sourcemod\scripting\l4d2_cedafever_autofix.sp::ScavTimerH
+L 11/02/2022 - 16:57:17: [SM] Exception reported: Client 5 is not in game
+L 11/02/2022 - 16:57:17: [SM] Blaming: optional/l4d2_cedafever_autofix.smx
+L 11/02/2022 - 16:57:17: [SM] Call stack trace:
+L 11/02/2022 - 16:57:17: [SM]   [0] GetClientAbsOrigin
+L 11/02/2022 - 16:57:17: [SM]   [1] Line 71, E:\DownLoading\beifen\sourcemod-1.11.0-git6826-windows\addons\sourcemod\scripting\l4d2_cedafever_autofix.sp::FindMisplacedCans
+L 11/02/2022 - 16:57:17: [SM]   [2] Line 48, E:\DownLoading\beifen\sourcemod-1.11.0-git6826-windows\addons\sourcemod\scripting\l4d2_cedafever_autofix.sp::ScavTimerH
+L 11/02/2022 - 16:57:32: [SM] Exception reported: Client 5 is not in game
+L 11/02/2022 - 16:57:32: [SM] Blaming: optional/l4d2_cedafever_autofix.smx
+L 11/02/2022 - 16:57:32: [SM] Call stack trace:
+L 11/02/2022 - 16:57:32: [SM]   [0] GetClientAbsOrigin
+L 11/02/2022 - 16:57:32: [SM]   [1] Line 71, E:\DownLoading\beifen\sourcemod-1.11.0-git6826-windows\addons\sourcemod\scripting\l4d2_cedafever_autofix.sp::FindMisplacedCans
+L 11/02/2022 - 16:57:32: [SM]   [2] Line 48, E:\DownLoading\beifen\sourcemod-1.11.0-git6826-windows\addons\sourcemod\scripting\l4d2_cedafever_autofix.sp::ScavTimerH
+L 11/02/2022 - 16:57:47: [SM] Exception reported: Client 5 is not in game
+L 11/02/2022 - 16:57:47: [SM] Blaming: optional/l4d2_cedafever_autofix.smx
+L 11/02/2022 - 16:57:47: [SM] Call stack trace:
+L 11/02/2022 - 16:57:47: [SM]   [0] GetClientAbsOrigin
+L 11/02/2022 - 16:57:47: [SM]   [1] Line 71, E:\DownLoading\beifen\sourcemod-1.11.0-git6826-windows\addons\sourcemod\scripting\l4d2_cedafever_autofix.sp::FindMisplacedCans
+L 11/02/2022 - 16:57:47: [SM]   [2] Line 48, E:\DownLoading\beifen\sourcemod-1.11.0-git6826-windows\addons\sourcemod\scripting\l4d2_cedafever_autofix.sp::ScavTimerH
+L 11/02/2022 - 16:58:02: [SM] Exception reported: Client 5 is not in game
+L 11/02/2022 - 16:58:02: [SM] Blaming: optional/l4d2_cedafever_autofix.smx
+L 11/02/2022 - 16:58:02: [SM] Call stack trace:
+L 11/02/2022 - 16:58:02: [SM]   [0] GetClientAbsOrigin
+L 11/02/2022 - 16:58:02: [SM]   [1] Line 71, E:\DownLoading\beifen\sourcemod-1.11.0-git6826-windows\addons\sourcemod\scripting\l4d2_cedafever_autofix.sp::FindMisplacedCans
+L 11/02/2022 - 16:58:02: [SM]   [2] Line 48, E:\DownLoading\beifen\sourcemod-1.11.0-git6826-windows\addons\sourcemod\scripting\l4d2_cedafever_autofix.sp::ScavTimerH
+L 11/02/2022 - 16:58:17: [SM] Exception reported: Client 5 is not in game
+L 11/02/2022 - 16:58:17: [SM] Blaming: optional/l4d2_cedafever_autofix.smx
+L 11/02/2022 - 16:58:17: [SM] Call stack trace:
+L 11/02/2022 - 16:58:17: [SM]   [0] GetClientAbsOrigin
+L 11/02/2022 - 16:58:17: [SM]   [1] Line 71, E:\DownLoading\beifen\sourcemod-1.11.0-git6826-windows\addons\sourcemod\scripting\l4d2_cedafever_autofix.sp::FindMisplacedCans
+L 11/02/2022 - 16:58:17: [SM]   [2] Line 48, E:\DownLoading\beifen\sourcemod-1.11.0-git6826-windows\addons\sourcemod\scripting\l4d2_cedafever_autofix.sp::ScavTimerH
+L 11/02/2022 - 16:58:32: [SM] Exception reported: Client 5 is not in game
+L 11/02/2022 - 16:58:32: [SM] Blaming: optional/l4d2_cedafever_autofix.smx
+L 11/02/2022 - 16:58:32: [SM] Call stack trace:
+L 11/02/2022 - 16:58:32: [SM]   [0] GetClientAbsOrigin
+L 11/02/2022 - 16:58:32: [SM]   [1] Line 71, E:\DownLoading\beifen\sourcemod-1.11.0-git6826-windows\addons\sourcemod\scripting\l4d2_cedafever_autofix.sp::FindMisplacedCans
+L 11/02/2022 - 16:58:32: [SM]   [2] Line 48, E:\DownLoading\beifen\sourcemod-1.11.0-git6826-windows\addons\sourcemod\scripting\l4d2_cedafever_autofix.sp::ScavTimerH
+L 11/02/2022 - 16:58:47: [SM] Exception reported: Client 5 is not in game
+L 11/02/2022 - 16:58:47: [SM] Blaming: optional/l4d2_cedafever_autofix.smx
+L 11/02/2022 - 16:58:47: [SM] Call stack trace:
+L 11/02/2022 - 16:58:47: [SM]   [0] GetClientAbsOrigin
+L 11/02/2022 - 16:58:47: [SM]   [1] Line 71, E:\DownLoading\beifen\sourcemod-1.11.0-git6826-windows\addons\sourcemod\scripting\l4d2_cedafever_autofix.sp::FindMisplacedCans
+L 11/02/2022 - 16:58:47: [SM]   [2] Line 48, E:\DownLoading\beifen\sourcemod-1.11.0-git6826-windows\addons\sourcemod\scripting\l4d2_cedafever_autofix.sp::ScavTimerH
+L 11/02/2022 - 16:59:02: [SM] Exception reported: Client 5 is not in game
+L 11/02/2022 - 16:59:02: [SM] Blaming: optional/l4d2_cedafever_autofix.smx
+L 11/02/2022 - 16:59:02: [SM] Call stack trace:
+L 11/02/2022 - 16:59:02: [SM]   [0] GetClientAbsOrigin
+L 11/02/2022 - 16:59:02: [SM]   [1] Line 71, E:\DownLoading\beifen\sourcemod-1.11.0-git6826-windows\addons\sourcemod\scripting\l4d2_cedafever_autofix.sp::FindMisplacedCans
+L 11/02/2022 - 16:59:02: [SM]   [2] Line 48, E:\DownLoading\beifen\sourcemod-1.11.0-git6826-windows\addons\sourcemod\scripting\l4d2_cedafever_autofix.sp::ScavTimerH
+L 11/02/2022 - 16:59:17: [SM] Exception reported: Client 2 is not in game
+L 11/02/2022 - 16:59:17: [SM] Blaming: optional/l4d2_cedafever_autofix.smx
+L 11/02/2022 - 16:59:17: [SM] Call stack trace:
+L 11/02/2022 - 16:59:17: [SM]   [0] GetClientAbsOrigin
+L 11/02/2022 - 16:59:17: [SM]   [1] Line 71, E:\DownLoading\beifen\sourcemod-1.11.0-git6826-windows\addons\sourcemod\scripting\l4d2_cedafever_autofix.sp::FindMisplacedCans
+L 11/02/2022 - 16:59:17: [SM]   [2] Line 48, E:\DownLoading\beifen\sourcemod-1.11.0-git6826-windows\addons\sourcemod\scripting\l4d2_cedafever_autofix.sp::ScavTimerH
+L 11/02/2022 - 16:59:32: [SM] Exception reported: Client 2 is not in game
+L 11/02/2022 - 16:59:32: [SM] Blaming: optional/l4d2_cedafever_autofix.smx
+L 11/02/2022 - 16:59:32: [SM] Call stack trace:
+L 11/02/2022 - 16:59:32: [SM]   [0] GetClientAbsOrigin
+L 11/02/2022 - 16:59:32: [SM]   [1] Line 71, E:\DownLoading\beifen\sourcemod-1.11.0-git6826-windows\addons\sourcemod\scripting\l4d2_cedafever_autofix.sp::FindMisplacedCans
+L 11/02/2022 - 16:59:32: [SM]   [2] Line 48, E:\DownLoading\beifen\sourcemod-1.11.0-git6826-windows\addons\sourcemod\scripting\l4d2_cedafever_autofix.sp::ScavTimerH
+L 11/02/2022 - 16:59:47: [SM] Exception reported: Client 2 is not in game
+L 11/02/2022 - 16:59:47: [SM] Blaming: optional/l4d2_cedafever_autofix.smx
+L 11/02/2022 - 16:59:47: [SM] Call stack trace:
+L 11/02/2022 - 16:59:47: [SM]   [0] GetClientAbsOrigin
+L 11/02/2022 - 16:59:47: [SM]   [1] Line 71, E:\DownLoading\beifen\sourcemod-1.11.0-git6826-windows\addons\sourcemod\scripting\l4d2_cedafever_autofix.sp::FindMisplacedCans
+L 11/02/2022 - 16:59:47: [SM]   [2] Line 48, E:\DownLoading\beifen\sourcemod-1.11.0-git6826-windows\addons\sourcemod\scripting\l4d2_cedafever_autofix.sp::ScavTimerH
+L 11/02/2022 - 17:00:02: [SM] Exception reported: Client 2 is not in game
+L 11/02/2022 - 17:00:02: [SM] Blaming: optional/l4d2_cedafever_autofix.smx
+L 11/02/2022 - 17:00:02: [SM] Call stack trace:
+L 11/02/2022 - 17:00:02: [SM]   [0] GetClientAbsOrigin
+L 11/02/2022 - 17:00:02: [SM]   [1] Line 71, E:\DownLoading\beifen\sourcemod-1.11.0-git6826-windows\addons\sourcemod\scripting\l4d2_cedafever_autofix.sp::FindMisplacedCans
+L 11/02/2022 - 17:00:02: [SM]   [2] Line 48, E:\DownLoading\beifen\sourcemod-1.11.0-git6826-windows\addons\sourcemod\scripting\l4d2_cedafever_autofix.sp::ScavTimerH
+L 11/02/2022 - 17:00:17: [SM] Exception reported: Client 2 is not in game
+L 11/02/2022 - 17:00:17: [SM] Blaming: optional/l4d2_cedafever_autofix.smx
+L 11/02/2022 - 17:00:17: [SM] Call stack trace:
+L 11/02/2022 - 17:00:17: [SM]   [0] GetClientAbsOrigin
+L 11/02/2022 - 17:00:17: [SM]   [1] Line 71, E:\DownLoading\beifen\sourcemod-1.11.0-git6826-windows\addons\sourcemod\scripting\l4d2_cedafever_autofix.sp::FindMisplacedCans
+L 11/02/2022 - 17:00:17: [SM]   [2] Line 48, E:\DownLoading\beifen\sourcemod-1.11.0-git6826-windows\addons\sourcemod\scripting\l4d2_cedafever_autofix.sp::ScavTimerH
+L 11/02/2022 - 17:00:32: [SM] Exception reported: Client 2 is not in game
+L 11/02/2022 - 17:00:32: [SM] Blaming: optional/l4d2_cedafever_autofix.smx
+L 11/02/2022 - 17:00:32: [SM] Call stack trace:
+L 11/02/2022 - 17:00:32: [SM]   [0] GetClientAbsOrigin
+L 11/02/2022 - 17:00:32: [SM]   [1] Line 71, E:\DownLoading\beifen\sourcemod-1.11.0-git6826-windows\addons\sourcemod\scripting\l4d2_cedafever_autofix.sp::FindMisplacedCans
+L 11/02/2022 - 17:00:32: [SM]   [2] Line 48, E:\DownLoading\beifen\sourcemod-1.11.0-git6826-windows\addons\sourcemod\scripting\l4d2_cedafever_autofix.sp::ScavTimerH
+L 11/02/2022 - 17:00:47: [SM] Exception reported: Client 2 is not in game
+L 11/02/2022 - 17:00:47: [SM] Blaming: optional/l4d2_cedafever_autofix.smx
+L 11/02/2022 - 17:00:47: [SM] Call stack trace:
+L 11/02/2022 - 17:00:47: [SM]   [0] GetClientAbsOrigin
+L 11/02/2022 - 17:00:47: [SM]   [1] Line 71, E:\DownLoading\beifen\sourcemod-1.11.0-git6826-windows\addons\sourcemod\scripting\l4d2_cedafever_autofix.sp::FindMisplacedCans
+L 11/02/2022 - 17:00:47: [SM]   [2] Line 48, E:\DownLoading\beifen\sourcemod-1.11.0-git6826-windows\addons\sourcemod\scripting\l4d2_cedafever_autofix.sp::ScavTimerH
+L 11/02/2022 - 17:01:02: [SM] Exception reported: Client 2 is not in game
+L 11/02/2022 - 17:01:02: [SM] Blaming: optional/l4d2_cedafever_autofix.smx
+L 11/02/2022 - 17:01:02: [SM] Call stack trace:
+L 11/02/2022 - 17:01:02: [SM]   [0] GetClientAbsOrigin
+L 11/02/2022 - 17:01:02: [SM]   [1] Line 71, E:\DownLoading\beifen\sourcemod-1.11.0-git6826-windows\addons\sourcemod\scripting\l4d2_cedafever_autofix.sp::FindMisplacedCans
+L 11/02/2022 - 17:01:02: [SM]   [2] Line 48, E:\DownLoading\beifen\sourcemod-1.11.0-git6826-windows\addons\sourcemod\scripting\l4d2_cedafever_autofix.sp::ScavTimerH
+L 11/02/2022 - 17:01:17: [SM] Exception reported: Client 2 is not in game
+L 11/02/2022 - 17:01:17: [SM] Blaming: optional/l4d2_cedafever_autofix.smx
+L 11/02/2022 - 17:01:17: [SM] Call stack trace:
+L 11/02/2022 - 17:01:17: [SM]   [0] GetClientAbsOrigin
+L 11/02/2022 - 17:01:17: [SM]   [1] Line 71, E:\DownLoading\beifen\sourcemod-1.11.0-git6826-windows\addons\sourcemod\scripting\l4d2_cedafever_autofix.sp::FindMisplacedCans
+L 11/02/2022 - 17:01:17: [SM]   [2] Line 48, E:\DownLoading\beifen\sourcemod-1.11.0-git6826-windows\addons\sourcemod\scripting\l4d2_cedafever_autofix.sp::ScavTimerH
+L 11/02/2022 - 17:01:32: [SM] Exception reported: Client 2 is not in game
+L 11/02/2022 - 17:01:32: [SM] Blaming: optional/l4d2_cedafever_autofix.smx
+L 11/02/2022 - 17:01:32: [SM] Call stack trace:
+L 11/02/2022 - 17:01:32: [SM]   [0] GetClientAbsOrigin
+L 11/02/2022 - 17:01:32: [SM]   [1] Line 71, E:\DownLoading\beifen\sourcemod-1.11.0-git6826-windows\addons\sourcemod\scripting\l4d2_cedafever_autofix.sp::FindMisplacedCans
+L 11/02/2022 - 17:01:32: [SM]   [2] Line 48, E:\DownLoading\beifen\sourcemod-1.11.0-git6826-windows\addons\sourcemod\scripting\l4d2_cedafever_autofix.sp::ScavTimerH
+L 11/02/2022 - 17:01:47: [SM] Exception reported: Client 2 is not in game
+L 11/02/2022 - 17:01:47: [SM] Blaming: optional/l4d2_cedafever_autofix.smx
+L 11/02/2022 - 17:01:47: [SM] Call stack trace:
+L 11/02/2022 - 17:01:47: [SM]   [0] GetClientAbsOrigin
+L 11/02/2022 - 17:01:47: [SM]   [1] Line 71, E:\DownLoading\beifen\sourcemod-1.11.0-git6826-windows\addons\sourcemod\scripting\l4d2_cedafever_autofix.sp::FindMisplacedCans
+L 11/02/2022 - 17:01:47: [SM]   [2] Line 48, E:\DownLoading\beifen\sourcemod-1.11.0-git6826-windows\addons\sourcemod\scripting\l4d2_cedafever_autofix.sp::ScavTimerH
+L 11/02/2022 - 17:02:02: [SM] Exception reported: Client 2 is not in game
+L 11/02/2022 - 17:02:02: [SM] Blaming: optional/l4d2_cedafever_autofix.smx
+L 11/02/2022 - 17:02:02: [SM] Call stack trace:
+L 11/02/2022 - 17:02:02: [SM]   [0] GetClientAbsOrigin
+L 11/02/2022 - 17:02:02: [SM]   [1] Line 71, E:\DownLoading\beifen\sourcemod-1.11.0-git6826-windows\addons\sourcemod\scripting\l4d2_cedafever_autofix.sp::FindMisplacedCans
+L 11/02/2022 - 17:02:02: [SM]   [2] Line 48, E:\DownLoading\beifen\sourcemod-1.11.0-git6826-windows\addons\sourcemod\scripting\l4d2_cedafever_autofix.sp::ScavTimerH
+L 11/02/2022 - 17:02:17: [SM] Exception reported: Client 2 is not in game
+L 11/02/2022 - 17:02:17: [SM] Blaming: optional/l4d2_cedafever_autofix.smx
+L 11/02/2022 - 17:02:17: [SM] Call stack trace:
+L 11/02/2022 - 17:02:17: [SM]   [0] GetClientAbsOrigin
+L 11/02/2022 - 17:02:17: [SM]   [1] Line 71, E:\DownLoading\beifen\sourcemod-1.11.0-git6826-windows\addons\sourcemod\scripting\l4d2_cedafever_autofix.sp::FindMisplacedCans
+L 11/02/2022 - 17:02:17: [SM]   [2] Line 48, E:\DownLoading\beifen\sourcemod-1.11.0-git6826-windows\addons\sourcemod\scripting\l4d2_cedafever_autofix.sp::ScavTimerH
+L 11/02/2022 - 17:02:32: [SM] Exception reported: Client 2 is not in game
+L 11/02/2022 - 17:02:32: [SM] Blaming: optional/l4d2_cedafever_autofix.smx
+L 11/02/2022 - 17:02:32: [SM] Call stack trace:
+L 11/02/2022 - 17:02:32: [SM]   [0] GetClientAbsOrigin
+L 11/02/2022 - 17:02:32: [SM]   [1] Line 71, E:\DownLoading\beifen\sourcemod-1.11.0-git6826-windows\addons\sourcemod\scripting\l4d2_cedafever_autofix.sp::FindMisplacedCans
+L 11/02/2022 - 17:02:32: [SM]   [2] Line 48, E:\DownLoading\beifen\sourcemod-1.11.0-git6826-windows\addons\sourcemod\scripting\l4d2_cedafever_autofix.sp::ScavTimerH
+L 11/02/2022 - 17:02:47: [SM] Exception reported: Client 2 is not in game
+L 11/02/2022 - 17:02:47: [SM] Blaming: optional/l4d2_cedafever_autofix.smx
+L 11/02/2022 - 17:02:47: [SM] Call stack trace:
+L 11/02/2022 - 17:02:47: [SM]   [0] GetClientAbsOrigin
+L 11/02/2022 - 17:02:47: [SM]   [1] Line 71, E:\DownLoading\beifen\sourcemod-1.11.0-git6826-windows\addons\sourcemod\scripting\l4d2_cedafever_autofix.sp::FindMisplacedCans
+L 11/02/2022 - 17:02:47: [SM]   [2] Line 48, E:\DownLoading\beifen\sourcemod-1.11.0-git6826-windows\addons\sourcemod\scripting\l4d2_cedafever_autofix.sp::ScavTimerH
+L 11/02/2022 - 17:03:02: [SM] Exception reported: Client 2 is not in game
+L 11/02/2022 - 17:03:02: [SM] Blaming: optional/l4d2_cedafever_autofix.smx
+L 11/02/2022 - 17:03:02: [SM] Call stack trace:
+L 11/02/2022 - 17:03:02: [SM]   [0] GetClientAbsOrigin
+L 11/02/2022 - 17:03:02: [SM]   [1] Line 71, E:\DownLoading\beifen\sourcemod-1.11.0-git6826-windows\addons\sourcemod\scripting\l4d2_cedafever_autofix.sp::FindMisplacedCans
+L 11/02/2022 - 17:03:02: [SM]   [2] Line 48, E:\DownLoading\beifen\sourcemod-1.11.0-git6826-windows\addons\sourcemod\scripting\l4d2_cedafever_autofix.sp::ScavTimerH
+L 11/02/2022 - 17:03:17: [SM] Exception reported: Client 2 is not in game
+L 11/02/2022 - 17:03:17: [SM] Blaming: optional/l4d2_cedafever_autofix.smx
+L 11/02/2022 - 17:03:17: [SM] Call stack trace:
+L 11/02/2022 - 17:03:17: [SM]   [0] GetClientAbsOrigin
+L 11/02/2022 - 17:03:17: [SM]   [1] Line 71, E:\DownLoading\beifen\sourcemod-1.11.0-git6826-windows\addons\sourcemod\scripting\l4d2_cedafever_autofix.sp::FindMisplacedCans
+L 11/02/2022 - 17:03:17: [SM]   [2] Line 48, E:\DownLoading\beifen\sourcemod-1.11.0-git6826-windows\addons\sourcemod\scripting\l4d2_cedafever_autofix.sp::ScavTimerH
+L 11/02/2022 - 17:03:32: [SM] Exception reported: Client 2 is not in game
+L 11/02/2022 - 17:03:32: [SM] Blaming: optional/l4d2_cedafever_autofix.smx
+L 11/02/2022 - 17:03:32: [SM] Call stack trace:
+L 11/02/2022 - 17:03:32: [SM]   [0] GetClientAbsOrigin
+L 11/02/2022 - 17:03:32: [SM]   [1] Line 71, E:\DownLoading\beifen\sourcemod-1.11.0-git6826-windows\addons\sourcemod\scripting\l4d2_cedafever_autofix.sp::FindMisplacedCans
+L 11/02/2022 - 17:03:32: [SM]   [2] Line 48, E:\DownLoading\beifen\sourcemod-1.11.0-git6826-windows\addons\sourcemod\scripting\l4d2_cedafever_autofix.sp::ScavTimerH
+L 11/02/2022 - 17:03:47: [SM] Exception reported: Client 2 is not in game
+L 11/02/2022 - 17:03:47: [SM] Blaming: optional/l4d2_cedafever_autofix.smx
+L 11/02/2022 - 17:03:47: [SM] Call stack trace:
+L 11/02/2022 - 17:03:47: [SM]   [0] GetClientAbsOrigin
+L 11/02/2022 - 17:03:47: [SM]   [1] Line 71, E:\DownLoading\beifen\sourcemod-1.11.0-git6826-windows\addons\sourcemod\scripting\l4d2_cedafever_autofix.sp::FindMisplacedCans
+L 11/02/2022 - 17:03:47: [SM]   [2] Line 48, E:\DownLoading\beifen\sourcemod-1.11.0-git6826-windows\addons\sourcemod\scripting\l4d2_cedafever_autofix.sp::ScavTimerH
+L 11/02/2022 - 17:04:02: [SM] Exception reported: Client 2 is not in game
+L 11/02/2022 - 17:04:02: [SM] Blaming: optional/l4d2_cedafever_autofix.smx
+L 11/02/2022 - 17:04:02: [SM] Call stack trace:
+L 11/02/2022 - 17:04:02: [SM]   [0] GetClientAbsOrigin
+L 11/02/2022 - 17:04:02: [SM]   [1] Line 71, E:\DownLoading\beifen\sourcemod-1.11.0-git6826-windows\addons\sourcemod\scripting\l4d2_cedafever_autofix.sp::FindMisplacedCans
+L 11/02/2022 - 17:04:02: [SM]   [2] Line 48, E:\DownLoading\beifen\sourcemod-1.11.0-git6826-windows\addons\sourcemod\scripting\l4d2_cedafever_autofix.sp::ScavTimerH
+L 11/02/2022 - 17:04:17: [SM] Exception reported: Client 2 is not in game
+L 11/02/2022 - 17:04:17: [SM] Blaming: optional/l4d2_cedafever_autofix.smx
+L 11/02/2022 - 17:04:17: [SM] Call stack trace:
+L 11/02/2022 - 17:04:17: [SM]   [0] GetClientAbsOrigin
+L 11/02/2022 - 17:04:17: [SM]   [1] Line 71, E:\DownLoading\beifen\sourcemod-1.11.0-git6826-windows\addons\sourcemod\scripting\l4d2_cedafever_autofix.sp::FindMisplacedCans
+L 11/02/2022 - 17:04:17: [SM]   [2] Line 48, E:\DownLoading\beifen\sourcemod-1.11.0-git6826-windows\addons\sourcemod\scripting\l4d2_cedafever_autofix.sp::ScavTimerH
+L 11/02/2022 - 17:04:32: [SM] Exception reported: Client 2 is not in game
+L 11/02/2022 - 17:04:32: [SM] Blaming: optional/l4d2_cedafever_autofix.smx
+L 11/02/2022 - 17:04:32: [SM] Call stack trace:
+L 11/02/2022 - 17:04:32: [SM]   [0] GetClientAbsOrigin
+L 11/02/2022 - 17:04:32: [SM]   [1] Line 71, E:\DownLoading\beifen\sourcemod-1.11.0-git6826-windows\addons\sourcemod\scripting\l4d2_cedafever_autofix.sp::FindMisplacedCans
+L 11/02/2022 - 17:04:32: [SM]   [2] Line 48, E:\DownLoading\beifen\sourcemod-1.11.0-git6826-windows\addons\sourcemod\scripting\l4d2_cedafever_autofix.sp::ScavTimerH
+L 11/02/2022 - 17:04:47: [SM] Exception reported: Client 2 is not in game
+L 11/02/2022 - 17:04:47: [SM] Blaming: optional/l4d2_cedafever_autofix.smx
+L 11/02/2022 - 17:04:47: [SM] Call stack trace:
+L 11/02/2022 - 17:04:47: [SM]   [0] GetClientAbsOrigin
+L 11/02/2022 - 17:04:47: [SM]   [1] Line 71, E:\DownLoading\beifen\sourcemod-1.11.0-git6826-windows\addons\sourcemod\scripting\l4d2_cedafever_autofix.sp::FindMisplacedCans
+L 11/02/2022 - 17:04:47: [SM]   [2] Line 48, E:\DownLoading\beifen\sourcemod-1.11.0-git6826-windows\addons\sourcemod\scripting\l4d2_cedafever_autofix.sp::ScavTimerH
+L 11/02/2022 - 17:05:02: [SM] Exception reported: Client 2 is not in game
+L 11/02/2022 - 17:05:02: [SM] Blaming: optional/l4d2_cedafever_autofix.smx
+L 11/02/2022 - 17:05:02: [SM] Call stack trace:
+L 11/02/2022 - 17:05:02: [SM]   [0] GetClientAbsOrigin
+L 11/02/2022 - 17:05:02: [SM]   [1] Line 71, E:\DownLoading\beifen\sourcemod-1.11.0-git6826-windows\addons\sourcemod\scripting\l4d2_cedafever_autofix.sp::FindMisplacedCans
+L 11/02/2022 - 17:05:02: [SM]   [2] Line 48, E:\DownLoading\beifen\sourcemod-1.11.0-git6826-windows\addons\sourcemod\scripting\l4d2_cedafever_autofix.sp::ScavTimerH
+L 11/02/2022 - 17:05:17: [SM] Exception reported: Client 3 is not in game
+L 11/02/2022 - 17:05:17: [SM] Blaming: optional/l4d2_cedafever_autofix.smx
+L 11/02/2022 - 17:05:17: [SM] Call stack trace:
+L 11/02/2022 - 17:05:17: [SM]   [0] GetClientAbsOrigin
+L 11/02/2022 - 17:05:17: [SM]   [1] Line 71, E:\DownLoading\beifen\sourcemod-1.11.0-git6826-windows\addons\sourcemod\scripting\l4d2_cedafever_autofix.sp::FindMisplacedCans
+L 11/02/2022 - 17:05:17: [SM]   [2] Line 48, E:\DownLoading\beifen\sourcemod-1.11.0-git6826-windows\addons\sourcemod\scripting\l4d2_cedafever_autofix.sp::ScavTimerH
+L 11/02/2022 - 17:05:32: [SM] Exception reported: Client 3 is not in game
+L 11/02/2022 - 17:05:32: [SM] Blaming: optional/l4d2_cedafever_autofix.smx
+L 11/02/2022 - 17:05:32: [SM] Call stack trace:
+L 11/02/2022 - 17:05:32: [SM]   [0] GetClientAbsOrigin
+L 11/02/2022 - 17:05:32: [SM]   [1] Line 71, E:\DownLoading\beifen\sourcemod-1.11.0-git6826-windows\addons\sourcemod\scripting\l4d2_cedafever_autofix.sp::FindMisplacedCans
+L 11/02/2022 - 17:05:32: [SM]   [2] Line 48, E:\DownLoading\beifen\sourcemod-1.11.0-git6826-windows\addons\sourcemod\scripting\l4d2_cedafever_autofix.sp::ScavTimerH
+L 11/02/2022 - 17:05:47: [SM] Exception reported: Client 3 is not in game
+L 11/02/2022 - 17:05:47: [SM] Blaming: optional/l4d2_cedafever_autofix.smx
+L 11/02/2022 - 17:05:47: [SM] Call stack trace:
+L 11/02/2022 - 17:05:47: [SM]   [0] GetClientAbsOrigin
+L 11/02/2022 - 17:05:47: [SM]   [1] Line 71, E:\DownLoading\beifen\sourcemod-1.11.0-git6826-windows\addons\sourcemod\scripting\l4d2_cedafever_autofix.sp::FindMisplacedCans
+L 11/02/2022 - 17:05:47: [SM]   [2] Line 48, E:\DownLoading\beifen\sourcemod-1.11.0-git6826-windows\addons\sourcemod\scripting\l4d2_cedafever_autofix.sp::ScavTimerH
+L 11/02/2022 - 17:06:02: [SM] Exception reported: Client 3 is not in game
+L 11/02/2022 - 17:06:02: [SM] Blaming: optional/l4d2_cedafever_autofix.smx
+L 11/02/2022 - 17:06:02: [SM] Call stack trace:
+L 11/02/2022 - 17:06:02: [SM]   [0] GetClientAbsOrigin
+L 11/02/2022 - 17:06:02: [SM]   [1] Line 71, E:\DownLoading\beifen\sourcemod-1.11.0-git6826-windows\addons\sourcemod\scripting\l4d2_cedafever_autofix.sp::FindMisplacedCans
+L 11/02/2022 - 17:06:02: [SM]   [2] Line 48, E:\DownLoading\beifen\sourcemod-1.11.0-git6826-windows\addons\sourcemod\scripting\l4d2_cedafever_autofix.sp::ScavTimerH
+L 11/02/2022 - 17:06:17: [SM] Exception reported: Client 3 is not in game
+L 11/02/2022 - 17:06:17: [SM] Blaming: optional/l4d2_cedafever_autofix.smx
+L 11/02/2022 - 17:06:17: [SM] Call stack trace:
+L 11/02/2022 - 17:06:17: [SM]   [0] GetClientAbsOrigin
+L 11/02/2022 - 17:06:17: [SM]   [1] Line 71, E:\DownLoading\beifen\sourcemod-1.11.0-git6826-windows\addons\sourcemod\scripting\l4d2_cedafever_autofix.sp::FindMisplacedCans
+L 11/02/2022 - 17:06:17: [SM]   [2] Line 48, E:\DownLoading\beifen\sourcemod-1.11.0-git6826-windows\addons\sourcemod\scripting\l4d2_cedafever_autofix.sp::ScavTimerH
+L 11/02/2022 - 17:06:32: [SM] Exception reported: Client 3 is not in game
+L 11/02/2022 - 17:06:32: [SM] Blaming: optional/l4d2_cedafever_autofix.smx
+L 11/02/2022 - 17:06:32: [SM] Call stack trace:
+L 11/02/2022 - 17:06:32: [SM]   [0] GetClientAbsOrigin
+L 11/02/2022 - 17:06:32: [SM]   [1] Line 71, E:\DownLoading\beifen\sourcemod-1.11.0-git6826-windows\addons\sourcemod\scripting\l4d2_cedafever_autofix.sp::FindMisplacedCans
+L 11/02/2022 - 17:06:32: [SM]   [2] Line 48, E:\DownLoading\beifen\sourcemod-1.11.0-git6826-windows\addons\sourcemod\scripting\l4d2_cedafever_autofix.sp::ScavTimerH
+L 11/02/2022 - 17:06:47: [SM] Exception reported: Client 3 is not in game
+L 11/02/2022 - 17:06:47: [SM] Blaming: optional/l4d2_cedafever_autofix.smx
+L 11/02/2022 - 17:06:47: [SM] Call stack trace:
+L 11/02/2022 - 17:06:47: [SM]   [0] GetClientAbsOrigin
+L 11/02/2022 - 17:06:47: [SM]   [1] Line 71, E:\DownLoading\beifen\sourcemod-1.11.0-git6826-windows\addons\sourcemod\scripting\l4d2_cedafever_autofix.sp::FindMisplacedCans
+L 11/02/2022 - 17:06:47: [SM]   [2] Line 48, E:\DownLoading\beifen\sourcemod-1.11.0-git6826-windows\addons\sourcemod\scripting\l4d2_cedafever_autofix.sp::ScavTimerH
+L 11/02/2022 - 17:07:02: [SM] Exception reported: Client 3 is not in game
+L 11/02/2022 - 17:07:02: [SM] Blaming: optional/l4d2_cedafever_autofix.smx
+L 11/02/2022 - 17:07:02: [SM] Call stack trace:
+L 11/02/2022 - 17:07:02: [SM]   [0] GetClientAbsOrigin
+L 11/02/2022 - 17:07:02: [SM]   [1] Line 71, E:\DownLoading\beifen\sourcemod-1.11.0-git6826-windows\addons\sourcemod\scripting\l4d2_cedafever_autofix.sp::FindMisplacedCans
+L 11/02/2022 - 17:07:02: [SM]   [2] Line 48, E:\DownLoading\beifen\sourcemod-1.11.0-git6826-windows\addons\sourcemod\scripting\l4d2_cedafever_autofix.sp::ScavTimerH
+L 11/02/2022 - 17:07:17: [SM] Exception reported: Client 3 is not in game
+L 11/02/2022 - 17:07:17: [SM] Blaming: optional/l4d2_cedafever_autofix.smx
+L 11/02/2022 - 17:07:17: [SM] Call stack trace:
+L 11/02/2022 - 17:07:17: [SM]   [0] GetClientAbsOrigin
+L 11/02/2022 - 17:07:17: [SM]   [1] Line 71, E:\DownLoading\beifen\sourcemod-1.11.0-git6826-windows\addons\sourcemod\scripting\l4d2_cedafever_autofix.sp::FindMisplacedCans
+L 11/02/2022 - 17:07:17: [SM]   [2] Line 48, E:\DownLoading\beifen\sourcemod-1.11.0-git6826-windows\addons\sourcemod\scripting\l4d2_cedafever_autofix.sp::ScavTimerH
+L 11/02/2022 - 17:07:32: [SM] Exception reported: Client 3 is not in game
+L 11/02/2022 - 17:07:32: [SM] Blaming: optional/l4d2_cedafever_autofix.smx
+L 11/02/2022 - 17:07:32: [SM] Call stack trace:
+L 11/02/2022 - 17:07:32: [SM]   [0] GetClientAbsOrigin
+L 11/02/2022 - 17:07:32: [SM]   [1] Line 71, E:\DownLoading\beifen\sourcemod-1.11.0-git6826-windows\addons\sourcemod\scripting\l4d2_cedafever_autofix.sp::FindMisplacedCans
+L 11/02/2022 - 17:07:32: [SM]   [2] Line 48, E:\DownLoading\beifen\sourcemod-1.11.0-git6826-windows\addons\sourcemod\scripting\l4d2_cedafever_autofix.sp::ScavTimerH
+L 11/02/2022 - 17:07:47: [SM] Exception reported: Client 2 is not in game
+L 11/02/2022 - 17:07:47: [SM] Blaming: optional/l4d2_cedafever_autofix.smx
+L 11/02/2022 - 17:07:47: [SM] Call stack trace:
+L 11/02/2022 - 17:07:47: [SM]   [0] GetClientAbsOrigin
+L 11/02/2022 - 17:07:47: [SM]   [1] Line 71, E:\DownLoading\beifen\sourcemod-1.11.0-git6826-windows\addons\sourcemod\scripting\l4d2_cedafever_autofix.sp::FindMisplacedCans
+L 11/02/2022 - 17:07:47: [SM]   [2] Line 48, E:\DownLoading\beifen\sourcemod-1.11.0-git6826-windows\addons\sourcemod\scripting\l4d2_cedafever_autofix.sp::ScavTimerH
+L 11/02/2022 - 17:08:02: [SM] Exception reported: Client 2 is not in game
+L 11/02/2022 - 17:08:02: [SM] Blaming: optional/l4d2_cedafever_autofix.smx
+L 11/02/2022 - 17:08:02: [SM] Call stack trace:
+L 11/02/2022 - 17:08:02: [SM]   [0] GetClientAbsOrigin
+L 11/02/2022 - 17:08:02: [SM]   [1] Line 71, E:\DownLoading\beifen\sourcemod-1.11.0-git6826-windows\addons\sourcemod\scripting\l4d2_cedafever_autofix.sp::FindMisplacedCans
+L 11/02/2022 - 17:08:02: [SM]   [2] Line 48, E:\DownLoading\beifen\sourcemod-1.11.0-git6826-windows\addons\sourcemod\scripting\l4d2_cedafever_autofix.sp::ScavTimerH
+L 11/02/2022 - 17:08:17: [SM] Exception reported: Client 2 is not in game
+L 11/02/2022 - 17:08:17: [SM] Blaming: optional/l4d2_cedafever_autofix.smx
+L 11/02/2022 - 17:08:17: [SM] Call stack trace:
+L 11/02/2022 - 17:08:17: [SM]   [0] GetClientAbsOrigin
+L 11/02/2022 - 17:08:17: [SM]   [1] Line 71, E:\DownLoading\beifen\sourcemod-1.11.0-git6826-windows\addons\sourcemod\scripting\l4d2_cedafever_autofix.sp::FindMisplacedCans
+L 11/02/2022 - 17:08:17: [SM]   [2] Line 48, E:\DownLoading\beifen\sourcemod-1.11.0-git6826-windows\addons\sourcemod\scripting\l4d2_cedafever_autofix.sp::ScavTimerH
+L 11/02/2022 - 17:08:32: [SM] Exception reported: Client 2 is not in game
+L 11/02/2022 - 17:08:32: [SM] Blaming: optional/l4d2_cedafever_autofix.smx
+L 11/02/2022 - 17:08:32: [SM] Call stack trace:
+L 11/02/2022 - 17:08:32: [SM]   [0] GetClientAbsOrigin
+L 11/02/2022 - 17:08:32: [SM]   [1] Line 71, E:\DownLoading\beifen\sourcemod-1.11.0-git6826-windows\addons\sourcemod\scripting\l4d2_cedafever_autofix.sp::FindMisplacedCans
+L 11/02/2022 - 17:08:32: [SM]   [2] Line 48, E:\DownLoading\beifen\sourcemod-1.11.0-git6826-windows\addons\sourcemod\scripting\l4d2_cedafever_autofix.sp::ScavTimerH
+L 11/02/2022 - 17:08:47: [SM] Exception reported: Client 2 is not in game
+L 11/02/2022 - 17:08:47: [SM] Blaming: optional/l4d2_cedafever_autofix.smx
+L 11/02/2022 - 17:08:47: [SM] Call stack trace:
+L 11/02/2022 - 17:08:47: [SM]   [0] GetClientAbsOrigin
+L 11/02/2022 - 17:08:47: [SM]   [1] Line 71, E:\DownLoading\beifen\sourcemod-1.11.0-git6826-windows\addons\sourcemod\scripting\l4d2_cedafever_autofix.sp::FindMisplacedCans
+L 11/02/2022 - 17:08:47: [SM]   [2] Line 48, E:\DownLoading\beifen\sourcemod-1.11.0-git6826-windows\addons\sourcemod\scripting\l4d2_cedafever_autofix.sp::ScavTimerH
+L 11/02/2022 - 17:09:02: [SM] Exception reported: Client 2 is not in game
+L 11/02/2022 - 17:09:02: [SM] Blaming: optional/l4d2_cedafever_autofix.smx
+L 11/02/2022 - 17:09:02: [SM] Call stack trace:
+L 11/02/2022 - 17:09:02: [SM]   [0] GetClientAbsOrigin
+L 11/02/2022 - 17:09:02: [SM]   [1] Line 71, E:\DownLoading\beifen\sourcemod-1.11.0-git6826-windows\addons\sourcemod\scripting\l4d2_cedafever_autofix.sp::FindMisplacedCans
+L 11/02/2022 - 17:09:02: [SM]   [2] Line 48, E:\DownLoading\beifen\sourcemod-1.11.0-git6826-windows\addons\sourcemod\scripting\l4d2_cedafever_autofix.sp::ScavTimerH
+L 11/02/2022 - 17:09:17: [SM] Exception reported: Client 2 is not in game
+L 11/02/2022 - 17:09:17: [SM] Blaming: optional/l4d2_cedafever_autofix.smx
+L 11/02/2022 - 17:09:17: [SM] Call stack trace:
+L 11/02/2022 - 17:09:17: [SM]   [0] GetClientAbsOrigin
+L 11/02/2022 - 17:09:17: [SM]   [1] Line 71, E:\DownLoading\beifen\sourcemod-1.11.0-git6826-windows\addons\sourcemod\scripting\l4d2_cedafever_autofix.sp::FindMisplacedCans
+L 11/02/2022 - 17:09:17: [SM]   [2] Line 48, E:\DownLoading\beifen\sourcemod-1.11.0-git6826-windows\addons\sourcemod\scripting\l4d2_cedafever_autofix.sp::ScavTimerH
+L 11/02/2022 - 17:09:32: [SM] Exception reported: Client 2 is not in game
+L 11/02/2022 - 17:09:32: [SM] Blaming: optional/l4d2_cedafever_autofix.smx
+L 11/02/2022 - 17:09:32: [SM] Call stack trace:
+L 11/02/2022 - 17:09:32: [SM]   [0] GetClientAbsOrigin
+L 11/02/2022 - 17:09:32: [SM]   [1] Line 71, E:\DownLoading\beifen\sourcemod-1.11.0-git6826-windows\addons\sourcemod\scripting\l4d2_cedafever_autofix.sp::FindMisplacedCans
+L 11/02/2022 - 17:09:32: [SM]   [2] Line 48, E:\DownLoading\beifen\sourcemod-1.11.0-git6826-windows\addons\sourcemod\scripting\l4d2_cedafever_autofix.sp::ScavTimerH
+L 11/02/2022 - 17:09:47: [SM] Exception reported: Client 2 is not in game
+L 11/02/2022 - 17:09:47: [SM] Blaming: optional/l4d2_cedafever_autofix.smx
+L 11/02/2022 - 17:09:47: [SM] Call stack trace:
+L 11/02/2022 - 17:09:47: [SM]   [0] GetClientAbsOrigin
+L 11/02/2022 - 17:09:47: [SM]   [1] Line 71, E:\DownLoading\beifen\sourcemod-1.11.0-git6826-windows\addons\sourcemod\scripting\l4d2_cedafever_autofix.sp::FindMisplacedCans
+L 11/02/2022 - 17:09:47: [SM]   [2] Line 48, E:\DownLoading\beifen\sourcemod-1.11.0-git6826-windows\addons\sourcemod\scripting\l4d2_cedafever_autofix.sp::ScavTimerH
+L 11/02/2022 - 17:10:10: SourceMod error session started
+L 11/02/2022 - 17:10:10: Info (map "c8m5_rooftop") (file "/root/Steam/steamapps/common/Left 4 Dead 2 Dedicated Server/left4dead2/addons/sourcemod/logs/errors_20221102.log")
+L 11/02/2022 - 17:10:10: [SM] Failed to load plugin "anticheat/smac/smac_css_fixes.smx": This module will not work for this mod and should be removed..
+L 11/02/2022 - 17:10:10: [SM] Failed to load plugin "anticheat/smac/smac_hl2dm_fixes.smx": This module will not work for this mod and should be removed..
+L 11/02/2022 - 17:10:10: [SM] Failed to load plugin "anticheat/smac/smac_css_antismoke.smx": This module will not work for this mod and should be removed..
+L 11/02/2022 - 17:10:10: [SM] Failed to load plugin "anticheat/smac/smac_css_antiflash.smx": This module will not work for this mod and should be removed..
+L 11/02/2022 - 17:10:10: [SM] Unable to load plugin "Welcome.smx": Could not find required plugin "l4d2_playtime_interface"
+L 11/02/2022 - 17:10:10: [SM] Exception reported: Database failure: Could not find Database conf "sourcebans"
+L 11/02/2022 - 17:10:10: [SM] Blaming: sbpp_main.smx
+L 11/02/2022 - 17:10:10: [SM] Call stack trace:
+L 11/02/2022 - 17:10:10: [SM]   [0] SetFailState
+L 11/02/2022 - 17:10:10: [SM]   [1] Line 216, sbpp_main.sp::OnPluginStart
+L 11/02/2022 - 17:10:10: [SM] Unable to load plugin "sbpp_main.smx": Error detected in plugin startup (see error logs)
+L 11/02/2022 - 17:10:10: [SM] Fatal error encountered parsing translation file "sourcecomms.phrases.txt"
+L 11/02/2022 - 17:10:10: [SM] Error (line 0, column 0): Stream failed to open
+L 11/02/2022 - 17:10:10: [SM] Exception reported: Database failure: could not find database config: sourcebans
+L 11/02/2022 - 17:10:10: [SM] Blaming: sbpp_comms.smx
+L 11/02/2022 - 17:10:10: [SM] Call stack trace:
+L 11/02/2022 - 17:10:10: [SM]   [0] SetFailState
+L 11/02/2022 - 17:10:10: [SM]   [1] Line 219, sbpp_comms.sp::OnPluginStart
+L 11/02/2022 - 17:10:10: [SM] Unable to load plugin "sbpp_comms.smx": Error detected in plugin startup (see error logs)
+L 11/02/2022 - 17:10:10: [SM] Unable to load plugin "sbpp_report.smx": Could not find required plugin "sourcebans++"
+L 11/02/2022 - 17:10:10: [SM] Fatal error encountered parsing translation file "sourcesleuth.phrases.txt"
+L 11/02/2022 - 17:10:10: [SM] Error (line 0, column 0): Stream failed to open
+L 11/02/2022 - 17:10:13: [SM] Exception reported: Failed to connect to SourceBans DB, Could not find database config "sourcebans"
+L 11/02/2022 - 17:10:13: [SM] Blaming: sbpp_checker.smx
+L 11/02/2022 - 17:10:13: [SM] Call stack trace:
+L 11/02/2022 - 17:10:13: [SM]   [0] SetFailState
+L 11/02/2022 - 17:10:13: [SM]   [1] Line 75, sbpp_checker.sp::OnDatabaseConnected
+L 11/02/2022 - 17:10:13: [sbpp_sleuth.smx] SourceSleuth: Database connection error: Could not find database config "sourcebans"
+L 11/02/2022 - 18:43:01: SourceMod error session started
+L 11/02/2022 - 18:43:01: Info (map "c8m5_rooftop") (file "/root/Steam/steamapps/common/Left 4 Dead 2 Dedicated Server/left4dead2/addons/sourcemod/logs/errors_20221102.log")
+L 11/02/2022 - 18:43:01: [SM] Failed to load plugin "anticheat/smac/smac_css_fixes.smx": This module will not work for this mod and should be removed..
+L 11/02/2022 - 18:43:01: [SM] Failed to load plugin "anticheat/smac/smac_hl2dm_fixes.smx": This module will not work for this mod and should be removed..
+L 11/02/2022 - 18:43:01: [SM] Failed to load plugin "anticheat/smac/smac_css_antismoke.smx": This module will not work for this mod and should be removed..
+L 11/02/2022 - 18:43:01: [SM] Failed to load plugin "anticheat/smac/smac_css_antiflash.smx": This module will not work for this mod and should be removed..
+L 11/02/2022 - 18:43:01: [SM] Unable to load plugin "Welcome.smx": Could not find required plugin "l4d2_playtime_interface"
+L 11/02/2022 - 18:43:01: [SM] Exception reported: Database failure: Could not find Database conf "sourcebans"
+L 11/02/2022 - 18:43:01: [SM] Blaming: sbpp_main.smx
+L 11/02/2022 - 18:43:01: [SM] Call stack trace:
+L 11/02/2022 - 18:43:01: [SM]   [0] SetFailState
+L 11/02/2022 - 18:43:01: [SM]   [1] Line 216, sbpp_main.sp::OnPluginStart
+L 11/02/2022 - 18:43:01: [SM] Unable to load plugin "sbpp_main.smx": Error detected in plugin startup (see error logs)
+L 11/02/2022 - 18:43:01: [SM] Fatal error encountered parsing translation file "sourcecomms.phrases.txt"
+L 11/02/2022 - 18:43:01: [SM] Error (line 0, column 0): Stream failed to open
+L 11/02/2022 - 18:43:01: [SM] Exception reported: Database failure: could not find database config: sourcebans
+L 11/02/2022 - 18:43:01: [SM] Blaming: sbpp_comms.smx
+L 11/02/2022 - 18:43:01: [SM] Call stack trace:
+L 11/02/2022 - 18:43:01: [SM]   [0] SetFailState
+L 11/02/2022 - 18:43:01: [SM]   [1] Line 219, sbpp_comms.sp::OnPluginStart
+L 11/02/2022 - 18:43:01: [SM] Unable to load plugin "sbpp_comms.smx": Error detected in plugin startup (see error logs)
+L 11/02/2022 - 18:43:01: [SM] Unable to load plugin "sbpp_report.smx": Could not find required plugin "sourcebans++"
+L 11/02/2022 - 18:43:02: [SM] Fatal error encountered parsing translation file "sourcesleuth.phrases.txt"
+L 11/02/2022 - 18:43:02: [SM] Error (line 0, column 0): Stream failed to open
+L 11/02/2022 - 18:43:04: [SM] Exception reported: Failed to connect to SourceBans DB, Could not find database config "sourcebans"
+L 11/02/2022 - 18:43:04: [SM] Blaming: sbpp_checker.smx
+L 11/02/2022 - 18:43:04: [SM] Call stack trace:
+L 11/02/2022 - 18:43:04: [SM]   [0] SetFailState
+L 11/02/2022 - 18:43:04: [SM]   [1] Line 75, sbpp_checker.sp::OnDatabaseConnected
+L 11/02/2022 - 18:43:04: [sbpp_sleuth.smx] SourceSleuth: Database connection error: Could not find database config "sourcebans"
+L 11/02/2022 - 18:44:08: [confoglcompmod.smx] [Confogl] CvarSettings: Could not find CVar specified (confogl_ghost_warp)
+L 11/02/2022 - 18:44:08: [confoglcompmod.smx] [Confogl] CvarSettings: Could not find CVar specified (longer_tank_punch_getup)
+L 11/02/2022 - 18:44:08: [confoglcompmod.smx] [Confogl] CvarSettings: Could not find CVar specified (l4d_equalise_alarm_cars)
+L 11/02/2022 - 18:44:12: Error log file session closed.
+L 11/02/2022 - 18:44:12: SourceMod error session started
+L 11/02/2022 - 18:44:12: Info (map "c8m5_rooftop") (file "/root/Steam/steamapps/common/Left 4 Dead 2 Dedicated Server/left4dead2/addons/sourcemod/logs/errors_20221102.log")
+L 11/02/2022 - 18:44:12: [SM] Fatal error encountered parsing translation file "sourcecomms.phrases.txt"
+L 11/02/2022 - 18:44:12: [SM] Error (line 0, column 0): Stream failed to open
+L 11/02/2022 - 18:44:12: [SM] Fatal error encountered parsing translation file "sourcesleuth.phrases.txt"
+L 11/02/2022 - 18:44:12: [SM] Error (line 0, column 0): Stream failed to open
+L 11/02/2022 - 18:47:58: SourceMod error session started
+L 11/02/2022 - 18:47:58: Info (map "c8m5_rooftop") (file "/root/Steam/steamapps/common/Left 4 Dead 2 Dedicated Server/left4dead2/addons/sourcemod/logs/errors_20221102.log")
+L 11/02/2022 - 18:47:58: [SM] Failed to load plugin "anticheat/smac/smac_css_fixes.smx": This module will not work for this mod and should be removed..
+L 11/02/2022 - 18:47:58: [SM] Failed to load plugin "anticheat/smac/smac_hl2dm_fixes.smx": This module will not work for this mod and should be removed..
+L 11/02/2022 - 18:47:58: [SM] Failed to load plugin "anticheat/smac/smac_css_antismoke.smx": This module will not work for this mod and should be removed..
+L 11/02/2022 - 18:47:58: [SM] Failed to load plugin "anticheat/smac/smac_css_antiflash.smx": This module will not work for this mod and should be removed..
+L 11/02/2022 - 18:47:58: [SM] Unable to load plugin "Welcome.smx": Could not find required plugin "l4d2_playtime_interface"
+L 11/02/2022 - 18:47:58: [SM] Exception reported: Database failure: Could not find Database conf "sourcebans"
+L 11/02/2022 - 18:47:58: [SM] Blaming: sbpp_main.smx
+L 11/02/2022 - 18:47:58: [SM] Call stack trace:
+L 11/02/2022 - 18:47:58: [SM]   [0] SetFailState
+L 11/02/2022 - 18:47:58: [SM]   [1] Line 216, sbpp_main.sp::OnPluginStart
+L 11/02/2022 - 18:47:58: [SM] Unable to load plugin "sbpp_main.smx": Error detected in plugin startup (see error logs)
+L 11/02/2022 - 18:47:58: [SM] Fatal error encountered parsing translation file "sourcecomms.phrases.txt"
+L 11/02/2022 - 18:47:58: [SM] Error (line 0, column 0): Stream failed to open
+L 11/02/2022 - 18:47:58: [SM] Exception reported: Database failure: could not find database config: sourcebans
+L 11/02/2022 - 18:47:58: [SM] Blaming: sbpp_comms.smx
+L 11/02/2022 - 18:47:58: [SM] Call stack trace:
+L 11/02/2022 - 18:47:58: [SM]   [0] SetFailState
+L 11/02/2022 - 18:47:58: [SM]   [1] Line 219, sbpp_comms.sp::OnPluginStart
+L 11/02/2022 - 18:47:58: [SM] Unable to load plugin "sbpp_comms.smx": Error detected in plugin startup (see error logs)
+L 11/02/2022 - 18:47:58: [SM] Unable to load plugin "sbpp_report.smx": Could not find required plugin "sourcebans++"
+L 11/02/2022 - 18:47:59: [SM] Fatal error encountered parsing translation file "sourcesleuth.phrases.txt"
+L 11/02/2022 - 18:47:59: [SM] Error (line 0, column 0): Stream failed to open
+L 11/02/2022 - 18:48:01: [SM] Exception reported: Failed to connect to SourceBans DB, Could not find database config "sourcebans"
+L 11/02/2022 - 18:48:01: [SM] Blaming: sbpp_checker.smx
+L 11/02/2022 - 18:48:01: [SM] Call stack trace:
+L 11/02/2022 - 18:48:01: [SM]   [0] SetFailState
+L 11/02/2022 - 18:48:01: [SM]   [1] Line 75, sbpp_checker.sp::OnDatabaseConnected
+L 11/02/2022 - 18:48:01: [sbpp_sleuth.smx] SourceSleuth: Database connection error: Could not find database config "sourcebans"
+L 11/02/2022 - 21:52:20: SourceMod error session started
+L 11/02/2022 - 21:52:20: Info (map "c8m5_rooftop") (file "/root/Steam/steamapps/common/Left 4 Dead 2 Dedicated Server/left4dead2/addons/sourcemod/logs/errors_20221102.log")
+L 11/02/2022 - 21:52:20: [SM] Failed to load plugin "anticheat/smac/smac_css_fixes.smx": This module will not work for this mod and should be removed..
+L 11/02/2022 - 21:52:20: [SM] Failed to load plugin "anticheat/smac/smac_hl2dm_fixes.smx": This module will not work for this mod and should be removed..
+L 11/02/2022 - 21:52:20: [SM] Failed to load plugin "anticheat/smac/smac_css_antismoke.smx": This module will not work for this mod and should be removed..
+L 11/02/2022 - 21:52:20: [SM] Failed to load plugin "anticheat/smac/smac_css_antiflash.smx": This module will not work for this mod and should be removed..
+L 11/02/2022 - 21:52:20: [SM] Unable to load plugin "Welcome.smx": Could not find required plugin "l4d2_playtime_interface"
+L 11/02/2022 - 21:52:20: [SM] Exception reported: Database failure: Could not find Database conf "sourcebans"
+L 11/02/2022 - 21:52:20: [SM] Blaming: sbpp_main.smx
+L 11/02/2022 - 21:52:20: [SM] Call stack trace:
+L 11/02/2022 - 21:52:20: [SM]   [0] SetFailState
+L 11/02/2022 - 21:52:20: [SM]   [1] Line 216, sbpp_main.sp::OnPluginStart
+L 11/02/2022 - 21:52:20: [SM] Unable to load plugin "sbpp_main.smx": Error detected in plugin startup (see error logs)
+L 11/02/2022 - 21:52:20: [SM] Fatal error encountered parsing translation file "sourcecomms.phrases.txt"
+L 11/02/2022 - 21:52:20: [SM] Error (line 0, column 0): Stream failed to open
+L 11/02/2022 - 21:52:20: [SM] Exception reported: Database failure: could not find database config: sourcebans
+L 11/02/2022 - 21:52:20: [SM] Blaming: sbpp_comms.smx
+L 11/02/2022 - 21:52:20: [SM] Call stack trace:
+L 11/02/2022 - 21:52:20: [SM]   [0] SetFailState
+L 11/02/2022 - 21:52:20: [SM]   [1] Line 219, sbpp_comms.sp::OnPluginStart
+L 11/02/2022 - 21:52:20: [SM] Unable to load plugin "sbpp_comms.smx": Error detected in plugin startup (see error logs)
+L 11/02/2022 - 21:52:20: [SM] Unable to load plugin "sbpp_report.smx": Could not find required plugin "sourcebans++"
+L 11/02/2022 - 21:52:20: [SM] Fatal error encountered parsing translation file "sourcesleuth.phrases.txt"
+L 11/02/2022 - 21:52:20: [SM] Error (line 0, column 0): Stream failed to open
+L 11/02/2022 - 21:52:22: [SM] Exception reported: Failed to connect to SourceBans DB, Could not find database config "sourcebans"
+L 11/02/2022 - 21:52:22: [SM] Blaming: sbpp_checker.smx
+L 11/02/2022 - 21:52:22: [SM] Call stack trace:
+L 11/02/2022 - 21:52:22: [SM]   [0] SetFailState
+L 11/02/2022 - 21:52:22: [SM]   [1] Line 75, sbpp_checker.sp::OnDatabaseConnected
+L 11/02/2022 - 21:52:22: [sbpp_sleuth.smx] SourceSleuth: Database connection error: Could not find database config "sourcebans"
+L 11/02/2022 - 21:54:16: [confoglcompmod.smx] [Confogl] CvarSettings: Could not find CVar specified (confogl_ghost_warp)
+L 11/02/2022 - 21:54:16: [confoglcompmod.smx] [Confogl] CvarSettings: Could not find CVar specified (longer_tank_punch_getup)
+L 11/02/2022 - 21:54:16: [confoglcompmod.smx] [Confogl] CvarSettings: Could not find CVar specified (l4d_equalise_alarm_cars)
+L 11/02/2022 - 21:54:20: Error log file session closed.
+L 11/02/2022 - 21:54:20: SourceMod error session started
+L 11/02/2022 - 21:54:20: Info (map "c8m5_rooftop") (file "/root/Steam/steamapps/common/Left 4 Dead 2 Dedicated Server/left4dead2/addons/sourcemod/logs/errors_20221102.log")
+L 11/02/2022 - 21:54:20: [SM] Fatal error encountered parsing translation file "sourcecomms.phrases.txt"
+L 11/02/2022 - 21:54:20: [SM] Error (line 0, column 0): Stream failed to open
+L 11/02/2022 - 21:54:20: [SM] Fatal error encountered parsing translation file "sourcesleuth.phrases.txt"
+L 11/02/2022 - 21:54:20: [SM] Error (line 0, column 0): Stream failed to open
+L 11/02/2022 - 21:56:14: Error log file session closed.
+L 11/02/2022 - 21:56:14: SourceMod error session started
+L 11/02/2022 - 21:56:14: Info (map "PR1_Waterfront_F") (file "/root/Steam/steamapps/common/Left 4 Dead 2 Dedicated Server/left4dead2/addons/sourcemod/logs/errors_20221102.log")
+L 11/02/2022 - 21:56:14: [SM] Fatal error encountered parsing translation file "sourcecomms.phrases.txt"
+L 11/02/2022 - 21:56:14: [SM] Error (line 0, column 0): Stream failed to open
+L 11/02/2022 - 21:56:14: [SM] Fatal error encountered parsing translation file "sourcesleuth.phrases.txt"
+L 11/02/2022 - 21:56:14: [SM] Error (line 0, column 0): Stream failed to open
+L 11/02/2022 - 22:04:13: Error log file session closed.
+L 11/02/2022 - 22:04:13: SourceMod error session started
+L 11/02/2022 - 22:04:13: Info (map "dprm1_milltown_a") (file "/root/Steam/steamapps/common/Left 4 Dead 2 Dedicated Server/left4dead2/addons/sourcemod/logs/errors_20221102.log")
+L 11/02/2022 - 22:04:13: [SM] Fatal error encountered parsing translation file "sourcecomms.phrases.txt"
+L 11/02/2022 - 22:04:13: [SM] Error (line 0, column 0): Stream failed to open
+L 11/02/2022 - 22:04:13: [SM] Fatal error encountered parsing translation file "sourcesleuth.phrases.txt"
+L 11/02/2022 - 22:04:13: [SM] Error (line 0, column 0): Stream failed to open
+L 11/02/2022 - 22:05:57: [SM] Exception reported: Client 3 is not connected
+L 11/02/2022 - 22:05:57: [SM] Blaming: optional/AI_HardSI.smx
+L 11/02/2022 - 22:05:57: [SM] Call stack trace:
+L 11/02/2022 - 22:05:57: [SM]   [0] SetUserFlagBits
+L 11/02/2022 - 22:05:57: [SM]   [1] Line 442, includes/hardcoop_util.sp::CheatCommand
+L 11/02/2022 - 22:05:57: [SM]   [2] Line 73, C:\Users\israe\Documents\GitHub\practiceogl_rework\addons\sourcemod\scripting\AI_HardSI.sp::Timer_ForceInfectedAssault
+L 11/02/2022 - 22:06:11: [SM] Exception reported: Client 1 is not connected
+L 11/02/2022 - 22:06:11: [SM] Blaming: optional/AI_HardSI.smx
+L 11/02/2022 - 22:06:11: [SM] Call stack trace:
+L 11/02/2022 - 22:06:11: [SM]   [0] SetUserFlagBits
+L 11/02/2022 - 22:06:11: [SM]   [1] Line 442, includes/hardcoop_util.sp::CheatCommand
+L 11/02/2022 - 22:06:11: [SM]   [2] Line 73, C:\Users\israe\Documents\GitHub\practiceogl_rework\addons\sourcemod\scripting\AI_HardSI.sp::Timer_ForceInfectedAssault
+L 11/02/2022 - 22:06:24: SourceMod error session started
+L 11/02/2022 - 22:06:24: Info (map "c8m5_rooftop") (file "/root/Steam/steamapps/common/Left 4 Dead 2 Dedicated Server/left4dead2/addons/sourcemod/logs/errors_20221102.log")
+L 11/02/2022 - 22:06:24: [SM] Failed to load plugin "anticheat/smac/smac_css_fixes.smx": This module will not work for this mod and should be removed..
+L 11/02/2022 - 22:06:24: [SM] Failed to load plugin "anticheat/smac/smac_hl2dm_fixes.smx": This module will not work for this mod and should be removed..
+L 11/02/2022 - 22:06:24: [SM] Failed to load plugin "anticheat/smac/smac_css_antismoke.smx": This module will not work for this mod and should be removed..
+L 11/02/2022 - 22:06:24: [SM] Failed to load plugin "anticheat/smac/smac_css_antiflash.smx": This module will not work for this mod and should be removed..
+L 11/02/2022 - 22:06:24: [SM] Unable to load plugin "Welcome.smx": Could not find required plugin "l4d2_playtime_interface"
+L 11/02/2022 - 22:06:24: [SM] Exception reported: Database failure: Could not find Database conf "sourcebans"
+L 11/02/2022 - 22:06:24: [SM] Blaming: sbpp_main.smx
+L 11/02/2022 - 22:06:24: [SM] Call stack trace:
+L 11/02/2022 - 22:06:24: [SM]   [0] SetFailState
+L 11/02/2022 - 22:06:24: [SM]   [1] Line 216, sbpp_main.sp::OnPluginStart
+L 11/02/2022 - 22:06:24: [SM] Unable to load plugin "sbpp_main.smx": Error detected in plugin startup (see error logs)
+L 11/02/2022 - 22:06:24: [SM] Fatal error encountered parsing translation file "sourcecomms.phrases.txt"
+L 11/02/2022 - 22:06:24: [SM] Error (line 0, column 0): Stream failed to open
+L 11/02/2022 - 22:06:24: [SM] Exception reported: Database failure: could not find database config: sourcebans
+L 11/02/2022 - 22:06:24: [SM] Blaming: sbpp_comms.smx
+L 11/02/2022 - 22:06:24: [SM] Call stack trace:
+L 11/02/2022 - 22:06:24: [SM]   [0] SetFailState
+L 11/02/2022 - 22:06:24: [SM]   [1] Line 219, sbpp_comms.sp::OnPluginStart
+L 11/02/2022 - 22:06:24: [SM] Unable to load plugin "sbpp_comms.smx": Error detected in plugin startup (see error logs)
+L 11/02/2022 - 22:06:24: [SM] Unable to load plugin "sbpp_report.smx": Could not find required plugin "sourcebans++"
+L 11/02/2022 - 22:06:25: [SM] Fatal error encountered parsing translation file "sourcesleuth.phrases.txt"
+L 11/02/2022 - 22:06:25: [SM] Error (line 0, column 0): Stream failed to open
+L 11/02/2022 - 22:06:27: [SM] Exception reported: Failed to connect to SourceBans DB, Could not find database config "sourcebans"
+L 11/02/2022 - 22:06:27: [SM] Blaming: sbpp_checker.smx
+L 11/02/2022 - 22:06:27: [SM] Call stack trace:
+L 11/02/2022 - 22:06:27: [SM]   [0] SetFailState
+L 11/02/2022 - 22:06:27: [SM]   [1] Line 75, sbpp_checker.sp::OnDatabaseConnected
+L 11/02/2022 - 22:06:27: [sbpp_sleuth.smx] SourceSleuth: Database connection error: Could not find database config "sourcebans"
+L 11/02/2022 - 22:17:45: SourceMod error session started
+L 11/02/2022 - 22:17:45: Info (map "c8m5_rooftop") (file "/root/Steam/steamapps/common/Left 4 Dead 2 Dedicated Server/left4dead2/addons/sourcemod/logs/errors_20221102.log")
+L 11/02/2022 - 22:17:45: [SM] Failed to load plugin "anticheat/smac/smac_css_fixes.smx": This module will not work for this mod and should be removed..
+L 11/02/2022 - 22:17:45: [SM] Failed to load plugin "anticheat/smac/smac_hl2dm_fixes.smx": This module will not work for this mod and should be removed..
+L 11/02/2022 - 22:17:45: [SM] Failed to load plugin "anticheat/smac/smac_css_antismoke.smx": This module will not work for this mod and should be removed..
+L 11/02/2022 - 22:17:45: [SM] Failed to load plugin "anticheat/smac/smac_css_antiflash.smx": This module will not work for this mod and should be removed..
+L 11/02/2022 - 22:17:45: [SM] Unable to load plugin "Welcome.smx": Could not find required plugin "l4d2_playtime_interface"
+L 11/02/2022 - 22:17:45: [SM] Exception reported: Database failure: Could not find Database conf "sourcebans"
+L 11/02/2022 - 22:17:45: [SM] Blaming: sbpp_main.smx
+L 11/02/2022 - 22:17:45: [SM] Call stack trace:
+L 11/02/2022 - 22:17:45: [SM]   [0] SetFailState
+L 11/02/2022 - 22:17:45: [SM]   [1] Line 216, sbpp_main.sp::OnPluginStart
+L 11/02/2022 - 22:17:45: [SM] Unable to load plugin "sbpp_main.smx": Error detected in plugin startup (see error logs)
+L 11/02/2022 - 22:17:45: [SM] Fatal error encountered parsing translation file "sourcecomms.phrases.txt"
+L 11/02/2022 - 22:17:45: [SM] Error (line 0, column 0): Stream failed to open
+L 11/02/2022 - 22:17:45: [SM] Exception reported: Database failure: could not find database config: sourcebans
+L 11/02/2022 - 22:17:45: [SM] Blaming: sbpp_comms.smx
+L 11/02/2022 - 22:17:45: [SM] Call stack trace:
+L 11/02/2022 - 22:17:45: [SM]   [0] SetFailState
+L 11/02/2022 - 22:17:45: [SM]   [1] Line 219, sbpp_comms.sp::OnPluginStart
+L 11/02/2022 - 22:17:45: [SM] Unable to load plugin "sbpp_comms.smx": Error detected in plugin startup (see error logs)
+L 11/02/2022 - 22:17:45: [SM] Unable to load plugin "sbpp_report.smx": Could not find required plugin "sourcebans++"
+L 11/02/2022 - 22:17:45: [SM] Fatal error encountered parsing translation file "sourcesleuth.phrases.txt"
+L 11/02/2022 - 22:17:45: [SM] Error (line 0, column 0): Stream failed to open
+L 11/02/2022 - 22:17:47: [SM] Exception reported: Failed to connect to SourceBans DB, Could not find database config "sourcebans"
+L 11/02/2022 - 22:17:47: [SM] Blaming: sbpp_checker.smx
+L 11/02/2022 - 22:17:47: [SM] Call stack trace:
+L 11/02/2022 - 22:17:47: [SM]   [0] SetFailState
+L 11/02/2022 - 22:17:47: [SM]   [1] Line 75, sbpp_checker.sp::OnDatabaseConnected
+L 11/02/2022 - 22:17:47: [sbpp_sleuth.smx] SourceSleuth: Database connection error: Could not find database config "sourcebans"

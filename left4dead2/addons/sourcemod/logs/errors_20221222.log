@@ -1,0 +1,222 @@
+L 12/22/2022 - 11:22:58: SourceMod error session started
+L 12/22/2022 - 11:22:58: Info (map "c2m1_highway") (file "/root/Steam/steamapps/common/Left 4 Dead 2 Dedicated Server/left4dead2/addons/sourcemod/logs/errors_20221222.log")
+L 12/22/2022 - 11:22:58: [SM] Failed to load plugin "left4dhooks.smx": 
+====================
+This plugin replaces Left4Downtown. Delete the extension to run.
+====================.
+L 12/22/2022 - 11:22:58: [SM] Unable to load plugin "confoglcompmod.smx": Could not find required plugin "left4dhooks"
+L 12/22/2022 - 11:22:58: [SM] Unable to load plugin "Welcome.smx": Could not find required plugin "l4d2_playtime_interface"
+L 12/22/2022 - 11:22:58: [SM] Unable to load plugin "all4dead2.smx": Could not find required plugin "left4dhooks"
+L 12/22/2022 - 11:22:58: [SM] Unable to load plugin "l4d_fyzb_en_v20.smx": Could not find required plugin "readyup"
+L 12/22/2022 - 11:22:58: [SM] Unable to load plugin "fixes/l4d2_fix_firsthit.smx": Could not find required plugin "left4dhooks"
+L 12/22/2022 - 11:22:58: [SM] Unable to load plugin "fixes/l4d2_spit_spread_patch.smx": Could not find required plugin "left4dhooks"
+L 12/22/2022 - 11:22:58: [SM] Unable to load plugin "fixes/l4d2_rock_trace_unblock.smx": Could not find required plugin "left4dhooks"
+L 12/22/2022 - 11:22:58: [SM] Unable to load plugin "fixes/l4d2_ellis_hunter_bandaid_fix.smx": Could not find required plugin "left4dhooks"
+L 12/22/2022 - 11:22:58: [SM] Unable to load plugin "fixes/l4d2_boomer_shenanigans.smx": Could not find required plugin "left4dhooks"
+L 12/22/2022 - 11:22:58: [SM] Unable to load plugin "fixes/l4d_fix_shove_duration.smx": Could not find required plugin "left4dhooks"
+L 12/22/2022 - 11:22:58: [SM] Unable to load plugin "fixes/l4d_fix_deathfall_cam.smx": Could not find required plugin "left4dhooks"
+L 12/22/2022 - 11:22:58: [SM] Unable to load plugin "fixes/l4d2_no_post_jockey_deadstops.smx": Could not find required plugin "left4dhooks"
+L 12/22/2022 - 11:22:58: [SM] Unable to load plugin "l4dffannounce.smx": Could not find required plugin "left4dhooks"
+L 12/22/2022 - 11:22:58: [SM] Unable to load plugin "l4d2_spectating_cheat.smx": Could not find required plugin "left4dhooks"
+L 12/22/2022 - 11:25:04: SourceMod error session started
+L 12/22/2022 - 11:25:04: Info (map "c2m1_highway") (file "/root/Steam/steamapps/common/Left 4 Dead 2 Dedicated Server/left4dead2/addons/sourcemod/logs/errors_20221222.log")
+L 12/22/2022 - 11:25:04: [SM] Failed to load plugin "left4dhooks.smx": 
+====================
+This plugin replaces Left4Downtown. Delete the extension to run.
+====================.
+L 12/22/2022 - 11:25:04: [SM] Unable to load plugin "confoglcompmod.smx": Could not find required plugin "left4dhooks"
+L 12/22/2022 - 11:25:04: [SM] Unable to load plugin "Welcome.smx": Could not find required plugin "l4d2_playtime_interface"
+L 12/22/2022 - 11:25:04: [SM] Unable to load plugin "all4dead2.smx": Could not find required plugin "left4dhooks"
+L 12/22/2022 - 11:25:04: [SM] Unable to load plugin "l4d_fyzb_en_v20.smx": Could not find required plugin "readyup"
+L 12/22/2022 - 11:25:04: [SM] Unable to load plugin "fixes/l4d2_fix_firsthit.smx": Could not find required plugin "left4dhooks"
+L 12/22/2022 - 11:25:04: [SM] Unable to load plugin "fixes/l4d2_spit_spread_patch.smx": Could not find required plugin "left4dhooks"
+L 12/22/2022 - 11:25:04: [SM] Unable to load plugin "fixes/l4d2_rock_trace_unblock.smx": Could not find required plugin "left4dhooks"
+L 12/22/2022 - 11:25:04: [SM] Unable to load plugin "fixes/l4d2_ellis_hunter_bandaid_fix.smx": Could not find required plugin "left4dhooks"
+L 12/22/2022 - 11:25:04: [SM] Unable to load plugin "fixes/l4d2_boomer_shenanigans.smx": Could not find required plugin "left4dhooks"
+L 12/22/2022 - 11:25:04: [SM] Unable to load plugin "fixes/l4d_fix_shove_duration.smx": Could not find required plugin "left4dhooks"
+L 12/22/2022 - 11:25:04: [SM] Unable to load plugin "fixes/l4d_fix_deathfall_cam.smx": Could not find required plugin "left4dhooks"
+L 12/22/2022 - 11:25:04: [SM] Unable to load plugin "fixes/l4d2_no_post_jockey_deadstops.smx": Could not find required plugin "left4dhooks"
+L 12/22/2022 - 11:25:04: [SM] Unable to load plugin "l4dffannounce.smx": Could not find required plugin "left4dhooks"
+L 12/22/2022 - 11:25:04: [SM] Unable to load plugin "l4d2_spectating_cheat.smx": Could not find required plugin "left4dhooks"
+L 12/22/2022 - 11:26:39: SourceMod error session started
+L 12/22/2022 - 11:26:39: Info (map "c2m1_highway") (file "/root/Steam/steamapps/common/Left 4 Dead 2 Dedicated Server/left4dead2/addons/sourcemod/logs/errors_20221222.log")
+L 12/22/2022 - 11:26:39: [SM] Failed to load plugin "left4dhooks.smx": 
+====================
+This plugin replaces Left4Downtown. Delete the extension to run.
+====================.
+L 12/22/2022 - 11:26:39: [SM] Unable to load plugin "confoglcompmod.smx": Could not find required plugin "left4dhooks"
+L 12/22/2022 - 11:26:39: [SM] Unable to load plugin "Welcome.smx": Could not find required plugin "l4d2_playtime_interface"
+L 12/22/2022 - 11:26:39: [SM] Unable to load plugin "all4dead2.smx": Could not find required plugin "left4dhooks"
+L 12/22/2022 - 11:26:39: [SM] Unable to load plugin "l4d_fyzb_en_v20.smx": Could not find required plugin "readyup"
+L 12/22/2022 - 11:26:39: [SM] Unable to load plugin "fixes/l4d2_fix_firsthit.smx": Could not find required plugin "left4dhooks"
+L 12/22/2022 - 11:26:39: [SM] Unable to load plugin "fixes/l4d2_spit_spread_patch.smx": Could not find required plugin "left4dhooks"
+L 12/22/2022 - 11:26:39: [SM] Unable to load plugin "fixes/l4d2_rock_trace_unblock.smx": Could not find required plugin "left4dhooks"
+L 12/22/2022 - 11:26:39: [SM] Unable to load plugin "fixes/l4d2_ellis_hunter_bandaid_fix.smx": Could not find required plugin "left4dhooks"
+L 12/22/2022 - 11:26:39: [SM] Unable to load plugin "fixes/l4d2_boomer_shenanigans.smx": Could not find required plugin "left4dhooks"
+L 12/22/2022 - 11:26:39: [SM] Unable to load plugin "fixes/l4d_fix_shove_duration.smx": Could not find required plugin "left4dhooks"
+L 12/22/2022 - 11:26:39: [SM] Unable to load plugin "fixes/l4d_fix_deathfall_cam.smx": Could not find required plugin "left4dhooks"
+L 12/22/2022 - 11:26:39: [SM] Unable to load plugin "fixes/l4d2_no_post_jockey_deadstops.smx": Could not find required plugin "left4dhooks"
+L 12/22/2022 - 11:26:39: [SM] Unable to load plugin "l4dffannounce.smx": Could not find required plugin "left4dhooks"
+L 12/22/2022 - 11:26:39: [SM] Unable to load plugin "l4d2_spectating_cheat.smx": Could not find required plugin "left4dhooks"
+L 12/22/2022 - 11:46:36: SourceMod error session started
+L 12/22/2022 - 11:46:36: Info (map "c2m1_highway") (file "/root/Steam/steamapps/common/Left 4 Dead 2 Dedicated Server/left4dead2/addons/sourcemod/logs/errors_20221222.log")
+L 12/22/2022 - 11:46:36: [SM] Unable to load extension "left4downtown.ext": /root/Steam/steamapps/common/Left 4 Dead 2 Dedicated Server/left4dead2/addons/sourcemod/extensions/left4downtown.ext.so: cannot open shared object file: No such file or directory
+L 12/22/2022 - 11:46:36: [SM] Unable to load plugin "Welcome.smx": Could not find required plugin "l4d2_playtime_interface"
+L 12/22/2022 - 11:46:36: [SM] Unable to load plugin "l4d_fyzb_en_v20.smx": Could not find required plugin "readyup"
+L 12/22/2022 - 11:47:54: Error log file session closed.
+L 12/22/2022 - 11:50:05: SourceMod error session started
+L 12/22/2022 - 11:50:05: Info (map "c2m1_highway") (file "/root/Steam/steamapps/common/Left 4 Dead 2 Dedicated Server/left4dead2/addons/sourcemod/logs/errors_20221222.log")
+L 12/22/2022 - 11:50:05: [SM] Unable to load plugin "Welcome.smx": Could not find required plugin "l4d2_playtime_interface"
+L 12/22/2022 - 11:50:05: [SM] Unable to load plugin "l4d_fyzb_en_v20.smx": Could not find required plugin "readyup"
+L 12/22/2022 - 11:50:07: [SM] Exception reported: g_pGameRules not available (NIX/2/1.118).
+L 12/22/2022 - 11:50:07: [SM] Blaming: left4dhooks.smx
+L 12/22/2022 - 11:50:07: [SM] Call stack trace:
+L 12/22/2022 - 11:50:07: [SM]   [0] ThrowNativeError
+L 12/22/2022 - 11:50:07: [SM]   [1] Line 168, l4dd\l4dd_natives.sp::ValidateAddress
+L 12/22/2022 - 11:50:07: [SM]   [2] Line 1732, l4dd\l4dd_natives.sp::Native_GetVersusMaxCompletionScore
+L 12/22/2022 - 11:50:07: [SM]   [4] L4D_GetVersusMaxCompletionScore
+L 12/22/2022 - 11:50:07: [SM]   [5] Line 109, confoglcompmod\ScoreMod.sp::SM_OnMapStart
+L 12/22/2022 - 11:50:07: [SM]   [6] Line 279, c:\Users\Sir\SourcePawn11\confoglcompmod.sp::OnMapStart
+L 12/22/2022 - 11:50:11: Error log file session closed.
+L 12/22/2022 - 11:52:42: SourceMod error session started
+L 12/22/2022 - 11:52:42: Info (map "c2m1_highway") (file "/root/Steam/steamapps/common/Left 4 Dead 2 Dedicated Server/left4dead2/addons/sourcemod/logs/errors_20221222.log")
+L 12/22/2022 - 11:52:42: [SM] Unable to load plugin "Welcome.smx": Could not find required plugin "l4d2_playtime_interface"
+L 12/22/2022 - 11:52:42: [SM] Unable to load plugin "l4d_fyzb_en_v20.smx": Could not find required plugin "readyup"
+L 12/22/2022 - 11:53:34: [SM] Exception reported: Simple Chat Processor is not loaded. It is required for this plugin to work.
+L 12/22/2022 - 11:53:34: [SM] Blaming: optional/promod/l4d2_selfmute.smx
+L 12/22/2022 - 11:53:34: [SM] Call stack trace:
+L 12/22/2022 - 11:53:34: [SM]   [0] SetFailState
+L 12/22/2022 - 11:53:34: [SM]   [1] Line 60, l4d2_selfmute.sp::OnAllPluginsLoaded
+L 12/22/2022 - 11:53:34: [SM] Error parsing gameconfig file "/root/Steam/steamapps/common/Left 4 Dead 2 Dedicated Server/left4dead2/addons/sourcemod/gamedata/left4downtown.l4d2.txt":
+L 12/22/2022 - 11:53:34: [SM] Error 1 on line 0, col 0: Stream failed to open
+L 12/22/2022 - 11:53:34: [SM] Exception reported: Unable to open left4downtown.l4d2: File could not be opened: No such file or directory
+L 12/22/2022 - 11:53:34: [SM] Blaming: optional/promod/l4d2_setscores.smx
+L 12/22/2022 - 11:53:34: [SM] Call stack trace:
+L 12/22/2022 - 11:53:34: [SM]   [0] LoadGameConfigFile
+L 12/22/2022 - 11:53:34: [SM]   [1] Line 56, l4d2_setscores.sp::OnPluginStart
+L 12/22/2022 - 11:53:47: [SM] Exception reported: Client 1 is not connected
+L 12/22/2022 - 11:53:47: [SM] Blaming: optional/promod/lerpmonitor.smx
+L 12/22/2022 - 11:53:47: [SM] Call stack trace:
+L 12/22/2022 - 11:53:47: [SM]   [0] GetClientInfo
+L 12/22/2022 - 11:53:47: [SM]   [1] Line 250, lerpmonitor.sp::GetLerpTime
+L 12/22/2022 - 11:53:47: [SM]   [2] Line 185, lerpmonitor.sp::ProcessPlayerLerp
+L 12/22/2022 - 11:53:47: [SM]   [3] Line 110, lerpmonitor.sp::OnTeamChangeDelay
+L 12/22/2022 - 11:54:01: SourceMod error session started
+L 12/22/2022 - 11:54:01: Info (map "c2m1_highway") (file "/root/Steam/steamapps/common/Left 4 Dead 2 Dedicated Server/left4dead2/addons/sourcemod/logs/errors_20221222.log")
+L 12/22/2022 - 11:54:01: [SM] Unable to load extension "left4downtown.ext": /root/Steam/steamapps/common/Left 4 Dead 2 Dedicated Server/left4dead2/addons/sourcemod/extensions/left4downtown.ext.so: cannot open shared object file: No such file or directory
+L 12/22/2022 - 11:54:01: [SM] Unable to load plugin "Welcome.smx": Could not find required plugin "l4d2_playtime_interface"
+L 12/22/2022 - 11:54:01: [SM] Unable to load plugin "l4d_fyzb_en_v20.smx": Could not find required plugin "readyup"
+L 12/22/2022 - 11:54:28: SourceMod error session started
+L 12/22/2022 - 11:54:28: Info (map "c2m1_highway") (file "/root/Steam/steamapps/common/Left 4 Dead 2 Dedicated Server/left4dead2/addons/sourcemod/logs/errors_20221222.log")
+L 12/22/2022 - 11:54:28: [SM] Unable to load extension "left4downtown.ext": /root/Steam/steamapps/common/Left 4 Dead 2 Dedicated Server/left4dead2/addons/sourcemod/extensions/left4downtown.ext.so: cannot open shared object file: No such file or directory
+L 12/22/2022 - 11:54:29: [SM] Unable to load plugin "Welcome.smx": Could not find required plugin "l4d2_playtime_interface"
+L 12/22/2022 - 11:54:29: [SM] Unable to load plugin "l4d_fyzb_en_v20.smx": Could not find required plugin "readyup"
+L 12/22/2022 - 12:37:54: SourceMod error session started
+L 12/22/2022 - 12:37:54: Info (map "c2m1_highway") (file "/root/Steam/steamapps/common/Left 4 Dead 2 Dedicated Server/left4dead2/addons/sourcemod/logs/errors_20221222.log")
+L 12/22/2022 - 12:37:54: [SM] Unable to load plugin "Welcome.smx": Could not find required plugin "l4d2_playtime_interface"
+L 12/22/2022 - 12:37:54: [SM] Unable to load plugin "l4d_fyzb_en_v20.smx": Could not find required plugin "readyup"
+L 12/22/2022 - 12:38:54: [SM] Unable to load extension "left4downtown.ext": /root/Steam/steamapps/common/Left 4 Dead 2 Dedicated Server/left4dead2/addons/sourcemod/extensions/left4downtown.ext.so: cannot open shared object file: No such file or directory
+L 12/22/2022 - 12:38:54: [SM] Error parsing gameconfig file "/root/Steam/steamapps/common/Left 4 Dead 2 Dedicated Server/left4dead2/addons/sourcemod/gamedata/left4downtown.l4d2.txt":
+L 12/22/2022 - 12:38:54: [SM] Error 1 on line 0, col 0: Stream failed to open
+L 12/22/2022 - 12:38:54: [SM] Exception reported: Unable to open left4downtown.l4d2: File could not be opened: No such file or directory
+L 12/22/2022 - 12:38:54: [SM] Blaming: optional/promod/l4d2_setscores.smx
+L 12/22/2022 - 12:38:54: [SM] Call stack trace:
+L 12/22/2022 - 12:38:54: [SM]   [0] LoadGameConfigFile
+L 12/22/2022 - 12:38:54: [SM]   [1] Line 56, l4d2_setscores.sp::OnPluginStart
+L 12/22/2022 - 12:40:39: Error log file session closed.
+L 12/22/2022 - 12:42:39: SourceMod error session started
+L 12/22/2022 - 12:42:39: Info (map "c2m1_highway") (file "/root/Steam/steamapps/common/Left 4 Dead 2 Dedicated Server/left4dead2/addons/sourcemod/logs/errors_20221222.log")
+L 12/22/2022 - 12:42:39: [SM] Exception reported: Client 1 is not connected
+L 12/22/2022 - 12:42:39: [SM] Blaming: optional/promod/lerpmonitor.smx
+L 12/22/2022 - 12:42:39: [SM] Call stack trace:
+L 12/22/2022 - 12:42:39: [SM]   [0] GetClientInfo
+L 12/22/2022 - 12:42:39: [SM]   [1] Line 250, lerpmonitor.sp::GetLerpTime
+L 12/22/2022 - 12:42:39: [SM]   [2] Line 185, lerpmonitor.sp::ProcessPlayerLerp
+L 12/22/2022 - 12:42:39: [SM]   [3] Line 110, lerpmonitor.sp::OnTeamChangeDelay
+L 12/22/2022 - 12:42:53: SourceMod error session started
+L 12/22/2022 - 12:42:53: Info (map "c2m1_highway") (file "/root/Steam/steamapps/common/Left 4 Dead 2 Dedicated Server/left4dead2/addons/sourcemod/logs/errors_20221222.log")
+L 12/22/2022 - 12:42:53: [SM] Unable to load plugin "Welcome.smx": Could not find required plugin "l4d2_playtime_interface"
+L 12/22/2022 - 12:42:53: [SM] Unable to load plugin "l4d_fyzb_en_v20.smx": Could not find required plugin "readyup"
+L 12/22/2022 - 12:44:08: SourceMod error session started
+L 12/22/2022 - 12:44:08: Info (map "c2m1_highway") (file "/root/Steam/steamapps/common/Left 4 Dead 2 Dedicated Server/left4dead2/addons/sourcemod/logs/errors_20221222.log")
+L 12/22/2022 - 12:44:08: [SM] Unable to load plugin "Welcome.smx": Could not find required plugin "l4d2_playtime_interface"
+L 12/22/2022 - 12:44:08: [SM] Unable to load plugin "l4d_fyzb_en_v20.smx": Could not find required plugin "readyup"
+L 12/22/2022 - 18:41:12: SourceMod error session started
+L 12/22/2022 - 18:41:12: Info (map "c2m1_highway") (file "/root/Steam/steamapps/common/Left 4 Dead 2 Dedicated Server/left4dead2/addons/sourcemod/logs/errors_20221222.log")
+L 12/22/2022 - 18:41:12: [SM] Unable to load plugin "Welcome.smx": Could not find required plugin "l4d2_playtime_interface"
+L 12/22/2022 - 18:41:12: [SM] Unable to load plugin "l4d_fyzb_en_v20.smx": Could not find required plugin "readyup"
+L 12/22/2022 - 18:42:44: Error log file session closed.
+L 12/22/2022 - 19:20:36: SourceMod error session started
+L 12/22/2022 - 19:20:36: Info (map "c2m1_highway") (file "/root/Steam/steamapps/common/Left 4 Dead 2 Dedicated Server/left4dead2/addons/sourcemod/logs/errors_20221222.log")
+L 12/22/2022 - 19:20:36: [SM] Unable to load plugin "Welcome.smx": Could not find required plugin "l4d2_playtime_interface"
+L 12/22/2022 - 19:20:36: [SM] Unable to load plugin "l4d_fyzb_en_v20.smx": Could not find required plugin "readyup"
+L 12/22/2022 - 19:25:22: SourceMod error session started
+L 12/22/2022 - 19:25:22: Info (map "c2m1_highway") (file "/root/Steam/steamapps/common/Left 4 Dead 2 Dedicated Server/left4dead2/addons/sourcemod/logs/errors_20221222.log")
+L 12/22/2022 - 19:25:22: [SM] Unable to load plugin "Welcome.smx": Could not find required plugin "l4d2_playtime_interface"
+L 12/22/2022 - 19:25:22: [SM] Unable to load plugin "l4d_fyzb_en_v20.smx": Could not find required plugin "readyup"
+L 12/22/2022 - 20:05:36: SourceMod error session started
+L 12/22/2022 - 20:05:36: Info (map "c2m1_highway") (file "/root/Steam/steamapps/common/Left 4 Dead 2 Dedicated Server/left4dead2/addons/sourcemod/logs/errors_20221222.log")
+L 12/22/2022 - 20:05:36: [SM] Unable to load plugin "Welcome.smx": Could not find required plugin "l4d2_playtime_interface"
+L 12/22/2022 - 20:05:36: [SM] Unable to load plugin "l4d_fyzb_en_v20.smx": Could not find required plugin "readyup"
+L 12/22/2022 - 21:16:39: SourceMod error session started
+L 12/22/2022 - 21:16:39: Info (map "c2m1_highway") (file "/root/Steam/steamapps/common/Left 4 Dead 2 Dedicated Server/left4dead2/addons/sourcemod/logs/errors_20221222.log")
+L 12/22/2022 - 21:16:39: [SM] Unable to load plugin "Welcome.smx": Could not find required plugin "l4d2_playtime_interface"
+L 12/22/2022 - 21:16:39: [SM] Unable to load plugin "l4d_fyzb_en_v20.smx": Could not find required plugin "readyup"
+L 12/22/2022 - 21:17:43: SourceMod error session started
+L 12/22/2022 - 21:17:43: Info (map "c2m1_highway") (file "/root/Steam/steamapps/common/Left 4 Dead 2 Dedicated Server/left4dead2/addons/sourcemod/logs/errors_20221222.log")
+L 12/22/2022 - 21:17:43: [SM] Unable to load plugin "Welcome.smx": Could not find required plugin "l4d2_playtime_interface"
+L 12/22/2022 - 21:17:43: [SM] Unable to load plugin "l4d_fyzb_en_v20.smx": Could not find required plugin "readyup"
+L 12/22/2022 - 21:20:02: SourceMod error session started
+L 12/22/2022 - 21:20:02: Info (map "c2m1_highway") (file "/root/Steam/steamapps/common/Left 4 Dead 2 Dedicated Server/left4dead2/addons/sourcemod/logs/errors_20221222.log")
+L 12/22/2022 - 21:20:02: [SM] Unable to load plugin "Welcome.smx": Could not find required plugin "l4d2_playtime_interface"
+L 12/22/2022 - 21:20:02: [SM] Unable to load plugin "l4d_fyzb_en_v20.smx": Could not find required plugin "readyup"
+L 12/22/2022 - 21:21:27: SourceMod error session started
+L 12/22/2022 - 21:21:27: Info (map "c2m1_highway") (file "/root/Steam/steamapps/common/Left 4 Dead 2 Dedicated Server/left4dead2/addons/sourcemod/logs/errors_20221222.log")
+L 12/22/2022 - 21:21:27: [SM] Unable to load plugin "Welcome.smx": Could not find required plugin "l4d2_playtime_interface"
+L 12/22/2022 - 21:21:27: [SM] Unable to load plugin "l4d_fyzb_en_v20.smx": Could not find required plugin "readyup"
+L 12/22/2022 - 21:25:25: SourceMod error session started
+L 12/22/2022 - 21:25:25: Info (map "c2m1_highway") (file "/root/Steam/steamapps/common/Left 4 Dead 2 Dedicated Server/left4dead2/addons/sourcemod/logs/errors_20221222.log")
+L 12/22/2022 - 21:25:25: [SM] Unable to load plugin "Welcome.smx": Could not find required plugin "l4d2_playtime_interface"
+L 12/22/2022 - 21:25:25: [SM] Unable to load plugin "l4d_fyzb_en_v20.smx": Could not find required plugin "readyup"
+L 12/22/2022 - 21:31:03: SourceMod error session started
+L 12/22/2022 - 21:31:03: Info (map "c2m1_highway") (file "/root/Steam/steamapps/common/Left 4 Dead 2 Dedicated Server/left4dead2/addons/sourcemod/logs/errors_20221222.log")
+L 12/22/2022 - 21:31:03: [SM] Unable to load plugin "Welcome.smx": Could not find required plugin "l4d2_playtime_interface"
+L 12/22/2022 - 21:31:03: [SM] Unable to load plugin "l4d_fyzb_en_v20.smx": Could not find required plugin "readyup"
+L 12/22/2022 - 23:37:31: SourceMod error session started
+L 12/22/2022 - 23:37:31: Info (map "c2m1_highway") (file "/root/Steam/steamapps/common/Left 4 Dead 2 Dedicated Server/left4dead2/addons/sourcemod/logs/errors_20221222.log")
+L 12/22/2022 - 23:37:31: [SM] Unable to load plugin "Welcome.smx": Could not find required plugin "l4d2_playtime_interface"
+L 12/22/2022 - 23:37:31: [SM] Unable to load plugin "l4d_fyzb_en_v20.smx": Could not find required plugin "readyup"
+L 12/22/2022 - 23:38:50: [SM] Unable to load extension "left4downtown.ext": /root/Steam/steamapps/common/Left 4 Dead 2 Dedicated Server/left4dead2/addons/sourcemod/extensions/left4downtown.ext.so: cannot open shared object file: No such file or directory
+L 12/22/2022 - 23:38:50: [SM] Error parsing gameconfig file "/root/Steam/steamapps/common/Left 4 Dead 2 Dedicated Server/left4dead2/addons/sourcemod/gamedata/left4downtown.l4d2.txt":
+L 12/22/2022 - 23:38:50: [SM] Error 1 on line 0, col 0: Stream failed to open
+L 12/22/2022 - 23:38:50: [SM] Exception reported: Unable to open left4downtown.l4d2: File could not be opened: No such file or directory
+L 12/22/2022 - 23:38:50: [SM] Blaming: optional/promod/l4d2_setscores.smx
+L 12/22/2022 - 23:38:50: [SM] Call stack trace:
+L 12/22/2022 - 23:38:50: [SM]   [0] LoadGameConfigFile
+L 12/22/2022 - 23:38:50: [SM]   [1] Line 56, l4d2_setscores.sp::OnPluginStart
+L 12/22/2022 - 23:38:53: Error log file session closed.
+L 12/22/2022 - 23:40:42: SourceMod error session started
+L 12/22/2022 - 23:40:42: Info (map "c2m1_highway") (file "/root/Steam/steamapps/common/Left 4 Dead 2 Dedicated Server/left4dead2/addons/sourcemod/logs/errors_20221222.log")
+L 12/22/2022 - 23:40:42: [SM] Exception reported: Native is not bound
+L 12/22/2022 - 23:40:42: [SM] Blaming: optional/spechud.smx
+L 12/22/2022 - 23:40:42: [SM] Call stack trace:
+L 12/22/2022 - 23:40:42: [SM]   [0] IsDarkCarniRemix
+L 12/22/2022 - 23:40:42: [SM]   [1] Line 338, J:\Documents\GitHub\L4D2-Competitive-Rework\addons\sourcemod\scripting\spechud.sp::OnRoundIsLive
+L 12/22/2022 - 23:40:42: [SM]   [3] Call_Finish
+L 12/22/2022 - 23:40:42: [SM]   [4] Line 35, readyup\util.inc::UTIL_WrapperForward
+L 12/22/2022 - 23:40:42: [SM]   [5] Line 87, readyup\action.inc::InitiateLive
+L 12/22/2022 - 23:40:42: [SM]   [6] Line 114, readyup\action.inc::ReadyCountdownDelay_Timer
+L 12/22/2022 - 23:47:01: [SM] Exception reported: Native is not bound
+L 12/22/2022 - 23:47:01: [SM] Blaming: optional/spechud.smx
+L 12/22/2022 - 23:47:01: [SM] Call stack trace:
+L 12/22/2022 - 23:47:01: [SM]   [0] IsDarkCarniRemix
+L 12/22/2022 - 23:47:01: [SM]   [1] Line 338, J:\Documents\GitHub\L4D2-Competitive-Rework\addons\sourcemod\scripting\spechud.sp::OnRoundIsLive
+L 12/22/2022 - 23:47:01: [SM]   [3] Call_Finish
+L 12/22/2022 - 23:47:01: [SM]   [4] Line 35, readyup\util.inc::UTIL_WrapperForward
+L 12/22/2022 - 23:47:01: [SM]   [5] Line 87, readyup\action.inc::InitiateLive
+L 12/22/2022 - 23:47:01: [SM]   [6] Line 114, readyup\action.inc::ReadyCountdownDelay_Timer
+L 12/22/2022 - 23:56:17: Error log file session closed.
+L 12/22/2022 - 23:59:56: SourceMod error session started
+L 12/22/2022 - 23:59:56: Info (map "c2m2_fairgrounds") (file "/root/Steam/steamapps/common/Left 4 Dead 2 Dedicated Server/left4dead2/addons/sourcemod/logs/errors_20221222.log")
+L 12/22/2022 - 23:59:56: [SM] Unable to load plugin "Welcome.smx": Could not find required plugin "l4d2_playtime_interface"
+L 12/22/2022 - 23:59:56: [SM] Unable to load plugin "l4d_fyzb_en_v20.smx": Could not find required plugin "readyup"

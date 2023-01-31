@@ -1,0 +1,7 @@
+"CustomJoinMessages"
+{
+	"STEAM_1:0:454817525"
+	{
+		"playerwasnamed"		"活着就是为了普罗旺斯"
+	}
+}

@@ -1,0 +1,20 @@
+L 12/01/2022 - 12:56:49: SourceMod error session started
+L 12/01/2022 - 12:56:49: Info (map "c8m5_rooftop") (file "/root/Steam/steamapps/common/Left 4 Dead 2 Dedicated Server/left4dead2/addons/sourcemod/logs/errors_20221201.log")
+L 12/01/2022 - 12:56:49: [SM] Exception reported: Invalid convar handle 2b20029b (error 3)
+L 12/01/2022 - 12:56:49: [SM] Blaming: match_vote.smx
+L 12/01/2022 - 12:56:49: [SM] Call stack trace:
+L 12/01/2022 - 12:56:49: [SM]   [0] ConVar.SetInt
+L 12/01/2022 - 12:56:49: [SM]   [1] Line 82, c:\Users\Sir\SourcePawn11\match_vote.sp::OnPluginEnd
+L 12/01/2022 - 12:56:49: Error log file session closed.
+L 12/01/2022 - 13:00:34: SourceMod error session started
+L 12/01/2022 - 13:00:34: Info (map "c2m1_highway") (file "/root/Steam/steamapps/common/Left 4 Dead 2 Dedicated Server/left4dead2/addons/sourcemod/logs/errors_20221201.log")
+L 12/01/2022 - 13:00:34: [SM] Unable to load extension "left4downtown.ext": /root/Steam/steamapps/common/Left 4 Dead 2 Dedicated Server/left4dead2/addons/sourcemod/extensions/left4downtown.ext.2.l4d2.so: undefined symbol: g_pMemAlloc
+L 12/01/2022 - 13:00:34: [SM] Unable to load plugin "Welcome.smx": Could not find required plugin "l4d2_playtime_interface"
+L 12/01/2022 - 13:23:25: SourceMod error session started
+L 12/01/2022 - 13:23:25: Info (map "c2m1_highway") (file "/root/Steam/steamapps/common/Left 4 Dead 2 Dedicated Server/left4dead2/addons/sourcemod/logs/errors_20221201.log")
+L 12/01/2022 - 13:23:25: [SM] Unable to load extension "left4downtown.ext": /root/Steam/steamapps/common/Left 4 Dead 2 Dedicated Server/left4dead2/addons/sourcemod/extensions/left4downtown.ext.2.l4d2.so: undefined symbol: g_pMemAlloc
+L 12/01/2022 - 13:23:25: [SM] Unable to load plugin "Welcome.smx": Could not find required plugin "l4d2_playtime_interface"
+L 12/01/2022 - 14:28:33: SourceMod error session started
+L 12/01/2022 - 14:28:33: Info (map "c2m1_highway") (file "/root/Steam/steamapps/common/Left 4 Dead 2 Dedicated Server/left4dead2/addons/sourcemod/logs/errors_20221201.log")
+L 12/01/2022 - 14:28:33: [SM] Unable to load extension "left4downtown.ext": /root/Steam/steamapps/common/Left 4 Dead 2 Dedicated Server/left4dead2/addons/sourcemod/extensions/left4downtown.ext.2.l4d2.so: undefined symbol: g_pMemAlloc
+L 12/01/2022 - 14:28:33: [SM] Unable to load plugin "Welcome.smx": Could not find required plugin "l4d2_playtime_interface"

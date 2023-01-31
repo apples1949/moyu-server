@@ -1,0 +1,56 @@
+﻿// Advertisements 2.1
+// by Tsunami
+//
+// Types
+// -----
+// center: Center message
+// chat: Chat message
+// hint: Hint message
+// menu: Menu message
+// top: Top message
+//
+// Flags (optional)
+// -----
+// Accepts flags of admins that will not see the advertisement.
+// When omitted everyone will see the advertisement.
+// When left empty only admins will see the advertisement.
+
+"Advertisements"
+{
+    "1"
+    {
+        "chat"		"{lightgreen}你是一个一个"
+    }
+    "2"
+    {
+        "chat"		"{lightgreen}服务器IP禁止随意外传，珍惜服主用爱发电
+{lightgreen}服务器不间断组织内战，再也不怕单排高血压"
+    }
+    "3"
+    {
+        "chat"		"{lightgreen}清道夫三方图C8改屋顶、CEDA、死亡假期、
+{lightgreen}血本无归、无人生还已上线。加群608715841下载体验"
+    }
+    "4"
+    {
+        "chat"		"{lightgreen}萌新多打多练别怕挨揍，大佬多教多带嘴下留情。
+{lightgreen}欢迎加群608715841认识更多清道夫同好"
+    }
+    "5"
+    {
+        "chat"		"{lightgreen}萌新建议抱团行动，一人单走，全体落难
+{lightgreen}中途暂停请双方聊天窗输入!ready以继续游戏"
+    }
+    "6"
+    {
+        "chat"		"{lightgreen}戒骄戒躁，冷静思考，谨记这是团队配合的模式"
+    }
+    "7"
+    {
+        "chat"		"{green}[公告]{lightgreen}很喜欢CY的一句话：来点二次元"
+    }
+    "8"
+    {
+        "chat"		"{green}[公告]{lightgreen}如果你不懂二次元，那就是不懂CY"
+    }
+}

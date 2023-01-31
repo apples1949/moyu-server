@@ -1,0 +1,15 @@
+L 11/12/2022 - 11:12:01: SourceMod error session started
+L 11/12/2022 - 11:12:01: Info (map "c2m1_highway") (file "/root/Steam/steamapps/common/Left 4 Dead 2 Dedicated Server/left4dead2/addons/sourcemod/logs/errors_20221112.log")
+L 11/12/2022 - 11:12:01: [SM] Unable to load plugin "Welcome.smx": Could not find required plugin "l4d2_playtime_interface"
+L 11/12/2022 - 11:15:03: [SM] Exception reported: Invalid convar handle 2af00298 (error 3)
+L 11/12/2022 - 11:15:03: [SM] Blaming: match_vote.smx
+L 11/12/2022 - 11:15:03: [SM] Call stack trace:
+L 11/12/2022 - 11:15:03: [SM]   [0] ConVar.SetInt
+L 11/12/2022 - 11:15:03: [SM]   [1] Line 82, c:\Users\Sir\SourcePawn11\match_vote.sp::OnPluginEnd
+L 11/12/2022 - 11:15:03: Error log file session closed.
+L 11/12/2022 - 11:17:26: SourceMod error session started
+L 11/12/2022 - 11:17:26: Info (map "c8m5_rooftop") (file "/root/Steam/steamapps/common/Left 4 Dead 2 Dedicated Server/left4dead2/addons/sourcemod/logs/errors_20221112.log")
+L 11/12/2022 - 11:17:26: [SM] Unable to load plugin "Welcome.smx": Could not find required plugin "l4d2_playtime_interface"
+L 11/12/2022 - 11:18:53: SourceMod error session started
+L 11/12/2022 - 11:18:53: Info (map "c8m5_rooftop") (file "/root/Steam/steamapps/common/Left 4 Dead 2 Dedicated Server/left4dead2/addons/sourcemod/logs/errors_20221112.log")
+L 11/12/2022 - 11:18:53: [SM] Unable to load plugin "Welcome.smx": Could not find required plugin "l4d2_playtime_interface"

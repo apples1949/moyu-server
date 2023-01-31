@@ -1,0 +1,246 @@
+L 01/19/2023 - 17:35:28: SourceMod error session started
+L 01/19/2023 - 17:35:28: Info (map "c8m5_rooftop") (file "/root/Steam/steamapps/common/Left 4 Dead 2 Dedicated Server/left4dead2/addons/sourcemod3/logs/errors_20230119.log")
+L 01/19/2023 - 17:35:28: [SM] Plugin "confogl_autoloader.smx" encountered error 23: Native detected error
+L 01/19/2023 - 17:35:28: [SM] Invalid data handle 0 (error 4) passed during timer end with TIMER_DATA_HNDL_CLOSE
+L 01/19/2023 - 17:35:28: [SM] Unable to call function "ExecuteConfig" due to above error(s).
+L 01/19/2023 - 17:35:28: [SM] Exception reported: Invalid client index 0
+L 01/19/2023 - 17:35:28: [SM] Blaming: confoglcompmod.smx
+L 01/19/2023 - 17:35:28: [SM] Call stack trace:
+L 01/19/2023 - 17:35:28: [SM]   [0] ThrowError
+L 01/19/2023 - 17:35:28: [SM]   [1] Line 64, C:\Users\Administrator\Desktop\SPCode.Portable\sourcepawn\configs\sm_1_10_0_6478\include\colors.inc::CPrintToChat
+L 01/19/2023 - 17:35:28: [SM]   [2] Line 240, modules/ReqMatch.sp::RM_Cmd_ForceMatch
+L 01/19/2023 - 17:37:05: [confoglcompmod.smx] [Confogl] CvarSettings: Could not find CVar specified (tankcontrol_print_all)
+L 01/19/2023 - 17:37:05: [confoglcompmod.smx] [Confogl] CvarSettings: Could not find CVar specified (l4d2_antibaiter_delay)
+L 01/19/2023 - 17:37:05: [confoglcompmod.smx] [Confogl] CvarSettings: Could not find CVar specified (l4d2_antibaiter_horde_timer)
+L 01/19/2023 - 17:37:05: [confoglcompmod.smx] [Confogl] CvarSettings: Could not find CVar specified (l4d2_antibaiter_progress)
+L 01/19/2023 - 17:37:05: [confoglcompmod.smx] [Confogl] CvarSettings: Could not find CVar specified (l4d2_MITSR_Pitchfork)
+L 01/19/2023 - 17:37:05: [confoglcompmod.smx] [Confogl] CvarSettings: Could not find CVar specified (l4d2_MITSR_Shovel)
+L 01/19/2023 - 17:37:05: [confoglcompmod.smx] [Confogl] CvarSettings: Could not find CVar specified (sound_block_for_comp)
+L 01/19/2023 - 17:37:05: [confoglcompmod.smx] [Confogl] CvarSettings: Could not find CVar specified (sm2_bonus_per_survivor_multiplier)
+L 01/19/2023 - 17:37:05: [confoglcompmod.smx] [Confogl] CvarSettings: Could not find CVar specified (sm2_permament_health_proportion)
+L 01/19/2023 - 17:37:05: [confoglcompmod.smx] [Confogl] CvarSettings: Could not find CVar specified (sm2_pills_hp_factor)
+L 01/19/2023 - 17:37:05: [confoglcompmod.smx] [Confogl] CvarSettings: Could not find CVar specified (sm2_pills_max_bonus)
+L 01/19/2023 - 17:37:05: [confoglcompmod.smx] [Confogl] CvarSettings: Attempt to track ConVar l4d2_MITSR_Amount, which is already being tracked.
+L 01/19/2023 - 17:37:05: [confoglcompmod.smx] [Confogl] CvarSettings: Attempt to track ConVar l4d2_MITSR_FireAxe, which is already being tracked.
+L 01/19/2023 - 17:37:05: [confoglcompmod.smx] [Confogl] CvarSettings: Attempt to track ConVar l4d2_MITSR_BaseballBat, which is already being tracked.
+L 01/19/2023 - 17:37:05: [confoglcompmod.smx] [Confogl] CvarSettings: Attempt to track ConVar z_ghost_delay_max, which is already being tracked.
+L 01/19/2023 - 17:37:05: [confoglcompmod.smx] [Confogl] CvarSettings: Could not find CVar specified (rpg_allow_glow)
+L 01/19/2023 - 17:37:05: [confoglcompmod.smx] [Confogl] CvarSettings: Could not find CVar specified (join_autoupdate)
+L 01/19/2023 - 17:37:09: Error log file session closed.
+L 01/19/2023 - 17:37:25: SourceMod error session started
+L 01/19/2023 - 17:37:25: Info (map "c8m5_rooftop") (file "/root/Steam/steamapps/common/Left 4 Dead 2 Dedicated Server/left4dead2/addons/sourcemod3/logs/errors_20230119.log")
+L 01/19/2023 - 17:37:25: [SM] Exception reported: Client 5 is not in game
+L 01/19/2023 - 17:37:25: [SM] Blaming: optional/l4d2_scav_fix_nm5.smx
+L 01/19/2023 - 17:37:25: [SM] Call stack trace:
+L 01/19/2023 - 17:37:25: [SM]   [0] GetClientAbsOrigin
+L 01/19/2023 - 17:37:25: [SM]   [1] Line 69, E:\DownLoading\beifen\sourcemod-1.11.0-git6826-windows\addons\sourcemod\scripting\l4d2_scav_fix_nm5.sp::FindMisplacedCans
+L 01/19/2023 - 17:37:25: [SM]   [2] Line 46, E:\DownLoading\beifen\sourcemod-1.11.0-git6826-windows\addons\sourcemod\scripting\l4d2_scav_fix_nm5.sp::ScavTimerH
+L 01/19/2023 - 17:37:40: [SM] Exception reported: Client 5 is not in game
+L 01/19/2023 - 17:37:40: [SM] Blaming: optional/l4d2_scav_fix_nm5.smx
+L 01/19/2023 - 17:37:40: [SM] Call stack trace:
+L 01/19/2023 - 17:37:40: [SM]   [0] GetClientAbsOrigin
+L 01/19/2023 - 17:37:40: [SM]   [1] Line 69, E:\DownLoading\beifen\sourcemod-1.11.0-git6826-windows\addons\sourcemod\scripting\l4d2_scav_fix_nm5.sp::FindMisplacedCans
+L 01/19/2023 - 17:37:40: [SM]   [2] Line 46, E:\DownLoading\beifen\sourcemod-1.11.0-git6826-windows\addons\sourcemod\scripting\l4d2_scav_fix_nm5.sp::ScavTimerH
+L 01/19/2023 - 17:37:55: [SM] Exception reported: Client 5 is not in game
+L 01/19/2023 - 17:37:55: [SM] Blaming: optional/l4d2_scav_fix_nm5.smx
+L 01/19/2023 - 17:37:55: [SM] Call stack trace:
+L 01/19/2023 - 17:37:55: [SM]   [0] GetClientAbsOrigin
+L 01/19/2023 - 17:37:55: [SM]   [1] Line 69, E:\DownLoading\beifen\sourcemod-1.11.0-git6826-windows\addons\sourcemod\scripting\l4d2_scav_fix_nm5.sp::FindMisplacedCans
+L 01/19/2023 - 17:37:55: [SM]   [2] Line 46, E:\DownLoading\beifen\sourcemod-1.11.0-git6826-windows\addons\sourcemod\scripting\l4d2_scav_fix_nm5.sp::ScavTimerH
+L 01/19/2023 - 17:38:10: [SM] Exception reported: Client 2 is not in game
+L 01/19/2023 - 17:38:10: [SM] Blaming: optional/l4d2_scav_fix_nm5.smx
+L 01/19/2023 - 17:38:10: [SM] Call stack trace:
+L 01/19/2023 - 17:38:10: [SM]   [0] GetClientAbsOrigin
+L 01/19/2023 - 17:38:10: [SM]   [1] Line 69, E:\DownLoading\beifen\sourcemod-1.11.0-git6826-windows\addons\sourcemod\scripting\l4d2_scav_fix_nm5.sp::FindMisplacedCans
+L 01/19/2023 - 17:38:10: [SM]   [2] Line 46, E:\DownLoading\beifen\sourcemod-1.11.0-git6826-windows\addons\sourcemod\scripting\l4d2_scav_fix_nm5.sp::ScavTimerH
+L 01/19/2023 - 17:38:25: [SM] Exception reported: Client 2 is not in game
+L 01/19/2023 - 17:38:25: [SM] Blaming: optional/l4d2_scav_fix_nm5.smx
+L 01/19/2023 - 17:38:25: [SM] Call stack trace:
+L 01/19/2023 - 17:38:25: [SM]   [0] GetClientAbsOrigin
+L 01/19/2023 - 17:38:25: [SM]   [1] Line 69, E:\DownLoading\beifen\sourcemod-1.11.0-git6826-windows\addons\sourcemod\scripting\l4d2_scav_fix_nm5.sp::FindMisplacedCans
+L 01/19/2023 - 17:38:25: [SM]   [2] Line 46, E:\DownLoading\beifen\sourcemod-1.11.0-git6826-windows\addons\sourcemod\scripting\l4d2_scav_fix_nm5.sp::ScavTimerH
+L 01/19/2023 - 17:38:40: [SM] Exception reported: Client 2 is not in game
+L 01/19/2023 - 17:38:40: [SM] Blaming: optional/l4d2_scav_fix_nm5.smx
+L 01/19/2023 - 17:38:40: [SM] Call stack trace:
+L 01/19/2023 - 17:38:40: [SM]   [0] GetClientAbsOrigin
+L 01/19/2023 - 17:38:40: [SM]   [1] Line 69, E:\DownLoading\beifen\sourcemod-1.11.0-git6826-windows\addons\sourcemod\scripting\l4d2_scav_fix_nm5.sp::FindMisplacedCans
+L 01/19/2023 - 17:38:40: [SM]   [2] Line 46, E:\DownLoading\beifen\sourcemod-1.11.0-git6826-windows\addons\sourcemod\scripting\l4d2_scav_fix_nm5.sp::ScavTimerH
+L 01/19/2023 - 17:38:55: [SM] Exception reported: Client 2 is not in game
+L 01/19/2023 - 17:38:55: [SM] Blaming: optional/l4d2_scav_fix_nm5.smx
+L 01/19/2023 - 17:38:55: [SM] Call stack trace:
+L 01/19/2023 - 17:38:55: [SM]   [0] GetClientAbsOrigin
+L 01/19/2023 - 17:38:55: [SM]   [1] Line 69, E:\DownLoading\beifen\sourcemod-1.11.0-git6826-windows\addons\sourcemod\scripting\l4d2_scav_fix_nm5.sp::FindMisplacedCans
+L 01/19/2023 - 17:38:55: [SM]   [2] Line 46, E:\DownLoading\beifen\sourcemod-1.11.0-git6826-windows\addons\sourcemod\scripting\l4d2_scav_fix_nm5.sp::ScavTimerH
+L 01/19/2023 - 17:39:10: [SM] Exception reported: Client 2 is not in game
+L 01/19/2023 - 17:39:10: [SM] Blaming: optional/l4d2_scav_fix_nm5.smx
+L 01/19/2023 - 17:39:10: [SM] Call stack trace:
+L 01/19/2023 - 17:39:10: [SM]   [0] GetClientAbsOrigin
+L 01/19/2023 - 17:39:10: [SM]   [1] Line 69, E:\DownLoading\beifen\sourcemod-1.11.0-git6826-windows\addons\sourcemod\scripting\l4d2_scav_fix_nm5.sp::FindMisplacedCans
+L 01/19/2023 - 17:39:10: [SM]   [2] Line 46, E:\DownLoading\beifen\sourcemod-1.11.0-git6826-windows\addons\sourcemod\scripting\l4d2_scav_fix_nm5.sp::ScavTimerH
+L 01/19/2023 - 17:39:25: [SM] Exception reported: Client 3 is not in game
+L 01/19/2023 - 17:39:25: [SM] Blaming: optional/l4d2_scav_fix_nm5.smx
+L 01/19/2023 - 17:39:25: [SM] Call stack trace:
+L 01/19/2023 - 17:39:25: [SM]   [0] GetClientAbsOrigin
+L 01/19/2023 - 17:39:25: [SM]   [1] Line 69, E:\DownLoading\beifen\sourcemod-1.11.0-git6826-windows\addons\sourcemod\scripting\l4d2_scav_fix_nm5.sp::FindMisplacedCans
+L 01/19/2023 - 17:39:25: [SM]   [2] Line 46, E:\DownLoading\beifen\sourcemod-1.11.0-git6826-windows\addons\sourcemod\scripting\l4d2_scav_fix_nm5.sp::ScavTimerH
+L 01/19/2023 - 17:39:40: [SM] Exception reported: Client 3 is not in game
+L 01/19/2023 - 17:39:40: [SM] Blaming: optional/l4d2_scav_fix_nm5.smx
+L 01/19/2023 - 17:39:40: [SM] Call stack trace:
+L 01/19/2023 - 17:39:40: [SM]   [0] GetClientAbsOrigin
+L 01/19/2023 - 17:39:40: [SM]   [1] Line 69, E:\DownLoading\beifen\sourcemod-1.11.0-git6826-windows\addons\sourcemod\scripting\l4d2_scav_fix_nm5.sp::FindMisplacedCans
+L 01/19/2023 - 17:39:40: [SM]   [2] Line 46, E:\DownLoading\beifen\sourcemod-1.11.0-git6826-windows\addons\sourcemod\scripting\l4d2_scav_fix_nm5.sp::ScavTimerH
+L 01/19/2023 - 17:39:55: [SM] Exception reported: Client 3 is not in game
+L 01/19/2023 - 17:39:55: [SM] Blaming: optional/l4d2_scav_fix_nm5.smx
+L 01/19/2023 - 17:39:55: [SM] Call stack trace:
+L 01/19/2023 - 17:39:55: [SM]   [0] GetClientAbsOrigin
+L 01/19/2023 - 17:39:55: [SM]   [1] Line 69, E:\DownLoading\beifen\sourcemod-1.11.0-git6826-windows\addons\sourcemod\scripting\l4d2_scav_fix_nm5.sp::FindMisplacedCans
+L 01/19/2023 - 17:39:55: [SM]   [2] Line 46, E:\DownLoading\beifen\sourcemod-1.11.0-git6826-windows\addons\sourcemod\scripting\l4d2_scav_fix_nm5.sp::ScavTimerH
+L 01/19/2023 - 17:40:10: [SM] Exception reported: Client 3 is not in game
+L 01/19/2023 - 17:40:10: [SM] Blaming: optional/l4d2_scav_fix_nm5.smx
+L 01/19/2023 - 17:40:10: [SM] Call stack trace:
+L 01/19/2023 - 17:40:10: [SM]   [0] GetClientAbsOrigin
+L 01/19/2023 - 17:40:10: [SM]   [1] Line 69, E:\DownLoading\beifen\sourcemod-1.11.0-git6826-windows\addons\sourcemod\scripting\l4d2_scav_fix_nm5.sp::FindMisplacedCans
+L 01/19/2023 - 17:40:10: [SM]   [2] Line 46, E:\DownLoading\beifen\sourcemod-1.11.0-git6826-windows\addons\sourcemod\scripting\l4d2_scav_fix_nm5.sp::ScavTimerH
+L 01/19/2023 - 17:40:25: [SM] Exception reported: Client 3 is not in game
+L 01/19/2023 - 17:40:25: [SM] Blaming: optional/l4d2_scav_fix_nm5.smx
+L 01/19/2023 - 17:40:25: [SM] Call stack trace:
+L 01/19/2023 - 17:40:25: [SM]   [0] GetClientAbsOrigin
+L 01/19/2023 - 17:40:25: [SM]   [1] Line 69, E:\DownLoading\beifen\sourcemod-1.11.0-git6826-windows\addons\sourcemod\scripting\l4d2_scav_fix_nm5.sp::FindMisplacedCans
+L 01/19/2023 - 17:40:25: [SM]   [2] Line 46, E:\DownLoading\beifen\sourcemod-1.11.0-git6826-windows\addons\sourcemod\scripting\l4d2_scav_fix_nm5.sp::ScavTimerH
+L 01/19/2023 - 17:40:40: [SM] Exception reported: Client 2 is not in game
+L 01/19/2023 - 17:40:40: [SM] Blaming: optional/l4d2_scav_fix_nm5.smx
+L 01/19/2023 - 17:40:40: [SM] Call stack trace:
+L 01/19/2023 - 17:40:40: [SM]   [0] GetClientAbsOrigin
+L 01/19/2023 - 17:40:40: [SM]   [1] Line 69, E:\DownLoading\beifen\sourcemod-1.11.0-git6826-windows\addons\sourcemod\scripting\l4d2_scav_fix_nm5.sp::FindMisplacedCans
+L 01/19/2023 - 17:40:40: [SM]   [2] Line 46, E:\DownLoading\beifen\sourcemod-1.11.0-git6826-windows\addons\sourcemod\scripting\l4d2_scav_fix_nm5.sp::ScavTimerH
+L 01/19/2023 - 17:40:55: [SM] Exception reported: Client 2 is not in game
+L 01/19/2023 - 17:40:55: [SM] Blaming: optional/l4d2_scav_fix_nm5.smx
+L 01/19/2023 - 17:40:55: [SM] Call stack trace:
+L 01/19/2023 - 17:40:55: [SM]   [0] GetClientAbsOrigin
+L 01/19/2023 - 17:40:55: [SM]   [1] Line 69, E:\DownLoading\beifen\sourcemod-1.11.0-git6826-windows\addons\sourcemod\scripting\l4d2_scav_fix_nm5.sp::FindMisplacedCans
+L 01/19/2023 - 17:40:55: [SM]   [2] Line 46, E:\DownLoading\beifen\sourcemod-1.11.0-git6826-windows\addons\sourcemod\scripting\l4d2_scav_fix_nm5.sp::ScavTimerH
+L 01/19/2023 - 17:41:10: [SM] Exception reported: Client 2 is not in game
+L 01/19/2023 - 17:41:10: [SM] Blaming: optional/l4d2_scav_fix_nm5.smx
+L 01/19/2023 - 17:41:10: [SM] Call stack trace:
+L 01/19/2023 - 17:41:10: [SM]   [0] GetClientAbsOrigin
+L 01/19/2023 - 17:41:10: [SM]   [1] Line 69, E:\DownLoading\beifen\sourcemod-1.11.0-git6826-windows\addons\sourcemod\scripting\l4d2_scav_fix_nm5.sp::FindMisplacedCans
+L 01/19/2023 - 17:41:10: [SM]   [2] Line 46, E:\DownLoading\beifen\sourcemod-1.11.0-git6826-windows\addons\sourcemod\scripting\l4d2_scav_fix_nm5.sp::ScavTimerH
+L 01/19/2023 - 17:41:25: [SM] Exception reported: Client 2 is not in game
+L 01/19/2023 - 17:41:25: [SM] Blaming: optional/l4d2_scav_fix_nm5.smx
+L 01/19/2023 - 17:41:25: [SM] Call stack trace:
+L 01/19/2023 - 17:41:25: [SM]   [0] GetClientAbsOrigin
+L 01/19/2023 - 17:41:25: [SM]   [1] Line 69, E:\DownLoading\beifen\sourcemod-1.11.0-git6826-windows\addons\sourcemod\scripting\l4d2_scav_fix_nm5.sp::FindMisplacedCans
+L 01/19/2023 - 17:41:25: [SM]   [2] Line 46, E:\DownLoading\beifen\sourcemod-1.11.0-git6826-windows\addons\sourcemod\scripting\l4d2_scav_fix_nm5.sp::ScavTimerH
+L 01/19/2023 - 17:41:40: [SM] Exception reported: Client 2 is not in game
+L 01/19/2023 - 17:41:40: [SM] Blaming: optional/l4d2_scav_fix_nm5.smx
+L 01/19/2023 - 17:41:40: [SM] Call stack trace:
+L 01/19/2023 - 17:41:40: [SM]   [0] GetClientAbsOrigin
+L 01/19/2023 - 17:41:40: [SM]   [1] Line 69, E:\DownLoading\beifen\sourcemod-1.11.0-git6826-windows\addons\sourcemod\scripting\l4d2_scav_fix_nm5.sp::FindMisplacedCans
+L 01/19/2023 - 17:41:40: [SM]   [2] Line 46, E:\DownLoading\beifen\sourcemod-1.11.0-git6826-windows\addons\sourcemod\scripting\l4d2_scav_fix_nm5.sp::ScavTimerH
+L 01/19/2023 - 17:41:55: [SM] Exception reported: Client 2 is not in game
+L 01/19/2023 - 17:41:55: [SM] Blaming: optional/l4d2_scav_fix_nm5.smx
+L 01/19/2023 - 17:41:55: [SM] Call stack trace:
+L 01/19/2023 - 17:41:55: [SM]   [0] GetClientAbsOrigin
+L 01/19/2023 - 17:41:55: [SM]   [1] Line 69, E:\DownLoading\beifen\sourcemod-1.11.0-git6826-windows\addons\sourcemod\scripting\l4d2_scav_fix_nm5.sp::FindMisplacedCans
+L 01/19/2023 - 17:41:55: [SM]   [2] Line 46, E:\DownLoading\beifen\sourcemod-1.11.0-git6826-windows\addons\sourcemod\scripting\l4d2_scav_fix_nm5.sp::ScavTimerH
+L 01/19/2023 - 17:42:10: [SM] Exception reported: Client 3 is not in game
+L 01/19/2023 - 17:42:10: [SM] Blaming: optional/l4d2_scav_fix_nm5.smx
+L 01/19/2023 - 17:42:10: [SM] Call stack trace:
+L 01/19/2023 - 17:42:10: [SM]   [0] GetClientAbsOrigin
+L 01/19/2023 - 17:42:10: [SM]   [1] Line 69, E:\DownLoading\beifen\sourcemod-1.11.0-git6826-windows\addons\sourcemod\scripting\l4d2_scav_fix_nm5.sp::FindMisplacedCans
+L 01/19/2023 - 17:42:10: [SM]   [2] Line 46, E:\DownLoading\beifen\sourcemod-1.11.0-git6826-windows\addons\sourcemod\scripting\l4d2_scav_fix_nm5.sp::ScavTimerH
+L 01/19/2023 - 17:42:25: [SM] Exception reported: Unable to load file: addons/sourcemod/data/steamsforaddons.txt
+L 01/19/2023 - 17:42:25: [SM] Blaming: l4d2_addonsmanager.smx
+L 01/19/2023 - 17:42:25: [SM] Call stack trace:
+L 01/19/2023 - 17:42:25: [SM]   [0] SetFailState
+L 01/19/2023 - 17:42:25: [SM]   [1] Line 238, E:\DownLoading\beifen\sourcemod-1.11.0-git6826-windows\addons\sourcemod\scripting\l4d2_addonsmanager.sp::LoadSteamIDWhiteList
+L 01/19/2023 - 17:42:25: [SM]   [2] Line 27, E:\DownLoading\beifen\sourcemod-1.11.0-git6826-windows\addons\sourcemod\scripting\l4d2_addonsmanager.sp::OnPluginStart
+L 01/19/2023 - 17:42:25: [SM] Unable to load plugin "l4d2_addonsmanager.smx": Error detected in plugin startup (see error logs)
+L 01/19/2023 - 17:42:31: [SM] Plugin "confogl_autoloader.smx" encountered error 23: Native detected error
+L 01/19/2023 - 17:42:31: [SM] Invalid data handle 0 (error 4) passed during timer end with TIMER_DATA_HNDL_CLOSE
+L 01/19/2023 - 17:42:31: [SM] Unable to call function "ExecuteConfig" due to above error(s).
+L 01/19/2023 - 17:42:31: [SM] Exception reported: Invalid client index 0
+L 01/19/2023 - 17:42:31: [SM] Blaming: confoglcompmod.smx
+L 01/19/2023 - 17:42:31: [SM] Call stack trace:
+L 01/19/2023 - 17:42:31: [SM]   [0] ThrowError
+L 01/19/2023 - 17:42:31: [SM]   [1] Line 64, C:\Users\Administrator\Desktop\SPCode.Portable\sourcepawn\configs\sm_1_10_0_6478\include\colors.inc::CPrintToChat
+L 01/19/2023 - 17:42:31: [SM]   [2] Line 240, modules/ReqMatch.sp::RM_Cmd_ForceMatch
+L 01/19/2023 - 17:43:14: [confoglcompmod.smx] [Confogl] CvarSettings: Could not find CVar specified (l4d2_antibaiter_bile_stop)
+L 01/19/2023 - 17:43:14: [confoglcompmod.smx] [Confogl] CvarSettings: Could not find CVar specified (l4d2_steady_boost_flags)
+L 01/19/2023 - 17:43:14: [confoglcompmod.smx] [Confogl] CvarSettings: Could not find CVar specified (l4d2_ghost_warp_flag)
+L 01/19/2023 - 17:43:14: [confoglcompmod.smx] [Confogl] CvarSettings: Could not find CVar specified (l4d2_ghost_warp_delay)
+L 01/19/2023 - 17:43:14: [confoglcompmod.smx] [Confogl] CvarSettings: Could not find CVar specified (tank_punch_getup_scale)
+L 01/19/2023 - 17:43:14: [confoglcompmod.smx] [Confogl] CvarSettings: Could not find CVar specified (l4d2_rock_trace_unblock_flag)
+L 01/19/2023 - 17:43:14: [confoglcompmod.smx] [Confogl] CvarSettings: Could not find CVar specified (l4d2_rock_jockey_dismount)
+L 01/19/2023 - 17:43:14: [confoglcompmod.smx] [Confogl] CvarSettings: Could not find CVar specified (charger_dmg_incapped)
+L 01/19/2023 - 17:43:14: [confoglcompmod.smx] [Confogl] CvarSettings: Could not find CVar specified (l4d2_spit_spread_saferoom)
+L 01/19/2023 - 17:43:14: [confoglcompmod.smx] [Confogl] CvarSettings: Could not find CVar specified (l4d2_deathspit_trace_height)
+L 01/19/2023 - 17:43:14: [confoglcompmod.smx] [Confogl] CvarSettings: Could not find CVar specified (l4d_no_tank_rush_unfreeze_ai)
+L 01/19/2023 - 17:43:14: [confoglcompmod.smx] [Confogl] CvarSettings: Could not find CVar specified (l4d_equalise_alarm_start_disabled)
+L 01/19/2023 - 17:43:14: [confoglcompmod.smx] [Confogl] CvarSettings: Attempt to track ConVar z_ghost_delay_max, which is already being tracked.
+L 01/19/2023 - 17:43:14: [confoglcompmod.smx] [Confogl] CvarSettings: Could not find CVar specified (rpg_allow_glow)
+L 01/19/2023 - 17:43:14: [confoglcompmod.smx] [Confogl] CvarSettings: Could not find CVar specified (join_autoupdate)
+L 01/19/2023 - 17:43:31: SourceMod error session started
+L 01/19/2023 - 17:43:31: Info (map "c8m5_rooftop") (file "/root/Steam/steamapps/common/Left 4 Dead 2 Dedicated Server/left4dead2/addons/sourcemod3/logs/errors_20230119.log")
+L 01/19/2023 - 17:43:31: [SM] Exception reported: Unable to load file: addons/sourcemod/data/steamsforaddons.txt
+L 01/19/2023 - 17:43:31: [SM] Blaming: l4d2_addonsmanager.smx
+L 01/19/2023 - 17:43:31: [SM] Call stack trace:
+L 01/19/2023 - 17:43:31: [SM]   [0] SetFailState
+L 01/19/2023 - 17:43:31: [SM]   [1] Line 238, E:\DownLoading\beifen\sourcemod-1.11.0-git6826-windows\addons\sourcemod\scripting\l4d2_addonsmanager.sp::LoadSteamIDWhiteList
+L 01/19/2023 - 17:43:31: [SM]   [2] Line 27, E:\DownLoading\beifen\sourcemod-1.11.0-git6826-windows\addons\sourcemod\scripting\l4d2_addonsmanager.sp::OnPluginStart
+L 01/19/2023 - 17:43:31: [SM] Unable to load plugin "l4d2_addonsmanager.smx": Error detected in plugin startup (see error logs)
+L 01/19/2023 - 17:43:39: [SM] Plugin "confogl_autoloader.smx" encountered error 23: Native detected error
+L 01/19/2023 - 17:43:39: [SM] Invalid data handle 0 (error 4) passed during timer end with TIMER_DATA_HNDL_CLOSE
+L 01/19/2023 - 17:43:39: [SM] Unable to call function "ExecuteConfig" due to above error(s).
+L 01/19/2023 - 17:43:39: [SM] Exception reported: Invalid client index 0
+L 01/19/2023 - 17:43:39: [SM] Blaming: confoglcompmod.smx
+L 01/19/2023 - 17:43:39: [SM] Call stack trace:
+L 01/19/2023 - 17:43:39: [SM]   [0] ThrowError
+L 01/19/2023 - 17:43:39: [SM]   [1] Line 64, C:\Users\Administrator\Desktop\SPCode.Portable\sourcepawn\configs\sm_1_10_0_6478\include\colors.inc::CPrintToChat
+L 01/19/2023 - 17:43:39: [SM]   [2] Line 240, modules/ReqMatch.sp::RM_Cmd_ForceMatch
+L 01/19/2023 - 17:44:11: Error log file session closed.
+L 01/19/2023 - 17:44:16: SourceMod error session started
+L 01/19/2023 - 17:44:16: Info (map "c8m5_rooftop") (file "/root/Steam/steamapps/common/Left 4 Dead 2 Dedicated Server/left4dead2/addons/sourcemod3/logs/errors_20230119.log")
+L 01/19/2023 - 17:44:16: [SM] Plugin "confogl_autoloader.smx" encountered error 23: Native detected error
+L 01/19/2023 - 17:44:16: [SM] Invalid data handle 0 (error 4) passed during timer end with TIMER_DATA_HNDL_CLOSE
+L 01/19/2023 - 17:44:16: [SM] Unable to call function "ExecuteConfig" due to above error(s).
+L 01/19/2023 - 17:44:16: [SM] Exception reported: Invalid client index 0
+L 01/19/2023 - 17:44:16: [SM] Blaming: confoglcompmod.smx
+L 01/19/2023 - 17:44:16: [SM] Call stack trace:
+L 01/19/2023 - 17:44:16: [SM]   [0] ThrowError
+L 01/19/2023 - 17:44:16: [SM]   [1] Line 64, C:\Users\Administrator\Desktop\SPCode.Portable\sourcepawn\configs\sm_1_10_0_6478\include\colors.inc::CPrintToChat
+L 01/19/2023 - 17:44:16: [SM]   [2] Line 240, modules/ReqMatch.sp::RM_Cmd_ForceMatch
+L 01/19/2023 - 17:44:31: [confoglcompmod.smx] [Confogl] CvarSettings: Could not find CVar specified (l4d2_antibaiter_bile_stop)
+L 01/19/2023 - 17:44:31: [confoglcompmod.smx] [Confogl] CvarSettings: Could not find CVar specified (l4d2_steady_boost_flags)
+L 01/19/2023 - 17:44:31: [confoglcompmod.smx] [Confogl] CvarSettings: Could not find CVar specified (l4d2_ghost_warp_flag)
+L 01/19/2023 - 17:44:31: [confoglcompmod.smx] [Confogl] CvarSettings: Could not find CVar specified (l4d2_ghost_warp_delay)
+L 01/19/2023 - 17:44:31: [confoglcompmod.smx] [Confogl] CvarSettings: Could not find CVar specified (tank_punch_getup_scale)
+L 01/19/2023 - 17:44:31: [confoglcompmod.smx] [Confogl] CvarSettings: Could not find CVar specified (l4d2_rock_trace_unblock_flag)
+L 01/19/2023 - 17:44:31: [confoglcompmod.smx] [Confogl] CvarSettings: Could not find CVar specified (l4d2_rock_jockey_dismount)
+L 01/19/2023 - 17:44:31: [confoglcompmod.smx] [Confogl] CvarSettings: Could not find CVar specified (charger_dmg_incapped)
+L 01/19/2023 - 17:44:31: [confoglcompmod.smx] [Confogl] CvarSettings: Could not find CVar specified (l4d2_spit_spread_saferoom)
+L 01/19/2023 - 17:44:31: [confoglcompmod.smx] [Confogl] CvarSettings: Could not find CVar specified (l4d2_deathspit_trace_height)
+L 01/19/2023 - 17:44:31: [confoglcompmod.smx] [Confogl] CvarSettings: Could not find CVar specified (l4d_no_tank_rush_unfreeze_ai)
+L 01/19/2023 - 17:44:31: [confoglcompmod.smx] [Confogl] CvarSettings: Could not find CVar specified (l4d_equalise_alarm_start_disabled)
+L 01/19/2023 - 17:44:31: [confoglcompmod.smx] [Confogl] CvarSettings: Attempt to track ConVar z_ghost_delay_max, which is already being tracked.
+L 01/19/2023 - 17:44:31: [confoglcompmod.smx] [Confogl] CvarSettings: Could not find CVar specified (rpg_allow_glow)
+L 01/19/2023 - 17:44:31: [confoglcompmod.smx] [Confogl] CvarSettings: Could not find CVar specified (join_autoupdate)
+L 01/19/2023 - 17:44:35: Error log file session closed.
+L 01/19/2023 - 17:46:27: SourceMod error session started
+L 01/19/2023 - 17:46:27: Info (map "c8m5_rooftop") (file "/root/Steam/steamapps/common/Left 4 Dead 2 Dedicated Server/left4dead2/addons/sourcemod3/logs/errors_20230119.log")
+L 01/19/2023 - 17:46:27: [SM] Exception reported: Unable to load file: addons/sourcemod/data/steamsforaddons.txt
+L 01/19/2023 - 17:46:27: [SM] Blaming: l4d2_addonsmanager.smx
+L 01/19/2023 - 17:46:27: [SM] Call stack trace:
+L 01/19/2023 - 17:46:27: [SM]   [0] SetFailState
+L 01/19/2023 - 17:46:27: [SM]   [1] Line 238, E:\DownLoading\beifen\sourcemod-1.11.0-git6826-windows\addons\sourcemod\scripting\l4d2_addonsmanager.sp::LoadSteamIDWhiteList
+L 01/19/2023 - 17:46:27: [SM]   [2] Line 27, E:\DownLoading\beifen\sourcemod-1.11.0-git6826-windows\addons\sourcemod\scripting\l4d2_addonsmanager.sp::OnPluginStart
+L 01/19/2023 - 17:46:27: [SM] Unable to load plugin "l4d2_addonsmanager.smx": Error detected in plugin startup (see error logs)
+L 01/19/2023 - 17:46:35: [SM] Plugin "confogl_autoloader.smx" encountered error 23: Native detected error
+L 01/19/2023 - 17:46:35: [SM] Invalid data handle 0 (error 4) passed during timer end with TIMER_DATA_HNDL_CLOSE
+L 01/19/2023 - 17:46:35: [SM] Unable to call function "ExecuteConfig" due to above error(s).
+L 01/19/2023 - 17:46:35: [SM] Exception reported: Invalid client index 0
+L 01/19/2023 - 17:46:35: [SM] Blaming: confoglcompmod.smx
+L 01/19/2023 - 17:46:35: [SM] Call stack trace:
+L 01/19/2023 - 17:46:35: [SM]   [0] ThrowError
+L 01/19/2023 - 17:46:35: [SM]   [1] Line 64, C:\Users\Administrator\Desktop\SPCode.Portable\sourcepawn\configs\sm_1_10_0_6478\include\colors.inc::CPrintToChat
+L 01/19/2023 - 17:46:35: [SM]   [2] Line 240, modules/ReqMatch.sp::RM_Cmd_ForceMatch

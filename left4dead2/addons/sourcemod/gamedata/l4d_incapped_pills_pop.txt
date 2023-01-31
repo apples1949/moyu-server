@@ -1,0 +1,82 @@
+"Games"
+{
+	"left4dead"
+	{
+		"Functions"
+		{
+			"CTerrorPlayer::OnLedgeGrabbed"
+			{
+				"signature"		"CTerrorPlayer::OnLedgeGrabbed"
+				"callconv"		"thiscall"
+				"return"		"int"
+				"this"			"entity"
+				"arguments"
+				{
+					"a2"
+					{
+						"type"	"vectorptr"
+					}
+				}
+			}
+		}
+		"Signatures"
+		{
+			"CTerrorPlayer::OnLedgeGrabbed"
+			{
+				"library"		"server"
+				"linux"			"@_ZN13CTerrorPlayer14OnLedgeGrabbedERK6Vector"
+				"windows"	"\x2A\x2A\x2A\x2A\x2A\x2A\x81\xEC\x2A\x2A\x2A\x2A\x53\x56\x8B\xF1\x8B\x06\x8B\x90\x2A\x2A\x2A\x2A\x57\xFF\xD2\x84\xC0"
+				/* ? ? ? ? ? ? 81 EC ? ? ? ? 53 56 8B F1 8B 06 8B 90 ? ? ? ? 57 FF D2 84 C0 */
+				/* Search by "info_hang_lighting" string */
+			}
+			"CTerrorPlayer::OnRevived"
+			{
+				"library"		"server"
+				"linux"			"@_ZN13CTerrorPlayer9OnRevivedEv"
+				"windows"	"\x2A\x2A\x2A\x2A\x2A\x56\x57\x8B\xF9\x8B\x07\x8B\x90\x2A\x2A\x2A\x2A\xFF\xD2\x84\xC0\x0F\x84"
+				/* ? ? ? ? ? 56 57 8B F9 8B 07 8B 90 ? ? ? ? FF D2 84 C0 0F 84 */
+				/* Search by "RevivedByFriend" string */
+			}
+		}
+	}
+	
+	"left4dead2"
+	{
+		"Functions"
+		{
+			"CTerrorPlayer::OnLedgeGrabbed"
+			{
+				"signature"		"CTerrorPlayer::OnLedgeGrabbed"
+				"callconv"		"thiscall"
+				"return"		"int"
+				"this"			"entity"
+				"arguments"
+				{
+					"a2"
+					{
+						"type"	"vectorptr"
+					}
+				}
+			}
+		}
+		"Signatures"
+		{
+			"CTerrorPlayer::OnLedgeGrabbed"
+			{
+				"library"		"server"
+				"linux"			"@_ZN13CTerrorPlayer14OnLedgeGrabbedERK6Vector"
+				"windows"		"\x2A\x2A\x2A\x2A\x2A\x2A\x2A\x2A\x2A\xA1\x2A\x2A\x2A\x2A\x33\x2A\x89\x2A\x2A\x53\x56\x8B\x2A\x8B\x2A\x8B\x2A\x2A\x2A\x2A\x2A\x57\x2A\x2A\x84\x2A\x0F\x84\x2A\x2A\x2A\x2A\x8B"
+				/* ? ? ? ? ? ? ? ? ? A1 ? ? ? ? 33 ? 89 ? ? 53 56 8B ? 8B ? 8B ? ? ? ? ? 57 ? ? 84 ? 0F 84 ? ? ? ? 8B */
+				/* Search: "%s grabs a ledge - last standing at %s." */
+			}
+			"CTerrorPlayer::OnRevived"
+			{
+				"library"		"server"
+				"linux"			"@_ZN13CTerrorPlayer9OnRevivedEv"
+				"windows"		"\x2A\x2A\x2A\x2A\x2A\x2A\x53\x56\x8B\xF1\x8B\x06\x8B\x90\x2A\x2A\x2A\x2A\x57\xFF\xD2\x84\xC0\x0F\x84\x2A\x2A\x2A\x2A\x8B\xCE"
+				/* ? ? ? ? ? ? 53 56 8B F1 8B 06 8B 90 ? ? ? ? 57 FF D2 84 C0 0F 84 ? ? ? ? 8B CE */
+				/* ->Search for string "revive_success", then open vtables window. Should be the 5th member. */
+			}
+		}
+	}
+}

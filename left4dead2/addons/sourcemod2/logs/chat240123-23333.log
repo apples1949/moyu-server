@@ -1,0 +1,1540 @@
+--=================================================================--
+[24/01/2023 10:01:04] --- 回合开始: c2m1_highway ---
+--=================================================================--
+--=================================================================--
+[24/01/2023 10:01:04] --- 地图开始: c2m1_highway ---
+--=================================================================--
+[10:02:45] [CN] 予感<2><STEAM_1:0:246466989><> 加入游戏 (223.149.50.239)
+[10:02:45] [Unassigned] 予感: vmodenable 1
+[10:02:50] [Infected] 予感: unpause 
+[10:03:28] [Infected] 予感: setpause 
+[10:04:35] [Infected] 予感: sm_rcon sn_hostname_format_new
+[10:04:36] [Infected] 予感: unpause 
+[10:04:36] [Infected] 予感: unpause 
+[10:04:46] [Infected] 予感: setpause 
+[10:04:55] [Infected] 予感: sm_rcon sn_hostname_format1
+[10:05:00] [Infected] 予感: unpause 
+[10:05:00] [Infected] 予感: unpause 
+[10:05:36] [Infected] 予感: setpause 
+[10:05:38] [Infected] 予感: sm_rcon sn_hostname_format2
+[10:05:41] [Infected] 予感: sm_rcon sn_hostname_format3
+[10:05:47] [Infected] 予感: sm_rcon sn_hostname_reformat
+[10:05:49] [Infected] 予感: unpause 
+[10:05:49] [Infected] 予感: unpause 
+[10:05:55] [Infected] 予感: setpause 
+[10:05:58] [Infected] 予感: sm_rcon sn_hostname_reformat1
+[10:06:13] [Infected] 予感: sm_rcon sn_main_name_path
+[10:06:13] [Infected] 予感: unpause 
+[10:06:13] [Infected] 予感: unpause 
+[10:06:26] [Infected] 予感: say /match
+[10:06:26] [Infected] 予感: sm_match 
+[10:06:27] [Infected] 予感: menuselect 1
+[10:06:27] [Infected] 予感: vote Yes
+[10:06:27] [Infected] 予感: menuselect 1
+--=================================================================--
+[24/01/2023 10:06:29] --- 地图开始: c2m1_highway ---
+--=================================================================--
+--=================================================================--
+[24/01/2023 10:06:32] --- 地图结束: c2m1_highway ---
+--=================================================================--
+--=================================================================--
+[24/01/2023 10:06:34] --- 回合开始: c2m1_highway ---
+--=================================================================--
+--=================================================================--
+[24/01/2023 10:06:34] --- 地图开始: c2m1_highway ---
+--=================================================================--
+[10:06:47] [CN] 予感<2><STEAM_1:0:246466989><> 加入游戏 (223.149.50.239)
+[10:06:47] [Unassigned] 予感: vmodenable 1
+[10:06:47] [Unassigned] 予感: vban 0
+[10:06:48] [Unassigned] 予感: unpause 
+[10:06:55] [Spectator] 予感: say /jg
+[10:06:55] [Spectator] 予感: sm_jg 
+[10:06:55] [Spectator] 予感: jointeam survivor
+[10:07:10] [Survivor] 予感: say /rmatch
+[10:07:10] [Survivor] 予感: sm_rmatch 
+[10:07:10] [Survivor] 予感: vote Yes
+--=================================================================--
+[24/01/2023 10:07:12] --- 地图开始: c2m1_highway ---
+--=================================================================--
+[10:07:13] [Survivor] 予感: say /match
+[10:07:13] [Survivor] 予感: sm_match 
+[10:07:13] [Survivor] 予感: menuselect 1
+[10:07:14] [Survivor] 予感: vote Yes
+[10:07:14] [Survivor] 予感: menuselect 2
+--=================================================================--
+[24/01/2023 10:07:15] --- 地图开始: c2m1_highway ---
+--=================================================================--
+--=================================================================--
+[24/01/2023 10:07:18] --- 地图结束: c2m1_highway ---
+--=================================================================--
+--=================================================================--
+[24/01/2023 10:07:20] --- 回合开始: c2m1_highway ---
+--=================================================================--
+--=================================================================--
+[24/01/2023 10:07:20] --- 地图开始: c2m1_highway ---
+--=================================================================--
+[10:07:32] [CN] 予感<2><STEAM_1:0:246466989><> 加入游戏 (223.149.50.239)
+[10:07:32] [Unassigned] 予感: vmodenable 1
+[10:07:32] [Unassigned] 予感: vban 0
+[10:07:33] [Unassigned] 予感: unpause 
+[10:07:54] [Survivor] 予感: vocalize smartlook auto
+[10:07:59] [Survivor] 予感: setpause 
+[10:08:02] [Survivor] 予感: sm_rcon sn_hostname_reformat1
+[10:08:04] [Survivor] 予感: sm_rcon sn_hostname_format1
+[10:08:16] [Survivor] 予感: unpause 
+[10:08:16] [Survivor] 予感: unpause 
+[10:08:18] [Survivor] 予感: vocalize smartlook auto
+[10:08:32] [Survivor] 予感: setpause 
+[10:08:35] [Survivor] 予感: sm_rcon sn_hostname_format1
+[10:08:46] [Survivor] 予感: sm_rcon sm plugins load server name
+[10:09:03] [Survivor] 予感: sm_rcon sm plugins unlock
+[10:09:14] [Survivor] 予感: sm_rcon sm load_unlock
+[10:09:23] [Spectator] 予感: unpause 
+[10:09:23] [Spectator] 予感: unpause 
+[10:09:25] [Spectator] 予感: say /jg
+[10:09:25] [Spectator] 予感: sm_jg 
+[10:09:25] [Spectator] 予感: jointeam survivor
+[10:09:26] [Survivor] 予感: setpause 
+[10:09:28] [Survivor] 予感: unpause 
+[10:09:28] [Survivor] 予感: unpause 
+[10:09:37] 予感<2><STEAM_1:0:246466989><> 离开游戏 (reason: Disconnect by user.)
+--=================================================================--
+[24/01/2023 10:10:12] --- 回合开始: c2m1_highway ---
+--=================================================================--
+--=================================================================--
+[24/01/2023 10:10:13] --- 地图开始: c2m1_highway ---
+--=================================================================--
+[10:39:01] [CN] 予感<2><STEAM_1:0:246466989><> 加入游戏 (223.149.50.239)
+[10:39:01] [Unassigned] 予感: vmodenable 1
+[10:39:06] [Infected] 予感: unpause 
+[10:39:31] [Infected] 予感: say /match
+[10:39:31] [Infected] 予感: sm_match 
+[10:39:32] [Infected] 予感: menuselect 1
+[10:39:32] [Infected] 予感: vote Yes
+[10:39:32] [Infected] 予感: menuselect 1
+--=================================================================--
+[24/01/2023 10:39:34] --- 地图开始: c2m1_highway ---
+--=================================================================--
+--=================================================================--
+[24/01/2023 10:39:37] --- 地图结束: c2m1_highway ---
+--=================================================================--
+--=================================================================--
+[24/01/2023 10:39:39] --- 回合开始: c2m1_highway ---
+--=================================================================--
+--=================================================================--
+[24/01/2023 10:39:39] --- 地图开始: c2m1_highway ---
+--=================================================================--
+[10:39:51] [CN] 予感<2><STEAM_1:0:246466989><> 加入游戏 (223.149.50.239)
+[10:39:52] [Unassigned] 予感: unpause 
+[10:39:52] [Unassigned] 予感: vmodenable 1
+[10:39:52] [Unassigned] 予感: vban 0
+[10:40:02] [Survivor] 予感: say /rmatch
+[10:40:02] [Survivor] 予感: sm_rmatch 
+[10:40:02] [Survivor] 予感: vote Yes
+--=================================================================--
+[24/01/2023 10:40:03] --- 地图开始: c2m1_highway ---
+--=================================================================--
+[10:40:06] [Survivor] 予感: say /match
+[10:40:06] [Survivor] 予感: sm_match 
+[10:40:07] [Survivor] 予感: menuselect 1
+[10:40:08] [Survivor] 予感: vote Yes
+[10:40:08] [Survivor] 予感: menuselect 2
+--=================================================================--
+[24/01/2023 10:40:09] --- 地图开始: c2m1_highway ---
+--=================================================================--
+--=================================================================--
+[24/01/2023 10:40:12] --- 地图结束: c2m1_highway ---
+--=================================================================--
+--=================================================================--
+[24/01/2023 10:40:14] --- 回合开始: c2m1_highway ---
+--=================================================================--
+--=================================================================--
+[24/01/2023 10:40:14] --- 地图开始: c2m1_highway ---
+--=================================================================--
+[10:40:27] [CN] 予感<2><STEAM_1:0:246466989><> 加入游戏 (223.149.50.239)
+[10:40:27] [Unassigned] 予感: vmodenable 1
+[10:40:27] [Unassigned] 予感: vban 0
+[10:40:28] [Unassigned] 予感: unpause 
+[10:40:45] [Spectator] 予感: say /jg
+[10:40:45] [Spectator] 予感: sm_jg 
+[10:40:45] [Spectator] 予感: jointeam survivor
+[10:40:52] [Survivor] 予感: setpause 
+[10:41:04] [Survivor] 予感: sm_rcon sn_hostname_format1
+[10:41:12] [Survivor] 予感: sm_rcon sn_hostname_format_new
+[10:41:17] [Survivor] 予感: unpause 
+[10:41:17] [Survivor] 予感: unpause 
+[10:41:31] [Survivor] 予感: vocalize smartlook auto
+[10:41:39] [Survivor] 予感: vocalize smartlook auto
+[10:41:40] [Survivor] 予感: vocalize smartlook auto
+[10:41:57] [Survivor] 予感: vocalize smartlook auto
+[10:42:07] 予感<2><STEAM_1:0:246466989><> 离开游戏 (reason: Disconnect by user.)
+--=================================================================--
+[24/01/2023 10:42:42] --- 回合开始: c2m1_highway ---
+--=================================================================--
+--=================================================================--
+[24/01/2023 10:42:42] --- 地图开始: c2m1_highway ---
+--=================================================================--
+[10:52:13] Yamato<2><STEAM_1:0:556713568><> 离开游戏 (reason: Disconnect by user.)
+--=================================================================--
+[24/01/2023 10:52:48] --- 回合开始: c2m1_highway ---
+--=================================================================--
+--=================================================================--
+[24/01/2023 10:52:48] --- 地图开始: c2m1_highway ---
+--=================================================================--
+[14:43:46] [CN] LSP<2><STEAM_1:0:625834323><> 加入游戏 (120.239.45.151)
+[14:43:48] [Unassigned] LSP: vmodenable 1
+[14:43:48] [Unassigned] LSP: vban 0
+[14:43:51] [Survivor] LSP: unpause 
+[14:43:54] [Survivor] LSP: say_team /vote
+[14:43:54] [Survivor] LSP: sm_vote 
+[14:43:59] [Survivor] LSP: menuselect 7
+[14:44:02] [Survivor] LSP: setpause 
+[14:44:04] LSP<2><STEAM_1:0:625834323><> 离开游戏 (reason: Disconnect by user.)
+--=================================================================--
+[24/01/2023 14:44:40] --- 回合开始: c2m1_highway ---
+--=================================================================--
+--=================================================================--
+[24/01/2023 14:44:40] --- 地图开始: c2m1_highway ---
+--=================================================================--
+[16:06:41] [CN] 予感<2><STEAM_1:0:246466989><> 加入游戏 (223.149.50.239)
+[16:06:41] [Unassigned] 予感: vmodenable 1
+[16:06:45] [Survivor] 予感: unpause 
+[16:06:58] [Survivor] 予感: say /match
+[16:06:58] [Survivor] 予感: sm_match 
+[16:06:59] [Survivor] 予感: menuselect 1
+[16:06:59] [Survivor] 予感: vote Yes
+[16:06:59] [Survivor] 予感: menuselect 1
+--=================================================================--
+[24/01/2023 16:07:00] --- 地图开始: c2m1_highway ---
+--=================================================================--
+--=================================================================--
+[24/01/2023 16:07:03] --- 地图结束: c2m1_highway ---
+--=================================================================--
+--=================================================================--
+[24/01/2023 16:07:06] --- 回合开始: c2m1_highway ---
+--=================================================================--
+--=================================================================--
+[24/01/2023 16:07:06] --- 地图开始: c2m1_highway ---
+--=================================================================--
+[16:07:18] [CN] 予感<2><STEAM_1:0:246466989><> 加入游戏 (223.149.50.239)
+[16:07:19] [Unassigned] 予感: vmodenable 1
+[16:07:19] [Unassigned] 予感: vban 0
+[16:07:19] [Unassigned] 予感: unpause 
+[16:07:27] [Spectator] 予感: say /jg
+[16:07:27] [Spectator] 予感: sm_jg 
+[16:07:27] [Spectator] 予感: jointeam survivor
+[16:07:43] [Survivor] 予感: vocalize smartlook auto
+[16:07:46] [Survivor] 予感: setpause 
+[16:08:04] [Survivor] 予感: sm_rcon sn_hostname_format1
+[16:08:10] [Survivor] 予感: sm_rcon sn_hostname_reformat1
+[16:08:18] [Survivor] 予感: sm_rcon sn_hostname_format_new
+[16:08:20] [Survivor] 予感: unpause 
+[16:08:20] [Survivor] 予感: unpause 
+[16:08:45] [Survivor] 予感: say /vote
+[16:08:45] [Survivor] 予感: sm_vote 
+[16:08:50] [Survivor] 予感: menuselect 9
+[16:08:55] [Survivor] 予感: menuselect 9
+[16:09:03] [Survivor] 予感: menuselect 5
+[16:09:16] [Survivor] 予感: menuselect 9
+[16:09:17] [Survivor] 予感: menuselect 9
+[16:09:18] [Survivor] 予感: menuselect 8
+[16:09:18] [Survivor] 予感: menuselect 8
+[16:09:19] [Survivor] 予感: menuselect 9
+[16:09:20] [Survivor] 予感: menuselect 9
+[16:09:21] [Survivor] 予感: menuselect 8
+[16:09:23] [Survivor] 予感: menuselect 9
+[16:09:25] [Survivor] 予感: menuselect 9
+[16:09:26] [Survivor] 予感: menuselect 9
+[16:09:27] [Survivor] 予感: menuselect 5
+[16:09:28] [Survivor] 予感: menuselect 9
+[16:09:29] [Survivor] 予感: menuselect 9
+[16:09:31] [Survivor] 予感: menuselect 9
+[16:09:33] [Survivor] 予感: menuselect 9
+[16:09:35] [Survivor] 予感: menuselect 9
+[16:09:36] [Survivor] 予感: menuselect 9
+[16:09:45] [Survivor] 予感: say /rmatch
+[16:09:45] [Survivor] 予感: sm_rmatch 
+[16:09:45] [Survivor] 予感: vote Yes
+--=================================================================--
+[24/01/2023 16:09:47] --- 地图开始: c2m1_highway ---
+--=================================================================--
+[16:09:48] [Survivor] 予感: say /match
+[16:09:48] [Survivor] 予感: sm_match 
+[16:09:52] [Survivor] 予感: menuselect 1
+[16:09:52] [Survivor] 予感: vote Yes
+[16:09:52] [Survivor] 予感: menuselect 2
+--=================================================================--
+[24/01/2023 16:09:53] --- 地图开始: c2m1_highway ---
+--=================================================================--
+--=================================================================--
+[24/01/2023 16:09:57] --- 地图结束: c2m1_highway ---
+--=================================================================--
+--=================================================================--
+[24/01/2023 16:09:59] --- 回合开始: c2m1_highway ---
+--=================================================================--
+--=================================================================--
+[24/01/2023 16:09:59] --- 地图开始: c2m1_highway ---
+--=================================================================--
+[16:10:11] [CN] 予感<2><STEAM_1:0:246466989><> 加入游戏 (223.149.50.239)
+[16:10:12] [Unassigned] 予感: vmodenable 1
+[16:10:12] [Unassigned] 予感: vban 0
+[16:10:13] [Unassigned] 予感: unpause 
+[16:10:26] [Survivor] 予感: setpause 
+[16:10:28] [Survivor] 予感: sm_rcon sn_hostname_format1
+[16:10:32] [Survivor] 予感: sm_rcon sn_hostname_format_new
+[16:10:39] [Survivor] 予感: sm_rcon sn_hostname_reformat1
+[16:10:40] [Survivor] 予感: unpause 
+[16:10:40] [Survivor] 予感: unpause 
+[16:10:52] [Survivor] 予感: give pain_pills
+[16:10:52] [Survivor] 予感: give health
+[16:10:53] [Survivor] 予感: nb_assault 
+[16:10:53] [Survivor] 予感: nb_assault 
+[16:11:17] [Survivor] 予感: nb_assault 
+[16:11:23] [Survivor] 予感: nb_assault 
+[16:11:41] [Survivor] 予感: nb_assault 
+[16:11:44] [Survivor] 予感: vocalize smartlook auto
+[16:11:56] [Survivor] 予感: nb_assault 
+[16:12:04] [Survivor] 予感: nb_assault 
+[16:12:19] [Survivor] 予感: nb_assault 
+[16:12:38] [Survivor] 予感: nb_assault 
+[16:12:47] [Survivor] 予感: nb_assault 
+[16:13:01] [Survivor] 予感: nb_assault 
+[16:13:11] [Survivor] 予感: nb_assault 
+[16:13:24] [Survivor] 予感: nb_assault 
+[16:13:24] [Survivor] 予感: nb_assault 
+[16:13:43] [Survivor] 予感: vocalize smartlook auto
+[16:13:44] [Survivor] 予感: choose_closedoor 
+[16:13:44] [Survivor] 予感: choose_closedoor 
+[16:13:45] [Survivor] 予感: vocalize smartlook auto
+--=================================================================--
+[24/01/2023 16:13:45] --- 回合结束: c2m1_highway ---
+--=================================================================--
+[16:13:45] [Survivor] 予感: give health
+[16:13:45] [Survivor] 予感: give pistol
+--=================================================================--
+[24/01/2023 16:13:47] --- 回合结束: c2m1_highway ---
+--=================================================================--
+[16:13:50] 予感<2><STEAM_1:0:246466989><> 离开游戏 (reason: Disconnect by user.)
+--=================================================================--
+[24/01/2023 16:13:52] --- 回合开始: c2m1_highway ---
+--=================================================================--
+--=================================================================--
+[24/01/2023 16:14:25] --- 回合开始: c2m1_highway ---
+--=================================================================--
+--=================================================================--
+[24/01/2023 16:14:25] --- 地图开始: c2m1_highway ---
+--=================================================================--
+[18:23:47] [CN] 自傷無色<2><STEAM_1:1:577251180><> 加入游戏 (27.189.42.198)
+[18:23:53] [Unassigned] 自傷無色: vmodenable 1
+[18:23:53] [Unassigned] 自傷無色: vban 0
+[18:23:57] [Survivor] 自傷無色: unpause 
+[18:24:10] [Survivor] 自傷無色: setpause 
+[18:24:22] [Survivor] 自傷無色: unpause 
+[18:24:22] [Survivor] 自傷無色: setpause 
+[18:24:23] [Survivor] 自傷無色: unpause 
+[18:24:23] [Survivor] 自傷無色: unpause 
+[18:24:23] [Survivor] 自傷無色: setpause 
+[18:24:24] [Survivor] 自傷無色: unpause 
+[18:24:24] [Survivor] 自傷無色: unpause 
+[18:25:06] [Survivor] 自傷無色: setpause 
+[18:25:07] [Survivor] 自傷無色: vocalize smartlook auto
+[18:25:15] [Survivor] 自傷無色: unpause 
+[18:25:15] [Survivor] 自傷無色: unpause 
+[18:25:26] [Survivor] 自傷無色: setpause 
+[18:25:37] [Survivor] 自傷無色: unpause 
+[18:25:37] [Survivor] 自傷無色: unpause 
+[18:25:37] [Survivor] 自傷無色: setpause 
+[18:25:37] [Survivor] 自傷無色: unpause 
+[18:25:37] [Survivor] 自傷無色: unpause 
+[18:26:12] [Survivor] 自傷無色: setpause 
+[18:26:16] [Survivor] 自傷無色: unpause 
+[18:26:17] [Survivor] 自傷無色: setpause 
+[18:26:22] [Survivor] 自傷無色: unpause 
+[18:28:33] [Survivor] 自傷無色: setpause 
+[18:28:35] [Survivor] 自傷無色: unpause 
+[18:28:47] [Survivor] 自傷無色: setpause 
+[18:28:59] [Survivor] 自傷無色: unpause 
+[18:28:59] [Survivor] 自傷無色: unpause 
+[18:28:59] [Survivor] 自傷無色: setpause 
+[18:29:02] [Survivor] 自傷無色: unpause 
+[18:29:14] [Survivor] 自傷無色: setpause 
+[18:29:28] [Survivor] 自傷無色: unpause 
+[18:29:28] [Survivor] 自傷無色: unpause 
+[18:29:40] [Survivor] 自傷無色: vocalize smartlook auto
+[18:29:59] [Survivor] 自傷無色: choose_opendoor 
+[18:29:59] [Survivor] 自傷無色: choose_opendoor 
+[18:30:11] [Survivor] 自傷無色: choose_opendoor 
+[18:30:11] [Survivor] 自傷無色: choose_opendoor 
+[18:30:12] [Survivor] 自傷無色: choose_opendoor 
+[18:30:12] [Survivor] 自傷無色: choose_opendoor 
+[18:30:21] [Survivor] 自傷無色: choose_opendoor 
+[18:30:21] [Survivor] 自傷無色: choose_opendoor 
+[18:30:27] [Survivor] 自傷無色: choose_opendoor 
+[18:30:27] [Survivor] 自傷無色: choose_opendoor 
+[18:30:59] [Survivor] 自傷無色: vocalize smartlook auto
+[18:32:58] [Survivor] 自傷無色: setpause 
+[18:32:59] [Survivor] 自傷無色: unpause 
+[18:32:59] [Survivor] 自傷無色: unpause 
+[18:33:07] [Survivor] 自傷無色: sm_vote 
+[18:33:08] [Survivor] 自傷無色: spec_mode 
+[18:33:08] [Survivor] 自傷無色: scripted_user_func cvar,mp_gamemode,versus
+[18:33:08] [Survivor] 自傷無色: scripted_user_func say,Changing,to,Versus
+[18:33:08] [Survivor] 自傷無色: scripted_user_func say,Requires,restarting,the,map.
+[18:33:11] [Survivor] 自傷無色: sm_vote 
+[18:33:12] [Survivor] 自傷無色: menuselect 1
+[18:33:14] [Survivor] 自傷無色: vote Yes
+[18:33:14] [Survivor] 自傷無色: menuselect 2
+--=================================================================--
+[24/01/2023 18:33:29] --- 回合开始: c2m1_highway ---
+--=================================================================--
+--=================================================================--
+[24/01/2023 18:33:29] --- 地图开始: c2m1_highway ---
+--=================================================================--
+[18:48:53] [CN] LSP<2><STEAM_1:0:625834323><> 加入游戏 (120.239.45.151)
+[18:48:55] [Unassigned] LSP: vmodenable 1
+[18:48:55] [Unassigned] LSP: vban 0
+[18:48:58] [Survivor] LSP: unpause 
+[18:49:21] [Survivor] LSP: say /vote
+[18:49:21] [Survivor] LSP: sm_vote 
+[18:49:22] [Survivor] LSP: menuselect 3
+[18:49:23] [Survivor] LSP: vote Yes
+[18:49:23] [Survivor] LSP: menuselect 2
+--=================================================================--
+[24/01/2023 18:49:24] --- 地图开始: c2m1_highway ---
+--=================================================================--
+--=================================================================--
+[24/01/2023 18:49:27] --- 地图结束: c2m1_highway ---
+--=================================================================--
+--=================================================================--
+[24/01/2023 18:49:29] --- 回合开始: c2m1_highway ---
+--=================================================================--
+--=================================================================--
+[24/01/2023 18:49:29] --- 地图开始: c2m1_highway ---
+--=================================================================--
+[18:49:42] [CN] LSP<2><STEAM_1:0:625834323><> 加入游戏 (120.239.45.151)
+[18:49:44] [Unassigned] LSP: vmodenable 1
+[18:49:44] [Unassigned] LSP: vban 0
+[18:49:44] [Unassigned] LSP: unpause 
+[18:49:51] [Survivor] LSP: say_team /vote
+[18:49:51] [Survivor] LSP: sm_vote 
+[18:49:52] [Survivor] LSP: vocalize smartlook auto
+[18:49:53] [Survivor] LSP: menuselect 3
+[18:49:53] [Survivor] LSP: vote Yes
+[18:49:53] [Survivor] LSP: menuselect 1
+[18:49:54] [Survivor] LSP: vocalize smartlook auto
+[18:49:58] [CN] Mani<6><STEAM_1:1:569512314><> 加入游戏 (117.143.156.188)
+[18:49:59] [Unassigned] Mani: vmodenable 1
+[18:49:59] [Unassigned] Mani: vban 0
+[18:50:00] [Infected] Mani: setpause 
+[18:50:00] [Infected] Mani: unpause 
+[18:50:00] [Infected] Mani: unpause 
+[18:50:01] [Spectator] Mani: setpause 
+[18:50:02] [Spectator] Mani: unpause 
+[18:50:02] [Spectator] Mani: unpause 
+[18:50:04] [Spectator] Mani: spec_mode 
+[18:50:04] [Spectator] Mani: spec_mode 
+[18:50:05] [Spectator] Mani: spec_mode 
+[18:50:22] [Survivor] LSP: say 我试试打开鼠标速咋样
+[18:50:24] [Survivor] LSP: setpause 
+[18:50:30] [Survivor] LSP: unpause 
+[18:50:30] [Survivor] LSP: unpause 
+[18:50:32] [Survivor] LSP: say 鼠标加速
+[18:50:32] [Spectator] Mani: say 好
+[18:50:33] [Survivor] LSP: setpause 
+[18:50:37] [Survivor] LSP: unpause 
+[18:50:37] [Survivor] LSP: unpause 
+[18:50:41] [Survivor] LSP: give pain_pills
+[18:50:41] [Survivor] LSP: give health
+[18:50:41] [Survivor] LSP: give machete
+[18:50:42] [Survivor] LSP: nb_assault 
+[18:50:42] [Survivor] LSP: nb_assault 
+[18:50:59] [Survivor] LSP: nb_assault 
+[18:51:03] [Survivor] LSP: nb_assault 
+[18:51:06] [Survivor] LSP: nb_assault 
+[18:51:08] [Survivor] LSP: nb_assault 
+[18:51:14] [Survivor] LSP: nb_assault 
+[18:51:18] [Survivor] LSP: nb_assault 
+[18:51:25] [Survivor] LSP: nb_assault 
+[18:51:29] [Survivor] LSP: nb_assault 
+[18:51:34] [Survivor] LSP: nb_assault 
+[18:51:37] [Survivor] LSP: nb_assault 
+[18:51:44] [Survivor] LSP: nb_assault 
+[18:51:48] [Survivor] LSP: nb_assault 
+[18:51:59] [Survivor] LSP: nb_assault 
+[18:52:00] [Survivor] LSP: nb_assault 
+[18:52:01] [Survivor] LSP: say /zs
+[18:52:01] [Survivor] LSP: sm_zs 
+--=================================================================--
+[24/01/2023 18:52:01] --- 回合结束: c2m1_highway ---
+--=================================================================--
+--=================================================================--
+[24/01/2023 18:52:03] --- 回合结束: c2m1_highway ---
+--=================================================================--
+--=================================================================--
+[24/01/2023 18:52:05] --- 回合开始: c2m1_highway ---
+--=================================================================--
+[18:52:08] [Survivor] LSP: say 开了跟没开似的
+[18:52:11] [Survivor] LSP: say 人还是一样菜
+[18:52:12] [Survivor] LSP: setpause 
+[18:52:17] [Survivor] LSP: unpause 
+[18:52:17] [Survivor] LSP: unpause 
+[18:52:22] [Spectator] Mani: say 很厉害了
+[18:52:23] [Survivor] LSP: setpause 
+[18:52:23] [Survivor] LSP: unpause 
+[18:52:23] [Survivor] LSP: unpause 
+[18:52:24] [Survivor] LSP: setpause 
+[18:52:27] [Survivor] LSP: unpause 
+[18:52:27] [Survivor] LSP: unpause 
+[18:52:30] [Survivor] LSP: give pain_pills
+[18:52:30] [Survivor] LSP: give health
+[18:52:30] [Survivor] LSP: give machete
+[18:52:31] [Survivor] LSP: nb_assault 
+[18:52:31] [Survivor] LSP: nb_assault 
+[18:52:38] [Survivor] LSP: nb_assault 
+[18:52:42] [Survivor] LSP: nb_assault 
+[18:52:47] [Survivor] LSP: nb_assault 
+[18:52:51] [Survivor] LSP: nb_assault 
+[18:52:54] [Spectator] Mani: say 我去这年轻人
+[18:52:56] [Survivor] LSP: nb_assault 
+[18:53:04] [Survivor] LSP: nb_assault 
+[18:53:06] [Survivor] LSP: nb_assault 
+[18:53:08] [Survivor] LSP: nb_assault 
+[18:53:15] [Survivor] LSP: nb_assault 
+[18:53:20] [Survivor] LSP: nb_assault 
+[18:53:23] [Survivor] LSP: nb_assault 
+[18:53:30] [Survivor] LSP: nb_assault 
+[18:53:35] [Survivor] LSP: nb_assault 
+[18:53:39] [Survivor] LSP: nb_assault 
+[18:53:45] [Survivor] LSP: nb_assault 
+[18:53:50] [Survivor] LSP: nb_assault 
+[18:53:52] [Survivor] LSP: nb_assault 
+[18:53:54] [Survivor] LSP: nb_assault 
+[18:53:54] [CN] 自傷無色<37><STEAM_1:1:577251180><> 加入游戏 (27.189.42.198)
+[18:53:55] [Unassigned] 自傷無色: vmodenable 1
+[18:53:55] [Unassigned] 自傷無色: vban 0
+[18:53:58] [Survivor] LSP: nb_assault 
+[18:54:02] [Unassigned] 自傷無色: unpause 
+[18:54:04] [Spectator] Mani: say 开了
+[18:54:06] [Survivor] LSP: nb_assault 
+[18:54:07] [Spectator] 自傷無色: spec_mode 
+[18:54:08] [Spectator] 自傷無色: spec_mode 
+[18:54:09] [Survivor] LSP: nb_assault 
+[18:54:11] [Survivor] LSP: nb_assault 
+[18:54:12] [Survivor] LSP: say /zs
+[18:54:12] [Survivor] LSP: sm_zs 
+--=================================================================--
+[24/01/2023 18:54:12] --- 回合结束: c2m1_highway ---
+--=================================================================--
+--=================================================================--
+[24/01/2023 18:54:14] --- 回合结束: c2m1_highway ---
+--=================================================================--
+--=================================================================--
+[24/01/2023 18:54:16] --- 回合开始: c2m1_highway ---
+--=================================================================--
+[18:54:20] [Spectator] 自傷無色: spec_mode 
+[18:54:21] [Survivor] LSP: say 我试了下鼠标加速
+[18:54:21] [Spectator] 自傷無色: spec_mode 
+[18:54:25] [Spectator] 自傷無色: say 很垃圾
+[18:54:30] [Spectator] Mani: setpause 
+[18:54:30] [Spectator] Mani: unpause 
+[18:54:31] [Spectator] Mani: setpause 
+[18:54:32] Mani<6><STEAM_1:1:569512314><> 离开游戏 (reason: Disconnect by user.)
+[18:54:37] [Survivor] LSP: say 感觉速度高了点
+[18:54:48] [Survivor] LSP: say 但觉得和平时没两样
+[18:54:52] [Survivor] LSP: setpause 
+[18:55:00] [Survivor] LSP: unpause 
+[18:55:00] [Survivor] LSP: unpause 
+[18:55:01] [Spectator] 自傷無色: spec_mode 
+[18:55:06] [Survivor] LSP: give pain_pills
+[18:55:06] [Survivor] LSP: give health
+[18:55:06] [Survivor] LSP: give machete
+[18:55:06] [Survivor] LSP: nb_assault 
+[18:55:06] [Survivor] LSP: nb_assault 
+[18:55:11] [Survivor] LSP: nb_assault 
+[18:55:17] [Survivor] LSP: nb_assault 
+[18:55:19] [Survivor] LSP: nb_assault 
+[18:55:27] [Survivor] LSP: nb_assault 
+[18:55:30] [Survivor] LSP: nb_assault 
+[18:55:33] [Survivor] LSP: nb_assault 
+[18:55:38] [Survivor] LSP: nb_assault 
+[18:55:42] [Survivor] LSP: nb_assault 
+[18:55:46] [Survivor] LSP: nb_assault 
+[18:55:48] [Survivor] LSP: nb_assault 
+[18:55:51] [Survivor] LSP: nb_assault 
+[18:55:53] [Survivor] LSP: nb_assault 
+[18:55:57] [Survivor] LSP: nb_assault 
+[18:55:59] [Survivor] LSP: nb_assault 
+[18:56:02] [Survivor] LSP: nb_assault 
+[18:56:08] [Survivor] LSP: nb_assault 
+[18:56:18] [Survivor] LSP: nb_assault 
+[18:56:21] [Survivor] LSP: nb_assault 
+[18:56:25] [Survivor] LSP: nb_assault 
+[18:56:27] [Survivor] LSP: nb_assault 
+[18:56:27] [Spectator] 自傷無色: sm_spechud 
+[18:56:32] [Survivor] LSP: nb_assault 
+[18:56:39] [Survivor] LSP: say /zs
+[18:56:39] [Survivor] LSP: sm_zs 
+--=================================================================--
+[24/01/2023 18:56:40] --- 回合结束: c2m1_highway ---
+--=================================================================--
+--=================================================================--
+[24/01/2023 18:56:42] --- 回合结束: c2m1_highway ---
+--=================================================================--
+--=================================================================--
+[24/01/2023 18:56:43] --- 回合开始: c2m1_highway ---
+--=================================================================--
+[18:56:50] [Survivor] LSP: say 我现在关了原始鼠标速度
+[18:56:53] [Survivor] LSP: say 开了鼠标加速
+[18:56:59] [Survivor] LSP: say 都感觉差不多啊
+[18:57:04] [Survivor] LSP: vocalize smartlook auto
+[18:57:06] [Survivor] LSP: setpause 
+[18:57:12] [Spectator] 自傷無色: say 高dpi是这样的
+[18:57:13] [Survivor] LSP: unpause 
+[18:57:13] [Survivor] LSP: unpause 
+[18:57:13] [Spectator] 自傷無色: spec_mode 
+[18:57:14] [Spectator] 自傷無色: spec_mode 
+[18:57:23] [Spectator] 自傷無色: say 让我玩玩
+[18:57:27] [Survivor] LSP: say /s
+[18:57:27] [Survivor] LSP: sm_s 
+[18:57:29] [Spectator] 自傷無色: say !join
+[18:57:29] [Spectator] 自傷無色: sm_join 
+[18:57:29] [Spectator] 自傷無色: jointeam survivor
+[18:57:33] [Spectator] LSP: say 我去看了mayuyu的设置
+[18:57:38] [Survivor] 自傷無色: nb_assault 
+[18:57:38] [Spectator] LSP: say 他是关了原始鼠标输入
+[18:57:38] [Survivor] 自傷無色: give pain_pills
+[18:57:38] [Survivor] 自傷無色: give health
+[18:57:38] [Survivor] 自傷無色: nb_assault 
+[18:57:41] [Spectator] LSP: say 开了鼠标加速
+[18:57:41] [Spectator] LSP: spec_mode 
+[18:57:41] [Spectator] LSP: spec_mode 
+[18:57:42] [Spectator] LSP: spec_mode 
+[18:57:42] [Spectator] LSP: spec_mode 
+[18:57:45] [Survivor] 自傷無色: nb_assault 
+[18:57:53] [Survivor] 自傷無色: nb_assault 
+[18:57:58] [Survivor] 自傷無色: nb_assault 
+[18:58:01] [Survivor] 自傷無色: nb_assault 
+[18:58:02] [Survivor] 自傷無色: vocalize smartlook auto
+[18:58:07] [Survivor] 自傷無色: nb_assault 
+[18:58:11] [Survivor] 自傷無色: nb_assault 
+[18:58:12] [Spectator] LSP: say anne的枪真吊
+[18:58:14] [Survivor] 自傷無色: vocalize smartlook auto
+[18:58:20] [Survivor] 自傷無色: nb_assault 
+[18:58:24] [Spectator] LSP: say 换zm的枪早死不知几回了
+[18:58:24] [Spectator] LSP: spec_mode 
+[18:58:25] [Survivor] 自傷無色: nb_assault 
+[18:58:26] [Spectator] LSP: spec_mode 
+[18:58:27] [Spectator] LSP: spec_mode 
+[18:58:27] [Survivor] 自傷無色: vocalize smartlook auto
+[18:58:31] [Survivor] 自傷無色: nb_assault 
+[18:58:33] [Survivor] 自傷無色: nb_assault 
+[18:58:39] [Survivor] 自傷無色: nb_assault 
+--=================================================================--
+[24/01/2023 18:58:46] --- 回合结束: c2m1_highway ---
+--=================================================================--
+--=================================================================--
+[24/01/2023 18:58:48] --- 回合结束: c2m1_highway ---
+--=================================================================--
+--=================================================================--
+[24/01/2023 18:58:49] --- 回合开始: c2m1_highway ---
+--=================================================================--
+[18:58:58] [Survivor] 自傷無色: nb_assault 
+[18:58:58] [Survivor] 自傷無色: give pain_pills
+[18:58:58] [Survivor] 自傷無色: give health
+[18:58:58] [Survivor] 自傷無色: nb_assault 
+[18:59:05] [Survivor] 自傷無色: nb_assault 
+[18:59:10] [Survivor] 自傷無色: nb_assault 
+[18:59:14] [Survivor] 自傷無色: nb_assault 
+[18:59:16] [CN] 予感<96><STEAM_1:0:246466989><> 加入游戏 (223.149.50.239)
+[18:59:16] [Unassigned] 予感: vmodenable 1
+[18:59:16] [Unassigned] 予感: vban 0
+[18:59:18] [Unassigned] 予感: setpause 
+[18:59:19] [Survivor] 自傷無色: nb_assault 
+[18:59:21] [Survivor] 自傷無色: nb_assault 
+[18:59:23] [Spectator] 予感: unpause 
+[18:59:23] [Spectator] 予感: unpause 
+[18:59:27] [Survivor] 自傷無色: nb_assault 
+[18:59:31] [Survivor] 自傷無色: nb_assault 
+[18:59:34] [Spectator] 予感: say 坐牢的大哥哥你好可爱啊
+[18:59:36] [Survivor] 自傷無色: nb_assault 
+[18:59:44] [Survivor] 自傷無色: nb_assault 
+[18:59:46] [Survivor] 自傷無色: nb_assault 
+[18:59:51] [Survivor] 自傷無色: nb_assault 
+[18:59:55] [Spectator] 予感: spec_mode 
+[18:59:57] [Survivor] 自傷無色: nb_assault 
+[19:00:03] [Survivor] 自傷無色: nb_assault 
+[19:00:07] [Survivor] 自傷無色: nb_assault 
+[19:00:09] [Survivor] 自傷無色: nb_assault 
+[19:00:16] [Survivor] 自傷無色: nb_assault 
+[19:00:19] [Survivor] 自傷無色: nb_assault 
+[19:00:22] [Survivor] 自傷無色: nb_assault 
+[19:00:41] [Survivor] 自傷無色: nb_assault 
+[19:00:43] [Spectator] 予感: say /vote
+[19:00:43] [Spectator] 予感: sm_vote 
+[19:00:46] [Survivor] 自傷無色: nb_assault 
+[19:00:49] [Survivor] 自傷無色: nb_assault 
+[19:00:50] [Survivor] 自傷無色: vocalize smartlook auto
+[19:00:52] [Survivor] 自傷無色: nb_assault 
+[19:00:56] [Survivor] 自傷無色: vocalize smartlook auto
+[19:00:59] [Survivor] 自傷無色: nb_assault 
+[19:01:00] [Survivor] 自傷無色: nb_assault 
+[19:01:03] [Survivor] 自傷無色: vocalize smartlook auto
+[19:01:06] [Survivor] 自傷無色: nb_assault 
+[19:01:07] [Survivor] 自傷無色: nb_assault 
+[19:01:12] [Survivor] 自傷無色: vocalize smartlook auto
+[19:01:12] [Survivor] 自傷無色: nb_assault 
+[19:01:14] [Spectator] LSP: say 肉眼可见的低dpi
+[19:01:14] [Survivor] 自傷無色: vocalize smartlook auto
+[19:01:19] [Survivor] 自傷無色: nb_assault 
+[19:01:23] [Survivor] 自傷無色: nb_assault 
+[19:01:29] [Spectator] 予感: say 不懂
+[19:01:33] [Survivor] 自傷無色: nb_assault 
+[19:01:38] [Spectator] 予感: say 你在他家装监控了？
+[19:01:38] [Survivor] 自傷無色: nb_assault 
+[19:01:40] [Survivor] 自傷無色: nb_assault 
+[19:01:42] [Survivor] 自傷無色: vocalize smartlook auto
+[19:01:46] [Survivor] 自傷無色: nb_assault 
+[19:01:47] [Survivor] 自傷無色: nb_assault 
+[19:01:54] [Survivor] 自傷無色: nb_assault 
+[19:02:00] [Survivor] 自傷無色: nb_assault 
+[19:02:00] [Survivor] 自傷無色: vocalize smartlook auto
+[19:02:02] [Survivor] 自傷無色: nb_assault 
+[19:02:07] [Survivor] 自傷無色: nb_assault 
+[19:02:07] [Survivor] 自傷無色: vocalize smartlook auto
+[19:02:08] [Spectator] LSP: say 我桌面空间小
+[19:02:12] [Survivor] 自傷無色: nb_assault 
+--=================================================================--
+[24/01/2023 19:02:13] --- 回合结束: c2m1_highway ---
+--=================================================================--
+--=================================================================--
+[24/01/2023 19:02:15] --- 回合结束: c2m1_highway ---
+--=================================================================--
+--=================================================================--
+[24/01/2023 19:02:16] --- 回合开始: c2m1_highway ---
+--=================================================================--
+[19:02:20] [Spectator] LSP: say 要高dpi才能发挥
+[19:02:25] [Survivor] 自傷無色: nb_assault 
+[19:02:26] [Survivor] 自傷無色: give pain_pills
+[19:02:26] [Survivor] 自傷無色: give health
+[19:02:26] [Survivor] 自傷無色: nb_assault 
+[19:02:32] [Survivor] 自傷無色: nb_assault 
+[19:02:39] [Survivor] 自傷無色: nb_assault 
+[19:02:44] [Survivor] 自傷無色: nb_assault 
+[19:02:47] [Survivor] 自傷無色: nb_assault 
+[19:02:49] [Survivor] 自傷無色: vocalize smartlook auto
+[19:02:54] [Survivor] 自傷無色: nb_assault 
+[19:02:56] [Survivor] 自傷無色: nb_assault 
+[19:03:04] [Survivor] 自傷無色: nb_assault 
+[19:03:05] [Survivor] 自傷無色: nb_assault 
+[19:03:10] [Survivor] 自傷無色: nb_assault 
+[19:03:12] [Survivor] 自傷無色: nb_assault 
+[19:03:16] [Survivor] 自傷無色: nb_assault 
+[19:03:21] [Survivor] 自傷無色: nb_assault 
+[19:03:22] [Spectator] 予感: say 大多定位
+[19:03:25] [Survivor] 自傷無色: nb_assault 
+[19:03:29] [Spectator] 予感: say 少有跟枪
+[19:03:31] [Survivor] 自傷無色: nb_assault 
+[19:03:35] [Survivor] 自傷無色: nb_assault 
+[19:03:41] [Survivor] 自傷無色: nb_assault 
+[19:03:42] [Survivor] 自傷無色: nb_assault 
+[19:03:49] [Survivor] 自傷無色: nb_assault 
+[19:03:53] [Survivor] 自傷無色: nb_assault 
+[19:03:58] [Survivor] 自傷無色: nb_assault 
+[19:04:05] [Survivor] 自傷無色: nb_assault 
+[19:04:09] [Survivor] 自傷無色: nb_assault 
+[19:04:10] [Spectator] 予感: say !xx
+[19:04:10] [Spectator] 予感: sm_xx 
+[19:04:12] [Survivor] 自傷無色: nb_assault 
+[19:04:17] [Spectator] 予感: say 武器[Anne+]
+[19:04:18] [Survivor] 自傷無色: nb_assault 
+[19:04:22] [Survivor] 自傷無色: nb_assault 
+[19:04:26] [Survivor] 自傷無色: nb_assault 
+[19:04:27] [Spectator] 予感: say 这个数据其实很离谱的
+[19:04:32] [Spectator] LSP: say 真的
+[19:04:33] [Survivor] 自傷無色: nb_assault 
+[19:04:34] [Survivor] 自傷無色: vocalize smartlook auto
+[19:04:35] [Spectator] 予感: say 比zm高了不知道多少
+--=================================================================--
+[24/01/2023 19:04:37] --- 回合结束: c2m1_highway ---
+--=================================================================--
+--=================================================================--
+[24/01/2023 19:04:39] --- 回合结束: c2m1_highway ---
+--=================================================================--
+--=================================================================--
+[24/01/2023 19:04:41] --- 回合开始: c2m1_highway ---
+--=================================================================--
+[19:04:44] [Spectator] LSP: say 隔几个身位都能爆
+[19:04:49] [Survivor] 自傷無色: give pain_pills
+[19:04:49] [Survivor] 自傷無色: give health
+[19:04:49] [Survivor] 自傷無色: nb_assault 
+[19:04:49] [Survivor] 自傷無色: nb_assault 
+[19:04:52] [Survivor] 自傷無色: nb_assault 
+[19:04:57] [Survivor] 自傷無色: nb_assault 
+[19:05:07] [Survivor] 自傷無色: nb_assault 
+[19:05:11] [Spectator] LSP: say 玩多了 我去玩实战 以为那位置能一枪爆
+[19:05:14] [Survivor] 自傷無色: nb_assault 
+[19:05:15] [Spectator] LSP: say 呵呵
+[19:05:16] [Survivor] 自傷無色: nb_assault 
+[19:05:24] [Survivor] 自傷無色: nb_assault 
+[19:05:24] [Survivor] 自傷無色: nb_assault 
+[19:05:32] [Survivor] 自傷無色: nb_assault 
+[19:05:33] [Spectator] LSP: say 直接被ht压在身下
+[19:05:34] [Survivor] 自傷無色: nb_assault 
+[19:05:41] [Survivor] 自傷無色: vocalize smartlook auto
+[19:05:42] [Survivor] 自傷無色: nb_assault 
+[19:05:47] [Survivor] 自傷無色: nb_assault 
+[19:05:49] [Survivor] 自傷無色: nb_assault 
+[19:05:49] [Survivor] 自傷無色: vocalize smartlook auto
+[19:05:52] [Survivor] 自傷無色: nb_assault 
+[19:05:56] [Spectator] LSP: say 我用zm的枪来玩
+[19:05:58] [Survivor] 自傷無色: nb_assault 
+[19:05:59] [Spectator] 予感: say 武器可以投票改回来
+[19:06:00] [Survivor] 自傷無色: nb_assault 
+[19:06:03] [Spectator] LSP: say 又坐牢
+[19:06:04] [Survivor] 自傷無色: nb_assault 
+[19:06:07] [Spectator] 予感: say 别说我没告诉你
+[19:06:11] [Survivor] 自傷無色: nb_assault 
+[19:06:15] [Survivor] 自傷無色: nb_assault 
+[19:06:21] [Survivor] 自傷無色: nb_assault 
+[19:06:23] [Spectator] 予感: say  /vote里面自己一个一个看呗
+[19:06:25] [Survivor] 自傷無色: nb_assault 
+[19:06:29] [Spectator] LSP: say 玩多了突然又觉得zm的枪真拉
+[19:06:29] [Spectator] LSP: spec_mode 
+[19:06:31] [Survivor] 自傷無色: nb_assault 
+[19:06:32] [Spectator] LSP: spec_mode 
+[19:06:33] [Survivor] 自傷無色: nb_assault 
+[19:06:33] [Spectator] LSP: spec_mode 
+[19:06:37] [Survivor] 自傷無色: vocalize smartlook auto
+[19:06:42] [Survivor] 自傷無色: nb_assault 
+[19:06:47] [Survivor] 自傷無色: nb_assault 
+[19:06:50] [Survivor] 自傷無色: nb_assault 
+[19:06:56] [Spectator] 予感: say anne是一个完整的生态模式的
+[19:06:56] [Survivor] 自傷無色: nb_assault 
+[19:06:59] [Survivor] 自傷無色: nb_assault 
+--=================================================================--
+[24/01/2023 19:07:04] --- 回合结束: c2m1_highway ---
+--=================================================================--
+[19:07:06] [Spectator] LSP: say 不懂
+--=================================================================--
+[24/01/2023 19:07:06] --- 回合结束: c2m1_highway ---
+--=================================================================--
+[19:07:06] [Spectator] LSP: spec_mode 
+--=================================================================--
+[24/01/2023 19:07:07] --- 回合开始: c2m1_highway ---
+--=================================================================--
+[19:07:10] [Spectator] 予感: say 人家出anne+是基于大量坐牢经验的
+[19:07:15] [Survivor] 自傷無色: give pain_pills
+[19:07:15] [Survivor] 自傷無色: give health
+[19:07:15] [Survivor] 自傷無色: nb_assault 
+[19:07:15] [Survivor] 自傷無色: nb_assault 
+[19:07:17] [Spectator] 予感: say 我早说过了
+[19:07:21] [Survivor] 自傷無色: nb_assault 
+[19:07:23] [Spectator] 予感: say 练手ast就行
+[19:07:25] [Survivor] 自傷無色: nb_assault 
+[19:07:29] [Survivor] 自傷無色: nb_assault 
+[19:07:42] [Spectator] 予感: say anne算娱乐和挑战
+[19:07:44] [Survivor] 自傷無色: nb_assault 
+[19:07:47] [Spectator] LSP: spec_mode 
+[19:07:50] [Survivor] 自傷無色: nb_assault 
+[19:07:57] [Survivor] 自傷無色: nb_assault 
+[19:08:02] [Survivor] 自傷無色: nb_assault 
+[19:08:08] [Survivor] 自傷無色: nb_assault 
+[19:08:11] [Survivor] 自傷無色: nb_assault 
+[19:08:19] [Survivor] 自傷無色: nb_assault 
+[19:08:24] [Survivor] 自傷無色: nb_assault 
+[19:08:32] [Survivor] 自傷無色: nb_assault 
+[19:08:36] [Spectator] LSP: say 我去n服玩promod 有好几次没打到头只是打到肩膀就一枪爆了
+[19:08:36] [Survivor] 自傷無色: nb_assault 
+[19:08:38] [Survivor] 自傷無色: vocalize smartlook auto
+[19:08:43] [Survivor] 自傷無色: nb_assault 
+[19:08:45] [Survivor] 自傷無色: vocalize smartlook auto
+[19:08:45] [Spectator] LSP: say 挺离谱的
+[19:08:49] [Survivor] 自傷無色: nb_assault 
+[19:08:53] [Survivor] 自傷無色: nb_assault 
+[19:08:55] [Spectator] LSP: spec_next 
+[19:08:59] [Survivor] 自傷無色: nb_assault 
+[19:09:00] [Survivor] 自傷無色: nb_assault 
+[19:09:05] [Survivor] 自傷無色: nb_assault 
+[19:09:09] [Survivor] 自傷無色: nb_assault 
+[19:09:12] [Spectator] 予感: say n服是铁喷比zm逆天
+[19:09:16] [Spectator] LSP: say 这要是隔zm估计才掉一半血
+[19:09:17] [Spectator] LSP: spec_mode 
+[19:09:17] [Spectator] LSP: spec_mode 
+[19:09:18] [Survivor] 自傷無色: nb_assault 
+[19:09:19] [Spectator] 予感: say 木喷比zm拉胯
+[19:09:22] [Survivor] 自傷無色: nb_assault 
+[19:09:22] [Spectator] LSP: spec_mode 
+[19:09:26] [Survivor] 自傷無色: nb_assault 
+[19:09:27] [Spectator] 予感: say 机枪都是垃圾
+[19:09:33] [Survivor] 自傷無色: nb_assault 
+--=================================================================--
+[24/01/2023 19:09:35] --- 回合结束: c2m1_highway ---
+--=================================================================--
+[19:09:35] [Spectator] LSP: spec_mode 
+[19:09:36] [Spectator] LSP: spec_next 
+[19:09:36] [Spectator] LSP: spec_next 
+[19:09:37] [Spectator] LSP: spec_mode 
+--=================================================================--
+[24/01/2023 19:09:37] --- 回合结束: c2m1_highway ---
+--=================================================================--
+[19:09:37] [Spectator] LSP: spec_mode 
+[19:09:37] [Spectator] LSP: spec_mode 
+[19:09:38] [Spectator] LSP: spec_next 
+--=================================================================--
+[24/01/2023 19:09:38] --- 回合开始: c2m1_highway ---
+--=================================================================--
+[19:09:39] [Spectator] LSP: spec_next 
+[19:09:45] [Spectator] 予感: say [提示]这是你们第 8 次团灭，请继续努力
+[19:09:46] [Survivor] 自傷無色: give pain_pills
+[19:09:46] [Survivor] 自傷無色: give health
+[19:09:47] [Survivor] 自傷無色: nb_assault 
+[19:09:47] [Spectator] 予感: say 6
+[19:09:47] [Survivor] 自傷無色: nb_assault 
+[19:09:51] [Survivor] 自傷無色: nb_assault 
+[19:09:52] [Survivor] 自傷無色: nb_assault 
+[19:10:24] [Survivor] 自傷無色: nb_assault 
+[19:10:29] [Survivor] 自傷無色: nb_assault 
+[19:10:32] [Survivor] 自傷無色: nb_assault 
+[19:10:40] [Survivor] 自傷無色: nb_assault 
+[19:10:45] [Survivor] 自傷無色: nb_assault 
+[19:10:49] [Survivor] 自傷無色: nb_assault 
+[19:10:49] [Spectator] LSP: say 予感:这就是Anne带给我的自信.mp4
+[19:10:53] [Survivor] 自傷無色: nb_assault 
+[19:10:55] [Spectator] 予感: say 不错
+[19:10:57] [Survivor] 自傷無色: nb_assault 
+[19:10:59] [Survivor] 自傷無色: nb_assault 
+[19:11:00] [Spectator] 予感: say 你应该没看过
+[19:11:08] [Survivor] 自傷無色: nb_assault 
+[19:11:08] [Spectator] 予感: say 这句话是我在三方车说的
+[19:11:08] [Survivor] 自傷無色: vocalize smartlook auto
+[19:11:10] [Spectator] LSP: say 没看过
+[19:11:12] [Survivor] 自傷無色: nb_assault 
+[19:11:17] [Spectator] 予感: say 人家没发到b站
+[19:11:18] [Survivor] 自傷無色: nb_assault 
+[19:11:21] [Spectator] 予感: say 可惜了
+[19:11:28] [Survivor] 自傷無色: nb_assault 
+[19:11:33] [Survivor] 自傷無色: nb_assault 
+[19:11:35] [Survivor] 自傷無色: nb_assault 
+[19:11:42] [Survivor] 自傷無色: nb_assault 
+[19:11:43] [Survivor] 自傷無色: nb_assault 
+[19:11:52] [Spectator] LSP: spec_mode 
+[19:11:53] [Spectator] LSP: spec_mode 
+[19:11:53] [Spectator] LSP: spec_mode 
+[19:11:56] [Survivor] 自傷無色: nb_assault 
+[19:11:58] [Survivor] 自傷無色: nb_assault 
+[19:11:59] [Survivor] 自傷無色: vocalize smartlook auto
+[19:11:59] [Spectator] LSP: spec_mode 
+[19:11:59] [Spectator] LSP: spec_mode 
+[19:12:00] [Spectator] LSP: spec_mode 
+[19:12:01] [Spectator] LSP: spec_mode 
+[19:12:01] [Spectator] LSP: spec_mode 
+[19:12:04] [Survivor] 自傷無色: nb_assault 
+--=================================================================--
+[24/01/2023 19:12:05] --- 回合结束: c2m1_highway ---
+--=================================================================--
+--=================================================================--
+[24/01/2023 19:12:07] --- 回合结束: c2m1_highway ---
+--=================================================================--
+--=================================================================--
+[24/01/2023 19:12:08] --- 回合开始: c2m1_highway ---
+--=================================================================--
+[19:12:15] [Spectator] LSP: say 特感最近生成距离[600] 
+[19:12:16] [Survivor] 自傷無色: give pain_pills
+[19:12:16] [Survivor] 自傷無色: give health
+[19:12:16] [Survivor] 自傷無色: nb_assault 
+[19:12:17] [Survivor] 自傷無色: nb_assault 
+[19:12:23] [Survivor] 自傷無色: nb_assault 
+[19:12:26] [Survivor] 自傷無色: nb_assault 
+[19:12:28] [Spectator] 予感: say 这个也可以改
+[19:12:35] [Spectator] 予感: say 你现在玩的默认都是250
+[19:12:37] [Survivor] 自傷無色: nb_assault 
+[19:12:39] [Spectator] LSP: say 又不是没改过
+[19:12:40] [Survivor] 自傷無色: nb_assault 
+[19:12:41] [Spectator] LSP: say sb
+[19:12:42] [Spectator] LSP: spec_mode 
+[19:12:42] [Spectator] LSP: spec_mode 
+[19:12:42] [Spectator] LSP: spec_mode 
+[19:12:46] [Survivor] 自傷無色: nb_assault 
+[19:12:49] [Survivor] 自傷無色: nb_assault 
+[19:12:49] [Spectator] 予感: say 哦默认是600
+[19:12:51] [Survivor] 自傷無色: nb_assault 
+[19:12:53] [Spectator] 予感: say 以前是250
+[19:12:57] [Spectator] 予感: say 哈哈
+[19:12:57] [Survivor] 自傷無色: nb_assault 
+[19:12:58] [Spectator] LSP: say 我调250去玩c2m3
+[19:12:59] [Survivor] 自傷無色: nb_assault 
+[19:13:02] [Spectator] LSP: say 给我牢死了
+[19:13:03] [Spectator] 予感: say 牢死fly了
+[19:13:03] [Survivor] 自傷無色: nb_assault 
+[19:13:05] [Spectator] LSP: spec_mode 
+[19:13:05] [Spectator] LSP: spec_mode 
+[19:13:05] [Spectator] LSP: spec_mode 
+[19:13:06] [Spectator] 予感: say 哈哈
+[19:13:08] [Spectator] 予感: say 哈哈
+[19:13:12] [Survivor] 自傷無色: nb_assault 
+[19:13:14] [Survivor] 自傷無色: nb_assault 
+[19:13:19] [Survivor] 自傷無色: nb_assault 
+[19:13:20] [Spectator] LSP: say m1 m2还好
+[19:13:24] [Survivor] 自傷無色: nb_assault 
+[19:13:27] [Survivor] 自傷無色: vocalize smartlook auto
+[19:13:28] [Survivor] 自傷無色: nb_assault 
+[19:13:28] [Spectator] LSP: say m3的傻逼情侣隧道
+[19:13:31] [Spectator] LSP: spec_mode 
+[19:13:35] [Survivor] 自傷無色: nb_assault 
+[19:13:38] [Survivor] 自傷無色: nb_assault 
+[19:13:44] [Survivor] 自傷無色: nb_assault 
+[19:13:44] [Spectator] LSP: spec_mode 
+[19:13:44] [Spectator] LSP: spec_mode 
+[19:13:49] [Survivor] 自傷無色: nb_assault 
+[19:13:54] [Survivor] 自傷無色: nb_assault 
+[19:14:00] [Survivor] 自傷無色: nb_assault 
+[19:14:01] [Spectator] LSP: spec_mode 
+[19:14:01] [Survivor] 自傷無色: nb_assault 
+[19:14:07] [Survivor] 自傷無色: nb_assault 
+--=================================================================--
+[24/01/2023 19:14:14] --- 回合结束: c2m1_highway ---
+--=================================================================--
+--=================================================================--
+[24/01/2023 19:14:16] --- 回合结束: c2m1_highway ---
+--=================================================================--
+--=================================================================--
+[24/01/2023 19:14:17] --- 回合开始: c2m1_highway ---
+--=================================================================--
+[19:14:25] [Survivor] 自傷無色: nb_assault 
+[19:14:25] [Survivor] 自傷無色: nb_assault 
+[19:14:25] [Survivor] 自傷無色: give pain_pills
+[19:14:25] [Survivor] 自傷無色: give health
+[19:14:32] [Survivor] 自傷無色: nb_assault 
+[19:14:39] [Survivor] 自傷無色: nb_assault 
+[19:14:44] [Survivor] 自傷無色: nb_assault 
+[19:14:50] [Survivor] 自傷無色: nb_assault 
+[19:14:57] [Survivor] 自傷無色: nb_assault 
+[19:14:59] [Survivor] 自傷無色: nb_assault 
+[19:15:11] [Survivor] 自傷無色: nb_assault 
+[19:15:13] [Survivor] 自傷無色: nb_assault 
+[19:15:18] [Spectator] 予感: say 这个出门近战。。
+[19:15:19] [Survivor] 自傷無色: nb_assault 
+[19:15:22] [Survivor] 自傷無色: nb_assault 
+[19:15:23] [Spectator] LSP: spec_mode 
+[19:15:23] [Spectator] LSP: spec_mode 
+[19:15:23] [Spectator] 予感: say 东懒得搞
+[19:15:24] [Spectator] LSP: spec_mode 
+[19:15:26] [Survivor] 自傷無色: vocalize smartlook auto
+[19:15:28] [Survivor] 自傷無色: nb_assault 
+[19:15:33] [Survivor] 自傷無色: nb_assault 
+[19:15:39] [Survivor] 自傷無色: nb_assault 
+[19:15:43] [Survivor] 自傷無色: nb_assault 
+[19:15:46] [Survivor] 自傷無色: vocalize smartlook auto
+[19:15:46] [Spectator] 予感: say 但是给我你们的steamid能保证你们每次都有近战
+[19:15:50] [Survivor] 自傷無色: nb_assault 
+[19:15:51] [Survivor] 自傷無色: nb_assault 
+[19:15:51] [Spectator] 予感: say xd
+[19:16:01] [Survivor] 自傷無色: nb_assault 
+[19:16:04] [Survivor] 自傷無色: nb_assault 
+[19:16:10] [Survivor] 自傷無色: nb_assault 
+[19:16:12] [Survivor] 自傷無色: nb_assault 
+[19:16:14] [Survivor] 自傷無色: nb_assault 
+--=================================================================--
+[24/01/2023 19:16:20] --- 回合结束: c2m1_highway ---
+--=================================================================--
+--=================================================================--
+[24/01/2023 19:16:22] --- 回合结束: c2m1_highway ---
+--=================================================================--
+--=================================================================--
+[24/01/2023 19:16:24] --- 回合开始: c2m1_highway ---
+--=================================================================--
+[19:16:32] [Survivor] 自傷無色: nb_assault 
+[19:16:32] [Survivor] 自傷無色: nb_assault 
+[19:16:32] [Survivor] 自傷無色: give pain_pills
+[19:16:32] [Survivor] 自傷無色: give health
+[19:16:42] [Survivor] 自傷無色: vocalize smartlook auto
+[19:16:42] [Survivor] 自傷無色: nb_assault 
+[19:16:44] [Survivor] 自傷無色: nb_assault 
+[19:16:51] [Survivor] 自傷無色: nb_assault 
+[19:16:56] [Survivor] 自傷無色: nb_assault 
+[19:17:01] [Survivor] 自傷無色: vocalize smartlook auto
+[19:17:02] [Survivor] 自傷無色: nb_assault 
+[19:17:06] [Survivor] 自傷無色: vocalize smartlook auto
+[19:17:07] [Survivor] 自傷無色: nb_assault 
+[19:17:13] [Survivor] 自傷無色: nb_assault 
+[19:17:18] [Survivor] 自傷無色: nb_assault 
+[19:17:21] [Survivor] 自傷無色: nb_assault 
+[19:17:25] [Survivor] 自傷無色: nb_assault 
+[19:17:29] [Survivor] 自傷無色: nb_assault 
+[19:17:35] [Survivor] 自傷無色: nb_assault 
+[19:17:36] [Survivor] 自傷無色: nb_assault 
+[19:17:42] [Survivor] 自傷無色: nb_assault 
+[19:17:43] [Survivor] 自傷無色: nb_assault 
+[19:17:50] [Survivor] 自傷無色: nb_assault 
+[19:17:55] [Survivor] 自傷無色: nb_assault 
+[19:17:58] [Survivor] 自傷無色: nb_assault 
+[19:18:04] [Spectator] 予感: say 过几天搞个插件
+[19:18:04] [Survivor] 自傷無色: nb_assault 
+[19:18:08] [Survivor] 自傷無色: nb_assault 
+[19:18:13] [Survivor] 自傷無色: nb_assault 
+[19:18:19] [Survivor] 自傷無色: nb_assault 
+[19:18:22] [Spectator] LSP: say 能不能弄个插件出来
+[19:18:25] [Survivor] 自傷無色: nb_assault 
+[19:18:28] [Spectator] 予感: say 看看能不能在游戏里用面板跳转另一个服务器
+[19:18:34] [Survivor] 自傷無色: nb_assault 
+--=================================================================--
+[24/01/2023 19:18:39] --- 回合结束: c2m1_highway ---
+--=================================================================--
+[19:18:39] [Survivor] 自傷無色: say 能不能搞个无现在单
+--=================================================================--
+[24/01/2023 19:18:41] --- 回合结束: c2m1_highway ---
+--=================================================================--
+--=================================================================--
+[24/01/2023 19:18:42] --- 回合开始: c2m1_highway ---
+--=================================================================--
+[19:18:42] [Survivor] 自傷無色: say 子弹
+[19:18:50] [Spectator] 予感: say 你输入/ammo
+[19:18:55] [Survivor] 自傷無色: say !ammo
+[19:18:55] [Spectator] LSP: say /ammo
+[19:18:56] [Spectator] 予感: say 或者邦健
+[19:18:58] [Spectator] 予感: spec_mode 
+[19:18:59] [Survivor] 自傷無色: say !ammo
+[19:18:59] [Spectator] 予感: spec_mode 
+[19:19:01] [Survivor] 自傷無色: say /ammo
+[19:19:03] [Spectator] 予感: spec_mode 
+[19:19:05] [Spectator] LSP: say !ammo
+[19:19:08] [Spectator] LSP: say /ban
+[19:19:08] [Spectator] LSP: sm_ban 
+[19:19:11] [Spectator] 予感: say !ammo
+[19:19:11] [Spectator] LSP: say /ban 
+[19:19:11] [Spectator] LSP: sm_ban 
+[19:19:13] [Spectator] LSP: say  /ban
+[19:19:15] [Survivor] 自傷無色: say ?
+[19:19:16] [Spectator] 予感: say 呃
+[19:19:21] [Spectator] 予感: say 难道我忘了
+[19:19:23] [Survivor] 自傷無色: say !zs
+[19:19:23] [Survivor] 自傷無色: sm_zs 
+--=================================================================--
+[24/01/2023 19:19:23] --- 回合结束: c2m1_highway ---
+--=================================================================--
+--=================================================================--
+[24/01/2023 19:19:25] --- 回合结束: c2m1_highway ---
+--=================================================================--
+--=================================================================--
+[24/01/2023 19:19:26] --- 回合开始: c2m1_highway ---
+--=================================================================--
+[19:19:32] [Spectator] 予感: say 子弹是ammo吧
+[19:19:35] [Survivor] 自傷無色: say !ammo
+[19:19:39] [Survivor] 自傷無色: say !remake
+[19:19:39] [Spectator] 予感: say !chrome
+[19:19:43] [Survivor] 自傷無色: say !smg
+[19:19:43] [Spectator] 予感: say !uzi
+[19:19:46] [Spectator] LSP: say  /rpg
+[19:19:49] [Survivor] 自傷無色: say !vip
+[19:19:50] [Spectator] 予感: say /rpg
+[19:19:50] [Spectator] 予感: sm_rpg 
+[19:19:54] [Spectator] 予感: menuselect 1
+[19:19:56] [Spectator] 予感: menuselect 1
+[19:19:58] [Survivor] 自傷無色: say !kick nick
+[19:19:58] [Survivor] 自傷無色: sm_kick nick
+[19:20:05] [Spectator] 予感: say 应该能用的
+[19:20:05] [Survivor] 自傷無色: say !vkick nick
+[19:20:09] [Spectator] 予感: say 你开机枪
+[19:20:09] [Spectator] LSP: say  /password
+[19:20:14] [Spectator] 予感: say 开几枪
+[19:20:15] [Survivor] 自傷無色: give pain_pills
+[19:20:15] [Survivor] 自傷無色: give health
+[19:20:15] [Survivor] 自傷無色: nb_assault 
+[19:20:15] [Survivor] 自傷無色: nb_assault 
+[19:20:21] [Survivor] 自傷無色: say !ammo
+[19:20:27] [Survivor] 自傷無色: nb_assault 
+[19:20:31] [Survivor] 自傷無色: nb_assault 
+[19:20:37] [Survivor] 自傷無色: nb_assault 
+[19:20:42] [Survivor] 自傷無色: nb_assault 
+[19:20:42] [Survivor] 自傷無色: nb_assault 
+[19:20:42] [Spectator] 予感: setpause 
+[19:20:49] [Survivor] 自傷無色: nb_assault 
+[19:20:53] [Survivor] 自傷無色: nb_assault 
+[19:20:55] [Spectator] 予感: sm_rcon survivor_limits 2
+[19:20:56] [Spectator] 予感: unpause 
+[19:20:56] [Spectator] 予感: unpause 
+[19:20:56] [Spectator] 予感: setpause 
+[19:20:58] [Spectator] LSP: say 为什么anne的ht会隔一个身位控人
+[19:20:59] [Spectator] 予感: sm_rcon survivor_limit 2
+[19:20:59] [Survivor] 自傷無色: nb_assault 
+[19:21:00] [Spectator] 予感: unpause 
+[19:21:00] [Spectator] 予感: unpause 
+[19:21:02] [Survivor] 自傷無色: nb_assault 
+[19:21:04] [Spectator] 予感: say /jg
+[19:21:04] [Spectator] 予感: sm_jg 
+[19:21:04] [Survivor] 自傷無色: nb_assault 
+[19:21:06] [Spectator] LSP: say 跟玩100lerp似的
+[19:21:10] [Survivor] 自傷無色: nb_assault 
+[19:21:14] [Survivor] 自傷無色: vocalize smartlook auto
+[19:21:14] [Spectator] 予感: say 他比较聪明
+[19:21:15] [Survivor] 自傷無色: nb_assault 
+[19:21:18] [Spectator] 予感: setpause 
+[19:21:19] [Spectator] 予感: unpause 
+[19:21:19] [Spectator] 予感: unpause 
+[19:21:19] [Spectator] 予感: spec_mode 
+[19:21:20] [Survivor] 自傷無色: nb_assault 
+[19:21:20] [Spectator] 予感: spec_mode 
+[19:21:22] [Spectator] 予感: setpause 
+[19:21:22] [Survivor] 自傷無色: nb_assault 
+[19:21:23] [Spectator] 予感: sm_rcon survivor_limit 2
+[19:21:24] [Spectator] LSP: say 无敌
+[19:21:24] [Spectator] LSP: spec_mode 
+[19:21:25] [Survivor] 自傷無色: nb_assault 
+[19:21:27] [Survivor] 自傷無色: nb_assault 
+[19:21:28] [Spectator] 予感: sm_rcon survivor_limits 2
+[19:21:38] [Spectator] 予感: sm_rcon survivors_limits 2
+[19:21:46] [Survivor] 自傷無色: nb_assault 
+[19:21:48] [Spectator] 予感: sm_rcon survivor_limits 
+[19:21:50] [Survivor] 自傷無色: nb_assault 
+[19:21:51] [Spectator] 予感: sm_rcon survivor_limit
+[19:21:53] [Spectator] 予感: unpause 
+[19:21:53] [Spectator] 予感: unpause 
+[19:21:55] [Survivor] 自傷無色: nb_assault 
+[19:22:01] [Survivor] 自傷無色: nb_assault 
+[19:22:07] [Spectator] 予感: say !cvar survivor_limits 2
+[19:22:07] [Spectator] 予感: sm_cvar survivor_limits 2
+[19:22:07] [Spectator] 予感: setpause 
+[19:22:08] [Spectator] 予感: unpause 
+[19:22:08] [Spectator] 予感: unpause 
+[19:22:09] [Spectator] 予感: setpause 
+[19:22:10] [Survivor] 自傷無色: nb_assault 
+[19:22:14] [Survivor] 自傷無色: nb_assault 
+[19:22:21] [Survivor] 自傷無色: nb_assault 
+--=================================================================--
+[24/01/2023 19:22:22] --- 回合结束: c2m1_highway ---
+--=================================================================--
+[19:22:23] [Spectator] LSP: say ?
+--=================================================================--
+[24/01/2023 19:22:24] --- 回合结束: c2m1_highway ---
+--=================================================================--
+--=================================================================--
+[24/01/2023 19:22:25] --- 回合开始: c2m1_highway ---
+--=================================================================--
+[19:22:27] [Spectator] LSP: say 3shots
+[19:22:28] [Spectator] 予感: sm_cvar survivor_limits 2
+[19:22:31] [Spectator] LSP: spec_mode 
+[19:22:31] [Spectator] LSP: spec_mode 
+[19:22:33] [Survivor] 自傷無色: nb_assault 
+[19:22:33] [Spectator] 予感: sm_cvar survivor_limit 2
+[19:22:33] [Survivor] 自傷無色: nb_assault 
+[19:22:34] [Survivor] 自傷無色: give pain_pills
+[19:22:34] [Survivor] 自傷無色: give health
+[19:22:34] [Spectator] 予感: unpause 
+[19:22:34] [Spectator] 予感: unpause 
+[19:22:37] [Survivor] 自傷無色: nb_assault 
+[19:22:38] [Spectator] LSP: say /dance
+[19:22:38] [Spectator] LSP: sm_dance 
+[19:22:38] [Spectator] 予感: say /jg
+[19:22:38] [Spectator] 予感: sm_jg 
+[19:22:39] [Spectator] LSP: menuselect 1
+[19:22:42] [Spectator] 予感: say /jg
+[19:22:42] [Spectator] 予感: sm_jg 
+[19:22:42] [Spectator] 予感: jointeam survivor
+[19:22:43] [Survivor] 予感: nb_assault 
+[19:22:45] [Survivor] 自傷無色: say ?
+[19:22:48] [Survivor] 予感: vocalize smartlook auto
+[19:22:50] [Survivor] 自傷無色: nb_assault 
+[19:22:55] [Spectator] LSP: say 狗服主使用权限
+[19:22:56] [Survivor] 予感: nb_assault 
+[19:22:58] [Survivor] 自傷無色: vocalize smartlook auto
+[19:22:59] [Survivor] 予感: nb_assault 
+[19:22:59] [Spectator] LSP: spec_mode 
+[19:23:00] [Survivor] 予感: say /ammo
+[19:23:01] [Spectator] LSP: setpause 
+[19:23:02] [Survivor] 予感: nb_assault 
+[19:23:04] [Spectator] LSP: jointeam 2
+[19:23:05] [Spectator] LSP: unpause 
+[19:23:06] [Spectator] LSP: spec_prev 
+[19:23:06] [Spectator] LSP: spec_next 
+[19:23:09] [Spectator] LSP: spec_mode 
+[19:23:10] [Spectator] LSP: spec_mode 
+[19:23:10] [Survivor] 自傷無色: nb_assault 
+[19:23:13] [Spectator] LSP: say 能
+[19:23:13] [Spectator] LSP: spec_mode 
+[19:23:14] [Spectator] LSP: spec_mode 
+[19:23:14] [Spectator] LSP: spec_mode 
+[19:23:15] [Survivor] 予感: nb_assault 
+[19:23:16] [Survivor] 予感: say ok
+[19:23:19] [Survivor] 自傷無色: nb_assault 
+[19:23:20] [Survivor] 予感: say /rpg
+[19:23:20] [Survivor] 予感: sm_rpg 
+[19:23:22] [Survivor] 予感: nb_assault 
+[19:23:24] [Survivor] 予感: say /uzi
+[19:23:28] [Survivor] 自傷無色: nb_assault 
+[19:23:28] [Survivor] 予感: say /chrome
+[19:23:31] [Survivor] 自傷無色: nb_assault 
+[19:23:32] [Spectator] LSP: spec_mode 
+[19:23:33] [Spectator] LSP: spec_mode 
+[19:23:33] [Survivor] 予感: say /pump
+[19:23:35] [Survivor] 予感: say 6
+[19:23:38] [Survivor] 自傷無色: nb_assault 
+[19:23:39] [Spectator] LSP: say 哈哈哈
+[19:23:39] [Spectator] LSP: spec_mode 
+[19:23:40] [Spectator] LSP: spec_mode 
+[19:23:40] [Spectator] LSP: spec_mode 
+[19:23:46] [Survivor] 自傷無色: nb_assault 
+[19:23:49] [Spectator] LSP: spec_mode 
+[19:23:52] [Survivor] 自傷無色: nb_assault 
+[19:23:53] [Survivor] 予感: say 那就是电信服特有的了
+[19:23:56] [Survivor] 自傷無色: nb_assault 
+[19:23:58] [Survivor] 予感: nb_assault 
+[19:24:03] [Survivor] 予感: nb_assault 
+[19:24:05] [Survivor] 自傷無色: nb_assault 
+[19:24:06] [Survivor] 予感: nb_assault 
+[19:24:10] [Survivor] 自傷無色: nb_assault 
+[19:24:15] [Survivor] 予感: nb_assault 
+[19:24:15] [Survivor] 予感: say !s
+[19:24:15] [Survivor] 予感: sm_s 
+[19:24:17] [Spectator] 予感: setpause 
+[19:24:19] [Spectator] 予感: sm_cvar survivor_limit 1
+[19:24:19] [Spectator] 予感: unpause 
+[19:24:20] [Spectator] 予感: unpause 
+[19:24:23] [Spectator] LSP: say 叫个克出来
+[19:24:24] [Spectator] LSP: spec_mode 
+[19:24:25] [Survivor] 自傷無色: nb_assault 
+[19:24:25] [Spectator] LSP: spec_mode 
+[19:24:25] [Spectator] 予感: sm_admin 
+[19:24:28] [Spectator] LSP: spec_mode 
+[19:24:28] [Spectator] 予感: say hehe
+[19:24:29] [Spectator] 予感: setpause 
+[19:24:31] [Spectator] 予感: sm_cvar survivor_limit 1
+[19:24:31] [Spectator] LSP: say_team !jg
+[19:24:31] [Spectator] LSP: sm_jg 
+[19:24:31] [Spectator] 予感: unpause 
+[19:24:31] [Spectator] LSP: jointeam survivor
+[19:24:31] [Survivor] LSP: nb_assault 
+[19:24:31] [Spectator] 予感: unpause 
+[19:24:32] [Survivor] LSP: vocalize smartlook auto
+[19:24:34] [Survivor] LSP: vocalize smartlook auto
+[19:24:37] [Survivor] 自傷無色: nb_assault 
+[19:24:40] [Spectator] 予感: sm_admin 
+[19:24:41] [Spectator] 予感: menuselect 4
+[19:24:44] [Survivor] 自傷無色: nb_assault 
+[19:24:46] [Spectator] 予感: menuselect 5
+[19:24:54] [Survivor] 自傷無色: nb_assault 
+[19:24:54] [Survivor] LSP: say haha
+[19:24:56] [Spectator] 予感: menuselect 3
+[19:25:03] [Spectator] 予感: menuselect 3
+[19:25:03] [Survivor] LSP: nb_assault 
+[19:25:05] [Survivor] 自傷無色: nb_assault 
+[19:25:09] [Survivor] LSP: say /ammo
+[19:25:10] [Spectator] 予感: menuselect 3
+[19:25:11] [Survivor] LSP: nb_assault 
+[19:25:13] [Survivor] LSP: nb_assault 
+[19:25:16] [Survivor] LSP: say 有屁用
+[19:25:18] [Survivor] 自傷無色: nb_assault 
+[19:25:23] [Spectator] 予感: menuselect 9
+[19:25:25] [Survivor] 自傷無色: nb_assault 
+[19:25:28] [Spectator] 予感: z_spawn_old mob auto
+[19:25:28] [Spectator] 予感: menuselect 3
+[19:25:29] [Survivor] LSP: nb_assault 
+[19:25:33] [Survivor] 自傷無色: nb_assault 
+[19:25:34] [Survivor] LSP: nb_assault 
+[19:25:38] [Survivor] 自傷無色: nb_assault 
+[19:25:41] [Spectator] 予感: menuselect 1
+[19:25:42] [Survivor] 自傷無色: nb_assault 
+[19:25:44] [Survivor] 自傷無色: say ?
+[19:25:49] [Survivor] LSP: nb_assault 
+[19:26:01] [Survivor] 自傷無色: nb_assault 
+[19:26:04] [Spectator] 予感: say 唉 饿了
+[19:26:08] [Survivor] 自傷無色: nb_assault 
+[19:26:09] [Spectator] 予感: say 等会看电影去
+[19:26:14] [Survivor] 自傷無色: nb_assault 
+[19:26:16] [Survivor] 自傷無色: nb_assault 
+[19:26:20] [Survivor] 自傷無色: nb_assault 
+[19:26:23] [Survivor] 自傷無色: vocalize smartlook auto
+[19:26:33] [Survivor] LSP: nb_assault 
+[19:26:35] [Survivor] 自傷無色: vocalize smartlook auto
+[19:26:36] [Survivor] LSP: nb_assault 
+[19:26:37] [Survivor] 自傷無色: vocalize smartlook auto
+[19:26:38] [Survivor] 自傷無色: nb_assault 
+[19:26:52] [Survivor] 自傷無色: nb_assault 
+[19:26:58] [Survivor] 自傷無色: nb_assault 
+[19:26:58] [Survivor] LSP: nb_assault 
+[19:27:07] [Survivor] 自傷無色: nb_assault 
+[19:27:07] [Survivor] 自傷無色: say !kill ellis
+[19:27:07] [Survivor] 自傷無色: sm_kill ellis
+[19:27:11] [Survivor] 自傷無色: nb_assault 
+[19:27:15] [Survivor] 自傷無色: say !kill ellis
+[19:27:15] [Survivor] 自傷無色: sm_kill ellis
+[19:27:15] [Survivor] LSP: nb_assault 
+[19:27:17] [Survivor] LSP: nb_assault 
+[19:27:22] [Survivor] 自傷無色: say !killellis
+[19:27:24] [Survivor] 自傷無色: nb_assault 
+--=================================================================--
+[24/01/2023 19:27:25] --- 回合结束: c2m1_highway ---
+--=================================================================--
+--=================================================================--
+[24/01/2023 19:27:27] --- 回合结束: c2m1_highway ---
+--=================================================================--
+--=================================================================--
+[24/01/2023 19:27:29] --- 回合开始: c2m1_highway ---
+--=================================================================--
+[19:27:38] [Spectator] 予感: say /vote
+[19:27:38] [Spectator] 予感: sm_vote 
+[19:27:40] [Spectator] 予感: setpause 
+[19:27:42] [Spectator] 予感: sm_cvar survivor_limit 3
+[19:27:42] [Spectator] 予感: unpause 
+[19:27:42] [Spectator] 予感: unpause 
+[19:27:44] [Survivor] 自傷無色: setpause 
+[19:27:48] [Survivor] LSP: nb_assault 
+[19:27:49] [Survivor] LSP: give pain_pills
+[19:27:49] [Survivor] LSP: give health
+[19:27:49] [Survivor] 自傷無色: give pain_pills
+[19:27:49] [Survivor] 自傷無色: give health
+[19:27:49] [Survivor] LSP: give machete
+[19:27:49] [Survivor] 自傷無色: nb_assault 
+[19:27:50] [Survivor] 自傷無色: unpause 
+[19:27:52] [Spectator] 予感: say /jg
+[19:27:52] [Spectator] 予感: sm_jg 
+[19:27:55] [Survivor] LSP: nb_assault 
+[19:27:57] [Spectator] 予感: say /jg
+[19:27:57] [Spectator] 予感: sm_jg 
+[19:27:57] [Spectator] 予感: jointeam survivor
+[19:27:58] [Survivor] LSP: nb_assault 
+[19:28:00] [Survivor] 予感: say /vote
+[19:28:00] [Survivor] 予感: sm_vote 
+[19:28:01] [Survivor] 予感: nb_assault 
+[19:28:05] [Survivor] LSP: nb_assault 
+[19:28:09] [Survivor] 予感: menuselect 1
+[19:28:12] [Survivor] 予感: vote Yes
+[19:28:12] [Survivor] 予感: menuselect 1
+[19:28:14] [Survivor] 予感: nb_assault 
+[19:28:15] [Survivor] 予感: nb_assault 
+[19:28:15] [Survivor] 自傷無色: vote Yes
+[19:28:15] [Survivor] LSP: vote No
+--=================================================================--
+[24/01/2023 19:28:15] --- 地图结束: c2m1_highway ---
+--=================================================================--
+--=================================================================--
+[24/01/2023 19:28:17] --- 回合开始: c2m1_highway ---
+--=================================================================--
+--=================================================================--
+[24/01/2023 19:28:18] --- 地图开始: c2m1_highway ---
+--=================================================================--
+[19:28:31] [CN] LSP<2><STEAM_1:0:625834323><> 加入游戏 (120.239.45.151)
+[19:28:32] [Unassigned] LSP: vmodenable 1
+[19:28:32] [Unassigned] LSP: vban 0
+[19:28:32] [Unassigned] LSP: unpause 
+[19:28:35] [CN] 予感<96><STEAM_1:0:246466989><> 加入游戏 (223.149.50.239)
+[19:28:36] [Unassigned] 予感: vmodenable 1
+[19:28:36] [Unassigned] 予感: vban 0
+[19:28:37] [Spectator] 予感: unpause 
+[19:28:38] [Spectator] 予感: say /spectate
+[19:28:38] [Spectator] 予感: sm_spectate 
+[19:28:41] [Survivor] LSP: nb_assault 
+[19:28:41] [Survivor] LSP: give pain_pills
+[19:28:41] [Survivor] LSP: give health
+[19:28:41] [Survivor] LSP: give machete
+[19:28:41] [Survivor] LSP: nb_assault 
+[19:28:45] [Survivor] LSP: nb_assault 
+[19:28:48] [Survivor] LSP: nb_assault 
+[19:28:50] 予感<96><STEAM_1:0:246466989><> 离开游戏 (reason: Disconnect by user.)
+[19:28:51] [Survivor] LSP: nb_assault 
+[19:28:59] [Survivor] LSP: nb_assault 
+[19:29:04] [CN] 自傷無色<37><STEAM_1:1:577251180><> 加入游戏 (27.189.42.198)
+[19:29:06] [Survivor] LSP: nb_assault 
+[19:29:06] [Unassigned] 自傷無色: vmodenable 1
+[19:29:06] [Unassigned] 自傷無色: vban 0
+[19:29:09] [Unassigned] 自傷無色: unpause 
+[19:29:16] [Survivor] LSP: nb_assault 
+[19:29:20] [Survivor] LSP: nb_assault 
+[19:29:29] [Spectator] 自傷無色: sm_vote 
+[19:29:32] [Survivor] LSP: nb_assault 
+[19:29:41] [Survivor] LSP: nb_assault 
+[19:29:42] [Spectator] 自傷無色: say !join
+[19:29:42] [Spectator] 自傷無色: sm_join 
+[19:29:43] [Survivor] LSP: vocalize smartlook auto
+[19:29:45] [Spectator] 自傷無色: sm_spechud 
+[19:29:49] [Spectator] 自傷無色: sm_buy 
+[19:29:51] [Spectator] 自傷無色: sm_tz 
+[19:29:51] [Spectator] 自傷無色: sm_buy 
+[19:29:52] [Spectator] 自傷無色: menuselect 2
+[19:29:54] [Spectator] 自傷無色: sm_tz 
+[19:29:55] [Spectator] 自傷無色: sm_buy 
+[19:29:55] [Spectator] 自傷無色: menuselect 1
+[19:29:57] [Spectator] 自傷無色: sm_vote 
+[19:29:59] [Spectator] 自傷無色: sm_match 
+[19:30:01] [Spectator] 自傷無色: menuselect 9
+[19:30:02] [Survivor] LSP: nb_assault 
+[19:30:02] [Spectator] 自傷無色: menuselect 8
+[19:30:02] [Spectator] 自傷無色: menuselect 10
+[19:30:12] [Spectator] 自傷無色: say 怎么加入特感
+[19:30:16] [Survivor] LSP: nb_assault 
+[19:30:21] [Survivor] LSP: nb_assault 
+[19:30:28] [Survivor] LSP: say v50
+[19:30:29] [Spectator] 自傷無色: say !jointeam3
+[19:30:36] [Survivor] LSP: nb_assault 
+[19:30:46] [Spectator] 自傷無色: say !join si
+[19:30:46] [Spectator] 自傷無色: sm_join si
+[19:30:49] [Spectator] 自傷無色: say !jsi
+[19:30:54] [Survivor] LSP: setpause 
+[19:30:57] [Survivor] LSP: unpause 
+[19:30:57] [Survivor] LSP: unpause 
+[19:31:03] [Survivor] LSP: nb_assault 
+[19:31:07] [Survivor] LSP: nb_assault 
+[19:31:09] [Spectator] 自傷無色: say !jiashbdsuahfuhaiinh8anyacnmaic,aiofva
+[19:31:11] [Survivor] LSP: nb_assault 
+[19:31:15] [Survivor] LSP: nb_assault 
+[19:31:16] [Survivor] LSP: nb_assault 
+[19:31:16] [Spectator] 自傷無色: say !kill
+[19:31:16] [Spectator] 自傷無色: sm_kill 
+[19:31:19] [Survivor] LSP: nb_assault 
+[19:31:21] [Survivor] LSP: nb_assault 
+[19:31:23] [Survivor] LSP: choose_closedoor 
+[19:31:23] [Survivor] LSP: choose_closedoor 
+[19:31:24] [Survivor] LSP: setpause 
+[19:31:24] [Spectator] 自傷無色: say !kick ellis
+[19:31:24] [Spectator] 自傷無色: sm_kick ellis
+--=================================================================--
+[24/01/2023 19:31:25] --- 回合结束: c2m1_highway ---
+--=================================================================--
+[19:31:25] [Survivor] LSP: give health
+[19:31:25] [Survivor] LSP: give pistol
+--=================================================================--
+[24/01/2023 19:31:27] --- 回合结束: c2m1_highway ---
+--=================================================================--
+[19:31:27] [Spectator] 自傷無色: spec_next 
+[19:31:27] [Spectator] 自傷無色: spec_prev 
+[19:31:28] [Spectator] 自傷無色: spec_next 
+[19:31:28] [Spectator] 自傷無色: spec_prev 
+[19:31:28] [Spectator] 自傷無色: spec_next 
+[19:31:28] [Spectator] 自傷無色: spec_prev 
+[19:31:28] [Spectator] 自傷無色: spec_next 
+[19:31:28] [Spectator] 自傷無色: spec_prev 
+[19:31:28] [Spectator] 自傷無色: spec_prev 
+[19:31:28] [Spectator] 自傷無色: spec_next 
+[19:31:28] [Spectator] 自傷無色: spec_prev 
+[19:31:29] [Spectator] 自傷無色: spec_next 
+[19:31:29] [Spectator] 自傷無色: spec_next 
+[19:31:29] [Spectator] 自傷無色: spec_prev 
+[19:31:29] [Spectator] 自傷無色: spec_next 
+[19:31:29] [Spectator] 自傷無色: spec_prev 
+[19:31:29] [Spectator] 自傷無色: spec_next 
+[19:31:30] [Survivor] LSP: unpause 
+[19:31:30] [Survivor] LSP: unpause 
+[19:31:30] 自傷無色<37><STEAM_1:1:577251180><> 离开游戏 (reason: Disconnect by user.)
+--=================================================================--
+[24/01/2023 19:31:31] --- 地图结束: c2m1_highway ---
+--=================================================================--
+--=================================================================--
+[24/01/2023 19:31:33] --- 回合开始: c2m2_fairgrounds ---
+--=================================================================--
+--=================================================================--
+[24/01/2023 19:31:33] --- 地图开始: c2m2_fairgrounds ---
+--=================================================================--
+--=================================================================--
+[24/01/2023 19:32:09] --- 回合开始: c2m1_highway ---
+--=================================================================--
+--=================================================================--
+[24/01/2023 19:32:09] --- 地图开始: c2m1_highway ---
+--=================================================================--
+[02:14:15] [CN] Reisen<2><STEAM_1:0:182922075><> 加入游戏 (223.74.0.202)
+[02:14:15] [Unassigned] Reisen: vmodenable 1
+[02:14:15] [Unassigned] Reisen: vban 0
+[02:14:19] [Infected] Reisen: unpause 
+[02:14:25] [Infected] Reisen: say !vote
+[02:14:25] [Infected] Reisen: sm_vote 
+[02:14:27] [Infected] Reisen: menuselect 3
+[02:14:29] [Infected] Reisen: vote Yes
+[02:14:29] [Infected] Reisen: menuselect 2

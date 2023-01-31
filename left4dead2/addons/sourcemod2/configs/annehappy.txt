@@ -1,0 +1,991 @@
+"Cfgs"
+{
+	"服务器选项"
+	{
+		"sm_restartmap"
+		{
+			"message" "重置当前地图"
+		}
+		"sm_restart"
+		{
+			"message" "服务器端重启"
+		}
+	}
+	"Anne版本选择"
+	{
+		"sm_fm AnneHappy"
+		{
+			"message" "最新版本"
+		}
+		"exec vote/Anne/Anne22-12.cfg"
+		{
+			"message" "22-12月版本"
+		}
+		"exec vote/Anne/Anne22-11.cfg"
+		{
+			"message" "22-11月版本"
+		}
+		"exec vote/Anne/Anne22-10.cfg"
+		{
+			"message" "22-10月版本"
+		}
+		"exec vote/Anne/Anne22-9.cfg"
+		{
+			"message" "22-9月版本"
+		}
+		"exec vote/Anne/Anne22-7.cfg"
+		{
+			"message" "22-7月版本"
+		}
+		"exec vote/Anne/Anne22-6.cfg"
+		{
+			"message" "22-6月版本"
+		}
+		"exec vote/Anne/Anne22-2.cfg"
+		{
+			"message" "22-2月版本"
+		}
+		"exec vote/Anne/Anne11-28.cfg"
+		{
+			"message" "21-11-28号版本"
+		}
+		"exec vote/Anne/Anne10-10.cfg"
+		{
+			"message" "21-10-10号版本"
+		}
+		"exec vote/Anne/Anne7-7.cfg"
+		{
+			"message" "21-7-7号版本"
+		}
+	}
+	"多人运动"
+	{
+		"exec sourcemod/duoren_off.cfg"
+		{
+			"message" "关闭多人运动"
+		}
+		"exec vote/Anneduoren/duoren2.cfg"
+		{
+			"message" "2人运动"
+		}
+		"exec vote/Anneduoren/duoren3.cfg"
+		{
+			"message" "3人运动"
+		}
+		"exec vote/Anneduoren/duoren5.cfg"
+		{
+			"message" "5人运动"
+		}
+		"exec vote/Anneduoren/duoren6.cfg"
+		{
+			"message" "6人运动"
+		}
+		"exec vote/Anneduoren/duoren7.cfg"
+		{
+			"message" "7人运动"
+		}
+		"exec vote/Anneduoren/duoren8.cfg"
+		{
+			"message" "8人运动"
+		}
+	}
+	"特感数量"
+	{
+		"exec vote/AnneHappy1.cfg"
+		{
+			"message" "1特模式"
+		}
+		"exec vote/AnneHappy2.cfg"
+		{
+			"message" "2特模式"
+		}
+		"exec vote/AnneHappy3.cfg"
+		{
+			"message" "3特模式"
+		}
+		"exec vote/AnneHappy4.cfg"
+		{
+			"message" "4特模式"
+		}
+		"exec vote/AnneHappy5.cfg"
+		{
+			"message" "5特模式"
+		}
+		"exec vote/AnneHappy6.cfg"
+		{
+			"message" "6特模式"
+		}
+		"exec vote/AnneHappy7.cfg"
+		{
+			"message" "7特模式"
+		}
+		"exec vote/AnneHappy8.cfg"
+		{
+			"message" "8特模式"
+		}
+		"exec vote/AnneHappy9.cfg"
+		{
+			"message" "9特模式"
+		}
+		"exec vote/AnneHappy10.cfg"
+		{
+			"message" "10特模式"
+		}
+		"exec vote/AnneHappy11.cfg"
+		{
+			"message" "11特模式"
+		}
+		"exec vote/AnneHappy12.cfg"
+		{
+			"message" "12特模式"
+		}
+		"exec vote/AnneHappy13.cfg"
+		{
+			"message" "13特模式"
+		}
+		"exec vote/AnneHappy14.cfg"
+		{
+			"message" "14特模式"
+		}
+		"exec vote/AnneHappy15.cfg"
+		{
+			"message" "15特模式"
+		}
+		"exec vote/AnneHappy16.cfg"
+		{
+			"message" "16特模式"
+		}
+		"exec vote/AnneHappy17.cfg"
+		{
+			"message" "17特模式"
+		}
+		"exec vote/AnneHappy18.cfg"
+		{
+			"message" "18特模式"
+		}
+		"exec vote/AnneHappy19.cfg"
+		{
+			"message" "19特模式"
+		}
+		"exec vote/AnneHappy20.cfg"
+		{
+			"message" "20特模式"
+		}
+	}
+	"复活时间"
+	{
+		"sm_cvar versus_special_respawn_interval 0"
+		{
+			"message" "0秒"
+		}
+		"sm_cvar versus_special_respawn_interval 1"
+		{
+			"message" "1秒"
+		}
+		"sm_cvar versus_special_respawn_interval 2"
+		{
+			"message" "2秒"
+		}
+		"sm_cvar versus_special_respawn_interval 3"
+		{
+			"message" "3秒"
+		}
+		"sm_cvar versus_special_respawn_interval 4"
+		{
+			"message" "4秒"
+		}
+		"sm_cvar versus_special_respawn_interval 5"
+		{
+			"message" "5秒"
+		}
+		"sm_cvar versus_special_respawn_interval 6"
+		{
+			"message" "6秒"
+		}
+		"sm_cvar versus_special_respawn_interval 7"
+		{
+			"message" "7秒"
+		}
+		"sm_cvar versus_special_respawn_interval 8"
+		{
+			"message" "8秒"
+		}
+		"sm_cvar versus_special_respawn_interval 9"
+		{
+			"message" "9秒"
+		}
+		"sm_cvar versus_special_respawn_interval 10"
+		{
+			"message" "10秒"
+		}
+		"sm_cvar versus_special_respawn_interval 11"
+		{
+			"message" "11秒"
+		}
+		"sm_cvar versus_special_respawn_interval 12"
+		{
+			"message" "12秒"
+		}
+		"sm_cvar versus_special_respawn_interval 13"
+		{
+			"message" "13秒"
+		}
+		"sm_cvar versus_special_respawn_interval 14"
+		{
+			"message" "14秒"
+		}
+		"sm_cvar versus_special_respawn_interval 15"
+		{
+			"message" "15秒"
+		}
+		"sm_cvar versus_special_respawn_interval 16"
+		{
+			"message" "16秒"
+		}
+		"sm_cvar versus_special_respawn_interval 17"
+		{
+			"message" "17秒"
+		}
+		"sm_cvar versus_special_respawn_interval 18"
+		{
+			"message" "18秒"
+		}
+		"sm_cvar versus_special_respawn_interval 19"
+		{
+			"message" "19秒"
+		}
+		"sm_cvar versus_special_respawn_interval 20"
+		{
+			"message" "20秒"
+		}
+	}
+	"刷特模式"
+	{
+		"sm_cvar inf_EnableAutoSpawnTime 1"
+		{
+			"message" "自动时间刷特[23-01版本起有效]"
+		}
+		"sm_cvar inf_EnableAutoSpawnTime 0"
+		{
+			"message" "固定时间刷特[23-01版本起有效]"
+		}
+	}
+	"特感最低生成距离"
+	{
+		"sm_cvar inf_SpawnDistanceMin 250.0"
+		{
+			"message" "250单位"
+		}
+		"sm_cvar inf_SpawnDistanceMin 300.0"
+		{
+			"message" "300单位"
+		}
+		"sm_cvar inf_SpawnDistanceMin 350.0"
+		{
+			"message" "350单位"
+		}
+		"sm_cvar inf_SpawnDistanceMin 400.0"
+		{
+			"message" "400单位"
+		}
+		"sm_cvar inf_SpawnDistanceMin 450.0"
+		{
+			"message" "450单位"
+		}
+		"sm_cvar inf_SpawnDistanceMin 500.0"
+		{
+			"message" "500单位"
+		}
+		"sm_cvar inf_SpawnDistanceMin 550.0"
+		{
+			"message" "550单位"
+		}
+		"sm_cvar inf_SpawnDistanceMin 600.0"
+		{
+			"message" "600单位"
+		}
+		"sm_cvar inf_SpawnDistanceMin 650.0"
+		{
+			"message" "650单位"
+		}
+		"sm_cvar inf_SpawnDistanceMin 700.0"
+		{
+			"message" "700单位"
+		}
+	}
+	"特感传送检测秒数"
+	{
+		"sm_cvar inf_TeleportCheckTime 1"
+		{
+			"message" "1秒"
+		}
+		"sm_cvar inf_TeleportCheckTime 2"
+		{
+			"message" "2秒"
+		}
+		"sm_cvar inf_TeleportCheckTime 3"
+		{
+			"message" "3秒"
+		}
+		"sm_cvar inf_TeleportCheckTime 4"
+		{
+			"message" "4秒"
+		}
+		"sm_cvar inf_TeleportCheckTime 5"
+		{
+			"message" "5秒"
+		}
+		"sm_cvar inf_TeleportCheckTime 6"
+		{
+			"message" "6秒"
+		}
+		"sm_cvar inf_TeleportCheckTime 7"
+		{
+			"message" "7秒"
+		}
+		"sm_cvar inf_TeleportCheckTime 8"
+		{
+			"message" "8秒"
+		}
+	}
+	"杂项"
+	{
+		"sm_kicktank"
+		{
+			"message" "踢出超过上限tank"
+		}
+		"exec vote/crouch_on.cfg"
+		{
+			"message" "开启无蓄力hunter[极牢]"
+		}
+		"exec vote/crouch_off.cfg"
+		{
+			"message" "关闭无蓄力hunter"
+		}
+		"exec vote/hard_on.cfg"
+		{
+			"message" "开启特感属性增强[极牢]"
+		}
+		"exec vote/hard_off.cfg"
+		{
+			"message" "关闭特感属性增强"
+		}
+		"sm_cvar specrates_fulltickspecnum 1"
+		{
+			"message" "限制旁观tick"
+		}
+		"sm_cvar sb_fix_enabled 1"
+		{
+			"message" "开启高级人机"
+		}
+		"sm_cvar sb_fix_enabled 0"
+		{
+			"message" "关闭高级人机"
+		}
+		"exec vote/tank_on.cfg"
+		{
+			"message" "开启Tank大致血量显示"
+		}
+		"exec vote/tank_off.cfg"
+		{
+			"message" "关闭Tank大致血量显示"
+		}
+		"exec vote/gunrecoil_off.cfg"
+		{
+			"message" "关闭枪械抖动"
+		}
+		"exec vote/gunrecoil_on.cfg"
+		{
+			"message" "开启枪械抖动"
+		}
+	}
+	"商店选项开关"
+	{
+		"sm_cvar ReturnBlood 1"
+		{
+			"message" "开启回血"
+		}
+		"sm_cvar ReturnBlood 0"
+		{
+			"message" "关闭回血"
+		}
+		"sm_cvar rpg_allow_biggun 1"
+		{
+			"message" "开启大枪购买"
+		}
+		"sm_cvar rpg_allow_biggun 0"
+		{
+			"message" "关闭大枪购买"
+		}
+	}
+	"开关Mod"
+	{
+		"exec vote/mod_on.cfg"
+		{
+			"message" "开启Mod"
+		}
+		"exec vote/mod_off.cfg"
+		{
+			"message" "关闭Mod"
+		}
+	}
+	"同步率切换[默认0.014]"
+	{
+		"sm_cvar nb_update_frequency 0.01"
+		{
+			"message" "0.01[高][过关后需重新投票]"
+		}
+		"sm_cvar nb_update_frequency 0.014"
+		{
+			"message" "0.014[中][过关后需重新投票]"
+		}
+		"sm_cvar nb_update_frequency 0.03"
+		{
+			"message" "0.03[低][过关后需重新投票]"
+		}
+	}
+	"武器配置"
+	{
+		"sm_cvar ZonemodWeapon 0"
+		{
+			"message" "AnneHappy枪械"
+		}
+		"sm_cvar ZonemodWeapon 1"
+		{
+			"message" "zonemod2.6.4枪械"
+		}
+		"sm_cvar ZonemodWeapon 2"
+		{
+			"message" "AnneHappyPlus枪械[10特以上]"
+		}
+	}
+	"推数模式"
+	{
+		"exec vote/shove/AnneHappy.cfg"
+		{
+			"message" "AnneHappy模式推"
+		}
+		"exec vote/shove/Zonemod.cfg"
+		{
+			"message" "zonemod模式推"
+		}
+	}
+	"Tank选项"
+	{
+		"sm_cvar ai_tank_bhop 1"
+		{
+			"message" "开启Tank连跳"
+		}
+		"sm_cvar ai_tank_bhop 0"
+		{
+			"message" "关闭Tank连跳"
+		}
+		"sm_cvar ai_TankSneakTime 8.0"
+		{
+			"message" "开启狡猾Tank（特感生成8s前才压制，）"
+		}
+		"sm_cvar ai_TankSneakTime 0.0"
+		{
+			"message" "关闭狡猾Tank[22-12版本起有效]"
+		}
+		"exec vote/Consume_on.cfg"
+		{
+			"message" "开启消耗克[22-7版本起有效]"
+		}
+		"exec vote/Consume_off.cfg"
+		{
+			"message" "关闭消耗克[22-7版本起有效]"
+		}
+		"sm_cvar l4d_multislots_autokicktank 1"
+		{
+			"message" "开启坦克自动踢出系统[上限:1]"
+		}
+		"sm_cvar l4d_multislots_autokicktank 0"
+		{
+			"message" "关闭坦克自动踢出系统"
+		}
+	}
+	"开关hud"
+	{
+		"sm_cvar l4d2_scripted_hud_enable 1"
+		{
+			"message" "打开hud"
+		}
+		"sm_cvar l4d2_scripted_hud_enable 0"
+		{
+			"message" "关闭hud"
+		}
+	}
+	"地图Stripper选择"
+	{
+		"exec vote/Anne/Annenew.cfg"
+		{
+			"message" "zonemod版本"
+		}
+		"exec vote/Anne/Anneold.cfg"
+		{
+			"message" "AnneHappy原版"
+		}
+	}
+	"官图列表"
+	{
+		"changelevel c1m1_hotel"
+		{
+   			"message" "切换至c1m1"
+	 	}
+		"changelevel c1m2_streets"
+		{
+   			"message" "切换至c1m2"
+	 	}
+		"changelevel c1m3_mall"
+		{
+   			"message" "切换至c1m3"
+	 	}
+		"changelevel c1m4_atrium"
+		{
+   			"message" "切换至c1m4"
+	 	}
+		"changelevel c2m1_highway"
+		{
+   			"message" "切换至c2m1"
+	 	}
+		"changelevel c2m2_fairgrounds"
+		{
+   			"message" "切换至c2m2"
+	 	}
+		"changelevel c2m3_coaster"
+		{
+   			"message" "切换至c2m3"
+	 	}
+		"changelevel c2m4_barns"
+		{
+   			"message" "切换至c2m4"
+	 	}
+		"changelevel c2m5_concert"
+		{
+   			"message" "切换至c2m5"
+	 	}
+		"changelevel c3m1_plankcountry"
+		{
+   			"message" "切换至c3m1"
+	 	}
+		"changelevel c3m2_swamp"
+		{
+   			"message" "切换至c3m2"
+	 	}
+		"changelevel c3m3_shantytown"
+		{
+   			"message" "切换至c3m3"
+	 	}
+		"changelevel c3m4_plantation"
+		{
+   			"message" "切换至c3m4"
+	 	}
+		"changelevel c4m1_milltown_a"
+		{
+   			"message" "切换至c4m1"
+	 	}
+		"changelevel c4m2_sugarmill_a"
+		{
+   			"message" "切换至c4m2"
+	 	}
+		"changelevel c4m3_sugarmill_b"
+		{
+   			"message" "切换至c4m3"
+	 	}
+		"changelevel c4m4_milltown_b"
+		{
+   			"message" "切换至c4m4"
+		}
+	 	"changelevel c4m1_milltown_escape"
+		{
+   			"message" "切换至c4m5"
+	 	}
+		"changelevel c5m1_waterfront"
+		{
+   			"message" "切换至c5m1"
+	 	}
+		"changelevel c5m2_park"
+		{
+   			"message" "切换至c5m2"
+	 	}
+		"changelevel c5m3_cemetery"
+		{
+   			"message" "切换至c5m3"
+	 	}
+		"changelevel c5m4_quarter"
+		{
+   			"message" "切换至c5m4"
+	 	}
+		"changelevel c5m5_bridge"
+		{
+   			"message" "切换至c5m5"
+	 	}
+		"changelevel c6m1_riverbank"
+		{
+   			"message" "切换至c6m1"
+	 	}
+		"changelevel c6m2_bedlam"
+		{
+   			"message" "切换至c6m2"
+	 	}
+		"changelevel c6m3_port"
+		{
+   			"message" "切换至c6m3"
+	 	}
+		"changelevel c7m1_docks"
+		{
+   			"message" "切换至c7m1"
+	 	}
+		"changelevel c7m2_barge"
+		{
+   			"message" "切换至c7m2"
+	 	}
+		"changelevel c7m3_port"
+		{
+   			"message" "切换至c7m3"
+	 	}
+		"changelevel c8m1_apartment"
+		{
+   			"message" "切换至c8m1"
+	 	}
+		"changelevel c8m2_subway"
+		{
+   			"message" "切换至c8m2"
+	 	}
+		"changelevel c8m3_sewers"
+		{
+   			"message" "切换至c8m3"
+	 	}
+		"changelevel c8m4_interior"
+		{
+   			"message" "切换至c8m4"
+	 	}
+		"changelevel c8m5_rooftop"
+		{
+   			"message" "切换至c8m5"
+	 	}
+		"changelevel c9m1_alleys"
+		{
+   			"message" "切换至c9m1"
+	 	}
+		"changelevel c9m2_lots"
+		{
+   			"message" "切换至c9m2"
+	 	}
+		"changelevel c10m1_caves"
+		{
+   			"message" "切换至c10m1"
+	 	}
+		"changelevel c10m2_drainage"
+		{
+   			"message" "切换至c10m2"
+	 	}
+		"changelevel c10m3_ranchhouse"
+		{
+   			"message" "切换至c10m3"
+	 	}
+		"changelevel c10m4_mainstreet"
+		{
+   			"message" "切换至c10m4"
+	 	}
+		"changelevel c10m5_houseboat"
+		{
+   			"message" "切换至c10m5"
+	 	}
+		"changelevel c11m1_greenhouse"
+		{
+   			"message" "切换至c11m1"
+	 	}
+		"changelevel c11m2_offices"
+		{
+   			"message" "切换至c11m2"
+	 	}
+		"changelevel c11m3_garage"
+		{
+   			"message" "切换至c11m3"
+	 	}
+		"changelevel c11m4_terminal"
+		{
+   			"message" "切换至c11m4"
+	 	}
+		"changelevel c11m5_runway"
+		{
+   			"message" "切换至c11m5"
+	 	}
+		"changelevel c12m1_hilltop"
+		{
+   			"message" "切换至c12m1"
+	 	}
+		"changelevel c12m2_traintunnel"
+		{
+   			"message" "切换至c12m2"
+	 	}
+		"changelevel c12m3_brige"
+		{
+   			"message" "切换至c12m3"
+	 	}
+		"changelevel c12m4_barn"
+		{
+   			"message" "切换至c12m4"
+	 	}
+		"changelevel c12m5_cornfield"
+		{
+   			"message" "切换至c12m5"
+	 	}
+		"changelevel c13m1_alpinecreek"
+		{
+   			"message" "切换至c13m1"
+	 	}
+		"changelevel c13m2_southpinestream"
+		{
+   			"message" "切换至c13m2"
+	 	}
+		"changelevel c13m3_memorialbridge"
+		{
+   			"message" "切换至c13m3"
+	 	}
+		"changelevel c13m4_cutthroatcreek"
+		{
+   			"message" "切换至c13m4"
+	 	}
+		"changelevel c14m1_junkyard"
+		{
+   			"message" "切换至c14m1"
+	 	}
+		"changelevel c14m2_lighthouse"
+		{
+   			"message" "切换至c14m2"
+	 	}
+	}
+	"三方图列表"
+	{
+		"changelevel 2019_M1b"
+		{
+			"message" "切换至2019"
+		}
+		"changelevel l4d_149_1"
+		{
+			"message" "切换至One4Nine"
+		}
+		"changelevel jsarena201_town"
+		{
+			"message" "切换至死亡竞技场2 Arena of The Dead 2"
+		}
+		"changelevel l4d2_bts01_forest"
+		{
+			"message" "切换至回到学校 Back To School"
+		}
+		"changelevel bloodtracks_01"
+		{
+			"message" "切换至铁血轨道 Blood Tracks"
+		}
+		"changelevel cwm1_intro"
+		{
+			"message" "切换至绝处逢生 Carried Off"
+		}
+		"changelvel CCR1_alleys"
+		{
+			"message" "切换至C9改 Crash Course Rerouted"
+		}
+		"changelevel cotd01_apartments"
+		{
+			"message" "切换至活死人之城 City of The Dead"
+		}
+		"changelevel cedafever_m1"
+		{
+			"message" "切换至CedaFever"
+		}
+		"changelevel l4d2_city17_01"
+		{
+			"message" "切换至17号城 City17"
+		}
+		"changelevel dkr_m1_motel"
+		{
+			"message" "切换至C2改 Dark Canival Remix"
+		}
+		"changelevel c5m1_darkwaterfront"
+		{
+			"message" "切换至黑暗教区C5 Dark Parish"
+		}
+		"changelevel l4d2_darkblood01_tanker"
+		{
+			"message" "切换至暗血涌动2 Dark Blood 2"
+		}
+		"changelevel dcr_m1_hotel"
+		{
+			"message" "切换至C1改 Dead Center Rebirth"
+		}
+		"changelevel l4d2_deathwoods01_stranded"
+		{
+			"message" "切换至死亡丛林 Death Woods"
+		}
+		"changelevel dprm1_milltown_a"
+		{
+			"message" "切换至C4改 Downpour"
+		}
+		"changelevel death_sentence_1"
+		{
+			"message" "切换至死刑 Death Sentence"
+		}
+		"changelevel ddg1_tower_v2_1"
+		{
+			"message" "切换至绝命峡谷 Drop Dead Gorges"
+		}
+		"changelevel daredux_map1_docks_aw"
+		{
+			"message" "切换至C11改 Dead Air Redux"
+		}
+		"changelevel l4d2_diescraper1_apartment_361"
+		{
+			"message" "切换至喋血蜃楼 Diescraper Redux"
+		}
+		"changelevel l4d2_daybreak01_hotel"
+		{
+			"message" "切换至黎明 Day Break"
+		}
+		"changelevel deadbeat01_forest"
+		{
+			"message" "切换至无缝逃离 DeadBeat Escape"
+		}
+		"changelevel cdta_01detour"
+		{
+			"message" "切换至迂回前进 Detour Ahead"
+		}
+		"changelevel l4d_dbd2dc_anna_is_gone"
+		{
+			"message" "切换至活死人黎明2 Dead Before Dawn 2"
+		}
+		"changelevel ec01_outlets"
+		{
+			"message" "切换至能源危机 Energy Crisis"
+		}
+		"changelevel l4d2_ff01_woods"
+		{
+			"message" "切换至致命货运站 Fatal Freight Fix"
+		}
+		"changelevel fos01_roadonhill"
+		{
+			"message" "切换至生还之锋 Front of Survivors 1.8(仅限战役)"
+		}
+		"changelevel msd1_town"
+		{
+			"message" "切换至再见了晨茗 Farewell ChenMing(仅限战役)"
+		}
+		"changelevel highway01_apt_20130613"
+		{
+			"message" "切换至地狱之路 Highway To Hell"
+		}
+		"changelevel AirCrash"
+		{
+			"message" "切换至天堂可待 Heaven Can Wait"
+		}
+		"changelevel hf01_theforest"
+		{
+			"message" "切换至颤栗森林 Haunted Forest"
+		}
+		"changelevel bhm1_outskirts"
+		{
+			"message" "切换至别被丢下 Left Behind"
+		}
+		"changelevel l4d_ihm01_forest"
+		{
+			"message" "切换至我恨山2 I Hate Moutains 2"
+		}
+		"changelevel moonsrevengemap1"
+		{
+			"message" "切换至卫星复仇 Moons Revenge"
+		}
+		"changelevel noecho_m1"
+		{
+			"message" "切换至音讯全无(比赛用图) No Echo (Match)"
+		}
+		"changelevel nmrm1_apartment"
+		{
+			"message" "切换至C8改 No Mercy Rehab"
+		}
+		"changelevel PR1_Waterfront_F"
+		{
+			"message" "切换至C5改 Parish Overgrowth"
+		}
+		"changelevel rh_map01"
+		{
+			"message" "切换至逃至山上 Run To The Hills"
+		}
+		"changelevel l4d_ravenholm01_blackmesa"
+		{
+			"message" "切换至莱温霍姆 Ravenholm"
+		}
+		"changelevel grmap1"
+		{
+			"message" "切换至公路杀手 Road Kill"
+		}
+		"changelevel l4d_tbm_1"
+		{
+			"message" "切换至血腥荒野 The Bloody Moors"
+		}
+		"changelevel eu01_residential_b16"
+		{
+			"message" "切换至恐怖之旅 Tour of Terror"
+		}
+		"changelevel uz_crash"
+		{
+			"message" "切换至亡灵区 Undead Zone"
+		}
+		"changelevel uf1_boulevard"
+		{
+			"message" "切换至城市航班 Urban Flight"
+ 		}
+		"changelevel wfp1_track"
+		{
+			"message" "切换至白森林 White Forest"
+		}
+		"changelevel srocchurch"
+		{
+			"message" "切换至巴塞罗那 Warcelona"
+		}
+		"changelevel l4d2_stadium1_apartment"
+		{
+			"message" "切换至闪电突袭2 Suicide Blitz 2"
+		}
+	}
+	"三方图列表(清道夫)"
+	{
+		"changelevel hotel05_rooftop_two"
+		{
+			"message" "切换至死亡假期 Dead Vacation"
+		}
+		"changelevel nothinggonelast10"
+		{
+			"message" "切换至无人生还 Nothing Last"
+		}
+		"changelevel cedafever_m3"
+		{
+			"message" "切换至 CedaFever Rooftop"
+		}
+		"changelevel roofdownthedrain"
+		{
+			"message" "切换至血本无归 Down The Drain"
+		}
+		"changelevel nmrm5_rooftop"
+		{
+			"message" "切换至C8改屋顶"
+		}
+		"changelevel l4d2_bedrooms3"
+		{
+			"message" "切换至巨人卧室Bedroom3 Bit Size"
+		}
+	}
+	"开关死门"
+	{
+		"sm_cvar coopmode 1"
+		{
+			"message" "开启死门"
+		}
+		"sm_cvar coopmode 0"
+		{
+			"message" "关闭死门"
+		}
+	}
+	
+}

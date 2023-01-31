@@ -1,0 +1,488 @@
+L 01/03/2023 - 18:14:22: SourceMod error session started
+L 01/03/2023 - 18:14:22: Info (map "c2m1_highway") (file "/root/Steam/steamapps/common/Left 4 Dead 2 Dedicated Server/left4dead2/addons/sourcemod/logs/errors_20230103.log")
+L 01/03/2023 - 18:14:22: [SM] Exception reported: Invalid index 1 (count: 1)
+L 01/03/2023 - 18:14:22: [SM] Blaming: optional/l4d_equalise_alarm_cars_scav.smx
+L 01/03/2023 - 18:14:22: [SM] Call stack trace:
+L 01/03/2023 - 18:14:22: [SM]   [0] ArrayList.GetString
+L 01/03/2023 - 18:14:22: [SM]   [1] Line 384, F:\Users\Administrator\Documents\GitHub\MoYu_Server_Stupid_Plugins\The Last Stand\l4d_equalise_alarm_cars\l4d_equalise_alarm_cars.sp::PatchAlarmedCars
+L 01/03/2023 - 18:17:10: Error log file session closed.
+L 01/03/2023 - 18:17:11: SourceMod error session started
+L 01/03/2023 - 18:17:11: Info (map "dprm1_milltown_a") (file "/root/Steam/steamapps/common/Left 4 Dead 2 Dedicated Server/left4dead2/addons/sourcemod/logs/errors_20230103.log")
+L 01/03/2023 - 18:17:11: [SM] Exception reported: ThisPtr address cannot be null
+L 01/03/2023 - 18:17:11: [SM] Blaming: optional/l4d2_melee_spawn_control.smx
+L 01/03/2023 - 18:17:11: [SM] Call stack trace:
+L 01/03/2023 - 18:17:11: [SM]   [0] SDKCall
+L 01/03/2023 - 18:17:11: [SM]   [1] Line 73, .\scripting\l4d2_melee_spawn_control.sp::DH_OnGetMissionInfo
+L 01/03/2023 - 18:17:11: [SM] Exception reported: ThisPtr address cannot be null
+L 01/03/2023 - 18:17:11: [SM] Blaming: optional/l4d2_melee_spawn_control.smx
+L 01/03/2023 - 18:17:11: [SM] Call stack trace:
+L 01/03/2023 - 18:17:11: [SM]   [0] SDKCall
+L 01/03/2023 - 18:17:11: [SM]   [1] Line 73, .\scripting\l4d2_melee_spawn_control.sp::DH_OnGetMissionInfo
+L 01/03/2023 - 18:17:11: [SM] Exception reported: ThisPtr address cannot be null
+L 01/03/2023 - 18:17:11: [SM] Blaming: optional/l4d2_melee_spawn_control.smx
+L 01/03/2023 - 18:17:11: [SM] Call stack trace:
+L 01/03/2023 - 18:17:11: [SM]   [0] SDKCall
+L 01/03/2023 - 18:17:11: [SM]   [1] Line 73, .\scripting\l4d2_melee_spawn_control.sp::DH_OnGetMissionInfo
+L 01/03/2023 - 18:17:11: [SM] Exception reported: ThisPtr address cannot be null
+L 01/03/2023 - 18:17:11: [SM] Blaming: optional/l4d2_melee_spawn_control.smx
+L 01/03/2023 - 18:17:11: [SM] Call stack trace:
+L 01/03/2023 - 18:17:11: [SM]   [0] SDKCall
+L 01/03/2023 - 18:17:11: [SM]   [1] Line 73, .\scripting\l4d2_melee_spawn_control.sp::DH_OnGetMissionInfo
+L 01/03/2023 - 18:17:11: [SM] Exception reported: ThisPtr address cannot be null
+L 01/03/2023 - 18:17:11: [SM] Blaming: optional/l4d2_melee_spawn_control.smx
+L 01/03/2023 - 18:17:11: [SM] Call stack trace:
+L 01/03/2023 - 18:17:11: [SM]   [0] SDKCall
+L 01/03/2023 - 18:17:11: [SM]   [1] Line 73, .\scripting\l4d2_melee_spawn_control.sp::DH_OnGetMissionInfo
+L 01/03/2023 - 18:17:11: [SM] Exception reported: ThisPtr address cannot be null
+L 01/03/2023 - 18:17:11: [SM] Blaming: optional/l4d2_melee_spawn_control.smx
+L 01/03/2023 - 18:17:11: [SM] Call stack trace:
+L 01/03/2023 - 18:17:11: [SM]   [0] SDKCall
+L 01/03/2023 - 18:17:11: [SM]   [1] Line 73, .\scripting\l4d2_melee_spawn_control.sp::DH_OnGetMissionInfo
+L 01/03/2023 - 18:17:11: [SM] Exception reported: ThisPtr address cannot be null
+L 01/03/2023 - 18:17:11: [SM] Blaming: optional/l4d2_melee_spawn_control.smx
+L 01/03/2023 - 18:17:11: [SM] Call stack trace:
+L 01/03/2023 - 18:17:11: [SM]   [0] SDKCall
+L 01/03/2023 - 18:17:11: [SM]   [1] Line 73, .\scripting\l4d2_melee_spawn_control.sp::DH_OnGetMissionInfo
+L 01/03/2023 - 18:17:11: [SM] Exception reported: ThisPtr address cannot be null
+L 01/03/2023 - 18:17:11: [SM] Blaming: optional/l4d2_melee_spawn_control.smx
+L 01/03/2023 - 18:17:11: [SM] Call stack trace:
+L 01/03/2023 - 18:17:11: [SM]   [0] SDKCall
+L 01/03/2023 - 18:17:11: [SM]   [1] Line 73, .\scripting\l4d2_melee_spawn_control.sp::DH_OnGetMissionInfo
+L 01/03/2023 - 18:17:11: [SM] Exception reported: ThisPtr address cannot be null
+L 01/03/2023 - 18:17:11: [SM] Blaming: optional/l4d2_melee_spawn_control.smx
+L 01/03/2023 - 18:17:11: [SM] Call stack trace:
+L 01/03/2023 - 18:17:11: [SM]   [0] SDKCall
+L 01/03/2023 - 18:17:11: [SM]   [1] Line 73, .\scripting\l4d2_melee_spawn_control.sp::DH_OnGetMissionInfo
+L 01/03/2023 - 18:17:11: [SM] Exception reported: ThisPtr address cannot be null
+L 01/03/2023 - 18:17:11: [SM] Blaming: optional/l4d2_melee_spawn_control.smx
+L 01/03/2023 - 18:17:11: [SM] Call stack trace:
+L 01/03/2023 - 18:17:11: [SM]   [0] SDKCall
+L 01/03/2023 - 18:17:11: [SM]   [1] Line 73, .\scripting\l4d2_melee_spawn_control.sp::DH_OnGetMissionInfo
+L 01/03/2023 - 18:17:11: [SM] Exception reported: ThisPtr address cannot be null
+L 01/03/2023 - 18:17:11: [SM] Blaming: optional/l4d2_melee_spawn_control.smx
+L 01/03/2023 - 18:17:11: [SM] Call stack trace:
+L 01/03/2023 - 18:17:11: [SM]   [0] SDKCall
+L 01/03/2023 - 18:17:11: [SM]   [1] Line 73, .\scripting\l4d2_melee_spawn_control.sp::DH_OnGetMissionInfo
+L 01/03/2023 - 18:17:11: [SM] Exception reported: ThisPtr address cannot be null
+L 01/03/2023 - 18:17:11: [SM] Blaming: optional/l4d2_melee_spawn_control.smx
+L 01/03/2023 - 18:17:11: [SM] Call stack trace:
+L 01/03/2023 - 18:17:11: [SM]   [0] SDKCall
+L 01/03/2023 - 18:17:11: [SM]   [1] Line 73, .\scripting\l4d2_melee_spawn_control.sp::DH_OnGetMissionInfo
+L 01/03/2023 - 18:17:11: [SM] Exception reported: ThisPtr address cannot be null
+L 01/03/2023 - 18:17:11: [SM] Blaming: optional/l4d2_melee_spawn_control.smx
+L 01/03/2023 - 18:17:11: [SM] Call stack trace:
+L 01/03/2023 - 18:17:11: [SM]   [0] SDKCall
+L 01/03/2023 - 18:17:11: [SM]   [1] Line 73, .\scripting\l4d2_melee_spawn_control.sp::DH_OnGetMissionInfo
+L 01/03/2023 - 18:17:11: [SM] Exception reported: ThisPtr address cannot be null
+L 01/03/2023 - 18:17:11: [SM] Blaming: optional/l4d2_melee_spawn_control.smx
+L 01/03/2023 - 18:17:11: [SM] Call stack trace:
+L 01/03/2023 - 18:17:11: [SM]   [0] SDKCall
+L 01/03/2023 - 18:17:11: [SM]   [1] Line 73, .\scripting\l4d2_melee_spawn_control.sp::DH_OnGetMissionInfo
+L 01/03/2023 - 18:17:11: [SM] Exception reported: ThisPtr address cannot be null
+L 01/03/2023 - 18:17:11: [SM] Blaming: optional/l4d2_melee_spawn_control.smx
+L 01/03/2023 - 18:17:11: [SM] Call stack trace:
+L 01/03/2023 - 18:17:11: [SM]   [0] SDKCall
+L 01/03/2023 - 18:17:11: [SM]   [1] Line 73, .\scripting\l4d2_melee_spawn_control.sp::DH_OnGetMissionInfo
+L 01/03/2023 - 18:17:11: [SM] Exception reported: ThisPtr address cannot be null
+L 01/03/2023 - 18:17:11: [SM] Blaming: optional/l4d2_melee_spawn_control.smx
+L 01/03/2023 - 18:17:11: [SM] Call stack trace:
+L 01/03/2023 - 18:17:11: [SM]   [0] SDKCall
+L 01/03/2023 - 18:17:11: [SM]   [1] Line 73, .\scripting\l4d2_melee_spawn_control.sp::DH_OnGetMissionInfo
+L 01/03/2023 - 18:17:11: [SM] Exception reported: ThisPtr address cannot be null
+L 01/03/2023 - 18:17:11: [SM] Blaming: optional/l4d2_melee_spawn_control.smx
+L 01/03/2023 - 18:17:11: [SM] Call stack trace:
+L 01/03/2023 - 18:17:11: [SM]   [0] SDKCall
+L 01/03/2023 - 18:17:11: [SM]   [1] Line 73, .\scripting\l4d2_melee_spawn_control.sp::DH_OnGetMissionInfo
+L 01/03/2023 - 18:17:11: [SM] Exception reported: ThisPtr address cannot be null
+L 01/03/2023 - 18:17:11: [SM] Blaming: optional/l4d2_melee_spawn_control.smx
+L 01/03/2023 - 18:17:11: [SM] Call stack trace:
+L 01/03/2023 - 18:17:11: [SM]   [0] SDKCall
+L 01/03/2023 - 18:17:11: [SM]   [1] Line 73, .\scripting\l4d2_melee_spawn_control.sp::DH_OnGetMissionInfo
+L 01/03/2023 - 18:17:11: [SM] Exception reported: ThisPtr address cannot be null
+L 01/03/2023 - 18:17:11: [SM] Blaming: optional/l4d2_melee_spawn_control.smx
+L 01/03/2023 - 18:17:11: [SM] Call stack trace:
+L 01/03/2023 - 18:17:11: [SM]   [0] SDKCall
+L 01/03/2023 - 18:17:11: [SM]   [1] Line 73, .\scripting\l4d2_melee_spawn_control.sp::DH_OnGetMissionInfo
+L 01/03/2023 - 18:17:11: [SM] Exception reported: ThisPtr address cannot be null
+L 01/03/2023 - 18:17:11: [SM] Blaming: optional/l4d2_melee_spawn_control.smx
+L 01/03/2023 - 18:17:11: [SM] Call stack trace:
+L 01/03/2023 - 18:17:11: [SM]   [0] SDKCall
+L 01/03/2023 - 18:17:11: [SM]   [1] Line 73, .\scripting\l4d2_melee_spawn_control.sp::DH_OnGetMissionInfo
+L 01/03/2023 - 18:17:11: [SM] Exception reported: ThisPtr address cannot be null
+L 01/03/2023 - 18:17:11: [SM] Blaming: optional/l4d2_melee_spawn_control.smx
+L 01/03/2023 - 18:17:11: [SM] Call stack trace:
+L 01/03/2023 - 18:17:11: [SM]   [0] SDKCall
+L 01/03/2023 - 18:17:11: [SM]   [1] Line 73, .\scripting\l4d2_melee_spawn_control.sp::DH_OnGetMissionInfo
+L 01/03/2023 - 18:17:11: [SM] Exception reported: ThisPtr address cannot be null
+L 01/03/2023 - 18:17:11: [SM] Blaming: optional/l4d2_melee_spawn_control.smx
+L 01/03/2023 - 18:17:11: [SM] Call stack trace:
+L 01/03/2023 - 18:17:11: [SM]   [0] SDKCall
+L 01/03/2023 - 18:17:11: [SM]   [1] Line 73, .\scripting\l4d2_melee_spawn_control.sp::DH_OnGetMissionInfo
+L 01/03/2023 - 18:17:11: [SM] Exception reported: ThisPtr address cannot be null
+L 01/03/2023 - 18:17:11: [SM] Blaming: optional/l4d2_melee_spawn_control.smx
+L 01/03/2023 - 18:17:11: [SM] Call stack trace:
+L 01/03/2023 - 18:17:11: [SM]   [0] SDKCall
+L 01/03/2023 - 18:17:11: [SM]   [1] Line 73, .\scripting\l4d2_melee_spawn_control.sp::DH_OnGetMissionInfo
+L 01/03/2023 - 18:17:11: [SM] Exception reported: ThisPtr address cannot be null
+L 01/03/2023 - 18:17:11: [SM] Blaming: optional/l4d2_melee_spawn_control.smx
+L 01/03/2023 - 18:17:11: [SM] Call stack trace:
+L 01/03/2023 - 18:17:11: [SM]   [0] SDKCall
+L 01/03/2023 - 18:17:11: [SM]   [1] Line 73, .\scripting\l4d2_melee_spawn_control.sp::DH_OnGetMissionInfo
+L 01/03/2023 - 18:17:11: [SM] Exception reported: ThisPtr address cannot be null
+L 01/03/2023 - 18:17:11: [SM] Blaming: optional/l4d2_melee_spawn_control.smx
+L 01/03/2023 - 18:17:11: [SM] Call stack trace:
+L 01/03/2023 - 18:17:11: [SM]   [0] SDKCall
+L 01/03/2023 - 18:17:11: [SM]   [1] Line 73, .\scripting\l4d2_melee_spawn_control.sp::DH_OnGetMissionInfo
+L 01/03/2023 - 18:17:11: [SM] Exception reported: ThisPtr address cannot be null
+L 01/03/2023 - 18:17:11: [SM] Blaming: optional/l4d2_melee_spawn_control.smx
+L 01/03/2023 - 18:17:11: [SM] Call stack trace:
+L 01/03/2023 - 18:17:11: [SM]   [0] SDKCall
+L 01/03/2023 - 18:17:11: [SM]   [1] Line 73, .\scripting\l4d2_melee_spawn_control.sp::DH_OnGetMissionInfo
+L 01/03/2023 - 18:17:11: [SM] Exception reported: ThisPtr address cannot be null
+L 01/03/2023 - 18:17:11: [SM] Blaming: optional/l4d2_melee_spawn_control.smx
+L 01/03/2023 - 18:17:11: [SM] Call stack trace:
+L 01/03/2023 - 18:17:11: [SM]   [0] SDKCall
+L 01/03/2023 - 18:17:11: [SM]   [1] Line 73, .\scripting\l4d2_melee_spawn_control.sp::DH_OnGetMissionInfo
+L 01/03/2023 - 18:17:11: [SM] Exception reported: ThisPtr address cannot be null
+L 01/03/2023 - 18:17:11: [SM] Blaming: optional/l4d2_melee_spawn_control.smx
+L 01/03/2023 - 18:17:11: [SM] Call stack trace:
+L 01/03/2023 - 18:17:11: [SM]   [0] SDKCall
+L 01/03/2023 - 18:17:11: [SM]   [1] Line 73, .\scripting\l4d2_melee_spawn_control.sp::DH_OnGetMissionInfo
+L 01/03/2023 - 18:17:11: [SM] Exception reported: ThisPtr address cannot be null
+L 01/03/2023 - 18:17:11: [SM] Blaming: optional/l4d2_melee_spawn_control.smx
+L 01/03/2023 - 18:17:11: [SM] Call stack trace:
+L 01/03/2023 - 18:17:11: [SM]   [0] SDKCall
+L 01/03/2023 - 18:17:11: [SM]   [1] Line 73, .\scripting\l4d2_melee_spawn_control.sp::DH_OnGetMissionInfo
+L 01/03/2023 - 18:17:11: [SM] Exception reported: ThisPtr address cannot be null
+L 01/03/2023 - 18:17:11: [SM] Blaming: optional/l4d2_melee_spawn_control.smx
+L 01/03/2023 - 18:17:11: [SM] Call stack trace:
+L 01/03/2023 - 18:17:11: [SM]   [0] SDKCall
+L 01/03/2023 - 18:17:11: [SM]   [1] Line 73, .\scripting\l4d2_melee_spawn_control.sp::DH_OnGetMissionInfo
+L 01/03/2023 - 18:17:11: [SM] Exception reported: ThisPtr address cannot be null
+L 01/03/2023 - 18:17:11: [SM] Blaming: optional/l4d2_melee_spawn_control.smx
+L 01/03/2023 - 18:17:11: [SM] Call stack trace:
+L 01/03/2023 - 18:17:11: [SM]   [0] SDKCall
+L 01/03/2023 - 18:17:11: [SM]   [1] Line 73, .\scripting\l4d2_melee_spawn_control.sp::DH_OnGetMissionInfo
+L 01/03/2023 - 18:17:11: [SM] Exception reported: ThisPtr address cannot be null
+L 01/03/2023 - 18:17:11: [SM] Blaming: optional/l4d2_melee_spawn_control.smx
+L 01/03/2023 - 18:17:11: [SM] Call stack trace:
+L 01/03/2023 - 18:17:11: [SM]   [0] SDKCall
+L 01/03/2023 - 18:17:11: [SM]   [1] Line 73, .\scripting\l4d2_melee_spawn_control.sp::DH_OnGetMissionInfo
+L 01/03/2023 - 18:17:11: [SM] Exception reported: ThisPtr address cannot be null
+L 01/03/2023 - 18:17:11: [SM] Blaming: optional/l4d2_melee_spawn_control.smx
+L 01/03/2023 - 18:17:11: [SM] Call stack trace:
+L 01/03/2023 - 18:17:11: [SM]   [0] SDKCall
+L 01/03/2023 - 18:17:11: [SM]   [1] Line 73, .\scripting\l4d2_melee_spawn_control.sp::DH_OnGetMissionInfo
+L 01/03/2023 - 18:17:11: [SM] Exception reported: ThisPtr address cannot be null
+L 01/03/2023 - 18:17:11: [SM] Blaming: optional/l4d2_melee_spawn_control.smx
+L 01/03/2023 - 18:17:11: [SM] Call stack trace:
+L 01/03/2023 - 18:17:11: [SM]   [0] SDKCall
+L 01/03/2023 - 18:17:11: [SM]   [1] Line 73, .\scripting\l4d2_melee_spawn_control.sp::DH_OnGetMissionInfo
+L 01/03/2023 - 18:17:11: [SM] Exception reported: ThisPtr address cannot be null
+L 01/03/2023 - 18:17:11: [SM] Blaming: optional/l4d2_melee_spawn_control.smx
+L 01/03/2023 - 18:17:11: [SM] Call stack trace:
+L 01/03/2023 - 18:17:11: [SM]   [0] SDKCall
+L 01/03/2023 - 18:17:11: [SM]   [1] Line 73, .\scripting\l4d2_melee_spawn_control.sp::DH_OnGetMissionInfo
+L 01/03/2023 - 18:17:11: [SM] Exception reported: ThisPtr address cannot be null
+L 01/03/2023 - 18:17:11: [SM] Blaming: optional/l4d2_melee_spawn_control.smx
+L 01/03/2023 - 18:17:11: [SM] Call stack trace:
+L 01/03/2023 - 18:17:11: [SM]   [0] SDKCall
+L 01/03/2023 - 18:17:11: [SM]   [1] Line 73, .\scripting\l4d2_melee_spawn_control.sp::DH_OnGetMissionInfo
+L 01/03/2023 - 18:17:11: [SM] Exception reported: ThisPtr address cannot be null
+L 01/03/2023 - 18:17:11: [SM] Blaming: optional/l4d2_melee_spawn_control.smx
+L 01/03/2023 - 18:17:11: [SM] Call stack trace:
+L 01/03/2023 - 18:17:11: [SM]   [0] SDKCall
+L 01/03/2023 - 18:17:11: [SM]   [1] Line 73, .\scripting\l4d2_melee_spawn_control.sp::DH_OnGetMissionInfo
+L 01/03/2023 - 18:17:11: [SM] Exception reported: ThisPtr address cannot be null
+L 01/03/2023 - 18:17:11: [SM] Blaming: optional/l4d2_melee_spawn_control.smx
+L 01/03/2023 - 18:17:11: [SM] Call stack trace:
+L 01/03/2023 - 18:17:11: [SM]   [0] SDKCall
+L 01/03/2023 - 18:17:11: [SM]   [1] Line 73, .\scripting\l4d2_melee_spawn_control.sp::DH_OnGetMissionInfo
+L 01/03/2023 - 18:17:13: [SM] Exception reported: ThisPtr address cannot be null
+L 01/03/2023 - 18:17:13: [SM] Blaming: optional/l4d2_melee_spawn_control.smx
+L 01/03/2023 - 18:17:13: [SM] Call stack trace:
+L 01/03/2023 - 18:17:13: [SM]   [0] SDKCall
+L 01/03/2023 - 18:17:13: [SM]   [1] Line 73, .\scripting\l4d2_melee_spawn_control.sp::DH_OnGetMissionInfo
+L 01/03/2023 - 18:17:13: [SM] Exception reported: ThisPtr address cannot be null
+L 01/03/2023 - 18:17:13: [SM] Blaming: optional/l4d2_melee_spawn_control.smx
+L 01/03/2023 - 18:17:13: [SM] Call stack trace:
+L 01/03/2023 - 18:17:13: [SM]   [0] SDKCall
+L 01/03/2023 - 18:17:13: [SM]   [1] Line 73, .\scripting\l4d2_melee_spawn_control.sp::DH_OnGetMissionInfo
+L 01/03/2023 - 18:17:13: [SM] Exception reported: ThisPtr address cannot be null
+L 01/03/2023 - 18:17:13: [SM] Blaming: optional/l4d2_melee_spawn_control.smx
+L 01/03/2023 - 18:17:13: [SM] Call stack trace:
+L 01/03/2023 - 18:17:13: [SM]   [0] SDKCall
+L 01/03/2023 - 18:17:13: [SM]   [1] Line 73, .\scripting\l4d2_melee_spawn_control.sp::DH_OnGetMissionInfo
+L 01/03/2023 - 18:17:13: [SM] Exception reported: ThisPtr address cannot be null
+L 01/03/2023 - 18:17:13: [SM] Blaming: optional/l4d2_melee_spawn_control.smx
+L 01/03/2023 - 18:17:13: [SM] Call stack trace:
+L 01/03/2023 - 18:17:13: [SM]   [0] SDKCall
+L 01/03/2023 - 18:17:13: [SM]   [1] Line 73, .\scripting\l4d2_melee_spawn_control.sp::DH_OnGetMissionInfo
+L 01/03/2023 - 18:17:13: [SM] Exception reported: ThisPtr address cannot be null
+L 01/03/2023 - 18:17:13: [SM] Blaming: optional/l4d2_melee_spawn_control.smx
+L 01/03/2023 - 18:17:13: [SM] Call stack trace:
+L 01/03/2023 - 18:17:13: [SM]   [0] SDKCall
+L 01/03/2023 - 18:17:13: [SM]   [1] Line 73, .\scripting\l4d2_melee_spawn_control.sp::DH_OnGetMissionInfo
+L 01/03/2023 - 18:17:13: [SM] Exception reported: ThisPtr address cannot be null
+L 01/03/2023 - 18:17:13: [SM] Blaming: optional/l4d2_melee_spawn_control.smx
+L 01/03/2023 - 18:17:13: [SM] Call stack trace:
+L 01/03/2023 - 18:17:13: [SM]   [0] SDKCall
+L 01/03/2023 - 18:17:13: [SM]   [1] Line 73, .\scripting\l4d2_melee_spawn_control.sp::DH_OnGetMissionInfo
+L 01/03/2023 - 18:17:13: [SM] Exception reported: ThisPtr address cannot be null
+L 01/03/2023 - 18:17:13: [SM] Blaming: optional/l4d2_melee_spawn_control.smx
+L 01/03/2023 - 18:17:13: [SM] Call stack trace:
+L 01/03/2023 - 18:17:13: [SM]   [0] SDKCall
+L 01/03/2023 - 18:17:13: [SM]   [1] Line 73, .\scripting\l4d2_melee_spawn_control.sp::DH_OnGetMissionInfo
+L 01/03/2023 - 18:17:13: [SM] Exception reported: ThisPtr address cannot be null
+L 01/03/2023 - 18:17:13: [SM] Blaming: optional/l4d2_melee_spawn_control.smx
+L 01/03/2023 - 18:17:13: [SM] Call stack trace:
+L 01/03/2023 - 18:17:13: [SM]   [0] SDKCall
+L 01/03/2023 - 18:17:13: [SM]   [1] Line 73, .\scripting\l4d2_melee_spawn_control.sp::DH_OnGetMissionInfo
+L 01/03/2023 - 18:17:13: [SM] Exception reported: ThisPtr address cannot be null
+L 01/03/2023 - 18:17:13: [SM] Blaming: optional/l4d2_melee_spawn_control.smx
+L 01/03/2023 - 18:17:13: [SM] Call stack trace:
+L 01/03/2023 - 18:17:13: [SM]   [0] SDKCall
+L 01/03/2023 - 18:17:13: [SM]   [1] Line 73, .\scripting\l4d2_melee_spawn_control.sp::DH_OnGetMissionInfo
+L 01/03/2023 - 18:17:13: [SM] Exception reported: ThisPtr address cannot be null
+L 01/03/2023 - 18:17:13: [SM] Blaming: optional/l4d2_melee_spawn_control.smx
+L 01/03/2023 - 18:17:13: [SM] Call stack trace:
+L 01/03/2023 - 18:17:13: [SM]   [0] SDKCall
+L 01/03/2023 - 18:17:13: [SM]   [1] Line 73, .\scripting\l4d2_melee_spawn_control.sp::DH_OnGetMissionInfo
+L 01/03/2023 - 18:17:13: [SM] Exception reported: ThisPtr address cannot be null
+L 01/03/2023 - 18:17:13: [SM] Blaming: optional/l4d2_melee_spawn_control.smx
+L 01/03/2023 - 18:17:13: [SM] Call stack trace:
+L 01/03/2023 - 18:17:13: [SM]   [0] SDKCall
+L 01/03/2023 - 18:17:13: [SM]   [1] Line 73, .\scripting\l4d2_melee_spawn_control.sp::DH_OnGetMissionInfo
+L 01/03/2023 - 18:17:13: [SM] Exception reported: ThisPtr address cannot be null
+L 01/03/2023 - 18:17:13: [SM] Blaming: optional/l4d2_melee_spawn_control.smx
+L 01/03/2023 - 18:17:13: [SM] Call stack trace:
+L 01/03/2023 - 18:17:13: [SM]   [0] SDKCall
+L 01/03/2023 - 18:17:13: [SM]   [1] Line 73, .\scripting\l4d2_melee_spawn_control.sp::DH_OnGetMissionInfo
+L 01/03/2023 - 18:17:13: [SM] Exception reported: ThisPtr address cannot be null
+L 01/03/2023 - 18:17:13: [SM] Blaming: optional/l4d2_melee_spawn_control.smx
+L 01/03/2023 - 18:17:13: [SM] Call stack trace:
+L 01/03/2023 - 18:17:13: [SM]   [0] SDKCall
+L 01/03/2023 - 18:17:13: [SM]   [1] Line 73, .\scripting\l4d2_melee_spawn_control.sp::DH_OnGetMissionInfo
+L 01/03/2023 - 18:17:13: [SM] Exception reported: ThisPtr address cannot be null
+L 01/03/2023 - 18:17:13: [SM] Blaming: optional/l4d2_melee_spawn_control.smx
+L 01/03/2023 - 18:17:13: [SM] Call stack trace:
+L 01/03/2023 - 18:17:13: [SM]   [0] SDKCall
+L 01/03/2023 - 18:17:13: [SM]   [1] Line 73, .\scripting\l4d2_melee_spawn_control.sp::DH_OnGetMissionInfo
+L 01/03/2023 - 18:17:13: [SM] Exception reported: ThisPtr address cannot be null
+L 01/03/2023 - 18:17:13: [SM] Blaming: optional/l4d2_melee_spawn_control.smx
+L 01/03/2023 - 18:17:13: [SM] Call stack trace:
+L 01/03/2023 - 18:17:13: [SM]   [0] SDKCall
+L 01/03/2023 - 18:17:13: [SM]   [1] Line 73, .\scripting\l4d2_melee_spawn_control.sp::DH_OnGetMissionInfo
+L 01/03/2023 - 18:17:13: [SM] Exception reported: ThisPtr address cannot be null
+L 01/03/2023 - 18:17:13: [SM] Blaming: optional/l4d2_melee_spawn_control.smx
+L 01/03/2023 - 18:17:13: [SM] Call stack trace:
+L 01/03/2023 - 18:17:13: [SM]   [0] SDKCall
+L 01/03/2023 - 18:17:13: [SM]   [1] Line 73, .\scripting\l4d2_melee_spawn_control.sp::DH_OnGetMissionInfo
+L 01/03/2023 - 18:17:13: [SM] Exception reported: ThisPtr address cannot be null
+L 01/03/2023 - 18:17:13: [SM] Blaming: optional/l4d2_melee_spawn_control.smx
+L 01/03/2023 - 18:17:13: [SM] Call stack trace:
+L 01/03/2023 - 18:17:13: [SM]   [0] SDKCall
+L 01/03/2023 - 18:17:13: [SM]   [1] Line 73, .\scripting\l4d2_melee_spawn_control.sp::DH_OnGetMissionInfo
+L 01/03/2023 - 18:17:13: [SM] Exception reported: ThisPtr address cannot be null
+L 01/03/2023 - 18:17:13: [SM] Blaming: optional/l4d2_melee_spawn_control.smx
+L 01/03/2023 - 18:17:13: [SM] Call stack trace:
+L 01/03/2023 - 18:17:13: [SM]   [0] SDKCall
+L 01/03/2023 - 18:17:13: [SM]   [1] Line 73, .\scripting\l4d2_melee_spawn_control.sp::DH_OnGetMissionInfo
+L 01/03/2023 - 18:17:13: [SM] Exception reported: ThisPtr address cannot be null
+L 01/03/2023 - 18:17:13: [SM] Blaming: optional/l4d2_melee_spawn_control.smx
+L 01/03/2023 - 18:17:13: [SM] Call stack trace:
+L 01/03/2023 - 18:17:13: [SM]   [0] SDKCall
+L 01/03/2023 - 18:17:13: [SM]   [1] Line 73, .\scripting\l4d2_melee_spawn_control.sp::DH_OnGetMissionInfo
+L 01/03/2023 - 18:17:13: [SM] Exception reported: ThisPtr address cannot be null
+L 01/03/2023 - 18:17:13: [SM] Blaming: optional/l4d2_melee_spawn_control.smx
+L 01/03/2023 - 18:17:13: [SM] Call stack trace:
+L 01/03/2023 - 18:17:13: [SM]   [0] SDKCall
+L 01/03/2023 - 18:17:13: [SM]   [1] Line 73, .\scripting\l4d2_melee_spawn_control.sp::DH_OnGetMissionInfo
+L 01/03/2023 - 18:17:13: [SM] Exception reported: ThisPtr address cannot be null
+L 01/03/2023 - 18:17:13: [SM] Blaming: optional/l4d2_melee_spawn_control.smx
+L 01/03/2023 - 18:17:13: [SM] Call stack trace:
+L 01/03/2023 - 18:17:13: [SM]   [0] SDKCall
+L 01/03/2023 - 18:17:13: [SM]   [1] Line 73, .\scripting\l4d2_melee_spawn_control.sp::DH_OnGetMissionInfo
+L 01/03/2023 - 18:17:13: [SM] Exception reported: ThisPtr address cannot be null
+L 01/03/2023 - 18:17:13: [SM] Blaming: optional/l4d2_melee_spawn_control.smx
+L 01/03/2023 - 18:17:13: [SM] Call stack trace:
+L 01/03/2023 - 18:17:13: [SM]   [0] SDKCall
+L 01/03/2023 - 18:17:13: [SM]   [1] Line 73, .\scripting\l4d2_melee_spawn_control.sp::DH_OnGetMissionInfo
+L 01/03/2023 - 18:17:13: [SM] Exception reported: ThisPtr address cannot be null
+L 01/03/2023 - 18:17:13: [SM] Blaming: optional/l4d2_melee_spawn_control.smx
+L 01/03/2023 - 18:17:13: [SM] Call stack trace:
+L 01/03/2023 - 18:17:13: [SM]   [0] SDKCall
+L 01/03/2023 - 18:17:13: [SM]   [1] Line 73, .\scripting\l4d2_melee_spawn_control.sp::DH_OnGetMissionInfo
+L 01/03/2023 - 18:17:13: [SM] Exception reported: ThisPtr address cannot be null
+L 01/03/2023 - 18:17:13: [SM] Blaming: optional/l4d2_melee_spawn_control.smx
+L 01/03/2023 - 18:17:13: [SM] Call stack trace:
+L 01/03/2023 - 18:17:13: [SM]   [0] SDKCall
+L 01/03/2023 - 18:17:13: [SM]   [1] Line 73, .\scripting\l4d2_melee_spawn_control.sp::DH_OnGetMissionInfo
+L 01/03/2023 - 18:17:13: [SM] Exception reported: ThisPtr address cannot be null
+L 01/03/2023 - 18:17:13: [SM] Blaming: optional/l4d2_melee_spawn_control.smx
+L 01/03/2023 - 18:17:13: [SM] Call stack trace:
+L 01/03/2023 - 18:17:13: [SM]   [0] SDKCall
+L 01/03/2023 - 18:17:13: [SM]   [1] Line 73, .\scripting\l4d2_melee_spawn_control.sp::DH_OnGetMissionInfo
+L 01/03/2023 - 18:17:13: [SM] Exception reported: ThisPtr address cannot be null
+L 01/03/2023 - 18:17:13: [SM] Blaming: optional/l4d2_melee_spawn_control.smx
+L 01/03/2023 - 18:17:13: [SM] Call stack trace:
+L 01/03/2023 - 18:17:13: [SM]   [0] SDKCall
+L 01/03/2023 - 18:17:13: [SM]   [1] Line 73, .\scripting\l4d2_melee_spawn_control.sp::DH_OnGetMissionInfo
+L 01/03/2023 - 18:17:13: [SM] Exception reported: ThisPtr address cannot be null
+L 01/03/2023 - 18:17:13: [SM] Blaming: optional/l4d2_melee_spawn_control.smx
+L 01/03/2023 - 18:17:13: [SM] Call stack trace:
+L 01/03/2023 - 18:17:13: [SM]   [0] SDKCall
+L 01/03/2023 - 18:17:13: [SM]   [1] Line 73, .\scripting\l4d2_melee_spawn_control.sp::DH_OnGetMissionInfo
+L 01/03/2023 - 18:17:13: [SM] Exception reported: ThisPtr address cannot be null
+L 01/03/2023 - 18:17:13: [SM] Blaming: optional/l4d2_melee_spawn_control.smx
+L 01/03/2023 - 18:17:13: [SM] Call stack trace:
+L 01/03/2023 - 18:17:13: [SM]   [0] SDKCall
+L 01/03/2023 - 18:17:13: [SM]   [1] Line 73, .\scripting\l4d2_melee_spawn_control.sp::DH_OnGetMissionInfo
+L 01/03/2023 - 18:17:13: [SM] Exception reported: ThisPtr address cannot be null
+L 01/03/2023 - 18:17:13: [SM] Blaming: optional/l4d2_melee_spawn_control.smx
+L 01/03/2023 - 18:17:13: [SM] Call stack trace:
+L 01/03/2023 - 18:17:13: [SM]   [0] SDKCall
+L 01/03/2023 - 18:17:13: [SM]   [1] Line 73, .\scripting\l4d2_melee_spawn_control.sp::DH_OnGetMissionInfo
+L 01/03/2023 - 18:17:13: [SM] Exception reported: ThisPtr address cannot be null
+L 01/03/2023 - 18:17:13: [SM] Blaming: optional/l4d2_melee_spawn_control.smx
+L 01/03/2023 - 18:17:13: [SM] Call stack trace:
+L 01/03/2023 - 18:17:13: [SM]   [0] SDKCall
+L 01/03/2023 - 18:17:13: [SM]   [1] Line 73, .\scripting\l4d2_melee_spawn_control.sp::DH_OnGetMissionInfo
+L 01/03/2023 - 18:17:13: [SM] Exception reported: ThisPtr address cannot be null
+L 01/03/2023 - 18:17:13: [SM] Blaming: optional/l4d2_melee_spawn_control.smx
+L 01/03/2023 - 18:17:13: [SM] Call stack trace:
+L 01/03/2023 - 18:17:13: [SM]   [0] SDKCall
+L 01/03/2023 - 18:17:13: [SM]   [1] Line 73, .\scripting\l4d2_melee_spawn_control.sp::DH_OnGetMissionInfo
+L 01/03/2023 - 18:17:13: [SM] Exception reported: ThisPtr address cannot be null
+L 01/03/2023 - 18:17:13: [SM] Blaming: optional/l4d2_melee_spawn_control.smx
+L 01/03/2023 - 18:17:13: [SM] Call stack trace:
+L 01/03/2023 - 18:17:13: [SM]   [0] SDKCall
+L 01/03/2023 - 18:17:13: [SM]   [1] Line 73, .\scripting\l4d2_melee_spawn_control.sp::DH_OnGetMissionInfo
+L 01/03/2023 - 18:17:13: [SM] Exception reported: ThisPtr address cannot be null
+L 01/03/2023 - 18:17:13: [SM] Blaming: optional/l4d2_melee_spawn_control.smx
+L 01/03/2023 - 18:17:13: [SM] Call stack trace:
+L 01/03/2023 - 18:17:13: [SM]   [0] SDKCall
+L 01/03/2023 - 18:17:13: [SM]   [1] Line 73, .\scripting\l4d2_melee_spawn_control.sp::DH_OnGetMissionInfo
+L 01/03/2023 - 18:17:13: [SM] Exception reported: ThisPtr address cannot be null
+L 01/03/2023 - 18:17:13: [SM] Blaming: optional/l4d2_melee_spawn_control.smx
+L 01/03/2023 - 18:17:13: [SM] Call stack trace:
+L 01/03/2023 - 18:17:13: [SM]   [0] SDKCall
+L 01/03/2023 - 18:17:13: [SM]   [1] Line 73, .\scripting\l4d2_melee_spawn_control.sp::DH_OnGetMissionInfo
+L 01/03/2023 - 18:17:13: [SM] Exception reported: ThisPtr address cannot be null
+L 01/03/2023 - 18:17:13: [SM] Blaming: optional/l4d2_melee_spawn_control.smx
+L 01/03/2023 - 18:17:13: [SM] Call stack trace:
+L 01/03/2023 - 18:17:13: [SM]   [0] SDKCall
+L 01/03/2023 - 18:17:13: [SM]   [1] Line 73, .\scripting\l4d2_melee_spawn_control.sp::DH_OnGetMissionInfo
+L 01/03/2023 - 18:17:13: [SM] Exception reported: ThisPtr address cannot be null
+L 01/03/2023 - 18:17:13: [SM] Blaming: optional/l4d2_melee_spawn_control.smx
+L 01/03/2023 - 18:17:13: [SM] Call stack trace:
+L 01/03/2023 - 18:17:13: [SM]   [0] SDKCall
+L 01/03/2023 - 18:17:13: [SM]   [1] Line 73, .\scripting\l4d2_melee_spawn_control.sp::DH_OnGetMissionInfo
+L 01/03/2023 - 18:17:13: [SM] Exception reported: ThisPtr address cannot be null
+L 01/03/2023 - 18:17:13: [SM] Blaming: optional/l4d2_melee_spawn_control.smx
+L 01/03/2023 - 18:17:13: [SM] Call stack trace:
+L 01/03/2023 - 18:17:13: [SM]   [0] SDKCall
+L 01/03/2023 - 18:17:13: [SM]   [1] Line 73, .\scripting\l4d2_melee_spawn_control.sp::DH_OnGetMissionInfo
+L 01/03/2023 - 18:17:13: [SM] Exception reported: ThisPtr address cannot be null
+L 01/03/2023 - 18:17:13: [SM] Blaming: optional/l4d2_melee_spawn_control.smx
+L 01/03/2023 - 18:17:13: [SM] Call stack trace:
+L 01/03/2023 - 18:17:13: [SM]   [0] SDKCall
+L 01/03/2023 - 18:17:13: [SM]   [1] Line 73, .\scripting\l4d2_melee_spawn_control.sp::DH_OnGetMissionInfo
+L 01/03/2023 - 18:17:13: [SM] Exception reported: ThisPtr address cannot be null
+L 01/03/2023 - 18:17:13: [SM] Blaming: optional/l4d2_melee_spawn_control.smx
+L 01/03/2023 - 18:17:13: [SM] Call stack trace:
+L 01/03/2023 - 18:17:13: [SM]   [0] SDKCall
+L 01/03/2023 - 18:17:13: [SM]   [1] Line 73, .\scripting\l4d2_melee_spawn_control.sp::DH_OnGetMissionInfo
+L 01/03/2023 - 18:17:13: [SM] Exception reported: ThisPtr address cannot be null
+L 01/03/2023 - 18:17:13: [SM] Blaming: optional/l4d2_melee_spawn_control.smx
+L 01/03/2023 - 18:17:13: [SM] Call stack trace:
+L 01/03/2023 - 18:17:13: [SM]   [0] SDKCall
+L 01/03/2023 - 18:17:13: [SM]   [1] Line 73, .\scripting\l4d2_melee_spawn_control.sp::DH_OnGetMissionInfo
+L 01/03/2023 - 18:17:13: [SM] Exception reported: ThisPtr address cannot be null
+L 01/03/2023 - 18:17:13: [SM] Blaming: optional/l4d2_melee_spawn_control.smx
+L 01/03/2023 - 18:17:13: [SM] Call stack trace:
+L 01/03/2023 - 18:17:13: [SM]   [0] SDKCall
+L 01/03/2023 - 18:17:13: [SM]   [1] Line 73, .\scripting\l4d2_melee_spawn_control.sp::DH_OnGetMissionInfo
+L 01/03/2023 - 18:17:13: [SM] Exception reported: ThisPtr address cannot be null
+L 01/03/2023 - 18:17:13: [SM] Blaming: optional/l4d2_melee_spawn_control.smx
+L 01/03/2023 - 18:17:13: [SM] Call stack trace:
+L 01/03/2023 - 18:17:13: [SM]   [0] SDKCall
+L 01/03/2023 - 18:17:13: [SM]   [1] Line 73, .\scripting\l4d2_melee_spawn_control.sp::DH_OnGetMissionInfo
+L 01/03/2023 - 18:17:13: [SM] Exception reported: ThisPtr address cannot be null
+L 01/03/2023 - 18:17:13: [SM] Blaming: optional/l4d2_melee_spawn_control.smx
+L 01/03/2023 - 18:17:13: [SM] Call stack trace:
+L 01/03/2023 - 18:17:13: [SM]   [0] SDKCall
+L 01/03/2023 - 18:17:13: [SM]   [1] Line 73, .\scripting\l4d2_melee_spawn_control.sp::DH_OnGetMissionInfo
+L 01/03/2023 - 18:17:13: [SM] Exception reported: ThisPtr address cannot be null
+L 01/03/2023 - 18:17:13: [SM] Blaming: optional/l4d2_melee_spawn_control.smx
+L 01/03/2023 - 18:17:13: [SM] Call stack trace:
+L 01/03/2023 - 18:17:13: [SM]   [0] SDKCall
+L 01/03/2023 - 18:17:13: [SM]   [1] Line 73, .\scripting\l4d2_melee_spawn_control.sp::DH_OnGetMissionInfo
+L 01/03/2023 - 18:17:13: [SM] Exception reported: ThisPtr address cannot be null
+L 01/03/2023 - 18:17:13: [SM] Blaming: optional/l4d2_melee_spawn_control.smx
+L 01/03/2023 - 18:17:13: [SM] Call stack trace:
+L 01/03/2023 - 18:17:13: [SM]   [0] SDKCall
+L 01/03/2023 - 18:17:13: [SM]   [1] Line 73, .\scripting\l4d2_melee_spawn_control.sp::DH_OnGetMissionInfo
+L 01/03/2023 - 18:17:13: [SM] Exception reported: ThisPtr address cannot be null
+L 01/03/2023 - 18:17:13: [SM] Blaming: optional/l4d2_melee_spawn_control.smx
+L 01/03/2023 - 18:17:13: [SM] Call stack trace:
+L 01/03/2023 - 18:17:13: [SM]   [0] SDKCall
+L 01/03/2023 - 18:17:13: [SM]   [1] Line 73, .\scripting\l4d2_melee_spawn_control.sp::DH_OnGetMissionInfo
+L 01/03/2023 - 18:17:13: [SM] Exception reported: ThisPtr address cannot be null
+L 01/03/2023 - 18:17:13: [SM] Blaming: optional/l4d2_melee_spawn_control.smx
+L 01/03/2023 - 18:17:13: [SM] Call stack trace:
+L 01/03/2023 - 18:17:13: [SM]   [0] SDKCall
+L 01/03/2023 - 18:17:13: [SM]   [1] Line 73, .\scripting\l4d2_melee_spawn_control.sp::DH_OnGetMissionInfo
+L 01/03/2023 - 18:17:13: [SM] Exception reported: ThisPtr address cannot be null
+L 01/03/2023 - 18:17:13: [SM] Blaming: optional/l4d2_melee_spawn_control.smx
+L 01/03/2023 - 18:17:13: [SM] Call stack trace:
+L 01/03/2023 - 18:17:13: [SM]   [0] SDKCall
+L 01/03/2023 - 18:17:13: [SM]   [1] Line 73, .\scripting\l4d2_melee_spawn_control.sp::DH_OnGetMissionInfo
+L 01/03/2023 - 18:17:13: [SM] Exception reported: ThisPtr address cannot be null
+L 01/03/2023 - 18:17:13: [SM] Blaming: optional/l4d2_melee_spawn_control.smx
+L 01/03/2023 - 18:17:13: [SM] Call stack trace:
+L 01/03/2023 - 18:17:13: [SM]   [0] SDKCall
+L 01/03/2023 - 18:17:13: [SM]   [1] Line 73, .\scripting\l4d2_melee_spawn_control.sp::DH_OnGetMissionInfo
+L 01/03/2023 - 18:17:13: [SM] Exception reported: ThisPtr address cannot be null
+L 01/03/2023 - 18:17:13: [SM] Blaming: optional/l4d2_melee_spawn_control.smx
+L 01/03/2023 - 18:17:13: [SM] Call stack trace:
+L 01/03/2023 - 18:17:13: [SM]   [0] SDKCall
+L 01/03/2023 - 18:17:13: [SM]   [1] Line 73, .\scripting\l4d2_melee_spawn_control.sp::DH_OnGetMissionInfo
+L 01/03/2023 - 18:17:13: [SM] Exception reported: ThisPtr address cannot be null
+L 01/03/2023 - 18:17:13: [SM] Blaming: optional/l4d2_melee_spawn_control.smx
+L 01/03/2023 - 18:17:13: [SM] Call stack trace:
+L 01/03/2023 - 18:17:13: [SM]   [0] SDKCall
+L 01/03/2023 - 18:17:13: [SM]   [1] Line 73, .\scripting\l4d2_melee_spawn_control.sp::DH_OnGetMissionInfo
+L 01/03/2023 - 18:17:13: [SM] Exception reported: ThisPtr address cannot be null
+L 01/03/2023 - 18:17:13: [SM] Blaming: optional/l4d2_melee_spawn_control.smx
+L 01/03/2023 - 18:17:13: [SM] Call stack trace:
+L 01/03/2023 - 18:17:13: [SM]   [0] SDKCall
+L 01/03/2023 - 18:17:13: [SM]   [1] Line 73, .\scripting\l4d2_melee_spawn_control.sp::DH_OnGetMissionInfo
+L 01/03/2023 - 18:17:13: [SM] Exception reported: ThisPtr address cannot be null
+L 01/03/2023 - 18:17:13: [SM] Blaming: optional/l4d2_melee_spawn_control.smx
+L 01/03/2023 - 18:17:13: [SM] Call stack trace:
+L 01/03/2023 - 18:17:13: [SM]   [0] SDKCall
+L 01/03/2023 - 18:17:13: [SM]   [1] Line 73, .\scripting\l4d2_melee_spawn_control.sp::DH_OnGetMissionInfo
+L 01/03/2023 - 18:17:13: [SM] Exception reported: ThisPtr address cannot be null
+L 01/03/2023 - 18:17:13: [SM] Blaming: optional/l4d2_melee_spawn_control.smx
+L 01/03/2023 - 18:17:13: [SM] Call stack trace:
+L 01/03/2023 - 18:17:13: [SM]   [0] SDKCall
+L 01/03/2023 - 18:17:13: [SM]   [1] Line 73, .\scripting\l4d2_melee_spawn_control.sp::DH_OnGetMissionInfo
+L 01/03/2023 - 18:18:29: SourceMod error session started
+L 01/03/2023 - 18:18:29: Info (map "c2m1_highway") (file "/root/Steam/steamapps/common/Left 4 Dead 2 Dedicated Server/left4dead2/addons/sourcemod/logs/errors_20230103.log")
+L 01/03/2023 - 18:18:29: [SM] Unable to load plugin "Welcome.smx": Could not find required plugin "l4d2_playtime_interface"
+L 01/03/2023 - 18:18:29: [SM] Unable to load plugin "l4d_fyzb_en_v20.smx": Could not find required plugin "readyup"
+L 01/03/2023 - 22:27:24: Error log file session closed.
+L 01/03/2023 - 22:28:28: SourceMod error session started
+L 01/03/2023 - 22:28:28: Info (map "c2m1_highway") (file "/root/Steam/steamapps/common/Left 4 Dead 2 Dedicated Server/left4dead2/addons/sourcemod/logs/errors_20230103.log")
+L 01/03/2023 - 22:28:28: [SM] Unable to load plugin "Welcome.smx": Could not find required plugin "l4d2_playtime_interface"
+L 01/03/2023 - 22:28:28: [SM] Unable to load plugin "l4d_fyzb_en_v20.smx": Could not find required plugin "readyup"
+L 01/03/2023 - 22:29:10: Error log file session closed.
+L 01/03/2023 - 22:30:04: SourceMod error session started
+L 01/03/2023 - 22:30:04: Info (map "c2m1_highway") (file "/root/Steam/steamapps/common/Left 4 Dead 2 Dedicated Server/left4dead2/addons/sourcemod/logs/errors_20230103.log")
+L 01/03/2023 - 22:30:04: [SM] Unable to load plugin "Welcome.smx": Could not find required plugin "l4d2_playtime_interface"
+L 01/03/2023 - 22:30:04: [SM] Unable to load plugin "l4d_fyzb_en_v20.smx": Could not find required plugin "readyup"
+L 01/03/2023 - 22:30:23: SourceMod error session started
+L 01/03/2023 - 22:30:23: Info (map "c2m1_highway") (file "/root/Steam/steamapps/common/Left 4 Dead 2 Dedicated Server/left4dead2/addons/sourcemod/logs/errors_20230103.log")
+L 01/03/2023 - 22:30:23: [SM] Unable to load plugin "Welcome.smx": Could not find required plugin "l4d2_playtime_interface"
+L 01/03/2023 - 22:30:23: [SM] Unable to load plugin "l4d_fyzb_en_v20.smx": Could not find required plugin "readyup"

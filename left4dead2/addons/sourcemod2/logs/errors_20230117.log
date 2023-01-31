@@ -1,0 +1,88 @@
+L 01/17/2023 - 01:19:23: SourceMod error session started
+L 01/17/2023 - 01:19:23: Info (map "c2m1_highway") (file "/root/Steam/steamapps/common/Left 4 Dead 2 Dedicated Server/left4dead2/addons/sourcemod2/logs/errors_20230117.log")
+L 01/17/2023 - 01:19:23: [SM] Unable to load plugin "extend/rpg.smx": Could not find required plugin "l4d2lib"
+L 01/17/2023 - 11:14:54: Error log file session closed.
+L 01/17/2023 - 11:28:29: SourceMod error session started
+L 01/17/2023 - 11:28:29: Info (map "c2m1_highway") (file "/root/Steam/steamapps/common/Left 4 Dead 2 Dedicated Server/left4dead2/addons/sourcemod2/logs/errors_20230117.log")
+L 01/17/2023 - 11:28:29: [SM] Unable to load plugin "extend/rpg.smx": Could not find required plugin "l4d2lib"
+L 01/17/2023 - 17:58:28: Error log file session closed.
+L 01/17/2023 - 18:14:49: SourceMod error session started
+L 01/17/2023 - 18:14:49: Info (map "c2m3_coaster") (file "/root/Steam/steamapps/common/Left 4 Dead 2 Dedicated Server/left4dead2/addons/sourcemod2/logs/errors_20230117.log")
+L 01/17/2023 - 18:14:49: [SM] Exception reported: Client 4 is not in game
+L 01/17/2023 - 18:14:49: [SM] Blaming: optional/l4d2_character_fix.smx
+L 01/17/2023 - 18:14:49: [SM] Call stack trace:
+L 01/17/2023 - 18:14:49: [SM]   [0] GetClientTeam
+L 01/17/2023 - 18:14:49: [SM]   [1] Line 23, D:\Games\L4D2\Sourcemod Compiling\scripting\l4d2_character_fix.sp::TeamCmd
+L 01/17/2023 - 18:18:49: SourceMod error session started
+L 01/17/2023 - 18:18:49: Info (map "c2m1_highway") (file "/root/Steam/steamapps/common/Left 4 Dead 2 Dedicated Server/left4dead2/addons/sourcemod2/logs/errors_20230117.log")
+L 01/17/2023 - 18:18:49: [SM] Unable to load plugin "extend/rpg.smx": Could not find required plugin "l4d2lib"
+L 01/17/2023 - 18:48:53: Error log file session closed.
+L 01/17/2023 - 18:50:37: SourceMod error session started
+L 01/17/2023 - 18:50:37: Info (map "c2m1_highway") (file "/root/Steam/steamapps/common/Left 4 Dead 2 Dedicated Server/left4dead2/addons/sourcemod2/logs/errors_20230117.log")
+L 01/17/2023 - 18:50:37: [SM] Unable to load plugin "extend/rpg.smx": Could not find required plugin "l4d2lib"
+L 01/17/2023 - 18:50:40: [CRASH] Accelerator uploaded crash dump: Crash ID: YGYP-MLYO-PDMB
+L 01/17/2023 - 18:51:21: Error log file session closed.
+L 01/17/2023 - 19:04:07: SourceMod error session started
+L 01/17/2023 - 19:04:07: Info (map "c2m1_highway") (file "/root/Steam/steamapps/common/Left 4 Dead 2 Dedicated Server/left4dead2/addons/sourcemod2/logs/errors_20230117.log")
+L 01/17/2023 - 19:04:07: [SM] Unable to load plugin "extend/rpg.smx": Could not find required plugin "l4d2lib"
+L 01/17/2023 - 19:04:09: [CRASH] Accelerator uploaded crash dump: Crash ID: TNNE-N445-HGFC
+L 01/17/2023 - 21:03:33: SourceMod error session started
+L 01/17/2023 - 21:03:33: Info (map "c2m1_highway") (file "/root/Steam/steamapps/common/Left 4 Dead 2 Dedicated Server/left4dead2/addons/sourcemod2/logs/errors_20230117.log")
+L 01/17/2023 - 21:03:33: [SM] Unable to load plugin "extend/rpg.smx": Could not find required plugin "l4d2lib"
+L 01/17/2023 - 21:09:29: SourceMod error session started
+L 01/17/2023 - 21:09:29: Info (map "c2m1_highway") (file "/root/Steam/steamapps/common/Left 4 Dead 2 Dedicated Server/left4dead2/addons/sourcemod2/logs/errors_20230117.log")
+L 01/17/2023 - 21:09:29: [SM] Unable to load plugin "extend/rpg.smx": Could not find required plugin "l4d2lib"
+L 01/17/2023 - 22:16:53: Error log file session closed.
+L 01/17/2023 - 22:19:38: SourceMod error session started
+L 01/17/2023 - 22:19:38: Info (map "pr1_waterfront_f") (file "/root/Steam/steamapps/common/Left 4 Dead 2 Dedicated Server/left4dead2/addons/sourcemod2/logs/errors_20230117.log")
+L 01/17/2023 - 22:19:38: [SM] Exception reported: Handle 9d800df4 is invalid (error 3)
+L 01/17/2023 - 22:19:38: [SM] Blaming: extend/join.smx
+L 01/17/2023 - 22:19:38: [SM] Call stack trace:
+L 01/17/2023 - 22:19:38: [SM]   [0] CloseHandle
+L 01/17/2023 - 22:19:38: [SM]   [1] Line 511, c:\Users\91889\Documents\GitHub\CompetitiveWithAnne\addons\sourcemod\scripting\AnneHappy\join.sp::SwitchCharacterMenuHandler
+L 01/17/2023 - 22:27:06: Error log file session closed.
+L 01/17/2023 - 22:36:09: SourceMod error session started
+L 01/17/2023 - 22:36:09: Info (map "PR2_Park_F") (file "/root/Steam/steamapps/common/Left 4 Dead 2 Dedicated Server/left4dead2/addons/sourcemod2/logs/errors_20230117.log")
+L 01/17/2023 - 22:36:09: [SM] Exception reported: Handle 71700f45 is invalid (error 3)
+L 01/17/2023 - 22:36:09: [SM] Blaming: extend/join.smx
+L 01/17/2023 - 22:36:09: [SM] Call stack trace:
+L 01/17/2023 - 22:36:09: [SM]   [0] CloseHandle
+L 01/17/2023 - 22:36:09: [SM]   [1] Line 511, c:\Users\91889\Documents\GitHub\CompetitiveWithAnne\addons\sourcemod\scripting\AnneHappy\join.sp::SwitchCharacterMenuHandler
+L 01/17/2023 - 23:11:26: [SM] Exception reported: Language phrase "%t" not found (arg 3)
+L 01/17/2023 - 23:11:26: [SM] Blaming: extend/fornite_l4d.smx
+L 01/17/2023 - 23:11:26: [SM] Call stack trace:
+L 01/17/2023 - 23:11:26: [SM]   [0] VFormat
+L 01/17/2023 - 23:11:26: [SM]   [1] Line 1935, c:\Users\91889\Documents\GitHub\CompetitiveWithAnne\addons\sourcemod\scripting\extend\fornite_l4d.sp::CPrintToChat
+L 01/17/2023 - 23:11:26: [SM]   [2] Line 468, c:\Users\91889\Documents\GitHub\CompetitiveWithAnne\addons\sourcemod\scripting\extend\fornite_l4d.sp::CreateEmote
+L 01/17/2023 - 23:11:26: [SM]   [3] Line 1282, c:\Users\91889\Documents\GitHub\CompetitiveWithAnne\addons\sourcemod\scripting\extend\fornite_l4d.sp::RandomEmote
+L 01/17/2023 - 23:11:26: [SM]   [4] Line 844, c:\Users\91889\Documents\GitHub\CompetitiveWithAnne\addons\sourcemod\scripting\extend\fornite_l4d.sp::MenuHandler1
+L 01/17/2023 - 23:11:52: [SM] Exception reported: Language phrase "%t" not found (arg 3)
+L 01/17/2023 - 23:11:52: [SM] Blaming: extend/fornite_l4d.smx
+L 01/17/2023 - 23:11:52: [SM] Call stack trace:
+L 01/17/2023 - 23:11:52: [SM]   [0] VFormat
+L 01/17/2023 - 23:11:52: [SM]   [1] Line 1935, c:\Users\91889\Documents\GitHub\CompetitiveWithAnne\addons\sourcemod\scripting\extend\fornite_l4d.sp::CPrintToChat
+L 01/17/2023 - 23:11:52: [SM]   [2] Line 468, c:\Users\91889\Documents\GitHub\CompetitiveWithAnne\addons\sourcemod\scripting\extend\fornite_l4d.sp::CreateEmote
+L 01/17/2023 - 23:11:52: [SM]   [3] Line 1250, c:\Users\91889\Documents\GitHub\CompetitiveWithAnne\addons\sourcemod\scripting\extend\fornite_l4d.sp::RandomEmote
+L 01/17/2023 - 23:11:52: [SM]   [4] Line 844, c:\Users\91889\Documents\GitHub\CompetitiveWithAnne\addons\sourcemod\scripting\extend\fornite_l4d.sp::MenuHandler1
+L 01/17/2023 - 23:32:58: Error log file session closed.
+L 01/17/2023 - 23:33:01: SourceMod error session started
+L 01/17/2023 - 23:33:01: Info (map "PR3_Highway_F") (file "/root/Steam/steamapps/common/Left 4 Dead 2 Dedicated Server/left4dead2/addons/sourcemod2/logs/errors_20230117.log")
+L 01/17/2023 - 23:33:01: [SM] Exception reported: Fatal: Could not find entry (#0) for relay_caralarm_on
+L 01/17/2023 - 23:33:01: [SM] Blaming: optional/l4d_equalise_alarm_cars.smx
+L 01/17/2023 - 23:33:01: [SM] Call stack trace:
+L 01/17/2023 - 23:33:01: [SM]   [0] ThrowError
+L 01/17/2023 - 23:33:01: [SM]   [1] Line 429, F:\Users\Administrator\Documents\GitHub\MoYu_Server_Stupid_Plugins\The Last Stand\l4d_equalise_alarm_cars\l4d_equalise_alarm_cars.sp::ThrowEntryError
+L 01/17/2023 - 23:33:01: [SM]   [2] Line 203, F:\Users\Administrator\Documents\GitHub\MoYu_Server_Stupid_Plugins\The Last Stand\l4d_equalise_alarm_cars\l4d_equalise_alarm_cars.sp::EntO_AlarmRelayOnTriggered
+L 01/17/2023 - 23:34:11: Error log file session closed.
+L 01/17/2023 - 23:34:15: SourceMod error session started
+L 01/17/2023 - 23:34:15: Info (map "PR3_Highway_F") (file "/root/Steam/steamapps/common/Left 4 Dead 2 Dedicated Server/left4dead2/addons/sourcemod2/logs/errors_20230117.log")
+L 01/17/2023 - 23:34:15: [SM] Exception reported: Fatal: Could not find entry (#0) for relay_caralarm_on
+L 01/17/2023 - 23:34:15: [SM] Blaming: optional/l4d_equalise_alarm_cars.smx
+L 01/17/2023 - 23:34:15: [SM] Call stack trace:
+L 01/17/2023 - 23:34:15: [SM]   [0] ThrowError
+L 01/17/2023 - 23:34:15: [SM]   [1] Line 429, F:\Users\Administrator\Documents\GitHub\MoYu_Server_Stupid_Plugins\The Last Stand\l4d_equalise_alarm_cars\l4d_equalise_alarm_cars.sp::ThrowEntryError
+L 01/17/2023 - 23:34:15: [SM]   [2] Line 203, F:\Users\Administrator\Documents\GitHub\MoYu_Server_Stupid_Plugins\The Last Stand\l4d_equalise_alarm_cars\l4d_equalise_alarm_cars.sp::EntO_AlarmRelayOnTriggered
+L 01/17/2023 - 23:37:34: SourceMod error session started
+L 01/17/2023 - 23:37:34: Info (map "c2m1_highway") (file "/root/Steam/steamapps/common/Left 4 Dead 2 Dedicated Server/left4dead2/addons/sourcemod2/logs/errors_20230117.log")
+L 01/17/2023 - 23:37:34: [SM] Unable to load plugin "extend/rpg.smx": Could not find required plugin "l4d2lib"
+L 01/18/2023 - 09:55:57: Error log file session closed.

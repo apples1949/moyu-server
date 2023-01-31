@@ -1,0 +1,53 @@
+L 11/19/2022 - 13:52:35: SourceMod error session started
+L 11/19/2022 - 13:52:35: Info (map "c8m5_rooftop") (file "/root/Steam/steamapps/common/Left 4 Dead 2 Dedicated Server/left4dead2/addons/sourcemod/logs/errors_20221119.log")
+L 11/19/2022 - 13:52:35: [SM] Unable to load extension "left4downtown.ext": /root/Steam/steamapps/common/Left 4 Dead 2 Dedicated Server/left4dead2/addons/sourcemod/extensions/left4downtown.ext.2.l4d2.so: undefined symbol: g_pMemAlloc
+L 11/19/2022 - 13:52:35: [SM] Unable to load plugin "Welcome.smx": Could not find required plugin "l4d2_playtime_interface"
+L 11/19/2022 - 13:55:39: SourceMod error session started
+L 11/19/2022 - 13:55:39: Info (map "c8m5_rooftop") (file "/root/Steam/steamapps/common/Left 4 Dead 2 Dedicated Server/left4dead2/addons/sourcemod/logs/errors_20221119.log")
+L 11/19/2022 - 13:55:39: [SM] Unable to load extension "left4downtown.ext": /root/Steam/steamapps/common/Left 4 Dead 2 Dedicated Server/left4dead2/addons/sourcemod/extensions/left4downtown.ext.2.l4d2.so: undefined symbol: g_pMemAlloc
+L 11/19/2022 - 13:55:39: [SM] Unable to load plugin "Welcome.smx": Could not find required plugin "l4d2_playtime_interface"
+L 11/19/2022 - 14:55:18: [confoglcompmod.smx] [Confogl] CvarSettings: Could not find CVar specified (confogl_medkit_limit)
+L 11/19/2022 - 14:55:21: Error log file session closed.
+L 11/19/2022 - 15:08:28: SourceMod error session started
+L 11/19/2022 - 15:08:28: Info (map "c8m5_rooftop") (file "/root/Steam/steamapps/common/Left 4 Dead 2 Dedicated Server/left4dead2/addons/sourcemod/logs/errors_20221119.log")
+L 11/19/2022 - 15:08:28: [SM] Unable to load extension "left4downtown.ext": /root/Steam/steamapps/common/Left 4 Dead 2 Dedicated Server/left4dead2/addons/sourcemod/extensions/left4downtown.ext.2.l4d2.so: undefined symbol: g_pMemAlloc
+L 11/19/2022 - 15:08:28: [SM] Unable to load plugin "Welcome.smx": Could not find required plugin "l4d2_playtime_interface"
+L 11/19/2022 - 15:09:17: [confoglcompmod.smx] [Confogl] CvarSettings: Could not find CVar specified (confogl_medkit_limit)
+L 11/19/2022 - 15:09:20: Error log file session closed.
+L 11/19/2022 - 15:28:22: SourceMod error session started
+L 11/19/2022 - 15:28:22: Info (map "c8m5_rooftop") (file "/root/Steam/steamapps/common/Left 4 Dead 2 Dedicated Server/left4dead2/addons/sourcemod/logs/errors_20221119.log")
+L 11/19/2022 - 15:28:22: [SM] Exception reported: Invalid index 0 (count: 0)
+L 11/19/2022 - 15:28:22: [SM] Blaming: optional/l4d2_fix_spawn_order.smx
+L 11/19/2022 - 15:28:22: [SM] Call stack trace:
+L 11/19/2022 - 15:28:22: [SM]   [0] ArrayList.Set
+L 11/19/2022 - 15:28:22: [SM]   [1] Line 228, J:\Documents\GitHub\L4D2-Competitive-Rework\addons\sourcemod\scripting\l4d2_fix_spawn_order.sp::QueueSI
+L 11/19/2022 - 15:28:22: [SM]   [2] Line 147, J:\Documents\GitHub\L4D2-Competitive-Rework\addons\sourcemod\scripting\l4d2_fix_spawn_order.sp::Event_PlayerTeam
+L 11/19/2022 - 15:41:05: Error log file session closed.
+L 11/19/2022 - 15:52:19: SourceMod error session started
+L 11/19/2022 - 15:52:19: Info (map "c8m5_rooftop") (file "/root/Steam/steamapps/common/Left 4 Dead 2 Dedicated Server/left4dead2/addons/sourcemod/logs/errors_20221119.log")
+L 11/19/2022 - 15:52:19: [SM] Unable to load extension "left4downtown.ext": /root/Steam/steamapps/common/Left 4 Dead 2 Dedicated Server/left4dead2/addons/sourcemod/extensions/left4downtown.ext.2.l4d2.so: undefined symbol: g_pMemAlloc
+L 11/19/2022 - 15:52:19: [SM] Unable to load plugin "Welcome.smx": Could not find required plugin "l4d2_playtime_interface"
+L 11/19/2022 - 18:16:38: SourceMod error session started
+L 11/19/2022 - 18:16:38: Info (map "c8m5_rooftop") (file "/root/Steam/steamapps/common/Left 4 Dead 2 Dedicated Server/left4dead2/addons/sourcemod/logs/errors_20221119.log")
+L 11/19/2022 - 18:16:38: [SM] Unable to load extension "left4downtown.ext": /root/Steam/steamapps/common/Left 4 Dead 2 Dedicated Server/left4dead2/addons/sourcemod/extensions/left4downtown.ext.2.l4d2.so: undefined symbol: g_pMemAlloc
+L 11/19/2022 - 18:16:38: [SM] Unable to load plugin "Welcome.smx": Could not find required plugin "l4d2_playtime_interface"
+L 11/19/2022 - 18:21:17: [confoglcompmod.smx] [Confogl] CvarSettings: Could not find CVar specified (confogl_medkit_limit)
+L 11/19/2022 - 18:21:20: Error log file session closed.
+L 11/19/2022 - 18:29:10: SourceMod error session started
+L 11/19/2022 - 18:29:10: Info (map "c8m5_rooftop") (file "/root/Steam/steamapps/common/Left 4 Dead 2 Dedicated Server/left4dead2/addons/sourcemod/logs/errors_20221119.log")
+L 11/19/2022 - 18:29:10: [SM] Exception reported: Invalid index 0 (count: 0)
+L 11/19/2022 - 18:29:10: [SM] Blaming: optional/l4d2_fix_spawn_order.smx
+L 11/19/2022 - 18:29:10: [SM] Call stack trace:
+L 11/19/2022 - 18:29:10: [SM]   [0] ArrayList.Set
+L 11/19/2022 - 18:29:10: [SM]   [1] Line 228, J:\Documents\GitHub\L4D2-Competitive-Rework\addons\sourcemod\scripting\l4d2_fix_spawn_order.sp::QueueSI
+L 11/19/2022 - 18:29:10: [SM]   [2] Line 147, J:\Documents\GitHub\L4D2-Competitive-Rework\addons\sourcemod\scripting\l4d2_fix_spawn_order.sp::Event_PlayerTeam
+L 11/19/2022 - 18:56:49: SourceMod error session started
+L 11/19/2022 - 18:56:49: Info (map "c8m5_rooftop") (file "/root/Steam/steamapps/common/Left 4 Dead 2 Dedicated Server/left4dead2/addons/sourcemod/logs/errors_20221119.log")
+L 11/19/2022 - 18:56:49: [SM] Unable to load extension "left4downtown.ext": /root/Steam/steamapps/common/Left 4 Dead 2 Dedicated Server/left4dead2/addons/sourcemod/extensions/left4downtown.ext.2.l4d2.so: undefined symbol: g_pMemAlloc
+L 11/19/2022 - 18:56:49: [SM] Unable to load plugin "Welcome.smx": Could not find required plugin "l4d2_playtime_interface"
+L 11/19/2022 - 19:26:30: Error log file session closed.
+L 11/19/2022 - 20:29:14: SourceMod error session started
+L 11/19/2022 - 20:29:14: Info (map "c8m5_rooftop") (file "/root/Steam/steamapps/common/Left 4 Dead 2 Dedicated Server/left4dead2/addons/sourcemod/logs/errors_20221119.log")
+L 11/19/2022 - 20:29:14: [SM] Unable to load extension "left4downtown.ext": /root/Steam/steamapps/common/Left 4 Dead 2 Dedicated Server/left4dead2/addons/sourcemod/extensions/left4downtown.ext.2.l4d2.so: undefined symbol: g_pMemAlloc
+L 11/19/2022 - 20:29:14: [SM] Unable to load plugin "Welcome.smx": Could not find required plugin "l4d2_playtime_interface"
+L 11/20/2022 - 15:34:50: Error log file session closed.

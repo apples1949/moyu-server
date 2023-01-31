@@ -1,0 +1,63 @@
+"United RPG Save"
+{
+	"STEAM_1:1:628381167"
+	{
+		"MELEE_SKILL"		"1"
+		"BLOOD_SKILL"		"0"
+	}
+	"STEAM_1:0:625834323"
+	{
+		"MELEE_SKILL"		"1"
+		"BLOOD_SKILL"		"0"
+	}
+	"STEAM_1:0:235126789"
+	{
+		"MELEE_SKILL"		"3"
+		"BLOOD_SKILL"		"0"
+	}
+	"STEAM_1:0:246466989"
+	{
+		"MELEE_SKILL"		"0"
+		"BLOOD_SKILL"		"0"
+	}
+	"STEAM_1:1:742327768"
+	{
+		"MELEE_SKILL"		"3"
+		"BLOOD_SKILL"		"0"
+	}
+	"STEAM_1:1:709363018"
+	{
+		"MELEE_SKILL"		"1"
+		"BLOOD_SKILL"		"0"
+	}
+	"STEAM_1:1:501867733"
+	{
+		"MELEE_SKILL"		"5"
+		"BLOOD_SKILL"		"1"
+	}
+	"STEAM_1:0:182922075"
+	{
+		"MELEE_SKILL"		"1"
+		"BLOOD_SKILL"		"0"
+	}
+	"STEAM_1:0:605227244"
+	{
+		"MELEE_SKILL"		"4"
+		"BLOOD_SKILL"		"0"
+	}
+	"STEAM_1:1:517351348"
+	{
+		"MELEE_SKILL"		"1"
+		"BLOOD_SKILL"		"0"
+	}
+	"STEAM_1:0:155653195"
+	{
+		"MELEE_SKILL"		"3"
+		"BLOOD_SKILL"		"0"
+	}
+	"STEAM_1:0:557954666"
+	{
+		"MELEE_SKILL"		"1"
+		"BLOOD_SKILL"		"0"
+	}
+}

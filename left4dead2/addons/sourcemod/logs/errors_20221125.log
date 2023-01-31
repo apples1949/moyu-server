@@ -1,0 +1,54 @@
+L 11/25/2022 - 19:21:05: SourceMod error session started
+L 11/25/2022 - 19:21:05: Info (map "c2m1_highway") (file "/root/Steam/steamapps/common/Left 4 Dead 2 Dedicated Server/left4dead2/addons/sourcemod/logs/errors_20221125.log")
+L 11/25/2022 - 19:21:05: [confoglcompmod.smx] [Confogl] CvarSettings: Could not find CVar specified (l4d2_spit_water_collision)
+L 11/25/2022 - 19:21:05: [confoglcompmod.smx] [Confogl] CvarSettings: Could not find CVar specified (l4d2_car_alarm_settings)
+L 11/25/2022 - 19:21:05: [confoglcompmod.smx] [Confogl] CvarSettings: Could not find CVar specified (l4d2_car_alarm_touch_capped)
+L 11/25/2022 - 19:21:05: [optional/l4d2_weapon_attributes.smx] Bad attribute name: reloadduration.
+L 11/25/2022 - 19:21:05: [optional/l4d2_weapon_attributes.smx] Bad attribute name: reloadduration.
+L 11/25/2022 - 19:21:05: [optional/l4d2_weapon_attributes.smx] Bad attribute name: reloadduration.
+L 11/25/2022 - 19:21:05: [optional/l4d2_weapon_attributes.smx] Bad attribute name: reloadduration.
+L 11/25/2022 - 19:21:08: Error log file session closed.
+L 11/25/2022 - 19:21:09: SourceMod error session started
+L 11/25/2022 - 19:21:09: Info (map "c2m1_highway") (file "/root/Steam/steamapps/common/Left 4 Dead 2 Dedicated Server/left4dead2/addons/sourcemod/logs/errors_20221125.log")
+L 11/25/2022 - 19:21:09: [optional/l4d2_weapon_attributes.smx] Bad attribute name: reloadduration.
+L 11/25/2022 - 19:21:09: [optional/l4d2_weapon_attributes.smx] Bad attribute name: reloadduration.
+L 11/25/2022 - 19:21:24: [SM] Unable to load plugin "Welcome.smx": Could not find required plugin "l4d2_playtime_interface"
+L 11/25/2022 - 19:21:47: SourceMod error session started
+L 11/25/2022 - 19:21:47: Info (map "c8m5_rooftop") (file "/root/Steam/steamapps/common/Left 4 Dead 2 Dedicated Server/left4dead2/addons/sourcemod/logs/errors_20221125.log")
+L 11/25/2022 - 19:21:47: [SM] Unable to load extension "left4downtown.ext": /root/Steam/steamapps/common/Left 4 Dead 2 Dedicated Server/left4dead2/addons/sourcemod/extensions/left4downtown.ext.2.l4d2.so: undefined symbol: g_pMemAlloc
+L 11/25/2022 - 19:21:47: [SM] Unable to load plugin "Welcome.smx": Could not find required plugin "l4d2_playtime_interface"
+L 11/25/2022 - 19:22:11: Error log file session closed.
+L 11/25/2022 - 19:22:33: SourceMod error session started
+L 11/25/2022 - 19:22:33: Info (map "c2m1_highway") (file "/root/Steam/steamapps/common/Left 4 Dead 2 Dedicated Server/left4dead2/addons/sourcemod/logs/errors_20221125.log")
+L 11/25/2022 - 19:22:33: [confoglcompmod.smx] [Confogl] CvarSettings: Could not find CVar specified (l4d2_spit_water_collision)
+L 11/25/2022 - 19:22:33: [confoglcompmod.smx] [Confogl] CvarSettings: Could not find CVar specified (l4d2_car_alarm_settings)
+L 11/25/2022 - 19:22:33: [confoglcompmod.smx] [Confogl] CvarSettings: Could not find CVar specified (l4d2_car_alarm_touch_capped)
+L 11/25/2022 - 19:22:33: [optional/l4d2_weapon_attributes.smx] Bad attribute name: reloadduration.
+L 11/25/2022 - 19:22:33: [optional/l4d2_weapon_attributes.smx] Bad attribute name: reloadduration.
+L 11/25/2022 - 19:22:33: [optional/l4d2_weapon_attributes.smx] Bad attribute name: reloadduration.
+L 11/25/2022 - 19:22:33: [optional/l4d2_weapon_attributes.smx] Bad attribute name: reloadduration.
+L 11/25/2022 - 19:22:36: Error log file session closed.
+L 11/25/2022 - 19:22:37: SourceMod error session started
+L 11/25/2022 - 19:22:37: Info (map "c2m1_highway") (file "/root/Steam/steamapps/common/Left 4 Dead 2 Dedicated Server/left4dead2/addons/sourcemod/logs/errors_20221125.log")
+L 11/25/2022 - 19:22:37: [optional/l4d2_weapon_attributes.smx] Bad attribute name: reloadduration.
+L 11/25/2022 - 19:22:37: [optional/l4d2_weapon_attributes.smx] Bad attribute name: reloadduration.
+L 11/25/2022 - 19:41:38: Error log file session closed.
+L 11/25/2022 - 19:41:40: SourceMod error session started
+L 11/25/2022 - 19:41:40: Info (map "c2m2_fairgrounds") (file "/root/Steam/steamapps/common/Left 4 Dead 2 Dedicated Server/left4dead2/addons/sourcemod/logs/errors_20221125.log")
+L 11/25/2022 - 19:41:40: [optional/l4d2_weapon_attributes.smx] Bad attribute name: reloadduration.
+L 11/25/2022 - 19:41:40: [optional/l4d2_weapon_attributes.smx] Bad attribute name: reloadduration.
+L 11/25/2022 - 19:53:58: Error log file session closed.
+L 11/25/2022 - 19:53:59: SourceMod error session started
+L 11/25/2022 - 19:53:59: Info (map "c2m3_coaster") (file "/root/Steam/steamapps/common/Left 4 Dead 2 Dedicated Server/left4dead2/addons/sourcemod/logs/errors_20221125.log")
+L 11/25/2022 - 19:53:59: [optional/l4d2_weapon_attributes.smx] Bad attribute name: reloadduration.
+L 11/25/2022 - 19:53:59: [optional/l4d2_weapon_attributes.smx] Bad attribute name: reloadduration.
+L 11/25/2022 - 20:03:40: Error log file session closed.
+L 11/25/2022 - 20:03:42: SourceMod error session started
+L 11/25/2022 - 20:03:42: Info (map "c2m4_barns") (file "/root/Steam/steamapps/common/Left 4 Dead 2 Dedicated Server/left4dead2/addons/sourcemod/logs/errors_20221125.log")
+L 11/25/2022 - 20:03:42: [optional/l4d2_weapon_attributes.smx] Bad attribute name: reloadduration.
+L 11/25/2022 - 20:03:42: [optional/l4d2_weapon_attributes.smx] Bad attribute name: reloadduration.
+L 11/25/2022 - 20:12:02: SourceMod error session started
+L 11/25/2022 - 20:12:02: Info (map "c8m5_rooftop") (file "/root/Steam/steamapps/common/Left 4 Dead 2 Dedicated Server/left4dead2/addons/sourcemod/logs/errors_20221125.log")
+L 11/25/2022 - 20:12:02: [SM] Unable to load extension "left4downtown.ext": /root/Steam/steamapps/common/Left 4 Dead 2 Dedicated Server/left4dead2/addons/sourcemod/extensions/left4downtown.ext.2.l4d2.so: undefined symbol: g_pMemAlloc
+L 11/25/2022 - 20:12:02: [SM] Unable to load plugin "Welcome.smx": Could not find required plugin "l4d2_playtime_interface"
+L 11/26/2022 - 18:04:14: Error log file session closed.
