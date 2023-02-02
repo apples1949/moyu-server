@@ -14,6 +14,7 @@ https://github.com/A1oneR/AirMod - 添加了Air制作过或者在维护的模式
 https://github.com/fantasylidong/CompetitiveWithAnne - 电信云服Anne插件                     
 https://github.com/JoinedSenses/TF2-ServerHop - 用于游戏内查看其他服务器                          
 https://github.com/lechuga16/scavogl_rework - Zonemod但是是清道夫                               
+https://github.com/draxios/bizzymod - 添加部分写实模式
 
 # To Do-                                   
 也许不会to do也许会，我懒想摸鱼  
