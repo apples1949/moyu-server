@@ -23,34 +23,30 @@
     }
     "2"
     {
-        "chat"		"{lightgreen}服务器IP禁止随意外传，珍惜服主用爱发电
-{lightgreen}服务器不间断组织内战，再也不怕单排高血压"
+        "chat"		"{lightgreen}#3 摸鱼经典配置服.服op:{green}金鱼.{lightgreen}本服集合各类官方模式，并做稍加修改."
     }
     "3"
     {
-        "chat"		"{lightgreen}清道夫三方图C8改屋顶、CEDA、死亡假期、
-{lightgreen}血本无归、无人生还已上线。加群608715841下载体验"
+        "chat"		"{lightgreen}/vote换图全局调控,/match选择模式,/servers查看其他群服"
     }
     "4"
     {
-        "chat"		"{lightgreen}萌新多打多练别怕挨揍，大佬多教多带嘴下留情。
-{lightgreen}欢迎加群608715841认识更多清道夫同好"
+        "chat"		"{lightgreen}0-100lerps,100t支持"
     }
     "5"
     {
-        "chat"		"{lightgreen}萌新建议抱团行动，一人单走，全体落难
-{lightgreen}中途暂停请双方聊天窗输入!ready以继续游戏"
+        "chat"		"{lightgreen}"
     }
     "6"
     {
-        "chat"		"{lightgreen}戒骄戒躁，冷静思考，谨记这是团队配合的模式"
+        "chat"		"{lightgreen}"
     }
     "7"
     {
-        "chat"		"{green}[公告]{lightgreen}很喜欢CY的一句话：来点二次元"
+        "chat"		"{green}{lightgreen}"
     }
     "8"
     {
-        "chat"		"{green}[公告]{lightgreen}如果你不懂二次元，那就是不懂CY"
+        "chat"		"{green}{lightgreen}"
     }
 }
