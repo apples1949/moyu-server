@@ -28,7 +28,7 @@
 		{
 			"message" "普通药役模式"
 		}
-		"sm_fm hunters"
+		"sm_fm annehunters"
 		{
 			"message" "1vHunter模式"
 		}
