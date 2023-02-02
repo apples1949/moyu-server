@@ -33,7 +33,18 @@
 			"name" "AirMod v1.09"
 		}
 	}
-	"Equilibrium 3.0c"
+	"Bizzymod"
+	{
+		"bizzymod"
+		{
+			"name" "Bizzymod 0.8"
+		}
+		"spacemod"
+		{
+			"name" "Spacemod"
+		}
+	}
+	"Equilibrium"
 	{
 		"eq"
 		{
@@ -59,7 +70,7 @@
 			"name" "NeoMod Tourney 0.4a"
 		}
 	}
-	"NextMod v1.0.5"
+	"NextMod"
 	{
 		"nextmod"
 		{
@@ -78,7 +89,7 @@
 			"name" "1v1 NextMod"
 		}
 	}
-	"Practiceogl Rework v2.3"
+	"Practiceogl Rework"
 	{
 		"practiceogl4v4"
 		{
@@ -113,65 +124,65 @@
 			"name" "Prac-Hunters 1P"
 		}
 	}
-//	"Promod v5.0.3(老框架待完善，别选)"
-//	{
-//		"pmelite"
-//		{
-//			"name" "Promod Elite v1.1"
-//		}
-//		"promod"
-//		{
-//			"name" "Promod v5.0.3"
-//		}
-//		"pm3v3"
-//		{
-//			"name" "Promod 3v3"
-//		}
-//		"pm2v2"
-//		{
-//			"name" "Promod 2v2"
-//		}
-//		"pm1v1"
-//		{
-//			"name" "Promod 1v1"
-//		}
-//		"pmredtown"
-//		{
-//			"name" "Redtown"
-//		}
-//		"reflux"
-//		{
-//			"name" "Reflux"
-//		}
-//		"retro"
-//		{
-//			"name" "Retro"
-//		}
-//	}
-//	"Promod Hunters v5.0.3(老框架待完善，别选)"
-//	{
-//		"hunters"
-//		{
-//			"name" "Hunters v5.0.3"
-//		}
-//		"hunters3v3"
-//		{
-//			"name" "Hunters 3v3"
-//		}
-//		"hunters2v2"
-//		{
-//			"name" "Hunters 2v2"
-//		}
-//		"hunters1v1"
-//		{
-//			"name" "Hunters 1v1"
-//		}
-//		"deadman"
-//		{
-//			"name" "Deadman"
-//		}
-//	}
-	"WTFmod v1.6.2"
+	"Promod v5.0.3(老框架待完善，别选)"
+	{
+		"pmelite"
+		{
+			"name" "Promod Elite v1.1"
+		}
+		"promod"
+		{
+			"name" "Promod v5.0.3"
+		}
+		"pm3v3"
+		{
+			"name" "Promod 3v3"
+		}
+		"pm2v2"
+		{
+			"name" "Promod 2v2"
+		}
+		"pm1v1"
+		{
+			"name" "Promod 1v1"
+		}
+		"pmredtown"
+		{
+			"name" "Redtown"
+		}
+		"reflux"
+		{
+			"name" "Reflux"
+		}
+		"retro"
+		{
+			"name" "Retro"
+		}
+	}
+	"Promod Hunters v5.0.3(老框架待完善，别选)"
+	{
+		"hunters"
+		{
+			"name" "Hunters v5.0.3"
+		}
+		"hunters3v3"
+		{
+			"name" "Hunters 3v3"
+		}
+		"hunters2v2"
+		{
+			"name" "Hunters 2v2"
+		}
+		"hunters1v1"
+		{
+			"name" "Hunters 1v1"
+		}
+		"deadman"
+		{
+			"name" "Deadman"
+		}
+	}
+	"WTFmod"
 	{
 		"wtfmod"
 		{
@@ -190,7 +201,7 @@
 			"name" "WTFmod 1v1"
 		}
 	}
-	"WitchParty v2.2"
+	"WitchParty"
 	{
 		"witchparty"
 		{
@@ -213,14 +224,14 @@
 			"name" "WitchParty HC"
 		}
 	}
-	"WeiMeng Versus v1.1.0"
+	"WeiMeng Versus"
 	{
 		"weimeng"
 		{
 			"name" "WeiMeng Versus v1.1.0"
 		}
 	}
-	"Scavogl Rework v2.2"
+	"Scavogl Rework"
 	{
 		"scavrework4v4"
 		{
@@ -239,7 +250,7 @@
 			"name" "Rework 1v1"
 		}
 	}
-	"Scavogl Rework Hunters v2.2"
+	"Scavogl Rework Hunters"
 	{
 		"scavreworkhts4v4"
 		{
@@ -258,7 +269,7 @@
 			"name" "Re-Hunters 1v1"
 		}
 	}
-	"Scavogl Rework Chargers v2.2"
+	"Scavogl Rework Chargers"
 	{
 		"scavreworkchar4v4"
 		{
@@ -273,14 +284,14 @@
 			"name" "Re-Chargers 2v2"
 		}
 	}
-	"Scavogl Rework Train v2.2"
+	"Scavogl Rework Train"
 	{
 		"train1v1"
 		{
 			"name" "Rework TrAin 1v1"
 		}
 	}
-	"TestMode a0.1"
+	"TestMode"
 	{
 		"testmode"
 		{
@@ -291,49 +302,7 @@
 			"name" "Testmode Scavenge"
 		}
 	}
-	"ZoneMod v2.7.1"
-	{
-		"zonemod"
-		{
-			"name" "ZoneMod v2.7.1"
-		}
-		"zoneretro"
-		{
-			"name" "ZoneMod Retro v2.7.1"
-		}
-		"zm3v3"
-		{
-			"name" "3v3 ZoneMod"
-		}
-		"zm2v2"
-		{
-			"name" "2v2 ZoneMod"
-		}
-		"zm1v1"
-		{
-			"name" "1v1 ZoneMod"
-		}
-	}
-	"ZoneHunters v2.7.1"
-	{
-		"zonehunters"
-		{
-			"name" "ZoneHunters v2.7.1"
-		}
-		"zh3v3"
-		{
-			"name" "3v3 ZoneHunters"
-		}
-		"zh2v2"
-		{
-			"name" "2v2 ZoneHunters"
-		}
-		"zh1v1"
-		{
-			"name" "1v1 ZoneHunters"
-		}
-	}
-	"ZoneMod v2.8"
+	"ZoneMod 4v4"
 	{
 		"28zonemod"
 		{
@@ -343,55 +312,93 @@
 		{
 			"name" "ZoneMod Retro v2.8"
 		}
-		"28zm3v3"
-		{
-			"name" "3v3 ZoneMod"
-		}
-		"28zm2v2"
-		{
-			"name" "2v2 ZoneMod"
-		}
-		"28zm1v1"
-		{
-			"name" "1v1 ZoneMod"
-		}
-	}
-	"ZoneHunters v2.8"
-	{
 		"28zonehunters"
 		{
 			"name" "ZoneHunters v2.8"
 		}
-		"28zh3v3"
+		"zonemod"
 		{
-			"name" "3v3 ZoneHunters"
+			"name" "ZoneMod v2.7.1"
 		}
-		"28zh2v2"
+		"zoneretro"
 		{
-			"name" "2v2 ZoneHunters"
+			"name" "ZoneMod Retro v2.7.1"
 		}
-		"28zh1v1"
+		"zonehunters"
 		{
-			"name" "1v1 ZoneHunters"
+			"name" "ZoneHunters v2.7.1"
 		}
-	}
-	"ZoneMod v1.9.3(老框架待完善,别选)"
-	{
 		"193zonemod"
 		{
 			"name" "ZoneMod v1.9.3"
 		}
+	}
+	"ZoneMod 3v3"
+	{
+		"28zm3v3"
+		{
+			"name" "3v3 ZoneMod v2.8"
+		}
+		"zm3v3"
+		{
+			"name" "3v3 ZoneMod v2.7.1"
+		}
+		"28zh3v3"
+		{
+			"name" "3v3 ZoneHunters v2.8"
+		}
+		"zh3v3"
+		{
+			"name" "3v3 ZoneHunters v2.7.1"
+		}
 		"193zm3v3"
 		{
-			"name" "ZoneMod 3v3"
+			"name" "3v3 ZoneMod v1.9.3"
+		}
+	}
+	"ZoneMod 2v2"
+	{
+		"28zm2v2"
+		{
+			"name" "2v2 ZoneMod v2.8"
+		}
+		"zm2v2"
+		{
+			"name" "2v2 ZoneMod v2.7.1"
+		}
+		"28zh2v2"
+		{
+			"name" "2v2 ZoneHunters v2.8"
+		}
+		"zh2v2"
+		{
+			"name" "2v2 ZoneHunters v2.7.1"
 		}
 		"193zm2v2"
 		{
-			"name" "ZoneMod 2v2"
+			"name" "2v2 ZoneMod v1.9.3"
 		}
-		"193zm2v2"
+	"ZoneMod 1v1"
+	{
+		"28zm1v1"
 		{
-			"name" "ZoneMod 1v1"
+			"name" "1v1 ZoneMod v2.8"
+		}
+		"zm1v1"
+		{
+			"name" "1v1 ZoneMod v2.7.1"
+		}
+		"28zh1v1"
+		{
+			"name" "1v1 ZoneHunters v2.8"
+		}
+		"zh1v1"
+		{
+			"name" "1v1 ZoneHunters v2.7.1"
+		}
+		"193zm1v1"
+		{
+			"name" "1v1 ZoneMod v1.9.3"
 		}
 	}
 }
