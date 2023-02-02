@@ -3,7 +3,7 @@
 在addons中：                                                   
 sourcemod1:#1 moyu server >> 标准Zonemod服务器，添加了其他很多插件和模式                                  
 sourcemod2:#2 moyu server >> 电信Anne服插件.                                 
-sourcemod3:#3 moyu server >> 暂定                                             
+sourcemod3:#3 moyu server >> 官服经典配置                                             
                      
 这三个sm共享同一个addons(意味着三方图也是共享的)和cfg文件夹内以及其他的内容，为区分不同的cvar和相同的cvar不一样的值以及不同的服务器需要加载的插件，分写了多个cfg在里头                                     
                      
