@@ -36,7 +36,7 @@
 		{
 			"message" "单人装B模式"
 		}
-		"sm_fm witchparty"
+		"sm_fm witchpartyanne"
 		{
 			"message" "WitchParty模式"
 		}

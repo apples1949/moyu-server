@@ -18,7 +18,7 @@
 	"4"
 	{
 		"type"		"S"
-		"text"		"{LIGHTGREEN}#2摸鱼Anne药役 本服隶属于清道夫服务器组，服OP:{GREEN}金鱼。\n{lightgreen}AnneHappy组服务器qq群：{GREEN}514280399{LIGHTGREEN}，清道夫组服务器qq群：{GREEN}608715841{LIGHTGREEN}\n{green}加入我们的Steam组可以获取更多信息！"
+		"text"		"{LIGHTGREEN}#2摸鱼Anne药役 本服隶属于清道夫服务器组，服OP:{GREEN}金鱼 \n{lightgreen}AnneHappy组服务器qq群：{GREEN}514280399{LIGHTGREEN}，清道夫组服务器qq群：{GREEN}608715841 \n{green}加入我们的Steam组可以获取更多信息！"
 	}
 	"5"
 	{

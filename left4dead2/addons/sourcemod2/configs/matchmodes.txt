@@ -14,7 +14,7 @@
 		{
 			"name" "单人装逼模式"
 		}
-		"witchparty"
+		"witchpartyanne"
 		{
 			"name" "女巫派对"
 		}
