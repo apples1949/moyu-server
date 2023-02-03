@@ -263,7 +263,8 @@ public Action OnTankRunCmd(int client, int &buttons, float vel[3], float angles[
 		{
 			tankspeed = GetConVarFloat(FindConVar("z_tank_speed"));
 		}
-		if (IsGrounded(client))
+		int flags = GetEntityFlags(client);
+		if (!(flags & FL_ONGROUND))
 		{
 			buttons &= ~IN_ATTACK2;
 			return Plugin_Changed;
@@ -420,7 +421,7 @@ public Action OnTankRunCmd(int client, int &buttons, float vel[3], float angles[
 					else
 					{
 						// PrintToConsoleAll("[Ai-Tank]：克与最近生还者距离大于 1000，距离：%d，除以 1000：%d", dist, dist / 1000);
-						if (IsGrounded(client))
+						if (flags & FL_ONGROUND)
 						{
 							if (height < 0.0 && height < -100.0)
 							{
@@ -754,7 +755,7 @@ bool traceFilter(int entity, int mask, int self)
 }
 
 //是否在地面上
-bool IsGrounded(int client) {
+stock bool IsGrounded(int client) {
 	return GetEntPropEnt(client, Prop_Send, "m_hGroundEntity") != -1;
 }
 

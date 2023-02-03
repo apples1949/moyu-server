@@ -4,7 +4,8 @@
 //#include <sdktools>
 //#include <sdkhooks>
 #include <left4dhooks>
-
+#undef REQUIRE_PLUGIN
+#include <rpg>
 #define PLUGIN_NAME				"Give Item Menu"
 #define PLUGIN_AUTHOR			"sorallll"
 #define PLUGIN_DESCRIPTION		"多功能插件"
@@ -618,10 +619,11 @@ void Infected(int client, int item) {
 	menu.AddItem("Spitter", "Spitter");
 	menu.AddItem("Jockey", "Jockey");
 	menu.AddItem("Charger", "Charger");
-	menu.AddItem("Tank", "Tank");
-	if(GetClientImmunityLevel(client) > 90)
+	if(GetClientImmunityLevel(client) > 90){
+		menu.AddItem("Tank", "Tank");
 		menu.AddItem("Witch", "Witch");
-	menu.AddItem("Witch_Bride", "婚纱Witch");
+		menu.AddItem("Witch_Bride", "婚纱Witch");
+	}
 	menu.AddItem("7", "普通僵尸");
 	menu.AddItem("0", "Riot");
 	menu.AddItem("1", "Ceda");
@@ -822,15 +824,17 @@ void Miscell(int client, int item) {
 	menu.AddItem("c", "复活");
 	menu.AddItem("d", "传送");
 	menu.AddItem("e", "友伤");
-	menu.AddItem("f", "伤害免疫");
+	if(GetClientImmunityLevel(client) >= 90)
+		menu.AddItem("f", "伤害免疫");
 	menu.AddItem("g", "召唤尸潮");
 	menu.AddItem("h", "剔除所有Bot");
 	menu.AddItem("i", "处死所有特感");
-	menu.AddItem("j", "特感控制免疫");
+	if(GetClientImmunityLevel(client) >= 90)
+		menu.AddItem("j", "特感控制免疫");
 	menu.AddItem("k", "处死所有生还");
-	if(GetClientImmunityLevel(client) > 98)
+	if(GetClientImmunityLevel(client) >= 90)
 		menu.AddItem("l", "传送所有生还到起点");
-	if(GetClientImmunityLevel(client) > 98)
+	if(GetClientImmunityLevel(client) > 99)
 	menu.AddItem("m", "传送所有生还到终点");
 	menu.ExitBackButton = true;
 	menu.DisplayAt(client, item, MENU_TIME_FOREVER);
@@ -1135,6 +1139,7 @@ int RespawnPlayer_MenuHandler(Menu menu, MenuAction action, int client, int para
 					}
 				}
 			}
+			L4D_RPG_SetGlobalValue(INDEX_USEBUY, true);
 		}
 
 		case MenuAction_Cancel: {
@@ -1656,6 +1661,8 @@ void WarpAllSurToStartArea(int client) {
 
 void WarpAllSurToCheckpoint(int client) {
 	ExecuteCommand("warp_all_survivors_to_checkpoint");
+	L4D_RPG_SetGlobalValue(INDEX_USEBUY, true);
+	L4D_RPG_SetGlobalValue(INDEX_VALID, false);
 	Miscell(client, g_iSelection[client]);
 }
 
@@ -2021,7 +2028,7 @@ int ShowAliveSur_MenuHandler(Menu menu, MenuAction action, int client, int param
 			}
 			else
 				CheatCommand(GetClientOfUserId(StringToInt(item)), g_sNamedItem[client]);
-
+			L4D_RPG_SetGlobalValue(INDEX_USEBUY, true);
 			PageExitBack(client, g_iFunction[client], g_iSelection[client]);
 		}
 

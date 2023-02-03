@@ -110,6 +110,7 @@ public APLRes AskPluginLoad2(Handle myself, bool late, char[] error, int err_max
 	//Native
 	CreateNative("L4D_RPG_GetValue", Native_GetValue);
 	CreateNative("L4D_RPG_GetGlobalValue", Native_GetGlobalValue);
+	CreateNative("L4D_RPG_SetGlobalValue", Native_SetGlobalValue);
 	return APLRes_Success;
 }
 
@@ -146,8 +147,21 @@ public any Native_GetGlobalValue(Handle plugin, int numParams)
 	//Debug_Print("GetClientTargetNum Native called");
 	switch( view_as<TARGET_VALUE_INDEX>(option) )
 	{
-		case INDEX_VALID:		return valid;
+		case INDEX_VALID:			return valid;
 		case INDEX_USEBUY:			return UseBuy;
+	}
+	return -1;
+}
+
+public any Native_SetGlobalValue(Handle plugin, int numParams)
+{
+	int option = GetNativeCell(1);
+	int value  = GetNativeCell(2);
+	//Debug_Print("GetClientTargetNum Native called");
+	switch( view_as<TARGET_VALUE_INDEX>(option) )
+	{
+		case INDEX_VALID:			valid  = view_as<bool>(value);
+		case INDEX_USEBUY:			UseBuy = view_as<bool>(value);
 	}
 	return -1;
 }
@@ -430,6 +444,10 @@ public void RewardScore(){
 			PrintToChatAll("\x01[\x04RANK\x01]\x04由于开启了高级人机，不能获得额外过关积分");
 			return;
 		}
+		if(!IsThisRoundValid()){
+			PrintToChatAll("\x01[\x04RANK\x01]\x04由于关闭了tank连跳，不能获得额外过关积分");
+			return;
+		}
 		char pluginsname[64];
 		GetConVarString(FindConVar("l4d_ready_cfg_name"), pluginsname, sizeof(pluginsname));
 		if(StrContains(pluginsname,"AnneHappy") !=-1 || StrContains(pluginsname, "WitchParty") != -1 || StrContains(pluginsname,"AllCharger") != -1 )
@@ -574,7 +592,16 @@ public void OnClientPostAdminCheck(int client)
 	player[client].CanBuy=true;
 	player[client].ClientPoints = 500;
 	player[client].Check = false;
-	ClientSaveToFileLoad(client);
+	if(g_bMysqlSystemAvailable)
+	{
+		player[client].ClientMelee = 0;
+		player[client].ClientBlood = 0;
+		player[client].ClientHat = 0;
+		player[client].GlowType = 0;
+		player[client].SkinType = 0;
+		player[client].tags.ChatTag = NULL_STRING;
+		ClientSaveToFileLoad(client);
+	}
 	CreateTimer(3.0, CheckPlayer, client);
 	CreateTimer(10.0, SetClientTag, client);
 }
@@ -978,7 +1005,8 @@ public Action ApplyTags(int client,int args)
 //设置称号指令
 public Action SetCH(int client,int args)
 { 
-	if(g_bl4dstatsSystemAvailable && l4dstats_GetClientScore(client) < 500000)
+	if(!IsVaildClient(client)){return Plugin_Handled;}
+	if((g_bl4dstatsSystemAvailable && l4dstats_GetClientScore(client) < 500000 && !(CheckCommandAccess(client, "", ADMFLAG_SLAY))))
 	{
 		ReplyToCommand(client,"你得积分小于50w，不能自定义称号");
 		return Plugin_Handled;
@@ -2175,4 +2203,32 @@ stock bool IsGaoJiRenJiEnabled()
 		return true;
 	}
 	return false;
+}
+// 这回合是否有效
+stock bool IsThisRoundValid()
+{
+	ConVar tank_bhop = FindConVar("ai_Tank_Bhop");
+	if(AnneMultiPlayerMode())
+	{
+		return tank_bhop.BoolValue;
+	}
+	return true;
+}
+
+stock bool AnneMultiPlayerMode(){
+	char plugin_name[MAX_LINE_WIDTH];
+	ConVar cvar_mode;
+	if(cvar_mode == null && FindConVar("l4d_ready_cfg_name"))
+	{
+		cvar_mode = FindConVar("l4d_ready_cfg_name");
+	}
+	if(cvar_mode == null) return false;
+	GetConVarString(cvar_mode, plugin_name, sizeof(plugin_name));
+	if(StrContains(plugin_name, "AllCharger", false) != -1 || StrContains(plugin_name, "AnneHappy", false) != -1 || StrContains(plugin_name, "WitchParty", false) != -1)
+	{
+		return true;
+	}else
+	{
+		return false;
+	}
 }

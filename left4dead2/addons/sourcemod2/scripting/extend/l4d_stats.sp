@@ -630,7 +630,7 @@ public OnPluginStart()
 	cvar_AnnounceToTeam = CreateConVar("l4d_stats_announceteam", "2", "Chat announcment team messages to the team only mode. 0 = Print messages to all teams, 1 = Print messages to own team only, 2 = Print messages to own team and spectators only", 0, true, 0.0, true, 2.0);
 	//cvar_AnnounceSpecial = CreateConVar("l4d_stats_announcespecial", "1", "Chat announcment mode for special events. 0 = Off, 1 = Player Only, 2 = Print messages to all teams, 3 = Print messages to own team only, 4 = Print messages to own team and spectators only", 0, true, 0.0, true, 4.0);
 	cvar_MedkitMode = CreateConVar("l4d_stats_medkitmode", "0", "Medkit point award mode. 0 = Based on amount healed, 1 = Static amount", 0, true, 0.0, true, 1.0);
-	cvar_SiteURL = CreateConVar("l4d_stats_siteurl", "https://sb.trygek.com:18443/l4d_stats/", "Community site URL, for rank panel display", 0);
+	cvar_SiteURL = CreateConVar("l4d_stats_siteurl", "https://sb.trygek.com/l4d_stats/", "Community site URL, for rank panel display", 0);
 	cvar_RankOnJoin = CreateConVar("l4d_stats_rankonjoin", "0", "Display player's rank when they connect. 0 = Disable, 1 = Enable", 0, true, 0.0, true, 1.0);
 	cvar_SilenceChat = CreateConVar("l4d_stats_silencechat", "0", "Silence chat triggers. 0 = Show chat triggers, 1 = Silence chat triggers", 0, true, 0.0, true, 1.0);
 	cvar_DisabledMessages = CreateConVar("l4d_stats_disabledmessages", "1", "Show 'Stats Disabled' messages, allow chat commands to work when stats disabled. 0 = Hide messages/disable chat, 1 = Show messages/allow chat", 0, true, 0.0, true, 1.0);
@@ -1656,7 +1656,6 @@ public Action:event_RoundStart(Handle:event, const String:name[], bool:dontBroad
 	CheckCurrentMapDB();
 	MapTimingStartTime = 0.0;
 	MapTimingBlocked = false;
-	Isstart=true;
 	g_broundend = false;
 	ResetRankChangeCheck();
 }
@@ -2717,11 +2716,29 @@ public UpdatePlayerFull(Client, const String:SteamID[], const String:Name[])
 	GetClientIP(Client, IP, sizeof(IP));
 
 	decl String:query[512];	
+	//方便网页显示具体游玩模式
+	int mode = 0;
+	if(IsAnne())
+	{
+		mode = 1;
+	}else if(IsWitchParty())
+	{
+		mode = 2;
+	}else if(IsAllCharger())
+	{
+		mode = 3;
+	}else if(IsAlone())
+	{
+		mode = 4;
+	}else if(Is1vht())
+	{
+		mode = 5;
+	}
 	//旁观者更新时间戳，但是不增加游戏时间，这样来方便统计在线人数
 	if(!IsPlayer(Client))
-		Format(query, sizeof(query), "UPDATE %splayers SET lastontime = UNIX_TIMESTAMP(), lastgamemode = %i, name = '%s', ip = '%s' WHERE steamid = '%s'", DbPrefix, CurrentGamemodeID, Name, IP, SteamID);
+		Format(query, sizeof(query), "UPDATE %splayers SET lastontime = UNIX_TIMESTAMP(), lastannemode = %i, lastgamemode = %i, name = '%s', ip = '%s' WHERE steamid = '%s'", DbPrefix, mode, CurrentGamemodeID, Name, IP, SteamID);
 	else
-		Format(query, sizeof(query), "UPDATE %splayers SET lastontime = UNIX_TIMESTAMP(), %s = %s + 1, lastgamemode = %i, name = '%s', ip = '%s' WHERE steamid = '%s'", DbPrefix, Playtime, Playtime, CurrentGamemodeID, Name, IP, SteamID);
+		Format(query, sizeof(query), "UPDATE %splayers SET lastontime = UNIX_TIMESTAMP(), %s = %s + 1, lastannemode = %i, lastgamemode = %i, name = '%s', ip = '%s' WHERE steamid = '%s'", DbPrefix, Playtime, Playtime, mode, CurrentGamemodeID, Name, IP, SteamID);
 	
 	SQL_TQuery(db, UpdatePlayerCallback, query, Client);
 }
@@ -2997,7 +3014,7 @@ public Action:timer_FriendlyFireDamageEnd(Handle:timer, any:dp)
 				Format(UpdatePoints, sizeof(UpdatePoints), "points");
 			}
 		}
-        if(IsNeko()){
+        if(IsNormalMode()){
 			Score = RoundToFloor(Score / 5.0);
 		}
 
@@ -3470,7 +3487,7 @@ public Action:event_PlayerDeath(Handle:event, const String:name[], bool:dontBroa
 				Format(UpdatePoints, sizeof(UpdatePoints), "points");
 			}
 		}
-		if(IsNeko()){
+		if(IsNormalMode()){
 			Score = RoundToFloor(Score / 5.0);
 		}
 
@@ -3637,17 +3654,6 @@ stock bool IsAnne(){
 	}
 }
 
-stock bool IsNeko(){
-	decl String:plugin_name[MAX_LINE_WIDTH];
-	GetConVarString(FindConVar("sv_tags"), plugin_name, sizeof(plugin_name));
-	if(StrContains(plugin_name, "neko", false) != -1)
-	{
-		return true;
-	}else
-	{
-		return false;
-	}
-}
 
 stock bool IsAllCharger(){
 	decl String:plugin_name[MAX_LINE_WIDTH];
@@ -3725,7 +3731,7 @@ stock bool SinglePlayerMode(){
 }
 
 stock bool MultiPlayerMode(){
-	if(IsAnne() || IsNeko() || IsWitchParty() || IsAllCharger()){
+	if(IsAnne() || IsWitchParty() || IsAllCharger()){
 		return true;
 	}
 	return false;
@@ -3785,7 +3791,7 @@ public Action:event_InfectedDeath(Handle:event, const String:name[], bool:dontBr
 	new Score =0;
 	if (AnneMultiPlayerMode())
 		Score = ModifyScoreDifficultyNR(2, 1, 1, TEAM_SURVIVORS);
-	else if(IsNeko())
+	else if(IsNormalMode())
 		Score = ModifyScoreDifficultyNR(2, 2, 3, TEAM_SURVIVORS);
 	else {
 		Score = ModifyScoreDifficultyNR(GetConVarInt(cvar_Infected), 2, 3, TEAM_SURVIVORS);
@@ -4434,19 +4440,26 @@ public Action:event_CampaignWin(Handle:event, const String:name[], bool:dontBroa
 			}
 		}
 	}
-	if((AnneMultiPlayerMode() || SinglePlayerMode()) && L4D_RPG_GetGlobalValue(INDEX_VALID)){
-		int inf= GetAnneInfectedNumber();
-		if(inf < 4)
+	if((AnneMultiPlayerMode() || SinglePlayerMode())){
+		if(!L4D_RPG_GetGlobalValue(INDEX_VALID) || !IsThisRoundValid())
 		{
-			if(AnneMultiPlayerMode())
-				Score = RoundToFloor(Score * (1 - (4 - inf) * 0.2));
+			Score = RoundToFloor(Score * 0.4);
 		}
-		else if(inf > 4)
-			Score = RoundToFloor(Score + Score * (inf - 4) * 0.1);
-		else if(inf > 6)
-			Score = RoundToFloor(Score + Score * (inf - 4) * 0.2);
-		else if(inf>8)
-			Score=RoundToFloor(Score + Score * (inf-4)*0.3);
+		else
+		{
+			int inf= GetAnneInfectedNumber();
+			if(inf < 4)
+			{
+				if(AnneMultiPlayerMode())
+					Score = RoundToFloor(Score * (1 - (4 - inf) * 0.2));
+			}
+			else if(inf > 4)
+				Score = RoundToFloor(Score + Score * (inf - 4) * 0.1);
+			else if(inf > 6)
+				Score = RoundToFloor(Score + Score * (inf - 4) * 0.2);
+			else if(inf>8)
+				Score = RoundToFloor(Score + Score * (inf-4)*0.3);
+		}	
 	}
 
 	if(IsAboveFourPeople())
@@ -4799,7 +4812,7 @@ PlayerIncap(Attacker, Victim)
 				Format(UpdatePoints, sizeof(UpdatePoints), "points");
 			}
 		}
-		if(IsNeko()){
+		if(IsNormalMode()){
 			Score = RoundToFloor(Score / 5.0);
 		}
 
@@ -5828,6 +5841,7 @@ public Action:event_DoorOpen(Handle:event, const String:name[], bool:dontBroadca
 	}
 
 	StartMapTiming();
+	Isstart = true;
 
 	return Plugin_Continue;
 }
@@ -5840,6 +5854,7 @@ public Action:event_StartArea(Handle:event, const String:name[], bool:dontBroadc
 		return Plugin_Continue;
 	}
 	StartMapTiming();
+	Isstart = true;
 
 	return Plugin_Continue;
 }
@@ -9758,6 +9773,8 @@ public CheckSurvivorsWin()
 	//StatsPrintToChatTeam(TEAM_SURVIVORS, "\x03有调用CheckSurvivorsWin方法!");
 	if (CampaignOver)
 		return;
+	if (!Isstart)
+		return;
 
 	CampaignOver = true;
 	//StatsPrintToChatTeam(TEAM_SURVIVORS, "\x03CampaignOver值没问题!");
@@ -9840,7 +9857,7 @@ public CheckSurvivorsWin()
 	if (SinglePlayerMode())
 	{
 		int addScore = 0;
-		if( GetAnneInfectedNumber() > 3 && L4D_RPG_GetGlobalValue(INDEX_VALID)){
+		if( GetAnneInfectedNumber() > 3 && (L4D_RPG_GetGlobalValue(INDEX_VALID) && IsThisRoundValid())){
 			addScore = (GetAnneInfectedNumber() - 3) * 100;
 		}
 		char buffer[256];
@@ -9885,7 +9902,7 @@ public CheckSurvivorsWin()
 				TriggerTimer(TimerRankChangeCheck[i], true);
 		}
 	}
-	if((AnneMultiPlayerMode() || SinglePlayerMode()) && L4D_RPG_GetGlobalValue(INDEX_VALID)){
+	if((AnneMultiPlayerMode() || SinglePlayerMode()) && (L4D_RPG_GetGlobalValue(INDEX_VALID) && IsThisRoundValid())){
 		int inf = GetAnneInfectedNumber();
 		if(inf>4)
 			Score=RoundToFloor(Score+Score*(inf-4)*0.2);
@@ -10420,8 +10437,8 @@ UpdateFriendlyFire(Attacker, Victim)
 			Format(UpdatePoints, sizeof(UpdatePoints), "points");
 		}
 	}
-	if(IsNeko()){
-			Score = RoundToFloor(Score / 5.0);
+	if(IsNormalMode()){
+		Score = RoundToFloor(Score / 5.0);
 	}
 
 	decl String:query[1024];
@@ -11176,6 +11193,14 @@ public StopMapTiming()
 		}
 		return;
 	}
+	if(!IsNormalMode() && !IsThisRoundValid())
+	{
+		if (GetConVarInt(cvar_AnnounceMode))
+		{
+			StatsPrintToChatAll("此次结果因关闭tank连跳导致 \x04无效 \x01，不记录这张地图游戏时间!");
+		}
+		return;
+	}
 
 	new Float:TotalTime = GetEngineTime() - MapTimingStartTime;
 	MapTimingStartTime = -1.0;
@@ -11201,7 +11226,7 @@ public StopMapTiming()
 				if (enabled)
 					PlayerCounter++;
 			}
-			else if (!IsAnne && ClientTeam == TEAM_INFECTED)
+			else if (IsNormalMode() && ClientTeam == TEAM_INFECTED)
 			{
 				InfectedCounter++;
 				if (GetTrieValue(MapTimingInfected, ClientID, enabled))
@@ -11263,7 +11288,7 @@ public StopMapTiming()
 						}
 						if(mode > 0)
 						{
-							Format(query, sizeof(query), "SELECT time FROM %stimedmaps WHERE map = '%s' AND gamemode = %i AND difficulty = %i AND mutation = '%s' AND steamid = '%s' AND sinum = %i AND sitime = %i AND anneversion = '%s' AND mode = %i AND usebuy = %i", DbPrefix, MapName, CurrentGamemodeID, GameDifficulty, CurrentMutation, ClientID, GetAnneInfectedNumber(), GetAnneSISpawnTime(), GetAnneVersion(), mode, L4D_RPG_GetGlobalValue(INDEX_USEBUY));
+							Format(query, sizeof(query), "SELECT time FROM %stimedmaps WHERE map = '%s' AND gamemode = %i AND difficulty = %i AND mutation = '%s' AND steamid = '%s' AND sinum = %i AND sitime = %i AND anneversion = '%s' AND mode = %i AND usebuy = %i AND auto = %i", DbPrefix, MapName, CurrentGamemodeID, GameDifficulty, CurrentMutation, ClientID, GetAnneInfectedNumber(), GetAnneSISpawnTime(), GetAnneVersion(), mode, L4D_RPG_GetGlobalValue(INDEX_USEBUY), IsAutoSpawnTime());
 						}
 						else
 						{
@@ -11341,7 +11366,7 @@ public UpdateMapTimingStat(Handle:owner, Handle:hndl, const String:error[], any:
 			}
 			if(mode > 0)
 			{
-				Format(query, sizeof(query), "UPDATE %stimedmaps SET plays = plays + 1, modified = NOW() WHERE map = '%s' AND gamemode = %i AND difficulty = %i AND mutation = '%s' AND steamid = '%s' AND sinum = %i AND sitime = %i AND anneversion = '%s' AND mode = %i AND usebuy = %i", DbPrefix, MapName, GamemodeID, GameDifficulty, Mutation, ClientID, GetAnneInfectedNumber(), GetAnneSISpawnTime(), GetAnneVersion(), mode, L4D_RPG_GetGlobalValue(INDEX_USEBUY));
+				Format(query, sizeof(query), "UPDATE %stimedmaps SET plays = plays + 1, modified = NOW() WHERE map = '%s' AND gamemode = %i AND difficulty = %i AND mutation = '%s' AND steamid = '%s' AND sinum = %i AND sitime = %i AND anneversion = '%s' AND mode = %i AND usebuy = %i AND auto = %i", DbPrefix, MapName, GamemodeID, GameDifficulty, Mutation, ClientID, GetAnneInfectedNumber(), GetAnneSISpawnTime(), GetAnneVersion(), mode, L4D_RPG_GetGlobalValue(INDEX_USEBUY), IsAutoSpawnTime());
 			}
 			else
 			{
@@ -11358,7 +11383,7 @@ public UpdateMapTimingStat(Handle:owner, Handle:hndl, const String:error[], any:
 
 			if(mode > 0)
 			{
-				Format(query, sizeof(query), "UPDATE %stimedmaps SET plays = plays + 1, time = %f, players = %i, modified = NOW() WHERE map = '%s' AND gamemode = %i AND difficulty = %i AND mutation = '%s' AND steamid = '%s' AND sinum = %i AND sitime = %i AND anneversion = '%s' AND mode = %i AND usebuy = %i", DbPrefix, TotalTime, PlayerCounter, MapName, GamemodeID, GameDifficulty, Mutation, ClientID, GetAnneInfectedNumber(), GetAnneSISpawnTime(), GetAnneVersion(), mode, L4D_RPG_GetGlobalValue(INDEX_USEBUY));
+				Format(query, sizeof(query), "UPDATE %stimedmaps SET plays = plays + 1, time = %f, players = %i, modified = NOW() WHERE map = '%s' AND gamemode = %i AND difficulty = %i AND mutation = '%s' AND steamid = '%s' AND sinum = %i AND sitime = %i AND anneversion = '%s' AND mode = %i AND usebuy = %i AND auto = %i", DbPrefix, TotalTime, PlayerCounter, MapName, GamemodeID, GameDifficulty, Mutation, ClientID, GetAnneInfectedNumber(), GetAnneSISpawnTime(), GetAnneVersion(), mode, L4D_RPG_GetGlobalValue(INDEX_USEBUY), IsAutoSpawnTime());
 			}
 			else
 			{
@@ -11379,7 +11404,7 @@ public UpdateMapTimingStat(Handle:owner, Handle:hndl, const String:error[], any:
 
 		if(mode > 0)
 		{
-			Format(query, sizeof(query), "INSERT INTO %stimedmaps (map, gamemode, difficulty, mutation, steamid, plays, time, players, sinum, sitime, anneversion, mode, usebuy, modified, created) VALUES ('%s', %i, %i, '%s', '%s', 1, %f, %i, %i, %i, '%s', %i, %i, NOW(), NOW())", DbPrefix, MapName, GamemodeID, GameDifficulty, Mutation, ClientID, TotalTime, PlayerCounter, GetAnneInfectedNumber(), GetAnneSISpawnTime(), GetAnneVersion(), mode, L4D_RPG_GetGlobalValue(INDEX_USEBUY));
+			Format(query, sizeof(query), "INSERT INTO %stimedmaps (map, gamemode, difficulty, mutation, steamid, plays, time, players, sinum, sitime, anneversion, mode, usebuy, auto, modified, created) VALUES ('%s', %i, %i, '%s', '%s', 1, %f, %i, %i, %i, '%s', %i, %i, %i, NOW(), NOW())", DbPrefix, MapName, GamemodeID, GameDifficulty, Mutation, ClientID, TotalTime, PlayerCounter, GetAnneInfectedNumber(), GetAnneSISpawnTime(), GetAnneVersion(), mode, L4D_RPG_GetGlobalValue(INDEX_USEBUY), IsAutoSpawnTime());
 		}
 		else
 		{
@@ -11871,4 +11896,28 @@ stock bool IsGaoJiRenJiEnabled()
 		return true;
 	}
 	return false;
+}
+
+stock bool IsNormalMode()
+{
+	ConVar cvar = FindConVar("l4d_infected_limit");
+	if(cvar_mode == null) return true;
+	return false;
+}
+
+stock int IsAutoSpawnTime()
+{
+	ConVar cvar = FindConVar("inf_EnableAutoSpawnTime");
+	if(cvar_mode == null) return false;
+	return cvar.IntValue;
+}
+
+stock bool IsThisRoundValid()
+{
+	ConVar tank_bhop = FindConVar("ai_Tank_Bhop");
+	if(AnneMultiPlayerMode())
+	{
+		return tank_bhop.BoolValue;
+	}
+	return true;
 }

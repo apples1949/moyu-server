@@ -43,7 +43,10 @@ public Action RoundStartTimer(Handle timer)
 
 public Action RemoveOrReplaceKits()
 {
-	int pillsCount = GetPillsCount();
+	int pillsCount = 0;
+	ArrayList arrPills = new ArrayList(1);
+	ArrayList arrMed = new ArrayList(1);
+	ArrayList arrDef = new ArrayList(1);
 	for (int entity = 1; entity <= GetEntityCount(); entity++)
 	{
 		if (IsValidEntity(entity) && IsValidEdict(entity))
@@ -54,42 +57,106 @@ public Action RemoveOrReplaceKits()
 			{
 				if (GetEntProp(entity, Prop_Data, "m_weaponID") == 12)
 				{
-					if(pillsCount >= pillsLimit.IntValue)
-					{
-						RemoveItem(entity);
-					}	
-					else
-					{
-						ReplaceItem(entity);
-						pillsCount ++;
-					}
+					arrMed.Push(entity);
 				}
+				if (GetEntProp(entity, Prop_Data, "m_weaponID") == 15)
+				{
+					arrPills.Push(entity);
+				}		
 				if (GetEntProp(entity, Prop_Data, "m_weaponID") == 24)
 				{
-					RemoveItem(entity);
+					arrDef.Push(entity);
 				}
 			}
 			else
 			{
 				if (strcmp(entityname, "weapon_first_aid_kit_spawn") == 0)
 				{
-					if(pillsCount >= pillsLimit.IntValue)
-					{
-						RemoveItem(entity);
-					}	
-					else
-					{
-						ReplaceItem(entity);
-						pillsCount ++;
-					}
+					arrMed.Push(entity);
+				}
+				if (strcmp(entityname, "weapon_pain_pills_spawn") == 0)
+				{
+					arrPills.Push(entity);
 				}
 				if (strcmp(entityname, "weapon_defibrillator_spawn") == 0)
 				{
-					RemoveItem(entity);
+					arrDef.Push(entity);
 				}
 			}
 		}
 	}
+	if(L4D_IsMissionFinalMap())
+	{
+		while(arrMed.Length)
+		{
+			if(pillsCount >= pillsLimit.IntValue)
+			{
+				RemoveItem(arrMed.Get(0));
+			}	
+			else
+			{
+				ReplaceItem(arrMed.Get(0));
+				pillsCount ++;
+			}
+			arrMed.Erase(0);
+		}
+		while(arrPills.Length)
+		{
+			if(pillsCount >= pillsLimit.IntValue)
+			{
+				RemoveItem(arrPills.Get(0));
+			}	
+			else
+			{
+				ReplaceItem(arrPills.Get(0));
+				pillsCount ++;
+			}
+			arrPills.Erase(0);
+		}
+	}
+	else
+	{
+		while(arrPills.Length)
+		{
+			if(pillsCount > pillsLimit.IntValue)
+			{
+				RemoveItem(arrPills.Get(0));
+			}	
+			else
+			{
+				ReplaceItem(arrPills.Get(0));
+				pillsCount ++;
+			}
+			arrPills.Erase(0);
+		}
+		while(arrMed.Length)
+		{
+			if(pillsCount > pillsLimit.IntValue)
+			{
+				RemoveItem(arrMed.Get(0));
+			}	
+			else
+			{
+				ReplaceItem(arrMed.Get(0));
+				pillsCount ++;
+			}
+			arrMed.Erase(0);
+		}
+	}
+	while(arrDef.Length)
+	{
+		if(pillsCount > pillsLimit.IntValue)
+		{
+			RemoveItem(arrDef.Get(0));
+		}	
+		else
+		{
+			ReplaceItem(arrDef.Get(0));
+			pillsCount ++;
+		}
+		arrDef.Erase(0);
+	}
+	delete arrDef, arrPills, arrMed;
 	return Plugin_Continue;
 }
 

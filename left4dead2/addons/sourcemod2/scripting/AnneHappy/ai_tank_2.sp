@@ -22,10 +22,9 @@
 #define LAG_DETECT_OFFSET 30.0								// 坦克位置检测偏移角度
 #define TREE_DETECT_TIME 1.5								// 绕树检测间隔
 #define VISION_UNLOCK_TIME 2.0								// 视角解锁间隔
-#define SPEED_MAX 350.0										// 速度修正最大速度长度
+#define SPEED_MAX 450.0										// 速度修正最大速度长度
 #define SPEED_MIN 200.0										// 速度修正最大速度长度
 #define RAY_ANGLE view_as<float>({90.0, 0.0, 0.0})
-#define FL_JUMPING 65922
 #define DEBUG_ALL 0
 #if (DEBUG_ALL)
 int g_sprite;
@@ -160,6 +159,7 @@ public void OnPluginStart()
 	HookEvent("player_incapacitated", evt_PlayerIncapped);
 	HookEvent("finale_win", evt_ResetLadder);
 	HookEvent("map_transition", evt_ResetLadder);
+	HookEvent("round_start", evt_RoundStart, EventHookMode_PostNoCopy);
 	// Building List
 	ladderList = new ArrayList(3);
 	#if(DEBUG_ALL)
@@ -238,10 +238,10 @@ public Action OnPlayerRunCmd(int client, int &buttons, int &impulse, float vel[3
 {
 	if (IsAiTank(client))
 	{
-		if (L4D_IsPlayerStaggering(client))
+		if (L4D_IsPlayerStaggering(client) || buttons & IN_BACK)
 			return Plugin_Continue;
 		bool bHasSight = false, bIsSurvivorFailed = true;
-		int vomit_survivor = 0, target = GetClientAimTarget(client, true), nearest_target = GetClosetMobileSurvivor(client), nearest_targetdist = GetClosetSurvivorDistance(client), current_seq = GetEntProp(client, Prop_Send, "m_nSequence");	sicount = GetSiCount_ExcludeTank(bIsSurvivorFailed, vomit_survivor);
+		int vomit_survivor = 0, target = GetClientAimTarget(client, true), flags = GetEntityFlags(client), nearest_target = GetClosetMobileSurvivor(client), nearest_targetdist = GetClosetSurvivorDistance(client), current_seq = GetEntProp(client, Prop_Send, "m_nSequence");	sicount = GetSiCount_ExcludeTank(bIsSurvivorFailed, vomit_survivor);
 		float selfpos[3] = {0.0}, eyeangles[3] = {0.0}, velbuffer[3] = {0.0}, vecspeed[3] = {0.0}, curspeed = 0.0;
 		GetClientAbsOrigin(client, selfpos);
 		GetClientEyeAngles(client, eyeangles);
@@ -274,7 +274,7 @@ public Action OnPlayerRunCmd(int client, int &buttons, int &impulse, float vel[3
 			// 连跳距离及防止跳过头控制，要改连跳距离改这里，默认坦克拳头长度 * 0.8 - 1500 距离允许连跳
 			if (!eTankStructure[client].bCanConsume && eTankStructure[client].fTankStopDistance <= targetdist <= 2000 && curspeed > 190.0)
 			{
-				if (g_hAllowBhop.BoolValue && IsGrounded(client))
+				if (g_hAllowBhop.BoolValue && (flags & FL_ONGROUND))
 				{
 					buttons |= IN_JUMP;
 					buttons |= IN_DUCK;
@@ -283,8 +283,11 @@ public Action OnPlayerRunCmd(int client, int &buttons, int &impulse, float vel[3
 						return Plugin_Changed;
 					}
 				}
-				else if (!IsGrounded(client))
+				else if (!(flags & FL_ONGROUND))
 				{
+					// 在空中禁止跳跃和蹲
+					buttons &= ~IN_JUMP;
+					buttons &= ~IN_DUCK;
 					float velangles[3] = {0.0}, new_velvec[3] = {0.0}, self_target_vec[3] = {0.0};
 					/* float speed_length = 0.0;
 					speed_length = GetVectorLength(vecspeed, false); */
@@ -359,7 +362,7 @@ public Action OnPlayerRunCmd(int client, int &buttons, int &impulse, float vel[3
 				GetAngleVectors(eyeangles, velbuffer, NULL_VECTOR, NULL_VECTOR);
 				NormalizeVector(velbuffer, velbuffer);
 				ScaleVector(velbuffer, g_hBhopSpeed.FloatValue);
-				if (g_hAllowBhop.BoolValue && IsGrounded(client) && curspeed > 190.0)
+				if (g_hAllowBhop.BoolValue && (flags & FL_ONGROUND) && curspeed > 190.0)
 				{
 					buttons |= IN_JUMP;
 					buttons |= IN_DUCK;
@@ -423,8 +426,16 @@ public Action OnPlayerRunCmd(int client, int &buttons, int &impulse, float vel[3
 		// 爬梯子时，禁止连跳
 		if (GetEntityMoveType(client) & MOVETYPE_LADDER)
 		{
-			//buttons &= ~IN_JUMP;
+			buttons &= ~IN_JUMP;
 			buttons &= ~IN_DUCK;
+			switch (GetEntProp(client, Prop_Send, "m_nSequence"))
+			{
+				case 15,16,17:
+				{
+					buttons &= ~IN_ATTACK;
+				}
+			}
+			return Plugin_Changed;
 		}
 		// 着火时，自动灭火
 		if (GetEntProp(client, Prop_Data, "m_fFlags") & FL_ONFIRE)
@@ -464,8 +475,8 @@ void NextFrame_JumpRock(int client)
 {
 	if (IsAiTank(client))
 	{
-		int target = GetClosetMobileSurvivor(client);
-		if (IsGrounded(client) && IsValidSurvivor(target))
+		int flags = GetEntityFlags(client), target = GetClosetMobileSurvivor(client);
+		if ((flags & FL_ONGROUND)&& IsValidSurvivor(target))
 		{
 			if (!eTankStructure[client].bCanConsume)
 			{
@@ -563,7 +574,8 @@ public Action Timer_SneakCheck(Handle timer, int client)
 		#if (DEBUG_ALL)
 			PrintToConsoleAll("[Ai-Tank]：SneakTank开启，Tank将在特感刷新前%f秒消耗， 当前特感生成时间为%f秒后", g_hSneakTank.FloatValue, GetNextSpawnTime());
 		#endif
-		if(GetNextSpawnTime() < g_hSneakTank.FloatValue)
+		float time = FindConVar("versus_special_respawn_interval").FloatValue / 2.0;
+		if(GetNextSpawnTime() < (time > g_hSneakTank.FloatValue ? g_hSneakTank.FloatValue: time))
 		{
 			eTankStructure[client].bCanConsume = false;
 			throw_min_range = 250;
@@ -629,6 +641,20 @@ public void evt_ResetLadder(Event event, const char[] name, bool dontBroadcast)
 	ladderList.Clear();
 }
 
+public void evt_RoundStart(Event event, const char[] name, bool dontBroadcast)
+{
+	CreateTimer(3.0, initLadder, _, TIMER_FLAG_NO_MAPCHANGE);
+}
+
+// 开局重置特感状态
+public Action initLadder(Handle timer)
+{
+	if(ladderList.Length <= 1){
+		CheckAllLadder();
+	}
+	return Plugin_Continue;
+}
+
 stock bool IsOnLadder(int entity)
 {
 	return GetEntityMoveType(entity) == MOVETYPE_LADDER;
@@ -662,13 +688,6 @@ bool Tank_DoBhop(int client, int &buttons, float vec[3])
 		}
 	}
 	return bJumped;
-}
-
-public Action L4D_OnFirstSurvivorLeftSafeArea(){
-	if(ladderList.Length <= 1){
-		CheckAllLadder();
-	}
-	return Plugin_Continue;
 }
 
 // 以缩放后的向量加速到玩家的当前速度中

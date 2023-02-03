@@ -182,7 +182,7 @@ public Action OnPlayerRunCmd(int jockey, int &buttons, int &impulse, float vel[3
 				{
 					// 高跳
 					float AngleVec[3] = {0.0};
-					angles[0] = getRandomFloatInRange(20.0, 40.0) * -1.0;
+					angles[0] = getRandomFloatInRange(20.0, 35.0) * -1.0;
 					GetAngleVectors(angles, AngleVec, NULL_VECTOR, NULL_VECTOR);
 					NormalizeVector(AngleVec, AngleVec);
 					ScaleVector(AngleVec, fCurrentSpeed);

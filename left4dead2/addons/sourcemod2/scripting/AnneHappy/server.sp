@@ -71,8 +71,9 @@ public void OnPluginStart()
 	HookEvent("player_death", OnPlayerIncappedOrDeath);
 	RegConsoleCmd("sm_setbot", SetBot);
 	RegAdminCmd("sm_kicktank", KickMoreTankThanOne, ADMFLAG_KICK, "有多只tank得情况，随机踢至只有一只");
-	SetConVarBounds(FindConVar("survivor_limit"), ConVarBound_Upper, true, 8.0);
-	RegAdminCmd("sm_addbot", ADMAddBot, ADMFLAG_KICK, "Attempt to add a survivor bot (this bot will not be kicked by this plugin until someone takes over)");
+	SetConVarBounds(FindConVar("survivor_limit"), ConVarBound_Upper, true, 31.0);
+	RegAdminCmd("sm_addbot", ADMAddBot, ADMFLAG_SLAY, "Attempt to add a survivor bot (this bot will not be kicked by this plugin until someone takes over)");
+	RegAdminCmd("sm_delbot", ADMDelBot, ADMFLAG_SLAY, "Attempt to del a survivor bot if have more bot slots");
 	hSurvivorsManagerEnable = CreateConVar("l4d_multislots_survivors_manager_enable", "0", "Enable or Disable survivors manage",CVAR_FLAGS, true, 0.0, true, 1.0);
 	hMaxSurvivors	= CreateConVar("l4d_multislots_max_survivors", "4", "Kick AI Survivor bots if numbers of survivors has exceeded the certain value. (does not kick real player, minimum is 4)", CVAR_FLAGS, true, 4.0, true, 8.0);
 	hCvarAutoKickTank = CreateConVar("l4d_multislots_autokicktank", "0", "Auto kick tank when tank number above one", CVAR_FLAGS, true, 0.0, true, 1.0);
@@ -187,15 +188,65 @@ public void Event_PlayerSpawn(Event hEvent, const char[] name, bool dontBroadcas
 ////////////////////////////////////
 public Action ADMAddBot(int client, int args)
 {
-	if(client == 0)
+	if(client == 0 || (IsValidClient(client) && GetUserAdmin(client).ImmunityLevel < 90) || !iEnable)
 		return Plugin_Handled;
 	
-	if(SpawnFakeClient() == true)
-		PrintToChat(client, "\x04一个生还者Bot被生成.");
+	if(IsAnySurvivorBotExists())
+	{
+		PrintToChat(client, "\x04还有未接管的bot，请生还者队伍满了之后再次尝试.");
+		return Plugin_Handled;
+	}
+	ConVar surLimit = FindConVar("survivor_limit");
+	if(surLimit.IntValue < 8)
+	{
+		PrintToChat(client, "\x04不是8人运动，还没达到上限呢！.");
+		return Plugin_Handled;
+	}
+	if(SpawnFakeClient() == true){
+		PrintToChat(client, "\x04一个生还者Bot被生成.");	
+		SetConVarInt(surLimit, surLimit.IntValue + 1);
+	}
 	else
 		PrintToChat(client,  "\x04暂时无法生成生还者Bot.");
 	
 	return Plugin_Handled;
+}
+
+public Action ADMDelBot(int client, int args)
+{
+	if(client == 0 || (IsValidClient(client) && GetUserAdmin(client).ImmunityLevel < 90) || !iEnable)
+		return Plugin_Handled;
+	
+	if(!KickAnySurvivorBot())
+	{
+		PrintToChat(client, "\x04不存在未接管的bot，你还删个鬼！");
+	}
+	return Plugin_Handled;
+}
+
+stock bool KickAnySurvivorBot()
+{
+	for(int i = 1; i <= MaxClients; i++)
+	{
+		if(IsValidClient(i) && GetClientTeam(i) == 2 && IsFakeClient(i))
+		{
+			KickClient(i);
+			ConVar surLimit = FindConVar("survivor_limit");
+			SetConVarInt(surLimit, surLimit.IntValue - 1);
+			return true;
+		}
+	}
+	return false;
+}
+
+stock bool IsAnySurvivorBotExists()
+{
+	for(int i = 1; i <= MaxClients; i++)
+	{
+		if(IsValidClient(i) && GetClientTeam(i) == 2 && IsFakeClient(i))
+			return true;
+	}
+	return false;
 }
 
 //踢出数量大于1的tank

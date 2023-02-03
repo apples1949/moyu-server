@@ -86,6 +86,18 @@
         "#format"   "{1:N},{2:s}" // 1:attacker 2:(bMelee) ? "melee-": ((bSniper) ? "headshot-" : ((bGL) ? "grenade-" : "") )
 		"chi"		"{olive}{1}{default} {blue}{2}空爆{default} 了 {olive}一只hunter{default}."
 	}
+	"Melee"
+	{
+		"chi"		"近战"
+	}
+	"HeadShot"
+	{
+		"chi"		"爆头"
+	}
+	"Grenade"
+	{
+		"chi"		"投掷武器"
+	}
     // hurt skeet / non-skeet
 	"HurtSkeet"
 	{
@@ -99,7 +111,7 @@
 	}
 	"Unchipped"
 	{
-		"chi"		"(如果hunter没有被打中过，就是空爆!)"
+		"chi"		"(如果hunter在空中被击杀，就是空爆!)"
 	}
     // crown
 	"CrownedWitch"
@@ -218,6 +230,10 @@
 	{ 
         "#format"   "{1:i},{2:s},{3:.1f}" // 1:streak 2:(streak > 1) ? "s" : "" 3:maxVelocity
 		"chi"		"{olive}你{default} 成功完成一次 {blue}{1} 连跳 ({blue}最高速度{default}: {olive}{3}{default})"
+	}
+	"PluralCount"
+	{
+		"chi"		""
 	}
     // car alarms
 	"CalarmHit"

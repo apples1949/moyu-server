@@ -1,6 +1,6 @@
 /*
 *	Left 4 DHooks Direct
-*	Copyright (C) 2022 Silvers
+*	Copyright (C) 2023 Silvers
 *
 *	This program is free software: you can redistribute it and/or modify
 *	it under the terms of the GNU General Public License as published by
@@ -18,8 +18,8 @@
 
 
 
-#define PLUGIN_VERSION		"1.126"
-#define PLUGIN_VERLONG		1126
+#define PLUGIN_VERSION		"1.127"
+#define PLUGIN_VERLONG		1127
 
 #define DEBUG				0
 // #define DEBUG			1	// Prints addresses + detour info (only use for debugging, slows server down)
@@ -683,7 +683,6 @@ public void OnPluginStart()
 	{
 		g_hCvar_VScriptBuffer = CreateConVar("l4d2_vscript_return", "", "Buffer used to return VScript values. Do not use.", FCVAR_DONTRECORD);
 		g_hCvar_AddonsEclipse = CreateConVar("l4d2_addons_eclipse", "-1", "Addons Manager (-1: use addonconfig; 0: disable addons; 1: enable addons.)", FCVAR_NOTIFY);
-		AutoExecConfig(true, "left4dhooks");
 		g_hCvar_AddonsEclipse.AddChangeHook(ConVarChanged_Cvars);
 
 		g_hCvar_Adrenaline = FindConVar("adrenaline_health_buffer");

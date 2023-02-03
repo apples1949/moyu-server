@@ -98,3 +98,13 @@ native any L4D_RPG_GetValue(int client, TARGET_VALUE_INDEX option);
 * @return	-1为获取失败，其余为正常
 */
 native any L4D_RPG_GetGlobalValue(TARGET_VALUE_INDEX option);
+
+/**
+* @brief 设置rpg插件里的全局变量
+*
+* @param	index			需要获取此局数据
+* @param	option			（8-9）
+*
+* @return	-1为设置失败，其余为正常
+*/
+native any L4D_RPG_SetGlobalValue(TARGET_VALUE_INDEX option, bool vaule);
