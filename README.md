@@ -18,3 +18,4 @@ https://github.com/draxios/bizzymod - 添加部分写实模式
 
 # To Do-                                   
 也许不会to do也许会，我懒想摸鱼  
+目前还是有很多bug的 比如比赛模式加载不上之类的 所以还是慎用:)
