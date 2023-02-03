@@ -493,6 +493,14 @@
 		{
 			"message" "切换至巨人卧室Bedroom3 Bit Size"
 		}
+		"changelevel l4d2_deadsite_v1_1"
+		{
+			"message" "切换至死亡据点 Dead Site"
+		}
+		"changelevel beach"
+		{
+			"message" "切换至海滩小屋 Beach"
+		}
 	}
 	"杂项"
 	{

@@ -378,6 +378,7 @@
 		{
 			"name" "2v2 ZoneMod v1.9.3"
 		}
+	}
 	"ZoneMod 1v1"
 	{
 		"28zm1v1"

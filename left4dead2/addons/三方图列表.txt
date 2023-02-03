@@ -108,4 +108,8 @@
 
 "切换至血本无归 Down The Drain"
 
-"切换至巨人卧室Bedroom3 Bit Size"
+"切换至巨人卧室 Bedroom3 Bit Size"
+
+"切换至死亡据点 Dead Site"
+
+"切换至沙滩小屋 Beach House"

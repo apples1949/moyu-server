@@ -1,7 +1,5 @@
 "Cfgs"
 {
-
-	
 	"常用投票"
 	{
 		"sm_serverhp"
@@ -20,82 +18,470 @@
 		{
    			"message" "关闭旁观"
 	 	}
-		"exec vote/12people.cfg"
+		"exec vote/16people.cfg"
 		{
 			"message" "加4个旁观位置"
 		}
-		"exec vote/16people.cfg"
-		{
-			"message" "加8个旁观位置"		
-		}
 	}
-	"投票换图"
+	"官图列表"
 	{
+		"changelevel c1m1_hotel"
+		{
+   			"message" "切换至c1m1"
+	 	}
+		"changelevel c1m2_streets"
+		{
+   			"message" "切换至c1m2"
+	 	}
+		"changelevel c1m3_mall"
+		{
+   			"message" "切换至c1m3"
+	 	}
+		"changelevel c1m4_atrium"
+		{
+   			"message" "切换至c1m4"
+	 	}
+		"changelevel c2m1_highway"
+		{
+   			"message" "切换至c2m1"
+	 	}
+		"changelevel c2m2_fairgrounds"
+		{
+   			"message" "切换至c2m2"
+	 	}
+		"changelevel c2m3_coaster"
+		{
+   			"message" "切换至c2m3"
+	 	}
+		"changelevel c2m4_barns"
+		{
+   			"message" "切换至c2m4"
+	 	}
+		"changelevel c2m5_concert"
+		{
+   			"message" "切换至c2m5"
+	 	}
+		"changelevel c3m1_plankcountry"
+		{
+   			"message" "切换至c3m1"
+	 	}
+		"changelevel c3m2_swamp"
+		{
+   			"message" "切换至c3m2"
+	 	}
+		"changelevel c3m3_shantytown"
+		{
+   			"message" "切换至c3m3"
+	 	}
+		"changelevel c3m4_plantation"
+		{
+   			"message" "切换至c3m4"
+	 	}
+		"changelevel c4m1_milltown_a"
+		{
+   			"message" "切换至c4m1"
+	 	}
+		"changelevel c4m2_sugarmill_a"
+		{
+   			"message" "切换至c4m2"
+	 	}
+		"changelevel c4m3_sugarmill_b"
+		{
+   			"message" "切换至c4m3"
+	 	}
+		"changelevel c4m4_milltown_b"
+		{
+   			"message" "切换至c4m4"
+		}
+	 	"changelevel c4m1_milltown_escape"
+		{
+   			"message" "切换至c4m5"
+	 	}
+		"changelevel c5m1_waterfront"
+		{
+   			"message" "切换至c5m1"
+	 	}
+		"changelevel c5m2_park"
+		{
+   			"message" "切换至c5m2"
+	 	}
+		"changelevel c5m3_cemetery"
+		{
+   			"message" "切换至c5m3"
+	 	}
+		"changelevel c5m4_quarter"
+		{
+   			"message" "切换至c5m4"
+	 	}
+		"changelevel c5m5_bridge"
+		{
+   			"message" "切换至c5m5"
+	 	}
+		"changelevel c6m1_riverbank"
+		{
+   			"message" "切换至c6m1"
+	 	}
+		"changelevel c6m2_bedlam"
+		{
+   			"message" "切换至c6m2"
+	 	}
+		"changelevel c6m3_port"
+		{
+   			"message" "切换至c6m3"
+	 	}
+		"changelevel c7m1_docks"
+		{
+   			"message" "切换至c7m1"
+	 	}
+		"changelevel c7m2_barge"
+		{
+   			"message" "切换至c7m2"
+	 	}
+		"changelevel c7m3_port"
+		{
+   			"message" "切换至c7m3"
+	 	}
+		"changelevel c8m1_apartment"
+		{
+   			"message" "切换至c8m1"
+	 	}
+		"changelevel c8m2_subway"
+		{
+   			"message" "切换至c8m2"
+	 	}
+		"changelevel c8m3_sewers"
+		{
+   			"message" "切换至c8m3"
+	 	}
+		"changelevel c8m4_interior"
+		{
+   			"message" "切换至c8m4"
+	 	}
 		"changelevel c8m5_rooftop"
 		{
-   			"message" "切换至c8m5屋顶"
+   			"message" "切换至c8m5"
 	 	}
-		"changelevel daylighthouse"
+		"changelevel c9m1_alleys"
 		{
-			"message" "切换至Daylight灯塔"
+   			"message" "切换至c9m1"
+	 	}
+		"changelevel c9m2_lots"
+		{
+   			"message" "切换至c9m2"
+	 	}
+		"changelevel c10m1_caves"
+		{
+   			"message" "切换至c10m1"
+	 	}
+		"changelevel c10m2_drainage"
+		{
+   			"message" "切换至c10m2"
+	 	}
+		"changelevel c10m3_ranchhouse"
+		{
+   			"message" "切换至c10m3"
+	 	}
+		"changelevel c10m4_mainstreet"
+		{
+   			"message" "切换至c10m4"
+	 	}
+		"changelevel c10m5_houseboat"
+		{
+   			"message" "切换至c10m5"
+	 	}
+		"changelevel c11m1_greenhouse"
+		{
+   			"message" "切换至c11m1"
+	 	}
+		"changelevel c11m2_offices"
+		{
+   			"message" "切换至c11m2"
+	 	}
+		"changelevel c11m3_garage"
+		{
+   			"message" "切换至c11m3"
+	 	}
+		"changelevel c11m4_terminal"
+		{
+   			"message" "切换至c11m4"
+	 	}
+		"changelevel c11m5_runway"
+		{
+   			"message" "切换至c11m5"
+	 	}
+		"changelevel c12m1_hilltop"
+		{
+   			"message" "切换至c12m1"
+	 	}
+		"changelevel c12m2_traintunnel"
+		{
+   			"message" "切换至c12m2"
+	 	}
+		"changelevel c12m3_brige"
+		{
+   			"message" "切换至c12m3"
+	 	}
+		"changelevel c12m4_barn"
+		{
+   			"message" "切换至c12m4"
+	 	}
+		"changelevel c12m5_cornfield"
+		{
+   			"message" "切换至c12m5"
+	 	}
+		"changelevel c13m1_alpinecreek"
+		{
+   			"message" "切换至c13m1"
+	 	}
+		"changelevel c13m2_southpinestream"
+		{
+   			"message" "切换至c13m2"
+	 	}
+		"changelevel c13m3_memorialbridge"
+		{
+   			"message" "切换至c13m3"
+	 	}
+		"changelevel c13m4_cutthroatcreek"
+		{
+   			"message" "切换至c13m4"
+	 	}
+		"changelevel c14m1_junkyard"
+		{
+   			"message" "切换至c14m1"
+	 	}
+		"changelevel c14m2_lighthouse"
+		{
+   			"message" "切换至c14m2"
+	 	}
+	}
+	"三方图列表"
+	{
+		"changelevel 2019_M1b"
+		{
+			"message" "切换至2019"
 		}
-		"changelevel cedafever_m3"
+		"changelevel l4d_149_1"
 		{
-			"message" "切换至CedaFever Rooftop"
+			"message" "切换至One4Nine"
 		}
-		"changelevel roofdownthedrain"
+		"changelevel jsarena201_town"
 		{
-			"message" "切换至血本无归 Down The Drain"
+			"message" "切换至死亡竞技场2 Arena of The Dead 2"
+		}
+		"changelevel l4d2_bts01_forest"
+		{
+			"message" "切换至回到学校 Back To School"
+		}
+		"changelevel bloodtracks_01"
+		{
+			"message" "切换至嗜血轨道 Blood Tracks"
+		}
+		"changelevel cwm1_intro"
+		{
+			"message" "切换至绝处逢生 Carried Off"
+		}
+		"changelvel CCR1_alleys"
+		{
+			"message" "切换至C9改 Crash Course Rerouted"
+		}
+		"changelevel cotd01_apartments"
+		{
+			"message" "切换至活死人之城 City of The Dead"
+		}
+		"changelevel cedafever_m1"
+		{
+			"message" "切换至CedaFever"
+		}
+		"changelevel l4d2_city17_01"
+		{
+			"message" "切换至17号城 City17"
+		}
+		"changelevel dkr_m1_motel"
+		{
+			"message" "切换至C2改 Dark Canival Remix"
+		}
+		"changelevel c5m1_darkwaterfront"
+		{
+			"message" "切换至黑暗教区C5 Dark Parish"
+		}
+		"changelevel l4d2_darkblood01_tanker"
+		{
+			"message" "切换至暗血涌动2 Dark Blood 2"
+		}
+		"changelevel dcr_m1_hotel"
+		{
+			"message" "切换至C1改 Dead Center Rebirth"
+		}
+		"changelevel l4d2_deathwoods01_stranded"
+		{
+			"message" "切换至死亡丛林 Death Woods"
+		}
+		"changelevel dprm1_milltown_a"
+		{
+			"message" "切换至C4改 Downpour"
+		}
+		"changelevel death_sentence_1"
+		{
+			"message" "切换至死刑 Death Sentence"
+		}
+		"changelevel ddg1_tower_v2_1"
+		{
+			"message" "切换至绝命峡谷 Drop Dead Gorges"
+		}
+		"changelevel daredux_map1_docks_aw"
+		{
+			"message" "切换至C11改 Dead Air Redux"
+		}
+		"changelevel l4d2_diescraper1_apartment_361"
+		{
+			"message" "切换至喋血蜃楼 Diescraper Redux"
+		}
+		"changelevel l4d2_daybreak01_hotel"
+		{
+			"message" "切换至黎明 Day Break"
+		}
+		"changelevel deadbeat01_forest"
+		{
+			"message" "切换至无缝逃离 DeadBeat Escape"
+		}
+		"changelevel cdta_01detour"
+		{
+			"message" "切换至迂回前进 Detour Ahead"
+		}
+		"changelevel l4d_dbd2dc_anna_is_gone"
+		{
+			"message" "切换至活死人黎明2 Dead Before Dawn 2"
+		}
+		"changelevel ec01_outlets"
+		{
+			"message" "切换至能源危机 Energy Crisis"
+		}
+		"changelevel l4d2_ff01_woods"
+		{
+			"message" "切换至致命货运站 Fatal Freight Fix"
+		}
+		"changelevel fos01_roadonhill"
+		{
+			"message" "切换至生还之锋 Front of Survivors v130"
+		}
+		"changelevel msd1_town"
+		{
+			"message" "切换至再见了晨茗 Farewell ChenMing(仅限战役)"
+		}
+		"changelevel highway01_apt_20130613"
+		{
+			"message" "切换至地狱之路 Highway To Hell"
+		}
+		"changelevel AirCrash"
+		{
+			"message" "切换至天堂可待 Heaven Can Wait"
+		}
+		"changelevel hf01_theforest"
+		{
+			"message" "切换至颤栗森林 Haunted Forest"
+		}
+		"changelevel bhm1_outskirts"
+		{
+			"message" "切换至别被丢下 Left Behind"
+		}
+		"changelevel l4d_ihm01_forest"
+		{
+			"message" "切换至我恨山2 I Hate Moutains 2"
+		}
+		"changelevel moonsrevengemap1"
+		{
+			"message" "切换至卫星复仇 Moons Revenge"
+		}
+		"changelevel noecho_m1"
+		{
+			"message" "切换至音讯全无(比赛用图) No Echo (Match)"
+		}
+		"changelevel nmrm1_apartment"
+		{
+			"message" "切换至C8改 No Mercy Rehab"
+		}
+		"changelevel PR1_Waterfront_F"
+		{
+			"message" "切换至C5改 Parish Overgrowth"
+		}
+		"changelevel rh_map01"
+		{
+			"message" "切换至逃至山上 Run To The Hills"
+		}
+		"changelevel l4d_ravenholm01_blackmesa"
+		{
+			"message" "切换至莱温霍姆 Ravenholm"
+		}
+		"changelevel grmap1"
+		{
+			"message" "切换至公路杀手 Road Kill"
+		}
+		"changelevel l4d_tbm_1"
+		{
+			"message" "切换至血腥荒野 The Bloody Moors"
+		}
+		"changelevel eu01_residential_b16"
+		{
+			"message" "切换至恐怖之旅 Tour of Terror"
+		}
+		"changelevel tripday_new_m1"
+		{
+			"message" "切换至新旅行日 Trip Day New"
+		}
+		"changelevel uz_crash"
+		{
+			"message" "切换至亡灵区 Undead Zone"
+		}
+		"changelevel uf1_boulevard"
+		{
+			"message" "切换至城市航班 Urban Flight"
+ 		}
+		"changelevel wfp1_track"
+		{
+			"message" "切换至白森林 White Forest"
+		}
+		"changelevel srocchurch"
+		{
+			"message" "切换至巴塞罗那 Warcelona"
+		}
+		"changelevel l4d2_stadium1_apartment"
+		{
+			"message" "切换至闪电突袭2 Suicide Blitz 2"
+		}
+	}
+	"三方图列表(清道夫)"
+	{
+		"changelevel hotel05_rooftop_two"
+		{
+			"message" "切换至死亡假期 Dead Vacation"
 		}
 		"changelevel nothinggonelast10"
 		{
 			"message" "切换至无人生还 Nothing Last"
 		}
-	}
-	"清道夫模式切换"
-	{
-		"exec match/scavogl/4v4.cfg"
+		"changelevel cedafever_m3"
 		{
-			"message" "Scavogl 4v4 1.1.0"
+			"message" "切换至 CedaFever Rooftop"
 		}
-//		"exec match/scavogl/charge.cfg"
-//		{
-//			"message" "ScavCharge!!!"
-//		}
-		"exec match/scavogl/chargeT1.cfg"
+		"changelevel roofdownthedrain"
 		{
-			"message" "ScavCharge!!! [Tier 1 Only]"
+			"message" "切换至血本无归 Down The Drain"
 		}
-//		"exec match/scavogl/party.cfg"
-//		{
-//			"message" "ScavParty!!!"
-//		}
-//		"exec match/scavogl/ride.cfg"
-//		{
-//			"message" "ScavRide!!!"
-//		}
-		"exec match/scavogl/3v3.cfg"
+		"changelevel nmrm5_rooftop"
 		{
-			"message" "Scavogl 3v3"
+			"message" "切换至C8改屋顶"
 		}
-	  	"exec match/scavogl/2v2.cfg"
-	  	{
-	  		"message" "Scavogl 2v2"
-	  	}
-		"exec match/scavogl/1v1.cfg"
+		"changelevel l4d2_bedrooms3"
 		{
-			"message" "Scavogl 1v1"
+			"message" "切换至巨人卧室Bedroom3 Bit Size"
 		}
-	//	"exec match/scavogl/parvet.cfg"
-	//	{
-	//		"message" "Palvyit 4v4 V.Alpha"
-	//	}
-	}
-	"训练模式切换"
-	{
-		"exec match/scavogl/train1v1.cfg"
+		"changelevel l4d2_deadsite_v1_1"
 		{
-			"message" "ScavTrAin 1v1"
+			"message" "切换至死亡据点 Dead Site"
+		}
+		"changelevel beach"
+		{
+			"message" "切换至海滩小屋 Beach"
 		}
 	}
 	"全局管理"
@@ -115,6 +501,24 @@
 		"exec vote/svalltalk1.cfg"
 		{
 			"message" "开启全体语音"
+		}
+	}
+//	"强制开始游戏"
+//	{
+//		"sm_fs"
+//		{
+//			"message" "强制开始？"
+//		}
+//	}
+	"调整清道夫开局时间"
+	{
+		"exec vote/unlimitedtime.cfg"
+		{
+			"message" "修改时间无限大"
+		}
+		"exec vote/normaltime.cfg"
+		{
+			"message" "修改时间为正常"
 		}
 	}
 }
