@@ -360,7 +360,7 @@
 		{
 			"message" "切换至致命货运站 Fatal Freight Fix"
 		}
-		"changelevel fos01_roadonhill"
+		"changelevel fos1m1_hill"
 		{
 			"message" "切换至生还之锋 Front of Survivors v130"
 		}
