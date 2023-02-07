@@ -467,10 +467,6 @@
 		{
 			"message" "切换至血本无归 Down The Drain"
 		}
-		"changelevel nmrm5_rooftop"
-		{
-			"message" "切换至C8改屋顶"
-		}
 		"changelevel l4d2_bedrooms3"
 		{
 			"message" "切换至巨人卧室Bedroom3 Bit Size"

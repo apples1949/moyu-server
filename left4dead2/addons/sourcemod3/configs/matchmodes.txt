@@ -1,5 +1,12 @@
 "MatchModes"
 {
+	"官方模式 Vanilla Settings"
+	{
+		"versus"
+		{
+			"name" "Versus Vanilla"
+		}
+	}
 	"Acemod Revamped"
 	{
 		"acemodrv"
