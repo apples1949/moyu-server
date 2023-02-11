@@ -1,9 +1,0 @@
-L 01/16/2023 - 13:44:59: [Configs] [c2m1_highway] Custom config directory addons/sourcemod/../../cfg/cfgogl/witchparty does not exist!
-L 01/16/2023 - 15:32:32: [CvarSettings] [c2m1_highway] Could not find CVar specified (confogl_boss_unprohibit)
-L 01/16/2023 - 15:32:32: [CvarSettings] [c2m1_highway] Attempt to track ConVar z_ghost_delay_max, which is already being tracked.
-L 01/16/2023 - 15:32:32: [CvarSettings] [c2m1_highway] Could not find CVar specified (rpg_allow_glow)
-L 01/16/2023 - 15:32:32: [CvarSettings] [c2m1_highway] Could not find CVar specified (join_autoupdate)
-L 01/16/2023 - 16:02:17: [CvarSettings] [c2m1_highway] Could not find CVar specified (confogl_boss_unprohibit)
-L 01/16/2023 - 16:02:17: [CvarSettings] [c2m1_highway] Attempt to track ConVar z_ghost_delay_max, which is already being tracked.
-L 01/16/2023 - 16:02:17: [CvarSettings] [c2m1_highway] Could not find CVar specified (rpg_allow_glow)
-L 01/16/2023 - 16:02:17: [CvarSettings] [c2m1_highway] Could not find CVar specified (join_autoupdate)

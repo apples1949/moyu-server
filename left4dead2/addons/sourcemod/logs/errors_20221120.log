@@ -1,5 +1,0 @@
-L 11/20/2022 - 16:57:25: SourceMod error session started
-L 11/20/2022 - 16:57:25: Info (map "c8m5_rooftop") (file "/root/Steam/steamapps/common/Left 4 Dead 2 Dedicated Server/left4dead2/addons/sourcemod/logs/errors_20221120.log")
-L 11/20/2022 - 16:57:25: [SM] Unable to load extension "left4downtown.ext": /root/Steam/steamapps/common/Left 4 Dead 2 Dedicated Server/left4dead2/addons/sourcemod/extensions/left4downtown.ext.2.l4d2.so: undefined symbol: g_pMemAlloc
-L 11/20/2022 - 16:57:25: [SM] Unable to load plugin "Welcome.smx": Could not find required plugin "l4d2_playtime_interface"
-L 11/21/2022 - 00:27:16: Error log file session closed.

@@ -1,7 +1,0 @@
-L 11/06/2022 - 11:31:49: SourceMod error session started
-L 11/06/2022 - 11:31:49: Info (map "c8m5_rooftop") (file "/root/Steam/steamapps/common/Left 4 Dead 2 Dedicated Server/left4dead2/addons/sourcemod/logs/errors_20221106.log")
-L 11/06/2022 - 11:31:49: [SM] Unable to load plugin "Welcome.smx": Could not find required plugin "l4d2_playtime_interface"
-L 11/06/2022 - 15:58:52: SourceMod error session started
-L 11/06/2022 - 15:58:52: Info (map "c8m5_rooftop") (file "/root/Steam/steamapps/common/Left 4 Dead 2 Dedicated Server/left4dead2/addons/sourcemod/logs/errors_20221106.log")
-L 11/06/2022 - 15:58:52: [SM] Unable to load plugin "Welcome.smx": Could not find required plugin "l4d2_playtime_interface"
-L 11/08/2022 - 22:17:14: Error log file session closed.
