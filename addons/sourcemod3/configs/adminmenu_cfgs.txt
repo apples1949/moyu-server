@@ -4,9 +4,11 @@
  */
 Configs
 {
-	"cfg/server.cfg"			"Standard Server Setup"
+	"cfg/server.cfg"					"Standard Server Setup"
 	"cfg/sourcemod/sm_warmode_on.cfg"	"War Mode On"
 	"cfg/sourcemod/sm_warmode_off.cfg"	"War Mode Off"
-	"cfg/match/scavogl.cfg"		"Exec Scavogl Mode"
-	"cfg/match/parvet.cfg"		"Exec Scavogl Plus Mode"
+	"cfg/match/testmode.cfg"			"加载测试模式"
+	"cfg/match/scavtestmode.cfg"		"加载测试模式(清道夫)"
+	"cfg/sourcemod/unlimitedtime.cfg"	"清道夫开局无限时间"
+	"cfg/sourcemod/normaltime.cfg"		"清道夫开局正常时间"
 }

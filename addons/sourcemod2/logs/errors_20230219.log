@@ -1,0 +1,66 @@
+L 02/19/2023 - 14:34:40: SourceMod error session started
+L 02/19/2023 - 14:34:40: Info (map "c2m1_highway") (file "/root/Steam/steamapps/common/Left 4 Dead 2 Dedicated Server/left4dead2/addons/sourcemod2/logs/errors_20230219.log")
+L 02/19/2023 - 14:34:40: [SM] Parse error(s) detected in file "/root/Steam/steamapps/common/Left 4 Dead 2 Dedicated Server/left4dead2/addons/sourcemod2/configs/admin_levels.cfg":
+L 02/19/2023 - 14:34:40: [SM] (Line 0): Error 1 (Stream failed to open)
+L 02/19/2023 - 14:34:40: [SM] Exception reported: Couldn't load matchmodes.txt!
+L 02/19/2023 - 14:34:40: [SM] Blaming: match_vote.smx
+L 02/19/2023 - 14:34:40: [SM] Call stack trace:
+L 02/19/2023 - 14:34:40: [SM]   [0] SetFailState
+L 02/19/2023 - 14:34:40: [SM]   [1] Line 59, c:\Users\Sir\SourcePawn11\match_vote.sp::OnPluginStart
+L 02/19/2023 - 14:34:40: [SM] Unable to load plugin "match_vote.smx": Error detected in plugin startup (see error logs)
+L 02/19/2023 - 14:34:40: [admin-flatfile.smx] Error(s) detected parsing addons/sourcemod2/configs/admin_levels.cfg
+L 02/19/2023 - 14:34:40: [admin-flatfile.smx]  (line 0) Stream failed to open
+L 02/19/2023 - 14:34:40: [admin-flatfile.smx] Error(s) detected parsing addons/sourcemod2/configs/admin_overrides.cfg
+L 02/19/2023 - 14:34:40: [admin-flatfile.smx]  (line 0) Stream failed to open
+L 02/19/2023 - 14:34:40: [admin-flatfile.smx] Error(s) detected parsing addons/sourcemod2/configs/admin_groups.cfg
+L 02/19/2023 - 14:34:40: [admin-flatfile.smx]  (line 0) Stream failed to open
+L 02/19/2023 - 14:34:40: [admin-flatfile.smx] Error(s) detected parsing addons/sourcemod2/configs/admins.cfg
+L 02/19/2023 - 14:34:40: [admin-flatfile.smx]  (line 0) Stream failed to open
+L 02/19/2023 - 14:34:40: [admin-flatfile.smx]  (line 0) Could not open file!
+L 02/19/2023 - 14:34:42: [basecommands.smx] Unable to locate exec config file, no maps loaded.
+L 02/19/2023 - 14:34:42: [adminmenu.smx] Unable to locate admin menu groups file: addons/sourcemod2/configs/adminmenu_grouping.txt
+L 02/19/2023 - 14:34:43: [adminmenu.smx] Could not load admin menu config (file "addons/sourcemod2/configs/adminmenu_sorting.txt": Stream failed to open)
+L 02/19/2023 - 14:40:14: SourceMod error session started
+L 02/19/2023 - 14:40:14: Info (map "c2m1_highway") (file "/root/Steam/steamapps/common/Left 4 Dead 2 Dedicated Server/left4dead2/addons/sourcemod2/logs/errors_20230219.log")
+L 02/19/2023 - 14:40:14: [SM] Parse error(s) detected in file "/root/Steam/steamapps/common/Left 4 Dead 2 Dedicated Server/left4dead2/addons/sourcemod2/configs/admin_levels.cfg":
+L 02/19/2023 - 14:40:14: [SM] (Line 0): Error 1 (Stream failed to open)
+L 02/19/2023 - 14:40:14: [SM] Exception reported: Couldn't load matchmodes.txt!
+L 02/19/2023 - 14:40:14: [SM] Blaming: match_vote.smx
+L 02/19/2023 - 14:40:14: [SM] Call stack trace:
+L 02/19/2023 - 14:40:14: [SM]   [0] SetFailState
+L 02/19/2023 - 14:40:14: [SM]   [1] Line 59, c:\Users\Sir\SourcePawn11\match_vote.sp::OnPluginStart
+L 02/19/2023 - 14:40:14: [SM] Unable to load plugin "match_vote.smx": Error detected in plugin startup (see error logs)
+L 02/19/2023 - 14:40:15: [admin-flatfile.smx] Error(s) detected parsing addons/sourcemod2/configs/admin_levels.cfg
+L 02/19/2023 - 14:40:15: [admin-flatfile.smx]  (line 0) Stream failed to open
+L 02/19/2023 - 14:40:15: [admin-flatfile.smx] Error(s) detected parsing addons/sourcemod2/configs/admin_overrides.cfg
+L 02/19/2023 - 14:40:15: [admin-flatfile.smx]  (line 0) Stream failed to open
+L 02/19/2023 - 14:40:15: [admin-flatfile.smx] Error(s) detected parsing addons/sourcemod2/configs/admin_groups.cfg
+L 02/19/2023 - 14:40:15: [admin-flatfile.smx]  (line 0) Stream failed to open
+L 02/19/2023 - 14:40:15: [admin-flatfile.smx] Error(s) detected parsing addons/sourcemod2/configs/admins.cfg
+L 02/19/2023 - 14:40:15: [admin-flatfile.smx]  (line 0) Stream failed to open
+L 02/19/2023 - 14:40:15: [admin-flatfile.smx]  (line 0) Could not open file!
+L 02/19/2023 - 14:40:16: [basecommands.smx] Unable to locate exec config file, no maps loaded.
+L 02/19/2023 - 14:40:16: [adminmenu.smx] Unable to locate admin menu groups file: addons/sourcemod2/configs/adminmenu_grouping.txt
+L 02/19/2023 - 14:40:18: [adminmenu.smx] Could not load admin menu config (file "addons/sourcemod2/configs/adminmenu_sorting.txt": Stream failed to open)
+L 02/19/2023 - 14:43:31: SourceMod error session started
+L 02/19/2023 - 14:43:31: Info (map "c2m1_highway") (file "/root/Steam/steamapps/common/Left 4 Dead 2 Dedicated Server/left4dead2/addons/sourcemod2/logs/errors_20230219.log")
+L 02/19/2023 - 14:43:31: [SM] Parse error(s) detected in file "/root/Steam/steamapps/common/Left 4 Dead 2 Dedicated Server/left4dead2/addons/sourcemod2/configs/admin_levels.cfg":
+L 02/19/2023 - 14:43:31: [SM] (Line 0): Error 1 (Stream failed to open)
+L 02/19/2023 - 14:43:32: [SM] Exception reported: Couldn't load matchmodes.txt!
+L 02/19/2023 - 14:43:32: [SM] Blaming: match_vote.smx
+L 02/19/2023 - 14:43:32: [SM] Call stack trace:
+L 02/19/2023 - 14:43:32: [SM]   [0] SetFailState
+L 02/19/2023 - 14:43:32: [SM]   [1] Line 59, c:\Users\Sir\SourcePawn11\match_vote.sp::OnPluginStart
+L 02/19/2023 - 14:43:32: [SM] Unable to load plugin "match_vote.smx": Error detected in plugin startup (see error logs)
+L 02/19/2023 - 14:43:32: [admin-flatfile.smx] Error(s) detected parsing addons/sourcemod2/configs/admin_levels.cfg
+L 02/19/2023 - 14:43:32: [admin-flatfile.smx]  (line 0) Stream failed to open
+L 02/19/2023 - 14:43:32: [admin-flatfile.smx] Error(s) detected parsing addons/sourcemod2/configs/admin_overrides.cfg
+L 02/19/2023 - 14:43:32: [admin-flatfile.smx]  (line 0) Stream failed to open
+L 02/19/2023 - 14:43:32: [admin-flatfile.smx] Error(s) detected parsing addons/sourcemod2/configs/admin_groups.cfg
+L 02/19/2023 - 14:43:32: [admin-flatfile.smx]  (line 0) Stream failed to open
+L 02/19/2023 - 14:43:32: [admin-flatfile.smx] Error(s) detected parsing addons/sourcemod2/configs/admins.cfg
+L 02/19/2023 - 14:43:32: [admin-flatfile.smx]  (line 0) Stream failed to open
+L 02/19/2023 - 14:43:32: [admin-flatfile.smx]  (line 0) Could not open file!
+L 02/19/2023 - 14:43:34: [basecommands.smx] Unable to locate exec config file, no maps loaded.
+L 02/19/2023 - 14:43:34: [adminmenu.smx] Unable to locate admin menu groups file: addons/sourcemod2/configs/adminmenu_grouping.txt
+L 02/19/2023 - 14:43:35: [adminmenu.smx] Could not load admin menu config (file "addons/sourcemod2/configs/adminmenu_sorting.txt": Stream failed to open)

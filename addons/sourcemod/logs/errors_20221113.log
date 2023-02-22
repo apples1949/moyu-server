@@ -1,0 +1,40 @@
+L 11/13/2022 - 11:35:14: SourceMod error session started
+L 11/13/2022 - 11:35:14: Info (map "c8m5_rooftop") (file "/root/Steam/steamapps/common/Left 4 Dead 2 Dedicated Server/left4dead2/addons/sourcemod/logs/errors_20221113.log")
+L 11/13/2022 - 11:35:14: [SM] Unable to load plugin "Welcome.smx": Could not find required plugin "l4d2_playtime_interface"
+L 11/13/2022 - 11:36:13: SourceMod error session started
+L 11/13/2022 - 11:36:13: Info (map "c8m5_rooftop") (file "/root/Steam/steamapps/common/Left 4 Dead 2 Dedicated Server/left4dead2/addons/sourcemod/logs/errors_20221113.log")
+L 11/13/2022 - 11:36:13: [SM] Unable to load plugin "Welcome.smx": Could not find required plugin "l4d2_playtime_interface"
+L 11/13/2022 - 11:39:16: [confoglcompmod.smx] [Confogl] CvarSettings: Could not find CVar specified (l4d2_spit_water_collision)
+L 11/13/2022 - 11:39:16: [confoglcompmod.smx] [Confogl] CvarSettings: Could not find CVar specified (l4d2_car_alarm_settings)
+L 11/13/2022 - 11:39:16: [confoglcompmod.smx] [Confogl] CvarSettings: Could not find CVar specified (l4d2_car_alarm_touch_capped)
+L 11/13/2022 - 11:39:16: [optional/l4d2_weapon_attributes.smx] Bad attribute name: reloadduration.
+L 11/13/2022 - 11:39:16: [optional/l4d2_weapon_attributes.smx] Bad attribute name: reloadduration.
+L 11/13/2022 - 11:39:16: [optional/l4d2_weapon_attributes.smx] Bad attribute name: reloadduration.
+L 11/13/2022 - 11:39:16: [optional/l4d2_weapon_attributes.smx] Bad attribute name: reloadduration.
+L 11/13/2022 - 11:39:19: Error log file session closed.
+L 11/13/2022 - 11:39:20: SourceMod error session started
+L 11/13/2022 - 11:39:20: Info (map "c8m5_rooftop") (file "/root/Steam/steamapps/common/Left 4 Dead 2 Dedicated Server/left4dead2/addons/sourcemod/logs/errors_20221113.log")
+L 11/13/2022 - 11:39:20: [optional/l4d2_weapon_attributes.smx] Bad attribute name: reloadduration.
+L 11/13/2022 - 11:39:20: [optional/l4d2_weapon_attributes.smx] Bad attribute name: reloadduration.
+L 11/13/2022 - 11:39:41: Error log file session closed.
+L 11/13/2022 - 11:39:43: SourceMod error session started
+L 11/13/2022 - 11:39:43: Info (map "c2m1_highway") (file "/root/Steam/steamapps/common/Left 4 Dead 2 Dedicated Server/left4dead2/addons/sourcemod/logs/errors_20221113.log")
+L 11/13/2022 - 11:39:43: [optional/l4d2_weapon_attributes.smx] Bad attribute name: reloadduration.
+L 11/13/2022 - 11:39:43: [optional/l4d2_weapon_attributes.smx] Bad attribute name: reloadduration.
+L 11/13/2022 - 11:44:38: [SM] Unable to load plugin "Welcome.smx": Could not find required plugin "l4d2_playtime_interface"
+L 11/13/2022 - 11:44:49: Error log file session closed.
+L 11/13/2022 - 11:46:51: SourceMod error session started
+L 11/13/2022 - 11:46:51: Info (map "c2m1_highway") (file "/root/Steam/steamapps/common/Left 4 Dead 2 Dedicated Server/left4dead2/addons/sourcemod/logs/errors_20221113.log")
+L 11/13/2022 - 11:46:51: [SM] Unable to load plugin "Welcome.smx": Could not find required plugin "l4d2_playtime_interface"
+L 11/13/2022 - 11:47:08: SourceMod error session started
+L 11/13/2022 - 11:47:08: Info (map "c8m5_rooftop") (file "/root/Steam/steamapps/common/Left 4 Dead 2 Dedicated Server/left4dead2/addons/sourcemod/logs/errors_20221113.log")
+L 11/13/2022 - 11:47:08: [SM] Unable to load plugin "Welcome.smx": Could not find required plugin "l4d2_playtime_interface"
+L 11/13/2022 - 12:58:02: [SM] Exception reported: Cannot ban fake client 2
+L 11/13/2022 - 12:58:02: [SM] Blaming: basevotes.smx
+L 11/13/2022 - 12:58:02: [SM] Call stack trace:
+L 11/13/2022 - 12:58:02: [SM]   [0] BanClient
+L 11/13/2022 - 12:58:02: [SM]   [1] Line 379, /home/builds/sourcemod/linux-1.11/build/plugins/basevotes.sp::Handler_VoteCallback
+L 11/13/2022 - 12:58:31: SourceMod error session started
+L 11/13/2022 - 12:58:31: Info (map "c8m5_rooftop") (file "/root/Steam/steamapps/common/Left 4 Dead 2 Dedicated Server/left4dead2/addons/sourcemod/logs/errors_20221113.log")
+L 11/13/2022 - 12:58:31: [SM] Unable to load plugin "Welcome.smx": Could not find required plugin "l4d2_playtime_interface"
+L 11/17/2022 - 12:35:46: Error log file session closed.

@@ -1,0 +1,39 @@
+"Phrases"
+{
+	"min_duration"
+	{
+		"en"			"%dmin %ds"
+		"chi"			"%d分%d秒"
+	}
+
+	"s_duration"
+	{
+		"en"			"%ds"
+		"chi"			"%d秒"
+	}
+
+	"fact_title"
+	{
+		"en"			"[{green}!{default}] {blue}Facts {default}of the {blue}Tank {default}({olive}%s{default})"
+		"chi"			"[{green}!{default}] {blue}Tank({olive}%s{default})造成的{blue}伤害"
+	}
+
+	"fact_line1"
+	{
+		"en"			"{green}> {default}Punch: {red}%d {green}/ {default}Rock: {red}%d {green}/ {default}Hittable: {red}%d"
+		"chi"			"{green}> {default}拳：{red}%d {green}/ {default}石：{red}%d {green}/ {default}铁：{red}%d"
+	}
+
+	"fact_line2"
+	{
+		"en"			"{green}> {default}Incap: {olive}%d {green}/ Death: {default}{olive}%d {default}from {blue}Survivors"
+		"chi"			"{green}> {default}倒地：{olive}%d {green}/ {default}死亡：{olive}%d {default}"
+	}
+
+	"fact_line3"
+	{
+		"en"			"{green}> {default}Duration: {lightgreen}%s {green}/ {default}Total damage: {lightgreen}%d"
+		"chi"			"{green}> {default}存活：{lightgreen}%s {green}/ {default}总伤害: {lightgreen}%d"
+	}
+
+}

@@ -11,3 +11,9 @@ That is all, have a wonderful day~
 
 
 
+2023/02/05 21:53:46 [Version 1.7.1] {Name: "理塘第一一号位急先锋" | SteamID: STEAM_1:1:525570479 | IP: 180.110.30.134} was detected and banned for Angle-Cheats (Pitch: 363.92, Yaw: 103.10, Roll: 357.89).
+	Pos={1752,4565,405}, Angles={363.92269,103.10929,357.89062}, Map="l4d_tbm_5", Team={2}, Weapon="weapon_pistol_magnum", Latency={Inc:0.000060,Out:0.036856}, Loss={Inc:0.000000,Out:0.000000}, Choke={Inc:0.004516,Out:0.000000}, ConnectionTime={3797.406982 seconds}, GameTime={357.899993 seconds}
+2023/02/05 21:54:00 [Version 1.7.1] {Name: "理塘第一二号位霹雳火" | SteamID: STEAM_1:1:514896063 | IP: 112.98.244.229} was detected and banned for Angle-Cheats (Pitch: 368.55, Yaw: 120.14, Roll: 357.89).
+	Pos={1751,4567,405}, Angles={368.55651,120.14388,357.89062}, Map="l4d_tbm_5", Team={2}, Weapon="weapon_rifle_m60", Latency={Inc:0.000057,Out:0.069402}, Loss={Inc:0.000000,Out:0.000000}, Choke={Inc:0.488900,Out:0.000000}, ConnectionTime={4568.260253 seconds}, GameTime={372.089996 seconds}
+2023/02/07 00:06:53 [Version 1.7.1] {Name: "希望你永远开心" | SteamID: STEAM_1:0:706443645 | IP: 101.36.107.109} was detected and banned for Angle-Cheats (Pitch: 361.32, Yaw: 102.14, Roll: 357.89).
+	Pos={1750,4567,405}, Angles={361.32019,102.14044,357.89062}, Map="l4d_tbm_5", Team={2}, Weapon="weapon_melee", Latency={Inc:0.000051,Out:0.104936}, Loss={Inc:0.009372,Out:0.000000}, Choke={Inc:0.000000,Out:0.010253}, ConnectionTime={4378.530761 seconds}, GameTime={223.720001 seconds}

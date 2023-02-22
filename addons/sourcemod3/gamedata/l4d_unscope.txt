@@ -1,0 +1,26 @@
+"Games"
+{
+	"left4dead"
+	{
+		"Offsets"
+		{
+			"CTerrorGun::CycleZoom"
+			{
+				"windows"	"370"
+				"linux"		"371"
+			}
+		}
+	}
+
+	"left4dead2"
+	{
+		"Offsets"
+		{
+			"CTerrorGun::CycleZoom"
+			{
+				"windows"	"395"
+				"linux"		"396"
+			}
+		}
+	}
+}

@@ -1,0 +1,79 @@
+L 01/31/2023 - 10:16:29: [CvarSettings] [c2m1_highway] Could not find CVar specified (confogl_boss_unprohibit)
+L 01/31/2023 - 10:16:29: [CvarSettings] [c2m1_highway] Attempt to track ConVar confogl_pills_limit, which is already being tracked.
+L 01/31/2023 - 10:16:29: [CvarSettings] [c2m1_highway] Could not find CVar specified (l4d2_MITSR_Pitchfork)
+L 01/31/2023 - 10:16:29: [CvarSettings] [c2m1_highway] Could not find CVar specified (l4d2_MITSR_Shovel)
+L 01/31/2023 - 10:16:29: [CvarSettings] [c2m1_highway] Attempt to track ConVar z_ghost_delay_max, which is already being tracked.
+L 01/31/2023 - 10:16:29: [CvarSettings] [c2m1_highway] Attempt to track ConVar z_jockey_ride_damage, which is already being tracked.
+L 01/31/2023 - 10:16:29: [CvarSettings] [c2m1_highway] Attempt to track ConVar z_jockey_ride_damage_interval, which is already being tracked.
+L 01/31/2023 - 10:16:29: [CvarSettings] [c2m1_highway] Attempt to track ConVar tongue_choke_damage_amount, which is already being tracked.
+L 01/31/2023 - 10:16:29: [CvarSettings] [c2m1_highway] Could not find CVar specified (rpg_allow_glow)
+L 01/31/2023 - 10:16:29: [CvarSettings] [c2m1_highway] Could not find CVar specified (join_autoupdate)
+L 01/31/2023 - 10:24:38: [CvarSettings] [c2m1_highway] Could not find CVar specified (confogl_boss_unprohibit)
+L 01/31/2023 - 10:24:38: [CvarSettings] [c2m1_highway] Attempt to track ConVar z_ghost_delay_max, which is already being tracked.
+L 01/31/2023 - 10:24:38: [CvarSettings] [c2m1_highway] Could not find CVar specified (rpg_allow_glow)
+L 01/31/2023 - 10:24:38: [CvarSettings] [c2m1_highway] Could not find CVar specified (join_autoupdate)
+L 01/31/2023 - 13:33:26: [CvarSettings] [c2m1_highway] Could not find CVar specified (l4d_ready_countdown)
+L 01/31/2023 - 13:33:26: [CvarSettings] [c2m1_highway] Could not find CVar specified (l4d_ready_timeout)
+L 01/31/2023 - 13:33:26: [CvarSettings] [c2m1_highway] Could not find CVar specified (confogl_boss_unprohibit)
+L 01/31/2023 - 13:33:26: [CvarSettings] [c2m1_highway] Could not find CVar specified (confogl_disable_ghost_hurt)
+L 01/31/2023 - 13:33:26: [CvarSettings] [c2m1_highway] Could not find CVar specified (confogl_remove_inf_clips)
+L 01/31/2023 - 13:33:26: [CvarSettings] [c2m1_highway] Could not find CVar specified (confogl_remove_c5m4_hurts)
+L 01/31/2023 - 13:33:26: [CvarSettings] [c2m1_highway] Could not find CVar specified (confogl_remove_parachutist)
+L 01/31/2023 - 13:33:26: [CvarSettings] [c2m1_highway] Attempt to track ConVar z_gun_swing_vs_min_penalty, which is already being tracked.
+L 01/31/2023 - 13:33:26: [CvarSettings] [c2m1_highway] Attempt to track ConVar hunter_pz_claw_dmg, which is already being tracked.
+L 01/31/2023 - 13:33:26: [CvarSettings] [c2m1_highway] Attempt to track ConVar sb_close_checkpoint_door_interval, which is already being tracked.
+L 01/31/2023 - 13:33:26: [CvarSettings] [c2m1_highway] Attempt to track ConVar sb_combat_saccade_speed, which is already being tracked.
+L 01/31/2023 - 13:33:26: [CvarSettings] [c2m1_highway] Attempt to track ConVar sb_max_team_melee_weapons, which is already being tracked.
+L 01/31/2023 - 13:33:26: [CvarSettings] [c2m1_highway] Attempt to track ConVar sb_normal_saccade_speed, which is already being tracked.
+L 01/31/2023 - 13:33:26: [CvarSettings] [c2m1_highway] Attempt to track ConVar sb_sidestep_for_horde, which is already being tracked.
+L 01/31/2023 - 13:33:26: [CvarSettings] [c2m1_highway] Could not find CVar specified (l4d_boss_vote)
+L 01/31/2023 - 13:33:26: [CvarSettings] [c2m1_highway] Could not find CVar specified (simple_antibhop_enable)
+L 01/31/2023 - 13:33:26: [CvarSettings] [c2m1_highway] Could not find CVar specified (bhop_allow_survivor)
+L 01/31/2023 - 13:33:26: [CvarSettings] [c2m1_highway] Could not find CVar specified (bhop_except_si_flags)
+L 01/31/2023 - 13:33:26: [CvarSettings] [c2m1_highway] Could not find CVar specified (l4d2_delayshow_tankhud_time)
+L 01/31/2023 - 13:33:26: [CvarSettings] [c2m1_highway] Could not find CVar specified (l4d_current_mode)
+L 01/31/2023 - 13:33:26: [CvarSettings] [c2m1_highway] Could not find CVar specified (cssladders_debug)
+L 01/31/2023 - 13:33:26: [CvarSettings] [c2m1_highway] Could not find CVar specified (cssc_all_entities)
+L 01/31/2023 - 13:33:26: [CvarSettings] [c2m1_highway] Could not find CVar specified (l4d2_melee_tank_nerf)
+L 01/31/2023 - 13:33:26: [CvarSettings] [c2m1_highway] Could not find CVar specified (sm_unsilentjockey_enabled)
+L 01/31/2023 - 13:33:26: [CvarSettings] [c2m1_highway] Could not find CVar specified (sm_unsilentjockey_always)
+L 01/31/2023 - 13:33:26: [CvarSettings] [c2m1_highway] Could not find CVar specified (sm_unsilentjockey_time)
+L 01/31/2023 - 13:33:26: [CvarSettings] [c2m1_highway] Could not find CVar specified (sm_uncinfblock_types)
+L 01/31/2023 - 13:33:26: [CvarSettings] [c2m1_highway] Could not find CVar specified (ai_tank_rock)
+L 01/31/2023 - 13:33:26: [CvarSettings] [c2m1_highway] Could not find CVar specified (sm2_bonus_per_survivor_multiplier)
+L 01/31/2023 - 13:33:26: [CvarSettings] [c2m1_highway] Could not find CVar specified (sm2_permament_health_proportion)
+L 01/31/2023 - 13:33:26: [CvarSettings] [c2m1_highway] Could not find CVar specified (sm2_pills_hp_factor)
+L 01/31/2023 - 13:33:26: [CvarSettings] [c2m1_highway] Could not find CVar specified (sm2_pills_max_bonus)
+L 01/31/2023 - 13:33:26: [CvarSettings] [c2m1_highway] Could not find CVar specified (sm2_pills_bonus_factor)
+L 01/31/2023 - 13:33:26: [CvarSettings] [c2m1_highway] Could not find CVar specified (sm2_med_hp_factor)
+L 01/31/2023 - 13:33:26: [CvarSettings] [c2m1_highway] Could not find CVar specified (sm2_med_max_bonus)
+L 01/31/2023 - 13:33:26: [CvarSettings] [c2m1_highway] Could not find CVar specified (sm2_med_bonus_factor)
+L 01/31/2023 - 13:33:26: [CvarSettings] [c2m1_highway] Could not find CVar specified (sm2_throw_factor)
+L 01/31/2023 - 13:33:26: [CvarSettings] [c2m1_highway] Could not find CVar specified (sm2_throw_max_bonus)
+L 01/31/2023 - 13:33:26: [CvarSettings] [c2m1_highway] Could not find CVar specified (sm2_throw_bonus_factor)
+L 01/31/2023 - 13:33:26: [CvarSettings] [c2m1_highway] Could not find CVar specified (sm2_perm_worth)
+L 01/31/2023 - 13:33:26: [CvarSettings] [c2m1_highway] Could not find CVar specified (sm2_temp_worth)
+L 01/31/2023 - 13:33:26: [CvarSettings] [c2m1_highway] Attempt to track ConVar l4d2_MITSR_BaseballBat, which is already being tracked.
+L 01/31/2023 - 13:33:26: [CvarSettings] [c2m1_highway] Could not find CVar specified (randerion_l4d2_survivor_bot_health_mul)
+L 01/31/2023 - 13:33:26: [CvarSettings] [c2m1_highway] Could not find CVar specified (l4d_tank_throw_boomer)
+L 01/31/2023 - 13:33:26: [CvarSettings] [c2m1_highway] Could not find CVar specified (l4d_tank_throw_charger)
+L 01/31/2023 - 13:33:26: [CvarSettings] [c2m1_highway] Could not find CVar specified (l4d_tank_throw_hunter)
+L 01/31/2023 - 13:33:26: [CvarSettings] [c2m1_highway] Could not find CVar specified (l4d_tank_throw_jockey)
+L 01/31/2023 - 13:33:26: [CvarSettings] [c2m1_highway] Could not find CVar specified (l4d_tank_throw_smoker)
+L 01/31/2023 - 13:33:26: [CvarSettings] [c2m1_highway] Could not find CVar specified (l4d_tank_throw_spitter)
+L 01/31/2023 - 13:33:26: [CvarSettings] [c2m1_highway] Could not find CVar specified (l4d_tank_throw_tank)
+L 01/31/2023 - 13:33:26: [CvarSettings] [c2m1_highway] Could not find CVar specified (l4d_tank_throw_witch)
+L 01/31/2023 - 13:33:26: [CvarSettings] [c2m1_highway] Could not find CVar specified (l4d_tank_throw_self)
+L 01/31/2023 - 13:33:26: [CvarSettings] [c2m1_highway] Could not find CVar specified (l4d_tank_throw_si_player)
+L 01/31/2023 - 13:33:26: [CvarSettings] [c2m1_highway] Attempt to track ConVar z_pounce_stumble_radius, which is already being tracked.
+L 01/31/2023 - 13:33:26: [CvarSettings] [c2m1_highway] Attempt to track ConVar z_ghost_delay_max, which is already being tracked.
+L 01/31/2023 - 13:33:26: [CvarSettings] [c2m1_highway] Attempt to track ConVar z_jockey_ride_damage, which is already being tracked.
+L 01/31/2023 - 13:33:26: [CvarSettings] [c2m1_highway] Attempt to track ConVar z_jockey_ride_damage_interval, which is already being tracked.
+L 01/31/2023 - 13:33:26: [CvarSettings] [c2m1_highway] Attempt to track ConVar tank_burn_duration, which is already being tracked.
+L 01/31/2023 - 13:33:26: [CvarSettings] [c2m1_highway] Attempt to track ConVar tongue_choke_damage_amount, which is already being tracked.
+L 01/31/2023 - 13:33:26: [CvarSettings] [c2m1_highway] Could not find CVar specified (rpg_allow_glow)
+L 01/31/2023 - 13:33:26: [CvarSettings] [c2m1_highway] Could not find CVar specified (join_autoupdate)
+L 01/31/2023 - 14:11:23: [CvarSettings] [l4d2_daybreak01_hotel] Could not find CVar specified (confogl_boss_unprohibit)
+L 01/31/2023 - 14:11:23: [CvarSettings] [l4d2_daybreak01_hotel] Attempt to track ConVar z_ghost_delay_max, which is already being tracked.
+L 01/31/2023 - 14:11:23: [CvarSettings] [l4d2_daybreak01_hotel] Could not find CVar specified (rpg_allow_glow)
+L 01/31/2023 - 14:11:23: [CvarSettings] [l4d2_daybreak01_hotel] Could not find CVar specified (join_autoupdate)

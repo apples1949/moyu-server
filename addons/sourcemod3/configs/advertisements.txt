@@ -19,34 +19,34 @@
 {
     "1"
     {
-        "chat"		"{lightgreen}你是一个一个"
+        "chat"		"{lightgreen}none"
     }
     "2"
     {
-        "chat"		"{lightgreen}#3 摸鱼经典配置服.服op:{green}金鱼.{lightgreen}本服集合各类官方模式，并做稍加修改."
+        "chat"		"{lightgreen}<{yellow}moyu servers{lightgreen}>{green}/match更换模式 /rmatch卸载模式\n{green}/vote投票 /mix选人 /mixrandom随机选人\n{green}/servers查询群服 /chmap章节换图 /chmap2地图换图"
     }
     "3"
     {
-        "chat"		"{lightgreen}/vote换图全局调控,/match选择模式,/servers查看其他群服"
+        "chat"		"{lightgreen}<{yellow}moyu servers{lightgreen}>{green}#3摸鱼官改模式服。服op:{yellow}金鱼\n{green}本服正在不断适配并自改其他插件，支持近50张三方图"
     }
     "4"
     {
-        "chat"		"{lightgreen}0-100lerps,100t支持"
+        "chat"		"{lightgreen}<{yellow}moyu servers{lightgreen}>{green}bug挺多，还请理解"
     }
     "5"
     {
-        "chat"		"{lightgreen}"
-    }
+        "chat"		"{lightgreen}<{yellow}moyu servers{lightgreen}>{green}服务器github项目地址{yellow}https://github.com/blueblur0730/moyu-server"
+    {
     "6"
     {
-        "chat"		"{lightgreen}"
+        "chat"		"{lightgreen}<{yellow}moyu servers{lightgreen}>{green}我想摸鱼=3="
     }
     "7"
     {
-        "chat"		"{green}{lightgreen}"
+        "chat"		"{lightgreen}<{yellow}moyu servers{lightgreen}>{green}随便玩玩，开心就好 :3"
     }
     "8"
     {
-        "chat"		"{green}{lightgreen}"
+        "chat"		"{lightgreen}<{yellow}moyu servers{lightgreen}>{green}本服隶属于{yellow}Night Wishing{green}服务器组，服务器qq群{yellow}608715841.{green}加入群聊与小伙伴一起开黑。\n{green}加入我们的Steam组可以获取更多信息！"
     }
 }

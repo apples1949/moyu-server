@@ -254,201 +254,6 @@
    			"message" "切换至c14m2"
 	 	}
 	}
-	"三方图列表"
-	{
-		"changelevel 2019_M1b"
-		{
-			"message" "切换至2019"
-		}
-		"changelevel l4d_149_1"
-		{
-			"message" "切换至One4Nine"
-		}
-		"changelevel jsarena201_town"
-		{
-			"message" "切换至死亡竞技场2 Arena of The Dead 2"
-		}
-		"changelevel l4d2_bts01_forest"
-		{
-			"message" "切换至回到学校 Back To School"
-		}
-		"changelevel bloodtracks_01"
-		{
-			"message" "切换至嗜血轨道 Blood Tracks"
-		}
-		"changelevel cwm1_intro"
-		{
-			"message" "切换至绝处逢生 Carried Off"
-		}
-		"changelvel CCR1_alleys"
-		{
-			"message" "切换至C9改 Crash Course Rerouted"
-		}
-		"changelevel cotd01_apartments"
-		{
-			"message" "切换至活死人之城 City of The Dead"
-		}
-		"changelevel cedafever_m1"
-		{
-			"message" "切换至CedaFever"
-		}
-		"changelevel l4d2_city17_01"
-		{
-			"message" "切换至17号城 City17"
-		}
-		"changelevel dkr_m1_motel"
-		{
-			"message" "切换至C2改 Dark Canival Remix"
-		}
-		"changelevel c5m1_darkwaterfront"
-		{
-			"message" "切换至黑暗教区C5 Dark Parish"
-		}
-		"changelevel l4d2_darkblood01_tanker"
-		{
-			"message" "切换至暗血涌动2 Dark Blood 2"
-		}
-		"changelevel dcr_m1_hotel"
-		{
-			"message" "切换至C1改 Dead Center Rebirth"
-		}
-		"changelevel l4d2_deathwoods01_stranded"
-		{
-			"message" "切换至死亡丛林 Death Woods"
-		}
-		"changelevel dprm1_milltown_a"
-		{
-			"message" "切换至C4改 Downpour"
-		}
-		"changelevel death_sentence_1"
-		{
-			"message" "切换至死刑 Death Sentence"
-		}
-		"changelevel ddg1_tower_v2_1"
-		{
-			"message" "切换至绝命峡谷 Drop Dead Gorges"
-		}
-		"changelevel daredux_map1_docks_aw"
-		{
-			"message" "切换至C11改 Dead Air Redux"
-		}
-		"changelevel l4d2_diescraper1_apartment_361"
-		{
-			"message" "切换至喋血蜃楼 Diescraper Redux"
-		}
-		"changelevel l4d2_daybreak01_hotel"
-		{
-			"message" "切换至黎明 Day Break"
-		}
-		"changelevel deadbeat01_forest"
-		{
-			"message" "切换至无缝逃离 DeadBeat Escape"
-		}
-		"changelevel cdta_01detour"
-		{
-			"message" "切换至迂回前进 Detour Ahead"
-		}
-		"changelevel l4d_dbd2dc_anna_is_gone"
-		{
-			"message" "切换至活死人黎明2 Dead Before Dawn 2"
-		}
-		"changelevel ec01_outlets"
-		{
-			"message" "切换至能源危机 Energy Crisis"
-		}
-		"changelevel l4d2_ff01_woods"
-		{
-			"message" "切换至致命货运站 Fatal Freight Fix"
-		}
-		"changelevel fos01_roadonhill"
-		{
-			"message" "切换至生还之锋 Front of Survivors v130"
-		}
-		"changelevel msd1_town"
-		{
-			"message" "切换至再见了晨茗 Farewell ChenMing(仅限战役)"
-		}
-		"changelevel highway01_apt_20130613"
-		{
-			"message" "切换至地狱之路 Highway To Hell"
-		}
-		"changelevel AirCrash"
-		{
-			"message" "切换至天堂可待 Heaven Can Wait"
-		}
-		"changelevel hf01_theforest"
-		{
-			"message" "切换至颤栗森林 Haunted Forest"
-		}
-		"changelevel bhm1_outskirts"
-		{
-			"message" "切换至别被丢下 Left Behind"
-		}
-		"changelevel l4d_ihm01_forest"
-		{
-			"message" "切换至我恨山2 I Hate Moutains 2"
-		}
-		"changelevel moonsrevengemap1"
-		{
-			"message" "切换至卫星复仇 Moons Revenge"
-		}
-		"changelevel noecho_m1"
-		{
-			"message" "切换至音讯全无(比赛用图) No Echo (Match)"
-		}
-		"changelevel nmrm1_apartment"
-		{
-			"message" "切换至C8改 No Mercy Rehab"
-		}
-		"changelevel PR1_Waterfront_F"
-		{
-			"message" "切换至C5改 Parish Overgrowth"
-		}
-		"changelevel rh_map01"
-		{
-			"message" "切换至逃至山上 Run To The Hills"
-		}
-		"changelevel l4d_ravenholm01_blackmesa"
-		{
-			"message" "切换至莱温霍姆 Ravenholm"
-		}
-		"changelevel grmap1"
-		{
-			"message" "切换至公路杀手 Road Kill"
-		}
-		"changelevel l4d_tbm_1"
-		{
-			"message" "切换至血腥荒野 The Bloody Moors"
-		}
-		"changelevel eu01_residential_b16"
-		{
-			"message" "切换至恐怖之旅 Tour of Terror"
-		}
-		"changelevel tripday_new_m1"
-		{
-			"message" "切换至新旅行日 Trip Day New"
-		}
-		"changelevel uz_crash"
-		{
-			"message" "切换至亡灵区 Undead Zone"
-		}
-		"changelevel uf1_boulevard"
-		{
-			"message" "切换至城市航班 Urban Flight"
- 		}
-		"changelevel wfp1_track"
-		{
-			"message" "切换至白森林 White Forest"
-		}
-		"changelevel srocchurch"
-		{
-			"message" "切换至巴塞罗那 Warcelona"
-		}
-		"changelevel l4d2_stadium1_apartment"
-		{
-			"message" "切换至闪电突袭2 Suicide Blitz 2"
-		}
-	}
 	"三方图列表(清道夫)"
 	{
 		"changelevel hotel05_rooftop_two"
@@ -466,6 +271,10 @@
 		"changelevel roofdownthedrain"
 		{
 			"message" "切换至血本无归 Down The Drain"
+		}
+		"changelevel nmrm5_rooftop"
+		{
+			"message" "切换至C8改屋顶"
 		}
 		"changelevel l4d2_bedrooms3"
 		{
@@ -497,24 +306,6 @@
 		"exec vote/svalltalk1.cfg"
 		{
 			"message" "开启全体语音"
-		}
-	}
-//	"强制开始游戏"
-//	{
-//		"sm_fs"
-//		{
-//			"message" "强制开始？"
-//		}
-//	}
-	"调整清道夫开局时间"
-	{
-		"exec vote/unlimitedtime.cfg"
-		{
-			"message" "修改时间无限大"
-		}
-		"exec vote/normaltime.cfg"
-		{
-			"message" "修改时间为正常"
 		}
 	}
 }

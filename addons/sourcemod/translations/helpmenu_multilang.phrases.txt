@@ -1,0 +1,194 @@
+"Phrases"
+{
+	"Help Menu Tag"
+	{
+		"en"			"{lightblue}[{green}Help Menu{lightblue}]"
+		"ru"			"{lightblue}[{green}Меню помощи{lightblue}]"
+		"chi"			"{lightblue}[{green}帮助菜单{lightblue}]"
+	}
+	"Help Menu Title"
+	{
+		"en"			">Help Menu<"
+		"ru"			">Меню помощи<"
+		"chi"			">萌新请看<"
+	}
+	"Help Menu TRules"
+	{
+		"en"			"Server Rules"
+		"ru"			"Правила Сервера"
+		"chi"			"服务器村规"
+	}
+	"Help Menu TInfo"
+	{
+		"en"			"Server Information"
+		"ru"			"Информация о сервере"
+		"chi"			"服务器信息"
+	}
+	"Help Menu TCommands"
+	{
+		"en"			"Commands Menu"
+		"ru"			"Меню команд"
+		"chi"			"常用指令"
+	}
+	"Admin TCommands"
+	{
+		"en"			"Admin Commands"
+		"chi"			"管理员指令"
+	}
+	"Enable Show"
+	{
+		"en"			"Enable Show"
+		"ru"			"Включить показ"
+		"chi"			"保持开启"
+	}
+	"No Longer Show"
+	{
+		"en"			"No Longer Show"
+		"ru"			"Больше не показывать"
+		"chi"			"不再显示"
+	}
+	"Server Rules"
+	{
+		"en"			"Server Rules"
+		"ru"			"Правила на сервере"
+		"chi"			"服务器村规"
+	}
+	"Server Commands"
+	{
+		"en"			"Server Commands"
+		"ru"			"Команды на сервере"
+		"chi"			"服务器指令"
+	}
+	"Admin Commands"
+	{
+		"en"			"Admin Commands"
+		"chi"			"管理员指令"
+	}
+	"Server Info"
+	{
+		"en"			"Server Info"
+		"ru"			"Информация о сервере"
+		"chi"			"服务器信息"
+	}
+	"Help Menu Show Disable"
+	{
+		"en"			"{default}Help Menu will {red}no longer be {default}displayed when connecting"
+		"ru"			"{default}Меню Помощи больше {red}не будет {default}показваться при заходе"
+		"chi"			"{default}帮助菜单将{red}不会再{default}连接时展示"
+	}
+	"Help Menu Show Enable"
+	{
+		"en"			"{default}You have {green}turned on {default}the Help Menu display"
+		"ru"			"{default}Вы {green}включили {default}показ меню помощи"
+		"chi"			"{default}你已将帮助菜单{green}打开"
+	}
+	"Help Menu Config Reload"
+	{
+		"en"			"{orange}The command config has been reloaded"
+		"ru"			"{orange}Конфиг команд был перезагружен"
+		"chi"			"{orange}命令设置已重新加载"
+	}
+	"Help Text Main"
+	{
+		"en"			"You are connected to: {SERVERNAME} \nUse this menu for reference"
+		"ru"			"Вы зашли на: {SERVERNAME}\nИспользуйте это меню для справки"
+		"chi"			"你已连接至: {SERVERNAME} \n欢迎来本服务器组游玩！"
+	}
+	"Help Text Rules"
+	{
+		"en"			"Forbidden:\n-Use cheats\n-Insult other players\n-Use foul language\n-Spam/Flood\n-Interfere with other players\n-Use any bugs"
+		"ru"			"Запрещено:\n-Использовать читы\n-Оскорблять других игроков\n-Использовать нецензурные выражения\n-Спамить/Флудить\n-Мешать другим игрокам\n-Использовать любые баги"
+		"chi"			"请禁止:\n-使用作弊脚本或软件\n-侮辱攻击其他玩家\n-嘴臭\n-倾倒垃圾信息\n-干扰其他玩家游玩\n-使用任何bug"
+	}
+	"Help Text Info"
+	{
+		"en"			"Server Name: {SERVERNAME}\nPlayers: {PL}/{PLMAX}\nTickrate: {TIC}\nYour Name: {NAME}\nYour SteamID: {STEAMID}\nYour IP: {PLIP}\nMap: {MAP}\nDate and Time: {DATE} {TIME}\nMain Admin: blueblur\nQQ Group: 608715841"
+		"ru"			"Имя сервера:{SERVERNAME}\nPlayers: {PL}/{PLMAX}\nТикрейт: {TIC}\nYour Name: {NAME}\nYour SteamID: {STEAMID}\nYour IP: {PLIP}\nКарта: {MAP}\nДата и время: {DATE} {TIME}\nГлавный админ: blueblur\nQQ Group: 608715841"
+		"chi"			"服务器名称: {SERVERNAME}\n服务器人数: {PL}/{PLMAX}\nTickrate: {TIC}\n你的名称: {NAME}\n你的SteamID: {STEAMID}\n你的IP: {PLIP}\n地图: {MAP}\n日期与时间: {DATE} {TIME}\n主要管理员: 金鱼\nQQ群: 608715841"
+	}
+	"Translate Command RTV"
+	{
+		"en"			"!rtv - vote for map change"
+		"ru"			"!rtv - проголосовать за смену карты"
+	}
+	"Translate Command NOMINATE"
+	{
+		"en"			"!nominate - for map nomination"
+		"ru"			"!nominate - для номинации карты"
+	}
+	"vote"
+	{
+		"en"			"!vote - Vote to change gamemodes/maps/game settings"
+		"chi"			"!vote - 投票改变游戏模式/地图/全局设定"
+	}
+	"spec"
+	{
+		"en"			"!s - Become a spectator"
+		"chi"			"!s - 成为旁观"
+	}
+	"ready"
+	{
+		"en"			"!ready/!unready(F1/F2) - To be ready when the round starts or is paused"
+		"chi"			"!ready/!unready(F1/F2) - 在游戏开始前或暂停时准备"
+	}
+	"spechud"
+	{
+		"en"			"!spechud - Turn on the spectator hud when spectates"
+		"chi"			"!spechud - 打开旁观者hud"
+	}
+	"match"
+	{
+		"en"			"!match/!rmatch - To select a gamemode to play or unload a gamemode that is currently playing"
+		"chi"			"!match/!rmatch - 选择一个模式进行游玩或卸载当前正在游玩的模式"
+	}
+	"servers"
+	{
+		"en"			"!servers - Check the current status of our servers"
+		"chi"			"!servers - 查看其他群服当前状态"
+	}
+	"hud"
+	{
+		"en"			"!show/!hide - Turn on/off the readyup panel"
+		"chi"			"!show/!hide - 打开/关闭准备面板"
+	}
+	"myinfo"
+	{
+		"en"			"!myinfo - Show your current info"
+		"chi"			"!myinfo - 显示你当前的信息"
+	}
+	"admin"
+	{
+		"en"			"!admin - Turn on the admin panel"
+		"chi"			"!admin - 打开管理员菜单"
+	}
+	"map"
+	{
+		"en"			"!map - Change Map"
+		"chi"			"!map - 换图"
+	}
+	"ban"
+	{
+		"en"			"!ban - Ban a player locally"
+		"chi"			"!ban - 本地封禁玩家"
+	}
+	"addban"
+	{
+		"en"			"!addban - Ban a player through Sourceban"
+		"chi"			"!addban - 通过联合封禁来封禁玩家"
+	}
+	"cvar"
+	{
+		"en"			"!cvar - Change a Cvar value from server"
+		"chi"			"!cvar - 改变服务器的一个Cvar值"
+	}
+	"rcon"
+	{
+		"en"			"!rcon - Use RCON to change server settings"
+		"chi"			"!rcon - 使用RCON改变服务器设定"
+	}
+	"fs"
+	{
+		"en"			"!fs - Force to start the game"
+		"chi"			"!fs - 强制开始游戏"
+	}
+}

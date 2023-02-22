@@ -1,0 +1,214 @@
+"三方图列表"
+{
+    "changelevel 2019_M1b"
+    {
+        "message" "2019"
+    }
+    "changelevel l4d_149_1"
+    {
+        "message" "One4Nine"
+    }
+    "changelevel jsarena201_town"
+    {
+        "message" "死亡竞技场2 Arena of The Dead 2"
+    }
+    "changelevel l4d2_bts01_forest"
+    {
+        "message" "回到学校 Back To School"
+    }
+    "changelevel bloodtracks_01"
+    {
+        "message" "嗜血轨道 Blood Tracks"
+    }
+    "changelvel CCR1_alleys"
+    {
+        "message" "C9改 Crash Course Rerouted"
+    }
+    "changelevel cwm1_intro"
+    {
+        "message" "绝处逢生 Carried Off"
+    }
+    "changelevel cotd01_apartments"
+    {
+        "message" "活死人之城 City of The Dead"
+    }
+    "changelevel cedafever_m1"
+    {
+        "message" "CedaFever"
+    }
+    "changelevel l4d2_city17_01"
+    {
+        "message" "17号城 City17"
+    }
+    "changelevel dkr_m1_motel"
+    {
+        "message" "C2改 Dark Canival Remix"
+    }
+    "changelevel c5m1_darkwaterfront"
+    {
+        "message" "黑暗教区C5 Dark Parish"
+    }
+    "changelevel dcr_m1_hotel"
+    {
+        "message" "C1改 Dead Center Rebirth"
+    }
+    "changelevel dprm1_milltown_a"
+    {
+        "message" "C4改 Downpour"
+    }
+    "changelevel l4d2_deathwoods01_stranded"
+    {
+        "message" "死亡丛林 Death Woods"
+    }
+    "changelevel death_sentence_1"
+    {
+        "message" "死刑 Death Sentence"
+    }
+    "changelevel ddg1_tower_v2_1"
+    {
+        "message" "绝命峡谷 Drop Dead Gorges"
+    }
+    "changelevel l4d2_darkblood01_tanker"
+    {
+        "message" "暗血涌动2 Dark Blood 2"
+    }
+    "changelevel deadbeat01_forest"
+    {
+        "message" "无缝逃离 DeadBeat Escape"
+    }
+    "changelevel cdta_01detour"
+    {
+        "message" "迂回前进 Detour Ahead"
+    }
+    "changelevel l4d_dbd2dc_anna_is_gone"
+    {
+        "message" "活死人黎明2 Dead Before Dawn 2"
+    }
+    "changelevel ec01_outlets"
+    {
+        "message" "能源危机 Energy Crisis"
+    }
+    "changelevel l4d2_ff01_woods"
+    {
+        "message" "致命货运站 Fatal Freight Fix"
+    }
+    "changelevel fos1m1_hill"
+    {
+        "message" "生还之锋 Front of Survivors v130"
+    }
+    "changelevel msd1_town"
+    {
+        "message" "再见了晨茗 Farewell ChenMing(仅限战役)"
+    }
+    "changelevel highway01_apt_20130613"
+    {
+        "message" "地狱之路 Highway To Hell"
+    }
+    "changelevel AirCrash"
+    {
+        "message" "天堂可待 Heaven Can Wait"
+    }
+    "changelevel hf01_theforest"
+    {
+        "message" "颤栗森林 Haunted Forest"
+    }
+    "changelevel bhm1_outskirts"
+    {
+        "message" "别被丢下 Left Behind"
+    }
+    "changelevel l4d_ihm01_forest"
+    {
+        "message" "我恨山2 I Hate Moutains 2"
+    }
+    "changelevel moonsrevengemap1"
+    {
+        "message" "卫星复仇 Moons Revenge"
+    }
+    "changelevel noecho_m1"
+    {
+        "message" "音讯全无(比赛用图) No Echo (Match)"
+    }
+    "changelevel nmrm1_apartment"
+    {
+        "message" "C8改 No Mercy Rehab"
+    }
+    "changelevel PR1_Waterfront_F"
+    {
+        "message" "C5改 Parish Overgrowth"
+    }
+    "changelevel rh_map01"
+    {
+        "message" "逃至山上 Run To The Hills"
+    }
+    "changelevel l4d_ravenholm01_blackmesa"
+    {
+        "message" "莱温霍姆 Ravenholm"
+    }
+    "changelevel grmap1"
+    {
+        "message" "公路杀手 Road Kill"
+    }
+    "changelevel l4d_tbm_1"
+    {
+        "message" "血腥荒野 The Bloody Moors"
+    }
+    "changelevel eu01_residential_b16"
+    {
+        "message" "恐怖之旅 Tour of Terror"
+    }
+    "changelevel tripday_new_m1"
+    {
+        "message" "新旅行日 Trip Day New"
+    }
+    "changelevel uz_crash"
+    {
+        "message" "亡灵区 Undead Zone"
+    }
+    "changelevel uf1_boulevard"
+    {
+        "message" "城市航班 Urban Flight"
+     }
+    "changelevel wfp1_track"
+    {
+        "message" "白森林 White Forest"
+    }
+    "changelevel srocchurch"
+    {
+        "message" "巴塞罗那 Warcelona"
+    }
+    "changelevel l4d2_stadium1_apartment"
+    {
+        "message" "闪电突袭2 Suicide Blitz 2"
+    }
+}
+"三方图列表(清道夫)"
+{
+    "changelevel hotel05_rooftop_two"
+    {
+        "message" "死亡假期 Dead Vacation"
+    }
+    "changelevel nothinggonelast10"
+    {
+        "message" "无人生还 Nothing Last"
+    }
+    "changelevel cedafever_m3"
+    {
+        "message" "CedaFever Rooftop"
+    }
+    "changelevel roofdownthedrain"
+    {
+        "message" "血本无归 Down The Drain"
+    }
+    "changelevel l4d2_bedrooms3"
+    {
+        "message" "巨人卧室 Bedroom3 Bit Size"
+    }
+    "changelevel l4d2_deadsite_v1_1"
+    {
+        "message" "死亡据点 Dead Site"
+    }
+    "changelevel beach"
+    {
+        "message" "海滩小屋 Beach"
+    }
+}

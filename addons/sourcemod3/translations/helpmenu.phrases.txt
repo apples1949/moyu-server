@@ -1,0 +1,194 @@
+"Phrases"
+{
+	"WelcomeMessage"
+	{
+		"en"			"{olive}[{orange}Night Wishing{olive}]\n{yellow}Welcome to this server!!{default}This servers runs a scavenge config derived from {blue}ZoneMod 2.8\n{default}Type{olive}/helpmenu{default} in the chat to understand farther about this server."
+		"ru"			"{olive}[{orange}Night Wishing{olive}]\n{yellow}Welcome to this server!!{default}This servers runs a scavenge config derived from {blue}ZoneMod 2.8\n{default}Type{olive}/helpmenu{default} in the chat to understand farther about this server."
+		"zho"			"{olive}[{orange}Night Wishing{olive}]\n{yellow}歡迎來到本伺服器!!{default}本服是基於{blue}ZoneMod 2.8{default}自改而來的清道夫伺服器\n聊天視窗輸入{olive}!helpmenu{default}以了解本服.\n尊重並享受對局.感謝你對本服的支持!"
+		"chi"			"{olive}[{orange}Night Wishing{olive}]\n{yellow}欢迎来到本服务器!!{default}本服是基于{blue}ZoneMod 2.8{default}自改而来的清道夫服务器\n聊天框输入{olive}/helpmenu{default}以了解本服.\n尊重并享受对局.感谢你对本服的支持!"
+	}
+	"Server Rules"
+	{
+		"en"			"Server Rules"
+		"zho"			"伺服器守法"
+		"chi"			"服务器村则"
+		"ru"			"Правила сервера"
+	}
+	"- Don't be an asshole"
+	{
+		"en"			"- Don't do jump suicide,friendly fire,gascan breaking,chat attacking etc."
+		"zho"			"- 不要隨意跳樓,黑槍,爆油,口嗨等"
+		"chi"			"- 不要随意跳楼,黑枪,爆油,口嗨等"
+		"ru"			"- Don't do jump suicide,friendly fire,gascan breaking,chat attacking etc."
+	}
+	"- No mic or chat spamming"
+	{
+		"en"			"- No mic or chat spamming"
+		"zho"			"- 別一直MIC開著或聊天視窗洗版"
+		"chi"			"- 拒绝垃圾麦或聊天窗口刷屏"
+		"ru"			"- Не спамь в микрофон или чат"
+	}
+	"- Hacks or exploits will get you banned"
+	{
+		"en"			"- Hacks or exploits will get you banned"
+		"zho"			"- 任何作弊行為將以永久封禁處分"
+		"chi"			"- 任何作弊行为将被永久封禁处分"
+		"ru"			"- Взлом или нечестная игра приведут к блокировке"
+	}
+	"Welcome to Official Instructions"
+	{
+		"en"			"Welcome To Our Group Servers\n☆Night Wishing☆"
+		"zho"			"歡迎來到本组伺服器\n☆Night Wishing☆"
+		"chi"			"欢迎来到本组服务器\n☆Night Wishing☆"
+		"ru"			"Welcome To Our Group Servers\n☆Night Wishing☆"
+	}
+	"Map Rotation"
+	{
+		"en"			"Map Rotation"
+		"zho"			"地圖輪換"
+		"chi"			"地图轮换"
+		"ru"			"Список карт"
+	}
+	"List Online Admins"
+	{
+		"en"			"List Online Admins"
+		"zho"			"在線管理員"
+		"chi"			"在线管理员"	
+        "ru"			"Список админов в игре"
+	}
+	"Join our steam group"
+	{
+		"en"			"Join our steam group"
+		"zho"			"加入我們的Steam群組"	
+		"chi"			"加入我们的Steam群组"
+		"ru"			"Присоединяйтесь к группе в Steam"
+	}
+	"Don't display again"
+	{
+		"en"			"Don't display again"
+		"ru"			"Не показывать снова"
+		"zho"			"永遠不再顯示介面"	
+		"chi"			"永远不再显示界面"
+	}
+	"Display again next time"
+	{
+		"en"			"Display again next time"
+		"ru"			"Показывать снова"
+		"zho"			"下次繼續顯示介面"	
+		"chi"			"下次继续显示界面"
+	}
+	"Auto menu"
+	{
+		"#format"		"{1:t}"
+		"en"			"{olive}[{orange}Night Wishing{olive}]{default} Auto Help Menu is {olive}{1}"
+		"ru"			"{olive}[{orange}Night Wishing{olive}]{default} Меню автопомощи {olive}{1}"
+		"zho"			"{olive}[{orange}Night Wishing{olive}]{default} 自動幫助介面已 {olive}{1}"
+		"chi"			"{olive}[{orange}Night Wishing{olive}]{default} 自动帮助界面已 {olive}{1}"
+	}
+	"enabled"
+	{
+		"en"			"enabled"
+		"ru"			"включено"
+		"zho"			"開啟"	
+		"chi"			"开启"
+	}
+	"disabled"
+	{
+		"en"			"disabled"
+		"ru"			"отключено"
+		"zho"			"關閉"	
+		"chi"			"关闭"
+	}
+	"Configuration file has been reloaded"
+	{
+		"en"			"{olive}[{orange}Night Wishing{olive}]{default} Help Menu Configuration file has been reloaded"
+		"ru"			"{olive}[{orange}Night Wishing{olive}]{default} Конфигурационный файл меню помощи был перезагружен"
+		"zho"			"{olive}[{orange}Night Wishing{olive}]{default} 幫助介面的相關文件已重新載入"	
+		"chi"			"{olive}[{orange}Night Wishing{olive}]{default} 帮助界面的相关文件已重新载入"
+	}
+	"Current Rotation"
+	{
+		"#format"		"{1:i}"
+		"en"			"Current Rotation ({1} maps)"
+		"zho"			"地圖輪換 ({1} 張)"
+		"chi"			"地图轮换 ({1} 张)"
+		"ru"			"Текущий список ({1} карт)"
+	}
+	"Description"
+	{
+		"en"			"Description"
+		"zho"			"描述"
+		"chi"			"描述"
+		"ru"			"Описание"
+	}
+	"Chat Commands"
+	{
+		"en"			"Chat Commands"
+		"zho"			"可使用的指令列表"
+		"chi"			"可使用的指令列表"
+		"ru"			"Команды чата"
+	}
+	"say !servers"
+	{
+		"en"			"/servers - Check out other servers"
+		"zho"			"/servers - 查詢其他群服"
+		"chi"			"/servers - 查询其他群服"
+		"ru"			"/servers - Check out other servers"
+	}
+	"say !s"
+	{
+		"en"			"/s - Become Spectator"
+		"zho"			"/s - 成為旁觀者"
+		"chi"			"/s - 成为旁观者"
+		"ru"			"/s - Стать наблюдателем"
+	}
+	"say !spechud"
+	{
+		"en"			"/spechud - Turn on the spectator hud"
+		"zho"			"/spechud - 打開旁觀者hud"
+		"chi"			"/spechud - 打开旁观者hud"
+		"ru"			"/spechud - Turn on the spectator hud"
+	}
+	"say !vote"
+	{
+		"en"			"/vote - Open the vote menu"
+		"zho"			"/vote - 打開投票菜單"
+		"chi"			"/vote - 打开投票菜单"
+		"ru"			"/vote - Open the vote menu"
+	}
+	"Specified Changes"
+	{
+		"en"			"Specified Changes"
+		"zho"			"伺服器微改說明"
+		"chi"			"服务器微改说明"
+		"ru"			"Specified Changes"
+	}
+	"Specified Changes1"
+	{
+		"en"			"- M2 chances changed from 3 to 5"
+		"zho"			"- 生還由3推變為5推"
+		"chi"			"- 生还由3推变为5推"
+		"ru"			"- M2 chances changed from 3 to 5"
+	}
+	"Specified Changes2"
+	{
+		"en"			"- Limited the support itmes and weapon sites"
+		"zho"			"- 限制減少了武器物資和補給點"
+		"chi"			"- 限制减少了武器物资和补给点"
+		"ru"			"- Limited the support itmes and weapon sites"
+	}
+	"Specified Changes3"
+	{
+		"en"			"- Charger's m2 damage amount is 10"
+		"zho"			"- Charger右鍵傷害為10"
+		"chi"			"- Charger右键伤害为10"
+		"ru"			"- Charger's m2 damage amount is 10"
+	}
+	"Specified Changes4"
+	{
+		"en"			"- Configs in the diferrent servers have slightly diferrences.Check out for more on our QQ Group"
+		"zho"			"- 包清,藥清,內戰插件大同小異.進群查看更多信息"
+		"chi"			"- 包清,药清,内战插件大同小异.进群查看更多信息"
+		"ru"			"- Configs in the diferrent servers have slightly diferrences.Check out for more on our QQ Group"
+	}
+}

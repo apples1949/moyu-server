@@ -1,0 +1,82 @@
+L 01/13/2023 - 20:37:12: [CvarSettings] [c2m1_highway] Could not find CVar specified (confogl_boss_unprohibit)
+L 01/13/2023 - 20:37:12: [CvarSettings] [c2m1_highway] Attempt to track ConVar confogl_pills_limit, which is already being tracked.
+L 01/13/2023 - 20:37:12: [CvarSettings] [c2m1_highway] Could not find CVar specified (l4d2_MITSR_Pitchfork)
+L 01/13/2023 - 20:37:12: [CvarSettings] [c2m1_highway] Could not find CVar specified (l4d2_MITSR_Shovel)
+L 01/13/2023 - 20:37:12: [CvarSettings] [c2m1_highway] Attempt to track ConVar z_ghost_delay_max, which is already being tracked.
+L 01/13/2023 - 20:37:12: [CvarSettings] [c2m1_highway] Attempt to track ConVar z_jockey_ride_damage, which is already being tracked.
+L 01/13/2023 - 20:37:12: [CvarSettings] [c2m1_highway] Attempt to track ConVar z_jockey_ride_damage_interval, which is already being tracked.
+L 01/13/2023 - 20:37:12: [CvarSettings] [c2m1_highway] Attempt to track ConVar tongue_choke_damage_amount, which is already being tracked.
+L 01/13/2023 - 20:37:12: [CvarSettings] [c2m1_highway] Could not find CVar specified (rpg_allow_glow)
+L 01/13/2023 - 20:37:12: [CvarSettings] [c2m1_highway] Could not find CVar specified (join_autoupdate)
+L 01/13/2023 - 20:38:33: [CvarSettings] [c2m1_highway] Could not find CVar specified (confogl_boss_unprohibit)
+L 01/13/2023 - 20:38:33: [CvarSettings] [c2m1_highway] Could not find CVar specified (l4d2_specting_cheat_default_valve)
+L 01/13/2023 - 20:38:33: [CvarSettings] [c2m1_highway] Attempt to track ConVar sm_pauselimit, which is already being tracked.
+L 01/13/2023 - 20:38:33: [CvarSettings] [c2m1_highway] Attempt to track ConVar z_ghost_delay_max, which is already being tracked.
+L 01/13/2023 - 20:38:33: [CvarSettings] [c2m1_highway] Could not find CVar specified (rpg_allow_glow)
+L 01/13/2023 - 20:38:33: [CvarSettings] [c2m1_highway] Could not find CVar specified (join_autoupdate)
+L 01/13/2023 - 20:39:30: [CvarSettings] [c2m1_highway] Could not find CVar specified (confogl_boss_unprohibit)
+L 01/13/2023 - 20:39:30: [CvarSettings] [c2m1_highway] Attempt to track ConVar z_ghost_delay_max, which is already being tracked.
+L 01/13/2023 - 20:39:30: [CvarSettings] [c2m1_highway] Could not find CVar specified (rpg_allow_glow)
+L 01/13/2023 - 20:39:30: [CvarSettings] [c2m1_highway] Could not find CVar specified (join_autoupdate)
+L 01/13/2023 - 22:27:50: [CvarSettings] [c2m1_highway] Could not find CVar specified (confogl_boss_unprohibit)
+L 01/13/2023 - 22:27:50: [CvarSettings] [c2m1_highway] Attempt to track ConVar confogl_pills_limit, which is already being tracked.
+L 01/13/2023 - 22:27:50: [CvarSettings] [c2m1_highway] Could not find CVar specified (l4d2_MITSR_Pitchfork)
+L 01/13/2023 - 22:27:50: [CvarSettings] [c2m1_highway] Could not find CVar specified (l4d2_MITSR_Shovel)
+L 01/13/2023 - 22:27:50: [CvarSettings] [c2m1_highway] Attempt to track ConVar z_ghost_delay_max, which is already being tracked.
+L 01/13/2023 - 22:27:50: [CvarSettings] [c2m1_highway] Attempt to track ConVar z_jockey_ride_damage, which is already being tracked.
+L 01/13/2023 - 22:27:50: [CvarSettings] [c2m1_highway] Attempt to track ConVar z_jockey_ride_damage_interval, which is already being tracked.
+L 01/13/2023 - 22:27:50: [CvarSettings] [c2m1_highway] Attempt to track ConVar tongue_choke_damage_amount, which is already being tracked.
+L 01/13/2023 - 22:27:50: [CvarSettings] [c2m1_highway] Could not find CVar specified (rpg_allow_glow)
+L 01/13/2023 - 22:27:50: [CvarSettings] [c2m1_highway] Could not find CVar specified (join_autoupdate)
+L 01/13/2023 - 23:23:10: [CvarSettings] [c2m1_highway] Could not find CVar specified (l4d_boss_vote_limit)
+L 01/13/2023 - 23:23:10: [CvarSettings] [c2m1_highway] Could not find CVar specified (rpg_allow_glow)
+L 01/13/2023 - 23:23:10: [CvarSettings] [c2m1_highway] Could not find CVar specified (l4d_boss_vote)
+L 01/13/2023 - 23:23:10: [CvarSettings] [c2m1_highway] Could not find CVar specified (inf_SpawnDistanceMax)
+L 01/13/2023 - 23:23:10: [CvarSettings] [c2m1_highway] Could not find CVar specified (inf_TeleportSi)
+L 01/13/2023 - 23:23:10: [CvarSettings] [c2m1_highway] Could not find CVar specified (inf_EnableSIoption)
+L 01/13/2023 - 23:23:10: [CvarSettings] [c2m1_highway] Could not find CVar specified (inf_AllChargerMode)
+L 01/13/2023 - 23:23:10: [CvarSettings] [c2m1_highway] Could not find CVar specified (inf_AllHunterMode)
+L 01/13/2023 - 23:23:10: [CvarSettings] [c2m1_highway] Could not find CVar specified (inf_IgnoreIncappedSurvivorSight)
+L 01/13/2023 - 23:23:10: [CvarSettings] [c2m1_highway] Could not find CVar specified (inf_AddDamageToSmoker)
+L 01/13/2023 - 23:23:10: [CvarSettings] [c2m1_highway] Could not find CVar specified (inf_TeleportDistance)
+L 01/13/2023 - 23:23:10: [CvarSettings] [c2m1_highway] Could not find CVar specified (ai_Tank_Bhop)
+L 01/13/2023 - 23:23:10: [CvarSettings] [c2m1_highway] Could not find CVar specified (ai_TankBhopSpeed)
+L 01/13/2023 - 23:23:10: [CvarSettings] [c2m1_highway] Could not find CVar specified (ai_TankConsumeRockInterval)
+L 01/13/2023 - 23:23:10: [CvarSettings] [c2m1_highway] Could not find CVar specified (ai_TankTarget)
+L 01/13/2023 - 23:23:10: [CvarSettings] [c2m1_highway] Could not find CVar specified (ai_TankTreeDetect)
+L 01/13/2023 - 23:23:10: [CvarSettings] [c2m1_highway] Could not find CVar specified (ai_TankAntiTreeMethod)
+L 01/13/2023 - 23:23:10: [CvarSettings] [c2m1_highway] Could not find CVar specified (ai_TankThow)
+L 01/13/2023 - 23:23:10: [CvarSettings] [c2m1_highway] Could not find CVar specified (ai_TankSequencePlayBackRate)
+L 01/13/2023 - 23:23:10: [CvarSettings] [c2m1_highway] Could not find CVar specified (l4d2_hunter_patch_bonus_damage)
+L 01/13/2023 - 23:23:10: [CvarSettings] [c2m1_highway] Could not find CVar specified (l4d2_hunter_patch_pounce_interrupt)
+L 01/13/2023 - 23:23:10: [CvarSettings] [c2m1_highway] Could not find CVar specified (ai_fast_pounce_proximity)
+L 01/13/2023 - 23:23:10: [CvarSettings] [c2m1_highway] Could not find CVar specified (ai_pounce_vertical_angle)
+L 01/13/2023 - 23:23:10: [CvarSettings] [c2m1_highway] Could not find CVar specified (ai_pounce_angle_mean)
+L 01/13/2023 - 23:23:10: [CvarSettings] [c2m1_highway] Could not find CVar specified (ai_pounce_angle_std)
+L 01/13/2023 - 23:23:10: [CvarSettings] [c2m1_highway] Could not find CVar specified (ai_straight_pounce_proximity)
+L 01/13/2023 - 23:23:10: [CvarSettings] [c2m1_highway] Could not find CVar specified (ai_aim_offset_sensitivity_hunter)
+L 01/13/2023 - 23:23:10: [CvarSettings] [c2m1_highway] Could not find CVar specified (ai_wall_detection_distance)
+L 01/13/2023 - 23:23:10: [CvarSettings] [c2m1_highway] Could not find CVar specified (sam_vs_spec_time)
+L 01/13/2023 - 23:23:10: [CvarSettings] [c2m1_highway] Could not find CVar specified (sam_vs_kick_time)
+L 01/13/2023 - 23:23:10: [CvarSettings] [c2m1_highway] Could not find CVar specified (sam_vs_respect_spec)
+L 01/13/2023 - 23:23:10: [CvarSettings] [c2m1_highway] Could not find CVar specified (join_enable_inf)
+L 01/13/2023 - 23:23:10: [CvarSettings] [c2m1_highway] Could not find CVar specified (join_autoupdate)
+L 01/13/2023 - 23:23:10: [CvarSettings] [c2m1_highway] Could not find CVar specified (join_enable_autoremovelobby)
+L 01/13/2023 - 23:23:10: [CvarSettings] [c2m1_highway] Could not find CVar specified (join_enable_kickfamilyaccount)
+L 01/13/2023 - 23:23:10: [CvarSettings] [c2m1_highway] Could not find CVar specified (shop_enable)
+L 01/13/2023 - 23:23:10: [CvarSettings] [c2m1_highway] Could not find CVar specified (votecfgfile)
+L 01/13/2023 - 23:23:10: [CvarSettings] [c2m1_highway] Could not find CVar specified (l4d_target_override_allow)
+L 01/13/2023 - 23:23:10: [CvarSettings] [c2m1_highway] Could not find CVar specified (l4d_target_override_specials)
+L 01/13/2023 - 23:23:10: [CvarSettings] [c2m1_highway] Could not find CVar specified (l4d_target_override_type)
+L 01/13/2023 - 23:23:10: [CvarSettings] [c2m1_highway] Could not find CVar specified (l4d_target_override_forward)
+L 01/13/2023 - 23:23:10: [CvarSettings] [c2m1_highway] Could not find CVar specified (l4d_tankdamage_enabled)
+L 01/13/2023 - 23:24:23: [CvarSettings] [c2m1_highway] Could not find CVar specified (confogl_boss_unprohibit)
+L 01/13/2023 - 23:24:23: [CvarSettings] [c2m1_highway] Attempt to track ConVar confogl_pills_limit, which is already being tracked.
+L 01/13/2023 - 23:24:23: [CvarSettings] [c2m1_highway] Could not find CVar specified (l4d2_MITSR_Pitchfork)
+L 01/13/2023 - 23:24:23: [CvarSettings] [c2m1_highway] Could not find CVar specified (l4d2_MITSR_Shovel)
+L 01/13/2023 - 23:24:23: [CvarSettings] [c2m1_highway] Attempt to track ConVar z_ghost_delay_max, which is already being tracked.
+L 01/13/2023 - 23:24:23: [CvarSettings] [c2m1_highway] Attempt to track ConVar z_jockey_ride_damage, which is already being tracked.
+L 01/13/2023 - 23:24:23: [CvarSettings] [c2m1_highway] Attempt to track ConVar z_jockey_ride_damage_interval, which is already being tracked.
+L 01/13/2023 - 23:24:23: [CvarSettings] [c2m1_highway] Attempt to track ConVar tongue_choke_damage_amount, which is already being tracked.
+L 01/13/2023 - 23:24:23: [CvarSettings] [c2m1_highway] Could not find CVar specified (rpg_allow_glow)
+L 01/13/2023 - 23:24:23: [CvarSettings] [c2m1_highway] Could not find CVar specified (join_autoupdate)

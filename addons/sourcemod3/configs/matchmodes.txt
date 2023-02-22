@@ -1,10 +1,103 @@
 "MatchModes"
 {
-	"官方模式 Vanilla Settings"
+	"官方有改 Vanilla Settings"
 	{
 		"versus"
 		{
 			"name" "Versus Vanilla"
+		}
+		"coop"
+		{
+			"name" "Coop Vanilla"
+		}
+		"realism"
+		{
+			"name" "Realism Vanilla"
+		}
+		"versusrealism"
+		{
+			"name" "Versus Realism Vanilla"
+		}
+		"survival"
+		{
+			"name" "Survival Vanilla"
+		}
+		"Scavenge"
+		{
+			"name" "Scavenge Vanilla"
+		}
+		"tankrun"
+		{
+			"name" "TankRun Vanilla"
+		}
+		"versussurvival"
+		{
+			"name" "Versus Survival Vanilla"
+		}
+	}
+	"趣味模式"
+	{
+		"AirMod"
+		{
+			"name" "AirMod v1.09"
+		}
+		"wtfmod"
+		{
+			"name" "WTFmod v1.6.2"
+		}
+		"wtfmod3v3"
+		{
+			"name" "WTFmod 3v3"
+		}
+		"wtfmod2v2"
+		{
+			"name" "WTFmod 2v2"
+		}
+		"wtfmod1v1"
+		{
+			"name" "WTFmod 1v1"
+		}
+		"bizzymod"
+		{
+			"name" "魔改写抗 Bizzymod 0.8"
+		}
+		"spacemod"
+		{
+			"name" "太空人写抗 Spacemod -0.8"
+		}
+		"surf"
+		{
+			"name" "滑翔 SurfMod"
+		}
+	}
+	"AnneHappy"
+	{
+		"annehappy"
+		{
+			"name" "AnneHappy 2023-1"
+		}
+		"annehunters"
+		{
+			"name" "1vHunters"
+		}
+		"alone"
+		{
+			"name" "单人装逼"
+		}
+		"allcharger"
+		{
+			"name" "牛牛冲刺大逃亡"
+		}
+		"witchpartyanne"
+		{
+			"name" "女巫派对"
+		}
+	}
+	"AstMod"
+	{
+		"amethyst"
+		{
+			"name" "AstMod"
 		}
 	}
 	"Acemod Revamped"
@@ -31,24 +124,6 @@
 		"apex"
 		{
 			"name" "Apex v1.1.2"
-		}
-	}
-	"AirMod"
-	{
-		"AirMod"
-		{
-			"name" "AirMod v1.09"
-		}
-	}
-	"Bizzymod"
-	{
-		"bizzymod"
-		{
-			"name" "Bizzymod 0.8"
-		}
-		"spacemod"
-		{
-			"name" "Spacemod"
 		}
 	}
 	"Equilibrium"
@@ -100,11 +175,11 @@
 	{
 		"practiceogl4v4"
 		{
-			"name" "Practiceogl v2.3 (test)"
+			"name" "Practiceogl v2.3"
 		}
 		"practiceogl3v3"
 		{
-			"name" "Practiceogl 3v3 (test)"
+			"name" "Practiceogl 3v3"
 		}
 		"practiceogl2v2"
 		{
@@ -131,7 +206,7 @@
 			"name" "Prac-Hunters 1P"
 		}
 	}
-	"Promod v5.0.3(老框架待完善，别选)"
+	"4v4 Promod"
 	{
 		"pmelite"
 		{
@@ -141,17 +216,9 @@
 		{
 			"name" "Promod v5.0.3"
 		}
-		"pm3v3"
+		"hunters"
 		{
-			"name" "Promod 3v3"
-		}
-		"pm2v2"
-		{
-			"name" "Promod 2v2"
-		}
-		"pm1v1"
-		{
-			"name" "Promod 1v1"
+			"name" "Hunters v5.0.3"
 		}
 		"pmredtown"
 		{
@@ -165,20 +232,51 @@
 		{
 			"name" "Retro"
 		}
-	}
-	"Promod Hunters v5.0.3(老框架待完善，别选)"
-	{
-		"hunters"
+		"witchparty"
 		{
-			"name" "Hunters v5.0.3"
+			"name" "WitchParty v2.2"
+		}
+		"witchpartyhc"
+		{
+			"name" "WitchParty HC"
+		}
+	}
+	"3v3 Promod"
+	{
+		"pm3v3"
+		{
+			"name" "Promod 3v3"
 		}
 		"hunters3v3"
 		{
 			"name" "Hunters 3v3"
 		}
+		"witchparty3v3"
+		{
+			"name" "WitchParty 3v3"
+		}
+
+	}
+	"2v2 Promod"
+	{
+		"pm2v2"
+		{
+			"name" "Promod 2v2"
+		}
 		"hunters2v2"
 		{
 			"name" "Hunters 2v2"
+		}
+		"witchparty2v2"
+		{
+			"name" "WitchParty 2v2"
+		}
+	}
+	"1v1 Promod"
+	{
+		"pm1v1"
+		{
+			"name" "Promod 1v1"
 		}
 		"hunters1v1"
 		{
@@ -188,47 +286,9 @@
 		{
 			"name" "Deadman"
 		}
-	}
-	"WTFmod"
-	{
-		"wtfmod"
-		{
-			"name" "WTFmod v1.6.2"
-		}
-		"wtfmod3v3"
-		{
-			"name" "WTFmod 3v3"
-		}
-		"wtfmod2v2"
-		{
-			"name" "WTFmod 2v2"
-		}
-		"wtfmod1v1"
-		{
-			"name" "WTFmod 1v1"
-		}
-	}
-	"WitchParty"
-	{
-		"witchparty"
-		{
-			"name" "WitchParty v2.2"
-		}
-		"witchparty3v3"
-		{
-			"name" "WitchParty 3v3"
-		}
-		"witchparty2v2"
-		{
-			"name" "WitchParty 2v2"
-		}
 		"witchparty1v1"
 		{
 			"name" "WitchParty 1v1"
-		}
-		"witchpartyhc"
-		{
-			"name" "WitchParty HC"
 		}
 	}
 	"WeiMeng Versus"
@@ -238,78 +298,67 @@
 			"name" "WeiMeng Versus v1.1.0"
 		}
 	}
-	"Scavogl Rework"
+	"4v4 Scavogl Rework"
 	{
 		"scavrework4v4"
 		{
 			"name" "Rework v2.2"
 		}
-		"scavrework3v3"
-		{
-			"name" "Rework 3v3"
-		}
-		"scavrework2v2"
-		{
-			"name" "Rework 2v2"
-		}
-		"scavrework1v1"
-		{
-			"name" "Rework 1v1"
-		}
-	}
-	"Scavogl Rework Hunters"
-	{
 		"scavreworkhts4v4"
 		{
 			"name" "Re-Hunters v2.2"
+		}
+		"scavreworkchar4v4"
+		{
+			"name" "Re-Chargers v2.2"
+		}
+	}
+	"3v3 Scavogl Rework"
+	{
+		"scavrework3v3"
+		{
+			"name" "Rework 3v3"
 		}
 		"scavreworkhts3v3"
 		{
 			"name" "Re-Hunters 3v3"
 		}
+		"scavreworkchar3v3"
+		{
+			"name" "Re-Chargers 3v3"
+		}
+	}
+	"2v2 Scavogl Rework"
+	{
+		"scavrework2v2"
+		{
+			"name" "Rework 2v2"
+		}
 		"scavreworkhts2v2"
 		{
 			"name" "Re-Hunters 2v2"
 		}
-		"scavreworkhts1v1"
-		{
-			"name" "Re-Hunters 1v1"
-		}
-	}
-	"Scavogl Rework Chargers"
-	{
-		"scavreworkchar4v4"
-		{
-			"name" "Re-Chargers v2.2"
-		}
-		"scavreworkchar3v3"
-		{
-			"name" "Re-Chargers 3v3"
-		}		
 		"scavreworkchar2v2"
 		{
 			"name" "Re-Chargers 2v2"
 		}
 	}
-	"Scavogl Rework Train"
+	"1v1 Scavogl Rework"
 	{
+		"scavrework1v1"
+		{
+			"name" "Rework 1v1"
+		}
+		"scavreworkhts1v1"
+		{
+			"name" "Re-Hunters 1v1"
+		}
 		"train1v1"
 		{
 			"name" "Rework TrAin 1v1"
 		}
 	}
-	"TestMode"
-	{
-		"testmode"
-		{
-			"name" "Testmode Versus"
-		}
-		"scavtestmode"
-		{
-			"name" "Testmode Scavenge"
-		}
-	}
-	"ZoneMod 4v4"
+	"4v4 ZoneMod"
 	{
 		"28zonemod"
 		{
@@ -340,7 +389,7 @@
 			"name" "ZoneMod v1.9.3"
 		}
 	}
-	"ZoneMod 3v3"
+	"3v3 ZoneMod"
 	{
 		"28zm3v3"
 		{
@@ -363,7 +412,7 @@
 			"name" "3v3 ZoneMod v1.9.3"
 		}
 	}
-	"ZoneMod 2v2"
+	"2v2 ZoneMod"
 	{
 		"28zm2v2"
 		{
@@ -385,7 +434,8 @@
 		{
 			"name" "2v2 ZoneMod v1.9.3"
 		}
-	"ZoneMod 1v1"
+	}
+	"1v1 ZoneMod"
 	{
 		"28zm1v1"
 		{

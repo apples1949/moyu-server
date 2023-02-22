@@ -1,0 +1,501 @@
+L 01/14/2023 - 00:05:56: SourceMod error session started
+L 01/14/2023 - 00:05:56: Info (map "c2m1_highway") (file "/root/Steam/steamapps/common/Left 4 Dead 2 Dedicated Server/left4dead2/addons/sourcemod/logs/errors_20230114.log")
+L 01/14/2023 - 00:05:56: [SM] Unable to load plugin "Welcome.smx": Could not find required plugin "l4d2_playtime_interface"
+L 01/14/2023 - 00:05:56: [SM] Unable to load plugin "l4d_fyzb_en_v20.smx": Could not find required plugin "readyup"
+L 01/14/2023 - 00:21:36: SourceMod error session started
+L 01/14/2023 - 00:21:36: Info (map "c2m1_highway") (file "/root/Steam/steamapps/common/Left 4 Dead 2 Dedicated Server/left4dead2/addons/sourcemod/logs/errors_20230114.log")
+L 01/14/2023 - 00:21:36: [SM] Unable to load plugin "Welcome.smx": Could not find required plugin "l4d2_playtime_interface"
+L 01/14/2023 - 00:21:36: [SM] Unable to load plugin "l4d_fyzb_en_v20.smx": Could not find required plugin "readyup"
+L 01/14/2023 - 00:40:05: Error log file session closed.
+L 01/14/2023 - 00:40:45: SourceMod error session started
+L 01/14/2023 - 00:40:45: Info (map "c8m5_rooftop") (file "/root/Steam/steamapps/common/Left 4 Dead 2 Dedicated Server/left4dead2/addons/sourcemod/logs/errors_20230114.log")
+L 01/14/2023 - 00:40:45: [SM] Exception reported: Client 2 is not in game
+L 01/14/2023 - 00:40:45: [SM] Blaming: optional/l4d2_scav_fix_nm5.smx
+L 01/14/2023 - 00:40:45: [SM] Call stack trace:
+L 01/14/2023 - 00:40:45: [SM]   [0] GetClientAbsOrigin
+L 01/14/2023 - 00:40:45: [SM]   [1] Line 76, E:\DownLoading\sourcemod-1.11.0-git6826-windows\addons\sourcemod\scripting\l4d2_scav_fix_nm5.sp::FindMisplacedCans
+L 01/14/2023 - 00:40:45: [SM]   [2] Line 53, E:\DownLoading\sourcemod-1.11.0-git6826-windows\addons\sourcemod\scripting\l4d2_scav_fix_nm5.sp::ScavTimerH
+L 01/14/2023 - 00:41:00: [SM] Exception reported: Client 5 is not in game
+L 01/14/2023 - 00:41:00: [SM] Blaming: optional/l4d2_scav_fix_nm5.smx
+L 01/14/2023 - 00:41:00: [SM] Call stack trace:
+L 01/14/2023 - 00:41:00: [SM]   [0] GetClientAbsOrigin
+L 01/14/2023 - 00:41:00: [SM]   [1] Line 76, E:\DownLoading\sourcemod-1.11.0-git6826-windows\addons\sourcemod\scripting\l4d2_scav_fix_nm5.sp::FindMisplacedCans
+L 01/14/2023 - 00:41:00: [SM]   [2] Line 53, E:\DownLoading\sourcemod-1.11.0-git6826-windows\addons\sourcemod\scripting\l4d2_scav_fix_nm5.sp::ScavTimerH
+L 01/14/2023 - 00:41:15: [SM] Exception reported: Client 5 is not in game
+L 01/14/2023 - 00:41:15: [SM] Blaming: optional/l4d2_scav_fix_nm5.smx
+L 01/14/2023 - 00:41:15: [SM] Call stack trace:
+L 01/14/2023 - 00:41:15: [SM]   [0] GetClientAbsOrigin
+L 01/14/2023 - 00:41:15: [SM]   [1] Line 76, E:\DownLoading\sourcemod-1.11.0-git6826-windows\addons\sourcemod\scripting\l4d2_scav_fix_nm5.sp::FindMisplacedCans
+L 01/14/2023 - 00:41:15: [SM]   [2] Line 53, E:\DownLoading\sourcemod-1.11.0-git6826-windows\addons\sourcemod\scripting\l4d2_scav_fix_nm5.sp::ScavTimerH
+L 01/14/2023 - 00:41:30: [SM] Exception reported: Client 5 is not in game
+L 01/14/2023 - 00:41:30: [SM] Blaming: optional/l4d2_scav_fix_nm5.smx
+L 01/14/2023 - 00:41:30: [SM] Call stack trace:
+L 01/14/2023 - 00:41:30: [SM]   [0] GetClientAbsOrigin
+L 01/14/2023 - 00:41:30: [SM]   [1] Line 76, E:\DownLoading\sourcemod-1.11.0-git6826-windows\addons\sourcemod\scripting\l4d2_scav_fix_nm5.sp::FindMisplacedCans
+L 01/14/2023 - 00:41:30: [SM]   [2] Line 53, E:\DownLoading\sourcemod-1.11.0-git6826-windows\addons\sourcemod\scripting\l4d2_scav_fix_nm5.sp::ScavTimerH
+L 01/14/2023 - 00:41:45: [SM] Exception reported: Client 5 is not in game
+L 01/14/2023 - 00:41:45: [SM] Blaming: optional/l4d2_scav_fix_nm5.smx
+L 01/14/2023 - 00:41:45: [SM] Call stack trace:
+L 01/14/2023 - 00:41:45: [SM]   [0] GetClientAbsOrigin
+L 01/14/2023 - 00:41:45: [SM]   [1] Line 76, E:\DownLoading\sourcemod-1.11.0-git6826-windows\addons\sourcemod\scripting\l4d2_scav_fix_nm5.sp::FindMisplacedCans
+L 01/14/2023 - 00:41:45: [SM]   [2] Line 53, E:\DownLoading\sourcemod-1.11.0-git6826-windows\addons\sourcemod\scripting\l4d2_scav_fix_nm5.sp::ScavTimerH
+L 01/14/2023 - 00:42:00: [SM] Exception reported: Client 5 is not in game
+L 01/14/2023 - 00:42:00: [SM] Blaming: optional/l4d2_scav_fix_nm5.smx
+L 01/14/2023 - 00:42:00: [SM] Call stack trace:
+L 01/14/2023 - 00:42:00: [SM]   [0] GetClientAbsOrigin
+L 01/14/2023 - 00:42:00: [SM]   [1] Line 76, E:\DownLoading\sourcemod-1.11.0-git6826-windows\addons\sourcemod\scripting\l4d2_scav_fix_nm5.sp::FindMisplacedCans
+L 01/14/2023 - 00:42:00: [SM]   [2] Line 53, E:\DownLoading\sourcemod-1.11.0-git6826-windows\addons\sourcemod\scripting\l4d2_scav_fix_nm5.sp::ScavTimerH
+L 01/14/2023 - 00:42:15: [SM] Exception reported: Client 5 is not in game
+L 01/14/2023 - 00:42:15: [SM] Blaming: optional/l4d2_scav_fix_nm5.smx
+L 01/14/2023 - 00:42:15: [SM] Call stack trace:
+L 01/14/2023 - 00:42:15: [SM]   [0] GetClientAbsOrigin
+L 01/14/2023 - 00:42:15: [SM]   [1] Line 76, E:\DownLoading\sourcemod-1.11.0-git6826-windows\addons\sourcemod\scripting\l4d2_scav_fix_nm5.sp::FindMisplacedCans
+L 01/14/2023 - 00:42:15: [SM]   [2] Line 53, E:\DownLoading\sourcemod-1.11.0-git6826-windows\addons\sourcemod\scripting\l4d2_scav_fix_nm5.sp::ScavTimerH
+L 01/14/2023 - 00:42:25: Error log file session closed.
+L 01/14/2023 - 00:42:43: SourceMod error session started
+L 01/14/2023 - 00:42:43: Info (map "c2m1_highway") (file "/root/Steam/steamapps/common/Left 4 Dead 2 Dedicated Server/left4dead2/addons/sourcemod/logs/errors_20230114.log")
+L 01/14/2023 - 00:42:43: [SM] Exception reported: Element -2 is out of bounds (Prop m_iScavengeTeamScore has 10 elements).
+L 01/14/2023 - 00:42:43: [SM] Blaming: optional/scavenge_quick_end.smx
+L 01/14/2023 - 00:42:43: [SM] Call stack trace:
+L 01/14/2023 - 00:42:43: [SM]   [0] GameRules_GetProp
+L 01/14/2023 - 00:42:43: [SM]   [1] Line 157, /home/groups/alliedmodders/forums/files/7/1/5/3/3/102340.attach::GameRules_GetScavengeTeamScore
+L 01/14/2023 - 00:42:43: [SM]   [2] Line 119, /home/groups/alliedmodders/forums/files/7/1/5/3/3/102340.attach::PrintRoundEndTimeData
+L 01/14/2023 - 00:42:43: [SM]   [3] Line 69, /home/groups/alliedmodders/forums/files/7/1/5/3/3/102340.attach::RoundEnd
+L 01/14/2023 - 00:42:43: [SM]   [5] SDKCall
+L 01/14/2023 - 00:42:43: [SM]   [6] Line 1727, l4dd\l4dd_natives.sp::Native_CDirector_RestartScenarioFromVote
+L 01/14/2023 - 00:42:43: [SM]   [8] L4D_RestartScenarioFromVote
+L 01/14/2023 - 00:42:43: [SM]   [9] Line 612, E:\DownLoading\beifen\sourcemod-1.11.0-git6826-windows\addons\sourcemod\scripting\readyup2.sp::RestartCampaignAny1
+L 01/14/2023 - 00:42:45: [SM] Exception reported: Element -1 is out of bounds (Prop m_iScavengeTeamScore has 10 elements).
+L 01/14/2023 - 00:42:45: [SM] Blaming: optional/scavenge_quick_end.smx
+L 01/14/2023 - 00:42:45: [SM] Call stack trace:
+L 01/14/2023 - 00:42:45: [SM]   [0] GameRules_GetProp
+L 01/14/2023 - 00:42:45: [SM]   [1] Line 157, /home/groups/alliedmodders/forums/files/7/1/5/3/3/102340.attach::GameRules_GetScavengeTeamScore
+L 01/14/2023 - 00:42:45: [SM]   [2] Line 119, /home/groups/alliedmodders/forums/files/7/1/5/3/3/102340.attach::PrintRoundEndTimeData
+L 01/14/2023 - 00:42:45: [SM]   [3] Line 69, /home/groups/alliedmodders/forums/files/7/1/5/3/3/102340.attach::RoundEnd
+L 01/14/2023 - 00:42:45: [SM]   [5] SDKCall
+L 01/14/2023 - 00:42:45: [SM]   [6] Line 1727, l4dd\l4dd_natives.sp::Native_CDirector_RestartScenarioFromVote
+L 01/14/2023 - 00:42:45: [SM]   [8] L4D_RestartScenarioFromVote
+L 01/14/2023 - 00:42:45: [SM]   [9] Line 624, E:\DownLoading\beifen\sourcemod-1.11.0-git6826-windows\addons\sourcemod\scripting\readyup2.sp::RestartCampaignAny2
+L 01/14/2023 - 00:42:46: [SM] Exception reported: Invalid index 1 (count: 1)
+L 01/14/2023 - 00:42:46: [SM] Blaming: optional/l4d_equalise_alarm_cars_scav.smx
+L 01/14/2023 - 00:42:46: [SM] Call stack trace:
+L 01/14/2023 - 00:42:46: [SM]   [0] ArrayList.GetString
+L 01/14/2023 - 00:42:46: [SM]   [1] Line 384, F:\Users\Administrator\Documents\GitHub\MoYu_Server_Stupid_Plugins\The Last Stand\l4d_equalise_alarm_cars\l4d_equalise_alarm_cars.sp::PatchAlarmedCars
+L 01/14/2023 - 00:44:33: SourceMod error session started
+L 01/14/2023 - 00:44:33: Info (map "c2m1_highway") (file "/root/Steam/steamapps/common/Left 4 Dead 2 Dedicated Server/left4dead2/addons/sourcemod/logs/errors_20230114.log")
+L 01/14/2023 - 00:44:33: [SM] Unable to load plugin "Welcome.smx": Could not find required plugin "l4d2_playtime_interface"
+L 01/14/2023 - 00:44:33: [SM] Unable to load plugin "l4d_fyzb_en_v20.smx": Could not find required plugin "readyup"
+L 01/14/2023 - 09:52:09: SourceMod error session started
+L 01/14/2023 - 09:52:09: Info (map "c2m1_highway") (file "/root/Steam/steamapps/common/Left 4 Dead 2 Dedicated Server/left4dead2/addons/sourcemod/logs/errors_20230114.log")
+L 01/14/2023 - 09:52:09: [SM] Unable to load plugin "Welcome.smx": Could not find required plugin "l4d2_playtime_interface"
+L 01/14/2023 - 09:52:09: [SM] Unable to load plugin "l4d_fyzb_en_v20.smx": Could not find required plugin "readyup"
+L 01/14/2023 - 09:52:15: [SM] Plugin "confogl_autoloader.smx" encountered error 23: Native detected error
+L 01/14/2023 - 09:52:15: [SM] Invalid data handle 0 (error 4) passed during timer end with TIMER_DATA_HNDL_CLOSE
+L 01/14/2023 - 09:52:15: [SM] Unable to call function "ExecuteConfig" due to above error(s).
+L 01/14/2023 - 09:57:56: SourceMod error session started
+L 01/14/2023 - 09:57:56: Info (map "c2m1_highway") (file "/root/Steam/steamapps/common/Left 4 Dead 2 Dedicated Server/left4dead2/addons/sourcemod/logs/errors_20230114.log")
+L 01/14/2023 - 09:57:56: [SM] Unable to load plugin "Welcome.smx": Could not find required plugin "l4d2_playtime_interface"
+L 01/14/2023 - 09:57:56: [SM] Unable to load plugin "l4d_fyzb_en_v20.smx": Could not find required plugin "readyup"
+L 01/14/2023 - 09:58:02: [SM] Plugin "confogl_autoloader.smx" encountered error 23: Native detected error
+L 01/14/2023 - 09:58:02: [SM] Invalid data handle 0 (error 4) passed during timer end with TIMER_DATA_HNDL_CLOSE
+L 01/14/2023 - 09:58:02: [SM] Unable to call function "ExecuteConfig" due to above error(s).
+L 01/14/2023 - 10:09:16: SourceMod error session started
+L 01/14/2023 - 10:09:16: Info (map "c2m1_highway") (file "/root/Steam/steamapps/common/Left 4 Dead 2 Dedicated Server/left4dead2/addons/sourcemod/logs/errors_20230114.log")
+L 01/14/2023 - 10:09:16: [SM] Unable to load plugin "Welcome.smx": Could not find required plugin "l4d2_playtime_interface"
+L 01/14/2023 - 10:09:16: [SM] Unable to load plugin "l4d_fyzb_en_v20.smx": Could not find required plugin "readyup"
+L 01/14/2023 - 10:09:22: [SM] Plugin "confogl_autoloader.smx" encountered error 23: Native detected error
+L 01/14/2023 - 10:09:22: [SM] Invalid data handle 0 (error 4) passed during timer end with TIMER_DATA_HNDL_CLOSE
+L 01/14/2023 - 10:09:22: [SM] Unable to call function "ExecuteConfig" due to above error(s).
+L 01/14/2023 - 10:10:21: [SM] Plugin "confogl_autoloader.smx" encountered error 23: Native detected error
+L 01/14/2023 - 10:10:21: [SM] Invalid data handle 0 (error 4) passed during timer end with TIMER_DATA_HNDL_CLOSE
+L 01/14/2023 - 10:10:21: [SM] Unable to call function "ExecuteConfig" due to above error(s).
+L 01/14/2023 - 10:10:50: SourceMod error session started
+L 01/14/2023 - 10:10:50: Info (map "c2m1_highway") (file "/root/Steam/steamapps/common/Left 4 Dead 2 Dedicated Server/left4dead2/addons/sourcemod/logs/errors_20230114.log")
+L 01/14/2023 - 10:10:50: [SM] Unable to load plugin "Welcome.smx": Could not find required plugin "l4d2_playtime_interface"
+L 01/14/2023 - 10:10:50: [SM] Unable to load plugin "l4d_fyzb_en_v20.smx": Could not find required plugin "readyup"
+L 01/14/2023 - 10:10:56: [SM] Plugin "confogl_autoloader.smx" encountered error 23: Native detected error
+L 01/14/2023 - 10:10:56: [SM] Invalid data handle 0 (error 4) passed during timer end with TIMER_DATA_HNDL_CLOSE
+L 01/14/2023 - 10:10:56: [SM] Unable to call function "ExecuteConfig" due to above error(s).
+L 01/14/2023 - 10:11:43: [SM] Plugin "confogl_autoloader.smx" encountered error 23: Native detected error
+L 01/14/2023 - 10:11:43: [SM] Invalid data handle 0 (error 4) passed during timer end with TIMER_DATA_HNDL_CLOSE
+L 01/14/2023 - 10:11:43: [SM] Unable to call function "ExecuteConfig" due to above error(s).
+L 01/14/2023 - 10:12:33: SourceMod error session started
+L 01/14/2023 - 10:12:33: Info (map "c2m1_highway") (file "/root/Steam/steamapps/common/Left 4 Dead 2 Dedicated Server/left4dead2/addons/sourcemod/logs/errors_20230114.log")
+L 01/14/2023 - 10:12:33: [SM] Unable to load plugin "Welcome.smx": Could not find required plugin "l4d2_playtime_interface"
+L 01/14/2023 - 10:12:33: [SM] Unable to load plugin "l4d_fyzb_en_v20.smx": Could not find required plugin "readyup"
+L 01/14/2023 - 10:12:39: [SM] Plugin "confogl_autoloader.smx" encountered error 23: Native detected error
+L 01/14/2023 - 10:12:39: [SM] Invalid data handle 0 (error 4) passed during timer end with TIMER_DATA_HNDL_CLOSE
+L 01/14/2023 - 10:12:39: [SM] Unable to call function "ExecuteConfig" due to above error(s).
+L 01/14/2023 - 10:18:25: SourceMod error session started
+L 01/14/2023 - 10:18:25: Info (map "c2m1_highway") (file "/root/Steam/steamapps/common/Left 4 Dead 2 Dedicated Server/left4dead2/addons/sourcemod/logs/errors_20230114.log")
+L 01/14/2023 - 10:18:25: [SM] Unable to load plugin "Welcome.smx": Could not find required plugin "l4d2_playtime_interface"
+L 01/14/2023 - 10:18:25: [SM] Unable to load plugin "l4d_fyzb_en_v20.smx": Could not find required plugin "readyup"
+L 01/14/2023 - 10:18:31: [SM] Plugin "confogl_autoloader.smx" encountered error 23: Native detected error
+L 01/14/2023 - 10:18:31: [SM] Invalid data handle 0 (error 4) passed during timer end with TIMER_DATA_HNDL_CLOSE
+L 01/14/2023 - 10:18:31: [SM] Unable to call function "ExecuteConfig" due to above error(s).
+L 01/14/2023 - 10:19:10: [SM] Fatal error encountered parsing translation file "l4d2_spawn_props.phrases.txt"
+L 01/14/2023 - 10:19:10: [SM] Error (line 0, column 0): Stream failed to open
+L 01/14/2023 - 10:19:13: [SM] Plugin "confogl_autoloader.smx" encountered error 23: Native detected error
+L 01/14/2023 - 10:19:13: [SM] Invalid data handle 0 (error 4) passed during timer end with TIMER_DATA_HNDL_CLOSE
+L 01/14/2023 - 10:19:13: [SM] Unable to call function "ExecuteConfig" due to above error(s).
+L 01/14/2023 - 10:19:13: [SM] Plugin "confogl_autoloader.smx" encountered error 23: Native detected error
+L 01/14/2023 - 10:19:13: [SM] Invalid data handle 0 (error 4) passed during timer end with TIMER_DATA_HNDL_CLOSE
+L 01/14/2023 - 10:19:13: [SM] Unable to call function "ExecuteConfig" due to above error(s).
+L 01/14/2023 - 10:19:14: Error log file session closed.
+L 01/14/2023 - 10:19:14: SourceMod error session started
+L 01/14/2023 - 10:19:14: Info (map "c2m1_highway") (file "/root/Steam/steamapps/common/Left 4 Dead 2 Dedicated Server/left4dead2/addons/sourcemod/logs/errors_20230114.log")
+L 01/14/2023 - 10:19:14: [SM] Fatal error encountered parsing translation file "l4d2_spawn_props.phrases.txt"
+L 01/14/2023 - 10:19:14: [SM] Error (line 0, column 0): Stream failed to open
+L 01/14/2023 - 10:19:15: [SM] Plugin "confogl_autoloader.smx" encountered error 23: Native detected error
+L 01/14/2023 - 10:19:15: [SM] Invalid data handle 0 (error 4) passed during timer end with TIMER_DATA_HNDL_CLOSE
+L 01/14/2023 - 10:19:15: [SM] Unable to call function "ExecuteConfig" due to above error(s).
+L 01/14/2023 - 10:19:15: [SM] Plugin "confogl_autoloader.smx" encountered error 23: Native detected error
+L 01/14/2023 - 10:19:15: [SM] Invalid data handle 0 (error 4) passed during timer end with TIMER_DATA_HNDL_CLOSE
+L 01/14/2023 - 10:19:15: [SM] Unable to call function "ExecuteConfig" due to above error(s).
+L 01/14/2023 - 10:19:15: [SM] Exception reported: Native is not bound
+L 01/14/2023 - 10:19:15: [SM] Blaming: fixes/l4d_skip_intro.smx
+L 01/14/2023 - 10:19:15: [SM] Call stack trace:
+L 01/14/2023 - 10:19:15: [SM]   [0] L4D_IsFirstMapInScenario
+L 01/14/2023 - 10:19:15: [SM]   [1] Line 245, D:\SourcePawn10\l4d_skip_intro.sp::Event_NoDraw
+L 01/14/2023 - 10:19:16: [SM] Unable to load plugin "Welcome.smx": Could not find required plugin "l4d2_playtime_interface"
+L 01/14/2023 - 10:19:16: [SM] Unable to load plugin "l4d_fyzb_en_v20.smx": Could not find required plugin "readyup"
+L 01/14/2023 - 10:19:28: [SM] Plugin "confogl_autoloader.smx" encountered error 23: Native detected error
+L 01/14/2023 - 10:19:28: [SM] Invalid data handle 0 (error 4) passed during timer end with TIMER_DATA_HNDL_CLOSE
+L 01/14/2023 - 10:19:28: [SM] Unable to call function "ExecuteConfig" due to above error(s).
+L 01/14/2023 - 10:20:50: [SM] Plugin "confogl_autoloader.smx" encountered error 23: Native detected error
+L 01/14/2023 - 10:20:50: [SM] Invalid data handle 0 (error 4) passed during timer end with TIMER_DATA_HNDL_CLOSE
+L 01/14/2023 - 10:20:50: [SM] Unable to call function "ExecuteConfig" due to above error(s).
+L 01/14/2023 - 10:20:50: Error log file session closed.
+L 01/14/2023 - 10:20:50: SourceMod error session started
+L 01/14/2023 - 10:20:50: Info (map "c2m1_highway") (file "/root/Steam/steamapps/common/Left 4 Dead 2 Dedicated Server/left4dead2/addons/sourcemod/logs/errors_20230114.log")
+L 01/14/2023 - 10:20:50: [SM] Fatal error encountered parsing translation file "l4d2_spawn_props.phrases.txt"
+L 01/14/2023 - 10:20:50: [SM] Error (line 0, column 0): Stream failed to open
+L 01/14/2023 - 10:20:52: [SM] Plugin "confogl_autoloader.smx" encountered error 23: Native detected error
+L 01/14/2023 - 10:20:52: [SM] Invalid data handle 0 (error 4) passed during timer end with TIMER_DATA_HNDL_CLOSE
+L 01/14/2023 - 10:20:52: [SM] Unable to call function "ExecuteConfig" due to above error(s).
+L 01/14/2023 - 10:20:52: [SM] Plugin "confogl_autoloader.smx" encountered error 23: Native detected error
+L 01/14/2023 - 10:20:52: [SM] Invalid data handle 0 (error 4) passed during timer end with TIMER_DATA_HNDL_CLOSE
+L 01/14/2023 - 10:20:52: [SM] Unable to call function "ExecuteConfig" due to above error(s).
+L 01/14/2023 - 10:20:52: [SM] Plugin "confogl_autoloader.smx" encountered error 23: Native detected error
+L 01/14/2023 - 10:20:52: [SM] Invalid data handle 0 (error 4) passed during timer end with TIMER_DATA_HNDL_CLOSE
+L 01/14/2023 - 10:20:52: [SM] Unable to call function "ExecuteConfig" due to above error(s).
+L 01/14/2023 - 10:20:52: [SM] Exception reported: Native is not bound
+L 01/14/2023 - 10:20:52: [SM] Blaming: fixes/l4d_skip_intro.smx
+L 01/14/2023 - 10:20:52: [SM] Call stack trace:
+L 01/14/2023 - 10:20:52: [SM]   [0] L4D_IsFirstMapInScenario
+L 01/14/2023 - 10:20:52: [SM]   [1] Line 245, D:\SourcePawn10\l4d_skip_intro.sp::Event_NoDraw
+L 01/14/2023 - 10:20:52: [SM] Unable to load plugin "Welcome.smx": Could not find required plugin "l4d2_playtime_interface"
+L 01/14/2023 - 10:20:52: [SM] Unable to load plugin "l4d_fyzb_en_v20.smx": Could not find required plugin "readyup"
+L 01/14/2023 - 10:21:04: [SM] Plugin "confogl_autoloader.smx" encountered error 23: Native detected error
+L 01/14/2023 - 10:21:04: [SM] Invalid data handle 0 (error 4) passed during timer end with TIMER_DATA_HNDL_CLOSE
+L 01/14/2023 - 10:21:04: [SM] Unable to call function "ExecuteConfig" due to above error(s).
+L 01/14/2023 - 10:21:51: [SM] Plugin "confogl_autoloader.smx" encountered error 23: Native detected error
+L 01/14/2023 - 10:21:51: [SM] Invalid data handle 0 (error 4) passed during timer end with TIMER_DATA_HNDL_CLOSE
+L 01/14/2023 - 10:21:51: [SM] Unable to call function "ExecuteConfig" due to above error(s).
+L 01/14/2023 - 10:21:52: Error log file session closed.
+L 01/14/2023 - 10:21:52: SourceMod error session started
+L 01/14/2023 - 10:21:52: Info (map "c2m1_highway") (file "/root/Steam/steamapps/common/Left 4 Dead 2 Dedicated Server/left4dead2/addons/sourcemod/logs/errors_20230114.log")
+L 01/14/2023 - 10:21:52: [SM] Fatal error encountered parsing translation file "l4d2_spawn_props.phrases.txt"
+L 01/14/2023 - 10:21:52: [SM] Error (line 0, column 0): Stream failed to open
+L 01/14/2023 - 10:21:53: [SM] Plugin "confogl_autoloader.smx" encountered error 23: Native detected error
+L 01/14/2023 - 10:21:53: [SM] Invalid data handle 0 (error 4) passed during timer end with TIMER_DATA_HNDL_CLOSE
+L 01/14/2023 - 10:21:53: [SM] Unable to call function "ExecuteConfig" due to above error(s).
+L 01/14/2023 - 10:21:53: [SM] Plugin "confogl_autoloader.smx" encountered error 23: Native detected error
+L 01/14/2023 - 10:21:53: [SM] Invalid data handle 0 (error 4) passed during timer end with TIMER_DATA_HNDL_CLOSE
+L 01/14/2023 - 10:21:53: [SM] Unable to call function "ExecuteConfig" due to above error(s).
+L 01/14/2023 - 10:21:53: [SM] Plugin "confogl_autoloader.smx" encountered error 23: Native detected error
+L 01/14/2023 - 10:21:53: [SM] Invalid data handle 0 (error 4) passed during timer end with TIMER_DATA_HNDL_CLOSE
+L 01/14/2023 - 10:21:53: [SM] Unable to call function "ExecuteConfig" due to above error(s).
+L 01/14/2023 - 10:21:53: [SM] Exception reported: Native is not bound
+L 01/14/2023 - 10:21:53: [SM] Blaming: fixes/l4d_skip_intro.smx
+L 01/14/2023 - 10:21:53: [SM] Call stack trace:
+L 01/14/2023 - 10:21:53: [SM]   [0] L4D_IsFirstMapInScenario
+L 01/14/2023 - 10:21:53: [SM]   [1] Line 245, D:\SourcePawn10\l4d_skip_intro.sp::Event_NoDraw
+L 01/14/2023 - 10:21:54: [SM] Unable to load plugin "Welcome.smx": Could not find required plugin "l4d2_playtime_interface"
+L 01/14/2023 - 10:21:54: [SM] Unable to load plugin "l4d_fyzb_en_v20.smx": Could not find required plugin "readyup"
+L 01/14/2023 - 10:22:05: [SM] Plugin "confogl_autoloader.smx" encountered error 23: Native detected error
+L 01/14/2023 - 10:22:05: [SM] Invalid data handle 0 (error 4) passed during timer end with TIMER_DATA_HNDL_CLOSE
+L 01/14/2023 - 10:22:05: [SM] Unable to call function "ExecuteConfig" due to above error(s).
+L 01/14/2023 - 10:24:07: SourceMod error session started
+L 01/14/2023 - 10:24:07: Info (map "c2m1_highway") (file "/root/Steam/steamapps/common/Left 4 Dead 2 Dedicated Server/left4dead2/addons/sourcemod/logs/errors_20230114.log")
+L 01/14/2023 - 10:24:07: [SM] Unable to load plugin "Welcome.smx": Could not find required plugin "l4d2_playtime_interface"
+L 01/14/2023 - 10:24:07: [SM] Unable to load plugin "l4d_fyzb_en_v20.smx": Could not find required plugin "readyup"
+L 01/14/2023 - 10:24:13: [SM] Plugin "confogl_autoloader.smx" encountered error 23: Native detected error
+L 01/14/2023 - 10:24:13: [SM] Invalid data handle 0 (error 4) passed during timer end with TIMER_DATA_HNDL_CLOSE
+L 01/14/2023 - 10:24:13: [SM] Unable to call function "ExecuteConfig" due to above error(s).
+L 01/14/2023 - 10:28:25: SourceMod error session started
+L 01/14/2023 - 10:28:25: Info (map "c2m1_highway") (file "/root/Steam/steamapps/common/Left 4 Dead 2 Dedicated Server/left4dead2/addons/sourcemod/logs/errors_20230114.log")
+L 01/14/2023 - 10:28:25: [SM] Unable to load plugin "Welcome.smx": Could not find required plugin "l4d2_playtime_interface"
+L 01/14/2023 - 10:28:26: [SM] Unable to load plugin "l4d_fyzb_en_v20.smx": Could not find required plugin "readyup"
+L 01/14/2023 - 10:28:32: [SM] Plugin "confogl_autoloader.smx" encountered error 23: Native detected error
+L 01/14/2023 - 10:28:32: [SM] Invalid data handle 0 (error 4) passed during timer end with TIMER_DATA_HNDL_CLOSE
+L 01/14/2023 - 10:28:32: [SM] Unable to call function "ExecuteConfig" due to above error(s).
+L 01/14/2023 - 10:29:09: [SM] Fatal error encountered parsing translation file "l4d2_spawn_props.phrases.txt"
+L 01/14/2023 - 10:29:09: [SM] Error (line 0, column 0): Stream failed to open
+L 01/14/2023 - 10:29:12: [SM] Plugin "confogl_autoloader.smx" encountered error 23: Native detected error
+L 01/14/2023 - 10:29:12: [SM] Invalid data handle 0 (error 4) passed during timer end with TIMER_DATA_HNDL_CLOSE
+L 01/14/2023 - 10:29:12: [SM] Unable to call function "ExecuteConfig" due to above error(s).
+L 01/14/2023 - 10:29:12: Error log file session closed.
+L 01/14/2023 - 10:29:12: SourceMod error session started
+L 01/14/2023 - 10:29:12: Info (map "c2m1_highway") (file "/root/Steam/steamapps/common/Left 4 Dead 2 Dedicated Server/left4dead2/addons/sourcemod/logs/errors_20230114.log")
+L 01/14/2023 - 10:29:12: [SM] Fatal error encountered parsing translation file "l4d2_spawn_props.phrases.txt"
+L 01/14/2023 - 10:29:12: [SM] Error (line 0, column 0): Stream failed to open
+L 01/14/2023 - 10:29:14: [SM] Plugin "confogl_autoloader.smx" encountered error 23: Native detected error
+L 01/14/2023 - 10:29:14: [SM] Invalid data handle 0 (error 4) passed during timer end with TIMER_DATA_HNDL_CLOSE
+L 01/14/2023 - 10:29:14: [SM] Unable to call function "ExecuteConfig" due to above error(s).
+L 01/14/2023 - 10:29:14: [SM] Plugin "confogl_autoloader.smx" encountered error 23: Native detected error
+L 01/14/2023 - 10:29:14: [SM] Invalid data handle 0 (error 4) passed during timer end with TIMER_DATA_HNDL_CLOSE
+L 01/14/2023 - 10:29:14: [SM] Unable to call function "ExecuteConfig" due to above error(s).
+L 01/14/2023 - 10:29:14: [SM] Plugin "confogl_autoloader.smx" encountered error 23: Native detected error
+L 01/14/2023 - 10:29:14: [SM] Invalid data handle 0 (error 4) passed during timer end with TIMER_DATA_HNDL_CLOSE
+L 01/14/2023 - 10:29:14: [SM] Unable to call function "ExecuteConfig" due to above error(s).
+L 01/14/2023 - 10:29:14: [SM] Exception reported: Native is not bound
+L 01/14/2023 - 10:29:14: [SM] Blaming: fixes/l4d_skip_intro.smx
+L 01/14/2023 - 10:29:14: [SM] Call stack trace:
+L 01/14/2023 - 10:29:14: [SM]   [0] L4D_IsFirstMapInScenario
+L 01/14/2023 - 10:29:14: [SM]   [1] Line 245, D:\SourcePawn10\l4d_skip_intro.sp::Event_NoDraw
+L 01/14/2023 - 10:29:15: [SM] Unable to load plugin "Welcome.smx": Could not find required plugin "l4d2_playtime_interface"
+L 01/14/2023 - 10:29:15: [SM] Unable to load plugin "l4d_fyzb_en_v20.smx": Could not find required plugin "readyup"
+L 01/14/2023 - 10:29:26: [SM] Plugin "confogl_autoloader.smx" encountered error 23: Native detected error
+L 01/14/2023 - 10:29:26: [SM] Invalid data handle 0 (error 4) passed during timer end with TIMER_DATA_HNDL_CLOSE
+L 01/14/2023 - 10:29:26: [SM] Unable to call function "ExecuteConfig" due to above error(s).
+L 01/14/2023 - 10:29:54: [SM] Plugin "confogl_autoloader.smx" encountered error 23: Native detected error
+L 01/14/2023 - 10:29:54: [SM] Invalid data handle 0 (error 4) passed during timer end with TIMER_DATA_HNDL_CLOSE
+L 01/14/2023 - 10:29:54: [SM] Unable to call function "ExecuteConfig" due to above error(s).
+L 01/14/2023 - 10:29:54: [SM] Plugin "confogl_autoloader.smx" encountered error 23: Native detected error
+L 01/14/2023 - 10:29:54: [SM] Invalid data handle 0 (error 4) passed during timer end with TIMER_DATA_HNDL_CLOSE
+L 01/14/2023 - 10:29:54: [SM] Unable to call function "ExecuteConfig" due to above error(s).
+L 01/14/2023 - 10:29:54: Error log file session closed.
+L 01/14/2023 - 10:29:54: SourceMod error session started
+L 01/14/2023 - 10:29:54: Info (map "c2m1_highway") (file "/root/Steam/steamapps/common/Left 4 Dead 2 Dedicated Server/left4dead2/addons/sourcemod/logs/errors_20230114.log")
+L 01/14/2023 - 10:29:54: [SM] Fatal error encountered parsing translation file "l4d2_spawn_props.phrases.txt"
+L 01/14/2023 - 10:29:54: [SM] Error (line 0, column 0): Stream failed to open
+L 01/14/2023 - 10:29:56: [SM] Plugin "confogl_autoloader.smx" encountered error 23: Native detected error
+L 01/14/2023 - 10:29:56: [SM] Invalid data handle 0 (error 4) passed during timer end with TIMER_DATA_HNDL_CLOSE
+L 01/14/2023 - 10:29:56: [SM] Unable to call function "ExecuteConfig" due to above error(s).
+L 01/14/2023 - 10:29:56: [SM] Plugin "confogl_autoloader.smx" encountered error 23: Native detected error
+L 01/14/2023 - 10:29:56: [SM] Invalid data handle 0 (error 4) passed during timer end with TIMER_DATA_HNDL_CLOSE
+L 01/14/2023 - 10:29:56: [SM] Unable to call function "ExecuteConfig" due to above error(s).
+L 01/14/2023 - 10:29:56: [SM] Unable to load plugin "Welcome.smx": Could not find required plugin "l4d2_playtime_interface"
+L 01/14/2023 - 10:29:56: [SM] Unable to load plugin "l4d_fyzb_en_v20.smx": Could not find required plugin "readyup"
+L 01/14/2023 - 10:30:07: [SM] Plugin "confogl_autoloader.smx" encountered error 23: Native detected error
+L 01/14/2023 - 10:30:07: [SM] Invalid data handle 0 (error 4) passed during timer end with TIMER_DATA_HNDL_CLOSE
+L 01/14/2023 - 10:30:07: [SM] Unable to call function "ExecuteConfig" due to above error(s).
+L 01/14/2023 - 10:31:28: SourceMod error session started
+L 01/14/2023 - 10:31:28: Info (map "c2m1_highway") (file "/root/Steam/steamapps/common/Left 4 Dead 2 Dedicated Server/left4dead2/addons/sourcemod/logs/errors_20230114.log")
+L 01/14/2023 - 10:31:28: [SM] Unable to load plugin "Welcome.smx": Could not find required plugin "l4d2_playtime_interface"
+L 01/14/2023 - 10:31:28: [SM] Unable to load plugin "l4d_fyzb_en_v20.smx": Could not find required plugin "readyup"
+L 01/14/2023 - 10:31:34: [SM] Plugin "confogl_autoloader.smx" encountered error 23: Native detected error
+L 01/14/2023 - 10:31:34: [SM] Invalid data handle 0 (error 4) passed during timer end with TIMER_DATA_HNDL_CLOSE
+L 01/14/2023 - 10:31:34: [SM] Unable to call function "ExecuteConfig" due to above error(s).
+L 01/14/2023 - 14:57:27: SourceMod error session started
+L 01/14/2023 - 14:57:27: Info (map "c2m1_highway") (file "/root/Steam/steamapps/common/Left 4 Dead 2 Dedicated Server/left4dead2/addons/sourcemod/logs/errors_20230114.log")
+L 01/14/2023 - 14:57:27: [SM] Unable to load plugin "Welcome.smx": Could not find required plugin "l4d2_playtime_interface"
+L 01/14/2023 - 14:57:27: [SM] Unable to load plugin "l4d_fyzb_en_v20.smx": Could not find required plugin "readyup"
+L 01/14/2023 - 14:59:37: Error log file session closed.
+L 01/14/2023 - 15:00:53: SourceMod error session started
+L 01/14/2023 - 15:00:53: Info (map "c2m1_highway") (file "/root/Steam/steamapps/common/Left 4 Dead 2 Dedicated Server/left4dead2/addons/sourcemod/logs/errors_20230114.log")
+L 01/14/2023 - 15:00:53: [SM] Unable to load plugin "Welcome.smx": Could not find required plugin "l4d2_playtime_interface"
+L 01/14/2023 - 15:00:53: [SM] Unable to load plugin "l4d_fyzb_en_v20.smx": Could not find required plugin "readyup"
+L 01/14/2023 - 15:01:03: [SM] Fatal error encountered parsing translation file "l4d2_spawn_props.phrases.txt"
+L 01/14/2023 - 15:01:03: [SM] Error (line 0, column 0): Stream failed to open
+L 01/14/2023 - 15:01:06: Error log file session closed.
+L 01/14/2023 - 15:01:06: SourceMod error session started
+L 01/14/2023 - 15:01:06: Info (map "c2m1_highway") (file "/root/Steam/steamapps/common/Left 4 Dead 2 Dedicated Server/left4dead2/addons/sourcemod/logs/errors_20230114.log")
+L 01/14/2023 - 15:01:06: [SM] Fatal error encountered parsing translation file "l4d2_spawn_props.phrases.txt"
+L 01/14/2023 - 15:01:06: [SM] Error (line 0, column 0): Stream failed to open
+L 01/14/2023 - 15:02:35: [SM] Exception reported: Language phrase "Spawn Objects" not found (arg 4)
+L 01/14/2023 - 15:02:35: [SM] Blaming: optional/l4d2_spawn_props.smx
+L 01/14/2023 - 15:02:35: [SM] Call stack trace:
+L 01/14/2023 - 15:02:35: [SM]   [0] VFormat
+L 01/14/2023 - 15:02:35: [SM]   [1] Line 3098, l4d2_spawn_props.sp::Translate
+L 01/14/2023 - 15:02:35: [SM]   [2] Line 424, l4d2_spawn_props.sp::Category_Handler
+L 01/14/2023 - 15:02:35: [SM]   [4] TopMenu.Display
+L 01/14/2023 - 15:02:35: [SM]   [5] Line 195, /home/builds/sourcemod/linux-1.11/build/plugins/adminmenu.sp::Command_DisplayMenu
+L 01/14/2023 - 15:02:35: [SM] Exception reported: Language phrase "Delete Object" not found (arg 4)
+L 01/14/2023 - 15:02:35: [SM] Blaming: optional/l4d2_spawn_props.smx
+L 01/14/2023 - 15:02:35: [SM] Call stack trace:
+L 01/14/2023 - 15:02:35: [SM]   [0] VFormat
+L 01/14/2023 - 15:02:35: [SM]   [1] Line 3098, l4d2_spawn_props.sp::Translate
+L 01/14/2023 - 15:02:35: [SM]   [2] Line 437, l4d2_spawn_props.sp::AdminMenu_Delete
+L 01/14/2023 - 15:02:35: [SM]   [4] TopMenu.Display
+L 01/14/2023 - 15:02:35: [SM]   [5] Line 195, /home/builds/sourcemod/linux-1.11/build/plugins/adminmenu.sp::Command_DisplayMenu
+L 01/14/2023 - 15:02:35: [SM] Exception reported: Language phrase "Edit Object" not found (arg 4)
+L 01/14/2023 - 15:02:35: [SM] Blaming: optional/l4d2_spawn_props.smx
+L 01/14/2023 - 15:02:35: [SM] Call stack trace:
+L 01/14/2023 - 15:02:35: [SM]   [0] VFormat
+L 01/14/2023 - 15:02:35: [SM]   [1] Line 3098, l4d2_spawn_props.sp::Translate
+L 01/14/2023 - 15:02:35: [SM]   [2] Line 548, l4d2_spawn_props.sp::AdminMenu_Edit
+L 01/14/2023 - 15:02:35: [SM]   [4] TopMenu.Display
+L 01/14/2023 - 15:02:35: [SM]   [5] Line 195, /home/builds/sourcemod/linux-1.11/build/plugins/adminmenu.sp::Command_DisplayMenu
+L 01/14/2023 - 15:02:35: [SM] Exception reported: Language phrase "Spawn Objects" not found (arg 4)
+L 01/14/2023 - 15:02:35: [SM] Blaming: optional/l4d2_spawn_props.smx
+L 01/14/2023 - 15:02:35: [SM] Call stack trace:
+L 01/14/2023 - 15:02:35: [SM]   [0] VFormat
+L 01/14/2023 - 15:02:35: [SM]   [1] Line 3098, l4d2_spawn_props.sp::Translate
+L 01/14/2023 - 15:02:35: [SM]   [2] Line 566, l4d2_spawn_props.sp::AdminMenu_Spawn
+L 01/14/2023 - 15:02:35: [SM]   [4] TopMenu.Display
+L 01/14/2023 - 15:02:35: [SM]   [5] Line 195, /home/builds/sourcemod/linux-1.11/build/plugins/adminmenu.sp::Command_DisplayMenu
+L 01/14/2023 - 15:02:35: [SM] Exception reported: Language phrase "Save Objects" not found (arg 4)
+L 01/14/2023 - 15:02:35: [SM] Blaming: optional/l4d2_spawn_props.smx
+L 01/14/2023 - 15:02:35: [SM] Call stack trace:
+L 01/14/2023 - 15:02:35: [SM]   [0] VFormat
+L 01/14/2023 - 15:02:35: [SM]   [1] Line 3098, l4d2_spawn_props.sp::Translate
+L 01/14/2023 - 15:02:35: [SM]   [2] Line 656, l4d2_spawn_props.sp::AdminMenu_Save
+L 01/14/2023 - 15:02:35: [SM]   [4] TopMenu.Display
+L 01/14/2023 - 15:02:35: [SM]   [5] Line 195, /home/builds/sourcemod/linux-1.11/build/plugins/adminmenu.sp::Command_DisplayMenu
+L 01/14/2023 - 15:02:35: [SM] Exception reported: Language phrase "Load Objects" not found (arg 4)
+L 01/14/2023 - 15:02:35: [SM] Blaming: optional/l4d2_spawn_props.smx
+L 01/14/2023 - 15:02:35: [SM] Call stack trace:
+L 01/14/2023 - 15:02:35: [SM]   [0] VFormat
+L 01/14/2023 - 15:02:35: [SM]   [1] Line 3098, l4d2_spawn_props.sp::Translate
+L 01/14/2023 - 15:02:35: [SM]   [2] Line 770, l4d2_spawn_props.sp::AdminMenu_Load
+L 01/14/2023 - 15:02:35: [SM]   [4] TopMenu.Display
+L 01/14/2023 - 15:02:35: [SM]   [5] Line 195, /home/builds/sourcemod/linux-1.11/build/plugins/adminmenu.sp::Command_DisplayMenu
+L 01/14/2023 - 15:02:35: [SM] Exception reported: Language phrase "Select a task:" not found (arg 4)
+L 01/14/2023 - 15:02:35: [SM] Blaming: optional/l4d2_spawn_props.smx
+L 01/14/2023 - 15:02:35: [SM] Call stack trace:
+L 01/14/2023 - 15:02:35: [SM]   [0] VFormat
+L 01/14/2023 - 15:02:35: [SM]   [1] Line 3098, l4d2_spawn_props.sp::Translate
+L 01/14/2023 - 15:02:35: [SM]   [2] Line 420, l4d2_spawn_props.sp::Category_Handler
+L 01/14/2023 - 15:02:35: [SM]   [4] TopMenu.Display
+L 01/14/2023 - 15:02:35: [SM]   [5] Line 195, /home/builds/sourcemod/linux-1.11/build/plugins/adminmenu.sp::Command_DisplayMenu
+L 01/14/2023 - 15:02:35: [SM] Exception reported: Language phrase "Spawn Objects" not found (arg 4)
+L 01/14/2023 - 15:02:35: [SM] Blaming: optional/l4d2_spawn_props.smx
+L 01/14/2023 - 15:02:35: [SM] Call stack trace:
+L 01/14/2023 - 15:02:35: [SM]   [0] VFormat
+L 01/14/2023 - 15:02:35: [SM]   [1] Line 3098, l4d2_spawn_props.sp::Translate
+L 01/14/2023 - 15:02:35: [SM]   [2] Line 424, l4d2_spawn_props.sp::Category_Handler
+L 01/14/2023 - 15:02:35: [SM]   [4] TopMenu.Display
+L 01/14/2023 - 15:02:35: [SM]   [5] Line 195, /home/builds/sourcemod/linux-1.11/build/plugins/adminmenu.sp::Command_DisplayMenu
+L 01/14/2023 - 15:02:38: [SM] Exception reported: Language phrase "Edit Object" not found (arg 4)
+L 01/14/2023 - 15:02:38: [SM] Blaming: optional/l4d2_spawn_props.smx
+L 01/14/2023 - 15:02:38: [SM] Call stack trace:
+L 01/14/2023 - 15:02:38: [SM]   [0] VFormat
+L 01/14/2023 - 15:02:38: [SM]   [1] Line 3098, l4d2_spawn_props.sp::Translate
+L 01/14/2023 - 15:02:38: [SM]   [2] Line 548, l4d2_spawn_props.sp::AdminMenu_Edit
+L 01/14/2023 - 15:02:38: [SM] Exception reported: Language phrase "Load Objects" not found (arg 4)
+L 01/14/2023 - 15:02:38: [SM] Blaming: optional/l4d2_spawn_props.smx
+L 01/14/2023 - 15:02:38: [SM] Call stack trace:
+L 01/14/2023 - 15:02:38: [SM]   [0] VFormat
+L 01/14/2023 - 15:02:38: [SM]   [1] Line 3098, l4d2_spawn_props.sp::Translate
+L 01/14/2023 - 15:02:38: [SM]   [2] Line 770, l4d2_spawn_props.sp::AdminMenu_Load
+L 01/14/2023 - 15:02:38: [SM] Exception reported: Language phrase "Delete Object" not found (arg 4)
+L 01/14/2023 - 15:02:38: [SM] Blaming: optional/l4d2_spawn_props.smx
+L 01/14/2023 - 15:02:38: [SM] Call stack trace:
+L 01/14/2023 - 15:02:38: [SM]   [0] VFormat
+L 01/14/2023 - 15:02:38: [SM]   [1] Line 3098, l4d2_spawn_props.sp::Translate
+L 01/14/2023 - 15:02:38: [SM]   [2] Line 437, l4d2_spawn_props.sp::AdminMenu_Delete
+L 01/14/2023 - 15:02:38: [SM] Exception reported: Language phrase "Spawn Objects" not found (arg 4)
+L 01/14/2023 - 15:02:38: [SM] Blaming: optional/l4d2_spawn_props.smx
+L 01/14/2023 - 15:02:38: [SM] Call stack trace:
+L 01/14/2023 - 15:02:38: [SM]   [0] VFormat
+L 01/14/2023 - 15:02:38: [SM]   [1] Line 3098, l4d2_spawn_props.sp::Translate
+L 01/14/2023 - 15:02:38: [SM]   [2] Line 566, l4d2_spawn_props.sp::AdminMenu_Spawn
+L 01/14/2023 - 15:02:38: [SM] Exception reported: Language phrase "Save Objects" not found (arg 4)
+L 01/14/2023 - 15:02:38: [SM] Blaming: optional/l4d2_spawn_props.smx
+L 01/14/2023 - 15:02:38: [SM] Call stack trace:
+L 01/14/2023 - 15:02:38: [SM]   [0] VFormat
+L 01/14/2023 - 15:02:38: [SM]   [1] Line 3098, l4d2_spawn_props.sp::Translate
+L 01/14/2023 - 15:02:38: [SM]   [2] Line 656, l4d2_spawn_props.sp::AdminMenu_Save
+L 01/14/2023 - 15:02:39: [SM] Exception reported: Language phrase "Select an action:" not found (arg 5)
+L 01/14/2023 - 15:02:39: [SM] Blaming: optional/l4d2_spawn_props.smx
+L 01/14/2023 - 15:02:39: [SM] Call stack trace:
+L 01/14/2023 - 15:02:39: [SM]   [0] Menu.SetTitle
+L 01/14/2023 - 15:02:39: [SM]   [1] Line 936, l4d2_spawn_props.sp::BuildEditPropMenu
+L 01/14/2023 - 15:02:39: [SM]   [2] Line 552, l4d2_spawn_props.sp::AdminMenu_Edit
+L 01/14/2023 - 15:02:44: [SM] Exception reported: Language phrase "Spawn Objects" not found (arg 4)
+L 01/14/2023 - 15:02:44: [SM] Blaming: optional/l4d2_spawn_props.smx
+L 01/14/2023 - 15:02:44: [SM] Call stack trace:
+L 01/14/2023 - 15:02:44: [SM]   [0] VFormat
+L 01/14/2023 - 15:02:44: [SM]   [1] Line 3098, l4d2_spawn_props.sp::Translate
+L 01/14/2023 - 15:02:44: [SM]   [2] Line 424, l4d2_spawn_props.sp::Category_Handler
+L 01/14/2023 - 15:02:44: [SM]   [4] TopMenu.Display
+L 01/14/2023 - 15:02:44: [SM]   [5] Line 195, /home/builds/sourcemod/linux-1.11/build/plugins/adminmenu.sp::Command_DisplayMenu
+L 01/14/2023 - 15:02:46: [SM] Exception reported: Language phrase "Spawn Objects" not found (arg 4)
+L 01/14/2023 - 15:02:46: [SM] Blaming: optional/l4d2_spawn_props.smx
+L 01/14/2023 - 15:02:46: [SM] Call stack trace:
+L 01/14/2023 - 15:02:46: [SM]   [0] VFormat
+L 01/14/2023 - 15:02:46: [SM]   [1] Line 3098, l4d2_spawn_props.sp::Translate
+L 01/14/2023 - 15:02:46: [SM]   [2] Line 424, l4d2_spawn_props.sp::Category_Handler
+L 01/14/2023 - 15:02:46: [SM]   [4] TopMenu.Display
+L 01/14/2023 - 15:02:46: [SM]   [5] Line 195, /home/builds/sourcemod/linux-1.11/build/plugins/adminmenu.sp::Command_DisplayMenu
+L 01/14/2023 - 15:02:47: [SM] Exception reported: Language phrase "Edit Object" not found (arg 4)
+L 01/14/2023 - 15:02:47: [SM] Blaming: optional/l4d2_spawn_props.smx
+L 01/14/2023 - 15:02:47: [SM] Call stack trace:
+L 01/14/2023 - 15:02:47: [SM]   [0] VFormat
+L 01/14/2023 - 15:02:47: [SM]   [1] Line 3098, l4d2_spawn_props.sp::Translate
+L 01/14/2023 - 15:02:47: [SM]   [2] Line 548, l4d2_spawn_props.sp::AdminMenu_Edit
+L 01/14/2023 - 15:02:47: [SM] Exception reported: Language phrase "Load Objects" not found (arg 4)
+L 01/14/2023 - 15:02:47: [SM] Blaming: optional/l4d2_spawn_props.smx
+L 01/14/2023 - 15:02:47: [SM] Call stack trace:
+L 01/14/2023 - 15:02:47: [SM]   [0] VFormat
+L 01/14/2023 - 15:02:47: [SM]   [1] Line 3098, l4d2_spawn_props.sp::Translate
+L 01/14/2023 - 15:02:47: [SM]   [2] Line 770, l4d2_spawn_props.sp::AdminMenu_Load
+L 01/14/2023 - 15:02:47: [SM] Exception reported: Language phrase "Delete Object" not found (arg 4)
+L 01/14/2023 - 15:02:47: [SM] Blaming: optional/l4d2_spawn_props.smx
+L 01/14/2023 - 15:02:47: [SM] Call stack trace:
+L 01/14/2023 - 15:02:47: [SM]   [0] VFormat
+L 01/14/2023 - 15:02:47: [SM]   [1] Line 3098, l4d2_spawn_props.sp::Translate
+L 01/14/2023 - 15:02:47: [SM]   [2] Line 437, l4d2_spawn_props.sp::AdminMenu_Delete
+L 01/14/2023 - 15:02:47: [SM] Exception reported: Language phrase "Spawn Objects" not found (arg 4)
+L 01/14/2023 - 15:02:47: [SM] Blaming: optional/l4d2_spawn_props.smx
+L 01/14/2023 - 15:02:47: [SM] Call stack trace:
+L 01/14/2023 - 15:02:47: [SM]   [0] VFormat
+L 01/14/2023 - 15:02:47: [SM]   [1] Line 3098, l4d2_spawn_props.sp::Translate
+L 01/14/2023 - 15:02:47: [SM]   [2] Line 566, l4d2_spawn_props.sp::AdminMenu_Spawn
+L 01/14/2023 - 15:02:47: [SM] Exception reported: Language phrase "Save Objects" not found (arg 4)
+L 01/14/2023 - 15:02:47: [SM] Blaming: optional/l4d2_spawn_props.smx
+L 01/14/2023 - 15:02:47: [SM] Call stack trace:
+L 01/14/2023 - 15:02:47: [SM]   [0] VFormat
+L 01/14/2023 - 15:02:47: [SM]   [1] Line 3098, l4d2_spawn_props.sp::Translate
+L 01/14/2023 - 15:02:47: [SM]   [2] Line 656, l4d2_spawn_props.sp::AdminMenu_Save
+L 01/14/2023 - 15:02:50: [SM] Exception reported: Language phrase "Select the delete task" not found (arg 5)
+L 01/14/2023 - 15:02:50: [SM] Blaming: optional/l4d2_spawn_props.smx
+L 01/14/2023 - 15:02:50: [SM] Call stack trace:
+L 01/14/2023 - 15:02:50: [SM]   [0] Menu.SetTitle
+L 01/14/2023 - 15:02:50: [SM]   [1] Line 448, l4d2_spawn_props.sp::BuildDeleteMenu
+L 01/14/2023 - 15:02:50: [SM]   [2] Line 441, l4d2_spawn_props.sp::AdminMenu_Delete
+L 01/14/2023 - 15:04:40: [SM] Exception reported: Language phrase "Spawn Objects" not found (arg 4)
+L 01/14/2023 - 15:04:40: [SM] Blaming: optional/l4d2_spawn_props.smx
+L 01/14/2023 - 15:04:40: [SM] Call stack trace:
+L 01/14/2023 - 15:04:40: [SM]   [0] VFormat
+L 01/14/2023 - 15:04:40: [SM]   [1] Line 3098, l4d2_spawn_props.sp::Translate
+L 01/14/2023 - 15:04:40: [SM]   [2] Line 424, l4d2_spawn_props.sp::Category_Handler
+L 01/14/2023 - 15:04:40: [SM]   [4] TopMenu.Display
+L 01/14/2023 - 15:04:40: [SM]   [5] Line 195, /home/builds/sourcemod/linux-1.11/build/plugins/adminmenu.sp::Command_DisplayMenu
+L 01/14/2023 - 15:05:24: [SM] Exception reported: Language phrase "Spawn Objects" not found (arg 4)
+L 01/14/2023 - 15:05:24: [SM] Blaming: optional/l4d2_spawn_props.smx
+L 01/14/2023 - 15:05:24: [SM] Call stack trace:
+L 01/14/2023 - 15:05:24: [SM]   [0] VFormat
+L 01/14/2023 - 15:05:24: [SM]   [1] Line 3098, l4d2_spawn_props.sp::Translate
+L 01/14/2023 - 15:05:24: [SM]   [2] Line 424, l4d2_spawn_props.sp::Category_Handler
+L 01/14/2023 - 15:05:24: [SM]   [4] TopMenu.Display
+L 01/14/2023 - 15:05:24: [SM]   [5] Line 195, /home/builds/sourcemod/linux-1.11/build/plugins/adminmenu.sp::Command_DisplayMenu
+L 01/14/2023 - 15:09:27: [SM] Exception reported: Language phrase "Spawn Objects" not found (arg 4)
+L 01/14/2023 - 15:09:27: [SM] Blaming: optional/l4d2_spawn_props.smx
+L 01/14/2023 - 15:09:27: [SM] Call stack trace:
+L 01/14/2023 - 15:09:27: [SM]   [0] VFormat
+L 01/14/2023 - 15:09:27: [SM]   [1] Line 3098, l4d2_spawn_props.sp::Translate
+L 01/14/2023 - 15:09:27: [SM]   [2] Line 424, l4d2_spawn_props.sp::Category_Handler
+L 01/14/2023 - 15:09:27: [SM]   [4] TopMenu.Display
+L 01/14/2023 - 15:09:27: [SM]   [5] Line 195, /home/builds/sourcemod/linux-1.11/build/plugins/adminmenu.sp::Command_DisplayMenu
+L 01/14/2023 - 15:15:31: [SM] Unable to load plugin "Welcome.smx": Could not find required plugin "l4d2_playtime_interface"
+L 01/14/2023 - 15:15:31: [SM] Unable to load plugin "l4d_fyzb_en_v20.smx": Could not find required plugin "readyup"
+L 01/14/2023 - 15:15:46: Error log file session closed.
+L 01/14/2023 - 15:15:46: SourceMod error session started
+L 01/14/2023 - 15:15:46: Info (map "c2m1_highway") (file "/root/Steam/steamapps/common/Left 4 Dead 2 Dedicated Server/left4dead2/addons/sourcemod/logs/errors_20230114.log")
+L 01/14/2023 - 15:15:46: [SM] Fatal error encountered parsing translation file "l4d2_spawn_props.phrases.txt"
+L 01/14/2023 - 15:15:46: [SM] Error (line 0, column 0): Stream failed to open
+L 01/14/2023 - 15:16:51: [SM] Unable to load plugin "Welcome.smx": Could not find required plugin "l4d2_playtime_interface"
+L 01/14/2023 - 15:16:51: [SM] Unable to load plugin "l4d_fyzb_en_v20.smx": Could not find required plugin "readyup"
+L 01/14/2023 - 15:17:06: Error log file session closed.
+L 01/14/2023 - 15:17:06: SourceMod error session started
+L 01/14/2023 - 15:17:06: Info (map "c2m1_highway") (file "/root/Steam/steamapps/common/Left 4 Dead 2 Dedicated Server/left4dead2/addons/sourcemod/logs/errors_20230114.log")
+L 01/14/2023 - 15:17:06: [SM] Fatal error encountered parsing translation file "l4d2_spawn_props.phrases.txt"
+L 01/14/2023 - 15:17:06: [SM] Error (line 0, column 0): Stream failed to open
+L 01/14/2023 - 15:18:53: SourceMod error session started
+L 01/14/2023 - 15:18:53: Info (map "c2m1_highway") (file "/root/Steam/steamapps/common/Left 4 Dead 2 Dedicated Server/left4dead2/addons/sourcemod/logs/errors_20230114.log")
+L 01/14/2023 - 15:18:53: [SM] Unable to load plugin "Welcome.smx": Could not find required plugin "l4d2_playtime_interface"
+L 01/14/2023 - 15:18:53: [SM] Unable to load plugin "l4d_fyzb_en_v20.smx": Could not find required plugin "readyup"
+L 01/15/2023 - 20:25:59: Error log file session closed.

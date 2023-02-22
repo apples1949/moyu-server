@@ -1,0 +1,34 @@
+L 11/04/2022 - 13:42:02: SourceMod error session started
+L 11/04/2022 - 13:42:02: Info (map "c8m5_rooftop") (file "/root/Steam/steamapps/common/Left 4 Dead 2 Dedicated Server/left4dead2/addons/sourcemod/logs/errors_20221104.log")
+L 11/04/2022 - 13:42:02: [SM] Unable to load plugin "Welcome.smx": Could not find required plugin "l4d2_playtime_interface"
+L 11/04/2022 - 13:44:35: Error log file session closed.
+L 11/04/2022 - 13:47:21: SourceMod error session started
+L 11/04/2022 - 13:47:21: Info (map "c2m1_highway") (file "/root/Steam/steamapps/common/Left 4 Dead 2 Dedicated Server/left4dead2/addons/sourcemod/logs/errors_20221104.log")
+L 11/04/2022 - 13:47:21: [confoglcompmod.smx] [Confogl] CvarSettings: Could not find CVar specified (confogl_ghost_warp)
+L 11/04/2022 - 13:47:21: [confoglcompmod.smx] [Confogl] CvarSettings: Attempt to track ConVar confogl_pills_limit, which is already being tracked.
+L 11/04/2022 - 13:47:21: [confoglcompmod.smx] [Confogl] CvarSettings: Could not find CVar specified (longer_tank_punch_getup)
+L 11/04/2022 - 13:47:21: [confoglcompmod.smx] [Confogl] CvarSettings: Could not find CVar specified (l4d_equalise_alarm_cars)
+L 11/04/2022 - 13:47:24: Error log file session closed.
+L 11/04/2022 - 13:51:00: SourceMod error session started
+L 11/04/2022 - 13:51:00: Info (map "c8m5_rooftop") (file "/root/Steam/steamapps/common/Left 4 Dead 2 Dedicated Server/left4dead2/addons/sourcemod/logs/errors_20221104.log")
+L 11/04/2022 - 13:51:00: [SM] Unable to load plugin "Welcome.smx": Could not find required plugin "l4d2_playtime_interface"
+L 11/04/2022 - 20:31:50: [confoglcompmod.smx] [Confogl] CvarSettings: Attempt to track ConVar confogl_pills_limit, which is already being tracked.
+L 11/04/2022 - 20:31:53: Error log file session closed.
+L 11/04/2022 - 20:39:42: SourceMod error session started
+L 11/04/2022 - 20:39:42: Info (map "c8m5_rooftop") (file "/root/Steam/steamapps/common/Left 4 Dead 2 Dedicated Server/left4dead2/addons/sourcemod/logs/errors_20221104.log")
+L 11/04/2022 - 20:39:42: [SM] Unable to load plugin "Welcome.smx": Could not find required plugin "l4d2_playtime_interface"
+L 11/04/2022 - 20:39:52: [confoglcompmod.smx] [Confogl] CvarSettings: Could not find CVar specified (confogl_medkit_limit)
+L 11/04/2022 - 20:39:55: Error log file session closed.
+L 11/04/2022 - 20:42:34: SourceMod error session started
+L 11/04/2022 - 20:42:34: Info (map "c8m5_rooftop") (file "/root/Steam/steamapps/common/Left 4 Dead 2 Dedicated Server/left4dead2/addons/sourcemod/logs/errors_20221104.log")
+L 11/04/2022 - 20:42:34: [SM] Unable to load plugin "Welcome.smx": Could not find required plugin "l4d2_playtime_interface"
+L 11/04/2022 - 20:42:40: [confoglcompmod.smx] [Confogl] CvarSettings: Attempt to track ConVar confogl_pills_limit, which is already being tracked.
+L 11/04/2022 - 20:42:43: Error log file session closed.
+L 11/04/2022 - 20:49:52: SourceMod error session started
+L 11/04/2022 - 20:49:52: Info (map "c8m5_rooftop") (file "/root/Steam/steamapps/common/Left 4 Dead 2 Dedicated Server/left4dead2/addons/sourcemod/logs/errors_20221104.log")
+L 11/04/2022 - 20:49:52: [SM] Unable to load plugin "Welcome.smx": Could not find required plugin "l4d2_playtime_interface"
+L 11/04/2022 - 22:29:55: [confoglcompmod.smx] [Confogl] CvarSettings: Could not find CVar specified (confogl_medkit_limit)
+L 11/04/2022 - 22:29:58: Error log file session closed.
+L 11/04/2022 - 23:07:35: SourceMod error session started
+L 11/04/2022 - 23:07:35: Info (map "c8m5_rooftop") (file "/root/Steam/steamapps/common/Left 4 Dead 2 Dedicated Server/left4dead2/addons/sourcemod/logs/errors_20221104.log")
+L 11/04/2022 - 23:07:35: [SM] Unable to load plugin "Welcome.smx": Could not find required plugin "l4d2_playtime_interface"

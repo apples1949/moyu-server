@@ -1,0 +1,4 @@
+L 01/15/2023 - 20:26:50: SourceMod error session started
+L 01/15/2023 - 20:26:50: Info (map "c2m1_highway") (file "/root/Steam/steamapps/common/Left 4 Dead 2 Dedicated Server/left4dead2/addons/sourcemod/logs/errors_20230115.log")
+L 01/15/2023 - 20:26:50: [SM] Unable to load plugin "Welcome.smx": Could not find required plugin "l4d2_playtime_interface"
+L 01/15/2023 - 20:26:50: [SM] Unable to load plugin "l4d_fyzb_en_v20.smx": Could not find required plugin "readyup"

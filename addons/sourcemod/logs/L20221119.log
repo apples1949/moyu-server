@@ -1,0 +1,674 @@
+L 11/19/2022 - 13:52:35: SourceMod log file session started (file "/root/Steam/steamapps/common/Left 4 Dead 2 Dedicated Server/left4dead2/addons/sourcemod/logs/L20221119.log") (Version "1.11.0.6825")
+L 11/19/2022 - 13:52:35: [GEOIP] GeoIP2 database loaded: GeoLite2-City (2019-12-17 20:01:26 UTC)
+L 11/19/2022 - 13:52:35: [GEOIP] GeoIP2 supported languages: de en es fr ja pt-BR ru zh-CN
+L 11/19/2022 - 13:52:35: [GEOIPCITY] GeoIPCity database info: GEO-533LITE 20150106 Build 1 Copyright (c) 2015 MaxMind Inc All Rights Reserved
+L 11/19/2022 - 13:52:38: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "confogl_match_execcfg_plugins") (value "generalfixes.cfg;confogl_plugins.cfg;sharedplugins.cfg")
+L 11/19/2022 - 13:52:38: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "l4d2_addons_eclipse") (value "0")
+L 11/19/2022 - 13:52:38: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sv_allow_wait_command") (value "0")
+L 11/19/2022 - 13:52:38: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sv_minrate") (value "100000")
+L 11/19/2022 - 13:52:38: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sv_maxrate") (value "100000")
+L 11/19/2022 - 13:52:38: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sv_minupdaterate") (value "100")
+L 11/19/2022 - 13:52:38: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sv_maxupdaterate") (value "100")
+L 11/19/2022 - 13:52:38: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sv_mincmdrate") (value "100")
+L 11/19/2022 - 13:52:38: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sv_maxcmdrate") (value "100")
+L 11/19/2022 - 13:52:38: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sv_client_min_interp_ratio") (value "-1")
+L 11/19/2022 - 13:52:38: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sv_client_max_interp_ratio") (value "0")
+L 11/19/2022 - 13:52:38: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "nb_update_frequency") (value "0.014")
+L 11/19/2022 - 13:52:38: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "net_splitpacket_maxrate") (value "50000")
+L 11/19/2022 - 13:52:38: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "fps_max") (value "0")
+L 11/19/2022 - 13:52:38: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "tick_door_speed") (value "1.3")
+L 11/19/2022 - 13:52:38: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "mv_maxplayers") (value "12")
+L 11/19/2022 - 13:52:38: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "mp_autoteambalance") (value "0")
+L 11/19/2022 - 13:52:38: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sv_unlag_fixstuck") (value "1")
+L 11/19/2022 - 13:52:38: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "z_brawl_chance") (value "0")
+L 11/19/2022 - 13:52:38: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sv_maxunlag") (value "1")
+L 11/19/2022 - 13:52:38: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sv_forcepreload") (value "1")
+L 11/19/2022 - 13:52:38: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sv_client_predict") (value "1")
+L 11/19/2022 - 13:52:38: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sv_client_cmdrate_difference") (value "0")
+L 11/19/2022 - 13:52:38: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sv_max_queries_sec_global") (value "10")
+L 11/19/2022 - 13:52:38: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sv_max_queries_sec") (value "3")
+L 11/19/2022 - 13:52:38: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sv_max_queries_window") (value "10")
+L 11/19/2022 - 13:52:38: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sv_player_stuck_tolerance") (value "5")
+L 11/19/2022 - 13:52:38: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sv_stats") (value "0")
+L 11/19/2022 - 13:52:38: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sv_clockcorrection_msecs") (value "25")
+L 11/19/2022 - 13:52:38: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sb_all_bot_game") (value "1")
+L 11/19/2022 - 13:53:08: [cannounce.smx] Admin 我是小孤独！ <STEAM_1:0:246466989> connected from country China (CN), IP 61.179.137.171
+L 11/19/2022 - 13:53:10: [l4d2_playtime_interface.smx] Failed to retrieve response (GetOwnedGames) - HTTPStatus: 0
+L 11/19/2022 - 13:53:11: [l4d2_playtime_interface.smx] Failed to retrieve response (GetUserStatsForGame) - HTTPStatus: 403
+L 11/19/2022 - 13:55:25: [cannounce.smx] Admin 我是小孤独！ <STEAM_1:0:246466989> from country China (CN) disconnected from IP 61.179.137.171reason: Disconnect by user.
+L 11/19/2022 - 13:55:25: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sb_all_bot_game") (value "1")
+L 11/19/2022 - 13:55:25: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sb_all_bot_game") (value "1")
+L 11/19/2022 - 13:55:27: [linux_auto_restart.smx] Last one player left the server, Restart server now
+L 11/19/2022 - 13:55:27: [linux_auto_restart.smx] Last one player left the server, Restart server now
+L 11/19/2022 - 13:55:39: SourceMod log file session started (file "/root/Steam/steamapps/common/Left 4 Dead 2 Dedicated Server/left4dead2/addons/sourcemod/logs/L20221119.log") (Version "1.11.0.6825")
+L 11/19/2022 - 13:55:39: [GEOIP] GeoIP2 database loaded: GeoLite2-City (2019-12-17 20:01:26 UTC)
+L 11/19/2022 - 13:55:39: [GEOIP] GeoIP2 supported languages: de en es fr ja pt-BR ru zh-CN
+L 11/19/2022 - 13:55:39: [GEOIPCITY] GeoIPCity database info: GEO-533LITE 20150106 Build 1 Copyright (c) 2015 MaxMind Inc All Rights Reserved
+L 11/19/2022 - 13:55:41: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "confogl_match_execcfg_plugins") (value "generalfixes.cfg;confogl_plugins.cfg;sharedplugins.cfg")
+L 11/19/2022 - 13:55:41: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "l4d2_addons_eclipse") (value "0")
+L 11/19/2022 - 13:55:41: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sv_allow_wait_command") (value "0")
+L 11/19/2022 - 13:55:41: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sv_minrate") (value "100000")
+L 11/19/2022 - 13:55:41: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sv_maxrate") (value "100000")
+L 11/19/2022 - 13:55:41: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sv_minupdaterate") (value "100")
+L 11/19/2022 - 13:55:41: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sv_maxupdaterate") (value "100")
+L 11/19/2022 - 13:55:41: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sv_mincmdrate") (value "100")
+L 11/19/2022 - 13:55:41: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sv_maxcmdrate") (value "100")
+L 11/19/2022 - 13:55:41: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sv_client_min_interp_ratio") (value "-1")
+L 11/19/2022 - 13:55:41: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sv_client_max_interp_ratio") (value "0")
+L 11/19/2022 - 13:55:41: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "nb_update_frequency") (value "0.014")
+L 11/19/2022 - 13:55:41: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "net_splitpacket_maxrate") (value "50000")
+L 11/19/2022 - 13:55:41: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "fps_max") (value "0")
+L 11/19/2022 - 13:55:41: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "tick_door_speed") (value "1.3")
+L 11/19/2022 - 13:55:41: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "mv_maxplayers") (value "12")
+L 11/19/2022 - 13:55:41: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "mp_autoteambalance") (value "0")
+L 11/19/2022 - 13:55:41: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sv_unlag_fixstuck") (value "1")
+L 11/19/2022 - 13:55:41: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "z_brawl_chance") (value "0")
+L 11/19/2022 - 13:55:41: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sv_maxunlag") (value "1")
+L 11/19/2022 - 13:55:41: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sv_forcepreload") (value "1")
+L 11/19/2022 - 13:55:41: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sv_client_predict") (value "1")
+L 11/19/2022 - 13:55:41: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sv_client_cmdrate_difference") (value "0")
+L 11/19/2022 - 13:55:41: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sv_max_queries_sec_global") (value "10")
+L 11/19/2022 - 13:55:41: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sv_max_queries_sec") (value "3")
+L 11/19/2022 - 13:55:41: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sv_max_queries_window") (value "10")
+L 11/19/2022 - 13:55:41: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sv_player_stuck_tolerance") (value "5")
+L 11/19/2022 - 13:55:41: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sv_stats") (value "0")
+L 11/19/2022 - 13:55:41: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sv_clockcorrection_msecs") (value "25")
+L 11/19/2022 - 13:55:41: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sb_all_bot_game") (value "1")
+L 11/19/2022 - 14:51:37: [cannounce.smx] Admin wouldn't ya? <STEAM_1:0:246466989> connected from country China (CN), IP 61.179.137.171
+L 11/19/2022 - 14:51:40: [l4d2_playtime_interface.smx] Failed to retrieve response (GetOwnedGames) - HTTPStatus: 0
+L 11/19/2022 - 14:51:50: [l4d2_playtime_interface.smx] Failed to retrieve response (GetUserStatsForGame) - HTTPStatus: 0
+L 11/19/2022 - 14:54:05: [funcommands.smx] "wouldn't ya?<2><STEAM_1:0:246466989><>" toggled noclip on "wouldn't ya?<2><STEAM_1:0:246466989><>"
+L 11/19/2022 - 14:54:54: [l4d2_playtime_interface.smx] Failed to retrieve response (GetUserStatsForGame) - HTTPStatus: 403
+L 11/19/2022 - 14:54:54: [l4d2_playtime_interface.smx] Failed to retrieve response (GetOwnedGames) - HTTPStatus: 401
+L 11/19/2022 - 14:55:03: [cannounce.smx] Player 丨丨丨 <STEAM_1:0:625834323> connected from country China (CN), IP 120.239.45.133
+L 11/19/2022 - 14:55:06: [funcommands.smx] "wouldn't ya?<2><STEAM_1:0:246466989><>" toggled noclip on "wouldn't ya?<2><STEAM_1:0:246466989><>"
+L 11/19/2022 - 14:55:18: [confoglcompmod.smx] Set password on wouldn't ya?, password 
+L 11/19/2022 - 14:55:18: [confoglcompmod.smx] Set password on 丨丨丨, password 
+L 11/19/2022 - 14:55:21: -------- Mapchange to c8m5_rooftop --------
+L 11/19/2022 - 14:55:22: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "confogl_match_execcfg_plugins") (value "generalfixes.cfg;confogl_plugins.cfg;sharedplugins.cfg")
+L 11/19/2022 - 14:55:22: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "l4d2_addons_eclipse") (value "0")
+L 11/19/2022 - 14:55:22: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sv_allow_wait_command") (value "0")
+L 11/19/2022 - 14:55:22: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sv_minrate") (value "100000")
+L 11/19/2022 - 14:55:22: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sv_maxrate") (value "100000")
+L 11/19/2022 - 14:55:22: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sv_minupdaterate") (value "100")
+L 11/19/2022 - 14:55:22: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sv_maxupdaterate") (value "100")
+L 11/19/2022 - 14:55:22: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sv_mincmdrate") (value "100")
+L 11/19/2022 - 14:55:22: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sv_maxcmdrate") (value "100")
+L 11/19/2022 - 14:55:22: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sv_client_min_interp_ratio") (value "-1")
+L 11/19/2022 - 14:55:22: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sv_client_max_interp_ratio") (value "0")
+L 11/19/2022 - 14:55:22: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "nb_update_frequency") (value "0.014")
+L 11/19/2022 - 14:55:22: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "net_splitpacket_maxrate") (value "50000")
+L 11/19/2022 - 14:55:22: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "fps_max") (value "0")
+L 11/19/2022 - 14:55:22: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "tick_door_speed") (value "1.3")
+L 11/19/2022 - 14:55:22: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "mv_maxplayers") (value "12")
+L 11/19/2022 - 14:55:22: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "mp_autoteambalance") (value "0")
+L 11/19/2022 - 14:55:22: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sv_unlag_fixstuck") (value "1")
+L 11/19/2022 - 14:55:22: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "z_brawl_chance") (value "0")
+L 11/19/2022 - 14:55:22: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sv_maxunlag") (value "1")
+L 11/19/2022 - 14:55:22: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sv_forcepreload") (value "1")
+L 11/19/2022 - 14:55:22: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sv_client_predict") (value "1")
+L 11/19/2022 - 14:55:22: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sv_client_cmdrate_difference") (value "0")
+L 11/19/2022 - 14:55:22: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sv_max_queries_sec_global") (value "10")
+L 11/19/2022 - 14:55:22: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sv_max_queries_sec") (value "3")
+L 11/19/2022 - 14:55:22: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sv_max_queries_window") (value "10")
+L 11/19/2022 - 14:55:22: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sv_player_stuck_tolerance") (value "5")
+L 11/19/2022 - 14:55:22: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sv_stats") (value "0")
+L 11/19/2022 - 14:55:22: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sv_clockcorrection_msecs") (value "25")
+L 11/19/2022 - 14:55:22: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sb_all_bot_game") (value "1")
+L 11/19/2022 - 14:55:22: [l4d2_playtime_interface.smx] Failed to retrieve response (GetOwnedGames) - HTTPStatus: 401
+L 11/19/2022 - 14:55:22: [l4d2_playtime_interface.smx] Failed to retrieve response (GetUserStatsForGame) - HTTPStatus: 403
+L 11/19/2022 - 14:55:22: [l4d2_playtime_interface.smx] Failed to retrieve response (GetOwnedGames) - HTTPStatus: 401
+L 11/19/2022 - 14:55:22: [l4d2_playtime_interface.smx] Failed to retrieve response (GetUserStatsForGame) - HTTPStatus: 403
+L 11/19/2022 - 14:55:23: [optional/l4d2_saferoom_item_remove.smx] Removed 4 saferoom item(s) (start: 4; end: 0).
+L 11/19/2022 - 14:55:43: [optional/l4d2_saferoom_item_remove.smx] Removed 4 saferoom item(s) (start: 4; end: 0).
+L 11/19/2022 - 14:55:45: [optional/l4d2_saferoom_item_remove.smx] Removed 4 saferoom item(s) (start: 4; end: 0).
+L 11/19/2022 - 14:58:57: [optional/l4d2_saferoom_item_remove.smx] Removed 4 saferoom item(s) (start: 4; end: 0).
+L 11/19/2022 - 15:02:06: [optional/l4d2_saferoom_item_remove.smx] Removed 4 saferoom item(s) (start: 4; end: 0).
+L 11/19/2022 - 15:05:51: [optional/l4d2_saferoom_item_remove.smx] Removed 4 saferoom item(s) (start: 4; end: 0).
+L 11/19/2022 - 15:08:01: [optional/l4d2_saferoom_item_remove.smx] Removed 4 saferoom item(s) (start: 4; end: 0).
+L 11/19/2022 - 15:08:14: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sb_all_bot_game") (value "1")
+L 11/19/2022 - 15:08:16: [linux_auto_restart.smx] Last one player left the server, Restart server now
+L 11/19/2022 - 15:08:28: SourceMod log file session started (file "/root/Steam/steamapps/common/Left 4 Dead 2 Dedicated Server/left4dead2/addons/sourcemod/logs/L20221119.log") (Version "1.11.0.6825")
+L 11/19/2022 - 15:08:28: [GEOIP] GeoIP2 database loaded: GeoLite2-City (2019-12-17 20:01:26 UTC)
+L 11/19/2022 - 15:08:28: [GEOIP] GeoIP2 supported languages: de en es fr ja pt-BR ru zh-CN
+L 11/19/2022 - 15:08:28: [GEOIPCITY] GeoIPCity database info: GEO-533LITE 20150106 Build 1 Copyright (c) 2015 MaxMind Inc All Rights Reserved
+L 11/19/2022 - 15:08:30: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "confogl_match_execcfg_plugins") (value "generalfixes.cfg;confogl_plugins.cfg;sharedplugins.cfg")
+L 11/19/2022 - 15:08:30: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "l4d2_addons_eclipse") (value "0")
+L 11/19/2022 - 15:08:30: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sv_allow_wait_command") (value "0")
+L 11/19/2022 - 15:08:30: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sv_minrate") (value "100000")
+L 11/19/2022 - 15:08:30: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sv_maxrate") (value "100000")
+L 11/19/2022 - 15:08:30: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sv_minupdaterate") (value "100")
+L 11/19/2022 - 15:08:30: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sv_maxupdaterate") (value "100")
+L 11/19/2022 - 15:08:30: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sv_mincmdrate") (value "100")
+L 11/19/2022 - 15:08:30: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sv_maxcmdrate") (value "100")
+L 11/19/2022 - 15:08:30: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sv_client_min_interp_ratio") (value "-1")
+L 11/19/2022 - 15:08:30: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sv_client_max_interp_ratio") (value "0")
+L 11/19/2022 - 15:08:30: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "nb_update_frequency") (value "0.014")
+L 11/19/2022 - 15:08:30: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "net_splitpacket_maxrate") (value "50000")
+L 11/19/2022 - 15:08:30: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "fps_max") (value "0")
+L 11/19/2022 - 15:08:30: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "tick_door_speed") (value "1.3")
+L 11/19/2022 - 15:08:30: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "mv_maxplayers") (value "12")
+L 11/19/2022 - 15:08:30: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "mp_autoteambalance") (value "0")
+L 11/19/2022 - 15:08:30: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sv_unlag_fixstuck") (value "1")
+L 11/19/2022 - 15:08:30: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "z_brawl_chance") (value "0")
+L 11/19/2022 - 15:08:30: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sv_maxunlag") (value "1")
+L 11/19/2022 - 15:08:30: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sv_forcepreload") (value "1")
+L 11/19/2022 - 15:08:30: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sv_client_predict") (value "1")
+L 11/19/2022 - 15:08:30: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sv_client_cmdrate_difference") (value "0")
+L 11/19/2022 - 15:08:30: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sv_max_queries_sec_global") (value "10")
+L 11/19/2022 - 15:08:30: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sv_max_queries_sec") (value "3")
+L 11/19/2022 - 15:08:30: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sv_max_queries_window") (value "10")
+L 11/19/2022 - 15:08:30: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sv_player_stuck_tolerance") (value "5")
+L 11/19/2022 - 15:08:30: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sv_stats") (value "0")
+L 11/19/2022 - 15:08:30: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sv_clockcorrection_msecs") (value "25")
+L 11/19/2022 - 15:08:30: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sb_all_bot_game") (value "1")
+L 11/19/2022 - 15:08:38: [cannounce.smx] Player wouldn't ya? <STEAM_1:0:246466989> from country China (CN) disconnected from IP 61.179.137.171reason: Disconnect by user.
+L 11/19/2022 - 15:08:38: [cannounce.smx] Player wouldn't ya? <STEAM_1:0:246466989> from country China (CN) disconnected from IP 61.179.137.171reason: Disconnect by user.
+L 11/19/2022 - 15:08:38: [l4d2_playtime_interface.smx] Failed to retrieve response (GetUserStatsForGame) - HTTPStatus: 403
+L 11/19/2022 - 15:08:38: [l4d2_playtime_interface.smx] Failed to retrieve response (GetOwnedGames) - HTTPStatus: 401
+L 11/19/2022 - 15:08:38: [cannounce.smx] Player wouldn't ya? <STEAM_ID_STOP_IGNORING_RETVALS> from country China (CN) disconnected from IP 61.179.137.171reason: Disconnect by user.
+L 11/19/2022 - 15:08:39: [cannounce.smx] Player wouldn't ya? <STEAM_ID_STOP_IGNORING_RETVALS> from country China (CN) disconnected from IP 61.179.137.171reason: Disconnect by user.
+L 11/19/2022 - 15:08:39: [cannounce.smx] Player wouldn't ya? <STEAM_ID_STOP_IGNORING_RETVALS> from country China (CN) disconnected from IP 61.179.137.171reason: Disconnect by user.
+L 11/19/2022 - 15:08:48: [cannounce.smx] Player 丨丨丨 <STEAM_1:0:625834323> connected from country China (CN), IP 120.239.45.133
+L 11/19/2022 - 15:08:51: [cannounce.smx] Player wouldn't ya? <STEAM_1:0:246466989> from country China (CN) disconnected from IP 61.179.137.171reason: Disconnect by user.
+L 11/19/2022 - 15:08:57: [cannounce.smx] Admin wouldn't ya? <STEAM_1:0:246466989> connected from country China (CN), IP 61.179.137.171
+L 11/19/2022 - 15:08:59: [cannounce.smx] Admin wouldn't ya? <STEAM_1:0:246466989> from country China (CN) disconnected from IP 61.179.137.171reason: Disconnect by user.
+L 11/19/2022 - 15:09:05: [cannounce.smx] Admin wouldn't ya? <STEAM_1:0:246466989> connected from country China (CN), IP 61.179.137.171
+L 11/19/2022 - 15:09:10: [l4d2_playtime_interface.smx] Failed to retrieve response (GetOwnedGames) - HTTPStatus: 0
+L 11/19/2022 - 15:09:10: [l4d2_playtime_interface.smx] Failed to retrieve response (GetUserStatsForGame) - HTTPStatus: 0
+L 11/19/2022 - 15:09:16: [l4d2_playtime_interface.smx] Failed to retrieve response (GetOwnedGames) - HTTPStatus: 0
+L 11/19/2022 - 15:09:16: [l4d2_playtime_interface.smx] Failed to retrieve response (GetUserStatsForGame) - HTTPStatus: 0
+L 11/19/2022 - 15:09:17: [confoglcompmod.smx] Set password on 丨丨丨, password 
+L 11/19/2022 - 15:09:17: [confoglcompmod.smx] Set password on wouldn't ya?, password 
+L 11/19/2022 - 15:09:20: -------- Mapchange to c8m5_rooftop --------
+L 11/19/2022 - 15:09:21: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "confogl_match_execcfg_plugins") (value "generalfixes.cfg;confogl_plugins.cfg;sharedplugins.cfg")
+L 11/19/2022 - 15:09:21: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "l4d2_addons_eclipse") (value "0")
+L 11/19/2022 - 15:09:21: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sv_allow_wait_command") (value "0")
+L 11/19/2022 - 15:09:21: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sv_minrate") (value "100000")
+L 11/19/2022 - 15:09:21: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sv_maxrate") (value "100000")
+L 11/19/2022 - 15:09:21: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sv_minupdaterate") (value "100")
+L 11/19/2022 - 15:09:21: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sv_maxupdaterate") (value "100")
+L 11/19/2022 - 15:09:21: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sv_mincmdrate") (value "100")
+L 11/19/2022 - 15:09:21: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sv_maxcmdrate") (value "100")
+L 11/19/2022 - 15:09:21: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sv_client_min_interp_ratio") (value "-1")
+L 11/19/2022 - 15:09:21: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sv_client_max_interp_ratio") (value "0")
+L 11/19/2022 - 15:09:21: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "nb_update_frequency") (value "0.014")
+L 11/19/2022 - 15:09:21: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "net_splitpacket_maxrate") (value "50000")
+L 11/19/2022 - 15:09:21: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "fps_max") (value "0")
+L 11/19/2022 - 15:09:21: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "tick_door_speed") (value "1.3")
+L 11/19/2022 - 15:09:21: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "mv_maxplayers") (value "12")
+L 11/19/2022 - 15:09:21: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "mp_autoteambalance") (value "0")
+L 11/19/2022 - 15:09:21: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sv_unlag_fixstuck") (value "1")
+L 11/19/2022 - 15:09:21: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "z_brawl_chance") (value "0")
+L 11/19/2022 - 15:09:21: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sv_maxunlag") (value "1")
+L 11/19/2022 - 15:09:21: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sv_forcepreload") (value "1")
+L 11/19/2022 - 15:09:21: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sv_client_predict") (value "1")
+L 11/19/2022 - 15:09:21: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sv_client_cmdrate_difference") (value "0")
+L 11/19/2022 - 15:09:21: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sv_max_queries_sec_global") (value "10")
+L 11/19/2022 - 15:09:21: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sv_max_queries_sec") (value "3")
+L 11/19/2022 - 15:09:21: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sv_max_queries_window") (value "10")
+L 11/19/2022 - 15:09:21: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sv_player_stuck_tolerance") (value "5")
+L 11/19/2022 - 15:09:21: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sv_stats") (value "0")
+L 11/19/2022 - 15:09:21: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sv_clockcorrection_msecs") (value "25")
+L 11/19/2022 - 15:09:21: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sb_all_bot_game") (value "1")
+L 11/19/2022 - 15:09:22: [optional/l4d2_saferoom_item_remove.smx] Removed 4 saferoom item(s) (start: 4; end: 0).
+L 11/19/2022 - 15:09:47: [optional/l4d2_saferoom_item_remove.smx] Removed 4 saferoom item(s) (start: 4; end: 0).
+L 11/19/2022 - 15:09:49: [optional/l4d2_saferoom_item_remove.smx] Removed 4 saferoom item(s) (start: 4; end: 0).
+L 11/19/2022 - 15:09:51: [l4d2_playtime_interface.smx] Failed to retrieve response (GetOwnedGames) - HTTPStatus: 0
+L 11/19/2022 - 15:09:51: [l4d2_playtime_interface.smx] Failed to retrieve response (GetUserStatsForGame) - HTTPStatus: 0
+L 11/19/2022 - 15:09:52: [l4d2_playtime_interface.smx] Failed to retrieve response (GetOwnedGames) - HTTPStatus: 0
+L 11/19/2022 - 15:09:52: [l4d2_playtime_interface.smx] Failed to retrieve response (GetUserStatsForGame) - HTTPStatus: 0
+L 11/19/2022 - 15:14:31: [optional/l4d2_saferoom_item_remove.smx] Removed 4 saferoom item(s) (start: 4; end: 0).
+L 11/19/2022 - 15:18:21: [optional/l4d2_saferoom_item_remove.smx] Removed 4 saferoom item(s) (start: 4; end: 0).
+L 11/19/2022 - 15:22:21: [optional/l4d2_saferoom_item_remove.smx] Removed 4 saferoom item(s) (start: 4; end: 0).
+L 11/19/2022 - 15:25:07: [optional/l4d2_saferoom_item_remove.smx] Removed 4 saferoom item(s) (start: 4; end: 0).
+L 11/19/2022 - 15:29:01: [l4d2_playtime_interface.smx] Failed to retrieve response (GetOwnedGames) - HTTPStatus: 0
+L 11/19/2022 - 15:29:11: [l4d2_playtime_interface.smx] Failed to retrieve response (GetUserStatsForGame) - HTTPStatus: 0
+L 11/19/2022 - 15:29:50: [optional/l4d2_saferoom_item_remove.smx] Removed 4 saferoom item(s) (start: 4; end: 0).
+L 11/19/2022 - 15:33:19: [optional/l4d2_saferoom_item_remove.smx] Removed 4 saferoom item(s) (start: 4; end: 0).
+L 11/19/2022 - 15:34:00: [l4d2_playtime_interface.smx] Failed to retrieve response (GetOwnedGames) - HTTPStatus: 0
+L 11/19/2022 - 15:34:01: [l4d2_playtime_interface.smx] Failed to retrieve response (GetUserStatsForGame) - HTTPStatus: 403
+L 11/19/2022 - 15:35:41: [l4d2_playtime_interface.smx] Failed to retrieve response (GetOwnedGames) - HTTPStatus: 401
+L 11/19/2022 - 15:35:41: [l4d2_playtime_interface.smx] Failed to retrieve response (GetUserStatsForGame) - HTTPStatus: 403
+L 11/19/2022 - 15:37:43: [optional/l4d2_saferoom_item_remove.smx] Removed 4 saferoom item(s) (start: 4; end: 0).
+L 11/19/2022 - 15:41:05: -------- Mapchange to c8m5_rooftop --------
+L 11/19/2022 - 15:41:06: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "confogl_match_execcfg_plugins") (value "generalfixes.cfg;confogl_plugins.cfg;sharedplugins.cfg")
+L 11/19/2022 - 15:41:06: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "l4d2_addons_eclipse") (value "0")
+L 11/19/2022 - 15:41:06: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sv_allow_wait_command") (value "0")
+L 11/19/2022 - 15:41:06: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sv_minrate") (value "100000")
+L 11/19/2022 - 15:41:06: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sv_maxrate") (value "100000")
+L 11/19/2022 - 15:41:06: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sv_minupdaterate") (value "100")
+L 11/19/2022 - 15:41:06: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sv_maxupdaterate") (value "100")
+L 11/19/2022 - 15:41:06: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sv_mincmdrate") (value "100")
+L 11/19/2022 - 15:41:06: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sv_maxcmdrate") (value "100")
+L 11/19/2022 - 15:41:06: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sv_client_min_interp_ratio") (value "-1")
+L 11/19/2022 - 15:41:06: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sv_client_max_interp_ratio") (value "0")
+L 11/19/2022 - 15:41:06: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "nb_update_frequency") (value "0.014")
+L 11/19/2022 - 15:41:06: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "net_splitpacket_maxrate") (value "50000")
+L 11/19/2022 - 15:41:06: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "fps_max") (value "0")
+L 11/19/2022 - 15:41:06: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "tick_door_speed") (value "1.3")
+L 11/19/2022 - 15:41:06: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "mv_maxplayers") (value "12")
+L 11/19/2022 - 15:41:06: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "mp_autoteambalance") (value "0")
+L 11/19/2022 - 15:41:06: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sv_unlag_fixstuck") (value "1")
+L 11/19/2022 - 15:41:06: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "z_brawl_chance") (value "0")
+L 11/19/2022 - 15:41:06: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sv_maxunlag") (value "1")
+L 11/19/2022 - 15:41:06: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sv_forcepreload") (value "1")
+L 11/19/2022 - 15:41:06: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sv_client_predict") (value "1")
+L 11/19/2022 - 15:41:06: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sv_client_cmdrate_difference") (value "0")
+L 11/19/2022 - 15:41:06: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sv_max_queries_sec_global") (value "10")
+L 11/19/2022 - 15:41:06: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sv_max_queries_sec") (value "3")
+L 11/19/2022 - 15:41:06: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sv_max_queries_window") (value "10")
+L 11/19/2022 - 15:41:06: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sv_player_stuck_tolerance") (value "5")
+L 11/19/2022 - 15:41:06: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sv_stats") (value "0")
+L 11/19/2022 - 15:41:06: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sv_clockcorrection_msecs") (value "25")
+L 11/19/2022 - 15:41:06: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sb_all_bot_game") (value "1")
+L 11/19/2022 - 15:41:08: [l4d2_playtime_interface.smx] Failed to retrieve response (GetUserStatsForGame) - HTTPStatus: 403
+L 11/19/2022 - 15:41:08: [l4d2_playtime_interface.smx] Failed to retrieve response (GetUserStatsForGame) - HTTPStatus: 403
+L 11/19/2022 - 15:41:08: [l4d2_playtime_interface.smx] Failed to retrieve response (GetOwnedGames) - HTTPStatus: 401
+L 11/19/2022 - 15:41:08: [l4d2_playtime_interface.smx] Failed to retrieve response (GetOwnedGames) - HTTPStatus: 401
+L 11/19/2022 - 15:41:08: [l4d2_playtime_interface.smx] Failed to retrieve response (GetOwnedGames) - HTTPStatus: 401
+L 11/19/2022 - 15:41:08: [l4d2_playtime_interface.smx] Failed to retrieve response (GetOwnedGames) - HTTPStatus: 401
+L 11/19/2022 - 15:41:08: [l4d2_playtime_interface.smx] Failed to retrieve response (GetUserStatsForGame) - HTTPStatus: 403
+L 11/19/2022 - 15:41:08: [l4d2_playtime_interface.smx] Failed to retrieve response (GetUserStatsForGame) - HTTPStatus: 403
+L 11/19/2022 - 15:41:08: [optional/l4d2_saferoom_item_remove.smx] Removed 4 saferoom item(s) (start: 4; end: 0).
+L 11/19/2022 - 15:46:19: [optional/l4d2_saferoom_item_remove.smx] Removed 4 saferoom item(s) (start: 4; end: 0).
+L 11/19/2022 - 15:47:55: [l4d2_playtime_interface.smx] Failed to retrieve response (GetOwnedGames) - HTTPStatus: 0
+L 11/19/2022 - 15:48:05: [l4d2_playtime_interface.smx] Failed to retrieve response (GetUserStatsForGame) - HTTPStatus: 0
+L 11/19/2022 - 15:48:15: [l4d2_playtime_interface.smx] Failed to retrieve response (GetOwnedGames) - HTTPStatus: 0
+L 11/19/2022 - 15:48:25: [l4d2_playtime_interface.smx] Failed to retrieve response (GetUserStatsForGame) - HTTPStatus: 0
+L 11/19/2022 - 15:49:38: [l4d2_playtime_interface.smx] Failed to retrieve response (GetOwnedGames) - HTTPStatus: 0
+L 11/19/2022 - 15:49:48: [l4d2_playtime_interface.smx] Failed to retrieve response (GetUserStatsForGame) - HTTPStatus: 0
+L 11/19/2022 - 15:52:06: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sb_all_bot_game") (value "1")
+L 11/19/2022 - 15:52:08: [linux_auto_restart.smx] Last one player left the server, Restart server now
+L 11/19/2022 - 15:52:19: SourceMod log file session started (file "/root/Steam/steamapps/common/Left 4 Dead 2 Dedicated Server/left4dead2/addons/sourcemod/logs/L20221119.log") (Version "1.11.0.6825")
+L 11/19/2022 - 15:52:19: [GEOIP] GeoIP2 database loaded: GeoLite2-City (2019-12-17 20:01:26 UTC)
+L 11/19/2022 - 15:52:19: [GEOIP] GeoIP2 supported languages: de en es fr ja pt-BR ru zh-CN
+L 11/19/2022 - 15:52:19: [GEOIPCITY] GeoIPCity database info: GEO-533LITE 20150106 Build 1 Copyright (c) 2015 MaxMind Inc All Rights Reserved
+L 11/19/2022 - 15:52:21: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "confogl_match_execcfg_plugins") (value "generalfixes.cfg;confogl_plugins.cfg;sharedplugins.cfg")
+L 11/19/2022 - 15:52:21: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "l4d2_addons_eclipse") (value "0")
+L 11/19/2022 - 15:52:21: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sv_allow_wait_command") (value "0")
+L 11/19/2022 - 15:52:21: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sv_minrate") (value "100000")
+L 11/19/2022 - 15:52:21: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sv_maxrate") (value "100000")
+L 11/19/2022 - 15:52:21: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sv_minupdaterate") (value "100")
+L 11/19/2022 - 15:52:21: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sv_maxupdaterate") (value "100")
+L 11/19/2022 - 15:52:21: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sv_mincmdrate") (value "100")
+L 11/19/2022 - 15:52:21: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sv_maxcmdrate") (value "100")
+L 11/19/2022 - 15:52:21: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sv_client_min_interp_ratio") (value "-1")
+L 11/19/2022 - 15:52:21: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sv_client_max_interp_ratio") (value "0")
+L 11/19/2022 - 15:52:21: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "nb_update_frequency") (value "0.014")
+L 11/19/2022 - 15:52:21: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "net_splitpacket_maxrate") (value "50000")
+L 11/19/2022 - 15:52:21: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "fps_max") (value "0")
+L 11/19/2022 - 15:52:21: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "tick_door_speed") (value "1.3")
+L 11/19/2022 - 15:52:21: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "mv_maxplayers") (value "12")
+L 11/19/2022 - 15:52:21: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "mp_autoteambalance") (value "0")
+L 11/19/2022 - 15:52:21: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sv_unlag_fixstuck") (value "1")
+L 11/19/2022 - 15:52:21: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "z_brawl_chance") (value "0")
+L 11/19/2022 - 15:52:21: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sv_maxunlag") (value "1")
+L 11/19/2022 - 15:52:21: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sv_forcepreload") (value "1")
+L 11/19/2022 - 15:52:21: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sv_client_predict") (value "1")
+L 11/19/2022 - 15:52:21: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sv_client_cmdrate_difference") (value "0")
+L 11/19/2022 - 15:52:21: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sv_max_queries_sec_global") (value "10")
+L 11/19/2022 - 15:52:21: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sv_max_queries_sec") (value "3")
+L 11/19/2022 - 15:52:21: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sv_max_queries_window") (value "10")
+L 11/19/2022 - 15:52:21: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sv_player_stuck_tolerance") (value "5")
+L 11/19/2022 - 15:52:21: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sv_stats") (value "0")
+L 11/19/2022 - 15:52:21: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sv_clockcorrection_msecs") (value "25")
+L 11/19/2022 - 15:52:21: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sb_all_bot_game") (value "1")
+L 11/19/2022 - 18:16:38: SourceMod log file session started (file "/root/Steam/steamapps/common/Left 4 Dead 2 Dedicated Server/left4dead2/addons/sourcemod/logs/L20221119.log") (Version "1.11.0.6825")
+L 11/19/2022 - 18:16:38: [GEOIP] GeoIP2 database loaded: GeoLite2-City (2019-12-17 20:01:26 UTC)
+L 11/19/2022 - 18:16:38: [GEOIP] GeoIP2 supported languages: de en es fr ja pt-BR ru zh-CN
+L 11/19/2022 - 18:16:38: [GEOIPCITY] GeoIPCity database info: GEO-533LITE 20150106 Build 1 Copyright (c) 2015 MaxMind Inc All Rights Reserved
+L 11/19/2022 - 18:16:41: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "confogl_match_execcfg_plugins") (value "generalfixes.cfg;confogl_plugins.cfg;sharedplugins.cfg")
+L 11/19/2022 - 18:16:41: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "l4d2_addons_eclipse") (value "0")
+L 11/19/2022 - 18:16:41: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sv_allow_wait_command") (value "0")
+L 11/19/2022 - 18:16:41: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sv_minrate") (value "100000")
+L 11/19/2022 - 18:16:41: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sv_maxrate") (value "100000")
+L 11/19/2022 - 18:16:41: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sv_minupdaterate") (value "100")
+L 11/19/2022 - 18:16:41: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sv_maxupdaterate") (value "100")
+L 11/19/2022 - 18:16:41: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sv_mincmdrate") (value "100")
+L 11/19/2022 - 18:16:41: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sv_maxcmdrate") (value "100")
+L 11/19/2022 - 18:16:41: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sv_client_min_interp_ratio") (value "-1")
+L 11/19/2022 - 18:16:41: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sv_client_max_interp_ratio") (value "0")
+L 11/19/2022 - 18:16:41: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "nb_update_frequency") (value "0.014")
+L 11/19/2022 - 18:16:41: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "net_splitpacket_maxrate") (value "50000")
+L 11/19/2022 - 18:16:41: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "fps_max") (value "0")
+L 11/19/2022 - 18:16:41: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "tick_door_speed") (value "1.3")
+L 11/19/2022 - 18:16:41: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "mv_maxplayers") (value "12")
+L 11/19/2022 - 18:16:41: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "mp_autoteambalance") (value "0")
+L 11/19/2022 - 18:16:41: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sv_unlag_fixstuck") (value "1")
+L 11/19/2022 - 18:16:41: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "z_brawl_chance") (value "0")
+L 11/19/2022 - 18:16:41: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sv_maxunlag") (value "1")
+L 11/19/2022 - 18:16:41: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sv_forcepreload") (value "1")
+L 11/19/2022 - 18:16:41: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sv_client_predict") (value "1")
+L 11/19/2022 - 18:16:41: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sv_client_cmdrate_difference") (value "0")
+L 11/19/2022 - 18:16:41: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sv_max_queries_sec_global") (value "10")
+L 11/19/2022 - 18:16:41: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sv_max_queries_sec") (value "3")
+L 11/19/2022 - 18:16:41: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sv_max_queries_window") (value "10")
+L 11/19/2022 - 18:16:41: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sv_player_stuck_tolerance") (value "5")
+L 11/19/2022 - 18:16:41: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sv_stats") (value "0")
+L 11/19/2022 - 18:16:41: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sv_clockcorrection_msecs") (value "25")
+L 11/19/2022 - 18:16:41: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sb_all_bot_game") (value "1")
+L 11/19/2022 - 18:18:51: [l4d2_playtime_interface.smx] Failed to retrieve response (GetOwnedGames) - HTTPStatus: 0
+L 11/19/2022 - 18:19:01: [l4d2_playtime_interface.smx] Failed to retrieve response (GetUserStatsForGame) - HTTPStatus: 0
+L 11/19/2022 - 18:20:18: [cannounce.smx] Player 否认 <STEAM_1:1:529057840> connected from country China (CN), IP 39.184.123.203
+L 11/19/2022 - 18:20:30: [cannounce.smx] Admin wouldn't ya? <STEAM_1:0:246466989> connected from country China (CN), IP 144.12.171.37
+L 11/19/2022 - 18:20:40: [l4d2_playtime_interface.smx] Failed to retrieve response (GetOwnedGames) - HTTPStatus: 0
+L 11/19/2022 - 18:20:50: [l4d2_playtime_interface.smx] Failed to retrieve response (GetUserStatsForGame) - HTTPStatus: 0
+L 11/19/2022 - 18:21:17: [confoglcompmod.smx] Set password on 否认, password 
+L 11/19/2022 - 18:21:17: [confoglcompmod.smx] Set password on wouldn't ya?, password 
+L 11/19/2022 - 18:21:20: -------- Mapchange to c8m5_rooftop --------
+L 11/19/2022 - 18:21:20: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "confogl_match_execcfg_plugins") (value "generalfixes.cfg;confogl_plugins.cfg;sharedplugins.cfg")
+L 11/19/2022 - 18:21:20: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "l4d2_addons_eclipse") (value "0")
+L 11/19/2022 - 18:21:20: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sv_allow_wait_command") (value "0")
+L 11/19/2022 - 18:21:20: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sv_minrate") (value "100000")
+L 11/19/2022 - 18:21:20: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sv_maxrate") (value "100000")
+L 11/19/2022 - 18:21:20: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sv_minupdaterate") (value "100")
+L 11/19/2022 - 18:21:20: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sv_maxupdaterate") (value "100")
+L 11/19/2022 - 18:21:20: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sv_mincmdrate") (value "100")
+L 11/19/2022 - 18:21:20: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sv_maxcmdrate") (value "100")
+L 11/19/2022 - 18:21:20: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sv_client_min_interp_ratio") (value "-1")
+L 11/19/2022 - 18:21:20: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sv_client_max_interp_ratio") (value "0")
+L 11/19/2022 - 18:21:20: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "nb_update_frequency") (value "0.014")
+L 11/19/2022 - 18:21:20: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "net_splitpacket_maxrate") (value "50000")
+L 11/19/2022 - 18:21:20: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "fps_max") (value "0")
+L 11/19/2022 - 18:21:20: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "tick_door_speed") (value "1.3")
+L 11/19/2022 - 18:21:20: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "mv_maxplayers") (value "12")
+L 11/19/2022 - 18:21:20: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "mp_autoteambalance") (value "0")
+L 11/19/2022 - 18:21:20: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sv_unlag_fixstuck") (value "1")
+L 11/19/2022 - 18:21:20: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "z_brawl_chance") (value "0")
+L 11/19/2022 - 18:21:20: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sv_maxunlag") (value "1")
+L 11/19/2022 - 18:21:20: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sv_forcepreload") (value "1")
+L 11/19/2022 - 18:21:20: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sv_client_predict") (value "1")
+L 11/19/2022 - 18:21:20: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sv_client_cmdrate_difference") (value "0")
+L 11/19/2022 - 18:21:20: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sv_max_queries_sec_global") (value "10")
+L 11/19/2022 - 18:21:20: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sv_max_queries_sec") (value "3")
+L 11/19/2022 - 18:21:20: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sv_max_queries_window") (value "10")
+L 11/19/2022 - 18:21:20: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sv_player_stuck_tolerance") (value "5")
+L 11/19/2022 - 18:21:20: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sv_stats") (value "0")
+L 11/19/2022 - 18:21:20: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sv_clockcorrection_msecs") (value "25")
+L 11/19/2022 - 18:21:20: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sb_all_bot_game") (value "1")
+L 11/19/2022 - 18:21:21: [l4d2_playtime_interface.smx] Failed to retrieve response (GetOwnedGames) - HTTPStatus: 401
+L 11/19/2022 - 18:21:21: [l4d2_playtime_interface.smx] Failed to retrieve response (GetUserStatsForGame) - HTTPStatus: 403
+L 11/19/2022 - 18:21:22: [l4d2_playtime_interface.smx] Failed to retrieve response (GetOwnedGames) - HTTPStatus: 401
+L 11/19/2022 - 18:21:22: [l4d2_playtime_interface.smx] Failed to retrieve response (GetUserStatsForGame) - HTTPStatus: 403
+L 11/19/2022 - 18:21:22: [optional/l4d2_saferoom_item_remove.smx] Removed 4 saferoom item(s) (start: 4; end: 0).
+L 11/19/2022 - 18:22:00: [optional/l4d2_saferoom_item_remove.smx] Removed 4 saferoom item(s) (start: 4; end: 0).
+L 11/19/2022 - 18:22:02: [optional/l4d2_saferoom_item_remove.smx] Removed 4 saferoom item(s) (start: 4; end: 0).
+L 11/19/2022 - 18:23:26: [l4d2_playtime_interface.smx] Failed to retrieve response (GetOwnedGames) - HTTPStatus: 401
+L 11/19/2022 - 18:23:26: [l4d2_playtime_interface.smx] Failed to retrieve response (GetUserStatsForGame) - HTTPStatus: 403
+L 11/19/2022 - 18:23:39: [l4d2_playtime_interface.smx] Failed to retrieve response (GetUserStatsForGame) - HTTPStatus: 403
+L 11/19/2022 - 18:23:39: [l4d2_playtime_interface.smx] Failed to retrieve response (GetOwnedGames) - HTTPStatus: 401
+L 11/19/2022 - 18:27:34: [optional/l4d2_saferoom_item_remove.smx] Removed 4 saferoom item(s) (start: 4; end: 0).
+L 11/19/2022 - 18:29:21: [l4d2_playtime_interface.smx] Failed to retrieve response (GetUserStatsForGame) - HTTPStatus: 403
+L 11/19/2022 - 18:29:21: [l4d2_playtime_interface.smx] Failed to retrieve response (GetOwnedGames) - HTTPStatus: 401
+L 11/19/2022 - 18:32:44: [optional/l4d2_saferoom_item_remove.smx] Removed 4 saferoom item(s) (start: 4; end: 0).
+L 11/19/2022 - 18:38:01: [optional/l4d2_saferoom_item_remove.smx] Removed 4 saferoom item(s) (start: 4; end: 0).
+L 11/19/2022 - 18:40:17: [optional/l4d2_saferoom_item_remove.smx] Removed 4 saferoom item(s) (start: 4; end: 0).
+L 11/19/2022 - 18:44:29: [optional/l4d2_saferoom_item_remove.smx] Removed 4 saferoom item(s) (start: 4; end: 0).
+L 11/19/2022 - 18:48:41: [optional/l4d2_saferoom_item_remove.smx] Removed 4 saferoom item(s) (start: 4; end: 0).
+L 11/19/2022 - 18:51:02: [l4d2_playtime_interface.smx] Failed to retrieve response (GetUserStatsForGame) - HTTPStatus: 403
+L 11/19/2022 - 18:51:02: [l4d2_playtime_interface.smx] Failed to retrieve response (GetOwnedGames) - HTTPStatus: 401
+L 11/19/2022 - 18:52:44: [optional/l4d2_saferoom_item_remove.smx] Removed 4 saferoom item(s) (start: 4; end: 0).
+L 11/19/2022 - 18:56:35: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sb_all_bot_game") (value "1")
+L 11/19/2022 - 18:56:37: [linux_auto_restart.smx] Last one player left the server, Restart server now
+L 11/19/2022 - 18:56:49: SourceMod log file session started (file "/root/Steam/steamapps/common/Left 4 Dead 2 Dedicated Server/left4dead2/addons/sourcemod/logs/L20221119.log") (Version "1.11.0.6825")
+L 11/19/2022 - 18:56:49: [GEOIP] GeoIP2 database loaded: GeoLite2-City (2019-12-17 20:01:26 UTC)
+L 11/19/2022 - 18:56:49: [GEOIP] GeoIP2 supported languages: de en es fr ja pt-BR ru zh-CN
+L 11/19/2022 - 18:56:49: [GEOIPCITY] GeoIPCity database info: GEO-533LITE 20150106 Build 1 Copyright (c) 2015 MaxMind Inc All Rights Reserved
+L 11/19/2022 - 18:56:51: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "confogl_match_execcfg_plugins") (value "generalfixes.cfg;confogl_plugins.cfg;sharedplugins.cfg")
+L 11/19/2022 - 18:56:51: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "l4d2_addons_eclipse") (value "0")
+L 11/19/2022 - 18:56:51: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sv_allow_wait_command") (value "0")
+L 11/19/2022 - 18:56:51: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sv_minrate") (value "100000")
+L 11/19/2022 - 18:56:51: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sv_maxrate") (value "100000")
+L 11/19/2022 - 18:56:51: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sv_minupdaterate") (value "100")
+L 11/19/2022 - 18:56:51: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sv_maxupdaterate") (value "100")
+L 11/19/2022 - 18:56:51: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sv_mincmdrate") (value "100")
+L 11/19/2022 - 18:56:51: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sv_maxcmdrate") (value "100")
+L 11/19/2022 - 18:56:51: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sv_client_min_interp_ratio") (value "-1")
+L 11/19/2022 - 18:56:51: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sv_client_max_interp_ratio") (value "0")
+L 11/19/2022 - 18:56:51: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "nb_update_frequency") (value "0.014")
+L 11/19/2022 - 18:56:51: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "net_splitpacket_maxrate") (value "50000")
+L 11/19/2022 - 18:56:51: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "fps_max") (value "0")
+L 11/19/2022 - 18:56:51: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "tick_door_speed") (value "1.3")
+L 11/19/2022 - 18:56:51: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "mv_maxplayers") (value "12")
+L 11/19/2022 - 18:56:51: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "mp_autoteambalance") (value "0")
+L 11/19/2022 - 18:56:51: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sv_unlag_fixstuck") (value "1")
+L 11/19/2022 - 18:56:51: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "z_brawl_chance") (value "0")
+L 11/19/2022 - 18:56:51: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sv_maxunlag") (value "1")
+L 11/19/2022 - 18:56:51: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sv_forcepreload") (value "1")
+L 11/19/2022 - 18:56:51: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sv_client_predict") (value "1")
+L 11/19/2022 - 18:56:51: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sv_client_cmdrate_difference") (value "0")
+L 11/19/2022 - 18:56:51: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sv_max_queries_sec_global") (value "10")
+L 11/19/2022 - 18:56:51: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sv_max_queries_sec") (value "3")
+L 11/19/2022 - 18:56:51: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sv_max_queries_window") (value "10")
+L 11/19/2022 - 18:56:51: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sv_player_stuck_tolerance") (value "5")
+L 11/19/2022 - 18:56:51: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sv_stats") (value "0")
+L 11/19/2022 - 18:56:51: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sv_clockcorrection_msecs") (value "25")
+L 11/19/2022 - 18:56:51: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sb_all_bot_game") (value "1")
+L 11/19/2022 - 19:26:12: [cannounce.smx] Admin wouldn't ya? <STEAM_1:0:246466989> connected from country China (CN), IP 61.179.137.108
+L 11/19/2022 - 19:26:15: [l4d2_playtime_interface.smx] Failed to retrieve response (GetOwnedGames) - HTTPStatus: 0
+L 11/19/2022 - 19:26:25: [l4d2_playtime_interface.smx] Failed to retrieve response (GetUserStatsForGame) - HTTPStatus: 0
+L 11/19/2022 - 19:26:27: [confoglcompmod.smx] Set password on wouldn't ya?, password 
+L 11/19/2022 - 19:26:30: -------- Mapchange to c8m5_rooftop --------
+L 11/19/2022 - 19:26:31: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "confogl_match_execcfg_plugins") (value "generalfixes.cfg;confogl_plugins.cfg;sharedplugins.cfg")
+L 11/19/2022 - 19:26:31: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "l4d2_addons_eclipse") (value "0")
+L 11/19/2022 - 19:26:31: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sv_allow_wait_command") (value "0")
+L 11/19/2022 - 19:26:31: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sv_minrate") (value "100000")
+L 11/19/2022 - 19:26:31: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sv_maxrate") (value "100000")
+L 11/19/2022 - 19:26:31: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sv_minupdaterate") (value "100")
+L 11/19/2022 - 19:26:31: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sv_maxupdaterate") (value "100")
+L 11/19/2022 - 19:26:31: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sv_mincmdrate") (value "100")
+L 11/19/2022 - 19:26:31: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sv_maxcmdrate") (value "100")
+L 11/19/2022 - 19:26:31: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sv_client_min_interp_ratio") (value "-1")
+L 11/19/2022 - 19:26:31: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sv_client_max_interp_ratio") (value "0")
+L 11/19/2022 - 19:26:31: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "nb_update_frequency") (value "0.014")
+L 11/19/2022 - 19:26:31: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "net_splitpacket_maxrate") (value "50000")
+L 11/19/2022 - 19:26:31: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "fps_max") (value "0")
+L 11/19/2022 - 19:26:31: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "tick_door_speed") (value "1.3")
+L 11/19/2022 - 19:26:31: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "mv_maxplayers") (value "12")
+L 11/19/2022 - 19:26:31: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "mp_autoteambalance") (value "0")
+L 11/19/2022 - 19:26:31: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sv_unlag_fixstuck") (value "1")
+L 11/19/2022 - 19:26:31: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "z_brawl_chance") (value "0")
+L 11/19/2022 - 19:26:31: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sv_maxunlag") (value "1")
+L 11/19/2022 - 19:26:31: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sv_forcepreload") (value "1")
+L 11/19/2022 - 19:26:31: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sv_client_predict") (value "1")
+L 11/19/2022 - 19:26:31: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sv_client_cmdrate_difference") (value "0")
+L 11/19/2022 - 19:26:31: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sv_max_queries_sec_global") (value "10")
+L 11/19/2022 - 19:26:31: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sv_max_queries_sec") (value "3")
+L 11/19/2022 - 19:26:31: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sv_max_queries_window") (value "10")
+L 11/19/2022 - 19:26:31: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sv_player_stuck_tolerance") (value "5")
+L 11/19/2022 - 19:26:31: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sv_stats") (value "0")
+L 11/19/2022 - 19:26:31: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sv_clockcorrection_msecs") (value "25")
+L 11/19/2022 - 19:26:31: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sb_all_bot_game") (value "1")
+L 11/19/2022 - 19:26:32: [optional/l4d2_saferoom_item_remove.smx] Removed 2 saferoom item(s) (start: 2; end: 0).
+L 11/19/2022 - 19:26:51: [l4d2_playtime_interface.smx] Failed to retrieve response (GetUserStatsForGame) - HTTPStatus: 0
+L 11/19/2022 - 19:26:51: [l4d2_playtime_interface.smx] Failed to retrieve response (GetOwnedGames) - HTTPStatus: 0
+L 11/19/2022 - 19:26:52: [optional/l4d2_saferoom_item_remove.smx] Removed 2 saferoom item(s) (start: 2; end: 0).
+L 11/19/2022 - 19:26:54: [optional/l4d2_saferoom_item_remove.smx] Removed 2 saferoom item(s) (start: 2; end: 0).
+L 11/19/2022 - 19:27:21: [l4d2_playtime_interface.smx] Failed to retrieve response (GetOwnedGames) - HTTPStatus: 0
+L 11/19/2022 - 19:27:31: [l4d2_playtime_interface.smx] Failed to retrieve response (GetUserStatsForGame) - HTTPStatus: 0
+L 11/19/2022 - 19:32:53: [l4d2_playtime_interface.smx] Failed to retrieve response (GetOwnedGames) - HTTPStatus: 401
+L 11/19/2022 - 19:32:53: [l4d2_playtime_interface.smx] Failed to retrieve response (GetUserStatsForGame) - HTTPStatus: 403
+L 11/19/2022 - 19:36:10: [l4d2_playtime_interface.smx] Failed to retrieve response (GetUserStatsForGame) - HTTPStatus: 0
+L 11/19/2022 - 19:36:10: [l4d2_playtime_interface.smx] Failed to retrieve response (GetOwnedGames) - HTTPStatus: 0
+L 11/19/2022 - 19:37:45: [l4d2_playtime_interface.smx] Failed to retrieve response (GetOwnedGames) - HTTPStatus: 0
+L 11/19/2022 - 19:37:55: [l4d2_playtime_interface.smx] Failed to retrieve response (GetUserStatsForGame) - HTTPStatus: 0
+L 11/19/2022 - 19:40:18: [optional/l4d2_saferoom_item_remove.smx] Removed 2 saferoom item(s) (start: 2; end: 0).
+L 11/19/2022 - 19:40:57: [optional/l4d2_skill_detect.smx] Charge carry start: 5 - 4 -- time: 866.34
+L 11/19/2022 - 19:41:01: [optional/l4d2_skill_detect.smx] Clear: 0 freed 4 from 5: time: 0.00 / 4.85 -- class: charger (with shove? 0)
+L 11/19/2022 - 19:41:02: [optional/l4d2_skill_detect.smx] Checking charge victim: 5 - 4 - flags: 43 (alive? 0)
+L 11/19/2022 - 19:41:15: [optional/l4d2_saferoom_item_remove.smx] Removed 2 saferoom item(s) (start: 2; end: 0).
+L 11/19/2022 - 19:42:08: [l4d2_playtime_interface.smx] Failed to retrieve response (GetOwnedGames) - HTTPStatus: 0
+L 11/19/2022 - 19:42:08: [l4d2_playtime_interface.smx] Failed to retrieve response (GetUserStatsForGame) - HTTPStatus: 403
+L 11/19/2022 - 19:42:16: [optional/l4d2_skill_detect.smx] Charge carry start: 1 - 3 -- time: 945.66
+L 11/19/2022 - 19:42:20: [optional/l4d2_skill_detect.smx] Checking charge victim: 1 - 3 - flags: 1 (alive? 1)
+L 11/19/2022 - 19:42:21: [optional/l4d2_skill_detect.smx] Clear: 4 freed 3 from 1: time: 3.11 / 4.91 -- class: charger (with shove? 0)
+L 11/19/2022 - 19:42:54: [optional/l4d2_skill_detect.smx] Clear: 4 freed 3 from 5: time: 2.39 / -1.00 -- class: hunter (with shove? 0)
+L 11/19/2022 - 19:43:34: [optional/l4d2_skill_detect.smx] Charge carry start: 1 - 4 -- time: 1023.59
+L 11/19/2022 - 19:43:39: [optional/l4d2_skill_detect.smx] Checking charge victim: 1 - 4 - flags: 43 (alive? 0)
+L 11/19/2022 - 19:44:20: [optional/l4d2_saferoom_item_remove.smx] Removed 2 saferoom item(s) (start: 2; end: 0).
+L 11/19/2022 - 19:44:43: [optional/l4d2_skill_detect.smx] Clear: 1 freed 5 from 4: time: 2.08 / -1.00 -- class: jockey (with shove? 0)
+L 11/19/2022 - 19:45:48: [optional/l4d2_skill_detect.smx] Clear: 5 freed 1 from 3: time: 2.58 / -1.00 -- class: hunter (with shove? 0)
+L 11/19/2022 - 19:46:39: [optional/l4d2_skill_detect.smx] Charge carry start: 4 - 1 -- time: 1208.59
+L 11/19/2022 - 19:46:40: [optional/l4d2_skill_detect.smx] Clear: 5 freed 1 from 4: time: 0.21 / 1.00 -- class: charger (with shove? 0)
+L 11/19/2022 - 19:46:42: [optional/l4d2_skill_detect.smx] Checking charge victim: 4 - 1 - flags: 1 (alive? 1)
+L 11/19/2022 - 19:46:44: [optional/l4d2_skill_detect.smx] Clear: 5 freed 1 from 3: time: 1.67 / -1.00 -- class: hunter (with shove? 1)
+L 11/19/2022 - 19:46:47: [optional/l4d2_skill_detect.smx] Clear: 1 freed 5 from 3: time: 1.10 / -1.00 -- class: hunter (with shove? 0)
+L 11/19/2022 - 19:47:10: [optional/l4d2_saferoom_item_remove.smx] Removed 2 saferoom item(s) (start: 2; end: 0).
+L 11/19/2022 - 19:47:33: [optional/l4d2_skill_detect.smx] Clear: 3 freed 4 from 1: time: 0.77 / -1.00 -- class: jockey (with shove? 0)
+L 11/19/2022 - 19:47:34: [optional/l4d2_skill_detect.smx] Charge carry start: 5 - 3 -- time: 1263.59
+L 11/19/2022 - 19:47:36: [optional/l4d2_skill_detect.smx] Clear: 4 freed 3 from 5: time: 0.00 / 2.39 -- class: charger (with shove? 0)
+L 11/19/2022 - 19:47:39: [optional/l4d2_skill_detect.smx] Checking charge victim: 5 - 3 - flags: 1 (alive? 1)
+L 11/19/2022 - 19:48:37: [optional/l4d2_skill_detect.smx] Charge carry start: 1 - 3 -- time: 1326.54
+L 11/19/2022 - 19:48:40: [optional/l4d2_skill_detect.smx] Clear: 4 freed 3 from 1: time: 1.76 / 2.68 -- class: charger (with shove? 0)
+L 11/19/2022 - 19:48:40: [optional/l4d2_skill_detect.smx] Checking charge victim: 1 - 3 - flags: 1 (alive? 1)
+L 11/19/2022 - 19:49:07: [optional/l4d2_skill_detect.smx] Charge carry start: 5 - 3 -- time: 1356.48
+L 11/19/2022 - 19:49:10: [optional/l4d2_skill_detect.smx] Checking charge victim: 5 - 3 - flags: 1 (alive? 1)
+L 11/19/2022 - 19:49:32: [optional/l4d2_saferoom_item_remove.smx] Removed 2 saferoom item(s) (start: 2; end: 0).
+L 11/19/2022 - 19:50:23: [optional/l4d2_skill_detect.smx] Charge carry start: 3 - 1 -- time: 1432.89
+L 11/19/2022 - 19:50:28: [optional/l4d2_skill_detect.smx] Clear: 0 freed 1 from 3: time: 0.00 / 4.45 -- class: charger (with shove? 0)
+L 11/19/2022 - 19:50:29: [optional/l4d2_skill_detect.smx] Checking charge victim: 3 - 1 - flags: 43 (alive? 0)
+L 11/19/2022 - 19:51:49: [optional/l4d2_saferoom_item_remove.smx] Removed 2 saferoom item(s) (start: 2; end: 0).
+L 11/19/2022 - 19:52:10: [optional/l4d2_skill_detect.smx] Clear: 1 freed 5 from 4: time: 2.98 / -1.00 -- class: jockey (with shove? 0)
+L 11/19/2022 - 19:52:32: [optional/l4d2_skill_detect.smx] Charge carry start: 3 - 1 -- time: 1561.65
+L 11/19/2022 - 19:52:35: [optional/l4d2_skill_detect.smx] Clear: 5 freed 1 from 3: time: 1.27 / 2.41 -- class: charger (with shove? 0)
+L 11/19/2022 - 19:52:36: [optional/l4d2_skill_detect.smx] Checking charge victim: 3 - 1 - flags: 1 (alive? 1)
+L 11/19/2022 - 19:52:36: [optional/l4d2_skill_detect.smx] Clear: 5 freed 1 from 4: time: 1.50 / -1.00 -- class: hunter (with shove? 0)
+L 11/19/2022 - 19:53:35: [optional/l4d2_skill_detect.smx] Clear: 1 freed 5 from 4: time: 2.85 / -1.00 -- class: hunter (with shove? 0)
+L 11/19/2022 - 19:54:01: [optional/l4d2_skill_detect.smx] Charge carry start: 4 - 1 -- time: 1650.52
+L 11/19/2022 - 19:54:04: [optional/l4d2_skill_detect.smx] Checking charge victim: 4 - 1 - flags: 1 (alive? 1)
+L 11/19/2022 - 19:54:07: [optional/l4d2_skill_detect.smx] Clear: 5 freed 1 from 4: time: 5.20 / 6.11 -- class: charger (with shove? 0)
+L 11/19/2022 - 19:55:51: [optional/l4d2_skill_detect.smx] Clear: 1 freed 5 from 3: time: 1.09 / -1.00 -- class: hunter (with shove? 0)
+L 11/19/2022 - 19:56:35: [optional/l4d2_skill_detect.smx] Charge carry start: 3 - 5 -- time: 1804.00
+L 11/19/2022 - 19:56:35: [optional/l4d2_skill_detect.smx] Clear: 5 freed 5 from 3: time: 0.00 / 0.14 -- class: charger (with shove? 0)
+L 11/19/2022 - 19:56:38: [optional/l4d2_skill_detect.smx] Checking charge victim: 3 - 5 - flags: 1 (alive? 1)
+L 11/19/2022 - 19:56:41: [optional/l4d2_skill_detect.smx] Clear: 5 freed 1 from 4: time: 5.52 / -1.00 -- class: jockey (with shove? 0)
+L 11/19/2022 - 19:56:57: [optional/l4d2_skill_detect.smx] Clear: 5 freed 1 from 3: time: 2.41 / -1.00 -- class: hunter (with shove? 0)
+L 11/19/2022 - 19:57:03: [optional/l4d2_skill_detect.smx] Clear: 1 freed 5 from 4: time: 0.77 / 1832.31 -- class: charger (with shove? 0)
+L 11/19/2022 - 19:57:18: [optional/l4d2_saferoom_item_remove.smx] Removed 2 saferoom item(s) (start: 2; end: 0).
+L 11/19/2022 - 19:57:53: [optional/l4d2_skill_detect.smx] Clear: 4 freed 3 from 1: time: 6.09 / -1.00 -- class: hunter (with shove? 0)
+L 11/19/2022 - 19:58:25: [optional/l4d2_skill_detect.smx] Charge carry start: 5 - 3 -- time: 1914.01
+L 11/19/2022 - 19:58:28: [optional/l4d2_skill_detect.smx] Checking charge victim: 5 - 3 - flags: 1 (alive? 1)
+L 11/19/2022 - 19:59:16: -------- Mapchange to c8m5_rooftop --------
+L 11/19/2022 - 19:59:17: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "confogl_match_execcfg_plugins") (value "generalfixes.cfg;confogl_plugins.cfg;sharedplugins.cfg")
+L 11/19/2022 - 19:59:17: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "l4d2_addons_eclipse") (value "0")
+L 11/19/2022 - 19:59:17: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sv_allow_wait_command") (value "0")
+L 11/19/2022 - 19:59:17: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sv_minrate") (value "100000")
+L 11/19/2022 - 19:59:17: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sv_maxrate") (value "100000")
+L 11/19/2022 - 19:59:17: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sv_minupdaterate") (value "100")
+L 11/19/2022 - 19:59:17: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sv_maxupdaterate") (value "100")
+L 11/19/2022 - 19:59:17: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sv_mincmdrate") (value "100")
+L 11/19/2022 - 19:59:17: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sv_maxcmdrate") (value "100")
+L 11/19/2022 - 19:59:17: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sv_client_min_interp_ratio") (value "-1")
+L 11/19/2022 - 19:59:17: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sv_client_max_interp_ratio") (value "0")
+L 11/19/2022 - 19:59:17: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "nb_update_frequency") (value "0.014")
+L 11/19/2022 - 19:59:17: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "net_splitpacket_maxrate") (value "50000")
+L 11/19/2022 - 19:59:17: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "fps_max") (value "0")
+L 11/19/2022 - 19:59:17: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "tick_door_speed") (value "1.3")
+L 11/19/2022 - 19:59:17: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "mv_maxplayers") (value "12")
+L 11/19/2022 - 19:59:17: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "mp_autoteambalance") (value "0")
+L 11/19/2022 - 19:59:17: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sv_unlag_fixstuck") (value "1")
+L 11/19/2022 - 19:59:17: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "z_brawl_chance") (value "0")
+L 11/19/2022 - 19:59:17: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sv_maxunlag") (value "1")
+L 11/19/2022 - 19:59:17: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sv_forcepreload") (value "1")
+L 11/19/2022 - 19:59:17: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sv_client_predict") (value "1")
+L 11/19/2022 - 19:59:17: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sv_client_cmdrate_difference") (value "0")
+L 11/19/2022 - 19:59:17: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sv_max_queries_sec_global") (value "10")
+L 11/19/2022 - 19:59:17: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sv_max_queries_sec") (value "3")
+L 11/19/2022 - 19:59:17: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sv_max_queries_window") (value "10")
+L 11/19/2022 - 19:59:17: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sv_player_stuck_tolerance") (value "5")
+L 11/19/2022 - 19:59:17: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sv_stats") (value "0")
+L 11/19/2022 - 19:59:17: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sv_clockcorrection_msecs") (value "25")
+L 11/19/2022 - 19:59:17: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sb_all_bot_game") (value "1")
+L 11/19/2022 - 19:59:19: [optional/l4d2_saferoom_item_remove.smx] Removed 2 saferoom item(s) (start: 2; end: 0).
+L 11/19/2022 - 19:59:28: [l4d2_playtime_interface.smx] Failed to retrieve response (GetOwnedGames) - HTTPStatus: 0
+L 11/19/2022 - 19:59:38: [l4d2_playtime_interface.smx] Failed to retrieve response (GetUserStatsForGame) - HTTPStatus: 0
+L 11/19/2022 - 19:59:48: [l4d2_playtime_interface.smx] Failed to retrieve response (GetOwnedGames) - HTTPStatus: 0
+L 11/19/2022 - 19:59:58: [l4d2_playtime_interface.smx] Failed to retrieve response (GetUserStatsForGame) - HTTPStatus: 0
+L 11/19/2022 - 20:00:08: [l4d2_playtime_interface.smx] Failed to retrieve response (GetOwnedGames) - HTTPStatus: 0
+L 11/19/2022 - 20:00:18: [l4d2_playtime_interface.smx] Failed to retrieve response (GetOwnedGames) - HTTPStatus: 0
+L 11/19/2022 - 20:00:18: [l4d2_playtime_interface.smx] Failed to retrieve response (GetUserStatsForGame) - HTTPStatus: 0
+L 11/19/2022 - 20:00:18: [l4d2_playtime_interface.smx] Failed to retrieve response (GetUserStatsForGame) - HTTPStatus: 0
+L 11/19/2022 - 20:00:18: [l4d2_playtime_interface.smx] Failed to retrieve response (GetUserStatsForGame) - HTTPStatus: 0
+L 11/19/2022 - 20:00:18: [l4d2_playtime_interface.smx] Failed to retrieve response (GetOwnedGames) - HTTPStatus: 0
+L 11/19/2022 - 20:02:05: [optional/l4d2_saferoom_item_remove.smx] Removed 2 saferoom item(s) (start: 2; end: 0).
+L 11/19/2022 - 20:02:32: [optional/l4d2_skill_detect.smx] Clear: 5 freed 1 from 4: time: 1.48 / -1.00 -- class: hunter (with shove? 0)
+L 11/19/2022 - 20:02:33: [optional/l4d2_skill_detect.smx] Charge carry start: 3 - 5 -- time: 196.22
+L 11/19/2022 - 20:02:39: [optional/l4d2_skill_detect.smx] Checking charge victim: 3 - 5 - flags: 43 (alive? 0)
+L 11/19/2022 - 20:04:08: [optional/l4d2_skill_detect.smx] Charge carry start: 3 - 1 -- time: 291.13
+L 11/19/2022 - 20:04:12: [optional/l4d2_skill_detect.smx] Checking charge victim: 3 - 1 - flags: 43 (alive? 0)
+L 11/19/2022 - 20:04:30: [optional/l4d2_saferoom_item_remove.smx] Removed 2 saferoom item(s) (start: 2; end: 0).
+L 11/19/2022 - 20:05:10: [optional/l4d2_skill_detect.smx] Clear: 5 freed 1 from 4: time: 3.90 / -1.00 -- class: jockey (with shove? 0)
+L 11/19/2022 - 20:05:56: [optional/l4d2_skill_detect.smx] Clear: 1 freed 5 from 4: time: 6.29 / -1.00 -- class: hunter (with shove? 0)
+L 11/19/2022 - 20:06:29: [optional/l4d2_skill_detect.smx] Clear: 1 freed 5 from 4: time: 1.91 / -1.00 -- class: jockey (with shove? 0)
+L 11/19/2022 - 20:06:56: [optional/l4d2_skill_detect.smx] Clear: 1 freed 5 from 4: time: 2.44 / -1.00 -- class: hunter (with shove? 0)
+L 11/19/2022 - 20:07:44: [optional/l4d2_skill_detect.smx] Charge carry start: 4 - 5 -- time: 506.85
+L 11/19/2022 - 20:07:47: [optional/l4d2_skill_detect.smx] Clear: 0 freed 5 from 4: time: 0.00 / 3.67 -- class: charger (with shove? 0)
+L 11/19/2022 - 20:07:48: [optional/l4d2_skill_detect.smx] Checking charge victim: 4 - 5 - flags: 43 (alive? 0)
+L 11/19/2022 - 20:08:34: [optional/l4d2_skill_detect.smx] Charge carry start: 3 - 1 -- time: 556.77
+L 11/19/2022 - 20:08:37: [optional/l4d2_skill_detect.smx] Checking charge victim: 3 - 1 - flags: 1 (alive? 1)
+L 11/19/2022 - 20:08:55: [optional/l4d2_saferoom_item_remove.smx] Removed 2 saferoom item(s) (start: 2; end: 0).
+L 11/19/2022 - 20:09:46: [optional/l4d2_skill_detect.smx] Clear: 4 freed 3 from 1: time: 1.40 / -1.00 -- class: hunter (with shove? 0)
+L 11/19/2022 - 20:10:18: [optional/l4d2_skill_detect.smx] Charge carry start: 1 - 3 -- time: 660.77
+L 11/19/2022 - 20:10:21: [optional/l4d2_skill_detect.smx] Checking charge victim: 1 - 3 - flags: 1 (alive? 1)
+L 11/19/2022 - 20:12:03: [optional/l4d2_skill_detect.smx] Clear: 4 freed 3 from 1: time: 6.34 / -1.00 -- class: hunter (with shove? 0)
+L 11/19/2022 - 20:12:47: [optional/l4d2_saferoom_item_remove.smx] Removed 2 saferoom item(s) (start: 2; end: 0).
+L 11/19/2022 - 20:13:29: [optional/l4d2_skill_detect.smx] Clear: 1 freed 5 from 4: time: 9.20 / -1.00 -- class: hunter (with shove? 0)
+L 11/19/2022 - 20:15:02: [optional/l4d2_skill_detect.smx] Clear: 1 freed 5 from 3: time: 2.13 / -1.00 -- class: hunter (with shove? 0)
+L 11/19/2022 - 20:15:31: [l4d2_playtime_interface.smx] Failed to retrieve response (GetUserStatsForGame) - HTTPStatus: 403
+L 11/19/2022 - 20:15:31: [l4d2_playtime_interface.smx] Failed to retrieve response (GetOwnedGames) - HTTPStatus: 401
+L 11/19/2022 - 20:15:34: [optional/l4d2_skill_detect.smx] Clear: 5 freed 1 from 4: time: 3.80 / -1.00 -- class: hunter (with shove? 0)
+L 11/19/2022 - 20:16:08: [optional/l4d2_skill_detect.smx] Clear: 5 freed 1 from 4: time: 1.16 / -1.00 -- class: jockey (with shove? 1)
+L 11/19/2022 - 20:18:04: [optional/l4d2_saferoom_item_remove.smx] Removed 2 saferoom item(s) (start: 2; end: 0).
+L 11/19/2022 - 20:18:30: [optional/l4d2_skill_detect.smx] Charge carry start: 5 - 3 -- time: 1153.23
+L 11/19/2022 - 20:18:31: [optional/l4d2_skill_detect.smx] Clear: 3 freed 3 from 5: time: 0.00 / 0.18 -- class: charger (with shove? 0)
+L 11/19/2022 - 20:18:33: [optional/l4d2_skill_detect.smx] Checking charge victim: 5 - 3 - flags: 1 (alive? 1)
+L 11/19/2022 - 20:19:33: [optional/l4d2_skill_detect.smx] Clear: 4 freed 3 from 1: time: 3.16 / 1216.13 -- class: charger (with shove? 0)
+L 11/19/2022 - 20:20:50: [optional/l4d2_skill_detect.smx] Clear: 0 freed 3 from 1: time: 7.05 / -1.00 -- class: jockey (with shove? 0)
+L 11/19/2022 - 20:21:23: [l4d2_playtime_interface.smx] Failed to retrieve response (GetOwnedGames) - HTTPStatus: 0
+L 11/19/2022 - 20:21:31: [optional/l4d2_skill_detect.smx] Clear: 0 freed 3 from 1: time: -1.00 / 1334.04 -- class: charger (with shove? 0)
+L 11/19/2022 - 20:21:33: [l4d2_playtime_interface.smx] Failed to retrieve response (GetUserStatsForGame) - HTTPStatus: 0
+L 11/19/2022 - 20:21:44: [optional/l4d2_saferoom_item_remove.smx] Removed 2 saferoom item(s) (start: 2; end: 0).
+L 11/19/2022 - 20:22:25: [optional/l4d2_skill_detect.smx] Clear: 3 freed 4 from 1: time: 12.69 / -1.00 -- class: jockey (with shove? 0)
+L 11/19/2022 - 20:24:01: [optional/l4d2_saferoom_item_remove.smx] Removed 2 saferoom item(s) (start: 2; end: 0).
+L 11/19/2022 - 20:24:58: [optional/l4d2_skill_detect.smx] Clear: 1 freed 5 from 3: time: 2.72 / -1.00 -- class: jockey (with shove? 0)
+L 11/19/2022 - 20:25:29: [optional/l4d2_saferoom_item_remove.smx] Removed 2 saferoom item(s) (start: 2; end: 0).
+L 11/19/2022 - 20:26:10: [optional/l4d2_skill_detect.smx] Clear: 3 freed 4 from 1: time: 4.31 / -1.00 -- class: hunter (with shove? 0)
+L 11/19/2022 - 20:26:53: [optional/l4d2_skill_detect.smx] Clear: 3 freed 4 from 5: time: 2.35 / -1.00 -- class: hunter (with shove? 0)
+L 11/19/2022 - 20:27:41: [optional/l4d2_skill_detect.smx] Clear: 0 freed 4 from 5: time: 12.23 / -1.00 -- class: jockey (with shove? 0)
+L 11/19/2022 - 20:27:54: [optional/l4d2_saferoom_item_remove.smx] Removed 2 saferoom item(s) (start: 2; end: 0).
+L 11/19/2022 - 20:29:14: SourceMod log file session started (file "/root/Steam/steamapps/common/Left 4 Dead 2 Dedicated Server/left4dead2/addons/sourcemod/logs/L20221119.log") (Version "1.11.0.6825")
+L 11/19/2022 - 20:29:14: [GEOIP] GeoIP2 database loaded: GeoLite2-City (2019-12-17 20:01:26 UTC)
+L 11/19/2022 - 20:29:14: [GEOIP] GeoIP2 supported languages: de en es fr ja pt-BR ru zh-CN
+L 11/19/2022 - 20:29:14: [GEOIPCITY] GeoIPCity database info: GEO-533LITE 20150106 Build 1 Copyright (c) 2015 MaxMind Inc All Rights Reserved
+L 11/19/2022 - 20:29:16: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "confogl_match_execcfg_plugins") (value "generalfixes.cfg;confogl_plugins.cfg;sharedplugins.cfg")
+L 11/19/2022 - 20:29:16: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "l4d2_addons_eclipse") (value "0")
+L 11/19/2022 - 20:29:16: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sv_allow_wait_command") (value "0")
+L 11/19/2022 - 20:29:16: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sv_minrate") (value "100000")
+L 11/19/2022 - 20:29:16: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sv_maxrate") (value "100000")
+L 11/19/2022 - 20:29:16: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sv_minupdaterate") (value "100")
+L 11/19/2022 - 20:29:16: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sv_maxupdaterate") (value "100")
+L 11/19/2022 - 20:29:16: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sv_mincmdrate") (value "100")
+L 11/19/2022 - 20:29:16: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sv_maxcmdrate") (value "100")
+L 11/19/2022 - 20:29:16: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sv_client_min_interp_ratio") (value "-1")
+L 11/19/2022 - 20:29:16: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sv_client_max_interp_ratio") (value "0")
+L 11/19/2022 - 20:29:16: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "nb_update_frequency") (value "0.014")
+L 11/19/2022 - 20:29:16: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "net_splitpacket_maxrate") (value "50000")
+L 11/19/2022 - 20:29:16: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "fps_max") (value "0")
+L 11/19/2022 - 20:29:16: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "tick_door_speed") (value "1.3")
+L 11/19/2022 - 20:29:16: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "mv_maxplayers") (value "12")
+L 11/19/2022 - 20:29:16: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "mp_autoteambalance") (value "0")
+L 11/19/2022 - 20:29:16: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sv_unlag_fixstuck") (value "1")
+L 11/19/2022 - 20:29:16: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "z_brawl_chance") (value "0")
+L 11/19/2022 - 20:29:16: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sv_maxunlag") (value "1")
+L 11/19/2022 - 20:29:16: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sv_forcepreload") (value "1")
+L 11/19/2022 - 20:29:16: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sv_client_predict") (value "1")
+L 11/19/2022 - 20:29:16: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sv_client_cmdrate_difference") (value "0")
+L 11/19/2022 - 20:29:16: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sv_max_queries_sec_global") (value "10")
+L 11/19/2022 - 20:29:16: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sv_max_queries_sec") (value "3")
+L 11/19/2022 - 20:29:16: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sv_max_queries_window") (value "10")
+L 11/19/2022 - 20:29:16: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sv_player_stuck_tolerance") (value "5")
+L 11/19/2022 - 20:29:16: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sv_stats") (value "0")
+L 11/19/2022 - 20:29:16: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sv_clockcorrection_msecs") (value "25")
+L 11/19/2022 - 20:29:16: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sb_all_bot_game") (value "1")
+L 11/20/2022 - 15:34:50: Log file closed.

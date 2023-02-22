@@ -1,0 +1,63 @@
+L 12/24/2022 - 21:19:39: SourceMod error session started
+L 12/24/2022 - 21:19:39: Info (map "c2m1_highway") (file "/root/Steam/steamapps/common/Left 4 Dead 2 Dedicated Server/left4dead2/addons/sourcemod/logs/errors_20221224.log")
+L 12/24/2022 - 21:19:39: [SM] Unable to load extension "left4downtown.ext": /root/Steam/steamapps/common/Left 4 Dead 2 Dedicated Server/left4dead2/addons/sourcemod/extensions/left4downtown.ext.so: cannot open shared object file: No such file or directory
+L 12/24/2022 - 21:19:39: [SM] Error parsing gameconfig file "/root/Steam/steamapps/common/Left 4 Dead 2 Dedicated Server/left4dead2/addons/sourcemod/gamedata/left4downtown.l4d2.txt":
+L 12/24/2022 - 21:19:39: [SM] Error 1 on line 0, col 0: Stream failed to open
+L 12/24/2022 - 21:19:39: [SM] Exception reported: Unable to open left4downtown.l4d2: File could not be opened: No such file or directory
+L 12/24/2022 - 21:19:39: [SM] Blaming: optional/promod/l4d2_setscores.smx
+L 12/24/2022 - 21:19:39: [SM] Call stack trace:
+L 12/24/2022 - 21:19:39: [SM]   [0] LoadGameConfigFile
+L 12/24/2022 - 21:19:39: [SM]   [1] Line 56, l4d2_setscores.sp::OnPluginStart
+L 12/24/2022 - 21:19:39: [SM] Fatal error encountered parsing translation file "l4d_tank_pass.phrases.txt"
+L 12/24/2022 - 21:19:39: [SM] Error (line 0, column 0): Stream failed to open
+L 12/24/2022 - 21:19:42: Error log file session closed.
+L 12/24/2022 - 21:19:42: SourceMod error session started
+L 12/24/2022 - 21:19:42: Info (map "c2m1_highway") (file "/root/Steam/steamapps/common/Left 4 Dead 2 Dedicated Server/left4dead2/addons/sourcemod/logs/errors_20221224.log")
+L 12/24/2022 - 21:19:42: [SM] Fatal error encountered parsing translation file "l4d_tank_pass.phrases.txt"
+L 12/24/2022 - 21:19:42: [SM] Error (line 0, column 0): Stream failed to open
+L 12/24/2022 - 21:20:04: [SM] Exception reported: Native is not bound
+L 12/24/2022 - 21:20:04: [SM] Blaming: optional/spechud.smx
+L 12/24/2022 - 21:20:04: [SM] Call stack trace:
+L 12/24/2022 - 21:20:04: [SM]   [0] IsDarkCarniRemix
+L 12/24/2022 - 21:20:04: [SM]   [1] Line 338, J:\Documents\GitHub\L4D2-Competitive-Rework\addons\sourcemod\scripting\spechud.sp::OnRoundIsLive
+L 12/24/2022 - 21:20:04: [SM]   [3] Call_Finish
+L 12/24/2022 - 21:20:04: [SM]   [4] Line 35, readyup\util.inc::UTIL_WrapperForward
+L 12/24/2022 - 21:20:04: [SM]   [5] Line 87, readyup\action.inc::InitiateLive
+L 12/24/2022 - 21:20:04: [SM]   [6] Line 114, readyup\action.inc::ReadyCountdownDelay_Timer
+L 12/24/2022 - 21:21:51: SourceMod error session started
+L 12/24/2022 - 21:21:51: Info (map "c2m1_highway") (file "/root/Steam/steamapps/common/Left 4 Dead 2 Dedicated Server/left4dead2/addons/sourcemod/logs/errors_20221224.log")
+L 12/24/2022 - 21:21:51: [SM] Unable to load plugin "Welcome.smx": Could not find required plugin "l4d2_playtime_interface"
+L 12/24/2022 - 21:21:51: [SM] Unable to load plugin "l4d_fyzb_en_v20.smx": Could not find required plugin "readyup"
+L 12/24/2022 - 21:22:24: [SM] Unable to load extension "left4downtown.ext": /root/Steam/steamapps/common/Left 4 Dead 2 Dedicated Server/left4dead2/addons/sourcemod/extensions/left4downtown.ext.so: cannot open shared object file: No such file or directory
+L 12/24/2022 - 21:22:24: [SM] Error parsing gameconfig file "/root/Steam/steamapps/common/Left 4 Dead 2 Dedicated Server/left4dead2/addons/sourcemod/gamedata/left4downtown.l4d2.txt":
+L 12/24/2022 - 21:22:24: [SM] Error 1 on line 0, col 0: Stream failed to open
+L 12/24/2022 - 21:22:24: [SM] Exception reported: Unable to open left4downtown.l4d2: File could not be opened: No such file or directory
+L 12/24/2022 - 21:22:24: [SM] Blaming: optional/promod/l4d2_setscores.smx
+L 12/24/2022 - 21:22:24: [SM] Call stack trace:
+L 12/24/2022 - 21:22:24: [SM]   [0] LoadGameConfigFile
+L 12/24/2022 - 21:22:24: [SM]   [1] Line 56, l4d2_setscores.sp::OnPluginStart
+L 12/24/2022 - 21:22:24: [SM] Fatal error encountered parsing translation file "l4d_tank_pass.phrases.txt"
+L 12/24/2022 - 21:22:24: [SM] Error (line 0, column 0): Stream failed to open
+L 12/24/2022 - 21:22:27: Error log file session closed.
+L 12/24/2022 - 21:22:27: SourceMod error session started
+L 12/24/2022 - 21:22:27: Info (map "c2m1_highway") (file "/root/Steam/steamapps/common/Left 4 Dead 2 Dedicated Server/left4dead2/addons/sourcemod/logs/errors_20221224.log")
+L 12/24/2022 - 21:22:27: [SM] Fatal error encountered parsing translation file "l4d_tank_pass.phrases.txt"
+L 12/24/2022 - 21:22:27: [SM] Error (line 0, column 0): Stream failed to open
+L 12/24/2022 - 21:23:17: [SM] Exception reported: Native is not bound
+L 12/24/2022 - 21:23:17: [SM] Blaming: optional/spechud.smx
+L 12/24/2022 - 21:23:17: [SM] Call stack trace:
+L 12/24/2022 - 21:23:17: [SM]   [0] IsDarkCarniRemix
+L 12/24/2022 - 21:23:17: [SM]   [1] Line 338, J:\Documents\GitHub\L4D2-Competitive-Rework\addons\sourcemod\scripting\spechud.sp::OnRoundIsLive
+L 12/24/2022 - 21:23:17: [SM]   [3] Call_Finish
+L 12/24/2022 - 21:23:17: [SM]   [4] Line 35, readyup\util.inc::UTIL_WrapperForward
+L 12/24/2022 - 21:23:17: [SM]   [5] Line 87, readyup\action.inc::InitiateLive
+L 12/24/2022 - 21:23:17: [SM]   [6] Line 114, readyup\action.inc::ReadyCountdownDelay_Timer
+L 12/24/2022 - 21:27:17: SourceMod error session started
+L 12/24/2022 - 21:27:17: Info (map "c2m1_highway") (file "/root/Steam/steamapps/common/Left 4 Dead 2 Dedicated Server/left4dead2/addons/sourcemod/logs/errors_20221224.log")
+L 12/24/2022 - 21:27:17: [SM] Unable to load plugin "Welcome.smx": Could not find required plugin "l4d2_playtime_interface"
+L 12/24/2022 - 21:27:17: [SM] Unable to load plugin "l4d_fyzb_en_v20.smx": Could not find required plugin "readyup"
+L 12/24/2022 - 22:04:29: SourceMod error session started
+L 12/24/2022 - 22:04:29: Info (map "c2m1_highway") (file "/root/Steam/steamapps/common/Left 4 Dead 2 Dedicated Server/left4dead2/addons/sourcemod/logs/errors_20221224.log")
+L 12/24/2022 - 22:04:29: [SM] Unable to load plugin "Welcome.smx": Could not find required plugin "l4d2_playtime_interface"
+L 12/24/2022 - 22:04:29: [SM] Unable to load plugin "l4d_fyzb_en_v20.smx": Could not find required plugin "readyup"
+L 12/25/2022 - 00:38:05: Error log file session closed.

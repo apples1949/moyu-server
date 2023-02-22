@@ -1,16 +1,1 @@
-"AnneHappy"
-{
-	"23333"
-	{
-		"servername"	"#2 moyu server"
-	}	
-}
-
-//format:
-//"AnneHappy"
-//{
-//	"port"
-//	{
-//		"servername"	"[your server name]"
-//	}
-//}
+#2 moyu server
