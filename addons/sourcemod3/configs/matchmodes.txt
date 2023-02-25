@@ -35,11 +35,15 @@
 			"name" "Versus Survival Vanilla"
 		}
 	}
-	"趣味模式"
+	"趣味模式 Funny Mode"
 	{
 		"AirMod"
 		{
 			"name" "AirMod v1.09"
+		}
+		"FTL"
+		{
+			"name" "FollowTheLiter Rework v2.2"
 		}
 		"wtfmod"
 		{
