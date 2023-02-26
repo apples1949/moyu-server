@@ -13,7 +13,7 @@ https://github.com/A1oneR/scAvogl - Air编写的清道夫插件，使用其中�
 https://github.com/A1oneR/AirMod - 添加了Air制作过或者在维护的模式                          
 https://github.com/fantasylidong/CompetitiveWithAnne - 电信云服Anne插件                                              
 https://github.com/lechuga16/scavogl_rework - Zonemod但是是清道夫                               
-https://github.com/draxios/bizzymod - 添加部分娱乐写抗模式
+https://github.com/draxios/bizzymod - 添加部分娱乐写抗模式                                            
 https://github.com/mvandorp/server-addons - Promod及其衍生比赛插件包.(注意,该包sm版本过老,拓展插件过老已不可用,需要自己手动修复)                                     
 
 # 使用过的插件 Plugins used
