@@ -13,12 +13,14 @@ https://github.com/A1oneR/scAvogl - Air编写的清道夫插件，使用其中�
 https://github.com/A1oneR/AirMod - 添加了Air制作过或者在维护的模式                          
 https://github.com/fantasylidong/CompetitiveWithAnne - 电信云服Anne插件                                              
 https://github.com/lechuga16/scavogl_rework - Zonemod但是是清道夫                               
-https://github.com/draxios/bizzymod - 添加部分娱乐写抗模式
-- 想找一个完整的promod包以及其旁系插件链接的但我忘了在哪了，promod的插件过老，已经不适用现有的zonemod框架，自己在尝试替换依赖left4downtown拓展的和适配更好的插件来不改变原来插件特点的情况下使其可玩.找到链接放在这                                                 
+https://github.com/draxios/bizzymod - 添加部分娱乐写抗模式                                            
+https://github.com/mvandorp/server-addons - Promod及其衍生比赛插件包.(注意,该包sm版本过老,拓展插件过老已不可用,需要自己手动修复)                                     
+
 # 使用过的插件 Plugins used
 https://github.com/ProdigySim/custom_fakelag - Fakelag plugin                                       
 https://github.com/A1oneR/L4D2_DRDK_Plugins - DRDK Plugins                                       
 https://github.com/JoinedSenses/TF2-ServerHop - 用于游戏内查看其他服务器                                      
+https://github.com/mvandorp/server-plugins - 老promod插件                                     
 https://github.com/fbef0102/L4D2-Plugins                                     
 https://github.com/fbef0102/L4D1_2-Plugins                                 
 https://github.com/Target5150/MoYu_Server_Stupid_Plugins                                     
