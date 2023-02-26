@@ -2,10 +2,10 @@
 {
 	"WelcomeMessage"
 	{
-		"en"			"{olive}[{orange}Night Wishing{olive}]\n{yellow}Welcome to this server!!{default}This servers runs a scavenge config derived from {blue}ZoneMod 2.8\n{default}Type{olive}/helpmenu{default} in the chat to understand farther about this server."
-		"ru"			"{olive}[{orange}Night Wishing{olive}]\n{yellow}Welcome to this server!!{default}This servers runs a scavenge config derived from {blue}ZoneMod 2.8\n{default}Type{olive}/helpmenu{default} in the chat to understand farther about this server."
-		"zho"			"{olive}[{orange}Night Wishing{olive}]\n{yellow}歡迎來到本伺服器!!{default}本服是基於{blue}ZoneMod 2.8{default}自改而來的清道夫伺服器\n聊天視窗輸入{olive}!helpmenu{default}以了解本服.\n尊重並享受對局.感謝你對本服的支持!"
-		"chi"			"{olive}[{orange}Night Wishing{olive}]\n{yellow}欢迎来到本服务器!!{default}本服是基于{blue}ZoneMod 2.8{default}自改而来的清道夫服务器\n聊天框输入{olive}/helpmenu{default}以了解本服.\n尊重并享受对局.感谢你对本服的支持!"
+		"en"			"{olive}<{orange}moyu servers{olive}>\n{yellow}Welcome to this server!!{default}This servers various config derived from {blue}ZoneMod 2.8\n{default}Type{olive}/helpmenu{default} in the chat to understand farther about this server."
+		"ru"			"{olive}<{orange}moyu servers{olive}>\n{yellow}Welcome to this server!!{default}This servers various config derived from {blue}ZoneMod 2.8\n{default}Type{olive}/helpmenu{default} in the chat to understand farther about this server."
+		"zho"			"{olive}<{orange}moyu servers{olive}>\n{yellow}歡迎來到本伺服器!!{default}本服是基於{blue}ZoneMod 2.8{default}自改而來的多插件多模式伺服器\n聊天視窗輸入{olive}/helpmenu{default}以了解本服.\n尊重並享受對局.感謝你對本服的支持!"
+		"chi"			"{olive}<{orange}moyu servers{olive}>\n{yellow}欢迎来到本服务器!!{default}本服是基于{blue}ZoneMod 2.8{default}自改而来的多插件多模式服务器\n聊天框输入{olive}/helpmenu{default}以了解本服.\n尊重并享受对局.感谢你对本服的支持!"
 	}
 	"Server Rules"
 	{
@@ -16,10 +16,10 @@
 	}
 	"- Don't be an asshole"
 	{
-		"en"			"- Don't do jump suicide,friendly fire,gascan breaking,chat attacking etc."
-		"zho"			"- 不要隨意跳樓,黑槍,爆油,口嗨等"
-		"chi"			"- 不要随意跳楼,黑枪,爆油,口嗨等"
-		"ru"			"- Don't do jump suicide,friendly fire,gascan breaking,chat attacking etc."
+		"en"			"- Don't do jump suicide,friendly fire,chat attacking,Being Enigmatical in no reason etc."
+		"zho"			"- 不要隨意跳樓,黑槍,口嗨,無緣無故陰陽怪氣等"
+		"chi"			"- 不要随意跳楼,黑枪,口嗨,无缘无故阴阳怪气等"
+		"ru"			"- Don't do jump suicide,friendly fire,chat attacking,Being Enigmatical in no reason etc."
 	}
 	"- No mic or chat spamming"
 	{
@@ -35,12 +35,24 @@
 		"chi"			"- 任何作弊行为将被永久封禁处分"
 		"ru"			"- Взлом или нечестная игра приведут к блокировке"
 	}
+	"- ip"
+	{
+		"en"			"- Dont publish the server IPs on the public network"
+		"zho"			"- 不要在公共網絡公佈伺服器IP"
+		"chi"			"- 不要在公共网络公布服务器IP"
+	}
+	"- respect"
+	{
+		"en"			"- RESPECT other players.Unless they haven't gotten schooled ^^"
+		"zho"			"- <尊重>其它玩家.除非他們連小學都沒上過^^"
+		"chi"			"- <尊重>其它玩家.除非他们连小学都没上过^^"
+	}
 	"Welcome to Official Instructions"
 	{
-		"en"			"Welcome To Our Group Servers\n☆Night Wishing☆"
-		"zho"			"歡迎來到本组伺服器\n☆Night Wishing☆"
-		"chi"			"欢迎来到本组服务器\n☆Night Wishing☆"
-		"ru"			"Welcome To Our Group Servers\n☆Night Wishing☆"
+		"en"			"Welcome To Our Group Servers\n☆moyu servers☆"
+		"zho"			"歡迎來到本组伺服器\n☆moyu servers☆"
+		"chi"			"欢迎来到本组服务器\n☆moyu servers☆"
+		"ru"			"Welcome To Our Group Servers\n☆moyu servers☆"
 	}
 	"Map Rotation"
 	{
@@ -80,10 +92,10 @@
 	"Auto menu"
 	{
 		"#format"		"{1:t}"
-		"en"			"{olive}[{orange}Night Wishing{olive}]{default} Auto Help Menu is {olive}{1}"
-		"ru"			"{olive}[{orange}Night Wishing{olive}]{default} Меню автопомощи {olive}{1}"
-		"zho"			"{olive}[{orange}Night Wishing{olive}]{default} 自動幫助介面已 {olive}{1}"
-		"chi"			"{olive}[{orange}Night Wishing{olive}]{default} 自动帮助界面已 {olive}{1}"
+		"en"			"{olive}<{orange}moyu servers{olive}>{default} Auto Help Menu is {olive}{1}"
+		"ru"			"{olive}<{orange}moyu servers{olive}>{default} Меню автопомощи {olive}{1}"
+		"zho"			"{olive}<{orange}moyu servers{olive}>{default} 自動幫助介面已 {olive}{1}"
+		"chi"			"{olive}<{orange}moyu servers{olive}>{default} 自动帮助界面已 {olive}{1}"
 	}
 	"enabled"
 	{
@@ -101,10 +113,10 @@
 	}
 	"Configuration file has been reloaded"
 	{
-		"en"			"{olive}[{orange}Night Wishing{olive}]{default} Help Menu Configuration file has been reloaded"
-		"ru"			"{olive}[{orange}Night Wishing{olive}]{default} Конфигурационный файл меню помощи был перезагружен"
-		"zho"			"{olive}[{orange}Night Wishing{olive}]{default} 幫助介面的相關文件已重新載入"	
-		"chi"			"{olive}[{orange}Night Wishing{olive}]{default} 帮助界面的相关文件已重新载入"
+		"en"			"{olive}<{orange}moyu servers{olive}>{default} Help Menu Configuration file has been reloaded"
+		"ru"			"{olive}<{orange}moyu servers{olive}>{default} Конфигурационный файл меню помощи был перезагружен"
+		"zho"			"{olive}<{orange}moyu servers{olive}>{default} 幫助介面的相關文件已重新載入"	
+		"chi"			"{olive}<{orange}moyu servers{olive}>{default} 帮助界面的相关文件已重新载入"
 	}
 	"Current Rotation"
 	{
@@ -124,9 +136,63 @@
 	"Chat Commands"
 	{
 		"en"			"Chat Commands"
-		"zho"			"可使用的指令列表"
-		"chi"			"可使用的指令列表"
+		"zho"			"玩家指令列表"
+		"chi"			"玩家指令列表"
 		"ru"			"Команды чата"
+	}
+	"Admin Commands"
+	{
+		"en"			"Admin Commands"
+		"zho"			"管理員指令"
+		"chi"			"管理员指令"
+	}
+	"say !match"
+	{
+		"en"			"/match - To call a vote to load a match mode"
+		"zho"			"/match - 投票選擇比賽模式"
+		"chi"			"/match - 投票选择比赛模式"
+	}
+	"say !rmatch"
+	{
+		"en"			"/rmatch - To unload the current match mode"
+		"zho"			"/rmatch - 投票卸載當前比賽模式"
+		"chi"			"/rmatch - 投票卸载当前比赛模式"
+	}
+	"say !chmap"
+	{
+		"en"			"/chmap - To call a vote to change to another Campaign"
+		"zho"			"/chmap - 投票切換另一個地圖章節"
+		"chi"			"/chmap - 投票切换另一个地图章节"
+	}
+	"say !chmap2"
+	{
+		"en"			"/chmap2 - To call a vote to change to another specifically map"
+		"zho"			"/chmap2 - 投票切換另一個具體的地圖"
+		"chi"			"/chmap2 - 投票切换另一个具体的地图"
+	}
+	"say !cur"
+	{
+		"en"			"/cur - Show the current processe in a versus game"
+		"zho"			"/cur - 在一局對抗模式中顯示當前路程"
+		"chi"			"/cur - 在一局对抗模式中显示当前路程"
+	}
+	"say !cast"
+	{
+		"en"			"/cast - Register as a Caster(Admin flag or whitelist requried)"
+		"zho"			"/cast - 自行註冊為解說(要求擁有管理員權限或在白名單之中)"
+		"chi"			"/cast - 自行注册为解说(要求拥有管理员权限或在白名单之中)"
+	}
+	"say !uncast"
+	{
+		"en"			"/uncast - Deregister as a Caster"
+		"zho"			"/uncast - 取消註冊解說"
+		"chi"			"/uncast - 取消注册解说"
+	}
+	"say !helpmenu"
+	{
+		"en"			"/helpmenu - To open the helpmenu panel"
+		"zho"			"/helpmenu - 打開幫助菜單"
+		"chi"			"/helpmenu - 打开帮助菜单"
 	}
 	"say !servers"
 	{
@@ -135,6 +201,11 @@
 		"chi"			"/servers - 查询其他群服"
 		"ru"			"/servers - Check out other servers"
 	}
+	"say !slots"
+	{
+		"en"			"/slots - usage:/slots <number>.Call a vote to limit the server slots"
+		"zho"			"/slots - 用法:/slots <數字>.投票以限制伺服器位數"
+		"chi"			"/slots - 用法:/slots <数字>.投票以限制服务器位数"
 	"say !s"
 	{
 		"en"			"/s - Become Spectator"
@@ -149,46 +220,233 @@
 		"chi"			"/spechud - 打开旁观者hud"
 		"ru"			"/spechud - Turn on the spectator hud"
 	}
+	"say !ready"
+	{
+		"en"			"/ready - To be ready to begin or cancel the pause"
+		"zho"			"/ready - 切換至準備狀態或在暫停中準備"
+		"chi"			"/ready - 切换至准备状态或在暂停中准备"
+	}
+	"say !unready"
+	{
+		"en"			"/unready - To be unready to stay or keep the pause"
+		"zho"			"/unready - 切換至非準備狀態或保持暫停"
+		"chi"			"/unready - 切换至费准备状态或保持暂停"
+	}
+	"say !show"
+	{
+		"en"			"/show - Show readyup panel"
+		"zho"			"/show - 顯示準備面板"
+		"chi"			"/show - 显示准备面板"
+	}
+	"say !hide"
+	{
+		"en"			"/hide - Hide readyup panel"
+		"zho"			"/hide - 隱藏準備面板"
+		"chi"			"/hide - 隐藏准备面板"
+	}
+	"say !lerps"
+	{
+		"en"			"/lerps - List lerps of every player"
+		"zho"			"/lerps - 列出所有玩家的lerp值"
+		"chi"			"/lerps - 列出所有玩家的lerp值"
+	}
+	"say !pause"
+	{
+		"en" 			"/pause - To pause when the game begin"
+		"zho"			"/pause - 遊戲進行時暫停"
+		"chi"			"/pause - 游戏进行时暂停"
+	}
 	"say !vote"
 	{
-		"en"			"/vote - Open the vote menu"
+		"en"			"/vote - To open the vote menu"
 		"zho"			"/vote - 打開投票菜單"
 		"chi"			"/vote - 打开投票菜单"
-		"ru"			"/vote - Open the vote menu"
+		"ru"			"/vote - To open the vote menu"
 	}
-	"Specified Changes"
+	"say !tank"
 	{
-		"en"			"Specified Changes"
-		"zho"			"伺服器微改說明"
-		"chi"			"服务器微改说明"
-		"ru"			"Specified Changes"
+		"en"			"/tank - Show the tank position(and witch position)"
+		"zho"			"/tank - 顯示tank路程點(和witch路程點)"
+		"chi"			"/tank - 显示tank路程点(和witch路程点)"
 	}
-	"Specified Changes1"
+	"say !helath"
 	{
-		"en"			"- M2 chances changed from 3 to 5"
-		"zho"			"- 生還由3推變為5推"
-		"chi"			"- 生还由3推变为5推"
-		"ru"			"- M2 chances changed from 3 to 5"
+		"en"			"/health - Show the current DB/HB/Processe bonus"
+		"zho"			"/health - 顯示當前生還DB/HB/路程分"
+		"chi"			"/health - 显示当前生还DB/HB/路程分"
 	}
-	"Specified Changes2"
+	"say !setscore"
 	{
-		"en"			"- Limited the support itmes and weapon sites"
-		"zho"			"- 限制減少了武器物資和補給點"
-		"chi"			"- 限制减少了武器物资和补给点"
-		"ru"			"- Limited the support itmes and weapon sites"
+		"en"			"/setscore - Vote to set a versus game score for a team"
+		"zho"			"/setscore - 投票設定一個團隊的對抗分數"
+		"chi"			"/setscore - 投票设定一个团队的对抗分数"
 	}
-	"Specified Changes3"
+	"say !voteboss"
 	{
-		"en"			"- Charger's m2 damage amount is 10"
-		"zho"			"- Charger右鍵傷害為10"
-		"chi"			"- Charger右键伤害为10"
-		"ru"			"- Charger's m2 damage amount is 10"
-	}
-	"Specified Changes4"
+		"en"			"/voteboss - Vote to set the position of a boss(tank/witch)"
+		"zho"			"/voteboss - 投票設定boss的路程位置(tank/witch)"
+		"chi"			"/voteboss - 投票设定boss的路程位置(tank/witch)"
+	}			
+	"say !mix"
 	{
-		"en"			"- Configs in the diferrent servers have slightly diferrences.Check out for more on our QQ Group"
-		"zho"			"- 包清,藥清,內戰插件大同小異.進群查看更多信息"
-		"chi"			"- 包清,药清,内战插件大同小异.进群查看更多信息"
-		"ru"			"- Configs in the diferrent servers have slightly diferrences.Check out for more on our QQ Group"
+		"en"			"/mix - To mix 8/6/4 players into their team"
+		"zho"			"/mix - 進行44/33/22選人"
+		"chi"			"/mix - 进行44/33/22选人"
 	}
-}
+	"say !mixrandom"	
+	{
+		"en"			"/mixrandom - To mix 8/6/4 players randomly into their team"
+		"zho"			"/mixrandom - 進行44/33/22隨機選人"
+		"chi"			"/mixrandom - 进行44/33/22随机选人"
+	}
+	"say !specspeed"
+	{
+		"en"			"/set_specspeed_multi - Increase spec speed.default:1.0"
+		"zho"			"/set_specspeed_multi - 提升旁觀速度.默認值:1.0"
+		"chi"			"/set_specspeed_multi - 提升旁观速度.默认值:1.0"
+	}
+	"say !speedincreament"
+	{
+		"en"			"/set_specspeed_increament - Increament for spec speed.default:0.1"
+		"zho"			"/set_specspeed_increament - 旁觀加速度增量.默認值:0.1"
+		"chi"			"/set_specspeed_increament - 旁观加速度增量.默认值:0.1"
+	}
+	"say !speedincrease"
+	{
+		"en"			"/increase_specspeed - Increase spec speed at one time"
+		"zho"			"/increase_specspeed - 提升一次旁觀速度"
+		"chi"			"/increase_specspeed - 提升一次旁观速度"
+	}
+	"say !speeddecrease"
+	{
+		"en"			"/decrease_specspeed - Decrease spec speed at one time"
+		"zho"			"/decrease_specspeed - 降低一次旁觀速度"
+		"chi"			"/decrease_specspeed - 降低一次旁观速度"
+	}
+	"say !verticalincreament"
+	{
+		"en"			"/set_vertical_increament - Increament for vertical speed.default:10.0"
+		"zho"			"/set_vertical_increament - 垂直速度加速度增量.默認值:10.0"
+		"chi"			"/set_vertical_increament - 垂直速度加速度增量.默认值:10.0"
+	}
+	"say !admin"
+	{
+		"en"			"/admin - Admin Panel.All the basic admin function is here"
+		"zho"			"/admin - 管理員面板.所有基本管理員功能都在這里"
+		"chi"			"/admin - 管理员面板.所有基本管理员功能都在这里"
+	}
+	"say !cvar"
+	{
+		"en"			"/cvar - usage:/cvar <variables controled by index>"
+		"zho"			"/cvar - 用法:/cvar <由參數控制的變量>"
+		"chi"			"/cvar - 用法:/cvar <有参数控制的变量>"
+	}
+	"say !rcon"
+	{
+		"en"			"/rcon - usage:/rcon <server side command>"
+		"zho"			"/rcon - 用法:/rcon <服務端命令>"
+		"chi"			"/rcon - 用法:/rocn <服务端命令>"
+	}
+	"say !resetmatch"
+	{
+		"en"			"/resetmatch - Force to unload the current match mode"
+		"zho"			"/resetmatch - 強制卸載當前比賽模式"
+		"chi"			"/resetmatch - 强制卸载当前比赛模式"
+	}
+	"say !forcematch"
+	{
+		"en"			"/forcematch - usage:/forcematch <cfgogl folder name>.Force to load a match mode"
+		"zho"			"/forcematch - 用法:/forcematch <cfgogl文件夾名稱>.強制加載一個比賽模式"
+		"chi"			"/forcematch - 用法:/forcematch <cfgogl文件夹名称>.强制加载一个比赛模式"
+	}
+	"say !fs"
+	{
+		"en"			"/fs - Force to start the match or game"
+		"zho"			"/fs - 強制開始比賽或遊戲"
+		"chi"			"/fs - 强制开始比赛或游戏"
+	}
+	"say !forcepause"
+	{
+		"en"			"/forcepause - Force pausing the match or game"
+		"zho"			"/forcepause - 強制暫停比賽或遊戲"
+		"chi"			"/forcepause - 强制暂停比赛或游戏"
+	}
+	"say !forceunpause"
+	{
+		"en"			"/forceunpause - Force unpauseing the match or game"
+		"zho"			"/forceunpause - 強制取消暫停比賽或遊戲"
+		"chi"			"/forceunpause - 强制取消暂停比赛或游戏"
+	}
+	"say !fakelag"
+	{
+		"en"			"/fakelag - usage:/fakelag <player name>.Set fakelag on a player.Name can only be letters or numbers"
+		"zho"			"/fakelag - 用法:/fakelag <玩家名稱>.給指定的玩家設置假延遲"
+		"chi"			"/fakelag - 用法:/fakelag <玩家名称>.给指定的玩家设置假延迟"
+	}
+	"say !stopmix"
+	{
+		"en"			"/stopmix - Force to stop a mix currently running"
+		"zho"			"/stopmix - 強制停止一個進行中的mix"
+		"chi"			"/stopmix - 强制停止一个进行中的mix"
+	}
+	"say !slots"
+	{
+		"en"			"/slots - usage:/slots <number>.Limit the server slots directly"
+		"zho"			"/slots - 用法:/slots <數字>.直接限制伺服器位數"
+		"chi"			"/slots - 用法:/slots <数字>.直接限制服务器位数"
+	}
+	"say !caster"
+	{
+		"en"			"/caster - usage:/caster <player name>.Register a player as a Caster"
+		"zho"			"/caster - 用法:/caster <玩家名稱>.將一名玩家註冊為解說"
+		"chi"			"/caster - 用法:caster <玩家名称>.将一名玩家注册为解说"
+	}
+	"say !add_caster"
+	{
+		"en"			"/add_caster_id - Add a player into the caster whitelist"
+		"zho"			"/add_caster_id - 將一名玩家id加入解說白名單"
+		"chi"			"/add_caster_id - 将一名玩家id加入解说白名单"
+	}
+	"say !remove_caster"
+	{
+		"en"			"/remove_caster_id - Remove a player from the caster whitelist"
+		"zho"			"/remove_caster_id - 將一名玩家從解說白名單移除"
+		"chi"			"/remove_caster_id - 将一名玩家从解说白名单移除"
+	}
+	"say !kickspecs"
+	{
+		"en"			"/kickspecs - Kick the spectators(Only Caster can do)"
+		"zho"			"/kickspecs - 踢出所有旁觀(只有解說可以這麼做)"
+		"chi"			"/kickspecs - 踢出所有旁观(只有解说可以这么做)"
+	}
+	"say !swap"
+	{
+		"en"			"/swap - usage:/swap <player1> <players>.. To swap players to another team"
+		"zho"			"/swap - 用法:/swap <玩家1> <玩家2>.. 將玩家移動至另一個隊伍"
+		"chi"			"/swap - 用法:/swap <玩家1> <玩家2>.. 将玩家移动至另一个队伍"
+	}
+	"say !ftank"
+	{
+		"en"			"/ftank - Force to change the position of the tank"
+		"zho"			"/ftank - 強制改變tank路程點"
+		"chi"			"/ftank - 强制改变tank路程点"
+	}
+	"say !fwitch"
+	{
+		"en"			"/fwitch - Force to change the position of the witch"
+		"zho"			"/fwitch - 強制改變witch路程點"
+		"chi"			"/fwitch - 强制改变witch路程点"
+	}
+	"say !tankshuffle"
+	{
+		"en"			"/tankshuffle - Reset the tank selection"
+		"zho"			"/tankshuffle - 重置tank選人順序"
+		"chi"			"/tankshuffle - 重置tank选人顺序"
+	}
+	"say !givetank"
+	{
+		"en"			"/givetank - Force to give away the control selection to a player specified"
+		"zho"			"/givetank - 強制將tank控制權交給另一名玩家"
+		"chi"			"/givetank - 强制将tank控制权交给另一名玩家"
+	}
+}			

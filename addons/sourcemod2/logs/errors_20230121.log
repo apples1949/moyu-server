@@ -1,8 +1,0 @@
-L 01/21/2023 - 19:28:50: SourceMod error session started
-L 01/21/2023 - 19:28:50: Info (map "c2m1_highway") (file "/root/Steam/steamapps/common/Left 4 Dead 2 Dedicated Server/left4dead2/addons/sourcemod2/logs/errors_20230121.log")
-L 01/21/2023 - 19:28:50: [SM] Unable to load plugin "extend/rpg.smx": Could not find required plugin "l4d2lib"
-L 01/21/2023 - 21:57:25: Error log file session closed.
-L 01/21/2023 - 22:12:40: SourceMod error session started
-L 01/21/2023 - 22:12:40: Info (map "c2m1_highway") (file "/root/Steam/steamapps/common/Left 4 Dead 2 Dedicated Server/left4dead2/addons/sourcemod2/logs/errors_20230121.log")
-L 01/21/2023 - 22:12:40: [SM] Unable to load plugin "extend/rpg.smx": Could not find required plugin "l4d2lib"
-L 01/22/2023 - 16:22:15: Error log file session closed.
