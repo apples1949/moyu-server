@@ -27,6 +27,7 @@ https://github.com/Target5150/MoYu_Server_Stupid_Plugins
 https://github.com/GlowingTree880/L4D2_LittlePlugins                                          
 https://github.com/devilesk/rl4d2l-plugins                                        
 https://github.com/rikka0w0/l4d2_mission_manager - ACS自动&投票换图                                                
+https://gitee.com/honghl5/open-source-plug-in - Mixmap Credit by BigRed                                            
 
 # To Do-                                   
 也许不会to do也许会，我懒想摸鱼  
