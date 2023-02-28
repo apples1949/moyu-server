@@ -4,35 +4,35 @@
 	{
 		"versus"
 		{
-			"name" "Versus Vanilla"
+			"name" "Versus"
 		}
 		"coop"
 		{
-			"name" "Coop Vanilla"
+			"name" "Coop"
 		}
 		"realism"
 		{
-			"name" "Realism Vanilla"
+			"name" "Realism"
 		}
 		"versusrealism"
 		{
-			"name" "Versus Realism Vanilla"
+			"name" "Versus Realism"
 		}
 		"survival"
 		{
-			"name" "Survival Vanilla"
+			"name" "Survival"
 		}
 		"Scavenge"
 		{
-			"name" "Scavenge Vanilla"
+			"name" "Scavenge"
 		}
 		"tankrun"
 		{
-			"name" "TankRun Vanilla"
+			"name" "TankRun"
 		}
 		"versussurvival"
 		{
-			"name" "Versus Survival Vanilla"
+			"name" "Versus Survival"
 		}
 	}
 	"趣味模式 Funny Mode"
