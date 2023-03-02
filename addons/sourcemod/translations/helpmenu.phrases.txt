@@ -299,6 +299,17 @@
 		"zho"			"/mixrandom - 進行44/33/22隨機選人"
 		"chi"			"/mixrandom - 进行44/33/22随机选人"
 	}
+	"say !mixmap"
+	{
+		"en"			"/mixmap - Randomly select 5 maps from the map base in a game"
+		"zho"			"/mixmap - 在一局遊戲中隨機從地圖池挑選5張地圖進行遊玩"
+		"chi"			"/mixmap - 在一局游戏中随机从地图池挑选5张地图进行游玩"
+	}
+	"say !stopmixmap"
+	{
+		"en"			"/stopmixmap - Stop mixmap"
+		"zho"			"/stopmixmap - 停止mixmap"
+		"chi"			"/stopmixmap - 停止mixmap"
 	"say !specspeed"
 	{
 		"en"			"/set_specspeed_multi - Increase spec speed.default:1.0"
@@ -388,6 +399,18 @@
 		"en"			"/stopmix - Force to stop a mix currently running"
 		"zho"			"/stopmix - 強制停止一個進行中的mix"
 		"chi"			"/stopmix - 强制停止一个进行中的mix"
+	}
+	"say !fmixmap"
+	{
+		"en"			"/fmixmap - Force to start mixmap(official maps)"
+		"zho"			"/fmixmap - 強制開始mixmap(官方地圖)"
+		"chi"			"/fmixmap - 强制开始mixmap(官方地图)"
+	}
+	"say !fstopmixmap"
+	{
+		"en"			"/fstopmixmap - Force to cancel mixmap"
+		"zho"			"/fstopmixmap - 強制取消mixmap"
+		"chi"			"/fstopmixmap - 强制取消mixmap"
 	}
 	"say !slots"
 	{
