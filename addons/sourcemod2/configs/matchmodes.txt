@@ -26,9 +26,9 @@
 		{
 			"name" "Scavenge"
 		}
-		"tankrun"
+		"taaannnk"
 		{
-			"name" "TankRun"
+			"name" "Taaannnk!!"
 		}
 		"versussurvival"
 		{
