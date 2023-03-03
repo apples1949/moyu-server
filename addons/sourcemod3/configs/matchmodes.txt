@@ -61,6 +61,10 @@
 		{
 			"name" "WTFmod 1v1"
 		}
+		"supersurvival"
+		{
+			"name" "Super Survival"
+		}
 		"bizzymod"
 		{
 			"name" "魔改写抗 Bizzymod 0.8"

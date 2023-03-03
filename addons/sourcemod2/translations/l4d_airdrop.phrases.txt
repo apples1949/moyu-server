@@ -1,0 +1,48 @@
+﻿/*
+	Following named colors are supported:
+	 - {white}	(use instead of \x01 )
+	 - {cyan}	(use instead of \x03 )
+	 - {orange}	(use instead of \x04 )
+	 - {green}	(use instead of \x05 )
+
+CHI
+	字体颜色命令的使用方法:
+	 - {white}	(代替 \x01 的颜色)
+	 - {cyan}	(代替 \x03 的颜色)
+	 - {orange}	(代替 \x04 的颜色)
+	 - {green}	(代替 \x05 的颜色)
+*/
+
+"Phrases"
+{
+	"call_moyu serverdrop"
+	{
+		"#format"	"{1:N}"
+		"en"		"{orange}[moyu server] {cyan}{1} {white}called moyu serverdrop"
+		"es"		"{orange}[moyu server] {cyan}{1} {white}caída de objetos provocada"
+		"chi"		"{orange}[moyu server] {cyan}{1} {white}呼叫了空投"
+		"ru"		"{orange}[moyu server] {cyan}{1} {white} вызвал аирдроп"
+	}
+	"moyu serverdrop_coordinates"
+	{
+		"en"		"{orange}[moyu server] {green}moyu serverdrop fell in the approximate coordinates"
+		"es"		"{orange}[moyu server] {green}caidaa de objetos en coordenadas"
+		"chi"		"{orange}[moyu server] {green}空投箱子掉落的坐标点"
+		"ru"		"{orange}[moyu server] {green}аирдроп упал в примерных координатах"
+	}
+	"open_moyu serverdrop"
+	{
+		"#format"	"{1:N}"
+		"en"		"{orange}[moyu server] {cyan}{1} {white}open moyu serverdrop"
+		"es"		"{orange}[moyu server] {cyan}{1} {white}abrió el moyu serverdrop"
+		"chi"		"{orange}[moyu server] {cyan}{1} {white}打开了空投箱子"
+		"ru"		"{orange}[moyu server] {cyan}{1} {white}открыл аирдроп"
+	}
+	"use_string"
+	{
+		"en"		"Opening..."
+		"es"		"??"
+		"chi"		"正在打开物资中……"
+		"ru"		"Открываем..."
+	}
+}
