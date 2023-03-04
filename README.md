@@ -1,5 +1,5 @@
 # moyu servers.
-为实现多开并节省空间使用了多Sourcemod的方法(即在启动项加上+sm_basepath addons/sourcemod，指定一个服务器的sourcemod地址)                                 
+为实现多开并节省空间使用了多Sourcemod的方法(即在启动项加上+sm_basepath addons/sourcemod，指定一个srcds_run的sourcemod地址)                                 
 在addons中：                                                   
 sourcemod1:#1 moyu server >>                                   
 sourcemod2:#2 moyu server >>                    
@@ -12,11 +12,14 @@ https://github.com/SirPlease/L4D2-Competitive-Rework - Zonemod主框架
 https://github.com/A1oneR/scAvogl - Air编写的清道夫插件，使用其中部分插件替换了Scavogl Rework的部分插件                                              
 https://github.com/A1oneR/AirMod - 添加了Air制作过或者在维护的模式                          
 https://github.com/fantasylidong/CompetitiveWithAnne - 电信云服Anne插件                                              
-https://github.com/lechuga16/scavogl_rework - Zonemod但是是清道夫                               
+https://github.com/lechuga16/scavogl_rework - Scavogl Rework。zm衍生而来的清道夫插件                               
 https://github.com/draxios/bizzymod - 添加部分娱乐写抗模式                                            
-https://github.com/mvandorp/server-addons - Promod及其衍生比赛插件包.(注意,该包sm版本过老,拓展插件过老已不可用,需要自己手动修复)                                     
+https://github.com/mvandorp/server-addons - Promod及其衍生比赛插件包。(注意,该包sm版本过老,拓展插件过老已不可用,需要自己手动修复)                                     
+https://github.com/lechuga16/practiceogl_rework - Practiceogl Rework。zm衍生而来的练习插件，自己补充了3v3和4v4和2v2                                                  
 
 # 使用过的插件 Plugins used
+https://github.com/Silenci0/SMAC - SorceMod Anti Cheat(SMAC)反作弊检测                                                 
+https://github.com/J-Tanzanite/Little-Anti-Cheat - Little Anti Cheat(LIAC)反作弊检测
 https://github.com/ProdigySim/custom_fakelag - Fakelag plugin                                       
 https://github.com/A1oneR/L4D2_DRDK_Plugins - DRDK Plugins                                       
 https://github.com/JoinedSenses/TF2-ServerHop - 用于游戏内查看其他服务器                                      
