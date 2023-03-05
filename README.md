@@ -33,7 +33,3 @@ https://github.com/devilesk/rl4d2l-plugins
 https://github.com/rikka0w0/l4d2_mission_manager - ACS自动&投票换图                                                
 https://gitee.com/honghl5/open-source-plug-in - Mixmap Credit by BigRed                                            
 不能一一列出使用过的插件，但所有插件都是网上收集并部分自行重编译过，感谢所有的插件作者
-
-# To Do-                                   
-也许不会to do也许会，我懒想摸鱼  
-目前还是有很多bug的 比如比赛模式加载不上之类的 所以还是慎用:)
