@@ -5,7 +5,7 @@ sourcemod1:#1 moyu server >>
 sourcemod2:#2 moyu server >>                    
 sourcemod3:#3 moyu server >>                                          
                      
-这三个sm在同一个addons下(意味着三方图也是共享的)，除sourcemod之外的所有游戏文件都是共享的.目前三个服统一了配置,可以做三个混野服.                                   
+这三个sm在同一个addons下(意味着三方图也是共享的)，除sourcemod之外的所有游戏文件都是共享的.                                  
                      
 # 比赛模式来源链接 Matchmode links:                         
 https://github.com/SirPlease/L4D2-Competitive-Rework - Zonemod主框架                                          
