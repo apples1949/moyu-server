@@ -11,24 +11,24 @@ sourcemod3:#3 moyu server >>
 | 标准比赛配置名称 | 配置完善情况 |                                         
 |-----------------|--------------|                                            
 | ZoneMod v2.8.1/2.8/2.7.1/1.9.3 | √ |                                                
-| ZoneHunters v2.8.1/2.8/2.7.1/1.9.3 | √ |                                          
+| ZoneHunters v2.8.1/2.8/2.7.1 | √ |                                          
 | ZoneMod Retro v2.8.1/2.8/2.7.1 | √ |                                          
 | NeoMod v0.4a | √ |                                        
 | NextMod v1.0.5 | √ |                                  
 | ProMod Elite v1.1 | √ |                                         
 | AceMod Revamped v1.2 | √ |                                
-| Equilibrium v0.3c | √ |                                         
+| Equilibrium v3.0c | √ |                                         
 | Apex v1.1.2 | √ |                                               
                                                               
 | 其他比赛模式配置名称 | 配置完善情况 | 是否有自行修复和拓展 |                                                  
 |---------------------|-------------|-----------------------|                                               
 | Practiceogl Rework(Hunters) v2.2 | √ | √ |                                      
 | Scavogl Rework(Chargers/Hunters/Train) v2.2 | √ | √ |                                 
-| ProMod v5.0.3 | × | √ |                                             
-| ProMod Retro v5.0.3 | × | √ |                               
-| ProMod Reflux v5.0.3 | × | √ |                                
-| ProMod Hunters(Deadman 1v1) v5.0.3 | × | √ |                          
-| ProMod Redtown v5.0.3 | × | √ |                               
+| ProMod(Retro/Reflux/Redtown/Hunters/Deadman 1v1) v5.0.3 | × | √ |                                                                           
+| Sky v2.7.1 | × | × |
+| Scavogl(Hunters) v5.0.3 | × | √ |
+| Equilibrium Retro v2.1 | × | × |
+| Skeet Or Die v4.2.2 | × | × |
 | WitchParty(HC) v2.2 | × | √ |                         
 | WeiMeng Versus v1.1.0 | √ | × |                                       
 
