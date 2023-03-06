@@ -7,6 +7,57 @@ sourcemod3:#3 moyu server >>
                      
 这三个sm在同一个addons下(意味着三方图也是共享的)，除sourcemod之外的所有游戏文件都是共享的.                                  
                      
+# 服务器配置                                       
+| 标准比赛配置名称 | 配置完善情况 |                                         
+|-----------------|--------------|                                            
+| ZoneMod v2.8.1/2.8/2.7.1/1.9.3 | √ |                                                
+| ZoneHunters v2.8.1/2.8/2.7.1/1.9.3 | √ |                                          
+| ZoneMod Retro v2.8.1/2.8/2.7.1 | √ |                                          
+| NeoMod v0.4a | √ |                                        
+| NextMod v1.0.5 | √ |                                  
+| ProMod Elite v1.1 | √ |                                         
+| AceMod Revamped v1.2 | √ |                                
+| Equilibrium v0.3c | √ |                                         
+| Apex v1.1.2 | √ |                                               
+                                                              
+| 其他比赛模式配置名称 | 配置完善情况 | 是否有自行修复和拓展 |                                                  
+|---------------------|-------------|-----------------------|                                               
+| Practiceogl Rework(Hunters) v2.2 | √ | √ |                                      
+| Scavogl Rework(Chargers/Hunters/Train) v2.2 | √ | √ |                                 
+| ProMod v5.0.3 | × | √ |                                             
+| ProMod Retro v5.0.3 | × | √ |                               
+| ProMod Reflux v5.0.3 | × | √ |                                
+| ProMod Hunters(Deadman 1v1) v5.0.3 | × | √ |                          
+| ProMod Redtown v5.0.3 | × | √ |                               
+| WitchParty(HC) v2.2 | × | √ |                         
+| WeiMeng Versus v1.1.0 | √ | × |                                       
+
+| 自改官方模式Vanilla Settings | 配置是否完善 |                                                     
+|-----------------------------|--------------|                                          
+| Versus | √ |                                  
+| Coop | × |                            
+| Realism | √ |                             
+| Survival | × |                          
+| Scavenge | √ |                                        
+| Versus Realism | × |                                            
+| Versus Survival | × |                 
+| Taaannnkk!! | × |                                   
+                                          
+| 娱乐模式配置 | 配置是否完善 |                         
+|--------------|-------------|                                
+| AirMod v1.09 | √ |                        
+| WTFMod(4v4/3v3/2v2/1v1) v1.6.2 | √ |                      
+| Super Survival | × |                                
+| Bizzymod 0.8 | × |                                            
+| Spacemod -0.8 | × |                                                                            
+                                      
+| 药役模式配置 | 配置是否完善 |                                     
+|--------------|--------------|                                                   
+| AnneHappy 2023-1 | × |                                        
+| AstMod v2.6.3 | × |                                                             
+
+
+
 # 比赛模式来源链接 Matchmode links:                         
 https://github.com/SirPlease/L4D2-Competitive-Rework - Zonemod主框架                                          
 https://github.com/A1oneR/scAvogl - Air编写的清道夫插件，使用其中部分插件替换了Scavogl Rework的部分插件                                              
