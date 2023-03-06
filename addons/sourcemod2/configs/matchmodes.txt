@@ -368,6 +368,18 @@
 	}
 	"4v4 ZoneMod"
 	{
+		"281zonemod"
+		{
+			"name" "ZoneMod v2.8.1"
+		}
+		"281zoneretro"
+		{
+			"name" "ZoneMod Retro v2.8.1"
+		}
+		"281zonehunters"
+		{
+			"name" "ZoneHunters v2.8.1"
+		}
 		"28zonemod"
 		{
 			"name" "ZoneMod v2.8"
@@ -399,6 +411,14 @@
 	}
 	"3v3 ZoneMod"
 	{
+		"281zm3v3"
+		{
+			"name" "3v3 ZoneMod v2.8.1"
+		}
+		"281zh3v3"
+		{
+			"name" "3v3 ZoneHunters v2.8.1"
+		}
 		"28zm3v3"
 		{
 			"name" "3v3 ZoneMod v2.8"
@@ -422,6 +442,14 @@
 	}
 	"2v2 ZoneMod"
 	{
+		"281zm2v2"
+		{
+			"name" "2v2 ZoneMod v2.8.1"
+		}
+		"281zh2v2"
+		{
+			"name" "2v2 ZoneHunters v2.8.1"
+		}
 		"28zm2v2"
 		{
 			"name" "2v2 ZoneMod v2.8"
@@ -445,17 +473,25 @@
 	}
 	"1v1 ZoneMod"
 	{
+		"281zm1v1"
+		{
+			"name" "1v1 ZoneMod v2.8.1"
+		}
+		"281zh1v1"
+		{
+			"name" "1v1 ZoneHunters v2.8.1"
+		}
 		"28zm1v1"
 		{
 			"name" "1v1 ZoneMod v2.8"
 		}
-		"zm1v1"
-		{
-			"name" "1v1 ZoneMod v2.7.1"
-		}
 		"28zh1v1"
 		{
 			"name" "1v1 ZoneHunters v2.8"
+		}
+		"zm1v1"
+		{
+			"name" "1v1 ZoneMod v2.7.1"
 		}
 		"zh1v1"
 		{
