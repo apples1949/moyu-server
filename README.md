@@ -1,9 +1,5 @@
 # moyu servers.
-为实现多开并节省空间使用了多Sourcemod的方法(即在启动项加上+sm_basepath addons/sourcemod，指定一个srcds_run的sourcemod地址)                                 
-在addons中：                                                   
-sourcemod1:#1 moyu server >>                                   
-sourcemod2:#2 moyu server >>                    
-sourcemod3:#3 moyu server >>                                          
+为实现多开并节省空间使用了多Sourcemod的方法(即在启动项加上+sm_basepath addons/sourcemod，指定一个srcds_run的sourcemod地址)                                                                        
                      
 这三个sm在同一个addons下(意味着三方图也是共享的)，除sourcemod之外的所有游戏文件都是共享的.                                  
                      
