@@ -35,6 +35,7 @@
 | Realism | √ |                             
 | Survival | × |                          
 | Scavenge | √ |                                        
+| Follow The Liter | √ |
 | Versus Realism | × |                                            
 | Versus Survival | × |                 
 | Taaannnkk!! | × |                                   
