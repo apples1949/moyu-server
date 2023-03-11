@@ -254,6 +254,14 @@
 		{
 			"name" "Hunters v5.0.3"
 		}
+		"scavogl4v4"
+		{
+			"name" "Scavogl v5.0.3"
+		}
+		"scavhunt4v4"
+		{
+			"name" "Scavogl Hunters v5.0.3"
+		}
 		"pmredtown"
 		{
 			"name" "Redtown"
@@ -285,6 +293,14 @@
 		{
 			"name" "Hunters 3v3"
 		}
+		"scavogl3v3"
+		{
+			"name" "Scavogl 3v3"
+		}
+		"scavhunt3v3"
+		{
+			"name" "Scavogl Hunters 3v3"
+		}
 		"witchparty3v3"
 		{
 			"name" "WitchParty 3v3"
@@ -300,6 +316,14 @@
 		"hunters2v2"
 		{
 			"name" "Hunters 2v2"
+		}
+		"scavogl2v2"
+		{
+			"name" "Scavogl 2v2"
+		}
+		"scavhunt2v2"
+		{
+			"name" "Scavogl Hunters 2v2"
 		}
 		"witchparty2v2"
 		{
@@ -319,6 +343,14 @@
 		"deadman"
 		{
 			"name" "Deadman"
+		}
+		"scavogl1v1"
+		{
+			"name" "Scavogl 1v1"
+		}
+		"scavhunt1v1"
+		{
+			"name" "Scavogl Hunters 1v1"
 		}
 		"witchparty1v1"
 		{
@@ -461,6 +493,13 @@
 		"nextmod1v1"
 		{
 			"name" "1v1 NextMod"
+		}
+	}
+	"OpenMod"
+	{
+		"openmod"
+		{
+			"name" "OpenMod v1.2"
 		}
 	}
 	"Practiceogl Rework"
