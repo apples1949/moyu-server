@@ -282,6 +282,10 @@
 		{
 			"name" "WitchParty HC"
 		}
+		"sky"
+		{
+			"name" "Sky v2.7.1"
+		}
 	}
 	"3v3 ProMod"
 	{
