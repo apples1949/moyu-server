@@ -44,4 +44,3 @@ public SharedPlugin:__pl_holdoutbonus =
     required = 0,
 #endif
 };
-

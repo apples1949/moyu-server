@@ -3,22 +3,22 @@
 	"Hat_Wearing"
 	{
 		"#format"		"{1:s}"
-		"en"			"You are now wearing the [{olive}{1}{default}] hat."
+		"en"			"You are now wearing the {ORANGE}[{1}] {DEFAULT}hat."
 	}
 	"Hat_Changed"
 	{
 		"#format"		"{1:s}"
-		"en"			"Changed hat on {olive}{1}."
+		"en"			"Changed hat on {ORANGE}{1}{DEFAULT}."
 	}
 	"Hat_No_Index"
 	{
 		"#format"		"{1:d}{2:d}"
-		"en"			"Cannot find the hat index {olive}{1}{default}, values between {olive}1{default} and {olive}{2}{default}."
+		"en"			"Cannot find the hat index {ORANGE}{1}{DEFAULT}, values between {ORANGE}1{DEFAULT} and {ORANGE}{2}{DEFAULT}."
 	}
 	"Hat_Not_Found"
 	{
 		"#format"		"{1:s}"
-		"en"			"Cannot find the hat {olive}{1}{default}."
+		"en"			"Cannot find the hat {ORANGE}{1}{DEFAULT}."
 	}
 	"Hat_Invalid"
 	{
@@ -27,22 +27,22 @@
 	"Hat_Unblocked"
 	{
 		"#format"		"{1:s}"
-		"en"			"Unblocked hats for {olive}{1}{default}."
+		"en"			"Unblocked hats for {ORANGE}{1}{DEFAULT}."
 	}
 	"Hat_Blocked"
 	{
 		"#format"		"{1:s}"
-		"en"			"Blocked hats for {olive}{1}{default}."
+		"en"			"Blocked hats for {ORANGE}{1}{DEFAULT}."
 	}
 	"Hat_View"
 	{
 		"#format"		"{1:s}"
-		"en"			"Personal hat view has been turned {olive}{1}{default}."
+		"en"			"Personal hat view has been turned {ORANGE}{1}{DEFAULT}."
 	}
 	"Hat_Ability"
 	{
 		"#format"		"{1:s}"
-		"en"			"You have turned {olive}{1}{default} the ability to wear hats."
+		"en"			"You have turned {ORANGE}{1}{DEFAULT} the ability to wear hats."
 	}
 	"Hat_On"
 	{
@@ -60,8 +60,84 @@
 	{
 		"en"			"You're not wearing a hat!"
 	}
-	"Hat_Expired"
+
+	"HAT_SYSTEM"
 	{
-		"en"			"Your hat selection time has expired."
+		"en"			"{GREEN}[HAT]{DEFAULT} "
+	}
+	"HAT_NOT_RIGHT_NOW"
+	{
+		"en"			"Can't use this command at the moment."
+	}
+	"ADMIN_DISABLE_HAT"
+	{
+		"en"			"Select player to disable hats:"
+	}
+	"ADMIN_CHANGE_HAT"
+	{
+		"en"			"Select player to change hat:"
+	}
+	"ADMIN_VISIBILITY"
+	{
+		"en"			"Select player to set hat visibility:"
+	}
+	"HAT_SET_ANGLE"
+	{
+		"en"			"Set Angle:"
+	}
+	"HAT_SET_POSITION"
+	{
+		"en"			"Set Position:"
+	}
+	"HAT_SET_SIZE"
+	{
+		"en"			"Set Size:"
+	}
+	"HAT_MAIN"
+	{
+		"en"			"Hat Settings:"
+	}
+	"HAT_MENU"
+	{
+		"en"			"Open Hats Menu"
+	}
+	"HAT_WORE"
+	{
+		"en"			"Hat Wearing"
+	}
+	"HAT_VIEWABLE"
+	{
+		"en"			"Personal Hat View"
+	}
+	"HAT_ENABLED"
+	{
+		"en"			"On"
+	}
+	"HAT_DISABLED"
+	{
+		"en"			"Off"
+	}
+	"HAT_VIEWABLE_TP"
+	{
+		"en"			"Third Personal Hat View"
+	}
+	"HAT_VISIBILITY"
+	{
+		"en"			"General Hat Visibility"
+	}
+	"Hat_ViewTP"
+	{
+		"#format"		"{1:s}"
+		"en"			"Third person hat view has been turned {ORANGE}{1}{DEFAULT}."
+	}
+	"Hat_ViewSet"
+	{
+		"#format"		"{1:s}{2:s}"
+		"en"			"General hat visibility for {ORANGE}{1}{DEFAULT} has been turned {ORANGE}{2}{DEFAULT}."
+	}
+	"Hat_Visibility_Set"
+	{
+		"#format"		"{1:s}"
+		"en"			"You have turned the visibility of hats to {ORANGE}{1}{DEFAULT}."
 	}
 }

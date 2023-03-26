@@ -1,1 +1,15 @@
-#1 moyu server
+"AnneHappy"
+{
+	"1123"
+	{
+		"servername"	"#1 moyu server"
+	}
+	"4456"
+	{
+		"servername"	"#2 moyu server"
+	}
+	"7789"
+	{
+		"servername"	"#3 moyu server"
+	}	
+}
