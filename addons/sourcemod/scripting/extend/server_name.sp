@@ -31,7 +31,7 @@ public void OnPluginStart()
 	cvarHostPort = FindConVar("hostport");
 	cvarMainName = CreateConVar("sn_main_name", "Anne电信服");
 	g_hHostNameFormat = CreateConVar("sn_hostname_format", "{hostname}{gamemode}");
-	cvarServerNameFormatCase1 = CreateConVar("sn_hostname_format1", "{AnneHappy}{Full}{Confogl}");
+	cvarServerNameFormatCase1 = CreateConVar("sn_hostname_format_new", "{AnneHappy}{Full}{Confogl}");
 	HookEvent("player_team", Event_PlayerTeam, EventHookMode_Post);
 	HookEvent("player_bot_replace", Event_PlayerTeam, EventHookMode_Post);
 	HookEvent("bot_player_replace", Event_PlayerTeam, EventHookMode_Post);

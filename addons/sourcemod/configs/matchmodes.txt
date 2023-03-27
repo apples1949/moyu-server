@@ -74,7 +74,7 @@
 			"name" "太空人写抗 Spacemod -0.8"
 		}
 	}
-	"AnneHappy"
+	"AnneHappy 2023-1"
 	{
 		"annehappy"
 		{
