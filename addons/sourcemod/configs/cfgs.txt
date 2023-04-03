@@ -1,278 +1,86 @@
 "Cfgs"
 {
-	"常用投票"
+	"常用投票 General Votes"
 	{
 		"sm_serverhp"
 		{
-   			"message" "全体回血"
+   			"message" "全体回血 HP Fill UP"
 	 	}
 		"sm_votekick"
 		{
-			"message" "投票踢人（本队）"
+			"message" "投票踢人 Vote to kick"
 		}
-		"sm_vms"
+		"sm_votespec"
 		{
-			"message" "强制移至旁观（本队）"
+			"message" "强制移至旁观 Vote to Spec"
+		}
+		"sm_voteban"
+		{
+			"message" "投票封禁 Vote to Ban"
+		}
+		"exec vote/4people.cfg"
+		{
+			"message" "限制位数为4 slots 4"
 		}
 		"exec vote/8people.cfg"
 		{
-   			"message" "关闭旁观"
+   			"message" "限制位数为8 slots 8"
 	 	}
 		"exec vote/16people.cfg"
 		{
-			"message" "加4个旁观位置"
+			"message" "限制位数为16 slots 16"
+		}
+		"exec vote/24people.cfg"
+		{
+			"message" "限制位数为24 slots 24"
 		}
 	}
-	"官图列表"
-	{
-		"changelevel c1m1_hotel"
-		{
-   			"message" "c1m1"
-	 	}
-		"changelevel c1m2_streets"
-		{
-   			"message" "c1m2"
-	 	}
-		"changelevel c1m3_mall"
-		{
-   			"message" "c1m3"
-	 	}
-		"changelevel c1m4_atrium"
-		{
-   			"message" "c1m4"
-	 	}
-		"changelevel c2m1_highway"
-		{
-   			"message" "c2m1"
-	 	}
-		"changelevel c2m2_fairgrounds"
-		{
-   			"message" "c2m2"
-	 	}
-		"changelevel c2m3_coaster"
-		{
-   			"message" "c2m3"
-	 	}
-		"changelevel c2m4_barns"
-		{
-   			"message" "c2m4"
-	 	}
-		"changelevel c2m5_concert"
-		{
-   			"message" "c2m5"
-	 	}
-		"changelevel c3m1_plankcountry"
-		{
-   			"message" "c3m1"
-	 	}
-		"changelevel c3m2_swamp"
-		{
-   			"message" "c3m2"
-	 	}
-		"changelevel c3m3_shantytown"
-		{
-   			"message" "c3m3"
-	 	}
-		"changelevel c3m4_plantation"
-		{
-   			"message" "c3m4"
-	 	}
-		"changelevel c4m1_milltown_a"
-		{
-   			"message" "c4m1"
-	 	}
-		"changelevel c4m2_sugarmill_a"
-		{
-   			"message" "c4m2"
-	 	}
-		"changelevel c4m3_sugarmill_b"
-		{
-   			"message" "c4m3"
-	 	}
-		"changelevel c4m4_milltown_b"
-		{
-   			"message" "c4m4"
-		}
-	 	"changelevel c4m1_milltown_escape"
-		{
-   			"message" "c4m5"
-	 	}
-		"changelevel c5m1_waterfront"
-		{
-   			"message" "c5m1"
-	 	}
-		"changelevel c5m2_park"
-		{
-   			"message" "c5m2"
-	 	}
-		"changelevel c5m3_cemetery"
-		{
-   			"message" "c5m3"
-	 	}
-		"changelevel c5m4_quarter"
-		{
-   			"message" "c5m4"
-	 	}
-		"changelevel c5m5_bridge"
-		{
-   			"message" "c5m5"
-	 	}
-		"changelevel c6m1_riverbank"
-		{
-   			"message" "c6m1"
-	 	}
-		"changelevel c6m2_bedlam"
-		{
-   			"message" "c6m2"
-	 	}
-		"changelevel c6m3_port"
-		{
-   			"message" "c6m3"
-	 	}
-		"changelevel c7m1_docks"
-		{
-   			"message" "c7m1"
-	 	}
-		"changelevel c7m2_barge"
-		{
-   			"message" "c7m2"
-	 	}
-		"changelevel c7m3_port"
-		{
-   			"message" "c7m3"
-	 	}
-		"changelevel c8m1_apartment"
-		{
-   			"message" "c8m1"
-	 	}
-		"changelevel c8m2_subway"
-		{
-   			"message" "c8m2"
-	 	}
-		"changelevel c8m3_sewers"
-		{
-   			"message" "c8m3"
-	 	}
-		"changelevel c8m4_interior"
-		{
-   			"message" "c8m4"
-	 	}
-		"changelevel c8m5_rooftop"
-		{
-   			"message" "c8m5"
-	 	}
-		"changelevel c9m1_alleys"
-		{
-   			"message" "c9m1"
-	 	}
-		"changelevel c9m2_lots"
-		{
-   			"message" "c9m2"
-	 	}
-		"changelevel c10m1_caves"
-		{
-   			"message" "c10m1"
-	 	}
-		"changelevel c10m2_drainage"
-		{
-   			"message" "c10m2"
-	 	}
-		"changelevel c10m3_ranchhouse"
-		{
-   			"message" "c10m3"
-	 	}
-		"changelevel c10m4_mainstreet"
-		{
-   			"message" "c10m4"
-	 	}
-		"changelevel c10m5_houseboat"
-		{
-   			"message" "c10m5"
-	 	}
-		"changelevel c11m1_greenhouse"
-		{
-   			"message" "c11m1"
-	 	}
-		"changelevel c11m2_offices"
-		{
-   			"message" "c11m2"
-	 	}
-		"changelevel c11m3_garage"
-		{
-   			"message" "c11m3"
-	 	}
-		"changelevel c11m4_terminal"
-		{
-   			"message" "c11m4"
-	 	}
-		"changelevel c11m5_runway"
-		{
-   			"message" "c11m5"
-	 	}
-		"changelevel c12m1_hilltop"
-		{
-   			"message" "c12m1"
-	 	}
-		"changelevel c12m2_traintunnel"
-		{
-   			"message" "c12m2"
-	 	}
-		"changelevel c12m3_brige"
-		{
-   			"message" "c12m3"
-	 	}
-		"changelevel c12m4_barn"
-		{
-   			"message" "c12m4"
-	 	}
-		"changelevel c12m5_cornfield"
-		{
-   			"message" "c12m5"
-	 	}
-		"changelevel c13m1_alpinecreek"
-		{
-   			"message" "c13m1"
-	 	}
-		"changelevel c13m2_southpinestream"
-		{
-   			"message" "c13m2"
-	 	}
-		"changelevel c13m3_memorialbridge"
-		{
-   			"message" "c13m3"
-	 	}
-		"changelevel c13m4_cutthroatcreek"
-		{
-   			"message" "c13m4"
-	 	}
-		"changelevel c14m1_junkyard"
-		{
-   			"message" "c14m1"
-	 	}
-		"changelevel c14m2_lighthouse"
-		{
-   			"message" "c14m2"
-	 	}
-	}
-	"全局管理"
+	"全局管理 Globle Management"
 	{
 		"exec vote/ready.cfg"
 		{
-			"message" "关闭自动准备"
+			"message" "关闭自动准备 Auto Readyup Off"
 		}
 		"exec vote/readyup.cfg"
 		{
-			"message" "开启自动准备"
+			"message" "开启自动准备 Auto Readyup On"
 		}
 		"exec vote/svalltalk0.cfg"
 		{
-			"message" "关闭全体语音"
+			"message" "关闭全体语音 All Talk Off"
 		}
 		"exec vote/svalltalk1.cfg"
 		{
-			"message" "开启全体语音"
+			"message" "开启全体语音 All Talk On"
 		}
 	}
-
+	"切换比赛配置 Load Match Configs"
+	{
+		"sm_match"
+		{
+			"message" "切换比赛配置"
+		}
+	}
+	"切换地图章节 Change Compagin"
+	{
+		"sm_chmap"
+		{
+			"message" "切换地图章节"
+		}
+	}
+	"切换地图 Change Map"
+	{
+		"sm_chmap2"
+		{
+			"message" "切换地图"
+		}
+	}
+	"难度控制系统(AstMod)"
+	{
+		"sm_tz"
+		{
+			"message" "难度控制系统 Difficulty Control System"
+		}
+	}
 }
 
