@@ -101,7 +101,7 @@
 	{
 		"amethyst"
 		{
-			"name" "AstMod"
+			"name" "AstMod v2.6.3"
 		}
 	}
 	"4v4 ZoneMod"
@@ -161,13 +161,13 @@
 		{
 			"name" "3v3 ZoneMod v2.8"
 		}
-		"zm3v3"
-		{
-			"name" "3v3 ZoneMod v2.7.1"
-		}
 		"28zh3v3"
 		{
 			"name" "3v3 ZoneHunters v2.8"
+		}
+		"zm3v3"
+		{
+			"name" "3v3 ZoneMod v2.7.1"
 		}
 		"zh3v3"
 		{
@@ -192,13 +192,13 @@
 		{
 			"name" "2v2 ZoneMod v2.8"
 		}
-		"zm2v2"
-		{
-			"name" "2v2 ZoneMod v2.7.1"
-		}
 		"28zh2v2"
 		{
 			"name" "2v2 ZoneHunters v2.8"
+		}
+		"zm2v2"
+		{
+			"name" "2v2 ZoneMod v2.7.1"
 		}
 		"zh2v2"
 		{

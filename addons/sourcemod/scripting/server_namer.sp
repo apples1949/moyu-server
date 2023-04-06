@@ -1,4 +1,10 @@
 /* -------------------CHANGELOG--------------------
+4.1
+ - Fixed a issue the cvar "cvarServerNameFormatCase4" covers the effect of the cvar "cvarcvarServerNameFormatCase1"
+
+4.0
+ - Added AnneHappy support.
+
 3.4
  - Fixed previous support to allow setting separated text file.
 
@@ -53,7 +59,7 @@
 #include <confogl>
 #include <sdktools>
 #define REQUIRE_PLUGIN
-#define PL_VERSION "3.4"
+#define PL_VERSION "4.1"
 
 #pragma semicolon 1
 #pragma newdecls required
@@ -86,7 +92,7 @@ public Plugin myinfo =
 	name = "Server namer",
 	version = PL_VERSION,
 	description = "Changes server hostname according to the current game mode",
-	author = "sheo, Forgetest, 东, edited by blueblur"
+	author = "sheo, Forgetest, 东, merged by blueblur"
 }
 
 public void OnPluginStart()
@@ -114,7 +120,7 @@ public void OnPluginStart()
 	cvarServerNameFormatCase1 = CreateConVar("sn_hostname_format1", "[{hostname} #{servernum}] {gamemode}", "Hostname format. Case: Confogl or Vanilla without difficulty levels, such as Versus.");
 	cvarServerNameFormatCase2 = CreateConVar("sn_hostname_format2", "[{hostname} #{servernum}] {gamemode} - {difficulty}", "Hostname format. Case: Vanilla with difficulty levels, such as Campaign.");
 	cvarServerNameFormatCase3 = CreateConVar("sn_hostname_format3", "[{hostname} #{servernum}]", "Hostname format. Case: empty server.");
-	cvarServerNameFormatCase4 = CreateConVar("sn_hostname_format4", "[{hostname} #{servernum}] {gamemode}{AnneHappy}{Full}", "Hostname format. Case: AnneHappy Special.");
+	cvarServerNameFormatCase4 = CreateConVar("sn_hostname_format4", "[{hostname} #{servernum}] {hardcoop}{AnneHappy}{Full}", "Hostname format. Case: AnneHappy Special.");
 	CreateConVar("l4d2_server_namer_version", PL_VERSION, "Server namer version", FCVAR_NOTIFY);
 	cvarMpGameMode = FindConVar("mp_gamemode");
 	cvarHostname = FindConVar("hostname");
@@ -290,72 +296,79 @@ public void SetConfoglName()
 	}
 	else
 	{
-		GetConVarString(cvarReadyUpCfgName, GameMode, sizeof(GameMode));
-		GetConVarString(cvarServerNameFormatCase1, FinalHostname, sizeof(FinalHostname));
-		ParseNameAndSendToMainConVar(FinalHostname);
-	}
-			GetConVarString(cvarReadyUpCfgName, AnneHappy, sizeof(AnneHappy));
-			GetConVarString(cvarServerNameFormatCase4,FinalHostname, sizeof(FinalHostname));
-			if(StrContains(AnneHappy, "AnneHappy", false)!=-1)
-			{
-				ReplaceString(FinalHostname, sizeof(FinalHostname), "{gamemode}","[普通药役]");
-				IsAnne = true;
-			}	
-			else 
-			{
-				if(StrContains(AnneHappy, "AllCharger", false)!=-1)
+		GetConVarString(cvarReadyUpCfgName, AnneHappy, sizeof(AnneHappy));
+		GetConVarString(cvarServerNameFormatCase4,FinalHostname, sizeof(FinalHostname));
+		if(StrContains(AnneHappy, "AnneHappy", false)!=-1)
+		{
+			ReplaceString(FinalHostname, sizeof(FinalHostname), "{hardcoop}","[普通药役]");
+			ParseNameAndSendToMainConVar(FinalHostname);
+			IsAnne = true;
+		}	
+		else 
+		{
+			if(StrContains(AnneHappy, "AllCharger", false)!=-1)
 				{
-					ReplaceString(FinalHostname, sizeof(FinalHostname), "{gamemode}","[牛牛冲刺]");
+					ReplaceString(FinalHostname, sizeof(FinalHostname), "{hardcoop}","[牛牛冲刺]");
+					ParseNameAndSendToMainConVar(FinalHostname);
 					IsAnne = true;
 				}	
 				else 
 				{
-					if(StrContains(AnneHappy, "1vHunters", false)!=-1)
+					if(StrContains(AnneHappy, "AnneHunters", false)!=-1)
 					{
-						ReplaceString(AnneHappy, sizeof(FinalHostname), "{gamemode}","[HT训练]");
+						ReplaceString(AnneHappy, sizeof(FinalHostname), "{hardcoop}","[HT训练]");
+						ParseNameAndSendToMainConVar(FinalHostname);
 						IsAnne = true;
-					}
-					else 
-					{
-						if(StrContains(AnneHappy, "WitchPartyAnne", false)!=-1)
-						{
-							ReplaceString(FinalHostname, sizeof(FinalHostname), "{gamemode}","[女巫派对]");
-							IsAnne = true;
 						}
 						else 
 						{
-							if(StrContains(AnneHappy, "Alone", false)!=-1)
+							if(StrContains(AnneHappy, "WitchPartyAnne", false)!=-1)
 							{
-								ReplaceString(FinalHostname, sizeof(FinalHostname), "{gamemode}","[单人装逼]");
+								ReplaceString(FinalHostname, sizeof(FinalHostname), "{hardcoop}","[女巫派对]");
+								ParseNameAndSendToMainConVar(FinalHostname);
 								IsAnne = true;
 							}
-							else
+							else 
 							{
-								ReplaceString(FinalHostname, sizeof(FinalHostname), "{gamemode}", GameMode);
-								IsAnne = false;
+								if(StrContains(AnneHappy, "Alone", false)!=-1)
+								{
+									ReplaceString(FinalHostname, sizeof(FinalHostname), "{hardcoop}","[单人装逼]");
+									ParseNameAndSendToMainConVar(FinalHostname);
+									IsAnne = true;
+								}
+								else
+								{
+									GetConVarString(cvarReadyUpCfgName, GameMode, sizeof(GameMode));
+									GetConVarString(cvarServerNameFormatCase1, FinalHostname, sizeof(FinalHostname));
+									ReplaceString(FinalHostname, sizeof(FinalHostname), "{gamemode}", GameMode);
+									ParseNameAndSendToMainConVar(FinalHostname);
+								}
 							}
-						}
 					}
 				}
-			}
-			if(cvarSI != null && IsAnne)
-			{
-				Format(buffer, sizeof(buffer),"[%d特%d秒]", GetConVarInt(cvarSI), GetConVarInt(cvarMpGameMin));
-				ReplaceString(FinalHostname, sizeof(FinalHostname), "{AnneHappy}",buffer);
-			}
-			else
-			{
-				ReplaceString(FinalHostname, sizeof(FinalHostname), "{AnneHappy}","");
-			}
-			if(IsTeamFull(IsAnne))
-			{
-				ReplaceString(FinalHostname, sizeof(FinalHostname), "{Full}", "");
-			}
-			else
-			{
-				ReplaceString(FinalHostname, sizeof(FinalHostname), "{Full}", "[缺人]");
-			}
-			ParseNameAndSendToMainConVar(FinalHostname);
+		}
+	}
+	if(cvarSI != null && IsAnne)
+	{
+		Format(buffer, sizeof(buffer),"[%d特%d秒]", GetConVarInt(cvarSI), GetConVarInt(cvarMpGameMin));
+		ReplaceString(FinalHostname, sizeof(FinalHostname), "{AnneHappy}",buffer);
+		ParseNameAndSendToMainConVar(FinalHostname);
+	}
+	else
+	{
+		ReplaceString(FinalHostname, sizeof(FinalHostname), "{AnneHappy}","");
+		ParseNameAndSendToMainConVar(FinalHostname);
+	}
+	if(IsTeamFull(IsAnne))
+	{
+		ReplaceString(FinalHostname, sizeof(FinalHostname), "{Full}", "");
+		ParseNameAndSendToMainConVar(FinalHostname);
+	}
+	else
+	{
+		ReplaceString(FinalHostname, sizeof(FinalHostname), "{Full}", "[缺人]");
+		ParseNameAndSendToMainConVar(FinalHostname);
+	}
 }
 
 bool IsTeamFull(bool IsAnne = false)
