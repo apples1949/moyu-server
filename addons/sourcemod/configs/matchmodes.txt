@@ -97,13 +97,13 @@
 			"name" "女巫派对"
 		}
 	}
-	"AstMod"
-	{
-		"amethyst"
-		{
-			"name" "AstMod v2.6.3"
-		}
-	}
+//	"AstMod"			//Ast is too buggy to be compatibale with other configs. Uncomment here if you need.
+//	{
+//		"amethyst"
+//		{
+//			"name" "AstMod v2.6.3"
+//		}
+//	}
 	"4v4 ZoneMod"
 	{
 		"281zonemod"

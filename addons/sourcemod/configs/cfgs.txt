@@ -10,7 +10,7 @@
 		{
 			"message" "投票踢人 Vote to kick"
 		}
-		"sm_votespec"
+		"sm_vms"
 		{
 			"message" "强制移至旁观 Vote to Spec"
 		}
@@ -52,34 +52,6 @@
 		"exec vote/svalltalk1.cfg"
 		{
 			"message" "开启全体语音 All Talk On"
-		}
-	}
-	"切换比赛配置 Load Match Configs"
-	{
-		"sm_match"
-		{
-			"message" "切换比赛配置"
-		}
-	}
-	"切换地图章节 Change Compagin"
-	{
-		"sm_chmap"
-		{
-			"message" "切换地图章节"
-		}
-	}
-	"切换地图 Change Map"
-	{
-		"sm_chmap2"
-		{
-			"message" "切换地图"
-		}
-	}
-	"难度控制系统(AstMod)"
-	{
-		"sm_tz"
-		{
-			"message" "难度控制系统 Difficulty Control System"
 		}
 	}
 }

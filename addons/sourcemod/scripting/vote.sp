@@ -1,5 +1,5 @@
 #pragma semicolon 1
-#pragma newdecls required
+//#pragma newdecls required
 
 #include <sourcemod>
 #include <builtinvotes>
@@ -8,28 +8,15 @@
 #include <sourcebanspp>
 #include <l4dstats>
 
-bool g_bSourceBansSystemAvailable = false, g_bl4dstatsSystemAvailable = false;
-public void OnAllPluginsLoaded(){
-	g_bSourceBansSystemAvailable = LibraryExists("sourcebans++");
-	g_bl4dstatsSystemAvailable = LibraryExists("l4d_stats");
-}
-public void OnLibraryAdded(const char[] name)
-{
-    if ( StrEqual(name, "sourcebans++") ) { g_bSourceBansSystemAvailable = true; }
-	else if ( StrEqual(name, "l4d_stats") ) { g_bl4dstatsSystemAvailable = true; }
-}
-public void OnLibraryRemoved(const char[] name)
-{
-    if ( StrEqual(name, "sourcebans++") ) { g_bSourceBansSystemAvailable = true; }
-	else if ( StrEqual(name, "l4d_stats") ) { g_bl4dstatsSystemAvailable = true; }
-}
+bool 
+ 	g_bSourceBansSystemAvailable = false,g_bl4dstatsSystemAvailable = false;
 
 public Plugin myinfo =
 {
 	name = "Vote for run command or cfg file",
 	description = "使用!vote投票执行命令或cfg文件",
-	author = "东",
-	version = "1.3",
+	author = "东, HazukiYuro, merged by blueblur",
+	version = "1.5",
 	url = "https://github.com/fantasylidong/"
 };
 /*
@@ -37,26 +24,30 @@ public Plugin myinfo =
 1.1 版本 限制旁观使用投票功能
 1.2 版本 旁观不参与投票
 1.3 版本 增加Cvar控制投票文件, 1.11新语法, 增加sourcebans 1天封禁投票[分数大于300000]
+1.5 版本 移植全体回血，移至旁观者，踢出旁观者功能
 */
 
 Handle
 	g_hVote,
 	g_hVoteKick,
 	g_hVoteBan,	
-	g_hCfgsKV;
+	g_hCfgsKV,
+	g_hVoteMoveSpectator,
+	g_hVoteKickSpectator;
 
 ConVar
 	g_hVoteFilelocation;
 
 char
 	g_sCfg[128],
-	g_sVoteFile[128];
+	g_sVoteFile[128],
+	kickplayerinfo[MAX_NAME_LENGTH],
+	kickplayername[MAX_NAME_LENGTH];
 
 int 
 	banclient,
 	kickclient,
 	voteclient;
-
 
 
 public void OnPluginStart()
@@ -68,6 +59,9 @@ public void OnPluginStart()
 	RegConsoleCmd("sm_vote", VoteRequest);
 	RegConsoleCmd("sm_votekick", KickRequest);
 	RegConsoleCmd("sm_voteban", BanRequest);
+	RegConsoleCmd("sm_serverhp", Command_ServerHp, _, ADMFLAG_KICK);
+	RegConsoleCmd("sm_vms", Command_VotesMoveSpectator);
+	RegConsoleCmd("sm_vks", Command_VoteskickSpectator);
 	RegAdminCmd("sm_cancelvote", VoteCancle, ADMFLAG_GENERIC, "管理员终止此次投票", "", 0);
 	g_hVoteFilelocation.AddChangeHook(FileLocationChanged);
 	g_hCfgsKV = CreateKeyValues("Cfgs", "", "");
@@ -76,6 +70,23 @@ public void OnPluginStart()
 	{
 		SetFailState("无法加载%s文件!", g_sVoteFile);
 	}
+}
+
+public void OnAllPluginsLoaded(){
+	g_bSourceBansSystemAvailable = LibraryExists("sourcebans++");
+	g_bl4dstatsSystemAvailable = LibraryExists("l4d_stats");
+}
+
+public void OnLibraryAdded(const char[] name)
+{
+    if ( StrEqual(name, "sourcebans++") ) { g_bSourceBansSystemAvailable = true; }
+	else if ( StrEqual(name, "l4d_stats") ) { g_bl4dstatsSystemAvailable = true; }
+}
+
+public void OnLibraryRemoved(const char[] name)
+{
+    if ( StrEqual(name, "sourcebans++") ) { g_bSourceBansSystemAvailable = true; }
+	else if ( StrEqual(name, "l4d_stats") ) { g_bl4dstatsSystemAvailable = true; }
 }
 
 public void FileLocationChanged(ConVar convar, const char[] oldValue, const char[] newValue){
@@ -100,6 +111,31 @@ public Action VoteCancle(int client, int args)
 	}
 	ReplyToCommand(client, "没有投票在进行!");
 	return Plugin_Handled;
+}
+
+public Action Command_ServerHp(int client, int args)
+{
+	for(new i = 1; i <= MaxClients; i++)
+	{
+		if(IsClientConnected(i) && IsClientInGame(i))
+		{
+			CheatCommand(i, "give", "health");
+		}
+	}
+	PrintToChatAll("[{olive}vote{default}] {blue}投票回血通过");
+	ReplyToCommand(client, "done");
+	return Plugin_Handled;
+}
+
+stock CheatCommand(int Client, const String:command[], const String:arguments[])
+{
+	new admindata = GetUserFlagBits(Client);
+	SetUserFlagBits(Client, ADMFLAG_ROOT);
+	new flags = GetCommandFlags(command);
+	SetCommandFlags(command, flags & ~FCVAR_CHEAT);
+	FakeClientCommand(Client, "%s %s", command, arguments);
+	SetCommandFlags(command, flags);
+	SetUserFlagBits(Client, admindata);
 }
 
 // *************************
@@ -328,6 +364,38 @@ public void VoteResultHandler(Handle vote, int num_votes, int num_clients, const
 	DisplayBuiltinVoteFail(vote, BuiltinVoteFail_Loses);
 }
 
+public Action Command_VotesMoveSpectator(int client, int args)
+{
+	if(client != 0 && client <= MaxClients) 
+	{
+		CreateVoteMoveSpectatorMenu(client);
+		return Plugin_Handled;
+	}
+	return Plugin_Handled;
+}
+
+void CreateVoteMoveSpectatorMenu(int client)
+{	
+	Handle menu = CreateMenu(Menu_VotesMoveSpectator);		
+	char name[MAX_NAME_LENGTH];
+	char info[MAX_NAME_LENGTH + 6];
+	char playerid[32];
+	SetMenuTitle(menu, "选择强制移至旁观玩家");
+	for(new i = 1;i <= MaxClients; i++)
+	{
+		if(IsClientInGame(i) && !IsFakeClient(i) && GetClientTeam(i) == GetClientTeam(client))
+		{
+			Format(playerid,sizeof(playerid),"%i",GetClientUserId(i));
+			if(GetClientName(i,name,sizeof(name)))
+			{
+				Format(info, sizeof(info), "%s",  name);
+				AddMenuItem(menu, playerid, info);
+			}
+		}		
+	}
+	DisplayMenu(menu, client, 30);
+}
+
 public Action KickRequest(int client, int args)
 {
 	if (client && client <= MaxClients)
@@ -362,6 +430,97 @@ void CreateVotekickMenu(int client)
 	DisplayMenu(menu, client, 30);
 }
 
+public Menu_VotesMoveSpectator(Handle:menu, MenuAction:action, param1, param2)
+{
+	if (action == MenuAction_Select)
+	{
+		char info[32];
+		char name[32];
+		GetMenuItem(menu, param2, info, sizeof(info), _, name, sizeof(name));
+		kickplayerinfo = info;
+		kickplayername = name;
+		PrintToChatAll("[{olive}vote{default}] {blue}%N {default}发起投票强制移至旁观 \x05 %s", param1, kickplayername);
+		if(DisplayVoteMoveSpectatorMenu(param1)) FakeClientCommand(param1, "Vote Yes");
+		
+	}
+}
+
+public Action Command_VoteskickSpectator(int client, int args)
+{
+	if(client != 0 && client <= MaxClients) 
+	{
+		CreateVotekickSpectatorMenu(client);
+		return Plugin_Handled;
+	}
+	return Plugin_Handled;
+}
+
+void CreateVotekickSpectatorMenu(int client)
+{	
+	Handle menu = CreateMenu(Menu_VoteskickSpectator, MENU_ACTIONS_DEFAULT);		
+	char name[MAX_NAME_LENGTH];
+	char info[MAX_NAME_LENGTH + 6];
+	char playerid[32];
+	SetMenuTitle(menu, "选择踢出旁观玩家");
+	for(new i = 1;i <= MaxClients; i++)
+	{
+		if(IsClientInGame(i) && !IsFakeClient(i) && GetClientTeam(i) == 1)
+		{
+			Format(playerid,sizeof(playerid),"%i",GetClientUserId(i));
+			if(GetClientName(i,name,sizeof(name)))
+			{
+				Format(info, sizeof(info), "%s",  name);
+				AddMenuItem(menu, playerid, info);
+			}
+		}		
+	}
+	DisplayMenu(menu, client, 30);
+}
+
+void Menu_VoteskickSpectator(Handle menu, MenuAction action,int param1,int param2)
+{
+	if (action == MenuAction_Select)
+	{
+		char info[32];
+		char name[32];
+		GetMenuItem(menu, param2, info, sizeof(info), _, name, sizeof(name));
+		kickplayerinfo = info;
+		kickplayername = name;
+		PrintToChatAll("[{olive}vote{default}] {blue}%N{default}发起投票踢出旁观者 {blue} %N", param1, kickplayername);
+		if(DisplayVoteKickSpectatorMenu(param1)) FakeClientCommand(param1, "Vote Yes");
+		
+	}
+}
+
+public bool DisplayVoteKickSpectatorMenu(int client)
+{
+	if (!IsBuiltinVoteInProgress())
+	{
+		new iNumPlayers;
+		decl iPlayers[MaxClients];
+		
+		for (new i = 1; i <= MaxClients; i++)
+		{
+			if ((!IsClientInGame(i) || IsFakeClient(i)))
+			{
+				continue;
+			}
+			iPlayers[iNumPlayers++] = i;
+		}
+		char sBuffer[64];
+		g_hVoteKickSpectator = CreateBuiltinVote(VoteActionHandler, BuiltinVoteType_Custom_YesNo, BuiltinVoteAction_Cancel | BuiltinVoteAction_VoteEnd | BuiltinVoteAction_End);
+		Format(sBuffer, sizeof(sBuffer), "踢出旁观者'%s' ?", kickplayername);
+		SetBuiltinVoteArgument(g_hVoteKickSpectator, sBuffer);
+		SetBuiltinVoteInitiator(g_hVoteKickSpectator, client);
+		SetBuiltinVoteResultCallback(g_hVoteKickSpectator, VoteResultHandler);
+		DisplayBuiltinVoteToAll(g_hVoteKickSpectator, 20);
+		PrintToChatAll("[{olive}vote{default}] {blue}%N发起了一个投票", client);
+		return true;
+	}
+	PrintToChat(client, "[{olive}vote{default}] {red}已经有一个投票正在进行.");
+	return false;
+}
+
 public int Menu_Voteskick(Handle menu, MenuAction action, int param1, int param2)
 {
 	if (action == MenuAction_Select)
@@ -369,7 +528,7 @@ public int Menu_Voteskick(Handle menu, MenuAction action, int param1, int param2
 		char name[128];
 		GetMenuItem(menu, param2, name, sizeof(name));
 		kickclient = GetClientOfUserId(StringToInt(name));
-		CPrintToChatAll("[{olive}vote{default}] {blue}%N {default}发起投票踢出 {blue} %N", param1, kickclient);
+		CPrintToChatAll("[{olive}vote{default}] {blue}%N{default}发起投票踢出 {blue} %N", param1, kickclient);
 		if (DisplayVoteKickMenu(param1))
 		{
 			FakeClientCommand(param1, "Vote Yes");
@@ -389,7 +548,7 @@ public bool DisplayVoteKickMenu(int client)
 		SetBuiltinVoteInitiator(g_hVoteKick, client);
 		SetBuiltinVoteResultCallback(g_hVoteKick, VoteResultHandler);
 		DisplayBuiltinVoteToAllNonSpectators(g_hVoteKick, 10);
-		CPrintToChatAll("[{olive}vote{default}] {blue}%N 发起了一个投票", client);
+		CPrintToChatAll("[{olive}vote{default}] {blue}%N{default}发起了一个投票", client);
 		return true;
 	}
 	CPrintToChat(client, "[{olive}vote{default}] {red}已经有一个投票正在进行.");
@@ -445,7 +604,7 @@ public int Menu_VotesBan(Handle menu, MenuAction action, int param1, int param2)
 		char name[128];
 		GetMenuItem(menu, param2, name, sizeof(name));
 		banclient = GetClientOfUserId(StringToInt(name));
-		CPrintToChatAll("[{olive}vote{default}] {blue}%N {default}发起投票封禁 {blue} %N 一天", param1, banclient);
+		CPrintToChatAll("[{olive}vote{default}] {blue}%N{default}发起投票封禁 {blue} %N 一天", param1, banclient);
 		voteclient = param1;
 		if (DisplayVoteBanMenu(param1))
 		{
@@ -478,9 +637,42 @@ public bool DisplayVoteBanMenu(int client)
 		SetBuiltinVoteInitiator(g_hVoteBan, client);
 		SetBuiltinVoteResultCallback(g_hVoteBan, VoteResultHandler);
 		DisplayBuiltinVoteToAll(g_hVoteBan, 10);
-		CPrintToChatAll("[{olive}vote{default}] {blue}%N 发起了一个投票", client);
+		CPrintToChatAll("[{olive}vote{default}] {blue}%N{default}发起了一个投票", client);
 		return true;
 	}
 	CPrintToChat(client, "[{olive}vote{default}] {red}已经有一个投票正在进行.");
+	return false;
+}
+
+public bool DisplayVoteMoveSpectatorMenu(int client)
+{
+	if (!IsBuiltinVoteInProgress())
+	{
+		new iNumPlayers;
+		decl iPlayers[MaxClients];
+		
+		for (new i = 1; i <= MaxClients; i++)
+		{
+			if (!IsClientInGame(i) || IsFakeClient(i))
+			{
+				continue;
+			}
+			if (GetClientTeam(i) != GetClientTeam(client))
+			{
+				continue;
+			}
+			iPlayers[iNumPlayers++] = i;
+		}
+		char sBuffer[64];
+		g_hVoteMoveSpectator = CreateBuiltinVote(VoteActionHandler, BuiltinVoteType_Custom_YesNo, BuiltinVoteAction_Cancel | BuiltinVoteAction_VoteEnd | BuiltinVoteAction_End);
+		Format(sBuffer, sizeof(sBuffer), "强制移至旁观 '%s' ?", kickplayername);
+		SetBuiltinVoteArgument(g_hVoteMoveSpectator, sBuffer);
+		SetBuiltinVoteInitiator(g_hVoteMoveSpectator, client);
+		SetBuiltinVoteResultCallback(g_hVoteMoveSpectator, VoteResultHandler);
+		DisplayBuiltinVote(g_hVoteMoveSpectator, iPlayers, iNumPlayers, 20);
+		PrintToChatAll("[{olive}vote{default}] {blue}%N发起了一个投票", client);
+		return true;
+	}
+	PrintToChat(client, "[{olive}vote{default}]已经有一个投票正在进行.");
 	return false;
 }

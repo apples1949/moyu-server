@@ -1,6 +1,6 @@
 /* -------------------CHANGELOG--------------------
 4.1
- - Fixed a issue the cvar "cvarServerNameFormatCase4" covers the effect of the cvar "cvarcvarServerNameFormatCase1"
+ - Fixed a issue the cvar "cvarServerNameFormatCase4" covers the effect of the cvar "cvarServerNameFormatCase1".
 
 4.0
  - Added AnneHappy support.
