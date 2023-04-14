@@ -1,7 +1,5 @@
 # moyu servers.
-为实现多开并节省空间使用了多Sourcemod的方法(即在启动项加上+sm_basepath addons/sourcemod，指定一个srcds_run的sourcemod地址)                                                                        
-                     
-这三个sm在同一个addons下(意味着三方图也是共享的)，除sourcemod之外的所有游戏文件都是共享的.                                                               
+为实现多开并节省空间使用了多Sourcemod的方法(即在启动项加上+sm_basepath addons/sourcemod，指定一个srcds_run的sourcemod地址)                                                                                                                               
 这个项目的目的是搭建一个以Sir的Competitive Rework体系出发，兼容涵盖求生各大玩法以及模式的服务器. 虽然已经有先人实现，可惜是不能被公开的，所以打算由自己从0开始搭建。对于本人来说是一个边进行边学习的过程，源码以及更深层次的东西就不太懂了，难免会有很多问题>.<                                                                                                           
                      
 # 服务器配置                                       
@@ -23,7 +21,7 @@
 | Scavogl Rework(Chargers/Hunters/Train) v2.2 | √ | √ |                                 
 | ProMod(Retro/Reflux/Redtown/Hunters/Deadman 1v1) v5.0.3 | × | √ |                                                                           
 | Sky v2.7.1 | × | × |
-| Scavogl(Hunters) v5.0.3 | × | × |
+| Scavogl(Hunters) v2.0 | × | × |
 | Equilibrium Retro v2.1 | × | × |
 | Skeet Or Die v4.2.2 | × | × |
 | WitchParty(HC) v2.2 | × | √ |                         
@@ -32,14 +30,14 @@
 | 自改官方模式Vanilla Settings | 配置是否完善 |                                                     
 |-----------------------------|--------------|                                          
 | Versus | √ |                                  
-| Coop | × |                            
+| Coop | √ |                            
 | Realism | √ |                             
 | Survival | × |                          
 | Scavenge | √ |                                        
 | Follow The Liter | √ |
 | Versus Realism | × |                                            
 | Versus Survival | × |                 
-| Taaannnkk!! | × |                                   
+| Taaannnkk!! | √ |                                   
                                           
 | 娱乐模式配置 | 配置是否完善 |                         
 |--------------|-------------|                                
@@ -52,7 +50,7 @@
 | 药役模式配置 | 配置是否完善 |                                     
 |--------------|--------------|                                                   
 | AnneHappy 2023-1 | × |                                        
-| AstMod v2.6.3 | × |                                                             
+| AstMod v2.6.3(划去，太难兼容) | × |                                                             
 
 
 
