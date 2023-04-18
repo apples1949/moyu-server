@@ -32,8 +32,8 @@
 
 	"Manualmixmap_Syntax"
 	{
-		"en"		"Syntax: sm_manualmixmap <map1> <map2> <map3> <...>"
-		"chi"		"用法: sm_manualmixmap <map1> <map2> <map3> <...>"
+		"en"		"Syntax: !manualmixmap <map1> <map2> <map3> <...>"
+		"chi"		"用法: !manualmixmap <map1> <map2> <map3> <...>"
 	}
 
 	"Already_Start"
@@ -60,11 +60,16 @@
 		"chi"		"{olive}<Mixmap>{default}玩家 {teamcolor}%N{default} 发起投票关闭Mixmap。"
 	}
 
-
 	"Vote_Progress"
 	{
 		"en"		"[SM] There is a vote in progress!"
 		"chi"		"[SM] 有投票正在进行！"
+	}
+
+	"Vote_Progress_delay"
+	{
+		"en"		"{olive}<Mixmap>{default}There is a vote in progress! Changing map delays {orange} 15 {default}seconds! "
+		"chi"		"{olive}<Mixmap>{default}有投票正在进行！地图切换延迟{orange} 15 {default}秒！ "
 	}
 
 	"Stop_Mixmap"
@@ -75,8 +80,8 @@
 
 	"Stop_Mixmap_Admin"
 	{
-		"en"		"{olive}<Mixmap>{default}Maps initiated, abort……"
-		"chi"		"{olive}<Mixmap>管理员{teamcolor} %N {default}强制关闭Mixmap，地图初始化，插件中止……"
+		"en"		"{olive}<Mixmap>{default} Admin{teamcolor} %N {default}force-stop Mixmap and Maps initiate，abort……"
+		"chi"		"{olive}<Mixmap>{default} 管理员{teamcolor} %N {default}强制关闭Mixmap，地图初始化，插件中止……"
 	}
 
 	"Start_Mixmap"

@@ -1,0 +1,27 @@
+////////////////////////////////////////////////////////////////////////
+//
+//	[Example]
+//
+//	"NameTag"
+//	{
+//		"STEAM_1:1:00000000" <- SteamAuthId
+//		{
+//			"tag"	"TestNameTag1" <- TagName
+//		}
+//		"STEAM_1:1:00000001" <- SteamAuthId
+//		{
+//			"tag"	"{green}TestNameTag2{default}" <- TagName (use ColorTags)
+//		}
+//	}
+// 
+//	ColorTags: {default}, {green}, {lightgreen}, {red}, {blue}, {olive}
+//
+////////////////////////////////////////////////////////////////////////
+
+"NameTag"
+{
+	"STEAM_1:1:00000000"
+	{
+		"tag"	"TestNameTag1"
+	}
+}
