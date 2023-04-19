@@ -110,7 +110,6 @@ static void RM_Match_Load()
 	if (RM_DEBUG || IsDebugEnabled()) {
 		LogMessage("[%s] Match Load", RM_MODULE_NAME);
 	}
-	//RemoveCustomServerTag("hidden");
 
 	if (!RM_bIsAMatchActive) {
 		RM_bIsAMatchActive = true;
@@ -164,19 +163,19 @@ static void RM_Match_Load()
 	IsPluginEnabled(true, true);
 
 	//PrintToChatAll("\x01[\x05Confogl\x01] Match mode loaded!");
-	CPrintToChatAll("{blue}[{default}Confogl{blue}]{default} 比赛模式已加载!");
+	CPrintToChatAll("{blue}[{default}Confogl{blue}]{default} Match mode loaded!");
 
 	if (!RM_bIsMapRestarted && RM_hDoRestart.BoolValue) {
 		char sMap[PLATFORM_MAX_PATH];
 		RM_hChangeMap.GetString(sMap, sizeof(sMap));
 
-
-		if (strlen(sMap) > 0)
-		  CPrintToChatAll("{blue}[{default}Confogl{blue}]{default} 更改地图为 {green}%s{default}!", sMap);
-		else {
+		if (strlen(sMap) > 0) {
+			CPrintToChatAll("{blue}[{default}Confogl{blue}]{default} Changing map to {green}%s{default}!", sMap);
+		} else {
 			GetCurrentMap(sMap, sizeof(sMap));
-			CPrintToChatAll("{blue}[{default}Confogl{blue}]{default} 重启地图!");
 
+			//PrintToChatAll("\x01[\x05Confogl\x01] Restarting map!");
+			CPrintToChatAll("{blue}[{default}Confogl{blue}]{default} Restarting map!");
 		}
 
 		DataPack hDp;
@@ -202,7 +201,7 @@ static void RM_Match_Unload(bool bForced = false)
 		}
 
 		RM_bIsAMatchActive = false;
-		//RM_hSbAllBotGame.SetInt(0);
+		RM_hSbAllBotGame.SetInt(0);
 	}
 
 	if (bIsHumansOnServer && !bForced) {
@@ -223,8 +222,7 @@ static void RM_Match_Unload(bool bForced = false)
 	Call_Finish();
 
 	//PrintToChatAll("\x01[\x05Confogl\x01] Match mode unloaded!");
-	CPrintToChatAll("{blue}[{default}Confogl{blue}]{default} 比赛配置已卸载!");
-	//AddCustomServerTag("hidden");
+	CPrintToChatAll("{blue}[{default}Confogl{blue}]{default} Match mode unloaded!");
 
 	RM_hConfigFile_Off.GetString(sBuffer, sizeof(sBuffer));
 	ExecuteCfg(sBuffer);
@@ -257,7 +255,7 @@ static bool RM_UpdateCfgOn(const char[] cfgfile, bool bIsPrint = true)
 {
 	if (SetCustomCfg(cfgfile)) {
 		//PrintToChatAll("\x01[\x05Confogl\x01] Using \"\x04%s\x01\" config.", cfgfile);
-		CPrintToChatAll("{blue}[{default}Confogl{blue}]{default} 加载配置 '{olive}%s{default}'.", cfgfile);
+		CPrintToChatAll("{blue}[{default}Confogl{blue}]{default} Loading '{olive}%s{default}'.", cfgfile);
 
 		if (RM_DEBUG || IsDebugEnabled()) {
 			LogMessage("[%s] Starting match on config %s", RM_MODULE_NAME, cfgfile);
@@ -268,7 +266,7 @@ static bool RM_UpdateCfgOn(const char[] cfgfile, bool bIsPrint = true)
 
 	if (bIsPrint) {
 		//PrintToChatAll("\x01[\x05Confogl\x01] Config \"\x04%s\x01\" not found, using default config!", cfgfile);
-		CPrintToChatAll("{blue}[{default}Confogl{blue}]{default} 配置 '{olive}%s{default}' 没找到, 使用默认配置!", cfgfile);
+		CPrintToChatAll("{blue}[{default}Confogl{blue}]{default} Config '{olive}%s{default}' not found, using default config!", cfgfile);
 	}
 
 	return false;
