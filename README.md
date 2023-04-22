@@ -3,53 +3,54 @@
 这个项目的目的是搭建一个以Sir的Competitive Rework体系出发，兼容涵盖求生各大玩法以及模式的服务器. 虽然已经有先人实现，可惜是不能被公开的，所以打算由自己从0开始搭建。对于本人来说是一个边进行边学习的过程，源码以及更深层次的东西就不太懂了，难免会有很多问题>.<                                                                                                           
                      
 # 服务器配置                                       
-| 标准比赛配置名称 | 配置完善情况 |                                         
-|-----------------|--------------|                                            
-| ZoneMod v2.8.1/2.8/2.7.1/1.9.3 | √ |                                                
-| ZoneHunters v2.8.1/2.8/2.7.1 | √ |                                          
-| ZoneMod Retro v2.8.1/2.8/2.7.1 | √ |                                          
-| NeoMod v0.4a | √ |                                        
-| NextMod v1.0.5 | √ |                                  
-| ProMod Elite v1.1 | √ |                                         
-| AceMod Revamped v1.2 | √ |                                
-| Equilibrium v3.0c | √ |                                         
-| Apex v1.1.2 | √ |                                               
+| 标准比赛配置名称 |                                        
+|-----------------|                                            
+| ZoneMod v2.8.1/2.8/2.7.1/1.9.3 |                                              
+| ZoneHunters v2.8.1/2.8/2.7.1 |                                      
+| ZoneMod Retro v2.8.1/2.8/2.7.1 |                                          
+| NeoMod v0.4a |                                        
+| NextMod v1.0.5 |                                  
+| ProMod Elite v1.1 |                                         
+| AceMod Revamped v1.2 |                                
+| Equilibrium v3.0c |                                         
+| Apex v1.1.2 |                                               
                                                               
-| 其他比赛模式配置名称 | 配置完善情况 | 是否有自行修复和拓展 |                                                  
-|---------------------|-------------|-----------------------|                                               
-| Practiceogl Rework(Hunters) v2.2 | √ | √ |                                      
-| Scavogl Rework(Chargers/Hunters/Train) v2.2 | √ | √ |                                 
-| ProMod(Retro/Reflux/Redtown/Hunters/Deadman 1v1) v5.0.3 | × | √ |                                                                           
-| Sky v2.7.1 | × | × |
-| Scavogl(Hunters) v2.0 | × | × |
-| Equilibrium Retro v2.1 | × | × |
-| Skeet Or Die v4.2.2 | × | × |
-| WitchParty(HC) v2.2 | × | √ |                         
-| WeiMeng Versus v1.1.0 | √ | × |                                       
+| 其他比赛模式配置名称 | 配置完善情况 |                                                  
+|---------------------|-------------|                                               
+| Practiceogl Rework(Hunters) v2.2 | √ |                                      
+| Scavogl Rework(Chargers/Hunters/Train) v2.2 | √ |                                 
+| ProMod(Retro/Reflux/Redtown/Hunters/Deadman 1v1) v5.0.3 | × |                                                                           
+| Sky v2.7.1 | × |
+| Scavogl(Hunters) v2.0 | × |
+| Equilibrium Retro v2.1 | × |
+| Skeet Or Die v4.2.2 | × |
+| WitchParty(HC) v2.2 | × |                         
+| WeiMeng Versus v1.1.0 | √ |                                       
 
-| 自改官方模式Vanilla Settings | 配置是否完善 |                                                     
+| Confogl Vanilla | 配置是否完善 |                                                     
 |-----------------------------|--------------|                                          
 | Versus | √ |                                  
 | Coop | √ |                            
 | Realism | √ |                             
-| Survival | × |                          
+| Survival | √ |                          
 | Scavenge | √ |                                        
 | Follow The Liter | √ |
-| Versus Realism | × |                                            
-| Versus Survival | × |                 
+| Versus Realism | √ |                                            
+| Versus Survival | √ |                 
 | Taaannnkk!! | √ |                                   
                                           
-| 娱乐模式配置 | 配置是否完善 |                         
-|--------------|-------------|                                
+| Confogl娱乐模式配置 | 配置是否完善 |                         
+|--------------|-------------|
+| Neko Specials 6.25NS |  |
 | AirMod v1.09 | √ |                        
 | WTFMod(4v4/3v3/2v2/1v1) v1.6.2 | √ |                      
-| Super Survival | × |                                
+| Survival Extended | × |                                
 | Bizzymod 0.8 | × |                                            
 | Spacemod -0.8 | × |                                                                            
                                       
 | 药役模式配置 | 配置是否完善 |                                     
 |--------------|--------------|                                                   
-| AnneHappy 2023-1 | × |                                        
+| AnneHappy 2023-1 | √ |                                        
 | AstMod v2.6.3(划去，太难兼容) | × |                                                             
 
 
@@ -63,7 +64,8 @@ https://github.com/lechuga16/scavogl_rework - Scavogl Rework。zm衍生而来的
 https://github.com/draxios/bizzymod - 添加部分娱乐写抗模式                                            
 https://github.com/mvandorp/server-addons - Promod及其衍生比赛插件包。(注意,该包sm版本过老,拓展插件过老已不可用,需要自己手动修复)                                     
 https://github.com/lechuga16/practiceogl_rework - Practiceogl Rework。zm衍生而来的练习插件，自己补充了3v3和4v4和2v2                                                  
-https://github.com/Sglight/l4d2-scriptings - AstMod
+https://github.com/Sglight/l4d2-scriptings - AstMod                                                                             
+https://github.com/himenekocn/NekoSpecials-L4D2 - Neko Specials
 
 # 使用过的插件 Plugins used
 https://github.com/Silenci0/SMAC - SorceMod Anti Cheat(SMAC)反作弊检测                                                 
