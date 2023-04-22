@@ -67,7 +67,7 @@
 		}
 		"supersurvival"
 		{
-			"name" "Super Survival"
+			"name" "Survival Extended"
 		}
 		"bizzymod"
 		{
