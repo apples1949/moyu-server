@@ -1,6 +1,6 @@
 "MatchModes"
 {
-	"官方有改 Vanilla Settings"
+	"Confogl Vanilla"
 	{
 		"versus"
 		{
@@ -39,8 +39,12 @@
 			"name" "Versus Survival"
 		}
 	}
-	"趣味模式 Funny Mode"
+	"Confogl Funny mode"
 	{
+		"neko"
+		{
+			"name" "Neko Specials 6.25NS"
+		}
 		"AirMod"
 		{
 			"name" "AirMod v1.09"
