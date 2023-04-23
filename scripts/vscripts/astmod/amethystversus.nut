@@ -180,4 +180,4 @@ function update_diff()
 	DirectorOptions.cm_SpecialSlotCountdownTime 	= MapData.g_nTime
 }
 update_diff();
-g_ModeScript.
+g_ModeScript.update_diff();

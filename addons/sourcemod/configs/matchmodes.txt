@@ -43,7 +43,7 @@
 	{
 		"neko"
 		{
-			"name" "Neko Specials 6.25NS"
+			"name" "Neko Specials 6.26NS"
 		}
 		"AirMod"
 		{

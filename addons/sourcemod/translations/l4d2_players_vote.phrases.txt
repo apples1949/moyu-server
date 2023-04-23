@@ -1,0 +1,74 @@
+"Phrases"
+{
+	"VoteRestoreHealthPass"
+	{
+		"en"		"[{olive}vote{default}] {blue}Admin {default}({olive}%N{default}) {blue}restored all players' health."
+		"chi"		"[{olive}vote{default}] {blue}管理员 {default}({olive}%N{default}) {blue}已恢复所有玩家血量."
+	}
+
+	"VoteCancel"
+	{
+		"en"		"[{olive}vote{default}] {blue}Admin canceled the current vote!"
+		"chi"		"[{olive}vote{default}] {blue}管理员取消了当前投票!"
+	}
+
+	"VoteCancleFailed"
+	{
+		"en"		"[{olive}vote{default}] {blue}No vote is in progress!"
+		"chi"		"[{olive}vote{default}] {blue}没有投票在进行!"
+	}
+
+	"NoSpecVoteRequest"
+	{
+		"en"		"[{olive}vote{default}] {blue}}Spectators aren't allowed to initiate a vote!"
+		"chi"		"[{olive}vote{default}] {blue}旁观者不允许发起投票!"
+	}
+
+	"RelatedFileNoExist"
+	{
+		"en"		"[{olive}vote{default}] {red}No related file exists."
+		"chi"		"[{olive}vote{default}] {red}没有相关的文件存在."
+	}
+
+	"StartVote"
+	{
+		"en"		"[{olive}vote{default}] {default}({olive}%N{default}) {blue} Initiate a vote!"
+		"chi"		"[{olive}vote{default}] {default}({olive}%N{default}) {blue}发起了一个投票!"
+	}
+
+	"AlreadyInProgress"
+	{
+		"en"		"[{olive}vote{default}] {red}There's already a vote in progress"
+		"chi"		"[{olive}vote{default}] {red}已经有一个投票正在进行."
+	}
+
+	"VoteNonePlayer"
+	{
+		"en"		"[{olive}vote{default}] {blue}There is no available player to vote."
+		"chi"		"[{olive}vote{default}] {blue}当前无符合投票条件的玩家。"
+	}
+
+	"VoteKickCilent"
+	{
+		"en"		"[{olive}vote{default}] {default}({olive}%N{default}) {blue}Initiate a vote to kick {default}({olive}%N{default})"
+		"chi"		"[{olive}vote{default}] {default}({olive}%N{default}) {blue}发起投票踢出 {default}({olive}%N{default})"
+	}
+
+	"BanningRequirePoints"
+	{
+		"en"		"[{olive}vote{default}] {red}In case anyone abuse banning vote, only players with 10w points is allowed to use"
+		"chi"		"[{olive}vote{default}] {red}未防止封禁被乱用，需要10w以上积分玩家才能使用."
+	}
+
+	"PowerWarning"
+	{
+		"en"		"[{olive}vote{default}] {red}Use your power properly and carefully, Abusing banning will cause your account being banned.(First time:7 days, Second:1 mouth, Third:permanetyly.)."
+		"chi"		"[{olive}vote{default}] {red}请谨慎使用您的权力，乱用封禁会导致您的账户面临封禁（首次7天，第二次一个月，第三次永久.}."
+	}
+
+	"VoteBanClient"
+	{
+		"en"		"[{olive}vote{default}] {default}({olive}%N{default}) {blue}Initiate a vote to ban {default}({olive}%N{default}) {blue} for 1 day."
+		"chi"		"[{olive}vote{default}] {default}({olive}%N{default}) {blue}发起投票封禁 {default}({olive}%N{default}) {blue} 一天"
+	}
+}

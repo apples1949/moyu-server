@@ -1,23 +1,25 @@
 "Cfgs"
 {
-	"常用投票 General Votes"
+	"投票回血 Vote Restore HP"
 	{
-		"sm_serverhp"
+		"sm_hp"
 		{
-   			"message" "全体回血 HP Fill UP"
+   			"message" "全体回血 Restore HP"
 	 	}
+	}
+	"踢人封禁 Vote Kick/Ban"
+	{
 		"sm_votekick"
 		{
 			"message" "投票踢人 Vote to kick"
-		}
-		"sm_vms"
-		{
-			"message" "强制移至旁观 Vote to Spec"
 		}
 		"sm_voteban"
 		{
 			"message" "投票封禁 Vote to Ban"
 		}
+	}
+	"投票开位 Vote Slots"
+	{
 		"exec vote/4people.cfg"
 		{
 			"message" "限制位数为4 slots 4"

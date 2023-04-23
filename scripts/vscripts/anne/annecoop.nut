@@ -1,4 +1,4 @@
-g_ModeScript
+
 DirectorOptions <-
 {	
 	// 用来防止藏特感的参数，不用管
