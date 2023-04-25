@@ -39,7 +39,7 @@
 			"name" "Versus Survival"
 		}
 	}
-	"Confogl Funny mode"
+	"Confogl Casual"
 	{
 		"neko"
 		{
@@ -101,6 +101,29 @@
 			"name" "女巫派对"
 		}
 	}
+	"Practice Configs"
+	{
+		"practiceogl4v4"
+		{
+			"name" "Practiceogl Rework v2.3"
+		}
+		"practiceogl3v3"
+		{
+			"name" "Practiceogl Rework 3v3"
+		}
+		"practiceogl2v2"
+		{
+			"name" "Practiceogl Rework 2v2"
+		}
+		"practiceogl1v1"
+		{
+			"name" "Practiceogl Rework 1v1"
+		}
+		"train1v1"
+		{
+			"name" "Scavogl Rework Train 1v1"
+		}
+	}
 //	"AstMod"			//Ast is too buggy to be compatibale with other configs. Uncomment here if you need.
 //	{
 //		"amethyst"
@@ -108,7 +131,7 @@
 //			"name" "AstMod v2.6.3"
 //		}
 //	}
-	"4v4 ZoneMod"
+	"4v4"
 	{
 		"281zonemod"
 		{
@@ -150,8 +173,96 @@
 		{
 			"name" "ZoneHunters v2.7.1"
 		}
+		"acemodrv"
+		{
+			"name" "Acemod RV 1.3"
+		}
+		"apex"
+		{
+			"name" "Apex v1.1.2"
+		}
+		"eq"
+		{
+			"name" "Equilibrium 3.0c"
+		}
+		"eqretro"
+		{
+			"name" "Equilibrium Retro v2.1"
+		}
+		"neomod"
+		{
+			"name" "NeoMod Tourney 0.4a"
+		}
+		"nextmod"
+		{
+			"name" "NextMod v1.0.5"
+		}
+		"scavrework4v4"
+		{
+			"name" "Scavogl Rework v2.2"
+		}
+		"scavreworkhts4v4"
+		{
+			"name" "Scavogl Rework Hunters v2.2"
+		}
+		"scavreworkchar4v4"
+		{
+			"name" "Scavogl Rework Chargers v2.2"
+		}
+		"pmelite"
+		{
+			"name" "ProMod Elite v1.1"
+		}
+		"promod"
+		{
+			"name" "ProMod v5.0.3"
+		}
+		"hunters"
+		{
+			"name" "ProHunters v5.0.3"
+		}
+		"scavogl4v4"
+		{
+			"name" "Scavogl v2.0"
+		}
+		"scavhunt4v4"
+		{
+			"name" "Scavogl Hunters v2.0"
+		}
+		"pmredtown"
+		{
+			"name" "ProMod Redtown v5.0.3"
+		}
+		"reflux"
+		{
+			"name" "ProMod Reflux v5.0.3"
+		}
+		"retro"
+		{
+			"name" "ProMod Retro v5.0.3"
+		}
+		"witchparty"
+		{
+			"name" "WitchParty v2.2"
+		}
+		"witchpartyhc"
+		{
+			"name" "WitchParty HC v2.2"
+		}
+		"sky"
+		{
+			"name" "Sky v2.7.1"
+		}
+		"weimeng"
+		{
+			"name" "WeiMeng Versus v1.1.0"
+		}
+		"openmod"
+		{
+			"name" "OpenMod v1.2"
+		}
 	}
-	"3v3 ZoneMod"
+	"3v3"
 	{
 		"281zm3v3"
 		{
@@ -181,8 +292,52 @@
 		{
 			"name" "3v3 ZoneHunters v2.7.1"
 		}
+		"amrv3v3"
+		{
+			"name" "3v3 Acemod RV"
+		}
+		"eq3v3"
+		{
+			"name" "3v3 EQ"
+		}
+		"nextmod3v3"
+		{
+			"name" "3v3 NextMod"
+		}
+		"scavrework3v3"
+		{
+			"name" "3v3 Scavogl Rework"
+		}
+		"scavreworkhts3v3"
+		{
+			"name" "3v3 Scavogl Rework Hunters"
+		}
+		"scavreworkchar3v3"
+		{
+			"name" "3v3 Scavogl Rework Chargers"
+		}
+		"pm3v3"
+		{
+			"name" "3v3 ProMod"
+		}
+		"hunters3v3"
+		{
+			"name" "3v3 ProHunters"
+		}
+		"scavogl3v3"
+		{
+			"name" "3v3 Scavogl"
+		}
+		"scavhunt3v3"
+		{
+			"name" "3v3 Scavogl Hunters"
+		}
+		"witchparty3v3"
+		{
+			"name" "3v3 WitchParty"
+		}
 	}
-	"2v2 ZoneMod"
+	"2v2"
 	{
 		"281zm2v2"
 		{
@@ -212,8 +367,52 @@
 		{
 			"name" "2v2 ZoneHunters v2.7.1"
 		}
+		"amrv2v2"
+		{
+			"name" "2v2 Acemod RV"
+		}
+		"eq2v2"
+		{
+			"name" "2v2 EQ"
+		}
+		"nextmod2v2"
+		{
+			"name" "2v2 NextMod"
+		}
+		"scavrework2v2"
+		{
+			"name" "2v2 Scavogl Rework"
+		}
+		"scavreworkhts2v2"
+		{
+			"name" "2v2 Scavogl Rework Hunters"
+		}
+		"scavreworkchar2v2"
+		{
+			"name" "2v2 Scavogl Rework Chargers"
+		}
+		"pm2v2"
+		{
+			"name" "2v2 ProMod"
+		}
+		"hunters2v2"
+		{
+			"name" "2v2 ProHunters"
+		}
+		"scavogl2v2"
+		{
+			"name" "2v2 Scavogl"
+		}
+		"scavhunt2v2"
+		{
+			"name" "2v2 Scavogl Hunters"
+		}
+		"witchparty2v2"
+		{
+			"name" "2v2 WitchParty"
+		}
 	}
-	"1v1 ZoneMod"
+	"1v1"
 	{
 		"281zm1v1"
 		{
@@ -243,313 +442,49 @@
 		{
 			"name" "1v1 ZoneHunters v2.7.1"
 		}
-	}
-	"4v4 ProMod"
-	{
-		"pmelite"
-		{
-			"name" "Promod Elite v1.1"
-		}
-		"promod"
-		{
-			"name" "Promod v5.0.3"
-		}
-		"hunters"
-		{
-			"name" "Hunters v5.0.3"
-		}
-		"scavogl4v4"
-		{
-			"name" "Scavogl v2.0"
-		}
-		"scavhunt4v4"
-		{
-			"name" "Scavogl Hunters v2.0"
-		}
-		"pmredtown"
-		{
-			"name" "Redtown"
-		}
-		"reflux"
-		{
-			"name" "Reflux"
-		}
-		"retro"
-		{
-			"name" "Retro"
-		}
-		"witchparty"
-		{
-			"name" "WitchParty v2.2"
-		}
-		"witchpartyhc"
-		{
-			"name" "WitchParty HC"
-		}
-		"sky"
-		{
-			"name" "Sky v2.7.1"
-		}
-	}
-	"3v3 ProMod"
-	{
-		"pm3v3"
-		{
-			"name" "Promod 3v3"
-		}
-		"hunters3v3"
-		{
-			"name" "Hunters 3v3"
-		}
-		"scavogl3v3"
-		{
-			"name" "Scavogl 3v3"
-		}
-		"scavhunt3v3"
-		{
-			"name" "Scavogl Hunters 3v3"
-		}
-		"witchparty3v3"
-		{
-			"name" "WitchParty 3v3"
-		}
-
-	}
-	"2v2 ProMod"
-	{
-		"pm2v2"
-		{
-			"name" "Promod 2v2"
-		}
-		"hunters2v2"
-		{
-			"name" "Hunters 2v2"
-		}
-		"scavogl2v2"
-		{
-			"name" "Scavogl 2v2"
-		}
-		"scavhunt2v2"
-		{
-			"name" "Scavogl Hunters 2v2"
-		}
-		"witchparty2v2"
-		{
-			"name" "WitchParty 2v2"
-		}
-	}
-	"1v1 ProMod"
-	{
-		"pm1v1"
-		{
-			"name" "Promod 1v1"
-		}
-		"hunters1v1"
-		{
-			"name" "Hunters 1v1"
-		}
-		"deadman"
-		{
-			"name" "Deadman"
-		}
-		"scavogl1v1"
-		{
-			"name" "Scavogl 1v1"
-		}
-		"scavhunt1v1"
-		{
-			"name" "Scavogl Hunters 1v1"
-		}
-		"witchparty1v1"
-		{
-			"name" "WitchParty 1v1"
-		}
-	}
-	"4v4 Scavogl Rework"
-	{
-		"scavrework4v4"
-		{
-			"name" "Rework v2.2"
-		}
-		"scavreworkhts4v4"
-		{
-			"name" "Re-Hunters v2.2"
-		}
-		"scavreworkchar4v4"
-		{
-			"name" "Re-Chargers v2.2"
-		}
-	}
-	"3v3 Scavogl Rework"
-	{
-		"scavrework3v3"
-		{
-			"name" "Rework 3v3"
-		}
-		"scavreworkhts3v3"
-		{
-			"name" "Re-Hunters 3v3"
-		}
-		"scavreworkchar3v3"
-		{
-			"name" "Re-Chargers 3v3"
-		}
-	}
-	"2v2 Scavogl Rework"
-	{
-		"scavrework2v2"
-		{
-			"name" "Rework 2v2"
-		}
-		"scavreworkhts2v2"
-		{
-			"name" "Re-Hunters 2v2"
-		}
-		"scavreworkchar2v2"
-		{
-			"name" "Re-Chargers 2v2"
-		}
-	}
-	"1v1 Scavogl Rework"
-	{
-		"scavrework1v1"
-		{
-			"name" "Rework 1v1"
-		}
-		"scavreworkhts1v1"
-		{
-			"name" "Re-Hunters 1v1"
-		}
-		"train1v1"
-		{
-			"name" "Rework TrAin 1v1"
-		}
-	}
-	"Acemod Revamped"
-	{
-		"acemodrv"
-		{
-			"name" "Acemod RV 1.3"
-		}
-		"amrv3v3"
-		{
-			"name" "3v3 Acemod RV"
-		}
-		"amrv2v2"
-		{
-			"name" "2v2 Acemod RV"
-		}
 		"amrv1v1"
 		{
 			"name" "1v1 Acemod RV"
-		}
-	}
-	"Apex"
-	{
-		"apex"
-		{
-			"name" "Apex v1.1.2"
-		}
-	}
-	"Equilibrium"
-	{
-		"eq"
-		{
-			"name" "Equilibrium 3.0c"
-		}
-		"eq3v3"
-		{
-			"name" "3v3 EQ"
-		}
-		"eq2v2"
-		{
-			"name" "2v2 EQ"
 		}
 		"eq1v1"
 		{
 			"name" "1v1 EQ"
 		}
-	}
-	"Equilibrium Retro"
-	{
-		"eqretro"
-		{
-			"name" "Equilibrium Retro v2.1"
-		}
-	}
-	"NeoMod"
-	{
-		"neomod"
-		{
-			"name" "NeoMod Tourney 0.4a"
-		}
-	}
-	"NextMod"
-	{
-		"nextmod"
-		{
-			"name" "NextMod v1.0.5"
-		}
-		"nextmod3v3"
-		{
-			"name" "3v3 NextMod"
-		}
-		"nextmod2v2"
-		{
-			"name" "2v2 NextMod"
-		}
 		"nextmod1v1"
 		{
 			"name" "1v1 NextMod"
 		}
-	}
-	"OpenMod"
-	{
-		"openmod"
+		"scavrework1v1"
 		{
-			"name" "OpenMod v1.2"
+			"name" "1v1 Scavogl Rework"
 		}
-	}
-	"Practiceogl Rework"
-	{
-		"practiceogl4v4"
+		"scavreworkhts1v1"
 		{
-			"name" "Practiceogl v2.3"
+			"name" "1v1 Scavogl Rework Hunters"
 		}
-		"practiceogl3v3"
+		"pm1v1"
 		{
-			"name" "Practiceogl 3v3"
+			"name" "1v1 ProMod"
 		}
-		"practiceogl2v2"
+		"hunters1v1"
 		{
-			"name" "Practiceogl 2v2 "
+			"name" "1v1 ProHunters"
 		}
-		"practiceogl1v1"
+		"deadman"
 		{
-			"name" "Practiceogl 1v1"
+			"name" "1v1 ProMod Deadman"
 		}
-		"prachunters4p"
+		"scavogl1v1"
 		{
-			"name" "Prac-Hunters v2.3 "
+			"name" "1v1 Scavogl"
 		}
-		"prachunters3p"
+		"scavhunt1v1"
 		{
-			"name" "Prac-Hunters 3P "
+			"name" "1v1 Scavogl Hunters"
 		}
-		"prachunters2p"
+		"witchparty1v1"
 		{
-			"name" "Prac-Hunters 2P"
-		}
-		"prachunters1p"
-		{
-			"name" "Prac-Hunters 1P"
-		}
-	}
-	"WeiMeng Versus"
-	{
-		"weimeng"
-		{
-			"name" "WeiMeng Versus v1.1.0"
+			"name" "1v1 WitchParty"
 		}
 	}
 }
