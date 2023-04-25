@@ -4,39 +4,127 @@
 	{
 		"versus"
 		{
-			"name" "Versus"
+			"name" "Versus 对抗"
 		}
 		"coop"
 		{
-			"name" "Coop"
+			"name" "Coop 战役"
 		}
 		"realism"
 		{
-			"name" "Realism"
+			"name" "Realism 写实"
 		}
 		"versusrealism"
 		{
-			"name" "Versus Realism"
+			"name" "Versus Realism 写实对抗"
 		}
 		"survival"
 		{
-			"name" "Survival"
+			"name" "Survival 生还者"
 		}
 		"Scavenge"
 		{
-			"name" "Scavenge"
+			"name" "Scavenge 清道夫"
 		}
 		"FTL"
 		{
-			"name" "Follow The Liter"
-		}
-		"taaannnk"
-		{
-			"name" "Taaannnk!!"
+			"name" "Follow The Liter 限量发放"
 		}
 		"versussurvival"
 		{
-			"name" "Versus Survival"
+			"name" "Versus Survival 生还者对抗"
+		}
+		"bleedout"
+		{
+			"name" "Bleed Out 流血不止"
+		}
+		"bleedoutversus"
+		{
+			"name" "Bleed Out Versus 流血不止对抗"
+		}
+		"tankrun"
+		{
+			"name" "Tank Run 克局跑分"
+		}
+		"taaannnk"
+		{
+			"name" "Taaannnk!! 克局跑分对抗"
+		}
+		"headshot"
+		{
+			"name" "Head Shot! 爆头!"
+		}
+		"hardeight"
+		{
+			"name" "Hard Eight 绝境求生"
+		}
+		"fourswordsmen"
+		{
+			"name" "Four Swords Men 四剑客"
+		}
+		"chainsawmassacre"
+		{
+			"name" "Chainsaw Massacre 电锯狂人"
+		}
+		"ironman"
+		{
+			"name" "Iron Man 钢铁侠"
+		}
+		"lastgnomeonearth"
+		{
+			"name" "Last Gnome On Earth 地球上最后一个侏儒"
+		}
+		"roomforone"
+		{
+			"name" "Room For One 一人救赎"
+		}
+		"healthpackalypse"
+		{
+			"name" "Health Pack Alypse! 没有救赎!"
+		}
+		"gibfest"
+		{
+			"name" "Gib Fest 无法近身"
+		}
+		"huntingparty"
+		{
+			"name" "Hunting Party 狩猎盛宴"
+		}
+		"specialdelivery"
+		{
+			"name" "Special Delivery 特感速递"
+		}
+		"fluseason"
+		{
+			"name" "Flu Season 感染季节"
+		}
+		"ridingmysurvivor"
+		{
+			"name" "Riding My Survivor 乘骑派对"
+		}
+		"nightmare"
+		{
+			"name" "Nightmare 梦魇"
+		}
+		"deathsdoor"
+		{
+			"name" "Death's Door 死亡之门"
+		}
+		"l4d1vs"
+		{
+			"name" "L4D1 Versus 1代对抗"
+		}
+		"l4d1survival"
+		{
+			"name" "L4D1 Survival 1代生还者"
+		}
+		"l4d1coop"
+		{
+			"name" "L4D1 Coop 1代战役"
+		}
+		"rocketdude"
+		{
+			"name" "Rocket Dude 火箭飞人"
 		}
 	}
 	"Confogl Casual"
@@ -101,6 +189,13 @@
 			"name" "女巫派对"
 		}
 	}
+//	"AstMod"			//Ast is too buggy to be compatibale with other configs. Uncomment here if you need.
+//	{
+//		"amethyst"
+//		{
+//			"name" "AstMod v2.6.3"
+//		}
+//	}
 	"Practice Configs"
 	{
 		"practiceogl4v4"
@@ -124,22 +219,11 @@
 			"name" "Scavogl Rework Train 1v1"
 		}
 	}
-//	"AstMod"			//Ast is too buggy to be compatibale with other configs. Uncomment here if you need.
-//	{
-//		"amethyst"
-//		{
-//			"name" "AstMod v2.6.3"
-//		}
-//	}
 	"4v4"
 	{
 		"281zonemod"
 		{
 			"name" "ZoneMod v2.8.1"
-		}
-		"28zonemod"
-		{
-			"name" "ZoneMod v2.8"
 		}
 		"zonemod"
 		{
@@ -153,10 +237,6 @@
 		{
 			"name" "ZoneMod Retro v2.8.1"
 		}
-		"28zoneretro"
-		{
-			"name" "ZoneMod Retro v2.8"
-		}
 		"zoneretro"
 		{
 			"name" "ZoneMod Retro v2.7.1"
@@ -164,10 +244,6 @@
 		"281zonehunters"
 		{
 			"name" "ZoneHunters v2.8.1"
-		}
-		"28zonehunters"
-		{
-			"name" "ZoneHunters v2.8"
 		}
 		"zonehunters"
 		{
@@ -268,10 +344,6 @@
 		{
 			"name" "3v3 ZoneMod v2.8.1"
 		}
-		"28zm3v3"
-		{
-			"name" "3v3 ZoneMod v2.8"
-		}
 		"zm3v3"
 		{
 			"name" "3v3 ZoneMod v2.7.1"
@@ -283,10 +355,6 @@
 		"281zh3v3"
 		{
 			"name" "3v3 ZoneHunters v2.8.1"
-		}
-		"28zh3v3"
-		{
-			"name" "3v3 ZoneHunters v2.8"
 		}
 		"zh3v3"
 		{
@@ -343,10 +411,6 @@
 		{
 			"name" "2v2 ZoneMod v2.8.1"
 		}
-		"28zm2v2"
-		{
-			"name" "2v2 ZoneMod v2.8"
-		}
 		"zm2v2"
 		{
 			"name" "2v2 ZoneMod v2.7.1"
@@ -358,10 +422,6 @@
 		"281zh2v2"
 		{
 			"name" "2v2 ZoneHunters v2.8.1"
-		}
-		"28zh2v2"
-		{
-			"name" "2v2 ZoneHunters v2.8"
 		}
 		"zh2v2"
 		{
@@ -418,10 +478,6 @@
 		{
 			"name" "1v1 ZoneMod v2.8.1"
 		}
-		"28zm1v1"
-		{
-			"name" "1v1 ZoneMod v2.8"
-		}
 		"zm1v1"
 		{
 			"name" "1v1 ZoneMod v2.7.1"
@@ -433,10 +489,6 @@
 		"281zh1v1"
 		{
 			"name" "1v1 ZoneHunters v2.8.1"
-		}
-		"28zh1v1"
-		{
-			"name" "1v1 ZoneHunters v2.8"
 		}
 		"zh1v1"
 		{
