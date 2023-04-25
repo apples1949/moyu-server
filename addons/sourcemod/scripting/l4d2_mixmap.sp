@@ -21,9 +21,9 @@
 public Plugin myinfo =
 {
 	name = "l4d2_mixmap",
-	author = "Bred",
+	author = "Bred, blueblur",
 	description = "随机抽取5张地图进行对抗，增加趣味性，借鉴CMT",
-	version = "2.4",
+	version = "2.5",
 	url = "https://gitee.com/honghl5/open-source-plug-in/tree/main/l4d2_mixmap"
 };
 
@@ -40,7 +40,11 @@ public Plugin myinfo =
 #define	CFG_UNOF_ST			"uof"
 #define	CFG_DOUNOF			"disorderunofficial"
 #define	CFG_DOUNOF_ST		"douof"
-#define BUF_SZ   			64
+#define CFG_SCAV			"scavenge"
+#define CFG_SCAV_ST 		"scavof"
+#define CFG_SCAV_UNOF   	"scavengeunofficial"
+#define CFG_SCAV_UNOF_ST	"scavuof"
+#define BUF_SZ   			 64
 
 const TEAM_SPECTATOR = 1;
 const TEAM_SURVIVOR = 2;
@@ -64,7 +68,12 @@ int g_iMapCount;
 
 int
 	g_iPointsTeam_A = 0,
-	g_iPointsTeam_B = 0;
+	g_iPointsTeam_B = 0,
+	g_ScavRoundNumber = GetScavengeRoundNumber();
+
+static int
+	g_iScavPointsTeam_A = 0,
+	g_iScavPointsTeam_B = 0,
 
 //bool bLeftStartArea;
 //bool bReadyUpAvailable;
@@ -170,7 +179,8 @@ void LoadSDK()
 // ----------------------------------------------------------
 
 // Otherwise nextmap would be stuck and people wouldn't be able to play normal campaigns without the plugin 结束后初始化sm_nextmap的值
-public void OnPluginEnd() {
+public void OnPluginEnd() 
+{
 	ServerCommand("sm_nextmap ''");
 }
 
@@ -192,7 +202,8 @@ public Action Timer_ShowMaplist(Handle timer, int client)
 	return Plugin_Handled;
 }
 
-public void OnMapStart() {
+public void OnMapStart() 
+{
 	
 	if (g_bCMapTransitioned) {
 		CreateTimer(1.0, Timer_OnMapStartDelay, _, TIMER_FLAG_NO_MAPCHANGE); //Clients have issues connecting if team swap happens exactly on map start, so we delay it
@@ -239,17 +250,27 @@ public Action Timer_OnMapStartDelay(Handle hTimer)
 
 void SetScores()
 {
-	//If team B is winning, swap teams. Does not change how scores are set
-	if (g_iPointsTeam_A < g_iPointsTeam_B) {
-		L4D2_SwapTeams();
+	if (L4D2_IsScavengeMode())
+	{
+		if(g_iScavPointsTeam_A < g_iScavPointsTeam_B)
+		{
+			
+		}
 	}
 
-	//Set scores on scoreboard
-	SDKCall(g_hCMapSetCampaignScores, g_iPointsTeam_A, g_iPointsTeam_B);
+	//If team B is winning, swap teams. Does not change how scores are set
+	if (g_iPointsTeam_A < g_iPointsTeam_B) 
+	{
+		L4D2_SwapTeams();
+	
 
-	//Set actual scores
-	L4D2Direct_SetVSCampaignScore(0, g_iPointsTeam_A);
-	L4D2Direct_SetVSCampaignScore(1, g_iPointsTeam_B);
+		//Set scores on scoreboard
+		SDKCall(g_hCMapSetCampaignScores, g_iPointsTeam_A, g_iPointsTeam_B);
+
+		//Set actual scores
+		L4D2Direct_SetVSCampaignScore(0, g_iPointsTeam_A);
+		L4D2Direct_SetVSCampaignScore(1, g_iPointsTeam_B);
+	}
 }
 
 public void L4D2_OnEndVersusModeRound_Post() 
@@ -370,6 +391,10 @@ public Action ForceMixmap(int client, any args)
 					Format(cfg_exec, sizeof(cfg_exec), CFG_UNOF);
 			else if (StrEqual(arg, CFG_DOUNOF_ST))
 				Format(cfg_exec, sizeof(cfg_exec), CFG_DOUNOF);
+			else if (StrEqual(arg, CFG_SCAV_ST))
+				Format(cfg_exec, sizeof(cfg_exec), CFG_SCAV);
+			else if (StrEqual(arg, CFG_SCAV_UNOF_ST))
+				Format(StrEqual(cfg_exec, sizeof(cfg_exec), CFG_SCAV_UNOF));
 			else
 			{
 				CPrintToChat(client, "%t", "Invalid_Cfg");
@@ -476,6 +501,10 @@ public Action Mixmap_Cmd(int client, any args)
 					Format(cfg_exec, sizeof(cfg_exec), CFG_UNOF);
 			else if (StrEqual(arg, CFG_DOUNOF_ST))
 				Format(cfg_exec, sizeof(cfg_exec), CFG_DOUNOF);
+			else if (StrEqual(arg, CFG_SCAV_ST))
+				Format(cfg_exec, sizeof(cfg_exec), CFG_SCAV);
+			else if (StrEqual(arg, CFG_SCAV_UNOF_ST))
+				Format(StrEqual(cfg_exec, sizeof(cfg_exec), CFG_SCAV_UNOF));
 			else
 			{
 				CPrintToChat(client, "%t", "Invalid_Cfg");
@@ -996,6 +1025,11 @@ stock int GetPrettyName(char[] map)
 		return 1;
 	}
 	return 0;
+}
+
+stock int GetScavengeRoundNumber()
+{
+	return GameRules_GetProp("m_nRoundNumber");
 }
 
 // ----------------------------------------------------------
