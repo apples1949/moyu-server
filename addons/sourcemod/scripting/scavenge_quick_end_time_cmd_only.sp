@@ -10,6 +10,8 @@
 // do the compare at the same time as us.
 #define SAFETY_BUFFER_TIME 1.0
 
+float g_flDefaultLossTime;
+
 bool 
 	g_bInScavengeRound,
 	g_bInSecondHalf;
@@ -30,6 +32,8 @@ public Plugin myinfo =
 
 public void OnPluginStart()
 {
+	//HookEvent("gascan_pour_completed", OnCanPoured, EventHookMode_PostNoCopy);
+	HookEvent("scavenge_round_start", RoundStart,EventHookMode_PostNoCopy);
 	HookEvent("round_end", RoundEnd, EventHookMode_PostNoCopy);
 	LoadTranslations("scavenge_quick_end_time_cmd_only.phrases");
 	RegConsoleCmd("sm_time", TimeCmd);
@@ -56,6 +60,15 @@ public Action TimeCmd(int client, any args)
 	return Plugin_Handled;
 }
 
+public void OnGameFrame()
+{
+	if(g_flDefaultLossTime != 0.0 && GetGameTime() > g_flDefaultLossTime)
+	{
+		//EndRoundEarlyOnTime(1);
+		g_flDefaultLossTime=0.0;
+	}
+}
+
 public void RoundEnd(Event event, const char[]name, bool dontBroadcast)
 {
 	if(g_bInScavengeRound) PrintRoundEndTimeData(g_bInSecondHalf);
@@ -64,6 +77,38 @@ public void RoundEnd(Event event, const char[]name, bool dontBroadcast)
 	g_bInSecondHalf=false;
 }
 
+public void RoundStart(Event event, const char[]name, bool dontBroadcast)
+{
+	g_bInSecondHalf = !GetEventBool(event, "firsthalf");
+	g_bInScavengeRound=true;
+	g_flDefaultLossTime = 0.0;
+	if(g_bInScavengeRound && g_bInSecondHalf)
+	{
+		int lastRoundScore = GameRules_GetScavengeTeamScore(3);
+		if(lastRoundScore == 0 || lastRoundScore == GameRules_GetProp("m_nScavengeItemsGoal"))
+		{
+			g_flDefaultLossTime = GameRules_GetPropFloat("m_flRoundStartTime") + GameRules_GetRoundDuration(3) + SAFETY_BUFFER_TIME;
+		}
+	}
+}
+/*
+public void OnCanPoured(Event event, const char[]name, bool dontBroadcast)
+{
+	if(g_bInScavengeRound && g_bInSecondHalf)
+	{
+		int remaining = GameRules_GetProp("m_nScavengeItemsRemaining");
+		if(remaining > 0)
+		{
+			int scoreA = GameRules_GetScavengeTeamScore(2);
+			int scoreB = GameRules_GetScavengeTeamScore(3);
+			if(scoreA == scoreB && GameRules_GetRoundDuration(2) < GameRules_GetRoundDuration(3))
+			{
+				EndRoundEarlyOnTime(1);
+			}
+		}
+	}
+}
+*/
 public void PrintRoundEndTimeData(bool secondHalf)
 {
 	float time;
@@ -77,7 +122,19 @@ public void PrintRoundEndTimeData(bool secondHalf)
 	GetRoundTime(minutes,time,2);
 	CPrintToChatAll("%t", "PrintThisRoundEndTime", GameRules_GetScavengeTeamScore(2), minutes, time);		//[TIME] This Round: {OG}%d {N}in {OG}%d:%05.2f"
 }
-
+/*
+public void EndRoundEarlyOnTime(int client)
+{
+	bool oldFlags;
+	oldFlags = GetCommandFlags("scenario_end");
+	// FCVAR_LAUNCHER is actually FCVAR_DEVONLY`
+	SetCommandFlags("scenario_end", oldFlags & ~(FCVAR_CHEAT|FCVAR_DEVELOPMENTONLY));
+	ServerCommand("scenario_end");
+	ServerExecute();
+	SetCommandFlags("scenario_end", oldFlags);
+	CPrintToChatAll("%t", "RoundEndEarly", client);			//"[{G}Scavogl{N}] Round Ended Early: Win condition decided on time."
+}
+*/
 stock float GameRules_GetRoundDuration(int team)
 {
 	float flRoundStartTime = GameRules_GetPropFloat("m_flRoundStartTime");

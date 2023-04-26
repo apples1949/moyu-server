@@ -90,6 +90,10 @@
 		{
 			"name" "Hunting Party 狩猎盛宴"
 		}
+		"healinggnome"
+		{
+			"name" "Healing Gnome 治愈小侏儒"
+		}
 		"specialdelivery"
 		{
 			"name" "Special Delivery 特感速递"
