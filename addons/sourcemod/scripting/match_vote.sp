@@ -32,7 +32,7 @@ bool
 public Plugin myinfo =
 {
 	name = "Match Vote",
-	author = "vintik, Sir, blueblur edited.",
+	author = "vintik, Sir, modified by 东, blueblur",
 	description = "!match !rmatch - Change Hostname and Slots while you're at it!",
 	version = "1.2.1",
 	url = "https://github.com/L4D-Community/L4D2-Competitive-Framework"
@@ -54,7 +54,7 @@ public void OnPluginStart()
 	char sBuffer[PLATFORM_MAX_PATH ];
 	g_hModesKV = new KeyValues("MatchModes");
 	BuildPath(Path_SM, sBuffer, sizeof(sBuffer), MATCHMODES_PATH);
-
+	LoadTranslations("match_vote.phrases");
 	if (!g_hModesKV.ImportFromFile(sBuffer)) {
 		SetFailState("Couldn't load matchmodes.txt!");
 	}
@@ -151,7 +151,7 @@ bool FindConfigName(const char[] sConfig, char[] sName, const int iMaxLength)
 void MatchModeMenu(int iClient)
 {
 	Menu hMenu = new Menu(MatchModeMenuHandler);
-	hMenu.SetTitle("选择要玩的模式:");
+	hMenu.SetTitle("%t", "SelectFirstCategory");		//选择要玩的模式:
 
 	char sBuffer[64];
 	g_hModesKV.Rewind();
@@ -179,7 +179,7 @@ public int MatchModeMenuHandler(Menu menu, MenuAction action, int param1, int pa
 		if (g_hModesKV.JumpToKey(sInfo) && g_hModesKV.GotoFirstSubKey()) {
 			Menu hMenu = new Menu(ConfigsMenuHandler);
 
-			FormatEx(sBuffer, sizeof(sBuffer), "选择 %s 配置:", sInfo);
+			FormatEx(sBuffer, sizeof(sBuffer), "%t", "SelectSecondCategory", sInfo);			//选择 %s 配置:
 			hMenu.SetTitle(sBuffer);
 
 			do {
@@ -191,7 +191,7 @@ public int MatchModeMenuHandler(Menu menu, MenuAction action, int param1, int pa
 
 			hMenu.Display(param1, 20);
 		} else {
-			CPrintToChat(param1, "{blue}[{default}Match{blue}] {default}没有找到这个模式.");
+			CPrintToChat(param1, "%t", "NoMatchModeFound");		//{blue}[{default}Match{blue}] {default}没有找到这个模式.
 			MatchModeMenu(param1);
 		}
 	}
@@ -224,12 +224,12 @@ public int ConfigsMenuHandler(Menu menu, MenuAction action, int param1, int para
 bool StartMatchVote(int iClient, const char[] sCfgName)
 {
 	if (GetClientTeam(iClient) <= TEAM_SPECTATE) {
-		CPrintToChat(iClient, "{blue}[{default}Match{blue}] {default}旁观者不允许投票更改游戏模式.");
+		CPrintToChat(iClient, "%t", "NoSpecVote");		//{blue}[{default}Match{blue}] {default}旁观者不允许投票更改游戏模式.
 		return false;
 	}
 
 	/*if (LGO_IsMatchModeLoaded()) {
-		CPrintToChat(iClient, "{blue}[{default}Match{blue}] {default}模式已经加载，请先使用!rmatch卸载配置");
+		CPrintToChat(iClient, "%t", "AlreadyLoaded");		//{blue}[{default}Match{blue}] {default}模式已经加载，请先使用!rmatch卸载配置
 		return false;
 	}*/
 
@@ -247,12 +247,12 @@ bool StartMatchVote(int iClient, const char[] sCfgName)
 		}
 
 		if (iNumPlayers < g_hCvarPlayerLimit.IntValue) {
-			CPrintToChat(iClient, "{blue}[{default}Match{blue}] {default}没有足够多的玩家来发起模式更改投票");
+			CPrintToChat(iClient, "%t", "PlayersNumRequire");			//{blue}[{default}Match{blue}] {default}没有足够多的玩家来发起模式更改投票
 			return false;
 		}
 
 		char sBuffer[64];
-		FormatEx(sBuffer, sizeof(sBuffer), "加载 confogl '%s' 模式?", sCfgName);
+		FormatEx(sBuffer, sizeof(sBuffer), "%t", "IsLoadConfogl", sCfgName);			//加载 confogl '%s' 模式?
 
 		g_hVote = CreateBuiltinVote(VoteActionHandler, BuiltinVoteType_Custom_YesNo, BuiltinVoteAction_Cancel | BuiltinVoteAction_VoteEnd | BuiltinVoteAction_End);
 		SetBuiltinVoteArgument(g_hVote, sBuffer);
@@ -263,7 +263,7 @@ bool StartMatchVote(int iClient, const char[] sCfgName)
 		return true;
 	}
 
-	CPrintToChat(iClient, "{blue}[{default}Match{blue}] {default}模式更改投票暂不可用.");
+	CPrintToChat(iClient, "%t", "MatchVoteUnavailable");			//{blue}[{default}Match{blue}] {default}模式更改投票暂不可用.
 	return false;
 }
 
@@ -286,7 +286,7 @@ public void MatchVoteResultHandler(Handle vote, int num_votes, int num_clients, 
 	for (int i = 0; i < num_items; i++) {
 		if (item_info[i][BUILTINVOTEINFO_ITEM_INDEX] == BUILTINVOTES_VOTE_YES) {
 			if (item_info[i][BUILTINVOTEINFO_ITEM_VOTES] > (num_votes / 2)) {
-				DisplayBuiltinVotePass(vote, "模式加载");
+				DisplayBuiltinVotePass(vote, "Matchmode Loaded");
 				//PrintToConsoleAll("%s", g_sCfg);
 				for(int j = 0; j < strlen(g_sCfg); j++){
 					g_sCfg[j] = CharToLower(g_sCfg[j]);
@@ -320,12 +320,12 @@ public Action MatchReset(int iClient, int iArgs)
 bool StartResetMatchVote(int iClient)
 {
 	if (GetClientTeam(iClient) <= TEAM_SPECTATE) {
-		CPrintToChat(iClient, "{blue}[{default}Match{blue}] {default}旁观者不允许投票重赛.");
+		CPrintToChat(iClient, "%t", "NoSpecVoteReset");		//{blue}[{default}Match{blue}] {default}旁观者不允许投票重赛.
 		return false;
 	}
 
 	if (!LGO_IsMatchModeLoaded()) {
-		CPrintToChat(iClient, "{blue}[{default}Match{blue}] {default}当前无比赛模式加载.");
+		CPrintToChat(iClient, "NoConfigLoaded");		//{blue}[{default}Match{blue}] {default}当前无比赛模式加载.
 		return false;
 	}
 
@@ -346,12 +346,12 @@ bool StartResetMatchVote(int iClient)
 		}
 
 		if (iConnectedCount > 0) {
-			CPrintToChat(iClient, "{blue}[{default}Match{blue}] {default}重赛投票暂不可用，有玩家正在连接");
+			CPrintToChat(iClient, "%t", "WaitConnecting");			//{blue}[{default}Match{blue}] {default}重赛投票暂不可用，有玩家正在连接
 			return false;
 		}
 
 		g_hVote = CreateBuiltinVote(VoteActionHandler, BuiltinVoteType_Custom_YesNo, BuiltinVoteAction_Cancel | BuiltinVoteAction_VoteEnd | BuiltinVoteAction_End);
-		SetBuiltinVoteArgument(g_hVote, "Turn off confogl?");
+		SetBuiltinVoteArgument(g_hVote, "Turn off confogl?");		//Turn off confogl?
 		SetBuiltinVoteInitiator(g_hVote, iClient);
 		SetBuiltinVoteResultCallback(g_hVote, ResetMatchVoteResultHandler);
 		DisplayBuiltinVote(g_hVote, iPlayers, iNumPlayers, 20);
@@ -360,7 +360,7 @@ bool StartResetMatchVote(int iClient)
 		return true;
 	}
 
-	CPrintToChat(iClient, "{blue}[{default}Match{blue}] {default}重赛投票暂不可用.");
+	CPrintToChat(iClient, "%t", "ResetMatchUnavailable");		//{blue}[{default}Match{blue}] {default}重赛投票暂不可用.
 	return false;
 }
 
@@ -370,7 +370,7 @@ public void ResetMatchVoteResultHandler(Handle vote, int num_votes, int num_clie
 	for (int i = 0; i < num_items; i++) {
 		if (item_info[i][BUILTINVOTEINFO_ITEM_INDEX] == BUILTINVOTES_VOTE_YES) {
 			if (item_info[i][BUILTINVOTEINFO_ITEM_VOTES] > (num_votes / 2)) {
-				DisplayBuiltinVotePass(vote, "Confogl is unloading...");
+				DisplayBuiltinVotePass(vote, "Confogl is unloading...");			//Confogl is unloading...
 				ServerCommand("sm_resetmatch");
 
 				return;
