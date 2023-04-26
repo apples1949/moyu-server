@@ -163,19 +163,19 @@ static void RM_Match_Load()
 	IsPluginEnabled(true, true);
 
 	//PrintToChatAll("\x01[\x05Confogl\x01] Match mode loaded!");
-	CPrintToChatAll("{blue}[{default}Confogl{blue}]{default} Match mode loaded!");
+	CPrintToChatAll("%t", "MatchModeLoaded");		//{blue}[{default}Confogl{blue}]{default} Match mode loaded!
 
 	if (!RM_bIsMapRestarted && RM_hDoRestart.BoolValue) {
 		char sMap[PLATFORM_MAX_PATH];
 		RM_hChangeMap.GetString(sMap, sizeof(sMap));
 
 		if (strlen(sMap) > 0) {
-			CPrintToChatAll("{blue}[{default}Confogl{blue}]{default} Changing map to {green}%s{default}!", sMap);
+			CPrintToChatAll("%t", "ChangingMap", sMap);		//{blue}[{default}Confogl{blue}]{default} Changing map to {green}%s{default}!
 		} else {
 			GetCurrentMap(sMap, sizeof(sMap));
 
 			//PrintToChatAll("\x01[\x05Confogl\x01] Restarting map!");
-			CPrintToChatAll("{blue}[{default}Confogl{blue}]{default} Restarting map!");
+			CPrintToChatAll("%t", "RestartingMap");		//{blue}[{default}Confogl{blue}]{default} Restarting map!
 		}
 
 		DataPack hDp;
@@ -222,7 +222,7 @@ static void RM_Match_Unload(bool bForced = false)
 	Call_Finish();
 
 	//PrintToChatAll("\x01[\x05Confogl\x01] Match mode unloaded!");
-	CPrintToChatAll("{blue}[{default}Confogl{blue}]{default} Match mode unloaded!");
+	CPrintToChatAll("%t", "MatchModeUnloaded");		//{blue}[{default}Confogl{blue}]{default} Match mode unloaded!
 
 	RM_hConfigFile_Off.GetString(sBuffer, sizeof(sBuffer));
 	ExecuteCfg(sBuffer);
@@ -255,7 +255,7 @@ static bool RM_UpdateCfgOn(const char[] cfgfile, bool bIsPrint = true)
 {
 	if (SetCustomCfg(cfgfile)) {
 		//PrintToChatAll("\x01[\x05Confogl\x01] Using \"\x04%s\x01\" config.", cfgfile);
-		CPrintToChatAll("{blue}[{default}Confogl{blue}]{default} Loading '{olive}%s{default}'.", cfgfile);
+		CPrintToChatAll("%t", "LoadingConfig", cfgfile);		//{blue}[{default}Confogl{blue}]{default} Loading '{olive}%s{default}'.
 
 		if (RM_DEBUG || IsDebugEnabled()) {
 			LogMessage("[%s] Starting match on config %s", RM_MODULE_NAME, cfgfile);
@@ -266,7 +266,7 @@ static bool RM_UpdateCfgOn(const char[] cfgfile, bool bIsPrint = true)
 
 	if (bIsPrint) {
 		//PrintToChatAll("\x01[\x05Confogl\x01] Config \"\x04%s\x01\" not found, using default config!", cfgfile);
-		CPrintToChatAll("{blue}[{default}Confogl{blue}]{default} Config '{olive}%s{default}' not found, using default config!", cfgfile);
+		CPrintToChatAll("%t", "ConfigNotFoundUsingDefault", cfgfile);		//{blue}[{default}Confogl{blue}]{default} Config '{olive}%s{default}' not found, using default config!
 	}
 
 	return false;
@@ -290,7 +290,7 @@ public Action RM_Cmd_ForceMatch(int client, int args)
 			PrintToServer("[Confogl] Please specify a config to load.");
 		} else {
 			//PrintToChat(client, "\x01[\x05Confogl\x01] Please specify a \x04config\x01 to load.");
-			CPrintToChat(client, "{blue}[{default}Confogl{blue}]{default} Please specify a {olive}config{default} to load.");
+			CPrintToChat(client, "%t", "SpecifyConfig");		//{blue}[{default}Confogl{blue}]{default} Please specify a {olive}config{default} to load.
 		}
 		return Plugin_Handled;
 	}
@@ -305,7 +305,7 @@ public Action RM_Cmd_ForceMatch(int client, int args)
 			PrintToServer("[Confogl] Config %s not found!", sBuffer);
 		} else {
 			//PrintToChat(client, "\x01[\x05Confogl\x01] Please specify a \"\x04%s\x01\" to load.", sBuffer);
-			CPrintToChat(client, "{blue}[{default}Confogl{blue}]{default} Config '{olive}%s{default}' not found!", sBuffer);
+			CPrintToChat(client, "%t", "ConfigNotFound", sBuffer);		//{blue}[{default}Confogl{blue}]{default} Config '{olive}%s{default}' not found!
 		}
 
 		return Plugin_Handled;
@@ -317,7 +317,7 @@ public Action RM_Cmd_ForceMatch(int client, int args)
 		GetCmdArg(2, sMap, sizeof(sMap));
 
 		if (FindMap(sMap, sDisplayName, sizeof(sDisplayName)) == FindMap_NotFound) {
-			CPrintToChat(client, "{blue}[{default}Confogl{blue}]{default} Map '{olive}%s{default}' not found!", sMap);
+			CPrintToChat(client, "%t", "MapNotFound", sMap);		//{blue}[{default}Confogl{blue}]{default} Map '{olive}%s{default}' not found!
 			return Plugin_Handled;
 		}
 

@@ -154,6 +154,7 @@ public void OnPluginStart()
 	Configs_OnModuleStart(); //configs
 	SI_OnModuleStart(); //survivorindex
 	CT_OnModuleStart(); //customtags
+	LoadTranslations("confoglcompmod.phrases"); //Output Translations
 
 	//Modules
 #if MODULE_MAPINFO

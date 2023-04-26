@@ -126,7 +126,7 @@ public Action ER_KV_CmdReload(int client, int args)
 		return Plugin_Continue;
 	}
 
-	ReplyToCommand(client, "[ER] Reloading EntityRemoveData");
+	ReplyToCommand(client, "%t", "ReloadingER");			//[ER] Reloading EntityRemoveData
 	ER_KV_Reload();
 
 	return Plugin_Handled;

@@ -91,7 +91,7 @@ public Action MI_KV_CmdSave(int client, int args)
 		kMIData.Rewind();
 		kMIData.ExportToFile(sNameBuff);
 
-		ReplyToCommand(client, "%s has been added to %s.", sCurMap, sNameBuff);
+		ReplyToCommand(client, "%t", "AddedMapInfo", sCurMap, sNameBuff);		//%s has been added to %s.
 	}
 
 	return Plugin_Handled;
@@ -105,7 +105,7 @@ public Action MI_KV_CmdSaveLoc(int client, int args)
 
 	if (!iIsInEditMode[client]) {
 		if (!args) {
-			ReplyToCommand(client, "Move to the location of the medkits, then enter the point type (start_point or end_point)");
+			ReplyToCommand(client, "%t", "EnterPointType");		//Move to the location of the medkits, then enter the point type (start_point or end_point)
 			return Plugin_Handled;
 		}
 
@@ -114,12 +114,12 @@ public Action MI_KV_CmdSaveLoc(int client, int args)
 
 		if (strcmp(sBuffer, "start_point", true) == 0) {
 			iIsInEditMode[client] = 1;
-			ReplyToCommand(client, "Move a few feet from the medkits and enter this command again to set the start_dist for this point");
+			ReplyToCommand(client, "%t", "SetStartPoint");		//Move a few feet from the medkits and enter this command again to set the start_dist for this point
 		} else if (strcmp(sBuffer, "end_point", true) == 0) {
 			iIsInEditMode[client] = 2;
-			ReplyToCommand(client, "Move to the farthest point in the saferoom and enter this command again to set the end_dist for this point");
+			ReplyToCommand(client, "%t", "SetEndPoint");		//Move to the farthest point in the saferoom and enter this command again to set the end_dist for this point
 		} else {
-			ReplyToCommand(client, "Please enter the location type: start_point, end_point");
+			ReplyToCommand(client, "SelectType");			//Please enter the location type: start_point, end_point
 			return Plugin_Handled;
 		}
 
@@ -140,7 +140,7 @@ public Action MI_KV_CmdSaveLoc(int client, int args)
 			kMIData.SetFloat("start_dist", fDistance);
 		}
 
-		ReplyToCommand(client, "Move to the farthest point in the saferoom and enter this command again to set start_extra_dist for this point");
+		ReplyToCommand(client, "%t", "SetStartExtraPoint");		//Move to the farthest point in the saferoom and enter this command again to set start_extra_dist for this point
 
 		updateinfo = true;
 	} else if (iIsInEditMode[client] == 2) {
@@ -176,7 +176,7 @@ public Action MI_KV_CmdSaveLoc(int client, int args)
 		kMIData.Rewind();
 		kMIData.ExportToFile(sNameBuff);
 
-		ReplyToCommand(client, "mapinfo.txt has been updated!");
+		ReplyToCommand(client, "%t", "UpdatedMapInfo");			//mapinfo.txt has been updated!
 	}
 
 	return Plugin_Handled;

@@ -1,0 +1,158 @@
+"Phrases"
+{
+    "KickIllegalValueClient"
+    {
+        "en"        "{blue}[{default}Confogl{blue}] {olive}%L{default} was kicked for having an illegal value for '{green}%s{default}' {blue}({default}%f{blue})"
+        "chi"       "{blue}[{default}Confogl{blue}] {olive}%L{default} 因 '{green}%s{default}' 值非法而被踢出 {blue}({default}%f{blue})"
+    }
+    "WaringCVarTracking"            //CVars: Console Variables/控制台变量
+    {
+        "en"        "{blue}[{default}Confogl{blue}] {olive}CVar tracking has not been started!! THIS SHOULD NOT OCCUR DURING A MATCH!"
+        "chi"       "{blue}[{default}Confogl{blue}] {olive}CVar监测还未被启用!! 这不应该发生在比赛中场!"
+    }
+    "EnforcedServerCVars"
+    {
+        "en"        "{blue}[{default}Confogl{blue}] {olive} Enforced Server CVars ({blue}Total %d)"
+        "chi"       "{blue}[{default}Confogl{blue}] {olive} 强制执行服务端 CVars ({blue}总计 %d)"
+    }
+     "CVarsValueComparison"
+    {
+        "en"        "{blue}[{default}Confogl{blue}] {olive}Server CVar: %s, Desired Value: %s, Current Value: %s"
+        "chi"       "{blue}[{default}Confogl{blue}] {olive}服务端 CVar: %s, 期望值: %s, 当前值: %s"
+    }
+     "ToSeeMoreCVars"
+    {
+        "en"        "{blue}[{default}Confogl{blue}] {olive}To see more CVars, use confogl_cvarsettings %d"
+        "chi"       "{blue}[{default}Confogl{blue}] {olive}欲详见更多CVars, 使用 confogl_cvarsettings %d"
+    }
+    "ServerCVarTracked"
+    {
+        "en"        "{blue}[{default}Confogl{blue}]{default} Tracked Server CVar '{green}%s{default}' changed from '{blue}%s{default}' to '{blue}%s{default}' !!!"
+        "chi"       "{blue}[{default}Confogl{blue}]{default} 监测到服务端CVar '{green}%s{default}' 由 '{blue}%s{default}' 改变为 '{blue}%s{default}' !!!"
+    }
+    "ReloadingER"
+    {
+        "en"        "{blue}[{default}ER{blue}]{olive} Reloading EntityRemoveData"
+        "chi"       "{blue}[{default}ER{blue}]{olive} Reloading EntityRemoveData"
+    }
+    "AddedMapInfo"
+    {
+        "en"        "{blue}[{default}MapInfo{blue}]{olive} %s {default}has been added to {olive}%s."
+        "chi"       "{blue}[{default}MapInfo{blue}]{olive} %s {default}已被添加至 {olive}%s."
+    }
+    "EnterPointType"
+    {
+        "en"        "{blue}[{default}MapInfo{blue}]{olive} Move to the location of the medkits, then enter the point type {default}({blue}start_point {default}or {blue}end_point{default})"
+        "chi"       "{blue}[{default}MapInfo{blue}]{olive} 移动至医疗包的位置, 然后输入点的类型 {default}({blue}start_point {default}或 {blue}end_point{default})"
+    }
+    "SetStartPoint"
+    {
+        "en"        "{blue}[{default}MapInfo{blue}]{olive} Move a few feet from the medkits and enter this command again to set the {green}start_dist {olive}for this point"
+        "chi"       "{blue}[{default}MapInfo{blue}]{olive} 从医疗包移动几步, 然后再次输入这个命令来为这个点设定{green}start_dist"
+    }
+    "SetEndPoint"
+    {
+        "en"        "{blue}[{default}MapInfo{blue}]{olive} Move to the farthest point in the saferoom and enter this command again to set the {green}end_dist {olive}for this point"
+        "chi"       "{blue}[{default}MapInfo{blue}]{olive} 移动至安全屋中最远的点, 然后再次输入这个命令来为这个点设定{green}end_dist"
+    }
+    "SelectType"
+    {
+        "en"        "{blue}[{default}MapInfo{blue}]{olive} Please enter the location type: start_point, end_point"
+        "chi"       "{blue}[{default}MapInfo{blue}]{olive} 请输入地点类型: start_point, end_point "
+    }
+    "SetStartExtraPoint"
+    {
+        "en"        "{blue}[{default}MapInfo{blue}]{olive} Move to the farthest point in the saferoom and enter this command again to set {green}start_extra_dist {olive}for this point"
+        "chi"       "{blue}[{default}MapInfo{blue}]{olive} 移动至安全屋中最远的点, 然后再次输入这个命令来为这个点设定{green}start_extra_dist"
+    }
+    "UpdatedMapInfo"
+    {
+        "en"        "{blue}[{default}MapInfo{blue}]{green} mapinfo.txt {olive}has been updated!"
+        "chi"       "{blue}[{default}MapInfo{blue}]{green} mapinfo.txt {olive}已更新!"
+    }
+    "MatchModeLoaded"
+    {
+        "en"        "{blue}[{default}Confogl{blue}]{default} Match mode loaded!"
+        "chi"       "{blue}[{default}Confogl{blue}]{default} 比赛模式已加载!"
+    }
+    "ChangingMap"
+    {
+        "en"        "{blue}[{default}Confogl{blue}]{default} Changing map to {green}%s{default}!"
+        "chi"       "{blue}[{default}Confogl{blue}]{default} 切换地图至 {green}%s{default}!"
+    }
+    "RestartingMap"
+    {
+        "en"        "{blue}[{default}Confogl{blue}]{default} Restarting map!"
+        "chi"       "{blue}[{default}Confogl{blue}]{default} 正在重新加载地图!"
+    }
+    "MatchModeUnloaded"
+    {
+        "en"        "{blue}[{default}Confogl{blue}]{default} Match mode unloaded!"
+        "chi"       "{blue}[{default}Confogl{blue}]{default} 比赛模式已卸载!"
+    }
+    "LoadingConfig"
+    {
+        "en"        "{blue}[{default}Confogl{blue}]{default} Loading '{olive}%s{default}'."
+        "chi"       "{blue}[{default}Confogl{blue}]{default} 正在加载 '{olive}%s{default}'."
+    }
+    "ConfigNotFoundUsingDefault"
+    {
+        "en"        "{blue}[{default}Confogl{blue}]{default} Config '{olive}%s{default}' not found, using default config!"
+        "chi"       "{blue}[{default}Confogl{blue}]{default} 配置 '{olive}%s{default}' 未能找到, 正在使用默认配置!"
+    }
+    "SpecifyConfig"
+    {
+        "en"        "{blue}[{default}Confogl{blue}]{default} Please specify a {olive}config{default} to load."
+        "chi"       "{blue}[{default}Confogl{blue}]{default} 请具体具体说明一个 {olive}config{default} 来加载."
+    }
+    "ConfigNotFound"
+    {
+        "en"        "{blue}[{default}Confogl{blue}]{default} Config '{olive}%s{default}' not found!"
+        "chi"       "{blue}[{default}Confogl{blue}]{default} 配置 '{olive}%s{default}' 未能找到!"
+    }
+    "MapNotFound"
+    {
+        "en"        "{blue}[{default}Confogl{blue}]{default} Map '{olive}%s{default}' not found!"
+        "chi"       "{blue}[{default}Confogl{blue}]{default} 地图 '{olive}%s{default}' 未能找到!"
+    }
+    "RoundOneBonus"
+    {
+        "en"        "{blue}[{default}Confogl{blue}]{default} Round 1 Bonus: {olive}%d"
+        "chi"       "{blue}[{default}Confogl{blue}]{default} 第一轮奖励分: {olive}%d"
+    }
+    "RoundTowBonus"
+    {
+        "en"        "{blue}[{default}Confogl{blue}]{default} Round 2 Bonus: {olive}%d"
+        "chi"       "{blue}[{default}Confogl{blue}]{default} 第二轮: {olive}%d"
+    }
+    "CustomMaxDistance"
+    {
+        "en"        "{blue}[{default}Confogl{blue}]{default} Custom Max Distance: {olive}%d"
+        "chi"       "{blue}[{default}Confogl{blue}]{default} 自定义最大距离: {olive}%d"
+    }
+    "AverageHealth"
+    {
+        "en"        "{blue}[{default}Confogl{blue}]{default} Average Health: {olive}%.02f"
+        "chi"       "{blue}[{default}Confogl{blue}]{default} 平均血量: {olive}%.02f"
+    }
+    "HealthBonus"
+    {
+        "en"        "{blue}[{default}Confogl{blue}]{default} Health Bonus: {olive}%d"
+        "chi"       "{blue}[{default}Confogl{blue}]{default} 血量奖励分: {olive}%d"
+    }
+    "SurvivalBonus"
+    {
+        "en"        "{blue}[{default}Confogl{blue}]{default} Static Survival Bonus Per Survivor: {olive}%d"
+        "chi"       "{blue}[{default}Confogl{blue}]{default} 固定生还者生存奖励分: {olive}%d"
+    }
+    "RemoveLobbyReservation"
+    {
+        "en"        "{blue}[{default}Confogl{blue}]{default} Removed lobby reservation."
+        "chi"       "{blue}[{default}Confogl{blue}]{default} 已移除大厅"
+    }
+    "SniperLimited"
+    {
+        "en"        "{blue}[{default}Confogl{blue}]{default} Maximum {blue}%d {olive}sniping rifle(s) {default}is enforced."
+        "chi"       "{blue}[{default}Confogl{blue}]{default} {olive}狙击步枪{default}最大数量 {blue}%d {default}已被强制限制"
+    }
+}

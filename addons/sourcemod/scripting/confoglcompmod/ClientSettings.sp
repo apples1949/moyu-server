@@ -161,8 +161,8 @@ public void _EnforceCliSettings_QueryReply(QueryCookie cookie, int client, ConVa
 
 				/*PrintToChatAll("\x01[\x05Confogl\x01] Kicking \x04%L\x01 for having an illegal value for '\x04%s\x01' (\x04%f\x01) !!!", \
 									client, cvarName, fCvarVal);*/
-				CPrintToChatAll("{blue}[{default}Confogl{blue}] {olive}%L{default} was kicked for having an illegal value for '{green}%s{default}' {blue}({default}%f{blue})", \
-									client, cvarName, fCvarVal);
+				CPrintToChatAll("%t", "KickIllegalValueClient", \
+									client, cvarName, fCvarVal);		//{blue}[{default}Confogl{blue}] {olive}%L{default} was kicked for having an illegal value for '{green}%s{default}' {blue}({default}%f{blue})
 
 				char kickMessage[256] = "Illegal Client Value for ";
 				Format(kickMessage, sizeof(kickMessage), "%s%s (%.2f)", kickMessage, cvarName, fCvarVal);
@@ -199,8 +199,8 @@ public void _EnforceCliSettings_QueryReply(QueryCookie cookie, int client, ConVa
 
 				/*PrintToChatAll("\x01[\x05Confogl\x01] Kicking \x04%L\x01 for having an illegal value for '\x04%s\x01' (\x04%f\x01) !!!", \
 									client, cvarName, fCvarVal);*/
-				CPrintToChatAll("{blue}[{default}Confogl{blue}] {olive}%L{default} was kicked for having an illegal value for '{green}%s{default}' {blue}({default}%f{blue})", \
-									client, cvarName, fCvarVal);
+				CPrintToChatAll("%t", "KickIllegalValueClient" \
+									client, cvarName, fCvarVal);		//{blue}[{default}Confogl{blue}] {olive}%L{default} was kicked for having an illegal value for '{green}%s{default}' {blue}({default}%f{blue})
 
 				char kickMessage[256] = "Illegal Client Value for ";
 				Format(kickMessage, sizeof(kickMessage), "%s%s (%.2f)", kickMessage, cvarName, fCvarVal);
@@ -228,7 +228,7 @@ public void _EnforceCliSettings_QueryReply(QueryCookie cookie, int client, ConVa
 public Action _ClientSettings_Cmd(int client, int args)
 {
 	int iSize = ClientSettingsArray.Length;
-	ReplyToCommand(client, "[Confogl] Tracked Client CVars (Total %d)", iSize);
+	ReplyToCommand(client, "%t", "TrackedClientCVars", iSize);		//[Confogl] Tracked Client CVars (Total %d)
 
 #if SOURCEMOD_V_MINOR > 9
 	CLSEntry clsetting;
