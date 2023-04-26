@@ -5,9 +5,9 @@
 # 服务器配置                                       
 | 标准比赛配置名称 |                                        
 |-----------------|                                            
-| ZoneMod v2.8.1/2.8/2.7.1/1.9.3 |                                              
-| ZoneHunters v2.8.1/2.8/2.7.1 |                                      
-| ZoneMod Retro v2.8.1/2.8/2.7.1 |                                          
+| ZoneMod v2.8.1/2.7.1/1.9.3 |                                              
+| ZoneHunters v2.8.1/2.7.1 |                                      
+| ZoneMod Retro v2.8.1/2.7.1 |                                          
 | NeoMod v0.4a |                                        
 | NextMod v1.0.5 |                                  
 | ProMod Elite v1.1 |                                         
@@ -19,7 +19,7 @@
 |---------------------|-------------|                                               
 | Practiceogl Rework(Hunters) v2.2 | √ |                                      
 | Scavogl Rework(Chargers/Hunters/Train) v2.2 | √ |                                 
-| ProMod(Retro/Reflux/Redtown/Hunters/Deadman 1v1) v5.0.3 | × |                                                                           
+| ProMod(Retro/Reflux/Redtown/Hunters/Deadman 1v1) v5.0.3 | √ |                                                                           
 | Sky v2.7.1 | × |
 | Scavogl(Hunters) v2.0 | × |
 | Equilibrium Retro v2.1 | × |
@@ -41,7 +41,7 @@
                                           
 | Confogl娱乐模式配置 | 配置是否完善 |                         
 |--------------|-------------|
-| Neko Specials 6.25NS |  |
+| Neko Specials 6.26NS | × |
 | AirMod v1.09 | √ |                        
 | WTFMod(4v4/3v3/2v2/1v1) v1.6.2 | √ |                      
 | Survival Extended | × |                                
