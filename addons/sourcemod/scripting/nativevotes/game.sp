@@ -151,7 +151,7 @@
 // User vote to scramble teams.  Can be immediate or end of round.
 #define TF2_VOTE_SCRAMBLE_IMMEDIATE_START	"#TF_vote_scramble_teams"
 #define TF2_VOTE_SCRAMBLE_ROUNDEND_START		"#TF_vote_should_scramble_round"
-#define TF2_VOTE_SCRAMBLE_PASSED			"#TF_vote_passed_scramble_teams"
+#define TF2_VOTE_SCRAMBLE_PASSED 			"#TF_vote_passed_scramble_teams"
 
 // User vote to change MvM mission
 #define TF2_VOTE_CHANGEMISSION_START			"#TF_vote_changechallenge"
@@ -730,7 +730,7 @@ void Game_DisplayRawVotePass(NativeVotesPassType passType, int team, int client=
 				
 				default:
 				{
-					L4D2_VotePass(translation, details, team, client);
+					L4D2_VotePass(translation, details, client, team);
 				}
 			}
 		}
@@ -2368,8 +2368,6 @@ static void TF2CSGO_SendOptionsToClient(NativeVote vote, int client)
 	}
 	optionsEvent.SetInt("count", itemCount);
 	optionsEvent.FireToClient(client);
-	// FireToClient does not close the handle, so we call Cancel() to do that for us.
-	optionsEvent.Cancel();
 }
 
 static void CSGO_VotePass(const char[] translation, const char[] details, int team, int client=0)
@@ -2487,17 +2485,17 @@ static void TF2_DisplayVoteSetup(int client, ArrayList hVoteTypes)
 	{
 		char voteIssue[128];
 		
-		CallVoteListData voteData;
-		hVoteTypes.GetArray(i, voteData, sizeof(CallVoteListData));
+		int voteData[CallVoteListData];
+		hVoteTypes.GetArray(i, voteData[0]);
 		
-		Game_OverrideTypeToVoteString(voteData.CallVoteList_VoteType, voteIssue, sizeof(voteIssue));
+		Game_OverrideTypeToVoteString(voteData[CallVoteList_VoteType], voteIssue, sizeof(voteIssue));
 		
 		char translation[128];
-		Game_OverrideTypeToTranslationString(voteData.CallVoteList_VoteType, translation, sizeof(translation));
+		Game_OverrideTypeToTranslationString(voteData[CallVoteList_VoteType], translation, sizeof(translation));
 		
 		voteSetup.WriteString(voteIssue);
 		voteSetup.WriteString(translation);
-		voteSetup.WriteByte(voteData.CallVoteList_VoteEnabled);
+		voteSetup.WriteByte(voteData[CallVoteList_VoteEnabled]);
 	}
 	
 	EndMessage();
@@ -2828,14 +2826,14 @@ static void TF2_AddDefaultVotes(ArrayList hVoteTypes, bool bHideDisabledVotes)
 
 static void VoteTypeSet(ArrayList hVoteTypes, bool bHideDisabledVotes, NativeVotesOverride voteType, bool bEnabled)
 {
-	CallVoteListData voteList;
+	int voteList[CallVoteListData];
 	
 	if (bEnabled || !bHideDisabledVotes)
 	{
-		voteList.CallVoteList_VoteType = voteType;
-		voteList.CallVoteList_VoteEnabled = bEnabled;
+		voteList[CallVoteList_VoteType] = voteType;
+		voteList[CallVoteList_VoteEnabled] = bEnabled;
 		
-		hVoteTypes.PushArray(voteList);
+		hVoteTypes.PushArray(voteList[0]);
 	}
 }
 
@@ -3225,14 +3223,6 @@ static stock NativeVotesType TF2_VoteStringToVoteType(const char[] voteString)
 	else if (StrEqual(voteString, TF2_VOTE_STRING_EXTEND, false))
 	{
 		voteType = NativeVotesType_Extend;
-	}	
-	else if (StrEqual(voteString, TF2_VOTE_STRING_CHANGEMISSION, false))
-	{
-		voteType = NativeVotesType_ChgMission;
-	}
-	else if (StrEqual(voteString, TF2_VOTE_STRING_CHANGEMISSION, false))
-	{
-		voteType = NativeVotesType_ChgMission;
 	}
 	
 	return voteType;
@@ -3347,10 +3337,6 @@ static stock NativeVotesType TF2_VoteOverrideToVoteType(NativeVotesOverride over
 		case NativeVotesOverride_Extend:
 		{
 			voteType = NativeVotesType_Extend;
-		}		
-		case NativeVotesOverride_ChgMission:
-		{
-			voteType = NativeVotesType_ChgMission;
 		}
 	}
 	
@@ -3396,10 +3382,6 @@ static stock NativeVotesOverride TF2_VoteStringToVoteOverride(const char[] voteS
 	else if (StrEqual(voteString, TF2_VOTE_STRING_EXTEND, false))
 	{
 		overrideType = NativeVotesOverride_Extend;
-	}	
-	else if (StrEqual(voteString, TF2_VOTE_STRING_CHANGEMISSION, false))
-	{
-		overrideType = NativeVotesOverride_ChgMission;
 	}
 	
 #if defined LOG
@@ -3465,11 +3447,6 @@ static stock bool TF2_OverrideTypeToVoteString(NativeVotesOverride overrideType,
 		case NativeVotesOverride_Extend:
 		{
 			strcopy(voteString, maxlength, TF2_VOTE_STRING_EXTEND);
-		}		
-		
-		case NativeVotesOverride_ChgMission:
-		{
-			strcopy(voteString, maxlength, TF2_VOTE_STRING_CHANGEMISSION);
 		}
 	}
 	

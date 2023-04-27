@@ -4,52 +4,61 @@
 	"PanelHide"
 	{
 		"en"		"[{olive}Readyup{default}] Panel is now {red}off{default}"
+		"chi"		"[{olive}Readyup{default}] 准备面板已 {red}关闭{default}"
 	}
 	
 	"PanelShow"
 	{
 		"en"		"[{olive}Readyup{default}] Panel is now {blue}on{default}"
+		"chi"		"[{olive}Readyup{default}] 准备面板已 {blue}开启{default}"
 	}
 	
 	"ForceStartAdmin"
 	{
 		"#format"	"{1:N}"
 		"en"		"[{green}!{default}] {blue}Game {default}start is {green}forced {default}by {blue}Admin {default}({olive}{1}{default})"
+		"chi"		"[{green}!{default}] {blue}管理员 {default}({olive}{1}{default}) {green}强制{default}了{blue}游戏开始"
 	}
 	
 	"VoteInProgress"
 	{
 		"en"		"[{olive}Readyup{default}] There's {olive}a vote {green}in progress{default}."
+		"chi"		"[{olive}Readyup{default}] 现在有{olive}投票{green}正在进行{default}"
 	}
 	
 	"VoteDelay"
 	{
 		"#format"	"{1:d}"
 		"en"		"[{olive}Readyup{default}] Wait for another {blue}{1}s {default}to call a vote."
+		"chi"		"[{olive}Readyup{default}] 请等待 {blue}{1}秒 {default}以发起下一轮投票"
 	}
 	
 	"Player marked unready"
 	{
 		"#format"	"{1:N}"
 		"en"		"{default}[{green}!{default}] {green}Countdown Cancelled! {default}({teamcolor}{1} {green}marked unready{default})"
+		"chi"		"{default}[{green}!{default}] {green}倒数中止！ {default}({teamcolor}{1} {green}取消了准备{default})"
 	}
 	
 	"Player switched team"
 	{
 		"#format"	"{1:N}"
 		"en"		"{default}[{green}!{default}] {green}Countdown Cancelled! {default}({teamcolor}{1} {olive}switched team{default})"
+		"chi"		"{default}[{green}!{default}] {green}倒数中止！ {default}({teamcolor}{1} {olive}切换了阵营{default})"
 	}
 	
 	"Player disconnected"
 	{
 		"#format"	"{1:N}"
 		"en"		"{default}[{green}!{default}] {green}Countdown Cancelled! {default}({teamcolor}{1} {green}disconnected{default})"
+		"chi"		"{default}[{green}!{default}] {green}倒数中止！ {default}({teamcolor}{1} {green}离开了游戏{default})"
 	}
 	
 	"Admin aborted"
 	{
 		"#format"	"{1:N}"
 		"en"		"{default}[{green}!{default}] {green}Force Start Aborted! {default}({olive}{1} {green}issued{default})"
+		"chi"		"{default}[{green}!{default}] {green}叫停强制开始！ {default}({green}由 {olive}{1} {green}发起{default})"
 	}
 	
 	
@@ -57,52 +66,105 @@
 	"HintReady"
 	{
 		"en"		"You are ready.\nSay !unready / Press F2 to unready."
+		"chi"		"你已经准备了\n输入 !unready / 按 F2 取消准备"
 	}
 	
 	"HintUnready"
 	{
 		"en"		"You are not ready.\nSay !ready / Press F1 to ready up."
+		"chi"		"你还没有准备\n输入 !ready / 按 F1 确认准备"
 	}
 	
 	"LiveCountdownBegin"
 	{
 		"en"		"Going live!\nSay !unready / Press F2 to cancel"
+		"chi"		"比赛即将开始！\n输入 !unready / 按 F2 中断倒数"
 	}
 	
 	"LiveCountdown"
 	{
 		"#format"	"{1:d}"
 		"en"		"Live in: {1}\nSay !unready / Press F2 to cancel"
+		"chi"		"请各就各位：{1} \n输入 !unready / 按 F2 中断倒数"
 	}
 	
 	"LiveCountdownCancelled"
 	{
 		"en"		"Countdown Cancelled!"
+		"chi"		"倒数中止！"
 	}
 	
 	"RoundIsLive"
 	{
 		"en"		"Round is live!"
-	}
+		"chi"		"比赛开始！"
+	}	
 	
 	"InitiateAutoStart"
 	{
 		"en"		"Game will automatically start!"
+		"chi"		"游戏将会自动开始！"
 	}
 	
 	"AutoStartCountdown"
 	{
 		"#format"	"{1:d}"
 		"en"		"Game starts in: {1}"
+		"chi"		"游戏开始于：{1}"
 	}
 	
 	"AutoStartWaiting"
 	{
 		"en"		"Waiting for loading players..."
+		"chi"		"等待玩家加入..."
 	}
 	
 	"AutoStartNotEnoughPlayers"
 	{
 		"en"		"More players are required..."
+		"chi"		"玩家数量不足..."
+	}
+	
+	// The following are words from readyup panel and not allowed to use any color tag
+	"ServerSlotsConfigs"
+	{
+		"en"		"▸ Server: %s \n▸ Slots: %d/%d\n▸ Config: %s"
+		"chi"		"▸ 服务器: %s \n▸ 位数: %d/%d\n▸ 配置: %s"
+	}
+
+	"TimePassed"
+	{
+		"en"		"%s (%02d:%02d)"		//This Only change the time format by your preference
+		"chi"		"%s (%02d:%02d)"		//这只依据你的喜好改变时间格式
+	}
+	
+	"Survivors"
+	{
+		"en"		"->%d. Survivors%s"
+		"chi"		"->%d. 生还者%s"
+	}
+	
+	"Infected"
+	{
+		"en"		"->%d. Infected%s"
+		"chi"		"->%d. 感染者%s"
+	}
+
+	"Caster"
+	{
+		"en"		"->%d. Caster%s"
+		"chi"		"->%d. 解说%s"
+	}
+
+	"Spectator"
+	{
+		"en"		"->%d. Spectator%s"
+		"chi"		"->%d. 旁观者%s"
+	}
+
+	"ManySpec"
+	{
+		"en"		"**Many** (%d)"
+		"chi"		"**许多** (%d)"
 	}
 }

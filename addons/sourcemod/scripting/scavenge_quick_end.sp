@@ -24,7 +24,7 @@ bool
 public Plugin myinfo = 
 {
 	name = "Scavenge Quick End",
-	author = "ProdigySim, blueblur",
+	author = "ProdigySim, modified by blueblur",
 	description = "Checks various tiebreaker win conditions mid-round and ends the round as necessary.",
 	version = "2.0",
 	url = "http://bitbucket.org/ProdigySim/misc-sourcemod-plugins/"

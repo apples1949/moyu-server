@@ -238,7 +238,6 @@ enum NativeVotesOverride
 	NativeVotesOverride_AutoBalance,
 	NativeVotesOverride_ClassLimits,
 	NativeVotesOverride_Extend,
-	NativeVotesOverride_Count,
 }
 
 methodmap NativeVote < KeyValues
@@ -1283,7 +1282,7 @@ stock void NativeVotes_DisplayRawFailToAll(NativeVotesFailType reason=NativeVote
 		players[total++] = i;
 	}
 	
-	NativeVotes_DisplayRawFail(players, total, reason, team);
+	return NativeVotes_DisplayRawFail(players, total, reason, team);
 }
 
 /**
@@ -1302,7 +1301,7 @@ stock void NativeVotes_DisplayRawFailToOne(int client, NativeVotesFailType reaso
 	
 	players[0] = client;
 	
-	NativeVotes_DisplayRawFail(players, 1, reason, team);
+	return NativeVotes_DisplayRawFail(players, 1, reason, team);
 }
 
 /**

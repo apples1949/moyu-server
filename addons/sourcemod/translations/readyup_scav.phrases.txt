@@ -1,0 +1,8 @@
+"Phrases"
+{
+	"TwoRoundRestart"
+	{
+		"en"		"Match will be live\nafter 2 round restarts."
+		"chi"		"比赛\n将会在2轮重启后可用."
+	}
+}
