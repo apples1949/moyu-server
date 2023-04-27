@@ -69,8 +69,7 @@ https://github.com/himenekocn/NekoSpecials-L4D2 - Neko Specials
 
 # 使用过的插件 Plugins used
 https://github.com/Silenci0/SMAC - SorceMod Anti Cheat(SMAC)反作弊检测                                                 
-https://github.com/J-Tanzanite/Little-Anti-Cheat - Little Anti Cheat(LIAC)反作弊检测
-https://github.com/ProdigySim/custom_fakelag - Fakelag plugin                                       
+https://github.com/J-Tanzanite/Little-Anti-Cheat - Little Anti Cheat(LIAC)反作弊检测                             
 https://github.com/A1oneR/L4D2_DRDK_Plugins - DRDK Plugins                                       
 https://github.com/JoinedSenses/TF2-ServerHop - 用于游戏内查看其他服务器                                      
 https://github.com/mvandorp/server-plugins - 老promod插件                                     
@@ -79,6 +78,8 @@ https://github.com/fbef0102/L4D1_2-Plugins
 https://github.com/Target5150/MoYu_Server_Stupid_Plugins                                     
 https://github.com/GlowingTree880/L4D2_LittlePlugins                                          
 https://github.com/devilesk/rl4d2l-plugins                                        
-https://github.com/rikka0w0/l4d2_mission_manager - ACS自动&投票换图                                                
-https://gitee.com/honghl5/open-source-plug-in - Mixmap Credit by BigRed                                            
+https://github.com/rikka0w0/l4d2_mission_manager - ACS自动&投票换图                                 
+
+# 大红的插件库 Plugins by Bred
+https://gitee.com/honghl5/open-source-plug-in                               
 不能一一列出使用过的插件，但所有插件都是网上收集并部分自行重编译过，感谢所有的插件作者
