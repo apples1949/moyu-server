@@ -134,8 +134,8 @@
 
 	"Command"
 	{
-		"en"		"▸ Commands"
-		"chi"		"▸ 指令"
+		"en"		"▸ Commands:"
+		"chi"		"▸ 指令:"
 	}
 
 	"TimePassed"
