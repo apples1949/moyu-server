@@ -132,6 +132,12 @@
 		"chi"		"▸ 服务器: %s \n▸ 位数: %d/%d\n▸ 配置: %s"
 	}
 
+	"Command"
+	{
+		"en"		"▸ Commands"
+		"chi"		"▸ 指令"
+	}
+
 	"TimePassed"
 	{
 		"en"		"%s (%02d:%02d)"		//This Only change the time format by your preference

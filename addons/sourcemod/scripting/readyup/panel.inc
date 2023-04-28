@@ -28,6 +28,14 @@ void InitPanel()
 		cmdFooter.Add("->7. !lerps");
 		cmdFooter.Add("->8. !secondary");
 		cmdFooter.Add("->9. !forcestart / !fs");
+		cmdFooter.Add("->10. !votekick / !voteban");
+		cmdFooter.Add("->11. !vote");
+		cmdFooter.Add("->12. !mix / !mixrandom");
+		cmdFooter.Add("->13. !mixmap / !maplist");
+		cmdFooter.Add("->14. !spechud");
+		cmdFooter.Add("->15. !spectate / !s");
+		cmdFooter.Add("->16. !health / !bonus");
+		cmdFooter.Add("->17. !current / !cur / !tank / !witch");
 	}
 	
 	curCmd = 0;
@@ -73,6 +81,7 @@ void UpdatePanel()
 	Panel menuPanel = new Panel();
 
 	char ServerBuffer[128];
+	char CommandBuffer[128];
 	char ServerName[32];
 	char cfgName[32];
 
@@ -90,10 +99,11 @@ void UpdatePanel()
 	
 	FormatTime(ServerBuffer, sizeof(ServerBuffer), "▸ %m/%d/%Y - %I:%M%p");
 	Format(ServerBuffer, sizeof(ServerBuffer), "%t", "TimePassed", ServerBuffer, iPassTime / 60, iPassTime % 60);		//%s (%02d:%02d)
+	Format(CommandBuffer, sizeof(CommandBuffer), "%t", "Command");
 	menuPanel.DrawText(ServerBuffer);
 	
 	menuPanel.DrawText(" ");
-	menuPanel.DrawText("Commands");
+	menuPanel.DrawText(CommandBuffer);
 	menuPanel.DrawText(FooterGet(cmdFooter, curCmd));
 	menuPanel.DrawText(" ");
 	
