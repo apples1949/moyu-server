@@ -61,7 +61,12 @@
 		"chi"		"{default}[{green}!{default}] {green}叫停强制开始！ {default}({green}由 {olive}{1} {green}发起{default})"
 	}
 	
-	
+	"TwoRoundRestart"
+	{
+		"en"		"{default}[{green}!{default}] Match will be live\n{default}[{green}!{default}]after 2 round restarts."
+		"chi"		"{default}[{green}!{default}] 比赛将会\n{default}[{green}!{default}]在2轮重启后可用."
+	}
+
 // The following are not allowed to use any color tag
 	"HintReady"
 	{

@@ -7,17 +7,6 @@
    			"message" "全体回血 Restore HP"
 	 	}
 	}
-	"踢人封禁 Vote Kick/Ban"
-	{
-		"sm_votekick"
-		{
-			"message" "投票踢人 Vote to kick"
-		}
-		"sm_voteban"
-		{
-			"message" "投票封禁 Vote to Ban"
-		}
-	}
 	"投票开位 Vote Slots"
 	{
 		"exec vote/4people.cfg"

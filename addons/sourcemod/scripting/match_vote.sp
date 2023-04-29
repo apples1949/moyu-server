@@ -232,6 +232,15 @@ bool StartMatchVote(int iClient, const char[] sCfgName)
 		CPrintToChat(iClient, "%t", "AlreadyLoaded");		//{blue}[{default}Match{blue}] {default}模式已经加载，请先使用!rmatch卸载配置
 		return false;
 	}*/
+	if(LGO_IsMatchModeLoaded())
+	{
+		ServerCommand("l4d_ready_enabled 0");
+		ServerCommand("reset_static_maps");
+		ServerCommand("sm_resetstringcount");
+		ServerCommand("confogl_resetclientcvars");
+		ServerCommand("confogl_resetcvars");
+		ServerCommand("pred_unload_plugins");
+	}
 
 	if (!IsBuiltinVoteInProgress()) {
 		int iNumPlayers = 0;

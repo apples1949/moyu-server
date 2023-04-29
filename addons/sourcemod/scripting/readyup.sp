@@ -14,7 +14,7 @@
 public Plugin myinfo =
 {
 	name = "L4D2 Ready-Up with convenience fixes",
-	author = "CanadaRox, Target",
+	author = "CanadaRox, Target, Lechuga, mergded, modified by blueblur",
 	description = "New and improved ready-up plugin with optimal for convenience.",
 	version = PLUGIN_VERSION,
 	url = "https://github.com/Target5150/MoYu_Server_Stupid_Plugins"
@@ -69,6 +69,8 @@ ConVar
 	sb_stop,
 	survivor_limit,
 	z_max_player_zombies,
+	cvarGameMode,
+	cvarScavRestart,
 	sv_infinite_primary_ammo;
 
 // Plugin Cvars
@@ -80,7 +82,9 @@ ConVar
 	// sound
 	l4d_ready_enable_sound, l4d_ready_notify_sound, l4d_ready_countdown_sound, l4d_ready_live_sound, l4d_ready_autostart_sound, l4d_ready_chuckle, l4d_ready_secret,
 	// action
-	l4d_ready_delay, l4d_ready_force_extra, l4d_ready_autostart_delay, l4d_ready_autostart_wait, l4d_ready_autostart_min, l4d_ready_unbalanced_start, l4d_ready_unbalanced_min;
+	l4d_ready_delay, l4d_ready_force_extra, l4d_ready_autostart_delay, l4d_ready_autostart_wait, l4d_ready_autostart_min, l4d_ready_unbalanced_start, l4d_ready_unbalanced_min,
+	// Scavenge
+	l4d_ready_scavenge_rounds;
 
 // Server Name
 ConVar
@@ -101,6 +105,9 @@ bool
 	inReadyUp,
 	isForceStart,
 	readySurvFreeze;
+
+// Scavenge Fixes
+bool bFirst = true;
 
 // Spectate Fix
 Handle g_hChangeTeamTimer[MAXPLAYERS+1];
@@ -168,6 +175,7 @@ public void OnPluginStart()
 	HookEvent("round_start",			RoundStart_Event, EventHookMode_Pre);
 	HookEvent("player_team",			PlayerTeam_Event, EventHookMode_Post);
 	HookEvent("gameinstructor_draw",	GameInstructorDraw_Event, EventHookMode_PostNoCopy);
+	HookEvent("scavenge_match_finished", Event_OnScavengeEnd, EventHookMode_PostNoCopy);
 }
 
 public void OnPluginEnd()
@@ -308,6 +316,123 @@ public void OnMapStart()
 	{
 		g_hChangeTeamTimer[client] = null;
 	}
+	// Readyup Scavenge
+	ServerCommand("l4d_ready_scavenge_restart 1");
+	bFirst = true;
+	//CreateTimer(15.0, FirstRoundReadyup); 
+}
+
+////////////////////////////////
+//	   Ready UP Scavenge	  //
+////////////////////////////////
+
+public void Event_OnScavengeEnd(Event event, const char[] name, bool dontBroadcast)
+{
+	//ServerCommand("l4d_ready_scavenge_restart 1");
+	CreateTimer(7.0, ResetRoundNumberplz);
+}
+
+public void OnClientPutInServer(int client)
+{
+	if (bFirst)
+	{
+		CreateTimer(3.1, FirstRoundReadyup); 
+	}
+	bFirst = false;
+}
+
+public Action ResetRoundNumberplz(Handle timer)
+{
+	GameRules_SetProp("m_nRoundNumber", 0);
+}
+
+public Action FirstRoundReadyup(Handle timer)
+{
+	int round = GetScavengeRoundNumber();
+	char ScavRest[10];
+	GetConVarString(cvarScavRestart, ScavRest, sizeof(ScavRest));
+	if(IsScavengeMode() && StrEqual(ScavRest, "1", true) && round == 1)
+	{
+		InitiateLive();
+	}
+}
+public void OnRoundIsLive()
+{
+	if(ShouldResetRoundTwiceToGoLive())
+	{
+		CPrintToChatAll("%t", "TwoRoundRestart");		//Match will be live\nafter 2 round restarts.
+		RestartCampaignAny();
+	}
+}
+
+stock bool IsScavengeMode()
+{
+	char sGameMode[32];
+	GetConVarString(cvarGameMode, sGameMode, sizeof(sGameMode));
+	if (StrContains(sGameMode, "scavenge") > -1)
+	{
+		return true;
+	}
+	else
+	{
+		return false;
+	}
+}
+
+stock int GetScavengeRoundNumber()
+{
+	return GameRules_GetProp("m_nRoundNumber");
+}
+
+bool ShouldResetRoundTwiceToGoLive()
+{
+	int round = GetScavengeRoundNumber();
+	GameRules_SetProp("m_nRoundLimit", l4d_ready_scavenge_rounds.IntValue);
+	char ScavRest[10];
+	GetConVarString(cvarScavRestart, ScavRest, sizeof(ScavRest));
+	if(IsScavengeMode() && StrEqual(ScavRest, "1", true) && round == 1) //scavenge pre-first round warmup
+	return true;
+	
+	//do not reset the round for L4D2 versus or L4D2 scavenge reready
+	return false;
+}
+
+void RestartCampaignAny()
+{
+	StartPrepSDKCall(SDKCall_GameRules);
+	PrepSDKCall_SetFromConf(LoadGameConfigFile("left4dhooks.l4d2"), SDKConf_Signature, "CTerrorGameRules_ResetRoundNumber");
+	Handle func = EndPrepSDKCall();
+	if (func == INVALID_HANDLE)
+	{
+		ThrowError("Failed to end prep sdk call");
+	}
+	SDKCall(func);
+	CloseHandle(func);
+	CreateTimer(2.0, RestartCampaignAny1, _);
+}
+
+public Action RestartCampaignAny1(Handle timer)
+{
+	char currentmap[128];
+	GetCurrentMap(currentmap, sizeof(currentmap));
+	
+	Call_StartForward(CreateGlobalForward("OnReadyRoundRestarted", ET_Event));
+	Call_Finish();
+	
+	L4D_RestartScenarioFromVote(currentmap);
+	CreateTimer(2.0, RestartCampaignAny2, _);
+}
+
+public Action RestartCampaignAny2(Handle timer)
+{
+	char currentmap[128];
+	GetCurrentMap(currentmap, sizeof(currentmap));
+	
+	Call_StartForward(CreateGlobalForward("OnReadyRoundRestarted", ET_Event));
+	Call_Finish();
+	
+	L4D_RestartScenarioFromVote(currentmap);
+	ServerCommand("l4d_ready_scavenge_restart 0");
 }
 
 /* This ensures all cvars are reset if the map is changed during ready-up */

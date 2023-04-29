@@ -73,6 +73,10 @@ void SetupConVars()
 	l4d_ready_unbalanced_start	= CreateConVar("l4d_ready_unbalanced_start", "0", "Allow game to go live when teams are not full.", FCVAR_NOTIFY, true, 0.0, true, 1.0);
 	l4d_ready_unbalanced_min	= CreateConVar("l4d_ready_unbalanced_min", "2", "Minimum of players in each team to allow a unbalanced start.", FCVAR_NOTIFY, true, 0.0);
 	
+	// Scavenge Fixes
+	CreateConVar("l4d_ready_scavenge_restart", "1", "Mark the first raund for a double reset.", FCVAR_NOTIFY, true, 0.0, true, 1.0);
+	l4d_ready_scavenge_rounds	= CreateConVar("l4d_ready_scavenge_rounds", "5", "Set the number of rounds", FCVAR_NOTIFY, true, 1.0, true, 5.0);
+
 	// game convars
 	director_no_specials = FindConVar("director_no_specials");
 	god = FindConVar("god");
@@ -80,6 +84,10 @@ void SetupConVars()
 	survivor_limit = FindConVar("survivor_limit");
 	z_max_player_zombies = FindConVar("z_max_player_zombies");
 	sv_infinite_primary_ammo = FindConVar("sv_infinite_primary_ammo");
+
+	// Scavenge Fixes
+	cvarScavRestart = FindConVar("l4d_ready_scavenge_restart");
+	cvarGameMode 	= FindConVar("mp_gamemode");
 }
 
 void SetupCommands()
