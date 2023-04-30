@@ -1,0 +1,7 @@
+"Phrases"
+{
+	"Current"
+	{
+		"chi"		\x01当前进度: \x04%d%%"
+	}
+}

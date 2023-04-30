@@ -23,12 +23,14 @@ public void OnPluginStart()
 
 	RegConsoleCmd("sm_cur", CurrentCmd);
 	RegConsoleCmd("sm_current", CurrentCmd);
+
+	LoadTranslations("current.phrases");
 }
 
 public Action CurrentCmd(int client, int args)
 {
 	int boss_proximity = RoundToNearest(GetBossProximity() * 100.0);
-	PrintToChat(client, "\x01Current: \x04%d%%", boss_proximity);
+	PrintToChat(client, "%t", "Current", boss_proximity);		//\x01Current: \x04%d%%
 	return Plugin_Handled;
 }
 
