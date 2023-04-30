@@ -1,0 +1,12 @@
+"Phrases"
+{
+	"WaterSlowDownOn"
+	{
+		"chi"		"\x05水中减速\x01已在Tank扮演时移除."
+	}
+
+	"WaterSlowDownOff"
+	{
+		"chi"		"\x05水中减速\x01已被回调至正常."
+	}
+}

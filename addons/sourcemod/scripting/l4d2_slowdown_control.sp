@@ -120,6 +120,8 @@ public void OnPluginStart()
 	HookEvent("round_start", RoundStart, EventHookMode_PostNoCopy);
 	HookEvent("player_hurt", PlayerHurt);
 	HookEvent("player_death", TankDeath);
+
+	LoadTranslations("l4d2_slowdown_cotrol.phrases");
 }
 
 public void OnConfigsExecuted()
@@ -148,7 +150,7 @@ public void TankSpawn(Event event, const char[] name, bool dontBroadcast)
 	if (!tankInPlay) {
 		tankInPlay = true;
 		if (fSurvWaterSpeedDuringTank > 0.0) {
-			PrintToChatAll("\x05Water Slowdown\x01 has been reduced while Tank is in play.");
+			PrintToChatAll("%t", "WaterSlowDownOn");			//\x05Water Slowdown\x01 has been reduced while Tank is in play.
 		}
 	}
 }
@@ -167,7 +169,7 @@ public Action Timer_CheckTank(Handle timer)
 	if (!tankclient || !IsPlayerAlive(tankclient)) {
 		tankInPlay = false;
 		if (fSurvWaterSpeedDuringTank > 0.0) {
-			PrintToChatAll("\x05Water Slowdown\x01 has been restored to normal.");
+			PrintToChatAll("%t", "WaterSlowDownOff");		//\x05Water Slowdown\x01 has been restored to normal.
 		}
 	}
 
