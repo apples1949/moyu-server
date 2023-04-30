@@ -18,7 +18,7 @@
 	}
 	"BotName"
 	{
-		"en"		"[BOT]"
+		"en"		" \x01[BOT]"
 	}
 	"NobodyName"
 	{
@@ -26,7 +26,7 @@
 	}
 	"NotEnoughAction"
 	{
-		"en"		"{blue}({default}not enough action yet{blue})"
+		"en"		"{blue}({default}not enough action yet{blue}){default}\n"
 	}
 	"ReportSI_Absolute"
 	{
