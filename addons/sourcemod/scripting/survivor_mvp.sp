@@ -1140,7 +1140,7 @@ void GetMVPString(char[] printBuffer, const int iSize)
             }
             else
             {
-                Format(tmpBuffer, sizeof(tmpBuffer), "%t %t", "ReportSI_Nobody");
+                Format(tmpBuffer, sizeof(tmpBuffer), "%t %t", "Tag", "ReportSI_Nobody");
                 StrCat(printBuffer, iSize, tmpBuffer);
             }
         }
