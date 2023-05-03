@@ -1,0 +1,32 @@
+"Phrases"
+{
+	"ConnectingWithHours"
+	{
+		"en"		"Player{olive} %N {default} [{olive}%iHours{default}] is connecting..."
+	}
+
+	"ConnectingWithoutHours"
+	{
+		"en"		"Player{olive} %N {default} is connecting..."
+	}
+
+	"ConnectedWithHours"
+	{
+		"en"		"Player{olive} %N {default} [{olive}%iHours{default}] has joined this server."
+	}
+
+	"ConnectedWithoutHours"
+	{
+		"en"		"Player{olive} %N {default} has joined this server"
+	}
+
+	"RequestPlayerTime"
+	{
+		"en"		"Player{olive} %N {default} Has played{red} %i {default}Hours"
+	}
+
+	"RequestPlayerTimeFailed"
+	{
+		"en"		"Player{olive} %N {default} Has played{red} Unkown {default}Hours"
+	}
+}
