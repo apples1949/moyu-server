@@ -1,22 +1,21 @@
 "Phrases"
 {
-	"Tag"
-	{
-		"en"		"[{green}!{default}]"
-	}
-	"AI"
-	{
-		"en"		"AI"
-	}
 	"HealthRemaining"
 	{
-		"en"		"{blue}Tank{default} ({olive}%s{default}) had {green}%d{default} health remaining"
+		"en"		"{default}[{green}!{default}] {blue}Tank {default}({olive}%s{default}) had {green}%d {default}health remaining."
 	}
-	"DealtToTank"
+
+	"DamageDealtToTank"
 	{
-		"en"		"{blue}Damage{default} dealt to {blue}Tank{default} ({olive}%s{default})"
+		"en"		"{default}[{green}!{default}] {blue}Damage {default}dealt to{blue} Tank {default}({olive}%s{default})"
 	}
-	"PercentDamage"
+
+	"DamageDealtToAITank"
+	{
+		"en"		"{default}[{green}!{default}] {blue}Damage {default}dealt to{blue} Tank {default}({olive}AI{default})"
+	}
+
+	"DamageDetail"		//this only affects format
 	{
 		"en"		"{blue}[{default}%d{blue}] ({default}%i%%{blue}) {olive}%N"
 	}

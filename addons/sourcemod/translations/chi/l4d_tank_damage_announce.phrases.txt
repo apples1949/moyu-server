@@ -1,22 +1,21 @@
 "Phrases"
 {
-	"Tag"
-	{
-		"chi"		"[{green}!{default}]"
-	}
-	"AI"
-	{
-		"chi"		"AI"
-	}
 	"HealthRemaining"
 	{
-		"chi"		"{blue}Tank{default} ({olive}%s{default}) 剩余 {green}%d{default} 点血量"
+		"chi"		"{default}[{green}!{default}] {blue}Tank {default}({olive}%s{default})还剩余{green} %d {default}点血量."
 	}
-	"DealtToTank"
+
+	"DamageDealtToTank"
 	{
-		"chi"		"对{blue}Tank{default} ({olive}%s{default}) 造成的{blue}伤害"
+		"chi"		"{default}[{green}!{default}] 对{blue} Tank {default}({olive}%s{default})造成的{blue}伤害"
 	}
-	"PercentDamage"
+
+	"DamageDealtToAITank"
+	{
+		"chi"		"{default}[{green}!{default}] 对{blue} Tank {default}({olive}AI{default})造成的{blue}伤害"
+	}
+
+	"DamageDetail"		//this only affects format
 	{
 		"chi"		"{blue}[{default}%d{blue}] ({default}%i%%{blue}) {olive}%N"
 	}
