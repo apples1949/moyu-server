@@ -54,6 +54,9 @@ public OnPluginStart()
 	HookConVarChange(h_cvarNoticeType, ChangeVars);
 	HookConVarChange(h_cvarPrintType, ChangeVars);
 	HookConVarChange(h_cvarGlowEnable, ChangeVars);
+
+	// Translations
+	LoadTranslations("l4d_blackandwhite.phrases");
 }
 
 public EventReviveSuccess(Handle:event, const String:name[], bool:dontBroadcast)
@@ -129,8 +132,10 @@ public EventReviveSuccess(Handle:event, const String:name[], bool:dontBroadcast)
 		//print to all
 		else if(bandw_notice == 2) 
 		{
-			if(bandw_type == 1) PrintHintTextToAll("%s (\x04%s\x01) is black and white.", targetName, charName);
-			else CPrintToChatAll("{blue}[{default}!{blue}]{default} {olive}%s{default} is black and white.", targetName);
+			if(bandw_type == 1) PrintHintTextToAll("%t", "NoticeHint", targetName, charName);
+			//%s (\x04%s\x01) is black and white.
+			else CPrintToChatAll("%t", "NoticeText", targetName);
+			//{blue}[{default}!{blue}]{default} {olive}%s{default} is black and white.
 		}
 		//print to infected
 		else if(bandw_notice == 3)
@@ -139,8 +144,8 @@ public EventReviveSuccess(Handle:event, const String:name[], bool:dontBroadcast)
 			{
 				if(!IsClientInGame(x) || GetClientTeam(x) == GetClientTeam(target) || x == target || IsFakeClient(x))
 					continue;
-				if(bandw_type == 1) PrintHintText(x, "%s (\x04%s\x01) is black and white.", targetName, charName);
-				else CPrintToChat(x, "{blue}[{default}!{blue}]{default} {olive}%s{default} is black and white.", targetName);
+				if(bandw_type == 1) PrintHintText(x, "%t", "NoticeHint", targetName, charName);
+				else CPrintToChat(x, "%t", "NoticeText", targetName);
 			}
 		}
 		//print to survivors
@@ -151,8 +156,8 @@ public EventReviveSuccess(Handle:event, const String:name[], bool:dontBroadcast)
 				if(!IsClientInGame(x) || GetClientTeam(x) != GetClientTeam(target) || x == target || IsFakeClient(x)) 
 					continue;
 					
-				if(bandw_type == 1) PrintHintText(x, "%s (\x04%s\x01) is black and white.", targetName, charName);
-				else CPrintToChat(x, "{blue}[{default}!{blue}]{default} {olive}%s{default} is black and white.", targetName);
+				if(bandw_type == 1) PrintHintText(x, "%t", "NoticeHint", targetName, charName);
+				else CPrintToChat(x, "%t", "NoticeText", targetName);
 			}
 		}	
 	}

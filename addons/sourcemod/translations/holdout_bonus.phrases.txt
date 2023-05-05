@@ -1,0 +1,37 @@
+"Phrases"
+{
+	"HoldoutStarts"
+	{
+		"en"		"\x01Holdout event starts... (\x04%i\x01 bonus over \x05%i\x01 seconds)"
+	}
+
+	"NoHoldout"
+	{
+		"en"		"no holdout event this round."
+	}
+
+	"InHoldout"
+	{
+		"en"		"\x04%i\x01 out of \x05%i\x01 [\x04%i\x01/\x05%i\x01 sec]."
+	}
+
+	"HoldoutOver"
+	{
+		"en"		"\x04%i\x01 out of \x05%i\x01 [event over]."
+	}
+
+	"AboutToHoldout"
+	{
+		"en"		"\x04%i\x01 out of \x05%i\x01 [not started yet]."
+	}
+
+	"HoldoutBonus"
+	{
+		"en"		"\x01Holdout Bonus: %s"
+	}
+
+	"DisplayHoldoutBonus"
+	{
+		"en"		"\x01Holdout Bonus: \x04%i\x01 out of \x05%i\x01."
+	}
+}

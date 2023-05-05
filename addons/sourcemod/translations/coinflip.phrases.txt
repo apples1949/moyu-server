@@ -2,18 +2,26 @@
 {
 	"Tag"
 	{
-		"en"		"[{olive}Coinflip{default}]"
+		"en"			"\x01[\x05Coinflip\x01]"
 	}
-	"Heads"
+
+	"HeadsCoin"
 	{
-		"en"		"{lightgreen}%s{default} flipped a coin!\nIt's {green}Heads{default}!"
+		"en"			"\x03%s\x01 flipped a coin!\nIt's \x04Heads\x01!"
 	}
-	"Tails"
+
+	"TailsCoin"
 	{
-		"en"		"{lightgreen}%s{default} flipped a coin!\nIt's {green}Tails{default}!"
+		"en"			"\x03%s\x01 flipped a coin!\nIt's \x04Tails\x01!"
 	}
-	"rolled"
+
+	"Roll"
 	{
-		"en"		"{lightgreen}%s{default} rolled a {teamcolor}%d{default} sided die!\nIt's {green}%d{default}!"
+		"en"			"\x03%s\x01 rolled a \x03%d \x01sided die!\nIt's \x04%d\x01!"
+	}
+
+	"SlowDownMan"		//this is only printed to console.
+	{
+		"en"			"[Coinflip] Whoa there buddy, slow down. Wait at least %d seconds."
 	}
 }

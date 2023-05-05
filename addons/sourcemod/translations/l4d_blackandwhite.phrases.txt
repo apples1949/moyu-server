@@ -1,0 +1,12 @@
+"Phrases"
+{
+	"NoticeHint"
+	{
+		"en"		"%s (\x04%s\x01) is black and white."
+	}
+
+	"NoticeText"
+	{
+		"en"		"{blue}[{default}!{blue}]{default} {olive}%s{default} is black and white."
+	}
+}

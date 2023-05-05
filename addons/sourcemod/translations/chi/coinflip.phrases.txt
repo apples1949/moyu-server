@@ -2,18 +2,26 @@
 {
 	"Tag"
 	{
-		"chi"		"[{olive}抛硬币{default}]"
+		"chi"			"\x01[\x05抛硬币\x01]"
 	}
-	"Heads"
+
+	"HeadsCoin"
 	{
-		"chi"		"{lightgreen}%s{default} 抛了个硬币!\nIt's {green}正面{default}!"
+		"chi"			"\x03%s\x01 抛了一枚硬币!\n结果是 \x04正面\x01!"
 	}
-	"Tails"
+
+	"TailsCoin"
 	{
-		"chi"		"{lightgreen}%s{default} 抛了个硬币!\nIt's {green}反面{default}!"
+		"chi"			"\x03%s\x01 抛了一枚硬币!\n结果是 \x04反面\x01!"
 	}
-	"rolled"
+
+	"Roll"
 	{
-		"chi"		"{lightgreen}%s{default} 挑选随机数字，最大为 {teamcolor}%d{default}!\n数字为 {green}%d{default}!"
+		"chi"			"\x03%s\x01 掷出了 \x03%d面 \x01骰子!\n结果是 \x04%d面\x01!"
+	}
+
+	"SlowDownMan"		//this is only printed to console.
+	{
+		"chi"			"[抛硬币] 喂等等老兄, 歇会. 起码得等个 %d 秒."
 	}
 }
