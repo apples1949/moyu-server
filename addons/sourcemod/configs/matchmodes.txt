@@ -133,10 +133,10 @@
 	}
 	"Confogl Casual"
 	{
-		"neko"
-		{
-			"name" "Neko Specials 6.26NS"
-		}
+//		"neko"		//buggy to be compatiable
+//		{
+//			"name" "Neko Specials 6.26NS"
+//		}
 		"AirMod"
 		{
 			"name" "AirMod v1.09"
