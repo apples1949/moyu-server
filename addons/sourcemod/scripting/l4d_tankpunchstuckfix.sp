@@ -68,6 +68,9 @@ public void OnPluginStart()
 	HookEvent("round_start", Event_Reset, EventHookMode_PostNoCopy);
 	HookEvent("round_end", Event_Reset, EventHookMode_PostNoCopy);
 	
+	// translations
+	LoadTranslations("l4d_tankpunchstuckfix.phrases");
+
 #if DEBUG_MODE
 	RegConsoleCmd("sm_warp_me", Cmd_WarpMe);
 #endif
@@ -199,7 +202,7 @@ public Action Timer_CheckPunch(Handle hTimer, any userid)
 						
 						CTerrorPlayer_WarpToValidPositionIfStuck(client);
 						if (tpsf_debug_print.BoolValue) {
-							CPrintToChatAll("<{olive}TankPunchStuck{default}> Found {blue}%N{default} stuck after a punch. Warped him to a valid position.", client);
+							CPrintToChatAll("%t", "WrapStuck", client);		//<{olive}TankPunchStuck{default}> Found {blue}%N{default} stuck after a punch. Warped him to a valid position.
 						}
 						return Plugin_Stop;
 					}

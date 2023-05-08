@@ -1,0 +1,7 @@
+"Phrases"
+{
+	"WrapStuck"
+	{
+		"en"		"<{olive}TankPunchStuck{default}> Found {blue}%N{default} stuck after a punch. Warped him to a valid position."
+	}
+}
