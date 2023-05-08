@@ -1,0 +1,7 @@
+"Phrases"
+{
+	"AntiBaiter"
+	{
+		"en"		"{blue}[{default}Anti-baiter{blue}]{default} Prepare for the incoming horde!"
+	}
+}

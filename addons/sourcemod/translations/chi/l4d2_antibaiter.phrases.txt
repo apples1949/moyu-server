@@ -1,0 +1,7 @@
+"Phrases"
+{
+	"AntiBaiter"
+	{
+		"chi"		"{blue}[{default}反引诱机制{blue}]{default} 准备好迎接即将到来的尸潮!"
+	}
+}

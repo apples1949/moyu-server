@@ -89,6 +89,8 @@ public void OnPluginStart()
 	
 	CreateTimer(1.0, AntibaiterThink, _, TIMER_REPEAT);
 
+	LoadTranslations("l4d2_antibaiter.phrases");
+
 #if DEBUG
 	RegConsoleCmd("sm_regsi", RegisterSI);
 #endif
@@ -271,7 +273,7 @@ public Action AntibaiterThink(Handle hTimer)
 					HideCountdown();
 					LaunchHorde();
 					hordeDelayChecks = 0;
-					CPrintToChatAll("{blue}[{default}Anti-baiter{blue}]{default} Prepare for the incoming horde!");
+					CPrintToChatAll("%t", "AntiBaiter");		//{blue}[{default}Anti-baiter{blue}]{default} Prepare for the incoming horde!
 				}
 			} else {
 				#if DEBUG
