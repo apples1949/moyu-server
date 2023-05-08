@@ -62,6 +62,7 @@ public void OnPluginStart()
 {
     // Load translations (for targeting player)
     LoadTranslations("common.phrases");
+    LoadTranslations("l4d_tank_control_eq.phrases");
     
     // Event hooks
     HookEvent("player_left_start_area", PlayerLeftStartArea_Event, EventHookMode_PostNoCopy);
@@ -360,14 +361,14 @@ public Action L4D_OnTryOfferingTankBot(int tank_index, bool &enterStatis)
     // Reset the tank's frustration if need be
     if (! IsFakeClient(tank_index)) 
     {
-        PrintHintText(tank_index, "Rage Meter Refilled");
+        PrintHintText(tank_index, "%t", "RageRefilledHintText");      //Rage Meter Refilled
         for (int i = 1; i <= MaxClients; i++) 
         {
             if (! IsClientInGame(i) || GetClientTeam(i) != 3)
                 continue;
 
-            if (tank_index == i) CPrintToChat(i, "{red}<{default}Tank Rage{red}> {olive}Rage Meter {red}Refilled");
-            else CPrintToChat(i, "{red}<{default}Tank Rage{red}> {default}({green}%N{default}'s) {olive}Rage Meter {red}Refilled", tank_index);
+            if (tank_index == i) CPrintToChat(i, "%t", "BotRageRefilledText");       //{red}<{default}Tank Rage{red}> {olive}Rage Meter {red}Refilled
+            else CPrintToChat(i, "%t", "HumanRageRefilledText", tank_index);       //{red}<{default}Tank Rage{red}> {default}({green}%N{default}'s) {olive}Rage Meter {red}Refilled
         }
         
         SetTankFrustration(tank_index, 100);
@@ -421,7 +422,7 @@ public void outputTankToAll(any data)
         GetClientName(tankClientId, tankClientName, sizeof(tankClientName));
         if (GetConVarBool(hTankPrint))
         {
-            CPrintToChatAll("{red}<{default}Tank Selection{red}> {olive}%s {default}will become the {red}Tank!", tankClientName);
+            CPrintToChatAll("%t", "TankSelection", tankClientName);        //{red}<{default}Tank Selection{red}> {olive}%s {default}will become the {red}Tank!
         }
         else
         {
@@ -430,8 +431,8 @@ public void outputTankToAll(any data)
                 if (!IS_VALID_INFECTED(i) && !IS_VALID_CASTER(i))
                 continue;
 
-                if (tankClientId == i) CPrintToChat(i, "{red}<{default}Tank Selection{red}> {green}You {default}will become the {red}Tank{default}!");
-                else CPrintToChat(i, "{red}<{default}Tank Selection{red}> {olive}%s {default}will become the {red}Tank!", tankClientName);
+                if (tankClientId == i) CPrintToChat(i, "%t", "YouAreTheTank");       //{red}<{default}Tank Selection{red}> {green}You {default}will become the {red}Tank{default}!
+                else CPrintToChat(i, "%t", "TankSelection", tankClientName);
             }
         }
     }

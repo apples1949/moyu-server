@@ -1,35 +1,27 @@
 "Phrases"
 {
-	"Tag_Selecion"
-	{
-		"en"		"{red}<{default}Tank Selection{red}>{default}"
-	}
-	"Tag_Rage"
-	{
-		"en"		"{red}<{default}Tank Rage{red}>{default}"
-	}
-	"YouBecomeTank"
-	{
-		"en"		"{green}You{default} will become the {red}Tank{default}!"
-	}
-	"BecomeTank"
-	{
-		"en"		"{olive}%s{default} will become the {red}Tank{default}!"
-	}
-	"UnableGiveTank"
-	{
-		"en"		"[{olive}SM{default}] %s not on infected. Unable to give tank"
-	}
-	"Hit_RageMeterRefilled"
+	"RageRefilledHintText"
 	{
 		"en"		"Rage Meter Refilled"
 	}
-	"YouRageMeterRefilled"
+
+	"BotRageRefilledText"
 	{
-		"en"		"{olive}Rage Meter {red}Refilled{default}"
+		"en"		"{red}<{default}Tank Rage{red}> {olive}Rage Meter {red}Refilled."
 	}
-	"RageMeterRefilled"
+
+	"HumanRageRefilledText"
 	{
-		"en"		"({green}%N{default}'s) {olive}Rage Meter {red}Refilled"
+		"en"		"{red}<{default}Tank Rage{red}> {default}({green}%N{default}'s) {olive}Rage Meter {red}Refilled."
+	}
+
+	"TankSelection"
+	{
+		"en"		"{red}<{default}Tank Selection{red}> {olive}%s {default}will become the {red}Tank!"
+	}
+
+	"YouAreTheTank"
+	{
+		"en"		"{red}<{default}Tank Selection{red}> {green}You {default}will become the {red}Tank{default}!"
 	}
 }

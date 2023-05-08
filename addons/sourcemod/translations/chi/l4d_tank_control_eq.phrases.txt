@@ -1,35 +1,27 @@
 "Phrases"
 {
-	"Tag_Selecion"
+	"RageRefilledHintText"
 	{
-		"chi"		"{red}<{default}Tank 选择系统{red}>{default}"
+		"chi"		"第二控制权开始"
 	}
-	"Tag_Rage"
+
+	"BotRageRefilledText"
 	{
-		"chi"		"{red}<{default}Tank 控制权{red}>{default}"
+		"chi"		"{red}<{default}Tank控制权{red}> {olive}第二控制权{red}开始."
 	}
-	"YouBecomeTank"
+
+	"HumanRageRefilledText"
 	{
-		"chi"		"{green}You{default} 将会成为 {red}Tank{default}!"
+		"chi"		"{red}<{default}Tank控制权{red}> {default}({green}%N{default}) {olive}第二控制权{red}开始."
 	}
-	"BecomeTank"
+
+	"TankSelection"
 	{
-		"chi"		"{olive}%s{default} 将会成为 {red}Tank{default}!"
+		"chi"		"{red}<{default}Tank轮换{red}> {olive}%s {default}将会成为{red}Tank!"
 	}
-	"UnableGiveTank"
+
+	"YouAreTheTank"
 	{
-		"chi"		"[{olive}SM{default}] %s 不是感染者. 无法给予Tank"
-	}
-	"Hit_RageMeterRefilled"
-	{
-		"chi"		"第一次控制权结束，第二次控制权开始"
-	}
-	"YouRageMeterRefilled"
-	{
-		"chi"		"{olive}第一次控制权结束， {red}第二次控制权开始{default}"
-	}
-	"RageMeterRefilled"
-	{
-		"chi"		"({green}%N{default}) {olive}第一次控制权结束， {red}第二次控制权开始"
+		"chi"		"{red}<{default}Tank Selection{red}> {green}你 {default}将会成为{red}Tank{default}!"
 	}
 }
