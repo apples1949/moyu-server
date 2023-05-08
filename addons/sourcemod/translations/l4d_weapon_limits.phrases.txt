@@ -1,0 +1,12 @@
+"Phrases"
+{
+	"LimitsCleared"
+	{
+		"en"		"[Weapon Limits] Weapon limits cleared!"
+	}
+
+	"ReachedLimits"
+	{
+		"en"		"{blue}[{default}Weapon Limits{blue}]{default} This weapon group has reached its max of {green}%d."
+	}
+}
