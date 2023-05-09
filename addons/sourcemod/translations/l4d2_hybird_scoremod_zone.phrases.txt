@@ -1,0 +1,97 @@
+"Phrases"
+{
+	"Tag"
+	{
+		"en"		"\x04[Hybrid Bonus]"
+	}
+
+	"RHalfBonusFull"
+	{
+		"en"		"%s\x01R\x04#1\x01 Bonus: \x05%d\x01/\x05%d\x01 <\x03%.1f%%\x01> [%s]"
+	}
+
+	"RBonusFull"
+	{
+		"en"		"%s\x01R\x04#%i\x01 Bonus: \x05%d\x01 <\x03%.1f%%\x01> [HB: \x05%d\x01 <\x03%.1f%%\x01> | DB: \x05%d\x01 <\x03%.1f%%\x01> | Pills: \x05%d\x01 <\x03%.1f%%\x01>]"
+	}
+
+	"RBonusLiteShort"
+	{
+		"en"		"%s\x01R\x04#%i\x01 Bonus: \x05%d\x01 <\x03%.1f%%\x01>"
+	}
+
+	"RHalfBonusLite"
+	{
+		"en"		"%s\x01R\x04#1\x01 Bonus: \x05%d\x01 <\x03%.1f%%\x01>"
+	}
+
+	"RBonusLite"
+	{
+		"en"		"%s\x01R\x04#%i\x01 Bonus: \x05%d\x01 <\x03%.1f%%\x01> [HB: \x03%.0f%%\x01 | DB: \x03%.0f%%\x01 | Pills: \x03%.0f%%\x01]"
+	}
+
+	"MapInfo"
+	{
+		"en"		"x01[\x04Hybrid Bonus\x01 :: \x03%iv%i\x01] Map Info"
+	}
+
+	"Distance"
+	{
+		"en"		"\x01Distance: \x05%d\x01"
+	}
+
+	"TotalBonus"
+	{
+		"en"		"\x01Total Bonus: \x05%d\x01 <\x03100.0%%\x01>"
+	}
+
+	"HealthBonus"
+	{
+		"en"		"\x01Health Bonus: \x05%d\x01 <\x03%.1f%%\x01>"
+	}
+
+	"DamageBonus"
+	{
+		"en"		"\x01Damage Bonus: \x05%d\x01 <\x03%.1f%%\x01>"
+	}
+
+	"PillsBonus"
+	{
+		"en"		"\x01Pills Bonus: \x05%d\x01(max \x05%d\x01) <\x03%.1f%%\x01>"
+	}
+
+	"TieBreakerBonus"
+	{
+		"en"		"\x01Tiebreaker: \x05%d\x01"
+	}
+
+	"IsBonusGot"		//this only changes format
+	{
+		"en"		"\x04%s\x01"
+	}
+
+	"WipedOut"
+	{
+		"en"		"wiped out"
+	}
+
+	"Depleted"
+	{
+		"en"		"bonus depleted"
+	}
+
+	"EQSMRBonus"
+	{
+		"en"		"%s\x01Round \x04%i\x01 Bonus: \x05%d\x01/\x05%d\x01 <\x03%.1f%%\x01> [%s]"
+	}
+
+	"TieBreaker"
+	{
+		"en"		"%s\x03TIEBREAKER\x01: Team \x04%#1\x01 - \x05%i\x01, Team \x04%#2\x01 - \x05%i\x01"
+	}
+
+	"TieBreakerAnnounce"
+	{
+		"en"		"%s\x05Teams have performed absolutely equal! Impossible to decide a clear round winner."
+	}
+}

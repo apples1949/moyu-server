@@ -1,0 +1,7 @@
+"Phrases"
+{
+	"DamageReport"
+	{
+		"en"		"\x04[DmgReport]\x01 \x03%N\x01(\x04%s\x01) took \x05%d\x01 damage from you!"
+	}
+}

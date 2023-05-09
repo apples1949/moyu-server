@@ -1,0 +1,97 @@
+"Phrases"
+{
+	"Tag"
+	{
+		"chi"		"\x04[综合奖励分]"
+	}
+
+	"RHalfBonusFull"
+	{
+		"chi"		"%s\x01R\x04#1\x01 奖励分: \x05%d\x01/\x05%d\x01 <\x03%.1f%%\x01> [%s]"
+	}
+
+	"RBonusFull"
+	{
+		"chi"		"%s\x01R\x04#%i\x01 奖励分: \x05%d\x01 <\x03%.1f%%\x01> [HB: \x05%d\x01 <\x03%.1f%%\x01> | DB: \x05%d\x01 <\x03%.1f%%\x01> | 药分: \x05%d\x01 <\x03%.1f%%\x01>]"
+	}
+
+	"RBonusLiteShort"
+	{
+		"chi"		"%s\x01R\x04#%i\x01 奖励分: \x05%d\x01 <\x03%.1f%%\x01>"
+	}
+
+	"RHalfBonusLite"
+	{
+		"chi"		"%s\x01R\x04#1\x01 奖励分: \x05%d\x01 <\x03%.1f%%\x01>"
+	}
+
+	"RBonusLite"
+	{
+		"chi"		"%s\x01R\x04#%i\x01 奖励分: \x05%d\x01 <\x03%.1f%%\x01> [HB: \x03%.0f%%\x01 | DB: \x03%.0f%%\x01 | 药分: \x03%.0f%%\x01]"
+	}
+
+	"MapInfo"
+	{
+		"chi"		"x01[\x04综合奖励分\x01 :: \x03%iv%i\x01] 地图信息"
+	}
+
+	"Distance"
+	{
+		"chi"		"\x01路程分: \x05%d\x01"
+	}
+
+	"TotalBonus"
+	{
+		"chi"		"\x01地图总分: \x05%d\x01 <\x03100.0%%\x01>"
+	}
+
+	"HealthBonus"
+	{
+		"chi"		"\x01血量奖励分: \x05%d\x01 <\x03%.1f%%\x01>"
+	}
+
+	"DamageBonus"
+	{
+		"chi"		"\x01伤害奖励分: \x05%d\x01 <\x03%.1f%%\x01>"
+	}
+
+	"PillsBonus"
+	{
+		"chi"		"\x01止痛药奖励分: \x05%d\x01(max \x05%d\x01) <\x03%.1f%%\x01>"
+	}
+
+	"TieBreakerBonus"
+	{
+		"chi"		"\x01平局决胜分: \x05%d\x01"
+	}
+
+	"IsBonusGot"		//this only changes format
+	{
+		"chi"		"\x04%s\x01"
+	}
+
+	"WipedOut"
+	{
+		"chi"		"中道崩阻"
+	}
+
+	"Depleted"
+	{
+		"chi"		"奖励分已消耗殆尽"
+	}
+
+	"EQSMRBonus"
+	{
+		"chi"		"%s\x01回合 \x04%i\x01 奖励分: \x05%d\x01/\x05%d\x01 <\x03%.1f%%\x01> [%s]"
+	}
+
+	"TieBreaker"
+	{
+		"chi"		"%s\x03平局决胜\x01: 团队 \x04%#1\x01 - \x05%i\x01, 团队 \x04%#2\x01 - \x05%i\x01"
+	}
+
+	"TieBreakerAnnounce"
+	{
+		"chi"		"%s\x05双方本轮得分绝对相等! 无法决定哪一方为本轮胜者."
+	}
+}

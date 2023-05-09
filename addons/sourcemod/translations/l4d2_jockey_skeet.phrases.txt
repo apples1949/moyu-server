@@ -1,0 +1,22 @@
+"Phrases"
+{
+	"Tag"
+	{
+		"en"		"{green}★★{default}"
+	}
+
+	"YouWereSkeeted"
+	{
+		"en"		"You were {blue}skeeted{default} by {olive}%N{default}."
+	}
+
+	"YouSkeeted"
+	{
+		"en"		"You {blue}skeeted {olive}%N{default}'s Jockey."
+	}
+
+	"SkeetAnnounce"
+	{
+		"en"		"{olive}%N{default}'s Jockey was {blue}skeeted{default} by {olive}%N{default}."
+	}
+}

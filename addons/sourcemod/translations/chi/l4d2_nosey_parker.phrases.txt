@@ -1,0 +1,7 @@
+"Phrases"
+{
+	"DamageReport"
+	{
+		"chi"		"\x04[伤害报告]\x01 你对\x03%N\x01(\x04%s\x01) 造成了 \x05%d\x01 点伤害!"
+	}
+}

@@ -1,0 +1,27 @@
+"Phrases"
+{
+	"RoundExtraBonus"
+	{
+		"en"		"Round \x05%i\x01 extra bonus"
+	}
+
+	"CurrentExtraBonus"
+	{
+		"en"		"Current Extra Bonus"
+	}
+
+	"DefibPenalty"
+	{
+		"en"		"%s (- \x04%d\x01 defib penalty)"
+	}
+
+	"BonusSet"
+	{
+		"en"		"Extra bonus set to: \x04%i\x01"
+	}
+
+	"BonusChange"
+	{
+		"en"		"Extra bonus change: %s\x04%i\x01"
+	}
+}

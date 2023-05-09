@@ -45,5 +45,16 @@
 			"message" "开启全体语音 All Talk On"
 		}
 	}
+	"服务端管理 Server Management"
+	{
+		"sm_restartmap"
+		{
+			"message" "重置当前地图 Reset Current Map"
+		}
+		"sm_restart"
+		{
+			"message" "服务器端重启 Restart Server"
+		}
+	}
 }
 

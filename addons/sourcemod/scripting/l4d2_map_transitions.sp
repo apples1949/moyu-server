@@ -52,6 +52,8 @@ public void OnPluginStart()
 	g_hMapTransitionPair = new StringMap();
 
 	RegServerCmd("sm_add_map_transition", AddMapTransition);
+
+	LoadTranslations("l4d2_map_transitions.phrases");
 }
 
 void CheckGame()
@@ -116,7 +118,8 @@ public Action OnRoundEnd_Post(Handle hTimer)
 			LogMessage("Map transitioned from: %s to: %s", sCurrentMapName, sNextMapName);
 		#endif
 
-		CPrintToChatAll("{olive}[MT]{default} Starting transition from: {blue}%s{default} to: {blue}%s", sCurrentMapName, sNextMapName);
+		CPrintToChatAll("%t", "Announce", sCurrentMapName, sNextMapName);
+		// {olive}[MT]{default} Starting transition from: {blue}%s{default} to: {blue}%s
 		ForceChangeLevel(sNextMapName, "Map Transitions");
 	}
 

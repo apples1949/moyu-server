@@ -68,6 +68,8 @@ public void OnPluginStart()
 	
 	g_fGhostDelay = g_hGhostDelayMin.FloatValue;
 	g_hGhostDelayMin.AddChangeHook(Cvar_Changed);
+
+	LoadTranslations("l4d2_nosey_parker.phrases");
 }
 
 public void Cvar_Changed(ConVar hConVar, const char[] sOldValue, const char[] sNewValue)
@@ -228,7 +230,8 @@ void PrintInflictedDamage(int iSurvivor, int iInfected)
 	
 	int iZClass = GetEntProp(iInfected, Prop_Send, "m_zombieClass");
 	
-	PrintToChat(iSurvivor, "\x04[DmgReport]\x01 \x03%N\x01(\x04%s\x01) took \x05%d\x01 damage from you!", iInfected, L4D2_InfectedNames[iZClass], g_iDamage[iSurvivor][iInfected]);
+	PrintToChat(iSurvivor, "%t", "DamageReport", iInfected, L4D2_InfectedNames[iZClass], g_iDamage[iSurvivor][iInfected]);
+	// \x04[DmgReport]\x01 \x03%N\x01(\x04%s\x01) took \x05%d\x01 damage from you!
 
 	g_fReported[iSurvivor][iInfected] = GetGameTime();
 	g_iDamage[iSurvivor][iInfected] = 0;

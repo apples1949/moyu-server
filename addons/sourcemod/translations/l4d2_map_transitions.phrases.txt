@@ -1,0 +1,7 @@
+"Phrases"
+{
+	"Announce"
+	{
+		"en"		"{olive}[MT]{default} Starting transition from: {blue}%s{default} to: {blue}%s."
+	}
+}

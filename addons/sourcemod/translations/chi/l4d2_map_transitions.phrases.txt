@@ -1,0 +1,7 @@
+"Phrases"
+{
+	"Announce"
+	{
+		"chi"		"{olive}[地图跳转]{default} 开始从: {blue}%s{default} 到: {blue}%s{default}进行地图跳转."
+	}
+}

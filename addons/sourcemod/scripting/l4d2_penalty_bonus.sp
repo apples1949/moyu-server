@@ -117,6 +117,8 @@ public void OnPluginStart()
 
 	HookEvent("round_start", Event_RoundStart, EventHookMode_PostNoCopy);
 	HookEvent("round_end", Event_RoundEnd, EventHookMode_PostNoCopy);
+
+	LoadTranslations("l4d2_penalty_bonus.phrases");
 }
 
 public void OnPluginEnd()
@@ -326,15 +328,15 @@ void DisplayBonus(int iClient = -1)
 
 	for (int iRound = 0; iRound <= iRoundNum; iRound++) {
 		if (g_bRoundOver[iRound]) {
-			Format(sMsgPartHdr, sizeof(sMsgPartHdr), "Round \x05%i\x01 extra bonus", iRound + 1);
+			Format(sMsgPartHdr, sizeof(sMsgPartHdr), "%t", "RoundExtraBonus", iRound + 1);		//Round \x05%i\x01 extra bonus
 		} else {
-			Format(sMsgPartHdr, sizeof(sMsgPartHdr), "Current extra bonus");
+			Format(sMsgPartHdr, sizeof(sMsgPartHdr), "%t", "CurrentExtraBonus");		//Current extra bonus
 		}
 
 		Format(sMsgPartBon, sizeof(sMsgPartBon), "\x04%4d\x01", g_iBonus[iRound]);
 
 		if (g_iDefibsUsed[iRound]) {
-			Format(sMsgPartBon, sizeof(sMsgPartBon), "%s (- \x04%d\x01 defib penalty)", sMsgPartBon, g_iOriginalPenalty * g_iDefibsUsed[iRound]);
+			Format(sMsgPartBon, sizeof(sMsgPartBon), "%t", "DefibPenalty", sMsgPartBon, g_iOriginalPenalty * g_iDefibsUsed[iRound]);		//%s (- \x04%d\x01 defib penalty)
 		}
 
 		if (iClient == -1) {
@@ -354,9 +356,10 @@ void ReportChange(int iBonusChange, int iClient = -1, bool bAbsoluteSet = false)
 	// report bonus to all
 	char sMsgPartBon[48];
 	if (bAbsoluteSet) { // set to a specific value
-		Format(sMsgPartBon, sizeof(sMsgPartBon), "Extra bonus set to: \x04%i\x01", g_iBonus[RoundNum()]);
+		Format(sMsgPartBon, sizeof(sMsgPartBon), "%t", "BonusSet", g_iBonus[RoundNum()]);		//Extra bonus set to: \x04%i\x01
 	} else {
-		Format(sMsgPartBon, sizeof(sMsgPartBon), "Extra bonus change: %s\x04%i\x01", (iBonusChange > 0) ? "\x04+\x01" : "\x03-\x01", RoundFloat(FloatAbs(float(iBonusChange))));
+		Format(sMsgPartBon, sizeof(sMsgPartBon), "%t", "BonusChange", (iBonusChange > 0) ? "\x04+\x01" : "\x03-\x01", RoundFloat(FloatAbs(float(iBonusChange))));
+		// Extra bonus change: %s\x04%i\x01
 	}
 
 	if (iClient == -1) {
