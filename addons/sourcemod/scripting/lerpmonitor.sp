@@ -104,6 +104,8 @@ public void OnPluginStart()
 	HookEvent("player_team", OnTeamChange, EventHookMode_Post);
 	HookEvent("player_disconnect", Event_PlayerDisconnect, EventHookMode_Post);
 	HookEvent("player_left_start_area", Event_RoundGoesLive, EventHookMode_PostNoCopy);
+
+	LoadTranslations("lerpmonitor.phrases");
 	
 	// create arrays
 	ArrLerpsValue = new StringMap();
@@ -218,7 +220,8 @@ public Action Lerps_Cmd(int client, int args)
 {
 	bool isEmpty = true;
 	if (ArrLerpsValue.Size > 0) {
-		ReplyToCommand(client, "[!] Lerp setting list:");
+		ReplyToCommand(client, "%t", "LerpSettingList");
+		// [!] Lerp setting list:
 		
 		float fLerpValue;
 		char sSteamID[STEAMID_SIZE];
@@ -227,7 +230,8 @@ public Action Lerps_Cmd(int client, int args)
 				GetClientAuthId(i, AuthId_Steam2, sSteamID, sizeof(sSteamID));
 				
 				if (ArrLerpsValue.GetValue(sSteamID, fLerpValue)) {
-					ReplyToCommand(client, "%N [%s]: %.01f", i, sSteamID, fLerpValue * 1000);
+					ReplyToCommand(client, "%t", "Format", i, sSteamID, fLerpValue * 1000);
+					// %N [%s]: %.01f
 					isEmpty = false;
 				}
 			}
@@ -235,7 +239,8 @@ public Action Lerps_Cmd(int client, int args)
 	}
 	
 	if (isEmpty) {
-		ReplyToCommand(client, "There is nothing here!");
+		ReplyToCommand(client, "%t", "Nothing");
+		// There is nothing here!
 	}
 	return Plugin_Handled;
 }
@@ -283,9 +288,11 @@ void ProcessPlayerLerp(int client, bool load = false, bool team = false)
 				}
 			}
 			
-			CPrintToChatAllEx(client, "{default}<{olive}Lerp{default}> {teamcolor}%N {default}was moved to spectators for lerp {teamcolor}%.01f", client, newLerpTime * 1000);
+			CPrintToChatAllEx(client, "%t %t", "Tag", "Spec_Lerp", client, newLerpTime * 1000);
+			// {default}<{olive}Lerp{default}> {teamcolor}%N {default}was moved to spectators for lerp {teamcolor}%.01f
 			ChangeClientTeam(client, L4D_TEAM_SPECTATE);
-			CPrintToChatEx(client, client, "{default}<{olive}Lerp{default}> Illegal lerp value (min: {teamcolor}%.01f{default}, max: {teamcolor}%.01f{default})", cVarMinLerp.FloatValue * 1000, cVarMaxLerp.FloatValue * 1000);
+			CPrintToChatEx(client, client, "%t %t", "Tag", "IllegalLerp", cVarMinLerp.FloatValue * 1000, cVarMaxLerp.FloatValue * 1000);
+			// {default}<{olive}Lerp{default}> Illegal lerp value (min: {teamcolor}%.01f{default}, max: {teamcolor}%.01f{default})
 		}
 		
 		// nothing else to do
@@ -296,7 +303,8 @@ void ProcessPlayerLerp(int client, bool load = false, bool team = false)
 	if (!ArrLerpsValue.GetValue(steamID, currentLerpTime)) {
 		// add to array
 		if (team && cVarShowLerpTeamChange.BoolValue) {
-			CPrintToChatAllEx(client, "{default}<{olive}Lerp{default}> {teamcolor}%N {default}@ {teamcolor}%.01f", client, newLerpTime * 1000);
+			CPrintToChatAllEx(client, "%t %t", "Tag", "Lerp", client, newLerpTime * 1000);
+			// {teamcolor}%N {default}@ {teamcolor}%.01f
 		}
 
 		ArrLerpsValue.SetValue(steamID, newLerpTime, true);
@@ -306,7 +314,8 @@ void ProcessPlayerLerp(int client, bool load = false, bool team = false)
 	
 	if (currentLerpTime == newLerpTime) { // no change?
 		if (team && cVarShowLerpTeamChange.BoolValue) {
-			CPrintToChatAllEx(client, "{default}<{olive}Lerp{default}> {teamcolor}%N {default}@ {teamcolor}%.01f", client, newLerpTime * 1000); 
+			CPrintToChatAllEx(client, "%t %t", "Tag", "Lerp", client, newLerpTime * 1000); 
+			// {teamcolor}%N {default}@ {teamcolor}%.01f
 		}
 		return;
 	}
@@ -317,19 +326,22 @@ void ProcessPlayerLerp(int client, bool load = false, bool team = false)
 		count++;
 		
 		int max = cVarAllowedLerpChanges.IntValue;
-		CPrintToChatAllEx(client, "{default}<{olive}Lerp{default}> {teamcolor}%N {default}@ {teamcolor}%.01f {default}<== {green}%.01f {default}[%s%d{default}/%d {olive}changes]", client, newLerpTime * 1000, currentLerpTime * 1000, ((count > max) ? "{teamcolor} ": ""), count, max);
-	
+		CPrintToChatAllEx(client, "%t %t", "Tag", "LerpChange", client, newLerpTime * 1000, currentLerpTime * 1000, ((count > max) ? "{teamcolor} ": ""), count, max);
+		// {default}<{olive}Lerp{default}> {teamcolor}%N {default}@ {teamcolor}%.01f {default}<== {green}%.01f {default}[%s%d{default}/%d {olive}changes]
 		if (cVarLerpChangeSpec.BoolValue && (count > max)) {
-			CPrintToChatAllEx(client, "{default}<{olive}Lerp{default}> {teamcolor}%N {default}was moved to spectators (illegal lerp change)!", client);
+			CPrintToChatAllEx(client, "%t %t", "Tag","Spec_ChangeLerp", client);
+			// {default}<{olive}Lerp{default}> {teamcolor}%N {default}was moved to spectators (illegal lerp change)!
 			ChangeClientTeam(client, L4D_TEAM_SPECTATE);
-			CPrintToChatEx(client, client, "{default}<{olive}Lerp{default}> Illegal change of Lerp midgame! Change it back to {teamcolor}%.01f", currentLerpTime * 1000);
+			CPrintToChatEx(client, client, "%t %t", "Tag", "NoMidChange", currentLerpTime * 1000);
+			// {default}<{olive}Lerp{default}> Illegal change of Lerp midgame! Change it back to {teamcolor}%.01f
 			// no lerp update
 			return;
 		}
 		
 		ArrLerpsCountChanges.SetValue(steamID, count); // update changes
 	} else {
-		CPrintToChatAllEx(client, "{default}<{olive}Lerp{default}> {teamcolor}%N {default}@ {teamcolor}%.01f {default}<== {green}%.01f", client, newLerpTime * 1000, currentLerpTime * 1000);
+		CPrintToChatAllEx(client, "%t %t", "Tag", "ChangedBack", client, newLerpTime * 1000, currentLerpTime * 1000);
+		// {default}<{olive}Lerp{default}> {teamcolor}%N {default}@ {teamcolor}%.01f {default}<== {green}%.01f
 	}
 	
 	ArrLerpsValue.SetValue(steamID, newLerpTime); // update lerp

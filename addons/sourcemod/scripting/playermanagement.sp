@@ -61,6 +61,7 @@ public void OnPluginStart()
 	LoadGamedata();
 
 	LoadTranslations("common.phrases");
+	LoadTranslations("playermanagement.phrases");
 
 	RegAdminCmd("sm_swap", Swap_Cmd, ADMFLAG_KICK, "sm_swap <player1> [player2] ... [playerN] - swap all listed players to opposite teams");
 	RegAdminCmd("sm_swapto", SwapTo_Cmd, ADMFLAG_KICK, "sm_swapto [force] <teamnum> <player1> [player2] ... [playerN] - swap all listed players to <teamnum> (1,2, or 3)");
@@ -155,7 +156,8 @@ public Action Spectate_Cmd(int client, int args)
 	{
 		if ((L4D2_GetInfectedAttacker(client) != -1 && !L4D_IsPlayerIncapacitated(client)) || GetPummelQueueAttacker(client) != -1)
 		{
-			CPrintToChat(client, "No spectating while capped!");
+			CPrintToChat(client, "%t", "NoCappedSpec");
+			// No spectating while capped!
 			return Plugin_Handled;
 		}
 		else
@@ -181,7 +183,8 @@ public Action Spectate_Cmd(int client, int args)
 	
 	if (!GetConVarBool(l4d_pm_supress_spectate) && team != L4D2Team_Spectator && SpecTimer[client] == INVALID_HANDLE)
 	{
-		CPrintToChatAllEx(client, "{teamcolor}%N{default} has become a spectator!", client);
+		CPrintToChatAllEx(client, "%t", "BeSpec", client);
+		// {teamcolor}%N{default} has become a spectator!
 	}
 	
 	if (SpecTimer[client] == INVALID_HANDLE) SpecTimer[client] = CreateTimer(7.0, SecureSpec, client);
@@ -383,7 +386,8 @@ stock void ApplySwaps(int sender, bool force)
 			{
 				if (sender > 0)
 				{
-					PrintToChat(sender, "%N could not be switched because the target team was full or has no bot to take over.", client);
+					PrintToChat(sender, "%t", "SwitchFailed", client);
+					// %N could not be switched because the target team was full or has no bot to take over.
 				}
 			}
 			pendingSwaps[client] = L4D2Team_None;

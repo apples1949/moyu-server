@@ -1,0 +1,20 @@
+"Phrases"
+{
+	"NoCappedSpec"
+	{
+		"en"		"No spectating while capped!"
+		"chi"		"被控时不允许旁观!"
+	}
+
+	"BeSpec"
+	{
+		"en"		"{teamcolor}%N{default} has become a spectator!"
+		"chi"		"{teamcolor}%N{default} 已成为旁观者!"
+	}
+
+	"SwitchFailed"
+	{
+		"en"		"%N could not be switched because the target team was full or has no bot to take over."
+		"chi"		"%N 不能切换团队, 因为目标团队已满或没有bot来接管."
+	}
+}

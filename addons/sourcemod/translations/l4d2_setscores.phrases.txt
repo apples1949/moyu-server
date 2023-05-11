@@ -1,0 +1,50 @@
+"Phrases"
+{
+	"ReadyupStatusRequired"
+	{
+		"en"		"Scores can only be changed during readyup before the round starts."
+		"chi"		"只有在轮回开始前的准备阶段才能设置分数."
+	}
+
+	"NoSpec"
+	{
+		"en"		"Score voting isn't allowed for spectators."
+		"chi"		"旁观者不允许投票设置分数."
+	}
+
+	"EnoughPlayersRequired"
+	{
+		"en"		"Score vote cannot be started. Not enough players."
+		"chi"		"分数投票不能进行. 没有足够的玩家."
+	}
+
+	"ChangeScore"
+	{
+		"en"		"Change scores to %d - %d?"
+		"chi"		"将双方分数改变为 %d - %d?"
+	}
+
+	"CannotVoteNow"
+	{
+		"en"		"Score vote cannot be started now."
+		"chi"		"分数投票不能现在进行."
+	}
+
+	"WhoSetScore"
+	{
+		"en"		"\x01Scores set to \x05%d \x01 (\x04Sur\x01) - \x05%d \x01 (\x04Inf\x01) by \x03%s\x01."
+		"chi"		"\x01分数已由 \x03%s\x01 设置为 \x05%d \x01 (\x04生还\x01) - \x05%d \x01 (\x04特感\x01)."
+	}
+
+	"VoteSetScore"
+	{
+		"en"		"\x01Scores set to \x05%d \x01 (\x04Sur\x01) - \x05%d \x01 (\x04Inf\x01) by vote."
+		"chi"		"\x01分数已由投票设置为 \x05%d \x01 (\x04生还\x01) - \x05%d \x01 (\x04特感\x01)."
+	}
+
+	"ChangingScore"
+	{
+		"en"		"Changing Scores..."
+		"chi"		"设置分数中..."
+	}
+}

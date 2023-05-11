@@ -2,7 +2,7 @@
 {
 	"Tag"
 	{
-		"chi"		"<{olive}尸潮{default}>"
+		"chi"		"<{olive}Horde{default}>"
 	}
 
 	"NoCommonRemaining"
@@ -17,6 +17,6 @@
 
 	"EventStart"
 	{
-		"chi"		"一个有{olive}%i{default}个小丧尸的{blue}有限事件{default}已开始! 冲或守, 决定权在于你们!"
+		"chi"		"一个有{olive}%i{default}个小丧尸的{blue}有限尸潮事件{default}已开始! 冲或守, 决定权在于你们!"
 	}
 }

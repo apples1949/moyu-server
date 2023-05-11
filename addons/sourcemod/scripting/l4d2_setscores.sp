@@ -53,6 +53,9 @@ int
 bool 
 	inFirstReadyUpOfRound;
 
+char
+	ChangingScore[128] = "'%t', 'ChangingScore'";
+
 //Beginning of our plugin, verifies the game is l4d2 and sets up our convars/command
 public void OnPluginStart()
 {
@@ -64,6 +67,8 @@ public void OnPluginStart()
 	forceAdminsToVote = CreateConVar("setscore_force_admin_vote", "0", "Whether admin score changes require a vote, 1 vote required, 0 vote not required (default).");
 	
 	RegConsoleCmd("sm_setscores", Command_SetScores, "sm_setscores <survivor score> <infected score>");
+
+	LoadTranslations("l4d2_setscores.phrases");
 }
 
 void CheckGame()
@@ -99,7 +104,8 @@ public Action Command_SetScores(int client, int args)
 {
 	//Only allow during the first ready up of the round
 	if (!inFirstReadyUpOfRound) {
-		ReplyToCommand(client, "Scores can only be changed during readyup before the round starts.");
+		ReplyToCommand(client, "%t", "ReadyupStatusRequired");
+		// Scores can only be changed during readyup before the round starts.
 		return Plugin_Handled;
 	}
 	
@@ -142,7 +148,8 @@ void StartScoreVote(const int survScore, const int infectScore, const int initia
 {
 	//Disallow spectator voting
 	if (!IsAdmin && GetClientTeam(initiator) == L4D_TEAM_SPECTATE) {
-		PrintToChat(initiator, "Score voting isn't allowed for spectators.");
+		PrintToChat(initiator, "%t", "NoSpec");
+		// Score voting isn't allowed for spectators.
 		return;
 	}
 
@@ -159,7 +166,7 @@ void StartScoreVote(const int survScore, const int infectScore, const int initia
 
 		//If there aren't enough players for the vote indicate so to the user
 		if (iNumPlayers < minimumPlayersForVote.IntValue) {
-			PrintToChat(initiator, "Score vote cannot be started. Not enough players.");
+			PrintToChat(initiator, "%t", "EnoughPlayersRequired");
 			return;
 		}
 		
@@ -172,7 +179,8 @@ void StartScoreVote(const int survScore, const int infectScore, const int initia
 		
 		//Set the text for the vote, initiating client and handler
 		char sBuffer[64];
-		Format(sBuffer, sizeof(sBuffer), "Change scores to %d - %d?", survivorScore, infectedScore);
+		Format(sBuffer, sizeof(sBuffer), "%t", "ChangeScore", survivorScore, infectedScore);
+		// Change scores to %d - %d?
 		SetBuiltinVoteArgument(voteHandler, sBuffer);
 		SetBuiltinVoteInitiator(voteHandler, initiator);
 		SetBuiltinVoteResultCallback(voteHandler, ScoreVoteResultHandler);
@@ -183,7 +191,8 @@ void StartScoreVote(const int survScore, const int infectScore, const int initia
 		return;
 	}
 
-	PrintToChat(initiator, "Score vote cannot be started now.");
+	PrintToChat(initiator, "%t", "CannotVoteNow");
+	// Score vote cannot be started now.
 }
 
 //Actually sets the scores of the teams and print the results to all chat
@@ -204,9 +213,11 @@ void SetScores(const int survScore, const int infectScore, const int iAdminIndex
 	if (iAdminIndex != -1) { //This works well for an index '0' as well, if the initiator is CONSOLE
 		char client_name[32];
 		GetClientName(iAdminIndex, client_name, sizeof(client_name));
-		PrintToChatAll("\x01Scores set to \x05%d \x01 (\x04Sur\x01) - \x05%d \x01 (\x04Inf\x01) by \x03%s\x01.", survScore, infectScore, client_name);
+		PrintToChatAll("%t", "WhoSetScore", survScore, infectScore, client_name);
+		// \x01Scores set to \x05%d \x01 (\x04Sur\x01) - \x05%d \x01 (\x04Inf\x01) by \x03%s\x01.
 	} else {
-		PrintToChatAll("\x01Scores set to \x05%d \x01 (\x04Sur\x01) - \x05%d \x01 (\x04Inf\x01) by vote.", survScore, infectScore);
+		PrintToChatAll("%t", "VoteSetScore", survScore, infectScore);
+		// \x01Scores set to \x05%d \x01 (\x04Sur\x01) - \x05%d \x01 (\x04Inf\x01) by vote.
 	}
 }
 
@@ -229,7 +240,7 @@ public void ScoreVoteResultHandler(Handle vote, int num_votes, int num_clients, 
 	for (int i = 0; i < num_items; i++) {
 		if (item_info[i][BUILTINVOTEINFO_ITEM_INDEX] == BUILTINVOTES_VOTE_YES) {
 			if (item_info[i][BUILTINVOTEINFO_ITEM_VOTES] > (num_clients / 2)) {
-				DisplayBuiltinVotePass(vote, "Changing scores...");
+				DisplayBuiltinVotePass(vote, ChangingScore);
 				SetScores(survivorScore, infectedScore, -1);
 				return;
 			}

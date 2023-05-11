@@ -95,6 +95,8 @@ public void OnPluginStart()
 
 	RegConsoleCmd("sm_secondary", ChangeSecondaryFlags);
 
+	LoadTranslations("l4d2_pickup.phrases");
+
 	if (bLateLoad) {
 		for (int i = 1; i <= MaxClients; i++) {
 			HookValidClient(i, true);

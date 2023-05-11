@@ -124,6 +124,8 @@ public OnPluginStart()
 	SM_iAdrenPercent = GetConVarInt(SM_hAdrenPercent);
 	
 	RegConsoleCmd("sm_health", SM_Cmd_Health);
+
+	LoadTranslations("l4d2_scoremod.phrases");
 }
 
 public OnAllPluginsLoaded()
@@ -266,8 +268,9 @@ public Action:SM_RoundEnd_Event(Handle:event, const String:name[], bool:dontBroa
 		
 		// If the score is nonzero, trust the SurvivalBonus var.
 		SM_iFirstScore = (SM_iFirstScore ? GetConVarInt(SM_hSurvivalBonus) *iAliveCount : 0);
-		CPrintToChatAll("{blue}[{default}!{blue}] {default}Round {blue}1 {default}Bonus: {olive}%d", SM_iFirstScore);
-		if (GetConVarBool(SM_hCustomMaxDistance) && GetCustomMapMaxScore() > -1) CPrintToChatAll("{blue}[{default}!{blue}] {default}Custom Max Distance: {olive}%d", GetCustomMapMaxScore());
+		CPrintToChatAll("%t", "RoundOneBonus", SM_iFirstScore);		
+		//{blue}[{default}!{blue}] {default}Round {blue}1 {default}Bonus: {olive}%d
+		if (GetConVarBool(SM_hCustomMaxDistance) && GetCustomMapMaxScore() > -1) CPrintToChatAll("%t", "CustomDistanceBonus", GetCustomMapMaxScore());
 	}
 	else if (SM_bIsSecondRoundStarted && !SM_bIsSecondRoundOver)
 	{
@@ -278,12 +281,15 @@ public Action:SM_RoundEnd_Event(Handle:event, const String:name[], bool:dontBroa
 		new iScore = RoundToFloor(SM_CalculateAvgHealth(iAliveCount) * SM_fMapMulti * SM_fHBRatio + 400 * SM_fMapMulti * SM_fSurvivalBonusRatio);
 		// If the score is nonzero, trust the SurvivalBonus var.
 		iScore = iScore ? GetConVarInt(SM_hSurvivalBonus) * iAliveCount : 0; 
-		CPrintToChatAll("{blue}[{default}!{blue}] {default}Round {blue}1 {default}Bonus: {olive}%d", SM_iFirstScore);
-		CPrintToChatAll("{blue}[{default}!{blue}] {default}Round {blue}2 {default}Bonus: {olive}%d", iScore);
+		CPrintToChatAll("%t", "RoundOneBonus", SM_iFirstScore);
+		CPrintToChatAll("%t", "RoundTowBonus", iScore);
+		// {blue}[{default}!{blue}] {default}Round {blue}1 {default}Bonus: {olive}%d
+		// {blue}[{default}!{blue}] {default}Round {blue}2 {default}Bonus: {olive}%d
 		iDifference = SM_iFirstScore - iScore;
 		if (iScore > SM_iFirstScore) iDifference = (~iDifference) + 1;
-		CPrintToChatAll("{red}[{default}!{red}] {default}Difference: {olive}%d", iDifference);
-		if (GetConVarBool(SM_hCustomMaxDistance) && GetCustomMapMaxScore() > -1) CPrintToChatAll("{blue}[{default}!{blue}] {default}Custom Max Distance: {olive}%d", GetCustomMapMaxScore());
+		CPrintToChatAll("%t", "Difference", iDifference);		///{red}[{default}!{red}] {default}Difference: {olive}%d
+		if (GetConVarBool(SM_hCustomMaxDistance) && GetCustomMapMaxScore() > -1) CPrintToChatAll("%t", "CustomDistanceBonus", GetCustomMapMaxScore());
+		// {blue}[{default}!{blue}] {default}Custom Max Distance: {olive}%d
 	}
 }
 public Action:SM_RoundStart_Event(Handle:event, const String:name[], bool:dontBroadcast)
@@ -318,7 +324,8 @@ public Action:SM_Cmd_Health(client, args)
     {
 		iDifference = SM_iFirstScore - iScore;
 		if (iScore > SM_iFirstScore) iDifference = (~iDifference) + 1;
-		CPrintToChat(client, "{blue}[{default}!{blue}] {default}Round {blue}1 {default}Bonus: {olive}%d {default}({green}Difference: {olive}%d{default})", SM_iFirstScore, iDifference);
+		CPrintToChat(client, "%t", "RoundOneBonus_Difference", SM_iFirstScore, iDifference);
+		// {blue}[{default}!{blue}] {default}Round {blue}1 {default}Bonus: {olive}%d {default}({green}Difference: {olive}%d{default})
 	}
 	
 	#if DEBUG_SM
@@ -327,7 +334,8 @@ public Action:SM_Cmd_Health(client, args)
 	
 	if (client)
 	{
-		CPrintToChat(client, "{blue}[{default}!{blue}] {default}Health Bonus: {olive}%d", iScore );
+		CPrintToChat(client, "%t", "HealthBonus", iScore );
+		// {blue}[{default}!{blue}] {default}Health Bonus: {olive}%d
 	}
 	else
 	{
@@ -336,7 +344,7 @@ public Action:SM_Cmd_Health(client, args)
 
 	if (GetConVarBool(SM_hCustomMaxDistance) && GetCustomMapMaxScore() > -1) {
 		if (client) {
-			CPrintToChat(client, "{blue}[{default}!{blue}] {default}Custom Max Distance: {olive}%d", GetCustomMapMaxScore());
+			CPrintToChat(client, "%t", "CustomDistanceBonus", GetCustomMapMaxScore());
 		}
 		else {
 			PrintToServer("[ScoreMod] Custom Max Distance: %d", GetCustomMapMaxScore());
