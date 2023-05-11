@@ -38,6 +38,7 @@ public Plugin myinfo =
 1.2 版本 旁观不参与投票
 1.3 版本 增加Cvar控制投票文件, 1.11新语法, 增加sourcebans 1天封禁投票[分数大于300000]
 1.4 版本 移植大红投票插件部分代码，移植多语言翻译文本支持，移植投票回血功能
+1.5 版本 全面翻译输出文字
 */
 
 Handle
@@ -51,7 +52,12 @@ ConVar
 
 char
 	g_sCfg[128],
-	g_sVoteFile[128];
+	g_sVoteFile[128],
+	LoadingCFG[128] = "'%t', 'LoadingCFG'",
+	VotingDone[128] = "'%t', 'VotingDone'",
+	KickDone[128] = "'%t', 'KickDone'",
+	BanDone[128] = "'%t', 'BanDone'",
+	Reason[128] = "'%t', 'Reason'";
 
 int 
 	banclient,
@@ -203,7 +209,7 @@ bool FindConfigName(char[] cfg, char[] message, int maxlength)
 void ShowVoteMenu(int client)
 {
 	Handle hMenu = CreateMenu(VoteMenuHandler, MENU_ACTIONS_DEFAULT);
-	SetMenuTitle(hMenu, "选择:");
+	SetMenuTitle(hMenu, "%t", "Select1");		//选择:
 	char sBuffer[64];
 	KvRewind(g_hCfgsKV);
 	if (KvGotoFirstSubKey(g_hCfgsKV, true))
@@ -227,7 +233,7 @@ public int VoteMenuHandler(Handle menu, MenuAction action, int param1, int param
 		if (KvJumpToKey(g_hCfgsKV, sInfo, false) && KvGotoFirstSubKey(g_hCfgsKV, true))
 		{
 			Handle hMenu = CreateMenu(ConfigsMenuHandler, MENU_ACTIONS_DEFAULT);
-			Format(sBuffer, sizeof(sBuffer), "选择 %s :", sInfo);
+			Format(sBuffer, sizeof(sBuffer), "%t", "Select2", sInfo);		//选择 %s :
 			SetMenuTitle(hMenu, sBuffer);
 			do {
 				KvGetSectionName(g_hCfgsKV, sInfo,  sizeof(sInfo));
@@ -291,7 +297,7 @@ bool StartVote(int client, char[] cfgname)
 	{
 		char sBuffer[64];
 		g_hVote = CreateBuiltinVote(VoteActionHandler, BuiltinVoteType_Custom_YesNo, BUILTINVOTE_ACTIONS_DEFAULT);
-		Format(sBuffer, 64, "执行 '%s' ?", cfgname);
+		Format(sBuffer, 64, "%t", "Execute", cfgname);		//执行 '%s' ?
 		SetBuiltinVoteArgument(g_hVote, sBuffer);
 		SetBuiltinVoteInitiator(g_hVote, client);
 		SetBuiltinVoteResultCallback(g_hVote, VoteResultHandler);
@@ -329,24 +335,24 @@ public void VoteResultHandler(Handle vote, int num_votes, int num_clients, const
 			{
 				if (g_hVote == vote)
 				{
-					DisplayBuiltinVotePass(vote, "文件正在加载...");
+					DisplayBuiltinVotePass(vote, LoadingCFG);		//Cfg文件正在加载...
 					ServerCommand("%s", g_sCfg);
 					return;
 				}
 				if (g_hVoteKick == vote)
 				{
-					DisplayBuiltinVotePass(vote, "投票已完成...");
-					KickClient(kickclient, "投票踢出");
+					DisplayBuiltinVotePass(vote, VotingDone);		//投票已完成...
+					KickClient(kickclient, KickDone);		//投票踢出
 					return;
 				}
 				if (g_hVoteBan == vote)
 				{
-					DisplayBuiltinVotePass(vote, "投票已完成...");
+					DisplayBuiltinVotePass(vote, VotingDone);
 					if(g_bSourceBansSystemAvailable){
-						SBPP_BanPlayer(voteclient, banclient, 1440, "投票封禁");
+						SBPP_BanPlayer(voteclient, banclient, 1440, BanDone);		//投票封禁
 					}else
 					{
-						BanClient(banclient,  1440, ADMFLAG_BAN, "投票封禁", "你已被当前服务器踢出，原因为投票封禁");
+						BanClient(banclient,  1440, ADMFLAG_BAN, BanDone, Reason);		//你已被当前服务器踢出，原因为投票封禁
 					}
 				}
 			}
@@ -371,7 +377,7 @@ void CreateVotekickMenu(int client)
 	char name[126];
 	char info[128];
 	char playerid[128];
-	SetMenuTitle(menu, "选择踢出玩家");
+	SetMenuTitle(menu, "%t", "SelectKick");		//选择踢出玩家
 	int i = 1;
 	while (i <= MaxClients)
 	{
@@ -422,7 +428,7 @@ public bool DisplayVoteKickMenu(int client)
 	{
 		char sBuffer[128];
 		g_hVoteKick = CreateBuiltinVote(VoteActionHandler, BuiltinVoteType_Custom_YesNo, BUILTINVOTE_ACTIONS_DEFAULT);
-		Format(sBuffer, 128, "踢出 '%N' ?", kickclient);
+		Format(sBuffer, 128, "%t", "Kick", kickclient);		//踢出 '%N' ?
 		SetBuiltinVoteArgument(g_hVoteKick, sBuffer);
 		SetBuiltinVoteInitiator(g_hVoteKick, client);
 		SetBuiltinVoteResultCallback(g_hVoteKick, VoteResultHandler);
@@ -458,7 +464,7 @@ void CreateVoteBanMenu(int client)
 	char name[126];
 	char info[128];
 	char playerid[128];
-	SetMenuTitle(menu, "选择封禁玩家");
+	SetMenuTitle(menu, "%t", "SelectBan");		//选择封禁玩家
 	int i = 1;
 	while (i <= MaxClients)
 	{
@@ -522,7 +528,7 @@ public bool DisplayVoteBanMenu(int client)
 		}
 		char sBuffer[128];
 		g_hVoteBan = CreateBuiltinVote(VoteActionHandler, BuiltinVoteType_Custom_YesNo, BUILTINVOTE_ACTIONS_DEFAULT);
-		Format(sBuffer, 128, "封禁 '%N' 一天?", banclient);
+		Format(sBuffer, 128, "%t", "OneDay", banclient);		//封禁 '%N' 一天?
 		SetBuiltinVoteArgument(g_hVoteBan, sBuffer);
 		SetBuiltinVoteInitiator(g_hVoteBan, client);
 		SetBuiltinVoteResultCallback(g_hVoteBan, VoteResultHandler);

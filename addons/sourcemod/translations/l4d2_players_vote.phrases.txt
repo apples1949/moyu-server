@@ -71,4 +71,77 @@
 		"en"		"[{olive}vote{default}] {default}({olive}%N{default}) {blue}Initiate a vote to ban {default}({olive}%N{default}) {blue} for 1 day."
 		"chi"		"[{olive}vote{default}] {default}({olive}%N{default}) {blue}发起投票封禁 {default}({olive}%N{default}) {blue} 一天"
 	}
+
+	//The Following phrases aren't allowed to use color tag.
+	"LoadingCFG"
+	{
+		"en"		"Loading Cfg..."
+		"chi"		"Cfg文件正在加载..."
+	}
+
+	"VotingDone"
+	{
+		"en"		"Vote Finished..."
+		"chi"		"投票已完成..."
+	}
+
+	"KickDone"
+	{
+		"en"		"Kicked by vote"
+		"chi"		"投票踢出"
+	}
+
+	"BanDone"
+	{
+		"en"		"Banned by vote"
+		"chi"		"投票封禁"
+	}
+
+	"Reason"
+	{
+		"en"		"You are kicked from this server because you are banned by vote"
+		"chi"		"你已被当前服务器踢出，原因为投票封禁"
+	}
+
+	"Select1"
+	{
+		"en"		"Select:"
+		"chi"		"选择:"
+	}
+
+	"Select2"
+	{
+		"en"		"Select %s :"
+		"chi"		"选择 %s :"
+	}
+
+	"Execute"
+	{
+		"en"		"Execute '%s' ?"
+		"chi"		"执行 '%s' ?"
+	}
+
+	"SelectKick"
+	{
+		"en"		"Select a player to kick"
+		"chi"		"选择踢出玩家"
+	}
+
+	"Kick"
+	{
+		"en"		"Kick '%N' ?"
+		"chi"		"踢出 '%N' ?"
+	}
+
+	"SelectBan"
+	{
+		"en"		"Select a player to ban"
+		"chi"		"选择封禁玩家"
+	}
+
+	"OneDay"
+	{
+		"en"		"Ban '%N' for one day?"
+		"chi"		"封禁 '%N' 一天?"
+	}
 }
