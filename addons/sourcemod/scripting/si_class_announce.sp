@@ -77,6 +77,8 @@ public void OnPluginStart()
 	HookEvent("round_end", Event_RoundEnd, EventHookMode_PostNoCopy);
 	HookEvent("player_left_start_area", Event_PlayerLeftStartArea, EventHookMode_Post);
 	HookEvent("player_team", Event_PlayerTeam);
+
+	LoadTranslations("si_class_announce.phrases");
 }
 
 public void OnMapEnd()
@@ -194,7 +196,8 @@ bool ProcessSIString(char[] msg, int maxlength, bool footer = false)
 		return false;
 	}
 
-	strcopy(msg, maxlength, footer ? "SI: " : "Special Infected: ");
+	strcopy(msg, maxlength, footer ? "SI: " : "'%t', 'SIs'");
+	// Special Infected: 
 	
 	int printFlags = g_hCvarPrint.IntValue;
 	bool useColor = !footer && (printFlags & CHAT_FLAG);

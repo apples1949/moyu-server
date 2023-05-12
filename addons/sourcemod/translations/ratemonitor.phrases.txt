@@ -1,0 +1,98 @@
+"Phrases"
+{
+	"Tag"
+	{
+		"en"		"{default}<{olive}Rates{default}>"
+		"chi"		"{default}<{olive}Rates{default}>"
+	}
+
+	"RateSettingsList"
+	{
+		"en"		"\x01[RateMonitor] List of player netsettings(\x03cmd\x01/\x04upd\x01/\x05rate\x01):"
+		"chi"		"\x01[RateMonitor] 玩家网络参数设置列表(\x03cmd\x01/\x04upd\x01/\x05rate\x01):"
+	}
+
+	"Format"	//ReplyToCommand(client, "%t", "Format", iClient, player.Client_Cmdrate, player.Client_Updaterate, player.Client_Rate);
+	{
+		"en"		"\x03%N\x01 : %d/%d/%d"
+		"chi"		"\x03%N\x01 : %d/%d/%d"
+	}
+
+	"ChangeRate"
+	{
+		"en"		"{teamcolor}%N{default}'s netsettings changed from {teamcolor}%d/%d/%d {default}to {teamcolor}%d/%d/%d {olive}%s"
+		"chi"		"{teamcolor}%N{default} 的网络参数从 {teamcolor}%d/%d/%d {default}改变为 {teamcolor}%d/%d/%d {olive}%s"
+	}
+
+	"SetRate"
+	{
+		"en"		"{teamcolor}%N{default}'s netsettings set to {teamcolor}%d/%d/%d"
+		"chi"		"{teamcolor}%N{default} 的网络参数设置为 {teamcolor}%d/%d/%d"
+	}
+
+	"IllegalChange"
+	{
+		"en"		"{teamcolor}%N{default}'s netsettings set to illegal values: {teamcolor}%s/%s/%s {olive}%s"
+		"chi"		"{teamcolor}%N{default} 的网络参数设置成了一组非法值: {teamcolor}%s/%s/%s {olive}%s"
+	}
+
+	"IllegalMidChange"
+	{
+		"en"		"{teamcolor}%N{default}'s illegaly changed netsettings midgame: {teamcolor}%s/%s/%s {olive}%s"
+		"chi"		"{teamcolor}%N{default} 非法地在游戏中局改变网络参数: {teamcolor}%s/%s/%s {olive}%s"
+	}
+
+	"Spec_Rate"
+	{
+		"en"		"{teamcolor}%N {default}was moved to spectators for illegal netsettings: {teamcolor}%s/%s/%s {olive}%s"
+		"chi"		"{teamcolor}%N {default}因非法的网络参数而被移动至旁观者: {teamcolor}%s/%s/%s {olive}%s"
+	}
+
+	"AdjustNotice"
+	{
+		"en"		"Please adjust your rates to values higher than {olive}%d/%d/%d%s"
+		"chi"		"请调整您的网络参数值并使之高于 {olive}%d/%d/%d%s"
+	}
+
+	"RemoveCharacters"
+	{
+		"en"		" and remove any non-digital characters"
+		"chi"		" 并移除任何非数字字符"
+	}
+
+	"ChangeBack"
+	{
+		"en"		"Change your netsettings back to: {teamcolor}%d/%d/%d"
+		"chi"		"请改变回您的网络参数至: {teamcolor}%d/%d/%d"
+	}
+
+	"KickedAdjustNotice"
+	{
+		"en"		"Please use rates higher than %d/%d/%d%s"
+		"chi"		"请使用高于这一组的网络参数值: %d/%d/%d%s"
+	}
+
+	"KickedRemoveNonDigits"
+	{
+		"en"		" and remove any non-digits"
+		"chi"		" 并移除任何非数字字符"
+	}
+
+	"Kick_Rate"
+	{
+		"en"		"{teamcolor}%N {default}was kicked for illegal netsettings: {teamcolor}%s/%s/%s {olive}%s"
+		"chi"		"{teamcolor}%N {default}因非法的网络参数而被踢出服务器: {teamcolor}%s/%s/%s {olive}%s"
+	}
+
+	"KickedChangeBack"
+	{
+		"en"		"Change your rates to previous values and remove non-digits: %d/%d/%d"
+		"chi"		"请改变您的网络参数值至先前的值并移除任何非数字字符: %d/%d/%d"
+	}
+
+	"KickNotice"
+	{
+		"en"		"{teamcolor}%N {default}was kicked due to illegal netsettings change: {teamcolor}%s/%s/%s {olive}%s"
+		"chi"		"{teamcolor}%N {default}因非法改变网络参数值而被踢出服务器: {teamcolor}%s/%s/%s {olive}%s"
+	}
+}

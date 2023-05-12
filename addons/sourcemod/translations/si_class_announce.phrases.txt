@@ -1,0 +1,8 @@
+"Phrases"
+{
+	"SIs"
+	{
+		"en"		"Special Infected: "
+		"chi"		"特感: "
+	}
+}

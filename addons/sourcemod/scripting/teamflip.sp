@@ -31,6 +31,8 @@ public OnPluginStart()
 
 	RegConsoleCmd("sm_teamflip", Command_teamflip);
 	RegConsoleCmd("sm_tf", Command_teamflip);
+
+	LoadTranslations("teamflip.phrases");
 }
 
 public Action:Command_teamflip(client, args)
@@ -43,9 +45,11 @@ public Action:Command_teamflip(client, args)
 		GetClientName(client, client_name, sizeof(client_name)); // Gets the client_name of the person using the command
 		
 		if(result_int == 0)
-			PrintToChatAll("\x01[\x05Teamflip\x01] \x03%s\x01 flipped a team and is on the \x03Survivor \x01team!", client_name); // Here {green} is actually yellow
+			PrintToChatAll("%t %t", "Tag", "SurvivorTeam", client_name); // Here {green} is actually yellow
+			// \x01[\x05Teamflip\x01] \x03%s\x01 flipped a team and is on the \x03Survivor \x01team!
 		else
-			PrintToChatAll("\x01[\x05Teamflip\x01] \x03%s\x01 flipped a team and is on the \x03Infected \x01team!", client_name);
+			PrintToChatAll("%t %t", "Tag", "InfectedTeam",  client_name);
+			// \x01[\x05Teamflip\x01] \x03%s\x01 flipped a team and is on the \x03Infected \x01team!
 		
 		previous_timeC = current_timeC; // Update the previous time
 	}

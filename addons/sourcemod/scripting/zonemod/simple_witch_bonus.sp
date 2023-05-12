@@ -57,6 +57,8 @@ public OnPluginStart()
     g_hTrieEntityCreated = CreateTrie();
     SetTrieValue(g_hTrieEntityCreated, "witch", OEC_WITCH);
 
+    LoadTranslations("simple_witch_bonus.phrases");
+
     if (g_bLateLoad) {
         for (new client = 1; client <= MaxClients; client++) {
             if (IS_VALID_INGAME(client)) {
@@ -135,7 +137,8 @@ stock GiveWitchBonus()
     new iBonus = GetConVarInt(g_hCvarBonus);
     if(GetConVarBool(g_hCvarPrint) == true)
 	{
-        PrintToChatAll("\x01Killing the witch has awarded: \x05%d \x01points!", iBonus);
+        PrintToChatAll("%t", "Bonus", iBonus);
+        // \x01Killing the witch has awarded: \x05%d \x01points!
     }
     PBONUS_AddRoundBonus(iBonus, true);
 }

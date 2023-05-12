@@ -1,0 +1,8 @@
+"Phrases"
+{
+	"Bonus"
+	{
+		"en"		"\x01Killing the witch has awarded: \x05%d \x01points!"
+		"chi"		"\x01杀死Witch奖励: \x05%d \x01点分数!"
+	}
+}

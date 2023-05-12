@@ -399,7 +399,7 @@ public void SetConfoglName()
 
 	IntToString(RoundFailCounts, restartcount, sizeof(restartcount));
 
-	if(SPECIALS_AVAILABLE())
+	if(SPECIALS_AVAILABLE()&&IsNekoAvailable)
 	{
 		IntToString(NekoSpecials_GetSpecialsNum(), snum, sizeof(snum));
 		IntToString(NekoSpecials_GetSpecialsTime(), stime, sizeof(stime));
