@@ -7,6 +7,7 @@
 #undef REQUIRE_PLUGIN
 #include <sourcebanspp>
 #include <l4dstats>
+#include <match_vote>
 
 bool g_bSourceBansSystemAvailable = false, g_bl4dstatsSystemAvailable = false;
 public void OnAllPluginsLoaded(){

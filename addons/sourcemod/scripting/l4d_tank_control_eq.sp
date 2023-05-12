@@ -27,7 +27,10 @@ public APLRes AskPluginLoad2(Handle myself, bool late, char[] error, int err_max
 	return APLRes_Success;
 }
 
-public int Native_GetTankSelection(Handle plugin, int numParams) { return getInfectedPlayerBySteamId(queuedTankSteamId); }
+public int Native_GetTankSelection(Handle plugin, int numParams) 
+{ 
+    return getInfectedPlayerBySteamId(queuedTankSteamId); 
+}
 
 public Plugin myinfo = 
 {

@@ -40,6 +40,7 @@ public Plugin myinfo =
 
 public APLRes AskPluginLoad2(Handle hMyself, bool bLate, char[] sError, int iErrMax)
 {
+	CreateNative("CallMatchMenu", Native_MatchModeRequest);
 	EngineVersion iEngine = GetEngineVersion();
 	if (iEngine != Engine_Left4Dead2) {
 		strcopy(sError, iErrMax, "Plugin only supports Left 4 Dead 2.");
@@ -47,6 +48,12 @@ public APLRes AskPluginLoad2(Handle hMyself, bool bLate, char[] sError, int iErr
 	}
 
 	return APLRes_Success;
+}
+
+public int Native_MatchModeRequest(Handle plugin, int numParams)
+{
+	int iClient,iArgs;
+	return MatchRequest(iClient, iArgs);
 }
 
 public void OnPluginStart()

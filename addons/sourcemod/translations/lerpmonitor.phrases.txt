@@ -51,13 +51,13 @@
 	"Spec_ChangeLerp"
 	{
 		"en"		"{teamcolor}%N {default}was moved to spectators (illegal lerp change)!"
-		"chi"		"{teamcolor}%N {default}被移动至旁观者 (非法lerp改变)!"
+		"chi"		"{teamcolor}%N {default}被移动至旁观者 (非法lerp改变次数)!"
 	}
 
 	"NoMidChange"
 	{
 		"en"		"Illegal change of Lerp midgame! Change it back to {teamcolor}%.01f."
-		"chi"		"非法的中途lerp改变! lerp改变回 {teamcolor}%.01f."
+		"chi"		"非法的中途lerp改变! 请将lerp改变回 {teamcolor}%.01f."
 	}
 
 	"ChangedBack"
