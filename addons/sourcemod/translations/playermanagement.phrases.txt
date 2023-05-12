@@ -1,20 +1,25 @@
 "Phrases"
 {
-	"NoCappedSpec"
+	"JoinTeam_Cooldown"
 	{
-		"en"		"No spectating while capped!"
-		"chi"		"被控时不允许旁观!"
+		"#format"	"{1:.1f}"
+		"en"		"{blue}[{green}Team Manager{blue}] {default}Please wait for {olive}{1}s {default}before switching team!"
 	}
-
-	"BeSpec"
+	
+	"Announce_Spectate"
 	{
-		"en"		"{teamcolor}%N{default} has become a spectator!"
-		"chi"		"{teamcolor}%N{default} 已成为旁观者!"
+		"#format"	"{1:N}"
+		"en"		"{olive}[{green}!{olive}] {teamcolor}{1}{default} has become a spectator!"
 	}
-
-	"SwitchFailed"
+	
+	"Disallowed_Spectate_Capped"
 	{
-		"en"		"%N could not be switched because the target team was full or has no bot to take over."
-		"chi"		"%N 不能切换团队, 因为目标团队已满或没有bot来接管."
+		"en"		"{olive}[{green}!{olive}] {default}No spectating while capped!"
+	}
+	
+	"SwapTeam_ReplyFailure"
+	{
+		"#format"	"{1:N}"
+		"en"		"{olive}[{green}!{olive}] {teamcolor}{1} {default}could not be switched because {green}the target team was full or has no bot to take over"
 	}
 }
