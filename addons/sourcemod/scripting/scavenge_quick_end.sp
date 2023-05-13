@@ -10,11 +10,15 @@
 // do the compare at the same time as us.
 #define SAFETY_BUFFER_TIME 1.0
 
-float g_flDefaultLossTime;
+float 
+	g_flDefaultLossTime;
 
 bool 
 	g_bInScavengeRound,
 	g_bInSecondHalf;
+
+ConVar
+	g_hQuickEndSwitch;
 
 // GetRoundTime(&minutes, &seconds, team)
 #define GetRoundTime(%0,%1,%2) %1 = GameRules_GetRoundDuration(%2);	%0 = RoundToFloor(%1)/60; %1 -= 60 * %0
@@ -37,6 +41,8 @@ public void OnPluginStart()
 	HookEvent("round_end", RoundEnd, EventHookMode_PostNoCopy);
 	LoadTranslations("scavenge_quick_end.phrases");
 	RegConsoleCmd("sm_time", TimeCmd);
+
+	g_hQuickEndSwitch = CreateConVar("l4d2_enable_scavenge_quick_end", "1", "Only enable quick end or not, Printing time is not included by this cvar", FCVAR_NOTIFY, true, 0.0, true, 1.0);
 }
 
 public Action TimeCmd(int client, any args)
@@ -124,8 +130,13 @@ public void PrintRoundEndTimeData(bool secondHalf)
 	CPrintToChatAll("%t", "PrintThisRoundEndTime", GameRules_GetScavengeTeamScore(2), minutes, time);		//[TIME] This Round: {OG}%d {N}in {OG}%d:%05.2f"
 }
 
-public void EndRoundEarlyOnTime(int client)
+public Action EndRoundEarlyOnTime(int client)
 {
+	if (!GetConVarBool(g_hQuickEndSwitch)) 		//check enabled quick end or not
+	{
+		return Plugin_Handled;
+	}
+
 	bool oldFlags;
 	oldFlags = GetCommandFlags("scenario_end");
 	// FCVAR_LAUNCHER is actually FCVAR_DEVONLY`
@@ -134,6 +145,8 @@ public void EndRoundEarlyOnTime(int client)
 	ServerExecute();
 	SetCommandFlags("scenario_end", oldFlags);
 	CPrintToChatAll("%t", "RoundEndEarly", client);			//"[{G}Scavogl{N}] Round Ended Early: Win condition decided on time."
+
+	return Plugin_Continue;
 }
 
 stock float GameRules_GetRoundDuration(int team)

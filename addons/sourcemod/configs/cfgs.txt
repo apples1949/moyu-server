@@ -18,6 +18,10 @@
 
 	"投票开位 Vote Slots"
 	{
+		"exec vote/2people.cfg"
+		{
+			"message" "限制位数为2 slots 2"
+		}
 		"exec vote/4people.cfg"
 		{
 			"message" "限制位数为4 slots 4"
@@ -34,17 +38,25 @@
 		{
 			"message" "限制位数为24 slots 24"
 		}
+		"exec vote/32people.cfg"
+		{
+			"message" "限制位数为32 slots 32"
+		}
 	}
 
 	"全局管理 Globle Management"
 	{
-		"exec vote/ready.cfg"
-		{
-			"message" "关闭自动准备 Auto Readyup Off"
-		}
 		"exec vote/readyup.cfg"
 		{
-			"message" "开启自动准备 Auto Readyup On"
+			"message" "切换为手动准备 Switch To Manual Readyup"
+		}
+		"exec vote/ready.cfg"
+		{
+			"message" "切换为自动准备 Switch To Auto Readyup"
+		}
+		"exec vote/readyup3.cfg"
+		{
+			"message" "切换为团队准备 Switch To Team Readyup"
 		}
 		"exec vote/svalltalk0.cfg"
 		{
@@ -54,15 +66,23 @@
 		{
 			"message" "开启全体语音 All Talk On"
 		}
+		"exec vote/mod_on.cfg"
+		{
+			"message" "允许Mod Allow Mods"
+		}
+		"exec vote/mod_off.cfg"
+		{
+			"message" "关闭Mod Disable Mods"
+		}
 	}
 
 	"服务端管理 Server Management"
 	{
-		"sm_restartmap"
+		"exec vote/restartmap.cfg"
 		{
 			"message" "重置当前地图 Reset Current Map"
 		}
-		"sm_restart"
+		"exec vote/restart.cfg"
 		{
 			"message" "服务器端重启 Restart Server"
 		}

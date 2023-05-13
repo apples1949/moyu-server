@@ -45,7 +45,7 @@ public Plugin myinfo =
 Handle
 	g_hVote,
 	g_hVoteKick,
-	g_hVoteBan,	
+	g_hVoteBan,
 	g_hCfgsKV;
 
 ConVar
@@ -349,9 +349,11 @@ public void VoteResultHandler(Handle vote, int num_votes, int num_clients, const
 				if (g_hVoteBan == vote)
 				{
 					DisplayBuiltinVotePass(vote, VotingDone);
-					if(g_bSourceBansSystemAvailable){
+					if(g_bSourceBansSystemAvailable)
+					{
 						SBPP_BanPlayer(voteclient, banclient, 1440, BanDone);		//投票封禁
-					}else
+					}
+					else
 					{
 						BanClient(banclient,  1440, ADMFLAG_BAN, BanDone, Reason);		//你已被当前服务器踢出，原因为投票封禁
 					}
