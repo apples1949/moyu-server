@@ -21,7 +21,7 @@
 public Plugin myinfo =
 {
 	name = "l4d2_mixmap",
-	author = "Bred, blueblur",
+	author = "Bred",
 	description = "随机抽取5张地图进行对抗，增加趣味性，借鉴CMT",
 	version = "2.5",
 	url = "https://gitee.com/honghl5/open-source-plug-in/tree/main/l4d2_mixmap"

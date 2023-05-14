@@ -1,0 +1,8 @@
+"Phrases"
+{
+	"Restarting"
+	{
+		"en"		"[{orange}!{default}] Map will restart in 3s, both team's versus scores will be preserved!"
+		"chi"		"[{orange}!{default}] 地图将会在三秒内重启, 双方队伍的对抗得分将会得到保存!"
+	}
+}
