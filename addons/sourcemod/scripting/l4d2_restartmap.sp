@@ -32,11 +32,13 @@ char g_sMapName[MAXMAP] = "";
 bool g_L4D2ChangeLevelAvailable = false;
 bool g_bTeamConsistencyAvailable = false;
 
+ConVar cvarGameMode;
+
 public Plugin myinfo = {
     name = "L4D2 Restart Map",
     author = "devilesk, modified by blueblur",
     description = "Adds sm_restartmap to restart the current map and keep current scores. Automatically restarts map when broken flow detected.",
-    version = "0.8.0",
+    version = "1.1.0",
     url = "https://github.com/devilesk/rl4d2l-plugins"
 };
 
@@ -50,6 +52,8 @@ public void OnPluginStart() {
     
     g_iMapRestarts = 0;
     g_bIsMapRestarted = false;
+
+    cvarGameMode = FindConVar("mp_gamemode");
     
     gConf = LoadGameConfigFile("left4dhooks.l4d2");
     if(gConf == INVALID_HANDLE) {
@@ -127,28 +131,32 @@ public Action CheckFlowBroken(Handle timer) {
     return Plugin_Continue;
 }
 
-public void RestartMap() {
-    int iSurvivorTeamIndex = GameRules_GetProp("m_bAreTeamsFlipped") ? 1 : 0;
-    int iInfectedTeamIndex = GameRules_GetProp("m_bAreTeamsFlipped") ? 0 : 1;
+public void RestartMap() 
+{
+    if (IsVersusMode())
+    {
 
-    g_iSurvivorScore = L4D2Direct_GetVSCampaignScore(iSurvivorTeamIndex);
-    g_iInfectedScore = L4D2Direct_GetVSCampaignScore(iInfectedTeamIndex);
+        int iSurvivorTeamIndex = GameRules_GetProp("m_bAreTeamsFlipped") ? 1 : 0;
+        int iInfectedTeamIndex = GameRules_GetProp("m_bAreTeamsFlipped") ? 0 : 1;
+
+        g_iSurvivorScore = L4D2Direct_GetVSCampaignScore(iSurvivorTeamIndex);
+        g_iInfectedScore = L4D2Direct_GetVSCampaignScore(iInfectedTeamIndex);
     
-    g_bIsMapRestarted = true;
-    g_iMapRestarts++;
+        g_bIsMapRestarted = true;
+        g_iMapRestarts++;
     
-    PrintToConsoleAll("[RestartMap] Restarting map. Attempt: %i of %i... survivor: %i, score %i, infected: %i, score %i", g_iMapRestarts, GetConVarInt(g_hCvarAutofixMaxTries), iSurvivorTeamIndex, g_iSurvivorScore, iInfectedTeamIndex, g_iInfectedScore);
-    PrintDebug("[RestartMap] Restarting map. Attempt: %i of %i...  survivor: %i, score %i, infected: %i, score %i", g_iMapRestarts, GetConVarInt(g_hCvarAutofixMaxTries), iSurvivorTeamIndex, g_iSurvivorScore, iInfectedTeamIndex, g_iInfectedScore);
-    
+        PrintToConsoleAll("[RestartMap] Restarting map. Attempt: %i of %i... survivor: %i, score %i, infected: %i, score %i", g_iMapRestarts, GetConVarInt(g_hCvarAutofixMaxTries), iSurvivorTeamIndex, g_iSurvivorScore, iInfectedTeamIndex, g_iInfectedScore);
+        PrintDebug("[RestartMap] Restarting map. Attempt: %i of %i...  survivor: %i, score %i, infected: %i, score %i", g_iMapRestarts, GetConVarInt(g_hCvarAutofixMaxTries), iSurvivorTeamIndex, g_iSurvivorScore, iInfectedTeamIndex, g_iInfectedScore);
+    }
+
     GetCurrentMapLower(g_sMapName, sizeof(g_sMapName));
-
     if (g_bTeamConsistencyAvailable)
         ClearTeamConsistency();
 
     if (g_L4D2ChangeLevelAvailable)
         L4D2_ChangeLevel(g_sMapName);
     else
-        ServerCommand("changelevel %s", g_sMapName);
+        ServerCommand("sm_map %s", g_sMapName);
 }
 /*
 bool IsSpectator(int client) {
@@ -172,8 +180,16 @@ public Action Command_RestartMap(int client, int args)
 {
     if (CheckCommandAccess(client, "sm_restartmap", ADMFLAG_KICK, true)) 
     {
-        CPrintToChatAll("%t", "Restarting");
-        CreateTimer(3.0, RestartMapPre);
+        if (IsVersusMode())
+        {
+            CPrintToChatAll("%t", "VersusRestarting");
+        }
+        else
+        {
+            CPrintToChatAll("%t", "Restarting");
+        }
+        
+        CreateTimer(5.0, RestartMapPre);
         //RestartMap();
     }
     /*
@@ -255,4 +271,18 @@ stock void PrintDebug(const char[] Message, any ...) {
         VFormat(DebugBuff, sizeof(DebugBuff), Message, 2);
         LogMessage(DebugBuff);
     }
+}
+
+stock bool IsVersusMode()
+{
+    char sGameMode[32];
+	GetConVarString(cvarGameMode, sGameMode, sizeof(sGameMode));
+	if (StrContains(sGameMode, "versus") > -1)
+	{
+		return true;
+	}
+	else
+	{
+		return false;
+	}
 }
