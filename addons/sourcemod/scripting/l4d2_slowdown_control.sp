@@ -25,6 +25,7 @@
 #include <sourcemod>
 #include <sdktools>
 #include <left4dhooks>
+#include <colors>
 #include <l4d2util_stocks>
 
 #define SURVIVOR_RUNSPEED 220.0

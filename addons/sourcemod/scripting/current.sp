@@ -3,6 +3,7 @@
 
 #include <sourcemod>
 #include <left4dhooks>
+#include <colors>
 
 #define TEAM_SURVIVORS 2
 

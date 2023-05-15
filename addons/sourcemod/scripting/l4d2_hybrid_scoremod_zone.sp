@@ -3,6 +3,7 @@
 #include <sourcemod>
 #include <sdkhooks>
 #include <left4dhooks>
+#include <colors>
 #include <sdktools>
 #include <l4d2lib>
 #include <l4d2util_stocks>

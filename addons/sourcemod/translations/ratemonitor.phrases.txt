@@ -8,14 +8,14 @@
 
 	"RateSettingsList"
 	{
-		"en"		"\x01[RateMonitor] List of player netsettings(\x03cmd\x01/\x04upd\x01/\x05rate\x01):"
-		"chi"		"\x01[RateMonitor] 玩家网络参数设置列表(\x03cmd\x01/\x04upd\x01/\x05rate\x01):"
+		"en"		"{default}[RateMonitor] List of player netsettings({lightgreen}cmd{default}/\x04upd{default}/{olive}rate{default}):"
+		"chi"		"{default}[RateMonitor] 玩家网络参数设置列表({lightgreen}cmd{default}/\x04upd{default}/{olive}rate{default}):"
 	}
 
 	"Format"	//ReplyToCommand(client, "%t", "Format", iClient, player.Client_Cmdrate, player.Client_Updaterate, player.Client_Rate);
 	{
-		"en"		"\x03%N\x01 : %d/%d/%d"
-		"chi"		"\x03%N\x01 : %d/%d/%d"
+		"en"		"{lightgreen}%N{default} : %d/%d/%d"
+		"chi"		"{lightgreen}%N{default} : %d/%d/%d"
 	}
 
 	"ChangeRate"

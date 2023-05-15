@@ -2,6 +2,7 @@
 {
 	"Current"
 	{
-		"en"		"\x01Current: \x04%d%%"
+		"en"		"{orange}Current: {default}%d%%"
+		"chi"		"{orange}当前进度: {default}%d%%"
 	}
 }

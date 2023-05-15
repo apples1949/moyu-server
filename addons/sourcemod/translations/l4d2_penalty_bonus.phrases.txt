@@ -2,26 +2,31 @@
 {
 	"RoundExtraBonus"
 	{
-		"en"		"Round \x05%i\x01 extra bonus"
+		"en"		"Round {olive}%i{default} extra bonus"
+		"chi"		"轮回 {olive}%i{default} 额外奖励分"
 	}
 
 	"CurrentExtraBonus"
 	{
 		"en"		"Current Extra Bonus"
+		"chi"		"当前额外奖励分"
 	}
 
 	"DefibPenalty"
 	{
-		"en"		"%s (- \x04%d\x01 defib penalty)"
+		"en"		"%s (- {orange}%d{default} defib penalty)"
+		"chi"		"%s (- {orange}%d{default} 电击器惩罚)"
 	}
 
 	"BonusSet"
 	{
-		"en"		"Extra bonus set to: \x04%i\x01"
+		"en"		"Extra bonus set to: {orange}%i"
+		"chi"		"额外奖励分设置为: {orange}%i"
 	}
 
 	"BonusChange"
 	{
-		"en"		"Extra bonus change: %s\x04%i\x01"
+		"en"		"Extra bonus change: %s{orange}%i"
+		"chi"		"额外奖励分变化: %s{orange}%i"
 	}
 }

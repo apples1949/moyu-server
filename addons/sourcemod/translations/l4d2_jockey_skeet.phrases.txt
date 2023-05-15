@@ -3,20 +3,24 @@
 	"Tag"
 	{
 		"en"		"{green}★★{default}"
+		"chi"		"{green}★★{default}"
 	}
 
 	"YouWereSkeeted"
 	{
 		"en"		"You were {blue}skeeted{default} by {olive}%N{default}."
+		"chi"		"你被 {olive}%N{default} 一枪{blue}空爆{default}了."
 	}
 
 	"YouSkeeted"
 	{
 		"en"		"You {blue}skeeted {olive}%N{default}'s Jockey."
+		"chi"		"你一枪{blue}空爆{default}了{olive}%N{default}的Jockey."
 	}
 
 	"SkeetAnnounce"
 	{
 		"en"		"{olive}%N{default}'s Jockey was {blue}skeeted{default} by {olive}%N{default}."
+		"chi"		"{olive}%N{default}的Jockey被{olive}%N{default}一枪{blue}空爆{default}了."
 	}
 }

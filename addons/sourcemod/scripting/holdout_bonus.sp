@@ -4,6 +4,7 @@
 #include <sdktools>
 #include <sdkhooks>
 #include <left4dhooks>
+#include <colors>
 #include <l4d2_penalty_bonus>
 #undef REQUIRE_PLUGIN
 #include <readyup>

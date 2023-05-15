@@ -3,30 +3,36 @@
 	"ConnectingWithHours"
 	{
 		"en"		"Player{olive} %N {default} [{olive}%iHours{default}] is connecting..."
+		"chi"		"玩家{olive} %N {default}[{olive}%i小时{default}]正在连接中..."
 	}
 
 	"ConnectingWithoutHours"
 	{
-		"en"		"Player{olive} %N {default} is connecting..."
+		"en"		"Player{olive} %N {default}is connecting..."
+		"chi"		"玩家{olive} %N {default}正在连接中..."
 	}
 
 	"ConnectedWithHours"
 	{
-		"en"		"Player{olive} %N {default} [{olive}%iHours{default}] has joined this server."
+		"en"		"Player{olive} %N {default}[{olive}%iHours{default}] has joined this server."
+		"chi"		"玩家{olive} %N {default}[{olive}%i小时{default}]进入了服务器."
 	}
 
 	"ConnectedWithoutHours"
 	{
-		"en"		"Player{olive} %N {default} has joined this server"
+		"en"		"Player{olive} %N {default}has joined this server"
+		"chi"		"玩家{olive} %N {default}进入了服务器"
 	}
 
 	"RequestPlayerTime"
 	{
-		"en"		"Player{olive} %N {default} Has played{red} %i {default}Hours"
+		"en"		"Player{olive} %N {default}Has played{red} %i {default}Hours"
+		"chi"		"玩家{olive} %N {default}已游玩{red} %i {default}小时"
 	}
 
 	"RequestPlayerTimeFailed"
 	{
-		"en"		"Player{olive} %N {default} Has played{red} Unkown {default}Hours"
+		"en"		"Player{olive} %N {default}Has played{red} Unkown {default}Hours"
+		"chi"		"玩家{olive} %N {default}已游玩{red} 未知 {default}时长"
 	}
 }

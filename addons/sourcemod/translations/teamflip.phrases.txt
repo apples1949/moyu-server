@@ -2,19 +2,19 @@
 {
 	"Tag"
 	{
-		"en"		"\x01[\x05Teamflip\x01]"
-		"chi"		"\x01[\x05Teamflip\x01]"
+		"en"		"[{olive}Teamflip{default}]"
+		"chi"		"[{olive}Teamflip{default}]"
 	}
 
 	"SurvivorTeam"
 	{
-		"en"		"\x03%s\x01 flipped a team and is on the \x03Survivor \x01team!"
-		"chi"		"\x03%s\x01 随机选择了队伍, 结果是 \x03生还者 \x01队!"
+		"en"		"{lightgreen}%s{default} flipped a team and is on the {lightgreen}Survivor {default}team!"
+		"chi"		"{lightgreen}%s{default} 随机选择了队伍, 结果是 {lightgreen}生还者 {default}队!"
 	}
 	
 	"InfectedTeam"
 	{
-		"en"		"\x03%s\x01 flipped a team and is on the \x03Infected \x01team!"
-		"chi"		"\x03%s\x01 随机选择了队伍, 结果是 \x03感染者 \x01队!"
+		"en"		"{lightgreen}%s{default} flipped a team and is on the {lightgreen}Infected {default}team!"
+		"chi"		"{lightgreen}%s{default} 随机选择了队伍, 结果是 {lightgreen}感染者 {default}队!"
 	}
 }

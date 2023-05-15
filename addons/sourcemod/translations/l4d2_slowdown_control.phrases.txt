@@ -2,11 +2,13 @@
 {
 	"WaterSlowDownOn"
 	{
-		"en"		"\x05Water Slowdown\x01 has been reduced while Tank is in play."
+		"en"		"{olive}Water Slowdown{default} has been reduced while Tank is in play."
+		"chi"		"{olive}水中减速{default}已在Tank扮演时移除."
 	}
 
 	"WaterSlowDownOff"
 	{
-		"en"		"\x05Water Slowdown\x01 has been restored to normal."
+		"en"		"{olive}Water Slowdown{default} has been restored to normal."
+		"chi"		"{olive}水中减速{default}已被回调至正常."
 	}
 }

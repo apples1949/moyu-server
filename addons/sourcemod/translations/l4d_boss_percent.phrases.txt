@@ -3,53 +3,68 @@
 	"TagTank"
 	{
 		"en"	"<{olive}Tank{default}>"
+		"chi"	"<{olive}Tank{default}>"
 	}
 	"TagWitch"
 	{
 		"en"	"<{olive}Witch{default}>"
+		"chi"	"<{olive}Witch{default}>"
 	}
 	"TankOn"
 	{
 		"en"	"Tank: %d%%"
+		"chi"	"Tank: %d%%"
 	}
 	"WitchOn"
 	{
 		"en"	"Witch: %d%%"
+		"chi"	"Witch: %d%%"
 	}
 	"Disabled"
 	{
 		"en"	"Disabled"
+		"chi"	"已禁用"
+		
 	}
 	"StaticSpawn"
 	{
 		"en"	"Static Spawn"
+		"chi"	"固定位置"
 	}
 	"None"
 	{
 		"en"	"None"
+		"chi"	"无"
 	}
 	"TankDisabled"
 	{
 		"en"	"Tank: Disabled"
+		"chi"	"Tank: 已禁用"
 	}
 	"TankStatic"
 	{
 		"en"	"Tank: Static Spawn"
+		"chi"	"Tank: 固定位置"
 	}
 	"TankNone"
 	{
 		"en"	"Tank: None"
+		"chi"	"Tank: 无"
 	}
 	"WitchDisabled"
 	{
 		"en"	"Witch: Disabled"
+		"chi"	"Witch: 已禁用"
 	}
 	"WitchStatic"
 	{
 		"en"	"Witch: Static Spawn"
+		"chi"	"Witch: 固定位置"
 	}
 	"WitchNone"
 	{
 		"en"	"Witch: None"
+		"chi"	"Witch: 无"
+
 	}
 }

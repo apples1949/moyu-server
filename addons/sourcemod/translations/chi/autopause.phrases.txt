@@ -1,7 +1,0 @@
-"Phrases"
-{
-	"AutoPause"
-	{
-		"chi"		"{blue}[{default}AutoPause{blue}] {olive}%s {default}客户端崩溃."
-	}
-}

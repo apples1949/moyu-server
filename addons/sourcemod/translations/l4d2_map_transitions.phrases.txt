@@ -3,5 +3,6 @@
 	"Announce"
 	{
 		"en"		"{olive}[MT]{default} Starting transition from: {blue}%s{default} to: {blue}%s."
+		"chi"		"{olive}[MT]{default} 开始从: {blue}%s{default} 到: {blue}%s{default}进行地图跳转."
 	}
 }

@@ -2,11 +2,13 @@
 {
 	"NoticeHint"
 	{
-		"en"		"%s (\x04%s\x01) is black and white."
+		"en"		"%s (%s) is black and white."
+		"chi"		"%s (%s) 已陷入黑白状态."
 	}
 
 	"NoticeText"
 	{
 		"en"		"{blue}[{default}!{blue}]{default} {olive}%s{default} is black and white."
+		"chi"		"{blue}[{default}!{blue}]{default} {olive}%s{default} 已陷入黑白状态"
 	}
 }

@@ -26,6 +26,7 @@
 #include <sdktools>
 #define L4D2UTIL_STOCKS_ONLY 1
 #include <l4d2util>
+#include <colors>
 
 #define TEAM_SURVIVOR 2
 #define TEAM_INFECTED 3
