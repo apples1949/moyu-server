@@ -208,7 +208,7 @@ public Action Command_RestartMap(int client, int args)
 public Action RestartMapPre(Handle Timer)
 {
     RestartMap();
-    return Plugin_Handled;
+    return Plugin_Continue;
 }
 
 /*
