@@ -7,7 +7,13 @@
 #undef REQUIRE_PLUGIN
 #include <sourcebanspp>
 #include <l4dstats>
-#include <match_vote>
+//#include <match_vote>
+char
+	LoadingCFG[1024],
+	VotingDone[1024],
+	KickDone[1024],
+	BanDone[1024],
+	Reason[1024];
 
 bool g_bSourceBansSystemAvailable = false, g_bl4dstatsSystemAvailable = false;
 public void OnAllPluginsLoaded(){
@@ -40,6 +46,7 @@ public Plugin myinfo =
 1.3 版本 增加Cvar控制投票文件, 1.11新语法, 增加sourcebans 1天封禁投票[分数大于300000]
 1.4 版本 移植大红投票插件部分代码，移植多语言翻译文本支持，移植投票回血功能
 1.5 版本 全面翻译输出文字
+1.5.1 版本 完善翻译代码
 */
 
 Handle
@@ -53,19 +60,12 @@ ConVar
 
 char
 	g_sCfg[128],
-	g_sVoteFile[128],
-	LoadingCFG[128] = "'%t', 'LoadingCFG'",
-	VotingDone[128] = "'%t', 'VotingDone'",
-	KickDone[128] = "'%t', 'KickDone'",
-	BanDone[128] = "'%t', 'BanDone'",
-	Reason[128] = "'%t', 'Reason'";
+	g_sVoteFile[128];
 
 int 
 	banclient,
 	kickclient,
 	voteclient;
-
-
 
 public void OnPluginStart()
 {
@@ -336,12 +336,15 @@ public void VoteResultHandler(Handle vote, int num_votes, int num_clients, const
 			{
 				if (g_hVote == vote)
 				{
+					Format(LoadingCFG, sizeof(LoadingCFG), "%t", "LoadingCFG");
 					DisplayBuiltinVotePass(vote, LoadingCFG);		//Cfg文件正在加载...
 					ServerCommand("%s", g_sCfg);
 					return;
 				}
 				if (g_hVoteKick == vote)
 				{
+					Format(VotingDone, sizeof(VotingDone), "%t", "VotingDone");
+					Format(KickDone, sizeof(KickDone), "%t", "KickDone");
 					DisplayBuiltinVotePass(vote, VotingDone);		//投票已完成...
 					KickClient(kickclient, KickDone);		//投票踢出
 					return;
@@ -351,10 +354,12 @@ public void VoteResultHandler(Handle vote, int num_votes, int num_clients, const
 					DisplayBuiltinVotePass(vote, VotingDone);
 					if(g_bSourceBansSystemAvailable)
 					{
+						Format(BanDone ,sizeof(BanDone), "%t", "BanDone");
 						SBPP_BanPlayer(voteclient, banclient, 1440, BanDone);		//投票封禁
 					}
 					else
 					{
+						Format(Reason, sizeof(Reason), "%t", "Reason");
 						BanClient(banclient,  1440, ADMFLAG_BAN, BanDone, Reason);		//你已被当前服务器踢出，原因为投票封禁
 					}
 				}
