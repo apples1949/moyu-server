@@ -35,7 +35,7 @@ public Plugin myinfo =
 {
 	name = "Vote for run command or cfg file",
 	description = "使用!vote投票执行命令或cfg文件",
-	author = "东, Bred, merged by blueblur",
+	author = "东, Bred, merged and modified by blueblur",
 	version = "2.0",
 	url = "https://github.com/fantasylidong/ | https://gitee.com/honghl5/open-source-plug-in"
 };
@@ -44,15 +44,18 @@ public Plugin myinfo =
 1.1 版本 限制旁观使用投票功能
 1.2 版本 旁观不参与投票
 1.3 版本 增加Cvar控制投票文件, 1.11新语法, 增加sourcebans 1天封禁投票[分数大于300000]
-1.4 版本 移植大红投票插件部分代码，移植多语言翻译文本支持，移植投票回血功能
+////////////////////////////////
+1.4 版本 移植大红投票插件部分代码，移植多语言翻译文本支持，移植投票回血功能, 移植提示无相关cfg文件提示
 1.5 版本 全面翻译输出文字
 1.5.1 版本 完善翻译代码
+2.0 版本 移植投票玩家使其成为旁观功能, 增加显示哪个管理员取消了投票
 */
 
 Handle
 	g_hVote,
 	g_hVoteKick,
 	g_hVoteBan,
+	g_hVoteSpec,
 	g_hCfgsKV;
 
 ConVar
@@ -65,7 +68,8 @@ char
 int 
 	banclient,
 	kickclient,
-	voteclient;
+	voteclient,
+	specclient;
 
 public void OnPluginStart()
 {
@@ -76,6 +80,7 @@ public void OnPluginStart()
 	RegConsoleCmd("sm_vote", VoteRequest);
 	RegConsoleCmd("sm_votekick", KickRequest);
 	RegConsoleCmd("sm_voteban", BanRequest);
+	RegConsoleCmd("sm_votespec", SpecRequest);
 	RegAdminCmd("sm_cancelvote", VoteCancle, ADMFLAG_GENERIC, "管理员终止此次投票", "", 0);
 	RegAdminCmd("sm_hp", Command_ServerHp, ADMFLAG_ROOT);
 	g_hVoteFilelocation.AddChangeHook(FileLocationChanged);
@@ -104,11 +109,15 @@ public Action VoteCancle(int client, int args)
 {
 	if (IsBuiltinVoteInProgress())
 	{
+		AdminId id = GetUserAdmin(client);
+		if (id != INVALID_ADMIN_ID && GetAdminFlag(id, Admin_Ban)) // Check for specific admin flag
+		{
+			CPrintToChatAll("%t", "VoteCancel", client);		//"[{olive}vote{default}] {blue}管理员 {olive}%N{blue} 取消了当前投票!"
+		}
 		CancelBuiltinVote();
-		CPrintToChatAll("%t", "VoteCancel", client);		//"[{olive}vote{default}] {blue}管理员取消了当前投票!"
 		return Plugin_Handled;
 	}
-	ReplyToCommand(client, "%t", "VoteCancelFailed");		//[{olive}vote{default}] {blue}"没有投票在进行!"
+	ReplyToCommand(client, "%t", "VoteCancelFailed");		//"[{olive}vote{default}] {blue}没有投票在进行!"
 	return Plugin_Handled;
 }
 
@@ -306,7 +315,7 @@ bool StartVote(int client, char[] cfgname)
 		CPrintToChatAll("%t", "StartVote", client);		//"[{olive}vote{default}] {blue}%N 发起了一个投票"
 		return true;
 	}
-	CPrintToChat(client, "%t", "AlreadyInProgress");		///"[{olive}vote{default}] {red}已经有一个投票正在进行."
+	CPrintToChat(client, "%t", "AlreadyInProgress");		//"[{olive}vote{default}] {red}已经有一个投票正在进行."
 	return false;
 }
 
@@ -362,6 +371,14 @@ public void VoteResultHandler(Handle vote, int num_votes, int num_clients, const
 						Format(Reason, sizeof(Reason), "%t", "Reason");
 						BanClient(banclient,  1440, ADMFLAG_BAN, BanDone, Reason);		//你已被当前服务器踢出，原因为投票封禁
 					}
+				}
+				if (g_hVoteSpec == vote)
+				{
+					Format(VotingDone, sizeof(VotingDone), "%t", "VotingDone");
+					DisplayBuiltinVotePass(vote, VotingDone);		//投票已完成...
+					ServerCommand("sm_swapto 1 %N", specclient);		// 需要playermanagement.smx
+					CPrintToChatAll("%t", "SpecDone", specclient);		//"[{olive}vote{default}] ({olive}%N){blue} 已被投票至旁观者."
+					return;
 				}
 			}
 		}
@@ -545,5 +562,85 @@ public bool DisplayVoteBanMenu(int client)
 		return true;
 	}
 	CPrintToChat(client, "%t", "AlreadyInProgress");			//"[{olive}vote{default}] {red}已经有一个投票正在进行."
+	return false;
+}
+
+public Action SpecRequest(int client, int args)
+{
+	if (client && client <= MaxClients)
+	{
+		CreateVoteSpecMenu(client);
+		return Plugin_Handled;
+	}
+	return Plugin_Handled;
+}
+
+void CreateVoteSpecMenu(int client)
+{
+	Handle menu = CreateMenu(Menu_VotesSpec, MENU_ACTIONS_DEFAULT);
+	char name[126];
+	char info[128];
+	char playerid[128];
+	SetMenuTitle(menu, "%t", "SelectSpec");		//选择踢出玩家
+	int i = 1;
+	while (i <= MaxClients)
+	{
+		if (IsClientInGame(i) && !IsFakeClient(i))
+		{
+			Format(playerid, sizeof(playerid), "%i", GetClientUserId(i));
+			if (GetClientName(i, name, sizeof(name)))
+			{
+				Format(info, sizeof(info), "%s", name);
+				AddMenuItem(menu, playerid, info, ITEMDRAW_DEFAULT);
+			}
+		}
+		i++;
+	}
+	if (GetMenuItemCount(menu) == 0)
+	{
+		CPrintToChat(client, "%t", "VoteNonePlayer");
+		delete menu;
+		ShowVoteMenu(client);
+	}
+	else
+	{
+		SetMenuExitBackButton(menu, true);
+		SetMenuExitButton(menu, true);
+		DisplayMenu(menu, client, 30);	
+	}
+}
+
+public int Menu_VotesSpec(Handle menu, MenuAction action, int param1, int param2)
+{
+	if (action == MenuAction_Select)
+	{
+		char name[128];
+		GetMenuItem(menu, param2, name, sizeof(name));
+		specclient = GetClientOfUserId(StringToInt(name));
+		CPrintToChatAll("%t", "VoteSpecClient", param1, specclient);		//"[{olive}vote{default}] {blue}%N {default}发起投票使{blue} %N {default}成为旁观者"
+		voteclient = param1;
+		if (DisplayVoteSpecMenu(param1))
+		{
+			FakeClientCommand(param1, "Vote Yes");
+		}
+	}
+	return 0;
+}
+
+public bool DisplayVoteSpecMenu(int client)
+{
+	if (!IsBuiltinVoteInProgress())
+	{
+		char sBuffer[128];
+		g_hVoteSpec = CreateBuiltinVote(VoteActionHandler, BuiltinVoteType_Custom_YesNo, BUILTINVOTE_ACTIONS_DEFAULT);
+		Format(sBuffer, 128, "%t", "Spec", kickclient);		//使 '%N' 旁观 ?
+		SetBuiltinVoteArgument(g_hVoteSpec, sBuffer);
+		SetBuiltinVoteInitiator(g_hVoteSpec, client);
+		SetBuiltinVoteResultCallback(g_hVoteSpec, VoteResultHandler);
+		DisplayBuiltinVoteToAllNonSpectators(g_hVoteSpec, 10);
+		CPrintToChatAll("%t", "StartVote", client);			//"[{olive}vote{default}] {blue}%N 发起了一个投票"
+		return true;
+	}
+	CPrintToChat(client, "%t", "AlreadyInProgress");		//"[{olive}vote{default}] {red}已经有一个投票正在进行."
 	return false;
 }

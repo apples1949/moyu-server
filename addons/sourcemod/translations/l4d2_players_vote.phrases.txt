@@ -2,14 +2,14 @@
 {
 	"VoteRestoreHealthPass"
 	{
-		"en"		"[{olive}vote{default}] {blue}Admin {default}({olive}%N{default}) {blue}restored all players' health."
-		"chi"		"[{olive}vote{default}] {blue}管理员 {default}({olive}%N{default}) {blue}已恢复所有玩家血量."
+		"en"		"[{olive}vote{default}] {blue}Admin {olive}%N{blue} restored all players' health."
+		"chi"		"[{olive}vote{default}] {blue}管理员 {olive}%N{blue} 已恢复所有玩家血量."
 	}
 
 	"VoteCancel"
 	{
-		"en"		"[{olive}vote{default}] {blue}Admin canceled the current vote!"
-		"chi"		"[{olive}vote{default}] {blue}管理员取消了当前投票!"
+		"en"		"[{olive}vote{default}] {blue}Admin {olive}%N{blue} canceled the current vote!"
+		"chi"		"[{olive}vote{default}] {blue}管理员 {olive}%N{blue} 取消了当前投票!"
 	}
 
 	"VoteCancleFailed"
@@ -50,8 +50,8 @@
 
 	"VoteKickCilent"
 	{
-		"en"		"[{olive}vote{default}] {default}({olive}%N{default}) {blue}Initiate a vote to kick {default}({olive}%N{default})"
-		"chi"		"[{olive}vote{default}] {default}({olive}%N{default}) {blue}发起投票踢出 {default}({olive}%N{default})"
+		"en"		"[{olive}vote{default}] {olive}%N{blue} Initiate a vote to kick {olive}%N"
+		"chi"		"[{olive}vote{default}] {olive}%N{blue} 发起投票踢出 {olive}%N"
 	}
 
 	"BanningRequirePoints"
@@ -62,17 +62,31 @@
 
 	"PowerWarning"
 	{
-		"en"		"[{olive}vote{default}] {red}Use your power properly and carefully, Abusing banning will cause your account being banned.(First time:7 days, Second:1 mouth, Third:permanetyly.)."
+		"en"		"[{olive}vote{default}] {red}Use your power properly and carefully, Abusing banning will cause your account being banned.(First time: 7 days, Second: 1 mouth, Third: permanetyly.)."
 		"chi"		"[{olive}vote{default}] {red}请谨慎使用您的权力，乱用封禁会导致您的账户面临封禁（首次7天，第二次一个月，第三次永久.)."
 	}
 
 	"VoteBanClient"
 	{
-		"en"		"[{olive}vote{default}] {default}({olive}%N{default}) {blue}Initiate a vote to ban {default}({olive}%N{default}) {blue} for 1 day."
-		"chi"		"[{olive}vote{default}] {default}({olive}%N{default}) {blue}发起投票封禁 {default}({olive}%N{default}) {blue} 一天"
+		"en"		"[{olive}vote{default}] {olive}%N{blue} Initiated a vote to ban {olive}%N{blue} for 1 day."
+		"chi"		"[{olive}vote{default}] {olive}%N{blue} 发起投票封禁 {olive}%N{blue} 一天"
+	}
+
+	"SpecDone"
+	{
+		"en"		"[{olive}vote{default}] {olive}%s{blue} has been voted to be a spectator."
+		"chi"		"[{olive}vote{default}] {olive}%s{blue} 已被投票至旁观者."
+	}
+
+	"VoteSpecClient"
+	{
+		"en"		"[{olive}vote{default}] {blue}%N {default}initiated a vote to make{blue} %N {default}be a spectator."
+		"chi"		"[{olive}vote{default}] {blue}%N {default}发起投票使{blue} %N {default}成为旁观者"
 	}
 
 	//The Following phrases aren't allowed to use color tag.
+	//以下语句不允许使用文字颜色tag.
+
 	"LoadingCFG"
 	{
 		"en"		"Loading Cfg..."
@@ -99,7 +113,7 @@
 
 	"Reason"
 	{
-		"en"		"You are kicked from this server because you are banned by vote"
+		"en"		"You were kicked from this server because you are banned by vote"
 		"chi"		"你已被当前服务器踢出，原因为投票封禁"
 	}
 
@@ -143,5 +157,17 @@
 	{
 		"en"		"Ban '%N' for one day?"
 		"chi"		"封禁 '%N' 一天?"
+	}
+
+	"SelectSpec"
+	{
+		"en"		"Select a player to be a Spectator"
+		"chi"		"选择旁观玩家"
+	}
+
+	"Spec"
+	{
+		"en"		"Make %N a Spectator?"
+		"chi"		"使 %N 旁观?"
 	}
 }
