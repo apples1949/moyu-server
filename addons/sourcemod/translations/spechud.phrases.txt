@@ -68,6 +68,18 @@
 		"chi"		"%s: <%iHP@挂边>"
 	}
 
+	"2nd"
+	{
+		"en"		"2nd"
+		"chi"		"2倒"
+	}
+
+	"1st"
+	{
+		"en"		"1st"
+		"chi"		"1倒"
+	}
+
 	"AccumulatedTime"
 	{
 		"en"		"> Accumulated Time [%02d:%02.0f]"
@@ -80,6 +92,12 @@
 		"chi"		"> 对手用时 [%02d:%05.2f]"
 	}
 	
+	"ScoreFormat"
+	{
+		"en"		"> HB: %.0f%% | DB: %.0f%% | Pills: %i / %.0f%%"
+		"chi"		"> HB: %.0f%% | DB: %.0f%% | 药分: %i / %.0f%%"
+	}
+
 	"Bonus"
 	{
 		"en"		"> Bonus: %i <%.1f%%>"
@@ -110,6 +128,12 @@
 		"chi"		"->2. 感染者 [%d]"
 	}
 
+	"Seconds"
+	{
+		"en"		"%is"
+		"chi"		"%i秒"
+	}
+
 	"InDeadTime"
 	{
 		"en"		"%s: Dead (%s)"
@@ -134,6 +158,12 @@
 		"chi"		"%s: %s (灵魂状态)"
 	}
 
+	"CoolDownSeconds"
+	{
+		"en"		" [%is]"
+		"chi"		" [%i秒]"
+	}
+
 	"InfectedOnFire"
 	{
 		"en"		"%s: %s (%iHP) [On Fire]%s"
@@ -143,7 +173,7 @@
 	"NoSI"
 	{
 		"en"		"There is no SI at this moment"
-		"chi"		"现在没有特感"
+		"chi"		"没有特感"
 	}
 
 	"TankController"

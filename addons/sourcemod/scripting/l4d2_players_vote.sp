@@ -49,6 +49,8 @@ public Plugin myinfo =
 1.5 版本 全面翻译输出文字
 1.5.1 版本 完善翻译代码
 2.0 版本 移植投票玩家使其成为旁观功能, 增加显示哪个管理员取消了投票
+2.0.1 版本 更正翻译文件部分错误
+2.0.2 版本 sm_cancelvote > sm_votecancel (为了使文字输出有颜色, 不和sm自带命令输出同样的语句)
 */
 
 Handle
@@ -81,7 +83,7 @@ public void OnPluginStart()
 	RegConsoleCmd("sm_votekick", KickRequest);
 	RegConsoleCmd("sm_voteban", BanRequest);
 	RegConsoleCmd("sm_votespec", SpecRequest);
-	RegAdminCmd("sm_cancelvote", VoteCancle, ADMFLAG_GENERIC, "管理员终止此次投票", "", 0);
+	RegAdminCmd("sm_votecancel", VoteCancle, ADMFLAG_GENERIC, "管理员终止此次投票", "", 0);
 	RegAdminCmd("sm_hp", Command_ServerHp, ADMFLAG_ROOT);
 	g_hVoteFilelocation.AddChangeHook(FileLocationChanged);
 	g_hCfgsKV = CreateKeyValues("Cfgs", "", "");
@@ -117,7 +119,10 @@ public Action VoteCancle(int client, int args)
 		CancelBuiltinVote();
 		return Plugin_Handled;
 	}
-	ReplyToCommand(client, "%t", "VoteCancelFailed");		//"[{olive}vote{default}] {blue}没有投票在进行!"
+	else
+	{
+		CPrintToChat(client, "%t", "VoteCancelFailed");		//"[{olive}vote{default}] {blue}没有投票在进行!"
+	}
 	return Plugin_Handled;
 }
 
@@ -167,38 +172,6 @@ stock bool IsPlayer(int client)
 	return (team == 2 || team == 3);
 }
 
-public Action VoteRequest(int client, int args)
-{
-	if (!client)
-	{
-		return Plugin_Handled;
-	}
-	if (IsValidClient(client) && !IsPlayer(client))
-	{
-		CPrintToChat(client, "%t", "NoSpecVoteRequest");		//"[{olive}vote{default}] {blue}旁观者不允许投票执行命令或cfg文件!"
-		return Plugin_Handled;
-	}
-	if (args > 0)
-	{
-		char sCfg[128];
-		char sBuffer[256];
-		GetCmdArg(1, sCfg, sizeof(sCfg));
-		BuildPath(Path_SM, sBuffer, sizeof(sBuffer), "../../cfg/%s", sCfg);
-		if (DirExists(sBuffer))
-		{
-			FindConfigName(sCfg, sBuffer, sizeof(sBuffer));
-			if (StartVote(client, sBuffer))
-			{
-				strcopy(g_sCfg, sizeof(g_sCfg), sCfg);
-				FakeClientCommand(client, "Vote Yes");
-			}
-			return Plugin_Handled;
-		}
-	}
-	ShowVoteMenu(client);
-	return Plugin_Handled;
-}
-
 bool FindConfigName(char[] cfg, char[] message, int maxlength)
 {
 	KvRewind(g_hCfgsKV);
@@ -214,55 +187,6 @@ bool FindConfigName(char[] cfg, char[] message, int maxlength)
 		return true;
 	}
 	return false;
-}
-
-void ShowVoteMenu(int client)
-{
-	Handle hMenu = CreateMenu(VoteMenuHandler, MENU_ACTIONS_DEFAULT);
-	SetMenuTitle(hMenu, "%t", "Select1");		//选择:
-	char sBuffer[64];
-	KvRewind(g_hCfgsKV);
-	if (KvGotoFirstSubKey(g_hCfgsKV, true))
-	{
-		do {
-			KvGetSectionName(g_hCfgsKV, sBuffer, sizeof(sBuffer));
-			AddMenuItem(hMenu, sBuffer, sBuffer, ITEMDRAW_DEFAULT);
-		} while (KvGotoNextKey(g_hCfgsKV, true));
-	}
-	DisplayMenu(hMenu, client, 20);
-}
-
-public int VoteMenuHandler(Handle menu, MenuAction action, int param1, int param2)
-{
-	if (action == MenuAction_Select)
-	{
-		char sInfo[128];
-		char sBuffer[128];
-		GetMenuItem(menu, param2, sInfo, sizeof(sInfo));
-		KvRewind(g_hCfgsKV);
-		if (KvJumpToKey(g_hCfgsKV, sInfo, false) && KvGotoFirstSubKey(g_hCfgsKV, true))
-		{
-			Handle hMenu = CreateMenu(ConfigsMenuHandler, MENU_ACTIONS_DEFAULT);
-			Format(sBuffer, sizeof(sBuffer), "%t", "Select2", sInfo);		//选择 %s :
-			SetMenuTitle(hMenu, sBuffer);
-			do {
-				KvGetSectionName(g_hCfgsKV, sInfo,  sizeof(sInfo));
-				KvGetString(g_hCfgsKV, "message", sBuffer, sizeof(sBuffer), "");
-				AddMenuItem(hMenu, sInfo, sBuffer, ITEMDRAW_DEFAULT);
-			} while (KvGotoNextKey(g_hCfgsKV, true));
-			DisplayMenu(hMenu, param1, 20);
-		}
-		else
-		{
-			CPrintToChat(param1, "%t", "RelatedFileNoExist");		//"[{olive}vote{default}] {red}没有相关的文件存在."
-			ShowVoteMenu(param1);
-		}
-	}
-	if (action == MenuAction_End)
-	{
-		CloseHandle(menu);
-	}
-	return 0;
 }
 
 public int ConfigsMenuHandler(Handle menu, MenuAction action, int param1, int param2)
@@ -301,6 +225,54 @@ public int ConfigsMenuHandler(Handle menu, MenuAction action, int param1, int pa
 	return 0;
 }
 
+public Action VoteRequest(int client, int args)
+{
+	if (!client)
+	{
+		return Plugin_Handled;
+	}
+	if (IsValidClient(client) && !IsPlayer(client))
+	{
+		CPrintToChat(client, "%t", "NoSpecVoteRequest");		//"[{olive}vote{default}] {blue}旁观者不允许投票执行命令或cfg文件!"
+		return Plugin_Handled;
+	}
+	if (args > 0)
+	{
+		char sCfg[128];
+		char sBuffer[256];
+		GetCmdArg(1, sCfg, sizeof(sCfg));
+		BuildPath(Path_SM, sBuffer, sizeof(sBuffer), "../../cfg/%s", sCfg);
+		if (DirExists(sBuffer))
+		{
+			FindConfigName(sCfg, sBuffer, sizeof(sBuffer));
+			if (StartVote(client, sBuffer))
+			{
+				strcopy(g_sCfg, sizeof(g_sCfg), sCfg);
+				FakeClientCommand(client, "Vote Yes");
+			}
+			return Plugin_Handled;
+		}
+	}
+	ShowVoteMenu(client);
+	return Plugin_Handled;
+}
+
+void ShowVoteMenu(int client)
+{
+	Handle hMenu = CreateMenu(VoteMenuHandler, MENU_ACTIONS_DEFAULT);
+	SetMenuTitle(hMenu, "%t", "Select1");		//选择:
+	char sBuffer[64];
+	KvRewind(g_hCfgsKV);
+	if (KvGotoFirstSubKey(g_hCfgsKV, true))
+	{
+		do {
+			KvGetSectionName(g_hCfgsKV, sBuffer, sizeof(sBuffer));
+			AddMenuItem(hMenu, sBuffer, sBuffer, ITEMDRAW_DEFAULT);
+		} while (KvGotoNextKey(g_hCfgsKV, true));
+	}
+	DisplayMenu(hMenu, client, 20);
+}
+
 bool StartVote(int client, char[] cfgname)
 {
 	if (!IsBuiltinVoteInProgress())
@@ -317,73 +289,6 @@ bool StartVote(int client, char[] cfgname)
 	}
 	CPrintToChat(client, "%t", "AlreadyInProgress");		//"[{olive}vote{default}] {red}已经有一个投票正在进行."
 	return false;
-}
-
-public void VoteActionHandler(Handle vote, BuiltinVoteAction action, int param1, int param2)
-{
-	switch (action)
-	{
-		case BuiltinVoteAction_End:
-		{
-			g_hVote = INVALID_HANDLE;
-			CloseHandle(vote);
-		}
-		case BuiltinVoteAction_Cancel:
-		{
-			DisplayBuiltinVoteFail(vote, view_as<BuiltinVoteFailReason>(param1));
-		}
-	}
-}
-
-public void VoteResultHandler(Handle vote, int num_votes, int num_clients, const int[][] client_info, int num_items, const int[][] item_info)
-{
-	for (int i = 0; i< num_items; i++)
-	{
-		if (item_info[i][BUILTINVOTEINFO_ITEM_INDEX] == BUILTINVOTES_VOTE_YES)
-		{
-			if (item_info[i][BUILTINVOTEINFO_ITEM_VOTES] > (num_votes / 2))
-			{
-				if (g_hVote == vote)
-				{
-					Format(LoadingCFG, sizeof(LoadingCFG), "%t", "LoadingCFG");
-					DisplayBuiltinVotePass(vote, LoadingCFG);		//Cfg文件正在加载...
-					ServerCommand("%s", g_sCfg);
-					return;
-				}
-				if (g_hVoteKick == vote)
-				{
-					Format(VotingDone, sizeof(VotingDone), "%t", "VotingDone");
-					Format(KickDone, sizeof(KickDone), "%t", "KickDone");
-					DisplayBuiltinVotePass(vote, VotingDone);		//投票已完成...
-					KickClient(kickclient, KickDone);		//投票踢出
-					return;
-				}
-				if (g_hVoteBan == vote)
-				{
-					DisplayBuiltinVotePass(vote, VotingDone);
-					if(g_bSourceBansSystemAvailable)
-					{
-						Format(BanDone ,sizeof(BanDone), "%t", "BanDone");
-						SBPP_BanPlayer(voteclient, banclient, 1440, BanDone);		//投票封禁
-					}
-					else
-					{
-						Format(Reason, sizeof(Reason), "%t", "Reason");
-						BanClient(banclient,  1440, ADMFLAG_BAN, BanDone, Reason);		//你已被当前服务器踢出，原因为投票封禁
-					}
-				}
-				if (g_hVoteSpec == vote)
-				{
-					Format(VotingDone, sizeof(VotingDone), "%t", "VotingDone");
-					DisplayBuiltinVotePass(vote, VotingDone);		//投票已完成...
-					ServerCommand("sm_swapto 1 %N", specclient);		// 需要playermanagement.smx
-					CPrintToChatAll("%t", "SpecDone", specclient);		//"[{olive}vote{default}] ({olive}%N){blue} 已被投票至旁观者."
-					return;
-				}
-			}
-		}
-	}
-	DisplayBuiltinVoteFail(vote, BuiltinVoteFail_Loses);
 }
 
 public Action KickRequest(int client, int args)
@@ -631,6 +536,18 @@ public bool DisplayVoteSpecMenu(int client)
 {
 	if (!IsBuiltinVoteInProgress())
 	{
+		int iNumPlayers;
+		int iPlayers[MAXPLAYERS];
+		int i = 1;
+		while (i <= MaxClients)
+		{
+			if(IsClientInGame(i) && !IsFakeClient(i))
+			{
+				iNumPlayers++;
+				iPlayers[iNumPlayers] = i;
+			}
+			i++;
+		}
 		char sBuffer[128];
 		g_hVoteSpec = CreateBuiltinVote(VoteActionHandler, BuiltinVoteType_Custom_YesNo, BUILTINVOTE_ACTIONS_DEFAULT);
 		Format(sBuffer, 128, "%t", "Spec", kickclient);		//使 '%N' 旁观 ?
@@ -643,4 +560,106 @@ public bool DisplayVoteSpecMenu(int client)
 	}
 	CPrintToChat(client, "%t", "AlreadyInProgress");		//"[{olive}vote{default}] {red}已经有一个投票正在进行."
 	return false;
+}
+
+public int VoteMenuHandler(Handle menu, MenuAction action, int param1, int param2)
+{
+	if (action == MenuAction_Select)
+	{
+		char sInfo[128];
+		char sBuffer[128];
+		GetMenuItem(menu, param2, sInfo, sizeof(sInfo));
+		KvRewind(g_hCfgsKV);
+		if (KvJumpToKey(g_hCfgsKV, sInfo, false) && KvGotoFirstSubKey(g_hCfgsKV, true))
+		{
+			Handle hMenu = CreateMenu(ConfigsMenuHandler, MENU_ACTIONS_DEFAULT);
+			Format(sBuffer, sizeof(sBuffer), "%t", "Select2", sInfo);		//选择 %s :
+			SetMenuTitle(hMenu, sBuffer);
+			do {
+				KvGetSectionName(g_hCfgsKV, sInfo,  sizeof(sInfo));
+				KvGetString(g_hCfgsKV, "message", sBuffer, sizeof(sBuffer), "");
+				AddMenuItem(hMenu, sInfo, sBuffer, ITEMDRAW_DEFAULT);
+			} while (KvGotoNextKey(g_hCfgsKV, true));
+			DisplayMenu(hMenu, param1, 20);
+		}
+		else
+		{
+			CPrintToChat(param1, "%t", "RelatedFileNoExist");		//"[{olive}vote{default}] {red}没有相关的文件存在."
+			ShowVoteMenu(param1);
+		}
+	}
+	if (action == MenuAction_End)
+	{
+		CloseHandle(menu);
+	}
+	return 0;
+}
+
+public void VoteActionHandler(Handle vote, BuiltinVoteAction action, int param1, int param2)
+{
+	switch (action)
+	{
+		case BuiltinVoteAction_End:
+		{
+			g_hVote = INVALID_HANDLE;
+			CloseHandle(vote);
+		}
+		case BuiltinVoteAction_Cancel:
+		{
+			DisplayBuiltinVoteFail(vote, view_as<BuiltinVoteFailReason>(param1));
+		}
+	}
+}
+
+public void VoteResultHandler(Handle vote, int num_votes, int num_clients, const int[][] client_info, int num_items, const int[][] item_info)
+{
+	for (int i = 0; i< num_items; i++)
+	{
+		if (item_info[i][BUILTINVOTEINFO_ITEM_INDEX] == BUILTINVOTES_VOTE_YES)
+		{
+			if (item_info[i][BUILTINVOTEINFO_ITEM_VOTES] > (num_votes / 2))
+			{
+				if (g_hVote == vote)
+				{
+					Format(LoadingCFG, sizeof(LoadingCFG), "%t", "LoadingCFG");
+					DisplayBuiltinVotePass(vote, LoadingCFG);		//Cfg文件正在加载...
+					ServerCommand("%s", g_sCfg);
+					return;
+				}
+				if (g_hVoteKick == vote)
+				{
+					Format(VotingDone, sizeof(VotingDone), "%t", "VotingDone");
+					Format(KickDone, sizeof(KickDone), "%t", "KickDone");
+					DisplayBuiltinVotePass(vote, VotingDone);		//投票已完成...
+					KickClient(kickclient, KickDone);		//投票踢出
+					return;
+				}
+				if (g_hVoteBan == vote)
+				{
+					DisplayBuiltinVotePass(vote, VotingDone);
+					if(g_bSourceBansSystemAvailable)
+					{
+						Format(BanDone ,sizeof(BanDone), "%t", "BanDone");
+						SBPP_BanPlayer(voteclient, banclient, 1440, BanDone);		//投票封禁
+						return;
+					}
+					else
+					{
+						Format(Reason, sizeof(Reason), "%t", "Reason");
+						BanClient(banclient,  1440, ADMFLAG_BAN, BanDone, Reason);		//你已被当前服务器踢出，原因为投票封禁
+						return;
+					}
+				}
+				if (g_hVoteSpec == vote)
+				{
+					Format(VotingDone, sizeof(VotingDone), "%t", "VotingDone");
+					DisplayBuiltinVotePass(vote, VotingDone);		//投票已完成...
+					ServerCommand("sm_swapto 1 %N", specclient);		// 需要playermanagement.smx
+					CPrintToChatAll("%t", "SpecDone", specclient);		//"[{olive}vote{default}] ({olive}%N){blue} 已被投票至旁观者."
+					return;
+				}
+			}
+		}
+	}
+	DisplayBuiltinVoteFail(vote, BuiltinVoteFail_Loses);
 }

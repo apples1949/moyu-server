@@ -758,7 +758,7 @@ void FillSurvivorInfo(Panel hSpecHud)
 				{
 					// Player ever incapped should always be bleeding.
 					// Nick: 99HP (#1st) [Chrome 8/72]
-					Format(info, sizeof(info), "%s: %iHP (#%s) [%s]", name, health, (incapCount == 2 ? "2nd" : "1st"), info);
+					Format(info, sizeof(info), "%s: %iHP (#%s) [%s]", name, health, (incapCount == 2 ? "%t" : "%t"), "2nd", "1st",  info);
 				}
 			}
 		}
@@ -815,7 +815,7 @@ void FillScoreInfo(Panel hSpecHud)
 				
 				FormatEx(	info,
 							sizeof(info),
-							"> HB: %.0f%% | DB: %.0f%% | Pills: %i / %.0f%%",
+							"%t", "ScoreFormat",
 							L4D2Util_IntToPercentFloat(healthBonus, maxHealthBonus),
 							L4D2Util_IntToPercentFloat(damageBonus, maxDamageBonus),
 							pillsBonus, L4D2Util_IntToPercentFloat(pillsBonus, maxPillsBonus));
@@ -874,10 +874,10 @@ void FillScoreInfo(Panel hSpecHud)
 							permBonus, tempBonus, pillsBonus);
 				DrawPanelText(hSpecHud, info);
 				
-				FormatEx(info, sizeof(info), "> Bonus: %i <%.1f%%>", totalBonus, L4D2Util_IntToPercentFloat(totalBonus, maxTotalBonus));
+				FormatEx(info, sizeof(info), "%t", "Bonus", totalBonus, L4D2Util_IntToPercentFloat(totalBonus, maxTotalBonus));
 				DrawPanelText(hSpecHud, info);
 				
-				FormatEx(info, sizeof(info), "> Distance: %i", iMaxDistance);
+				FormatEx(info, sizeof(info), "%t", "Distance", iMaxDistance);
 				//if (InSecondHalfOfRound())
 				//{
 				//	Format(info, sizeof(info), "%s | R#1: %i <%.1f%%>", info, iFirstHalfScore, ToPercent(iFirstHalfScore, L4D_GetVersusMaxCompletionScore() + maxTotalBonus));
@@ -931,9 +931,9 @@ void FillInfectedInfo(Panel hSpecHud)
 			}
 			else // Ghost Countdown
 			{
-				FormatEx(buffer, sizeof(buffer), "%is", timeLeft);
+				FormatEx(buffer, sizeof(buffer), "%t", "Seconds", timeLeft);		// %is
 				// verygood: Dead (15s)
-				FormatEx(info, sizeof(info), "%t", "InDeadTime", name, (timeLeft ? buffer : "Spawning..."));		//%s: Dead (%s)
+				FormatEx(info, sizeof(info), "%t", "InDeadTime", name, (timeLeft ? buffer : "%t"), "Spawning...");		//%s: Dead (%s)		//Spawning...
 				
 				//char zClassName[10];
 				//GetInfectedClassName(storedClass[client], zClassName, sizeof zClassName);
@@ -984,7 +984,7 @@ void FillInfectedInfo(Panel hSpecHud)
 						&& fDuration != 3600
 						&& GetInfectedVictim(client) <= 0)
 					{
-						FormatEx(buffer, sizeof(buffer), " [%is]", iCooldown);
+						FormatEx(buffer, sizeof(buffer), "%t", "CoolDownSeconds", iCooldown);		// [%is]
 					}
 				}
 				
@@ -1067,7 +1067,7 @@ bool FillTankInfo(Panel hSpecHud, bool bTankHUD = false)
 	if (health <= 0 || IsIncapacitated(tank))
 	{
 		//info = "Health  : Dead";
-		FormatEx(info, sizeof(info), "%t", "TankHealth0");		//Health  : Dead
+		FormatEx(info, sizeof(info), "%t", "TankHealth");		//Health  : Dead
 	}
 	else
 	{
@@ -1155,7 +1155,7 @@ void FillGameInfo(Panel hSpecHud)
 					}
 					else
 					{
-						FormatEx(info, sizeof(info), "Tank: %s", (bStaticTank ? "Static" : "Event"));
+						FormatEx(info, sizeof(info), "Tank: %s", (bStaticTank ? "%t" : "%t"), "Static", "Event");		//Static		//Event
 					}
 				}
 				
@@ -1165,10 +1165,10 @@ void FillGameInfo(Panel hSpecHud)
 					FormatEx(buffer, sizeof(buffer), "%i%%", iWitchFlow);
 					
 					if (bDivide) {
-						Format(info, sizeof(info), "%s | Witch: %s", info, ((bRoundHasFlowWitch || bCustomBossSys) ? buffer : (bStaticWitch ? "Static" : "Event")));
+						Format(info, sizeof(info), "%s | Witch: %s", info, ((bRoundHasFlowWitch || bCustomBossSys) ? buffer : (bStaticWitch ? "%t" : "%t"), "Static", "Event"));
 					} else {
 						bDivide = true;
-						FormatEx(info, sizeof(info), "Witch: %s", ((bRoundHasFlowWitch || bCustomBossSys) ? buffer : (bStaticWitch ? "Static" : "Event")));
+						FormatEx(info, sizeof(info), "Witch: %s", ((bRoundHasFlowWitch || bCustomBossSys) ? buffer : (bStaticWitch ? "%t" : "Event")));
 					}
 				}
 				

@@ -70,7 +70,7 @@ public ClientQueryCallback(QueryCookie:cookie, client, ConVarQueryResult:result,
                 BuildPath(Path_SM, path, 256, "logs/mathack_cheaters.txt");
                 LogToFile(path,".:[Name: %s | STEAMID: %s | IP: %s]:.",t_name,t_steamid,t_ip);
                 PrintToChatAll("\x04[\x01Mathack Detector\x04] \x03%s \x01has been kicked for using mathack!", t_name);
-                KickClient(client, "You have been kicked for using hacks. No rest for the wicked.");
+                (client, "You have been kicked for using hacks. No rest for the wicked.");
             }
         }
         case 1:

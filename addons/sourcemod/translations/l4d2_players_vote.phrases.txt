@@ -12,7 +12,7 @@
 		"chi"		"[{olive}vote{default}] {blue}管理员 {olive}%N{blue} 取消了当前投票!"
 	}
 
-	"VoteCancleFailed"
+	"VoteCancelFailed"
 	{
 		"en"		"[{olive}vote{default}] {blue}No vote is in progress!"
 		"chi"		"[{olive}vote{default}] {blue}没有投票在进行!"
@@ -74,14 +74,14 @@
 
 	"SpecDone"
 	{
-		"en"		"[{olive}vote{default}] {olive}%s{blue} has been voted to be a spectator."
-		"chi"		"[{olive}vote{default}] {olive}%s{blue} 已被投票至旁观者."
+		"en"		"[{olive}vote{default}] {olive}%N{blue} has been voted to be a spectator."
+		"chi"		"[{olive}vote{default}] {olive}%N{blue} 已被投票至旁观者."
 	}
 
 	"VoteSpecClient"
 	{
-		"en"		"[{olive}vote{default}] {blue}%N {default}initiated a vote to make{blue} %N {default}be a spectator."
-		"chi"		"[{olive}vote{default}] {blue}%N {default}发起投票使{blue} %N {default}成为旁观者"
+		"en"		"[{olive}vote{default}] {blue}%N{default} initiated a vote to make{blue} %N {default}be a spectator."
+		"chi"		"[{olive}vote{default}] {blue}%N{default} 发起投票使{blue} %N {default}成为旁观者"
 	}
 
 	//The Following phrases aren't allowed to use color tag.
