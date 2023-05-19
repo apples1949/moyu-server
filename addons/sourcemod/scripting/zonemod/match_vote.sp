@@ -366,7 +366,7 @@ public void ResetMatchVoteResultHandler(Handle vote, int num_votes, int num_clie
 		if (item_info[i][BUILTINVOTEINFO_ITEM_INDEX] == BUILTINVOTES_VOTE_YES) {
 			if (item_info[i][BUILTINVOTEINFO_ITEM_VOTES] > (num_votes / 2)) {
 				DisplayBuiltinVotePass(vote, "Confogl is unloading...");
-				ServerCommand("sm_resetmatch");
+				ServerCommand("");
 
 				return;
 			}
