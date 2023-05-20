@@ -37,7 +37,10 @@
 		"en"		"<{olive}HUD{default}> Type {green}!tankhud{default} into chat to toggle the {red}Tank HUD"
 		"chi"		"<{olive}HUD{default}> 聊天输入 {green}!tankhud{default} 切换 {red}Tank 面板开关"
 	}
-	
+
+	// The following phrases aren't allowed to use any color tags.
+	// 以下语句不允许使用任何文字颜色tags.
+
 	"ServerSlotsTickrate"
 	{
 		"en"		"Server: %s [Slots %i/%i | %iT]"

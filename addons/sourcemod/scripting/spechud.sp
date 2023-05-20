@@ -739,7 +739,7 @@ void FillSurvivorInfo(Panel hSpecHud)
 				int activeWep = GetEntPropEnt(client, Prop_Send, "m_hActiveWeapon");
 				GetLongWeaponName(IdentifyWeapon(activeWep), info, sizeof(info));
 				// Nick: <300HP@1st> [Deagle 8]
-				Format(info, sizeof(info), "%s: <%iHP@%s> [%s %i]", name, GetClientHealth(client), (GetSurvivorIncapCount(client) == 1 ? "2nd" : "1st"), info, GetWeaponClipAmmo(activeWep));
+				Format(info, sizeof(info), "%s: <%iHP@%s> [%s %i]", name, GetClientHealth(client), (GetSurvivorIncapCount(client) == 1 ? "%t" : "%t", "2nd", "1nd"), info, GetWeaponClipAmmo(activeWep));
 			}
 			else
 			{
@@ -758,7 +758,7 @@ void FillSurvivorInfo(Panel hSpecHud)
 				{
 					// Player ever incapped should always be bleeding.
 					// Nick: 99HP (#1st) [Chrome 8/72]
-					Format(info, sizeof(info), "%s: %iHP (#%s) [%s]", name, health, (incapCount == 2 ? "%t" : "%t"), "2nd", "1st",  info);
+					Format(info, sizeof(info), "%s: %iHP (#%s) [%s]", name, health, (incapCount == 2 ? "%t" : "%t", "2nd", "1st"),  info);
 				}
 			}
 		}
@@ -933,7 +933,7 @@ void FillInfectedInfo(Panel hSpecHud)
 			{
 				FormatEx(buffer, sizeof(buffer), "%t", "Seconds", timeLeft);		// %is
 				// verygood: Dead (15s)
-				FormatEx(info, sizeof(info), "%t", "InDeadTime", name, (timeLeft ? buffer : "%t"), "Spawning...");		//%s: Dead (%s)		//Spawning...
+				FormatEx(info, sizeof(info), "%t", "InDeadTime", name, (timeLeft ? buffer : "%t", "Spawning..."));		//%s: Dead (%s)		//Spawning...
 				
 				//char zClassName[10];
 				//GetInfectedClassName(storedClass[client], zClassName, sizeof zClassName);
@@ -1155,7 +1155,7 @@ void FillGameInfo(Panel hSpecHud)
 					}
 					else
 					{
-						FormatEx(info, sizeof(info), "Tank: %s", (bStaticTank ? "%t" : "%t"), "Static", "Event");		//Static		//Event
+						FormatEx(info, sizeof(info), "Tank: %s", (bStaticTank ? "%t" : "%t", "Static", "Event"));		//Static		//Event
 					}
 				}
 				
@@ -1165,18 +1165,18 @@ void FillGameInfo(Panel hSpecHud)
 					FormatEx(buffer, sizeof(buffer), "%i%%", iWitchFlow);
 					
 					if (bDivide) {
-						Format(info, sizeof(info), "%s | Witch: %s", info, ((bRoundHasFlowWitch || bCustomBossSys) ? buffer : (bStaticWitch ? "%t" : "%t"), "Static", "Event"));
+						Format(info, sizeof(info), "%s | Witch: %s", info, ((bRoundHasFlowWitch || bCustomBossSys) ? buffer : (bStaticWitch ? "%t" : "%t", "Static", "Event")));
 					} else {
 						bDivide = true;
-						FormatEx(info, sizeof(info), "Witch: %s", ((bRoundHasFlowWitch || bCustomBossSys) ? buffer : (bStaticWitch ? "%t" : "Event")));
+						FormatEx(info, sizeof(info), "Witch: %s", ((bRoundHasFlowWitch || bCustomBossSys) ? buffer : (bStaticWitch ? "%t" : "%t", "Static", "Event")));
 					}
 				}
 				
 				// current
 				if (bDivide) {
-					Format(info, sizeof(info), "CuurentEx", info, survivorFlow);			//%s | Cur: %i%%
+					Format(info, sizeof(info), "%t", "CurrentEx", info, survivorFlow);			//%s | Cur: %i%%
 				} else {
-					FormatEx(info, sizeof(info), "Current", survivorFlow);		//Cur: %i%%
+					FormatEx(info, sizeof(info), "%t", "Current", survivorFlow);		//Cur: %i%%
 				}
 				
 				DrawPanelText(hSpecHud, info);

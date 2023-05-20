@@ -8,7 +8,7 @@
 #include <l4d2lib>
 #include <l4d2util_stocks>
 
-#define PLUGIN_TAG "'%t', 'Tag'"  // \x04[Hybrid Bonus]
+#define PLUGIN_TAG  "{orange}[{default}Hybrid Bonus{orange}]{default}"
 
 #define SM2_DEBUG    0
 
@@ -224,16 +224,16 @@ public Action:CmdBonus(client, args)
 	{
 		if (InSecondHalfOfRound())
 		{
-			PrintToChat(client, "%t", "RHalfBonusFull", PLUGIN_TAG, RoundToFloor(fSurvivorBonus[0]), RoundToFloor(fMapBonus + fMaxPillsBonus), CalculateBonusPercent(fSurvivorBonus[0]), sSurvivorState[0]);
+			CPrintToChat(client, "%t", "RHalfBonusFull", PLUGIN_TAG, RoundToFloor(fSurvivorBonus[0]), RoundToFloor(fMapBonus + fMaxPillsBonus), CalculateBonusPercent(fSurvivorBonus[0]), sSurvivorState[0]);
 			// %s\x01R\x04#1\x01 Bonus: \x05%d\x01/\x05%d\x01 <\x03%.1f%%\x01> [%s]
 		}
-		PrintToChat(client, "%t", "RBonusFull", PLUGIN_TAG, InSecondHalfOfRound() + 1, RoundToFloor(fHealthBonus + fDamageBonus + fPillsBonus), CalculateBonusPercent(fHealthBonus + fDamageBonus + fPillsBonus, fMapHealthBonus + fMapDamageBonus + fMaxPillsBonus), RoundToFloor(fHealthBonus), CalculateBonusPercent(fHealthBonus, fMapHealthBonus), RoundToFloor(fDamageBonus), CalculateBonusPercent(fDamageBonus, fMapDamageBonus), RoundToFloor(fPillsBonus), CalculateBonusPercent(fPillsBonus, fMaxPillsBonus));
+		CPrintToChat(client, "%t", "RBonusFull", PLUGIN_TAG, InSecondHalfOfRound() + 1, RoundToFloor(fHealthBonus + fDamageBonus + fPillsBonus), CalculateBonusPercent(fHealthBonus + fDamageBonus + fPillsBonus, fMapHealthBonus + fMapDamageBonus + fMaxPillsBonus), RoundToFloor(fHealthBonus), CalculateBonusPercent(fHealthBonus, fMapHealthBonus), RoundToFloor(fDamageBonus), CalculateBonusPercent(fDamageBonus, fMapDamageBonus), RoundToFloor(fPillsBonus), CalculateBonusPercent(fPillsBonus, fMaxPillsBonus));
 		// %s\x01R\x04#%i\x01 Bonus: \x05%d\x01 <\x03%.1f%%\x01> [HB: \x05%d\x01 <\x03%.1f%%\x01> | DB: \x05%d\x01 <\x03%.1f%%\x01> | Pills: \x05%d\x01 <\x03%.1f%%\x01>]
 		// R#1 Bonus: 556 <69.5%> [HB: 439 <73.1%> | DB: 117 <58.5%> | Pills: 90 <75.0%>]
 	}
 	else if (StrEqual(sCmdType, "lite"))
 	{
-		PrintToChat(client, "%t", "RBonusLiteShort", PLUGIN_TAG, InSecondHalfOfRound() + 1, RoundToFloor(fHealthBonus + fDamageBonus + fPillsBonus), CalculateBonusPercent(fHealthBonus + fDamageBonus + fPillsBonus, fMapHealthBonus + fMapDamageBonus + fMaxPillsBonus));
+		CPrintToChat(client, "%t", "RBonusLiteShort", PLUGIN_TAG, InSecondHalfOfRound() + 1, RoundToFloor(fHealthBonus + fDamageBonus + fPillsBonus), CalculateBonusPercent(fHealthBonus + fDamageBonus + fPillsBonus, fMapHealthBonus + fMapDamageBonus + fMaxPillsBonus));
 		// %s\x01R\x04#%i\x01 Bonus: \x05%d\x01 <\x03%.1f%%\x01>
 		// R#1 Bonus: 556 <69.5%>
 	}
@@ -241,10 +241,10 @@ public Action:CmdBonus(client, args)
 	{
 		if (InSecondHalfOfRound())
 		{
-			PrintToChat(client, "%t", "RHalfBonusLite", PLUGIN_TAG, RoundToFloor(fSurvivorBonus[0]), CalculateBonusPercent(fSurvivorBonus[0]));
+			CPrintToChat(client, "%t", "RHalfBonusLite", PLUGIN_TAG, RoundToFloor(fSurvivorBonus[0]), CalculateBonusPercent(fSurvivorBonus[0]));
 			// %s\x01R\x04#1\x01 Bonus: \x05%d\x01 <\x03%.1f%%\x01>
 		}
-		PrintToChat(client, "%t", "RBonusLite", PLUGIN_TAG, InSecondHalfOfRound() + 1, RoundToFloor(fHealthBonus + fDamageBonus + fPillsBonus), CalculateBonusPercent(fHealthBonus + fDamageBonus + fPillsBonus, fMapHealthBonus + fMapDamageBonus + fMaxPillsBonus), CalculateBonusPercent(fHealthBonus, fMapHealthBonus), CalculateBonusPercent(fDamageBonus, fMapDamageBonus), CalculateBonusPercent(fPillsBonus, fMaxPillsBonus));
+		CPrintToChat(client, "%t", "RBonusLite", PLUGIN_TAG, InSecondHalfOfRound() + 1, RoundToFloor(fHealthBonus + fDamageBonus + fPillsBonus), CalculateBonusPercent(fHealthBonus + fDamageBonus + fPillsBonus, fMapHealthBonus + fMapDamageBonus + fMaxPillsBonus), CalculateBonusPercent(fHealthBonus, fMapHealthBonus), CalculateBonusPercent(fDamageBonus, fMapDamageBonus), CalculateBonusPercent(fPillsBonus, fMaxPillsBonus));
 		// %s\x01R\x04#%i\x01 Bonus: \x05%d\x01 <\x03%.1f%%\x01> [HB: \x03%.0f%%\x01 | DB: \x03%.0f%%\x01 | Pills: \x03%.0f%%\x01]
 		// R#1 Bonus: 556 <69.5%> [HB: 73% | DB: 58% | Pills: 75%]
 	}
@@ -255,13 +255,13 @@ public Action:CmdMapInfo(client, args)
 {
 	new Float:fMaxPillsBonus = float(iPillWorth * iTeamSize);
 	new Float:fTotalBonus = fMapBonus + fMaxPillsBonus;
-	PrintToChat(client, "%t", "MapInfo", iTeamSize, iTeamSize);
-	PrintToChat(client, "%t", "Distance", iMapDistance);
-	PrintToChat(client, "%t", "TotalBonus", RoundToFloor(fTotalBonus));
-	PrintToChat(client, "%t", "HealthBonus", RoundToFloor(fMapHealthBonus), CalculateBonusPercent(fMapHealthBonus, fTotalBonus));
-	PrintToChat(client, "%t", "DamageBonus", RoundToFloor(fMapDamageBonus), CalculateBonusPercent(fMapDamageBonus, fTotalBonus));
-	PrintToChat(client, "%t", "PillsBonus", iPillWorth, RoundToFloor(fMaxPillsBonus), CalculateBonusPercent(fMaxPillsBonus, fTotalBonus));
-	PrintToChat(client, "%t", "TieBreakerBonus", iPillWorth);
+	CPrintToChat(client, "%t", "MapInfo", iTeamSize, iTeamSize);
+	CPrintToChat(client, "%t", "Distance", iMapDistance);
+	CPrintToChat(client, "%t", "TotalBonus", RoundToFloor(fTotalBonus));
+	CPrintToChat(client, "%t", "HealthBonus", RoundToFloor(fMapHealthBonus), CalculateBonusPercent(fMapHealthBonus, fTotalBonus));
+	CPrintToChat(client, "%t", "DamageBonus", RoundToFloor(fMapDamageBonus), CalculateBonusPercent(fMapDamageBonus, fTotalBonus));
+	CPrintToChat(client, "%t", "PillsBonus", iPillWorth, RoundToFloor(fMaxPillsBonus), CalculateBonusPercent(fMaxPillsBonus, fTotalBonus));
+	CPrintToChat(client, "%t", "TieBreakerBonus", iPillWorth);
 	//\x01[\x04Hybrid Bonus\x01 :: \x03%iv%i\x01] Map Info
 	//\x01Distance: \x05%d\x01
 	//\x01Total Bonus: \x05%d\x01 <\x03100.0%%\x01>
@@ -437,18 +437,18 @@ public Action:PrintRoundEndStats(Handle:timer)
 {
 	for (new i = 0; i <= InSecondHalfOfRound(); i++)
 	{
-		PrintToChatAll("%t", "EQSMRBonus", PLUGIN_TAG, (i + 1), RoundToFloor(fSurvivorBonus[i]), RoundToFloor(fMapBonus + float(iPillWorth * iTeamSize)), CalculateBonusPercent(fSurvivorBonus[i]), sSurvivorState[i]);
+		CPrintToChatAll("%t", "EQSMRBonus", PLUGIN_TAG, (i + 1), RoundToFloor(fSurvivorBonus[i]), RoundToFloor(fMapBonus + float(iPillWorth * iTeamSize)), CalculateBonusPercent(fSurvivorBonus[i]), sSurvivorState[i]);
 		// %s\x01Round \x04%i\x01 Bonus: \x05%d\x01/\x05%d\x01 <\x03%.1f%%\x01> [%s]
 		// [EQSM :: Round 1] Bonus: 487/1200 <42.7%> [3/4]
 	}
 	
 	if (InSecondHalfOfRound() && bTiebreakerEligibility[0] && bTiebreakerEligibility[1])
 	{
-		PrintToChatAll("%t", "TieBreaker", PLUGIN_TAG, iSiDamage[0], iSiDamage[1]);
+		CPrintToChatAll("%t", "TieBreaker", PLUGIN_TAG, iSiDamage[0], iSiDamage[1]);
 		// %s\x03TIEBREAKER\x01: Team \x04%#1\x01 - \x05%i\x01, Team \x04%#2\x01 - \x05%i\x01
 		if (iSiDamage[0] == iSiDamage[1])
 		{
-			PrintToChatAll("%t", "TieBreakerAnnounce", PLUGIN_TAG);
+			CPrintToChatAll("%t", "TieBreakerAnnounce", PLUGIN_TAG);
 			// %s\x05Teams have performed absolutely equal! Impossible to decide a clear round winner
 		}
 	}

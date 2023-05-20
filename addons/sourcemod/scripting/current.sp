@@ -31,7 +31,7 @@ public void OnPluginStart()
 public Action CurrentCmd(int client, int args)
 {
 	int boss_proximity = RoundToNearest(GetBossProximity() * 100.0);
-	PrintToChat(client, "%t", "Current", boss_proximity);		//\x01Current: \x04%d%%
+	CPrintToChat(client, "%t", "Current", boss_proximity);		//\x01Current: \x04%d%%
 	return Plugin_Handled;
 }
 

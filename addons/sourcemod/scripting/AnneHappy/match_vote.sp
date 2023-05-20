@@ -111,7 +111,7 @@ bool:FindConfigName(const String:cfg[], String:name[], maxlength)
 		{
 			if (KvJumpToKey(g_hModesKV, cfg))
 			{
-				KvGetString(g_hModesKV, "name", name, maxlength);
+				(g_hModesKV, "name", name, maxlength);
 				return true;
 			}
 		} while (KvGotoNextKey(g_hModesKV, false));

@@ -296,8 +296,8 @@ public void MatchVoteResultHandler(Handle vote, int num_votes, int num_clients, 
 				//PrintToConsoleAll("%s", g_sCfg);
 				if(LGO_IsMatchModeLoaded())
 				{
-					ServerCommand("sm_resetmatch", g_sCfg);
-					CreateTimer(3.0, ThenForceMatchMode);
+					ServerCommand("sm_resetmatch");
+					ServerCommand("sm_forcematch %s", g_sCfg);
 				}
 				else
 				{
@@ -392,10 +392,4 @@ public void ResetMatchVoteResultHandler(Handle vote, int num_votes, int num_clie
 	}
 
 	DisplayBuiltinVoteFail(vote, BuiltinVoteFail_Loses);
-}
-
-public Action ThenForceMatchMode(Handle timer)
-{
-	ServerCommand("sm_forcematch %s", g_sCfg);
-	return Plugin_Handled;
 }

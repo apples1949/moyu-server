@@ -1,11 +1,5 @@
 "Phrases"
 {
-	"Tag"
-	{
-		"en"		"{orange}[Hybrid Bonus]"
-		"chi"		"{orange}[Hybrid Bonus]"
-	}
-
 	"RHalfBonusFull"
 	{
 		"en"		"%s{default}R{orange}#1{default} Bonus: {olive}%d{default}/{olive}%d{default} <{lightgreen}%.1f%%{default}> [%s]"
