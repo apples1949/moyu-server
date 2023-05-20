@@ -40,7 +40,6 @@ public Plugin myinfo =
 
 public APLRes AskPluginLoad2(Handle hMyself, bool bLate, char[] sError, int iErrMax)
 {
-	CreateNative("CallMatchMenu", Native_MatchModeRequest);
 	EngineVersion iEngine = GetEngineVersion();
 	if (iEngine != Engine_Left4Dead2) {
 		strcopy(sError, iErrMax, "Plugin only supports Left 4 Dead 2.");
@@ -48,12 +47,6 @@ public APLRes AskPluginLoad2(Handle hMyself, bool bLate, char[] sError, int iErr
 	}
 
 	return APLRes_Success;
-}
-
-public int Native_MatchModeRequest(Handle plugin, int numParams)
-{
-	int iClient,iArgs;
-	return MatchRequest(iClient, iArgs);
 }
 
 public void OnPluginStart()
@@ -239,15 +232,6 @@ bool StartMatchVote(int iClient, const char[] sCfgName)
 		CPrintToChat(iClient, "%t", "AlreadyLoaded");		//{blue}[{default}Match{blue}] {default}模式已经加载，请先使用!rmatch卸载配置
 		return false;
 	}*/
-	if(LGO_IsMatchModeLoaded())
-	{
-		ServerCommand("l4d_ready_enabled 0");
-		ServerCommand("reset_static_maps");
-		ServerCommand("sm_resetstringcount");
-		ServerCommand("confogl_resetclientcvars");
-		ServerCommand("confogl_resetcvars");
-		ServerCommand("pred_unload_plugins");
-	}
 
 	if (!IsBuiltinVoteInProgress()) {
 		int iNumPlayers = 0;
@@ -299,18 +283,27 @@ public void VoteActionHandler(Handle vote, BuiltinVoteAction action, int param1,
 public void MatchVoteResultHandler(Handle vote, int num_votes, int num_clients, \
 										const int[][] client_info, int num_items, const int[][] item_info)
 {
+	char buffer[1024];
 	for (int i = 0; i < num_items; i++) {
 		if (item_info[i][BUILTINVOTEINFO_ITEM_INDEX] == BUILTINVOTES_VOTE_YES) {
 			if (item_info[i][BUILTINVOTEINFO_ITEM_VOTES] > (num_votes / 2)) {
-				DisplayBuiltinVotePass(vote, "Matchmode Loaded");
+				Format(buffer, sizeof(buffer), "%t", "Loaded");
+				DisplayBuiltinVotePass(vote, buffer);
 				//PrintToConsoleAll("%s", g_sCfg);
 				for(int j = 0; j < strlen(g_sCfg); j++){
 					g_sCfg[j] = CharToLower(g_sCfg[j]);
 				}
 				//PrintToConsoleAll("%s", g_sCfg);
-				ServerCommand("sm_resetmatch", g_sCfg);
-				ServerCommand("sm_forcematch %s", g_sCfg);
-				return;
+				if(LGO_IsMatchModeLoaded())
+				{
+					ServerCommand("sm_resetmatch", g_sCfg);
+					CreateTimer(3.0, ThenForceMatchMode);
+				}
+				else
+				{
+					ServerCommand("sm_forcematch %s", g_sCfg);
+					return;
+				}
 			}
 		}
 	}
@@ -366,8 +359,10 @@ bool StartResetMatchVote(int iClient)
 			return false;
 		}
 
+		char buffer[1024];
 		g_hVote = CreateBuiltinVote(VoteActionHandler, BuiltinVoteType_Custom_YesNo, BuiltinVoteAction_Cancel | BuiltinVoteAction_VoteEnd | BuiltinVoteAction_End);
-		SetBuiltinVoteArgument(g_hVote, "Turn off confogl?");		//Turn off confogl?
+		Format(buffer, sizeof(buffer), "%t", "TurnOff");
+		SetBuiltinVoteArgument(g_hVote, buffer);		//Turn off confogl?
 		SetBuiltinVoteInitiator(g_hVote, iClient);
 		SetBuiltinVoteResultCallback(g_hVote, ResetMatchVoteResultHandler);
 		DisplayBuiltinVote(g_hVote, iPlayers, iNumPlayers, 20);
@@ -383,16 +378,24 @@ bool StartResetMatchVote(int iClient)
 public void ResetMatchVoteResultHandler(Handle vote, int num_votes, int num_clients, \
 										const int[][] client_info, int num_items, const int[][] item_info)
 {
+	char buffer[1024];
 	for (int i = 0; i < num_items; i++) {
 		if (item_info[i][BUILTINVOTEINFO_ITEM_INDEX] == BUILTINVOTES_VOTE_YES) {
-			if (item_info[i][BUILTINVOTEINFO_ITEM_VOTES] > (num_votes / 2)) {
-				DisplayBuiltinVotePass(vote, "Confogl is unloading...");			//Confogl is unloading...
+			if (item_info[i][BUILTINVOTEINFO_ITEM_VOTES] > (num_votes / 2)) 
+			{
+				Format(buffer, sizeof(buffer), "%t", "Unloading");
+				DisplayBuiltinVotePass(vote, buffer);			//Confogl is unloading...
 				ServerCommand("sm_resetmatch");
-
 				return;
 			}
 		}
 	}
 
 	DisplayBuiltinVoteFail(vote, BuiltinVoteFail_Loses);
+}
+
+public Action ThenForceMatchMode(Handle timer)
+{
+	ServerCommand("sm_forcematch %s", g_sCfg);
+	return Plugin_Handled;
 }
