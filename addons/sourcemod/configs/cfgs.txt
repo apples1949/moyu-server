@@ -1,13 +1,5 @@
 "Cfgs"
 {
-	"更换Confogl配置 Change Confogl Configs"
-	{
-		"sm_match"
-		{
-			"message" "选择配置 Select Configs"
-		}
-	}
-
 	"投票回血 Vote Restore HP"
 	{
 		"sm_hp"
@@ -41,6 +33,14 @@
 		"exec vote/32people.cfg"
 		{
 			"message" "限制位数为32 slots 32"
+		}
+	}
+
+	"投票换图 Vote Maps"
+	{
+		"sm_map cxmx_xxx"
+		{
+			"message" "切换至 cxmx"
 		}
 	}
 

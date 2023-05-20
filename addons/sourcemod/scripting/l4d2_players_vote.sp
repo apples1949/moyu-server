@@ -51,6 +51,8 @@ public Plugin myinfo =
 2.0 版本 移植投票玩家使其成为旁观功能, 增加显示哪个管理员取消了投票
 2.0.1 版本 更正翻译文件部分错误
 2.0.2 版本 sm_cancelvote > sm_votecancel (为了使文字输出有颜色, 不和sm自带命令输出同样的语句)
+2.0.3 版本 旁观不可投票踢人ban人旁观人
+2.0.4 版本 解决不能ban人的问题
 */
 
 Handle
@@ -293,6 +295,15 @@ bool StartVote(int client, char[] cfgname)
 
 public Action KickRequest(int client, int args)
 {
+	if (!client)
+	{
+		return Plugin_Handled;
+	}
+	if (IsValidClient(client) && !IsPlayer(client))
+	{
+		CPrintToChat(client, "%t", "NoSpecVoteRequest");		//"[{olive}vote{default}] {blue}旁观者不允许投票执行命令或cfg文件!"
+		return Plugin_Handled;
+	}
 	if (client && client <= MaxClients)
 	{
 		CreateVotekickMenu(client);
@@ -372,6 +383,15 @@ public bool DisplayVoteKickMenu(int client)
 
 public Action BanRequest(int client, int args)
 {
+	if (!client)
+	{
+		return Plugin_Handled;
+	}
+	if (IsValidClient(client) && !IsPlayer(client))
+	{
+		CPrintToChat(client, "%t", "NoSpecVoteRequest");		//"[{olive}vote{default}] {blue}旁观者不允许投票执行命令或cfg文件!"
+		return Plugin_Handled;
+	}
 	if(g_bl4dstatsSystemAvailable){
 		if(l4dstats_GetClientScore(client) < 100000){
 			CPrintToChat(client, "%t", "BanningRequirePoints");		//"[{olive}vote{default}] {red}未防止封禁被乱用，需要10w以上积分玩家才能使用."
@@ -472,6 +492,15 @@ public bool DisplayVoteBanMenu(int client)
 
 public Action SpecRequest(int client, int args)
 {
+	if (!client)
+	{
+		return Plugin_Handled;
+	}
+	if (IsValidClient(client) && !IsPlayer(client))
+	{
+		CPrintToChat(client, "%t", "NoSpecVoteRequest");		//"[{olive}vote{default}] {blue}旁观者不允许投票执行命令或cfg文件!"
+		return Plugin_Handled;
+	}
 	if (client && client <= MaxClients)
 	{
 		CreateVoteSpecMenu(client);
@@ -646,7 +675,9 @@ public void VoteResultHandler(Handle vote, int num_votes, int num_clients, const
 					else
 					{
 						Format(Reason, sizeof(Reason), "%t", "Reason");
-						BanClient(banclient,  1440, ADMFLAG_BAN, BanDone, Reason);		//你已被当前服务器踢出，原因为投票封禁
+						Format(BanDone ,sizeof(BanDone), "%t", "BanDone");
+						//ServerCommand("sm_ban %N %i %s", banclient, 1440, Reason);
+						BanClient(banclient, 1440, BANFLAG_AUTO, BanDone, Reason);		//你已被当前服务器踢出，原因为投票封禁
 						return;
 					}
 				}
