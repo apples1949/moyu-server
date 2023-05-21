@@ -323,11 +323,11 @@
 		}
 		"witchparty"
 		{
-			"name" "WitchParty v2.2"
+			"name" "WitchParty v3.0"
 		}
 		"witchpartyhc"
 		{
-			"name" "WitchParty HC v2.2"
+			"name" "WitchParty HC v3.0"
 		}
 		"sky"
 		{
@@ -335,7 +335,7 @@
 		}
 		"weimeng"
 		{
-			"name" "WeiMeng Versus v1.1.0"
+			"name" "WeiMeng Versus v1.4.0"
 		}
 		"openmod"
 		{
