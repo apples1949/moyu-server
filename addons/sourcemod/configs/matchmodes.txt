@@ -301,13 +301,13 @@
 		{
 			"name" "ProHunters v5.0.3"
 		}
-		"scavogl4v4"
+		"scavogl"
 		{
-			"name" "Scavogl v2.0"
+			"name" "Scavogl v3.0"
 		}
-		"scavhunt4v4"
+		"scavhunt"
 		{
-			"name" "Scavogl Hunters v2.0"
+			"name" "Scavogl Hunters v3.0"
 		}
 		"pmredtown"
 		{
