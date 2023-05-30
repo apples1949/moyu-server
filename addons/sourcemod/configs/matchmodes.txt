@@ -1,228 +1,5 @@
 "MatchModes"
 {
-	"Confogl Vanilla"
-	{
-		"versus"
-		{
-			"name" "Versus 对抗"
-		}
-		"coop"
-		{
-			"name" "Coop 战役"
-		}
-		"realism"
-		{
-			"name" "Realism 写实"
-		}
-		"versusrealism"
-		{
-			"name" "Versus Realism 写实对抗"
-		}
-		"survival"
-		{
-			"name" "Survival 生还者"
-		}
-		"Scavenge"
-		{
-			"name" "Scavenge 清道夫"
-		}
-		"FTL"
-		{
-			"name" "Follow The Liter 限量发放"
-		}
-		"versussurvival"
-		{
-			"name" "Versus Survival 生还者对抗"
-		}
-		"bleedout"
-		{
-			"name" "Bleed Out 流血不止"
-		}
-		"bleedoutversus"
-		{
-			"name" "Bleed Out Versus 流血不止对抗"
-		}
-		"tankrun"
-		{
-			"name" "Tank Run 克局跑分"
-		}
-		"taaannnk"
-		{
-			"name" "Taaannnk!! 克局跑分对抗"
-		}
-		"headshot"
-		{
-			"name" "Head Shot! 爆头!"
-		}
-		"hardeight"
-		{
-			"name" "Hard Eight 绝境求生"
-		}
-		"fourswordsmen"
-		{
-			"name" "Four Swords Men 四剑客"
-		}
-		"chainsawmassacre"
-		{
-			"name" "Chainsaw Massacre 电锯狂人"
-		}
-		"ironman"
-		{
-			"name" "Iron Man 钢铁侠"
-		}
-		"lastgnomeonearth"
-		{
-			"name" "Last Gnome On Earth 地球上最后一个侏儒"
-		}
-		"roomforone"
-		{
-			"name" "Room For One 一人救赎"
-		}
-		"healthpackalypse"
-		{
-			"name" "Health Pack Alypse! 没有救赎!"
-		}
-		"gibfest"
-		{
-			"name" "Gib Fest 无法近身"
-		}
-		"huntingparty"
-		{
-			"name" "Hunting Party 狩猎盛宴"
-		}
-		"healinggnome"
-		{
-			"name" "Healing Gnome 治愈小侏儒"
-		}
-		"specialdelivery"
-		{
-			"name" "Special Delivery 特感速递"
-		}
-		"fluseason"
-		{
-			"name" "Flu Season 感染季节"
-		}
-		"ridingmysurvivor"
-		{
-			"name" "Riding My Survivor 乘骑派对"
-		}
-		"nightmare"
-		{
-			"name" "Nightmare 梦魇"
-		}
-		"deathsdoor"
-		{
-			"name" "Death's Door 死亡之门"
-		}
-		"l4d1vs"
-		{
-			"name" "L4D1 Versus 1代对抗"
-		}
-		"l4d1survival"
-		{
-			"name" "L4D1 Survival 1代生还者"
-		}
-		"l4d1coop"
-		{
-			"name" "L4D1 Coop 1代战役"
-		}
-		"rocketdude"
-		{
-			"name" "Rocket Dude 火箭飞人"
-		}
-	}
-	"Confogl Casual"
-	{
-//		"neko"		//buggy to be compatiable
-//		{
-//			"name" "Neko Specials 6.26NS"
-//		}
-		"AirMod"
-		{
-			"name" "AirMod v1.09"
-		}
-		"wtfmod"
-		{
-			"name" "WTFmod v1.6.2"
-		}
-		"wtfmod3v3"
-		{
-			"name" "WTFmod 3v3"
-		}
-		"wtfmod2v2"
-		{
-			"name" "WTFmod 2v2"
-		}
-		"wtfmod1v1"
-		{
-			"name" "WTFmod 1v1"
-		}
-		"supersurvival"
-		{
-			"name" "Survival Extended"
-		}
-		"bizzymod"
-		{
-			"name" "魔改写抗 Bizzymod 0.8"
-		}
-		"spacemod"
-		{
-			"name" "太空人写抗 Spacemod -0.8"
-		}
-	}
-	"AnneHappy 2023-1"
-	{
-		"annehappy"
-		{
-			"name" "AnneHappy 2023-1"
-		}
-		"annehunters"
-		{
-			"name" "1vHunters"
-		}
-		"alone"
-		{
-			"name" "单人装逼"
-		}
-		"allcharger"
-		{
-			"name" "牛牛冲刺大逃亡"
-		}
-		"witchpartyanne"
-		{
-			"name" "女巫派对"
-		}
-	}
-//	"AstMod"			//Ast is too buggy to be compatibale with other configs. Uncomment here if you need.
-//	{
-//		"amethyst"
-//		{
-//			"name" "AstMod v2.6.3"
-//		}
-//	}
-	"Practice Configs"
-	{
-		"practiceogl4v4"
-		{
-			"name" "Practiceogl Rework v2.3"
-		}
-		"practiceogl3v3"
-		{
-			"name" "Practiceogl Rework 3v3"
-		}
-		"practiceogl2v2"
-		{
-			"name" "Practiceogl Rework 2v2"
-		}
-		"practiceogl1v1"
-		{
-			"name" "Practiceogl Rework 1v1"
-		}
-		"train1v1"
-		{
-			"name" "Scavogl Rework Train 1v1"
-		}
-	}
 	"4v4"
 	{
 		"283zonemod"
@@ -541,6 +318,126 @@
 		"witchparty1v1"
 		{
 			"name" "1v1 WitchParty"
+		}
+	}
+	"AnneHappy 2023-1"
+	{
+		"annehappy"
+		{
+			"name" "AnneHappy 2023-1"
+		}
+		"annehunters"
+		{
+			"name" "1vHunters"
+		}
+		"alone"
+		{
+			"name" "单人装逼"
+		}
+		"allcharger"
+		{
+			"name" "牛牛冲刺大逃亡"
+		}
+		"witchpartyanne"
+		{
+			"name" "女巫派对"
+		}
+	}
+	"Confogl Vanilla"
+	{
+		"versus"
+		{
+			"name" "Versus 对抗"
+		}
+		"coop"
+		{
+			"name" "Coop 战役"
+		}
+		"realism"
+		{
+			"name" "Realism 写实"
+		}
+		"versusrealism"
+		{
+			"name" "Versus Realism 写实对抗"
+		}
+		"survival"
+		{
+			"name" "Survival 生还者"
+		}
+		"Scavenge"
+		{
+			"name" "Scavenge 清道夫"
+		}
+		"FTL"
+		{
+			"name" "Follow The Liter 限量发放"
+		}
+		"versussurvival"
+		{
+			"name" "Versus Survival 生还者对抗"
+		}
+		"bleedout"
+		{
+			"name" "Bleed Out 流血不止"
+		}
+		"bleedoutversus"
+		{
+			"name" "Bleed Out Versus 流血不止对抗"
+		}
+		"tankrun"
+		{
+			"name" "Tank Run 克局跑分"
+		}
+		"taaannnk"
+		{
+			"name" "Taaannnk!! 克局跑分对抗"
+		}
+	}
+	"Confogl Casual"
+	{
+		"AirMod"
+		{
+			"name" "AirMod v1.09"
+		}
+		"wtfmod"
+		{
+			"name" "WTFmod v1.6.2"
+		}
+		"wtfmod3v3"
+		{
+			"name" "WTFmod 3v3"
+		}
+		"wtfmod2v2"
+		{
+			"name" "WTFmod 2v2"
+		}
+		"wtfmod1v1"
+		{
+			"name" "WTFmod 1v1"
+		}
+	}
+	"Practice Configs"
+	{
+		"practiceogl4v4"
+		{
+			"name" "Practiceogl Rework v2.3"
+		}
+		"practiceogl3v3"
+		{
+			"name" "Practiceogl Rework 3v3"
+		}
+		"practiceogl2v2"
+		{
+			"name" "Practiceogl Rework 2v2"
+		}
+		"practiceogl1v1"
+		{
+			"name" "Practiceogl Rework 1v1"
+		}
+		"train1v1"
+		{
+			"name" "Scavogl Rework Train 1v1"
 		}
 	}
 }

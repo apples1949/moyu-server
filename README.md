@@ -41,18 +41,12 @@
                                           
 | Confogl娱乐模式配置 | 配置是否完善 |                         
 |--------------|-------------|
-| Neko Specials 6.26NS | × |
 | AirMod v1.09 | √ |                        
 | WTFMod(4v4/3v3/2v2/1v1) v1.6.2 | √ |                      
-| Survival Extended | × |                                
-| Bizzymod 0.8 | × |                                            
-| Spacemod -0.8 | × |                                                                            
-                                      
+              
 | 药役模式配置 | 配置是否完善 |                                     
 |--------------|--------------|                                                   
-| AnneHappy 2023-1 | √ |                                        
-| AstMod v2.6.3(划去，太难兼容) | × |                                                             
-
+| AnneHappy 2023-1 | √ |                                                                                                  
 
 
 # 比赛模式来源链接 Matchmode links:                         
