@@ -1,0 +1,24 @@
+Some other useful settings in case you want an out-of-box solution for pounce damage uncap:
+
+Max Pounce Damage 30:
+Code:
+z_hunter_max_pounce_bonus_damage 29
+z_pounce_damage_range_min 300
+z_pounce_damage_range_max 1145.833
+Max Pounce Damage 75:
+Code:
+z_hunter_max_pounce_bonus_damage 74
+z_pounce_damage_range_min 300
+z_pounce_damage_range_max 2458.333
+Max Pounce Damage 100:
+Code:
+z_hunter_max_pounce_bonus_damage 99
+z_pounce_damage_range_min 300
+z_pounce_damage_range_max 3187.5
+Max Pounce Damage 200:
+Code:
+z_hunter_max_pounce_bonus_damage 199
+z_pounce_damage_range_min 300
+z_pounce_damage_range_max 6104.167
+
+https://forums.alliedmods.net/showthread.php?t=182628
