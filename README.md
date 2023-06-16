@@ -26,6 +26,7 @@
 | Skeet Or Die v4.2.2 | × |
 | WitchParty(HC) v2.2 | √ |                         
 | WeiMeng Versus v1.4.0 | √ |                                       
+| OpenMod v1.2 | √ |
 
 | Confogl Vanilla | 配置是否完善 |                                                     
 |-----------------------------|--------------|                                          
