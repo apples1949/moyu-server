@@ -1218,6 +1218,19 @@ void LoadGameData()
 			LogError("Failed to create SDKCall: \"CNavMesh::GetNavArea\" (%s)", g_sSystem);
 	}
 
+	StartPrepSDKCall(SDKCall_Raw);
+	if( PrepSDKCall_SetFromConf(hGameData, SDKConf_Signature, "CNavArea::IsConnected") == false )
+	{
+		LogError("Failed to find signature: \"CNavArea::IsConnected\" (%s)", g_sSystem);
+	} else {
+		PrepSDKCall_AddParameter(SDKType_PlainOldData, SDKPass_Plain);
+		PrepSDKCall_AddParameter(SDKType_PlainOldData, SDKPass_Plain);
+		PrepSDKCall_SetReturnInfo(SDKType_Bool, SDKPass_Plain);
+		g_hSDK_CNavArea_IsConnected = EndPrepSDKCall();
+		if( g_hSDK_CNavArea_IsConnected == null )
+			LogError("Failed to create SDKCall: \"CNavArea::IsConnected\" (%s)", g_sSystem);
+	}
+
 	StartPrepSDKCall(SDKCall_Player);
 	if( PrepSDKCall_SetFromConf(hGameData, SDKConf_Signature, "CTerrorPlayer::GetFlowDistance") == false )
 	{
@@ -2078,8 +2091,8 @@ void LoadGameData()
 		g_iOff_m_iszScriptId = hGameData.GetOffset("m_iszScriptId");
 		ValidateOffset(g_iOff_m_iszScriptId, "m_iszScriptId");
 
-		g_iOff_SpawnTimer = hGameData.GetOffset("SpawnTimer");
-		ValidateOffset(g_iOff_SpawnTimer, "SpawnTimer");
+		g_iOff_m_flBecomeGhostAt = hGameData.GetOffset("CTerrorPlayer::m_flBecomeGhostAt");
+		ValidateOffset(g_iOff_m_flBecomeGhostAt, "CTerrorPlayer::m_flBecomeGhostAt");
 
 		g_iOff_OnBeginRoundSetupTime = hGameData.GetOffset("OnBeginRoundSetupTime");
 		ValidateOffset(g_iOff_OnBeginRoundSetupTime, "OnBeginRoundSetupTime");
@@ -2203,7 +2216,7 @@ void LoadGameData()
 
 		PrintToServer("AddonEclipse1 = %d", g_iOff_AddonEclipse1);
 		PrintToServer("AddonEclipse2 = %d", g_iOff_AddonEclipse2);
-		PrintToServer("SpawnTimer = %d", g_iOff_SpawnTimer);
+		PrintToServer("m_flBecomeGhostAt = %d", g_iOff_m_flBecomeGhostAt);
 		PrintToServer("iszScriptId = %d", g_iOff_m_iszScriptId);
 		PrintToServer("OnBeginRoundSetupTime = %d", g_iOff_OnBeginRoundSetupTime);
 		PrintToServer("m_iWitchCount = %d", g_iOff_m_iWitchCount);

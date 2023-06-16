@@ -19,12 +19,17 @@ ArrayList h_whosHadTank;
 char queuedTankSteamId[64];
 ConVar hTankPrint, hTankDebug;
 bool casterSystemAvailable;
+Handle hForwardOnTryOfferingTankBot;
+Handle hForwardOnTankSelection;
 
 public APLRes AskPluginLoad2(Handle myself, bool late, char[] error, int err_max)
 {
 	CreateNative("GetTankSelection", Native_GetTankSelection);
 
-	return APLRes_Success;
+    hForwardOnTryOfferingTankBot = CreateGlobalForward("TankControl_OnTryOfferingTankBot", ET_Ignore, Param_String);
+    hForwardOnTankSelection = CreateGlobalForward("TankControl_OnTankSelection", ET_Ignore, Param_String);
+
+    return APLRes_Success;
 }
 
 public int Native_GetTankSelection(Handle plugin, int numParams) 
@@ -37,7 +42,7 @@ public Plugin myinfo =
     name = "L4D2 Tank Control",
     author = "arti",
     description = "Distributes the role of the tank evenly throughout the team",
-    version = "0.0.18",
+    version = "0.0.19",
     url = "https://github.com/alexberriman/l4d2-plugins/tree/master/l4d_tank_control"
 }
 
@@ -246,8 +251,8 @@ public Action Tank_Cmd(int client, int args)
         // If on infected, print to entire team
         if (view_as<L4D2Team>(GetClientTeam(client)) == L4D2Team_Infected || (casterSystemAvailable && IsClientCaster(client)))
         {
-            if (client == tankClientId) CPrintToChat(client, "{red}<{default}Tank Selection{red}> {green}You {default}will become the {red}Tank{default}!");
-            else CPrintToChat(client, "{red}<{default}Tank Selection{red}> {olive}%s {default}will become the {red}Tank!", tankClientName);
+            if (client == tankClientId) CPrintToChat(client, "%t", "YouAreTheTank");
+            else CPrintToChat(client, "%t", "TankSelection", tankClientName);
         }
     }
     
@@ -294,7 +299,7 @@ public Action GiveTank_Cmd(int client, int args)
         // Checking if on our desired team
         if (view_as<L4D2Team>(GetClientTeam(target)) != L4D2Team_Infected)
         {
-            CPrintToChatAll("{olive}[SM] {default}%s not on infected. Unable to give tank", name);
+            CPrintToChatAll("%t", "UnableToGive", name);
             return Plugin_Handled;
         }
         
@@ -315,44 +320,56 @@ public Action GiveTank_Cmd(int client, int args)
  
 public void chooseTank(any data)
 {
-    // Create our pool of players to choose from
-    ArrayList infectedPool = new ArrayList(ByteCountToCells(64));
-    addTeamSteamIdsToArray(infectedPool, L4D2Team_Infected);
-    
-    // If there is nobody on the infected team, return (otherwise we'd be stuck trying to select forever)
-    if (GetArraySize(infectedPool) == 0)
-    {
-        delete infectedPool;
-        return;
-    }
+    //Let other plugins to override tank selection
+    char sOverrideTank[64];
+    sOverrideTank[0] = '\0';
+    Call_StartForward(hForwardOnTankSelection);
+    Call_PushStringEx(sOverrideTank, sizeof(sOverrideTank), SM_PARAM_STRING_UTF8, SM_PARAM_COPYBACK);
+    Call_Finish();
 
-    // Remove players who've already had tank from the pool.
-    removeTanksFromPool(infectedPool, h_whosHadTank);
-    
-    // If the infected pool is empty, remove infected players from pool
-    if (GetArraySize(infectedPool) == 0) // (when nobody on infected ,error)
+    if (StrEqual(sOverrideTank, ""))
     {
-        ArrayList infectedTeam = new ArrayList(ByteCountToCells(64));
-        addTeamSteamIdsToArray(infectedTeam, L4D2Team_Infected);
-        if (GetArraySize(infectedTeam) > 1)
+        // Create our pool of players to choose from
+        ArrayList infectedPool = new ArrayList(ByteCountToCells(64));
+        addTeamSteamIdsToArray(infectedPool, L4D2Team_Infected);
+        
+        // If there is nobody on the infected team, return (otherwise we'd be stuck trying to select forever)
+        if (GetArraySize(infectedPool) == 0)
         {
-            removeTanksFromPool(h_whosHadTank, infectedTeam);
-            chooseTank(0);
+            delete infectedPool;
+            return;
         }
-        else
+
+        // Remove players who've already had tank from the pool.
+        removeTanksFromPool(infectedPool, h_whosHadTank);
+        
+        // If the infected pool is empty, remove infected players from pool
+        if (GetArraySize(infectedPool) == 0) // (when nobody on infected ,error)
         {
-            queuedTankSteamId = "";
+            ArrayList infectedTeam = new ArrayList(ByteCountToCells(64));
+            addTeamSteamIdsToArray(infectedTeam, L4D2Team_Infected);
+            if (GetArraySize(infectedTeam) > 1)
+            {
+                removeTanksFromPool(h_whosHadTank, infectedTeam);
+                chooseTank(0);
+            }
+            else
+            {
+                queuedTankSteamId = "";
+            }
+            
+            delete infectedTeam;
+            delete infectedPool;
+            return;
         }
         
-        delete infectedTeam;
+        // Select a random person to become tank
+        int rndIndex = GetRandomInt(0, GetArraySize(infectedPool) - 1);
+        GetArrayString(infectedPool, rndIndex, queuedTankSteamId, sizeof(queuedTankSteamId));
         delete infectedPool;
-        return;
+    } else {
+        strcopy(queuedTankSteamId, sizeof(queuedTankSteamId), sOverrideTank);
     }
-    
-    // Select a random person to become tank
-    int rndIndex = GetRandomInt(0, GetArraySize(infectedPool) - 1);
-    GetArrayString(infectedPool, rndIndex, queuedTankSteamId, sizeof(queuedTankSteamId));
-    delete infectedPool;
 }
 
 /**
@@ -380,6 +397,16 @@ public Action L4D_OnTryOfferingTankBot(int tank_index, bool &enterStatis)
         return Plugin_Handled;
     }
     
+    //Allow third party plugins to override tank selection
+    char sOverrideTank[64];
+    sOverrideTank[0] = '\0';
+    Call_StartForward(hForwardOnTryOfferingTankBot);
+    Call_PushStringEx(sOverrideTank, sizeof(sOverrideTank), SM_PARAM_STRING_UTF8, SM_PARAM_COPYBACK);
+    Call_Finish();
+    if (!StrEqual(sOverrideTank, "")) {
+        strcopy(queuedTankSteamId, sizeof(queuedTankSteamId), sOverrideTank);
+    }
+
     // If we don't have a queued tank, choose one
     if (! strcmp(queuedTankSteamId, ""))
         chooseTank(0);

@@ -29,4 +29,10 @@
 		"en"		"{red}<{default}Tank Selection{red}> {green}You {default}will become the {red}Tank{default}!"
 		"chi"		"{red}<{default}Tank轮换{red}> {green}你 {default}将会成为{red}Tank{default}!"
 	}
+
+	"UnableToGive"
+	{
+		"en"		"{olive}[SM] {default}%s not on infected. Unable to give tank"
+		"chi"		"{olive}[SM] {default}%s 不在感染者团队. 不能给予Tank."
+	}
 }

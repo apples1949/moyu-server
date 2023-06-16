@@ -24,7 +24,7 @@
 #include <sourcemod>
 #include <sdktools>
 
-#define PLUGIN_VERSION "3.7.1"
+#define PLUGIN_VERSION "3.8.1"
 
 public Plugin myinfo =
 {
@@ -42,10 +42,9 @@ enum /*alarmArray*/
 	ENTRY_START_STATE,
 	ENTRY_ALARM_CAR,
 	ENTRY_COLOR,
-
+	
 	alarmArray_SIZE
 }
-
 static const int 
 	NULL_ALARMARRAY[alarmArray_SIZE] = {
 		INVALID_ENT_REFERENCE,
@@ -125,17 +124,21 @@ Action Timer_RoundStartDelay(Handle timer)
 		GetEntityName(ent, sName, sizeof(sName));
 		if (ExtractCarName(sName, "caralarm_car1", sKey, sizeof(sKey)) != 0)
 		{
-			int entry = -1;
-			if (!g_smCarNameMap.GetValue(sKey, entry)) // creates a new entry
+			int index = -1;
+			if (!g_smCarNameMap.GetValue(sKey, index)) // creates a new alarm set
 			{
-				entry = g_aAlarmArray.PushArray(NULL_ALARMARRAY[0], sizeof(NULL_ALARMARRAY));
-				g_smCarNameMap.SetValue(sKey, entry);
-				g_aAlarmArray.Set(entry, EntIndexToEntRef(ent), ENTRY_ALARM_CAR);
+				index = g_aAlarmArray.PushArray(NULL_ALARMARRAY[0], sizeof(NULL_ALARMARRAY));
+				g_smCarNameMap.SetValue(sKey, index);
+				g_aAlarmArray.Set(index, EntIndexToEntRef(ent), ENTRY_ALARM_CAR);
 			}
 			else // updates the alarm car index
 			{
-				g_aAlarmArray.Set(entry, EntIndexToEntRef(ent), ENTRY_ALARM_CAR);
+				g_aAlarmArray.Set(index, EntIndexToEntRef(ent), ENTRY_ALARM_CAR);
 			}
+			
+			float pos[3];
+			GetEntPropVector(ent, Prop_Data, "m_vecAbsOrigin", pos);
+			PrintDebug("\x05(ALARM) #%i: caralarm_car1 [%s] [%.0f %.0f %.0f]", index, sKey, pos[0], pos[1], pos[2]);
 		}
 	}
 	
@@ -144,25 +147,33 @@ Action Timer_RoundStartDelay(Handle timer)
 	{
 		GetEntityName(ent, sName, sizeof(sName));
 		
-		int entry = -1;
-		if ((entry = StrContains(sName, "relay_caralarm_o")) != -1)
+		bool isAlarm = false;
+		int entry;
+		EntityOutput func;
+		
+		if (ExtractCarName(sName, "relay_caralarm_on", sKey, sizeof(sKey)) != 0)
 		{
-			bool type = (sName[entry+16] == 'n');
-			
-			ExtractCarName(sName,
-							type ? "relay_caralarm_on" : "relay_caralarm_off",
-							sKey, sizeof(sKey));
-			
-			if (g_smCarNameMap.GetValue(sKey, entry))
+			isAlarm = true;
+			entry = ENTRY_RELAY_ON;
+			func = EntO_AlarmRelayOnTriggered;
+		}
+		else if (ExtractCarName(sName, "relay_caralarm_off", sKey, sizeof(sKey)) != 0)
+		{
+			isAlarm = true;
+			entry = ENTRY_RELAY_OFF;
+			func = EntO_AlarmRelayOffTriggered;
+		}
+		
+		if (isAlarm)
+		{
+			int index = -1;
+			if (g_smCarNameMap.GetValue(sKey, index))
 			{
-				g_aAlarmArray.Set(entry,
-									ent,
-									type ? ENTRY_RELAY_ON : ENTRY_RELAY_OFF);
-				
-				HookSingleEntityOutput(ent,
-										"OnTrigger",
-										type ? EntO_AlarmRelayOnTriggered : EntO_AlarmRelayOffTriggered);
+				g_aAlarmArray.Set(index, ent, entry);
+				HookSingleEntityOutput(ent, "OnTrigger", func);
 			}
+			
+			PrintDebug("\x05(ALARM) #%i: %s [%s]", index, entry == ENTRY_RELAY_ON ? "relay_caralarm_on" : "relay_caralarm_off", sKey);
 		}
 	}
 	
@@ -342,20 +353,42 @@ void SafeRelayTrigger(int relay)
 
 int ExtractCarName(const char[] sName, const char[] sCompare, char[] sBuffer, int iSize)
 {
-	int index = SplitString(sName, "-", sBuffer, iSize);
+	int index = StrContains(sName, sCompare);
 	if (index == -1) {
-		// Spilt delimiter doesn't exist.
+		// Identifier for alarm members doesn't exist.
 		return 0;
 	}
 	
-	if (strcmp(sName[index], sCompare)) {
-		// Compare string is before spilt delimiter.
-		strcopy(sBuffer, iSize, sName[index]);
+	// Formats of alarm car names:
+	// -
+	// 1. {name}-{sCompare}
+	// 2. {sCompare}-{name}
+	// 3. {sCompare}
+	
+	if (index > 0) { // Format 1:
+		int nameLen = index-1;
+		
+		if (sName[nameLen] != '-') {
+			// Not formatted, but should not happen.
+			return 0;
+		}
+		
+		// Compare string is after spilt delimiter.
+		strcopy(sBuffer, iSize < nameLen ? iSize : nameLen+1, sName);
 		return -1;
 	}
 	
-	// Compare string is after spilt delimiter.
-	return 1;
+	int identLen = strlen(sCompare);
+	
+	if (sName[identLen] == '-') { // Format 2:
+		// Compare string is before spilt delimiter.
+		strcopy(sBuffer, iSize, sName[identLen+1]);
+		return 1;
+	}
+	
+	// Format 3:
+	strcopy(sBuffer, iSize, "<DUDE>");
+	return 2;
 }
 
 void GetEntityName(int entity, char[] buffer, int maxlen)
@@ -417,10 +450,10 @@ void PrintDebug(const char[] format, any ...)
 
 stock void ExtractColorBytes(int color, int &r, int &g, int &b, int &a)
 {
-	r = (color & 0xFF000000) >> 24;
-	g = (color & 0x00FF0000) >> 16;
-	b = (color & 0x0000FF00) >> 8;
-	a = (color & 0x000000FF);
+	r = (color >> 24) & 0xFF;
+	g = (color >> 16) & 0xFF;
+	b = (color >> 8) & 0xFF;
+	a = (color >> 0) & 0xFF;
 }
 
 stock void ThrowEntryError(int entry, int entity)
