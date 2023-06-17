@@ -2,7 +2,7 @@
 {
 	"DamageReport"
 	{
-		"en"		"{orange}[DmgReport]{default} {lightgreen}%N{default}({orange}%s{default}) took {olive}%d{default} damage from you!"
-		"chi"		"{orange}[伤害报告]{default} 你对{lightgreen}%N{default}({orange}%s{default}) 造成了 {olive}%d{default} 点伤害!"
+		"en"		"{default}[{orange}DmgReport{default}] {lightgreen}%N{default}({orange}%s{default}) took {olive}%d{default} damage from you!"
+		"chi"		"{default}[{orange}伤害报告{default}] 你对{lightgreen}%N{default}({orange}%s{default}) 造成了 {olive}%d{default} 点伤害!"
 	}
 }

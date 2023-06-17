@@ -179,6 +179,7 @@ public void Event_PlayerLeftStartArea(Event event, const char[] name, bool dontB
 bool ProcessSIString(char[] msg, int maxlength, bool footer = false)
 {
 	// get currently active SI classes
+	char buffer[128];
 	int iSpawns;
 	int iSpawnClass[MAXSPAWNS];
 	
@@ -195,8 +196,8 @@ bool ProcessSIString(char[] msg, int maxlength, bool footer = false)
 	if (!iSpawns) {
 		return false;
 	}
-
-	strcopy(msg, maxlength, footer ? "SI: " : "'%t', 'SIs'");
+	Format(buffer, sizeof(buffer), "%t", "SIs");
+	strcopy(msg, maxlength, footer ? "SI: " : buffer);
 	// Special Infected: 
 	
 	int printFlags = g_hCvarPrint.IntValue;

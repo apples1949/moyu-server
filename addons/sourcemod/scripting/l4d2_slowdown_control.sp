@@ -151,7 +151,7 @@ public void TankSpawn(Event event, const char[] name, bool dontBroadcast)
 	if (!tankInPlay) {
 		tankInPlay = true;
 		if (fSurvWaterSpeedDuringTank > 0.0) {
-			PrintToChatAll("%t", "WaterSlowDownOn");			//\x05Water Slowdown\x01 has been reduced while Tank is in play.
+			CPrintToChatAll("%t", "WaterSlowDownOn");			//\x05Water Slowdown\x01 has been reduced while Tank is in play.
 		}
 	}
 }
@@ -170,7 +170,7 @@ public Action Timer_CheckTank(Handle timer)
 	if (!tankclient || !IsPlayerAlive(tankclient)) {
 		tankInPlay = false;
 		if (fSurvWaterSpeedDuringTank > 0.0) {
-			PrintToChatAll("%t", "WaterSlowDownOff");		//\x05Water Slowdown\x01 has been restored to normal.
+			CPrintToChatAll("%t", "WaterSlowDownOff");		//\x05Water Slowdown\x01 has been restored to normal.
 		}
 	}
 

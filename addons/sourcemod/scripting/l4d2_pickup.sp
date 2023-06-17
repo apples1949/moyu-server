@@ -139,10 +139,10 @@ public Action ChangeSecondaryFlags(int client, int args)
 	if (IsValidClient(client)) {
 		if (iSwitchFlags[client] != 3) {
 			iSwitchFlags[client] = 3;
-			CPrintToChat(client, "{blue}[{default}ItemSwitch{blue}] {default}Switch to Melee on pick-up: {blue}OFF");
+			CPrintToChat(client, "%t", "Command_SwitchOff");
 		} else {
 			iSwitchFlags[client] = 2;
-			CPrintToChat(client, "{blue}[{default}ItemSwitch{blue}] {default}Switch to Melee on pick-up: {blue}ON");
+			CPrintToChat(client, "%t", "Command_SwitchOn");
 		}
 	}
 	return Plugin_Handled;

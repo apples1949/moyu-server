@@ -165,7 +165,7 @@ public Action CVS_CvarSettings_Cmd(int client, int args)
 		cvsetting[CVSE_cvar].GetString(buffer, sizeof(buffer));
 		cvsetting[CVSE_cvar].GetName(name, sizeof(name));
 
-		ReplyToCommand(client, "[Confogl] Server CVar: %s, Desired Value: %s, Current Value: %s", name, cvsetting[CVSE_newval], buffer);
+		ReplyToCommand(client, "%t", "CVarsValueComparison", name, cvsetting[CVSE_newval], buffer);
 	}
 #endif
 

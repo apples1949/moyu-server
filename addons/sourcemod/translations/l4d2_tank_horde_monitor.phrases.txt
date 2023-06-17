@@ -3,7 +3,7 @@
 	"Tag"
 	{
 		"en"		"<{olive}Horde{default}>"
-		"chi"		"<{olive}Horde{default}>"
+		"chi"		"<{olive}尸潮事件{default}>"
 	}
 
 	"HordePaused"

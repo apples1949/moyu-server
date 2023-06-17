@@ -283,7 +283,7 @@ public void SM_RoundEnd_Event(Event hEvent, const char[] sEventName, bool bDontB
 
 		if (SM_hCustomMaxDistance.BoolValue && GetCustomMapMaxScore() > -1) {
 			//PrintToChatAll("\x01[\x05Confogl\x01] Custom Max Distance: \x04%d", GetCustomMapMaxScore());
-			CPrintToChatAll("{blue}[{default}Confogl{blue}]{default} Custom Max Distance: {olive}%d", GetCustomMapMaxScore());
+			CPrintToChatAll("%t", "CustomMaxDistance", GetCustomMapMaxScore());
 		}
 	} else if (SM_bIsSecondRoundStarted && !SM_bIsSecondRoundOver) {
 		SM_bIsSecondRoundOver = true;

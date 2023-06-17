@@ -440,24 +440,28 @@ public void Event_PlayerTeam(Event event, const char[] name, bool dontBroadcast)
 // ======================================================================
 public Action ToggleSpecHudCmd(int client, int args) 
 {
+	char onbuffer[16], offbuffer[16];
 	if (GetClientTeam(client) != L4D2Team_Spectator)
 		return Plugin_Handled;
 	
 	bSpecHudActive[client] = !bSpecHudActive[client];
-	
-	CPrintToChat(client, "%t", "Notify_SpechudState", (bSpecHudActive[client] ? "on" : "off"));
+	Format(onbuffer, sizeof(onbuffer), "%t", "on");
+	Format(offbuffer, sizeof(offbuffer), "%t", "off");
+	CPrintToChat(client, "%t", "Notify_SpechudState", (bSpecHudActive[client] ? onbuffer : offbuffer));
 	return Plugin_Handled;
 }
 
 public Action ToggleTankHudCmd(int client, int args) 
 {
+	char onbuffer[16], offbuffer[16];
 	int team = GetClientTeam(client);
 	if (team == L4D2Team_Survivor)
 		return Plugin_Handled;
 	
 	bTankHudActive[client] = !bTankHudActive[client];
-	
-	CPrintToChat(client, "%t", "Notify_TankhudState", (bTankHudActive[client] ? "on" : "off"));
+	Format(onbuffer, sizeof(onbuffer), "%t", "on");
+	Format(offbuffer, sizeof(offbuffer), "%t", "off");
+	CPrintToChat(client, "%t", "Notify_TankhudState", (bTankHudActive[client] ? onbuffer : offbuffer));
 	return Plugin_Handled;
 }
 
@@ -736,10 +740,13 @@ void FillSurvivorInfo(Panel hSpecHud)
 			}
 			else if (IsIncapacitated(client))
 			{
+				static char abuffer[16], bbuffer[16];
 				int activeWep = GetEntPropEnt(client, Prop_Send, "m_hActiveWeapon");
 				GetLongWeaponName(IdentifyWeapon(activeWep), info, sizeof(info));
 				// Nick: <300HP@1st> [Deagle 8]
-				Format(info, sizeof(info), "%s: <%iHP@%s> [%s %i]", name, GetClientHealth(client), (GetSurvivorIncapCount(client) == 1 ? "%t" : "%t", "2nd", "1nd"), info, GetWeaponClipAmmo(activeWep));
+				FormatEx(abuffer, sizeof(abuffer), "%t", "1st");
+				FormatEx(bbuffer, sizeof(bbuffer), "%t", "2nd");
+				Format(info, sizeof(info), "%s: <%iHP@%s> [%s %i]", name, GetClientHealth(client), (GetSurvivorIncapCount(client) == 1 ? abuffer : bbuffer), info, GetWeaponClipAmmo(activeWep));
 			}
 			else
 			{
@@ -756,9 +763,12 @@ void FillSurvivorInfo(Panel hSpecHud)
 				}
 				else
 				{
+					static char abuffer[16], bbuffer[16];
 					// Player ever incapped should always be bleeding.
 					// Nick: 99HP (#1st) [Chrome 8/72]
-					Format(info, sizeof(info), "%s: %iHP (#%s) [%s]", name, health, (incapCount == 2 ? "%t" : "%t", "2nd", "1st"),  info);
+					FormatEx(abuffer, sizeof(abuffer), "%t", "1st");
+					FormatEx(bbuffer, sizeof(bbuffer), "%t", "2nd");
+					Format(info, sizeof(info), "%s: %iHP (#%s) [%s]", name, health, (incapCount == 2 ? bbuffer : abuffer),  info);
 				}
 			}
 		}
@@ -871,7 +881,7 @@ void FillScoreInfo(Panel hSpecHud)
 				FormatEx(	info,
 							sizeof(info),
 							"> Perm: %i | Temp: %i | Pills: %i",
-							permBonus, tempBonus, pillsBonus);
+							permBonus, tempBonus, pillsBonus);		// I dont know how to translate it
 				DrawPanelText(hSpecHud, info);
 				
 				FormatEx(info, sizeof(info), "%t", "Bonus", totalBonus, L4D2Util_IntToPercentFloat(totalBonus, maxTotalBonus));
@@ -893,6 +903,7 @@ void FillInfectedInfo(Panel hSpecHud)
 	static char info[80];
 	static char buffer[16];
 	static char dbuffer[16];
+	static char bbuffer[16];
 	static char name[MAX_NAME_LENGTH];
 
 	int InfectedTeamIndex = !GameRules_GetProp("m_bAreTeamsFlipped");
@@ -932,8 +943,9 @@ void FillInfectedInfo(Panel hSpecHud)
 			else // Ghost Countdown
 			{
 				FormatEx(buffer, sizeof(buffer), "%t", "Seconds", timeLeft);		// %is
+				FormatEx(bbuffer, sizeof(bbuffer), "%t", "Spawning...");
 				// verygood: Dead (15s)
-				FormatEx(info, sizeof(info), "%t", "InDeadTime", name, (timeLeft ? buffer : "%t", "Spawning..."));		//%s: Dead (%s)		//Spawning...
+				FormatEx(info, sizeof(info), "%t", "InDeadTime", name, (timeLeft ? buffer : bbuffer));		//%s: Dead (%s)		//Spawning...
 				
 				//char zClassName[10];
 				//GetInfectedClassName(storedClass[client], zClassName, sizeof zClassName);
@@ -1144,18 +1156,21 @@ void FillGameInfo(Panel hSpecHud)
 				bool bDivide = false;
 						
 				// tank percent
+				static char abuffer[16], bbuffer[16];
+				FormatEx(abuffer, sizeof(abuffer), "%t", "Static");
+				FormatEx(bbuffer, sizeof(bbuffer), "%t", "Event");
 				if (iTankCount > 0)
 				{
 					bDivide = true;
 					FormatEx(buffer, sizeof(buffer), "%i%%", iTankFlow);
-					
+
 					if ((bFlowTankActive && bRoundHasFlowTank) || bCustomBossSys)
 					{
 						FormatEx(info, sizeof(info), "Tank: %s", buffer);
 					}
 					else
 					{
-						FormatEx(info, sizeof(info), "Tank: %s", (bStaticTank ? "%t" : "%t", "Static", "Event"));		//Static		//Event
+						FormatEx(info, sizeof(info), "Tank: %s", (bStaticTank ? abuffer : bbuffer));		//Static		//Event
 					}
 				}
 				
@@ -1165,10 +1180,10 @@ void FillGameInfo(Panel hSpecHud)
 					FormatEx(buffer, sizeof(buffer), "%i%%", iWitchFlow);
 					
 					if (bDivide) {
-						Format(info, sizeof(info), "%s | Witch: %s", info, ((bRoundHasFlowWitch || bCustomBossSys) ? buffer : (bStaticWitch ? "%t" : "%t", "Static", "Event")));
+						Format(info, sizeof(info), "%s | Witch: %s", info, ((bRoundHasFlowWitch || bCustomBossSys) ? buffer : (bStaticWitch ? abuffer : bbuffer)));
 					} else {
 						bDivide = true;
-						FormatEx(info, sizeof(info), "Witch: %s", ((bRoundHasFlowWitch || bCustomBossSys) ? buffer : (bStaticWitch ? "%t" : "%t", "Static", "Event")));
+						FormatEx(info, sizeof(info), "Witch: %s", ((bRoundHasFlowWitch || bCustomBossSys) ? buffer : (bStaticWitch ? abuffer : bbuffer)));
 					}
 				}
 				

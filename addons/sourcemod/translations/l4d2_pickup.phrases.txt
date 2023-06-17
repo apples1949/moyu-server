@@ -3,12 +3,12 @@
 	"Command_SwitchOff"
 	{
 		"en"		"{blue}[{default}ItemSwitch{blue}] {default}Switch to Weapon on pick-up: {blue}OFF"
-		"chi"		"{blue}[{default}ItemSwitch{blue}] {default}捡拾东西的时候切换武器: {blue}OFF"
+		"chi"		"{blue}[{default}ItemSwitch{blue}] {default}捡拾东西的时候切换武器: {blue}关"
 	}
 	
 	"Command_SwitchOn"
 	{
 		"en"		"{blue}[{default}ItemSwitch{blue}] {default}Switch to Weapon on pick-up: {blue}ON"
-		"chi"		"{blue}[{default}ItemSwitch{blue}] {default}捡拾东西的时候切换武器: {blue}ON"
+		"chi"		"{blue}[{default}ItemSwitch{blue}] {default}捡拾东西的时候切换武器: {blue}开"
 	}
 }

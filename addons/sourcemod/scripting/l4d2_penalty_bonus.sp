@@ -34,9 +34,10 @@
 #include <sdktools>
 #define L4D2UTIL_STOCKS_ONLY 1
 #include <l4d2util> //IsTank
+#include <colors>
 
 //L4D2_OnEndVersusModeRound
-#include <left4dhooks> //#include <left4downtown>
+#include <left4dhooks>
 
 #define DEBUG_MODE 0
 
@@ -340,9 +341,9 @@ void DisplayBonus(int iClient = -1)
 		}
 
 		if (iClient == -1) {
-			PrintToChatAll("\x01%s: %s", sMsgPartHdr, sMsgPartBon);
+			CPrintToChatAll("{default}%s: %s", sMsgPartHdr, sMsgPartBon);
 		} else if (iClient) {
-			PrintToChat(iClient, "\x01%s: %s", sMsgPartHdr, sMsgPartBon);
+			CPrintToChat(iClient, "{default}%s: %s", sMsgPartHdr, sMsgPartBon);
 		}
 	}
 }
@@ -363,9 +364,9 @@ void ReportChange(int iBonusChange, int iClient = -1, bool bAbsoluteSet = false)
 	}
 
 	if (iClient == -1) {
-		PrintToChatAll("\x01%s", sMsgPartBon);
+		CPrintToChatAll("{default}%s", sMsgPartBon);
 	} else if (iClient) {
-		PrintToChat(iClient, "\x01%s", sMsgPartBon);
+		CPrintToChat(iClient, "{default}%s", sMsgPartBon);
 	}
 }
 

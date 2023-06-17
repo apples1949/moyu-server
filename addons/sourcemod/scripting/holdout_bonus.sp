@@ -392,7 +392,7 @@ public HoldOutStarts ( const String:output[], caller, activator, Float:delay )
     new iReport = GetConVarInt(g_hCvarReportMode);
     if ( iReport > 2 && iReport != REPORT_ONLYEVENT )
     {
-        PrintToChatAll("%t", "HoldoutStarts", g_iPointsBonus, g_iHoldoutTime );
+        CPrintToChatAll("%t", "HoldoutStarts", g_iPointsBonus, g_iHoldoutTime );
         //\x01Holdout event starts... (\x04%i\x01 bonus over \x05%i\x01 seconds)
     }
     
@@ -606,12 +606,12 @@ public Action: Cmd_DisplayBonus (client, args)
     // display message
     if ( IS_VALID_INGAME(client) )
     {
-        PrintToChat( client, "%t", "HoldoutBonus", sMsg );
+        CPrintToChat( client, "%t", "HoldoutBonus", sMsg );
         //\x01Holdout Bonus: %s
     }
     else
     {
-        PrintToServer("%t", "HoldoutBonus", sMsg );
+        PrintToServer("Holdout Bonus: %s", sMsg );
     }
 }
 
@@ -619,7 +619,7 @@ stock DisplayBonusToAll()
 {
     if ( g_iActualBonus )
     {
-        PrintToChatAll( "%t", "DisplayHoldoutBonus", g_iActualBonus, g_iPointsBonus );
+        CPrintToChatAll( "%t", "DisplayHoldoutBonus", g_iActualBonus, g_iPointsBonus );
         //\x01Holdout Bonus: \x04%i\x01 out of \x05%i\x01.
     }
 }

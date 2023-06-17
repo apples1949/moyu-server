@@ -32,8 +32,8 @@
 
 	"MapInfo"
 	{
-		"en"		"x01[{orange}Hybrid Bonus{default} :: {lightgreen}%iv%i{default}] Map Info"
-		"chi"		"x01[{orange}Hybrid Bonus{default} :: {lightgreen}%iv%i{default}] 地图信息"
+		"en"		"{default}[{orange}Hybrid Bonus{default} :: {lightgreen}%iv%i{default}] Map Info"
+		"chi"		"{default}[{orange}Hybrid Bonus{default} :: {lightgreen}%iv%i{default}] 地图信息"
 	}
 
 	"Distance"
@@ -72,23 +72,23 @@
 		"chi"		"{default}平局决胜分: {olive}%d{default}"
 	}
 
-	"IsBonusGot"		//this only changes format
-	{
-		"en"		"{orange}%s{default}"
-		"chi"		"{orange}%s{default}"
-	}
+	// no color tags
+	// 无法使用color tags
+	// --------------------------------------
 
 	"WipedOut"
 	{
 		"en"		"wiped out"
-		"chi"		"中道崩阻"
+		"chi"		"全军覆灭"
 	}
 
 	"Depleted"
 	{
 		"en"		"bonus depleted"
-		"chi"		"奖励分已消耗殆尽"
+		"chi"		"奖励分消耗殆尽"
 	}
+
+	// --------------------------------------
 
 	"EQSMRBonus"
 	{

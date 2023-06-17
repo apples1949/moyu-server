@@ -231,7 +231,7 @@ void PrintInflictedDamage(int iSurvivor, int iInfected)
 	
 	int iZClass = GetEntProp(iInfected, Prop_Send, "m_zombieClass");
 	
-	PrintToChat(iSurvivor, "%t", "DamageReport", iInfected, L4D2_InfectedNames[iZClass], g_iDamage[iSurvivor][iInfected]);
+	CPrintToChat(iSurvivor, "%t", "DamageReport", iInfected, L4D2_InfectedNames[iZClass], g_iDamage[iSurvivor][iInfected]);
 	// \x04[DmgReport]\x01 \x03%N\x01(\x04%s\x01) took \x05%d\x01 damage from you!
 
 	g_fReported[iSurvivor][iInfected] = GetGameTime();

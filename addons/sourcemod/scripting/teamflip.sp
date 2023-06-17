@@ -9,6 +9,7 @@
  
 #include <sourcemod>
 #include <sdktools>
+#include <colors>
 
 new result_int;
 new String:client_name[32]; // Used to store the client_name of the player who calls teamflip
@@ -45,10 +46,10 @@ public Action:Command_teamflip(client, args)
 		GetClientName(client, client_name, sizeof(client_name)); // Gets the client_name of the person using the command
 		
 		if(result_int == 0)
-			PrintToChatAll("%t %t", "Tag", "SurvivorTeam", client_name); // Here {green} is actually yellow
+			CPrintToChatAll("%t %t", "Tag", "SurvivorTeam", client_name); // Here {green} is actually yellow
 			// \x01[\x05Teamflip\x01] \x03%s\x01 flipped a team and is on the \x03Survivor \x01team!
 		else
-			PrintToChatAll("%t %t", "Tag", "InfectedTeam",  client_name);
+			CPrintToChatAll("%t %t", "Tag", "InfectedTeam",  client_name);
 			// \x01[\x05Teamflip\x01] \x03%s\x01 flipped a team and is on the \x03Infected \x01team!
 		
 		previous_timeC = current_timeC; // Update the previous time

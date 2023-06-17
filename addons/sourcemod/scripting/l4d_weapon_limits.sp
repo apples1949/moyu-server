@@ -206,7 +206,7 @@ public Action ClearLimits_Cmd(int args)
 
 	bIsLocked = false;
 
-	PrintToChatAll("%t", "LimitsCleared");		//[L4D Weapon Limits] Weapon limits cleared!
+	CPrintToChatAll("%t", "LimitsCleared");		//[L4D Weapon Limits] Weapon limits cleared!
 
 	if (hLimitArray != null) {
 		hLimitArray.Clear();
@@ -376,7 +376,7 @@ void denyWeapon(int wep_slot, LimitArrayEntry arrayEntry, int weapon, int client
 		&& g_iLastPrintTickCount[client] != iLastTick
 	) {
 		//CPrintToChat(client, "{blue}[{default}Weapon Limits{blue}]{default} This weapon group has reached its max of {green}%d", arrayEntry.LAE_iLimit);
-		PrintToChat(client, "%t", "ReachedLimits", arrayEntry.LAE_iLimit);		//\x01[\x05Weapon Limits\x01] This weapon group has reached its max of \x04%d\x01!
+		CPrintToChat(client, "%t", "ReachedLimits", arrayEntry.LAE_iLimit);		//\x01[\x05Weapon Limits\x01] This weapon group has reached its max of \x04%d\x01!
 		EmitSoundToClient(client, SOUND_NAME);
 
 		g_iWeaponAlreadyGiven[client][weapon] = iWeaponRef;

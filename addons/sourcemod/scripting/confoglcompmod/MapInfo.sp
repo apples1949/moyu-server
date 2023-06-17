@@ -119,7 +119,7 @@ public Action MI_KV_CmdSaveLoc(int client, int args)
 			iIsInEditMode[client] = 2;
 			ReplyToCommand(client, "%t", "SetEndPoint");		//Move to the farthest point in the saferoom and enter this command again to set the end_dist for this point
 		} else {
-			ReplyToCommand(client, "SelectType");			//Please enter the location type: start_point, end_point
+			ReplyToCommand(client, "%t", "SelectType");			//Please enter the location type: start_point, end_point
 			return Plugin_Handled;
 		}
 
