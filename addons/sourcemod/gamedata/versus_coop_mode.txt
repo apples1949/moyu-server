@@ -81,7 +81,7 @@
 			/* CDirector->m_bIsFirstRoundFinished (CDirector::OnEndScenario) */
 			"m_bIsFirstRoundFinished"
 			{
-				"linux"		"1061"
+				"linux"		"1253"
 			}
 
 			/**
@@ -90,7 +90,7 @@
 			/* CDirector->m_bIsSecondRoundFinished (CDirector::OnEndScenario) */
 			"m_bIsSecondRoundFinished"
 			{
-				"linux"		"1062"
+				"linux"		"1254"
 			}
 		}
 
