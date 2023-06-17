@@ -320,11 +320,11 @@
 			"name" "1v1 WitchParty"
 		}
 	}
-	"AnneHappy 2023-1"
+	"AnneHappy 2023-6"
 	{
 		"annehappy"
 		{
-			"name" "AnneHappy 2023-1"
+			"name" "AnneHappy 2023-6"
 		}
 		"annehunters"
 		{
