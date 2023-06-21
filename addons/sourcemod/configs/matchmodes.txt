@@ -2,9 +2,9 @@
 {
 	"4v4"
 	{
-		"283zonemod"
+		"284zonemod"
 		{
-			"name" "ZoneMod v2.8.3"
+			"name" "ZoneMod v2.8.4"
 		}
 		"zonemod"
 		{
@@ -14,17 +14,17 @@
 		{
 			"name" "ZoneMod v1.9.3"
 		}
-		"283zoneretro"
+		"284zoneretro"
 		{
-			"name" "ZoneMod Retro v2.8.3"
+			"name" "ZoneMod Retro v2.8.4"
 		}
 		"zoneretro"
 		{
 			"name" "ZoneMod Retro v2.7.1"
 		}
-		"283zonehunters"
+		"284zonehunters"
 		{
-			"name" "ZoneHunters v2.8.3"
+			"name" "ZoneHunters v2.8.4"
 		}
 		"zonehunters"
 		{
@@ -121,9 +121,9 @@
 	}
 	"3v3"
 	{
-		"283zm3v3"
+		"284zm3v3"
 		{
-			"name" "3v3 ZoneMod v2.8.3"
+			"name" "3v3 ZoneMod v2.8.4"
 		}
 		"zm3v3"
 		{
@@ -133,9 +133,9 @@
 		{
 			"name" "3v3 ZoneMod v1.9.3"
 		}
-		"283zh3v3"
+		"284zh3v3"
 		{
-			"name" "3v3 ZoneHunters v2.8.3"
+			"name" "3v3 ZoneHunters v2.8.4"
 		}
 		"zh3v3"
 		{
@@ -188,9 +188,9 @@
 	}
 	"2v2"
 	{
-		"283zm2v2"
+		"284zm2v2"
 		{
-			"name" "2v2 ZoneMod v2.8.3"
+			"name" "2v2 ZoneMod v2.8.4"
 		}
 		"zm2v2"
 		{
@@ -200,9 +200,9 @@
 		{
 			"name" "2v2 ZoneMod v1.9.3"
 		}
-		"283zh2v2"
+		"284zh2v2"
 		{
-			"name" "2v2 ZoneHunters v2.8.3"
+			"name" "2v2 ZoneHunters v2.8.4"
 		}
 		"zh2v2"
 		{
@@ -255,9 +255,9 @@
 	}
 	"1v1"
 	{
-		"283zm1v1"
+		"284zm1v1"
 		{
-			"name" "1v1 ZoneMod v2.8.3"
+			"name" "1v1 ZoneMod v2.8.4"
 		}
 		"zm1v1"
 		{
@@ -267,9 +267,9 @@
 		{
 			"name" "1v1 ZoneMod v1.9.3"
 		}
-		"283zh1v1"
+		"284zh1v1"
 		{
-			"name" "1v1 ZoneHunters v2.8.3"
+			"name" "1v1 ZoneHunters v2.8.4"
 		}
 		"zh1v1"
 		{
