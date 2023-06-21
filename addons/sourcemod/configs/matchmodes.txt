@@ -106,10 +106,6 @@
 		{
 			"name" "WitchParty HC v3.0"
 		}
-		"sky"
-		{
-			"name" "Sky v2.7.1"
-		}
 		"weimeng"
 		{
 			"name" "WeiMeng Versus v1.4.0"
