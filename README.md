@@ -20,7 +20,6 @@
 | Practiceogl Rework(Hunters) v2.2 | √ |                                      
 | Scavogl Rework(Chargers/Hunters/Train) v2.2 | √ |                                 
 | ProMod(Retro/Reflux/Redtown/Hunters/Deadman 1v1) v5.0.3 | √ |                                                                           
-| Sky v2.7.1 | √ |
 | Scavogl(Hunters) v3.0 | √ |
 | Equilibrium Retro v2.1 | √ |
 | Skeet Or Die v4.2.2 | × |
