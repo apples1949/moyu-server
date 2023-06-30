@@ -5,9 +5,9 @@
 # 服务器配置                                       
 | 标准比赛配置名称 |                                        
 |-----------------|                                            
-| ZoneMod v2.8.3/2.7.1/1.9.3 |                                              
-| ZoneHunters v2.8.3/2.7.1 |                                      
-| ZoneMod Retro v2.8.3/2.7.1 |                                          
+| ZoneMod v2.8.4/2.7.1/1.9.3 |                                              
+| ZoneHunters v2.8.4/2.7.1 |                                      
+| ZoneMod Retro v2.8.4/2.7.1 |                                          
 | NeoMod v0.4a |                                        
 | NextMod v1.0.5 |                                  
 | ProMod Elite v1.1 |                                         
