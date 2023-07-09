@@ -1,8 +1,0 @@
-"Phrases"
-{
-	"Ignite"
-	{
-		"en"		"[{olive}!{default}] {blue}Gascan out of bounds! Ignited!"
-		"chi"		"[{olive}!{default}] {blue}油桶超界! 已点燃!"
-	}
-}

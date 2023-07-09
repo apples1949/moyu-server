@@ -195,3 +195,8 @@ stock int L4D2_TeamNumberToTeamIndex(int team)
 	if(flipped) ++team;
 	return team % 2;
 }
+
+stock int GetScavengeRoundNumber()
+{
+	return GameRules_GetProp("m_nRoundNumber");
+}

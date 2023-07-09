@@ -7,6 +7,7 @@
 #include <sdkhooks>
 #include <sdktools>
 #include <sourcemod>
+#include <colors>
 #undef REQUIRE_PLUGIN
 #include <l4dstats>
 
@@ -130,7 +131,7 @@ public void OnPluginStart()
 	g_hItemHintCoolDown		= CreateConVar("l4d2_item_hint_cooldown_time", "1.0", "Cold Down Time in seconds a player can use 'Look' Item Hint again.", FCVAR_NOTIFY, true, 0.0);
 	g_hItemUseHintRange		= CreateConVar("l4d2_item_hint_use_range", "150", "How close can a player use 'Look' item hint.", FCVAR_NOTIFY, true, 1.0);
 	g_hItemUseSound			= CreateConVar("l4d2_item_hint_use_sound", "", "Item Hint Sound. (relative to to sound/, Empty = OFF)", FCVAR_NOTIFY);
-	g_hItemAnnounceType		= CreateConVar("l4d2_item_hint_announce_type", "0", "Changes how Item Hint displays. (0: Disable, 1:In chat, 2: In Hint Box, 3: In center text)", FCVAR_NOTIFY, true, 0.0, true, 3.0);
+	g_hItemAnnounceType		= CreateConVar("l4d2_item_hint_announce_type", "1", "Changes how Item Hint displays. (0: Disable, 1:In chat, 2: In Hint Box, 3: In center text)", FCVAR_NOTIFY, true, 0.0, true, 3.0);
 	g_hItemGlowTimer		= CreateConVar("l4d2_item_hint_glow_timer", "30.0", "Item Glow Time.", FCVAR_NOTIFY, true, 0.0);
 	g_hItemGlowRange		= CreateConVar("l4d2_item_hint_glow_range", "800", "Item Glow Range.", FCVAR_NOTIFY, true, 0.0);
 	g_hItemCvarColor		= CreateConVar("l4d2_item_hint_glow_color", "0 255 255", "Item Glow Color, Three values between 0-255 separated by spaces. (Empty = Disable Item Glow)", FCVAR_NOTIFY);
@@ -202,6 +203,8 @@ public void OnPluginStart()
 	HookEvent("player_team", Event_PlayerTeam);
 	HookEvent("player_death", Event_PlayerDeath);
 	HookEvent("witch_killed", Event_WitchKilled);
+
+	LoadTranslations("l4d2_item_hint.phrases");
 
 	CreateStringMap();
 
@@ -279,81 +282,155 @@ void GetCvars()
 
 void CreateStringMap()
 {
+	// store translation string
+	char FirstAid[64], Defibrillator[64], PainPills[64], Adrenaline[64], BileBomb[64], Molotov[64], PipeBomb[64], LaserSight[64], IncendiaryPack[64], ExplosivePack[64],
+		 Ammo[64], Chainsaw[64], Pistol[64], Magnum[64], Pump[64], Chrome[64], Uzi[64], Smg[64], MP5[64], M16[64], SG552[64], AK47[64], DesertRifle[64], Spas12[64], 
+		 XM1014[64], HuntingRifle[64], MilitarySniper[64], Scout[64], AWP[64], GrenadeLuncher[64], M60[64], GasCan[64], FireWork[64], PropaneTank[64], OxygenTank[64],
+		 Gnome[64], Cola[64], MachineGun[64], MiniGun[64], IncendiaryAmmo[64], ExplosiveAmmo[64], Knife[64], BaseballBat[64], CriketBat[64], Crowbar[64], Guitar[64],
+		 Fireaxe[64], Pan[64], Katana[64], Macheta[64], NightStick[64], GlofClub[64], Pitchfork[64], Shovel[64], Boomer[64], Tank[64], Smoker[64], Hunter[64], Jockey[64],
+		 Charger[64], Spitter[64], Witch[64], WitchBride[64];
+
+	// load translations
+	Format(FirstAid, sizeof(FirstAid), "%t", "FirstAid"); 
+	Format(Defibrillator, sizeof(Defibrillator), "%t", "Defibrillator");
+	Format(PainPills, sizeof(PainPills), "%t", "PainPills");
+	Format(Adrenaline, sizeof(Adrenaline), "%t", "Adrenaline");
+	Format(BileBomb, sizeof(BileBomb), "%t", "BileBomb");
+	Format(Molotov, sizeof(Molotov), "%t", "Molotov");
+	Format(PipeBomb, sizeof(PipeBomb), "%t", "PipeBomb");
+	Format(LaserSight, sizeof(LaserSight), "%t", "LaserSight");
+	Format(IncendiaryPack, sizeof(IncendiaryPack), "%t", "IncendiaryPack");
+	Format(ExplosivePack, sizeof(ExplosivePack), "%t", "ExplosivePack");
+	Format(Ammo, sizeof(Ammo), "%t", "Ammo");
+	Format(Chainsaw, sizeof(Chainsaw), "%t", "Chainsaw");
+	Format(Pistol, sizeof(Pistol), "%t", "Pistol");
+	Format(Magnum, sizeof(Magnum), "%t", "Magnum");
+	Format(Pump, sizeof(Pump), "%t", "Pump");
+	Format(Chrome, sizeof(Chrome), "%t", "Chrome");
+	Format(Uzi, sizeof(Uzi), "%t", "Uzi");
+	Format(Smg, sizeof(Smg), "%t", "Smg");
+	Format(MP5, sizeof(MP5), "%t", "MP5");
+	Format(M16, sizeof(M16), "%t", "M16");
+	Format(SG552, sizeof(SG552), "%t", "SG552");
+	Format(AK47, sizeof(AK47), "%t", "AK47");
+	Format(DesertRifle, sizeof(DesertRifle), "%t", "DesertRifle");
+	Format(Spas12, sizeof(Spas12), "%t", "Spas12");
+	Format(XM1014, sizeof(XM1014), "%t", "XM1014");
+	Format(HuntingRifle, sizeof(HuntingRifle), "%t", "HuntingRifle");
+	Format(MilitarySniper, sizeof(MilitarySniper), "%t", "MilitarySniper");
+	Format(Scout, sizeof(Scout), "%t", "Scout");
+	Format(AWP, sizeof(AWP), "%t", "AWP");
+	Format(GrenadeLuncher, sizeof(GrenadeLuncher), "%t", "GrenadeLuncher");
+	Format(M60, sizeof(M60), "%t", "M60");
+	Format(GasCan, sizeof(GasCan), "%t", "GasCan");
+	Format(FireWork, sizeof(FireWork), "%t", "FireWork");
+	Format(PropaneTank, sizeof(PropaneTank), "%t", "PropaneTank");
+	Format(OxygenTank, sizeof(OxygenTank), "%t", "OxygenTank");
+	Format(Gnome, sizeof(Gnome), "%t", "Gnome");
+	Format(Cola, sizeof(Cola), "%t", "Cola");
+	Format(MachineGun, sizeof(MachineGun), "%t", "MachineGun");
+	Format(MiniGun, sizeof(MiniGun), "%t", "MiniGun");
+	Format(IncendiaryAmmo, sizeof(IncendiaryAmmo), "%t", "IncendiaryAmmo");
+	Format(ExplosiveAmmo, sizeof(ExplosiveAmmo), "%t", "ExplosiveAmmo");
+	Format(Knife, sizeof(Knife), "%t", "Knife");
+	Format(BaseballBat, sizeof(BaseballBat), "%t", "BaseballBat");
+	Format(CriketBat, sizeof(CriketBat), "%t", "CriketBat"); 
+	Format(Crowbar, sizeof(Crowbar), "%t", "Crowbar");
+	Format(Guitar, sizeof(Guitar), "%t", "Guitar");
+	Format(Fireaxe, sizeof(Fireaxe), "%t", "Fireaxe");
+	Format(Pan, sizeof(Pan), "%t", "Pan");
+	Format(Katana, sizeof(Katana), "%t", "Katana");
+	Format(Macheta, sizeof(Macheta), "%t", "Macheta");
+	Format(NightStick, sizeof(NightStick), "%t", "NightStick");
+	Format(GlofClub, sizeof(GlofClub), "%t", "GlofClub");
+	Format(Pitchfork, sizeof(Pitchfork), "%t", "Pitchfork");
+	Format(Shovel, sizeof(Shovel), "%t", "Shovel");
+	Format(Boomer, sizeof(Boomer), "%t", "Boomer");
+	Format(Tank, sizeof(Tank), "%t", "Tank");
+	Format(Smoker, sizeof(Smoker), "%t", "Smoker");
+	Format(Hunter, sizeof(Hunter), "%t", "Hunter");
+	Format(Jockey, sizeof(Jockey), "%t", "Jockey");
+	Format(Charger, sizeof(Charger), "%t", "Charger");
+	Format(Spitter, sizeof(Spitter), "%t", "Spitter");
+	Format(Witch, sizeof(Witch), "%t", "Witch");
+	Format(WitchBride, sizeof(WitchBride), "%t", "WitchBride");
+
+	// create stringmap
 	g_smModelToName = new StringMap();
 
 	// Case-sensitive
-	g_smModelToName.SetString("models/w_models/weapons/w_eq_medkit.mdl", "First aid kit!");
-	g_smModelToName.SetString("models/w_models/weapons/w_eq_defibrillator.mdl", "Defibrillator!");
-	g_smModelToName.SetString("models/w_models/weapons/w_eq_painpills.mdl", "Pain pills!");
-	g_smModelToName.SetString("models/w_models/weapons/w_eq_adrenaline.mdl", "Adrenaline!");
-	g_smModelToName.SetString("models/w_models/weapons/w_eq_bile_flask.mdl", "Bile Bomb!");
-	g_smModelToName.SetString("models/w_models/weapons/w_eq_molotov.mdl", "Molotov!");
-	g_smModelToName.SetString("models/w_models/weapons/w_eq_pipebomb.mdl", "Pipe bomb!");
-	g_smModelToName.SetString("models/w_models/weapons/w_laser_sights.mdl", "Laser Sight!");
-	g_smModelToName.SetString("models/w_models/weapons/w_eq_incendiary_ammopack.mdl", "Incendiary UpgradePack!");
-	g_smModelToName.SetString("models/w_models/weapons/w_eq_explosive_ammopack.mdl", "Explosive UpgradePack!");
-	g_smModelToName.SetString("models/props/terror/ammo_stack.mdl", "Ammo!");
-	g_smModelToName.SetString("models/props_unique/spawn_apartment/coffeeammo.mdl", "Ammo!");
-	g_smModelToName.SetString("models/props/de_prodigy/ammo_can_02.mdl", "Ammo!");
-	g_smModelToName.SetString("models/weapons/melee/w_chainsaw.mdl", "Chainsaw!");
-	g_smModelToName.SetString("models/w_models/weapons/w_pistol_b.mdl", "Pistol!");
-	g_smModelToName.SetString("models/w_models/weapons/w_pistol_a.mdl", "Pistol!");
-	g_smModelToName.SetString("models/w_models/weapons/w_desert_eagle.mdl", "Magnum!");
-	g_smModelToName.SetString("models/w_models/weapons/w_shotgun.mdl", "Pump Shotgun!");
-	g_smModelToName.SetString("models/w_models/weapons/w_pumpshotgun_a.mdl", "Shotgun Chrome!");
-	g_smModelToName.SetString("models/w_models/weapons/w_smg_uzi.mdl", "Uzi!");
-	g_smModelToName.SetString("models/w_models/weapons/w_smg_a.mdl", "Silenced Smg!");
-	g_smModelToName.SetString("models/w_models/weapons/w_smg_mp5.mdl", "MP5!");
-	g_smModelToName.SetString("models/w_models/weapons/w_rifle_m16a2.mdl", "Rifle!");
-	g_smModelToName.SetString("models/w_models/weapons/w_rifle_sg552.mdl", "SG552!");
-	g_smModelToName.SetString("models/w_models/weapons/w_rifle_ak47.mdl", "AK47!");
-	g_smModelToName.SetString("models/w_models/weapons/w_desert_rifle.mdl", "Desert Rifle!");
-	g_smModelToName.SetString("models/w_models/weapons/w_shotgun_spas.mdl", "Shotgun Spas!");
-	g_smModelToName.SetString("models/w_models/weapons/w_autoshot_m4super.mdl", "Auto Shotgun!");
-	g_smModelToName.SetString("models/w_models/weapons/w_sniper_mini14.mdl", "Hunting Rifle!");
-	g_smModelToName.SetString("models/w_models/weapons/w_sniper_military.mdl", "Military Sniper!");
-	g_smModelToName.SetString("models/w_models/weapons/w_sniper_scout.mdl", "Scout!");
-	g_smModelToName.SetString("models/w_models/weapons/w_sniper_awp.mdl", "AWP!");
-	g_smModelToName.SetString("models/w_models/weapons/w_grenade_launcher.mdl", "Grenade Launcher!");
-	g_smModelToName.SetString("models/w_models/weapons/w_m60.mdl", "M60!");
-	g_smModelToName.SetString("models/props_junk/gascan001a.mdl", "Gas Can!");
-	g_smModelToName.SetString("models/props_junk/explosive_box001.mdl", "Firework!");
-	g_smModelToName.SetString("models/props_junk/propanecanister001a.mdl", "Propane Tank!");
-	g_smModelToName.SetString("models/props_equipment/oxygentank01.mdl", "Oxygen Tank!");
-	g_smModelToName.SetString("models/props_junk/gnome.mdl", "Gnome!");
-	g_smModelToName.SetString("models/w_models/weapons/w_cola.mdl", "Cola!");
-	g_smModelToName.SetString("models/w_models/weapons/50cal.mdl", ".50 Cal Machine Gun here!");
-	g_smModelToName.SetString("models/w_models/weapons/w_minigun.mdl", "Minigun here!");
-	g_smModelToName.SetString("models/props/terror/exploding_ammo.mdl", "Explosive Ammo!");
-	g_smModelToName.SetString("models/props/terror/incendiary_ammo.mdl", "Incendiary Ammo!");
-	g_smModelToName.SetString("models/w_models/weapons/w_knife_t.mdl", "Knife!");
-	g_smModelToName.SetString("models/weapons/melee/w_bat.mdl", "Baseball Bat!");
-	g_smModelToName.SetString("models/weapons/melee/w_cricket_bat.mdl", "Cricket Bat!");
-	g_smModelToName.SetString("models/weapons/melee/w_crowbar.mdl", "Crowbar!");
-	g_smModelToName.SetString("models/weapons/melee/w_electric_guitar.mdl", "Electric Guitar!");
-	g_smModelToName.SetString("models/weapons/melee/w_fireaxe.mdl", "Fireaxe!");
-	g_smModelToName.SetString("models/weapons/melee/w_frying_pan.mdl", "Frying Pan!");
-	g_smModelToName.SetString("models/weapons/melee/w_katana.mdl", "Katana!");
-	g_smModelToName.SetString("models/weapons/melee/w_machete.mdl", "Machete!");
-	g_smModelToName.SetString("models/weapons/melee/w_tonfa.mdl", "Nightstick!");
-	g_smModelToName.SetString("models/weapons/melee/w_golfclub.mdl", "Golf Club!");
-	g_smModelToName.SetString("models/weapons/melee/w_pitchfork.mdl", "Pitckfork!");
-	g_smModelToName.SetString("models/weapons/melee/w_shovel.mdl", "Shovel");
-	g_smModelToName.SetString("models/infected/boomette.mdl", "Boomer!");
-	g_smModelToName.SetString("models/infected/boomer.mdl", "Boomer!");
-	g_smModelToName.SetString("models/infected/boomer_l4d1.mdl", "Boomer!");
-	g_smModelToName.SetString("models/infected/hulk.mdl", "Tank!");
-	g_smModelToName.SetString("models/infected/hulk_l4d1.mdl", "Tank!");
-	g_smModelToName.SetString("models/infected/hulk_dlc3.mdl", "Tank!");
-	g_smModelToName.SetString("models/infected/smoker.mdl", "Smoker!");
-	g_smModelToName.SetString("models/infected/smoker_l4d1.mdl", "Smoker!");
-	g_smModelToName.SetString("models/infected/hunter.mdl", "Hunter!");
-	g_smModelToName.SetString("models/infected/hunter_l4d1.mdl", "Hunter!");
-	g_smModelToName.SetString("models/infected/witch.mdl", "Witch!");
-	g_smModelToName.SetString("models/infected/witch_bride.mdl", "Witch Bride!");
-	g_smModelToName.SetString("models/infected/spitter.mdl", "Spitter!");
-	g_smModelToName.SetString("models/infected/jockey.mdl", "Jockey!");
-	g_smModelToName.SetString("models/infected/charger.mdl", "Charger!");
+	g_smModelToName.SetString("models/w_models/weapons/w_eq_medkit.mdl", FirstAid);		//First aid kit!
+	g_smModelToName.SetString("models/w_models/weapons/w_eq_defibrillator.mdl", Defibrillator);		//Defibrillator!
+	g_smModelToName.SetString("models/w_models/weapons/w_eq_painpills.mdl", PainPills);		//Pain pills!
+	g_smModelToName.SetString("models/w_models/weapons/w_eq_adrenaline.mdl", Adrenaline);		//Adrenaline!
+	g_smModelToName.SetString("models/w_models/weapons/w_eq_bile_flask.mdl", BileBomb);		//Bile Bomb!
+	g_smModelToName.SetString("models/w_models/weapons/w_eq_molotov.mdl", Molotov);		//Molotov!
+	g_smModelToName.SetString("models/w_models/weapons/w_eq_pipebomb.mdl", PipeBomb);		//Pipe bomb!
+	g_smModelToName.SetString("models/w_models/weapons/w_laser_sights.mdl", LaserSight);		//Laser Sight!
+	g_smModelToName.SetString("models/w_models/weapons/w_eq_incendiary_ammopack.mdl", IncendiaryPack);		//Incendiary UpgradePack!
+	g_smModelToName.SetString("models/w_models/weapons/w_eq_explosive_ammopack.mdl", ExplosivePack);		//Explosive UpgradePack!
+	g_smModelToName.SetString("models/props/terror/ammo_stack.mdl", Ammo);		//Ammo!
+	g_smModelToName.SetString("models/props_unique/spawn_apartment/coffeeammo.mdl", Ammo);		//Ammo!
+	g_smModelToName.SetString("models/props/de_prodigy/ammo_can_02.mdl", Ammo);		//Ammo!
+	g_smModelToName.SetString("models/weapons/melee/w_chainsaw.mdl", Chainsaw);		//Chainsaw!
+	g_smModelToName.SetString("models/w_models/weapons/w_pistol_b.mdl", Pistol);		//Pistol!
+	g_smModelToName.SetString("models/w_models/weapons/w_pistol_a.mdl", Pistol);		//Pistol!
+	g_smModelToName.SetString("models/w_models/weapons/w_desert_eagle.mdl", Magnum);		//Magnum!
+	g_smModelToName.SetString("models/w_models/weapons/w_shotgun.mdl", Pump);		//Pump Shotgun!
+	g_smModelToName.SetString("models/w_models/weapons/w_pumpshotgun_a.mdl", Chrome);		//Shotgun Chrome!
+	g_smModelToName.SetString("models/w_models/weapons/w_smg_uzi.mdl", Uzi);		//Uzi!
+	g_smModelToName.SetString("models/w_models/weapons/w_smg_a.mdl", Smg);		//Silenced Smg!
+	g_smModelToName.SetString("models/w_models/weapons/w_smg_mp5.mdl", MP5);		//MP5!
+	g_smModelToName.SetString("models/w_models/weapons/w_rifle_m16a2.mdl", M16);		//Rifle!
+	g_smModelToName.SetString("models/w_models/weapons/w_rifle_sg552.mdl", SG552);		//SG552!
+	g_smModelToName.SetString("models/w_models/weapons/w_rifle_ak47.mdl", AK47);		//AK47!
+	g_smModelToName.SetString("models/w_models/weapons/w_desert_rifle.mdl", DesertRifle);		//Desert Rifle!
+	g_smModelToName.SetString("models/w_models/weapons/w_shotgun_spas.mdl", Spas12);		//Shotgun Spas!
+	g_smModelToName.SetString("models/w_models/weapons/w_autoshot_m4super.mdl", XM1014);		//Auto Shotgun!
+	g_smModelToName.SetString("models/w_models/weapons/w_sniper_mini14.mdl", HuntingRifle);		//Hunting Rifle!
+	g_smModelToName.SetString("models/w_models/weapons/w_sniper_military.mdl", MilitarySniper);		//Military Sniper!
+	g_smModelToName.SetString("models/w_models/weapons/w_sniper_scout.mdl", Scout);		//Scout!
+	g_smModelToName.SetString("models/w_models/weapons/w_sniper_awp.mdl", AWP);		//AWP!
+	g_smModelToName.SetString("models/w_models/weapons/w_grenade_launcher.mdl", GrenadeLuncher);		//Grenade Launcher!
+	g_smModelToName.SetString("models/w_models/weapons/w_m60.mdl", M60);		//M60!
+	g_smModelToName.SetString("models/props_junk/gascan001a.mdl", GasCan);		//Gas Can!
+	g_smModelToName.SetString("models/props_junk/explosive_box001.mdl", FireWork);		//Firework!
+	g_smModelToName.SetString("models/props_junk/propanecanister001a.mdl", PropaneTank);		//Propane Tank!
+	g_smModelToName.SetString("models/props_equipment/oxygentank01.mdl", OxygenTank);		//Oxygen Tank!
+	g_smModelToName.SetString("models/props_junk/gnome.mdl", Gnome);		//Gnome!
+	g_smModelToName.SetString("models/w_models/weapons/w_cola.mdl", Cola);		//Cola!
+	g_smModelToName.SetString("models/w_models/weapons/50cal.mdl", MachineGun);		//.50 Cal Machine Gun here!
+	g_smModelToName.SetString("models/w_models/weapons/w_minigun.mdl", MiniGun);		//Minigun here!
+	g_smModelToName.SetString("models/props/terror/exploding_ammo.mdl", ExplosiveAmmo);		//Explosive Ammo!
+	g_smModelToName.SetString("models/props/terror/incendiary_ammo.mdl", IncendiaryAmmo);		//Incendiary Ammo!
+	g_smModelToName.SetString("models/w_models/weapons/w_knife_t.mdl", Knife);		//Knife!
+	g_smModelToName.SetString("models/weapons/melee/w_bat.mdl", BaseballBat);		//Baseball Bat!
+	g_smModelToName.SetString("models/weapons/melee/w_cricket_bat.mdl", CriketBat);		//Cricket Bat!
+	g_smModelToName.SetString("models/weapons/melee/w_crowbar.mdl", Crowbar);		//Crowbar!
+	g_smModelToName.SetString("models/weapons/melee/w_electric_guitar.mdl", Guitar);		//Electric Guitar!
+	g_smModelToName.SetString("models/weapons/melee/w_fireaxe.mdl", Fireaxe);		//Fireaxe!
+	g_smModelToName.SetString("models/weapons/melee/w_frying_pan.mdl", Pan);		//Frying Pan!
+	g_smModelToName.SetString("models/weapons/melee/w_katana.mdl", Katana);		//Katana!
+	g_smModelToName.SetString("models/weapons/melee/w_machete.mdl", Macheta);		//Machete!
+	g_smModelToName.SetString("models/weapons/melee/w_tonfa.mdl", NightStick);		//Nightstick!
+	g_smModelToName.SetString("models/weapons/melee/w_golfclub.mdl", GlofClub);		//Golf Club!
+	g_smModelToName.SetString("models/weapons/melee/w_pitchfork.mdl", Pitchfork);		//Pitckfork!
+	g_smModelToName.SetString("models/weapons/melee/w_shovel.mdl", Shovel);		//Shovel
+	g_smModelToName.SetString("models/infected/boomette.mdl", Boomer);		//Boomer!
+	g_smModelToName.SetString("models/infected/boomer.mdl", Boomer);		//Boomer!
+	g_smModelToName.SetString("models/infected/boomer_l4d1.mdl", Boomer);		//Boomer!
+	g_smModelToName.SetString("models/infected/hulk.mdl", Tank);		//Tank!
+	g_smModelToName.SetString("models/infected/hulk_l4d1.mdl", Tank);		//Tank!
+	g_smModelToName.SetString("models/infected/hulk_dlc3.mdl", Tank);		//Tank!
+	g_smModelToName.SetString("models/infected/smoker.mdl", Smoker);		//Smoker!
+	g_smModelToName.SetString("models/infected/smoker_l4d1.mdl", Smoker);		//Smoker!
+	g_smModelToName.SetString("models/infected/hunter.mdl", Hunter);		//Hunter!
+	g_smModelToName.SetString("models/infected/hunter_l4d1.mdl", Hunter);	//Hunter!
+	g_smModelToName.SetString("models/infected/witch.mdl", Witch);		//Witch!
+	g_smModelToName.SetString("models/infected/witch_bride.mdl", WitchBride);		//Witch Bride!
+	g_smModelToName.SetString("models/infected/spitter.mdl", Spitter);		//Spitter!
+	g_smModelToName.SetString("models/infected/jockey.mdl", Jockey);		//Jockey!
+	g_smModelToName.SetString("models/infected/charger.mdl", Charger);		//Charger!
 
 	g_smModelHeight = CreateTrie();
 
@@ -516,7 +593,7 @@ public Action Vocalize_Listener(int client, const char[] command, int argc)
 			{
 				if(g_bl4dstatsAvailable && l4dstats_GetClientScore(client) < 50000)
 				{
-					PrintToChat(client, "\x01[\x04标记系统\x01]你的积分不足5w，无法使用标记系统");
+					CPrintToChat(client, "%t", "PointsRequired");		//\x01[\x04标记系统\x01]你的积分不足5w，无法使用标记系统
 					return Plugin_Continue;
 				}
 				int clientAim;
@@ -1058,7 +1135,10 @@ void CreateSpotMarker(int client, int clientAim = 0, bool bIsAimInfeced)
 			CreateTimer(0.1, TimerMoveSprite, EntIndexToEntRef(sprite), TIMER_REPEAT | TIMER_FLAG_NO_MAPCHANGE);
 		}
 	}
-	NotifyMessage(client, "标记了一个位置", view_as<EHintType>(eSpotMarker));
+
+	char buffer[64];
+	Format(buffer, sizeof(buffer), "%t", "SpotPosition");
+	NotifyMessage(client, buffer, view_as<EHintType>(eSpotMarker));
 }
 
 public Action TimerField(Handle timer, DataPack pack)
@@ -1211,7 +1291,7 @@ void NotifyMessage(int client, const char[] sItemName, EHintType eType)
 				{
 					if (IsClientInGame(i) && !IsFakeClient(i) && GetClientTeam(i) != TEAM_INFECTED)
 					{
-						PrintToChat(i, "\x01[\x04标记系统\x01] \x05%N\x01: %s", client, sItemName);
+						CPrintToChat(i, "%t {olive}%N{default}: %s", "TagChat", client, sItemName);		//\x01[\x04标记系统\x01]
 					}
 				}
 			}
@@ -1220,7 +1300,7 @@ void NotifyMessage(int client, const char[] sItemName, EHintType eType)
 				{
 					if (IsClientInGame(i) && !IsFakeClient(i) && GetClientTeam(i) != TEAM_INFECTED)
 					{
-						PrintHintText(i, "\x01[\x04标记系统\x01] \x05%N\x01: %s", client, sItemName);
+						PrintHintText(i, "%t \x05%N\x01: %s", "TagHint", client, sItemName);		//\x01[\x04标记系统\x01]
 					}
 				}
 			}
@@ -1229,7 +1309,7 @@ void NotifyMessage(int client, const char[] sItemName, EHintType eType)
 				{
 					if (IsClientInGame(i) && !IsFakeClient(i) && GetClientTeam(i) != TEAM_INFECTED)
 					{
-						PrintCenterText(i, "\x01[\x04标记系统\x01] \x05%N\x01: %s", client, sItemName);
+						PrintCenterText(i, "%t \x05%N\x01: %s", "TagCenter", client, sItemName);		//\x01[\x04标记系统\x01]
 					}
 				}
 			}
@@ -1245,7 +1325,7 @@ void NotifyMessage(int client, const char[] sItemName, EHintType eType)
 				{
 					if (IsClientInGame(i) && !IsFakeClient(i) && GetClientTeam(i) != TEAM_INFECTED)
 					{
-						PrintToChat(i, "\x01[\x04标记系统\x01] \x05%N\x01: \x04%s", client, sItemName);
+						CPrintToChat(i, "%t {olive}%N{default}: {orange}%s", "TagChat", client, sItemName);
 					}
 				}
 			}
@@ -1254,7 +1334,7 @@ void NotifyMessage(int client, const char[] sItemName, EHintType eType)
 				{
 					if (IsClientInGame(i) && !IsFakeClient(i) && GetClientTeam(i) != TEAM_INFECTED)
 					{
-						PrintHintText(i, "\x01[\x04标记系统\x01] \x05%N\x01: \x04%s", client, sItemName);
+						PrintHintText(i, "%t \x05%N\x01: \x04%s", "TagHint", client, sItemName);
 					}
 				}
 			}
@@ -1263,7 +1343,7 @@ void NotifyMessage(int client, const char[] sItemName, EHintType eType)
 				{
 					if (IsClientInGame(i) && !IsFakeClient(i) && GetClientTeam(i) != TEAM_INFECTED)
 					{
-						PrintCenterText(i, "\x01[\x04标记系统\x01] \x05%N\x01: \x04%s", client, sItemName);
+						PrintCenterText(i, "%t \x05%N\x01: \x04%s", "TagCenter", client, sItemName);
 					}
 				}
 			}
@@ -1279,7 +1359,7 @@ void NotifyMessage(int client, const char[] sItemName, EHintType eType)
 				{
 					if (IsClientInGame(i) && !IsFakeClient(i) && GetClientTeam(i) != TEAM_INFECTED)
 					{
-						PrintToChat(i, "\x01[\x04标记系统\x01] \x05%N\x01: \x04%s", client, sItemName);
+						CPrintToChat(i, "%t {olive}%N{default}: {orange}%s", "TagChat", client, sItemName);
 					}
 				}
 			}
@@ -1288,7 +1368,7 @@ void NotifyMessage(int client, const char[] sItemName, EHintType eType)
 				{
 					if (IsClientInGame(i) && !IsFakeClient(i) && GetClientTeam(i) != TEAM_INFECTED)
 					{
-						PrintHintText(i, "\x01[\x04标记系统\x01] \x05%N\x01: \x04%s", client, sItemName);
+						PrintHintText(i, "%t \x05%N\x01: \x04%s", "TagHint", client, sItemName);
 					}
 				}
 			}
@@ -1297,7 +1377,7 @@ void NotifyMessage(int client, const char[] sItemName, EHintType eType)
 				{
 					if (IsClientInGame(i) && !IsFakeClient(i) && GetClientTeam(i) != TEAM_INFECTED)
 					{
-						PrintCenterText(i, "\x01[\x04标记系统\x01] \x05%N\x01: \x04%s", client, sItemName);
+						PrintCenterText(i, "%t \x05%N\x01: \x04%s", "TagCenter", client, sItemName);
 					}
 				}
 			}
@@ -1406,7 +1486,7 @@ void CreateInstructorHint(int client, const float vOrigin[3], const char[] sItem
 		{
 			if( Create_info_target(iEntity, vOrigin, sTargetName, g_fSpotMarkGlowTimer) )
 			{
-				FormatEx(sCaption, sizeof sCaption, "%N Marked something here", client);
+				FormatEx(sCaption, sizeof sCaption, "%N %t", "SomethingHere", client);		//Marked something here
 				Create_env_instructor_hint(iEntity, view_as<EHintType>(eSpotMarker), vOrigin, sTargetName, g_sSpotMarkInstructorIcon, sCaption, g_sSpotMarkInstructorColor, g_fSpotMarkGlowTimer, g_fSpotMarkUseRange);
 			}
 		}

@@ -32,14 +32,14 @@
 
 	"WhoSetScore"
 	{
-		"en"		"\x01Scores set to \x05%d \x01 (\x04Sur\x01) - \x05%d \x01 (\x04Inf\x01) by \x03%s\x01."
-		"chi"		"\x01分数已由 \x03%s\x01 设置为 \x05%d \x01 (\x04生还\x01) - \x05%d \x01 (\x04特感\x01)."
+		"en"		"{default}Scores set to {olive}%d {default} ({teamcolor}Sur{default}) - {olive}%d {default} ({teamcolor}Inf{default}) by {orange}%s{default}."
+		"chi"		"{default}分数已由 {orange}%s{default} 设置为 {olive}%d {default} ({teamcolor}生还{default}) - {olive}%d {default} ({teamcolor}特感{default})."
 	}
 
 	"VoteSetScore"
 	{
-		"en"		"\x01Scores set to \x05%d \x01 (\x04Sur\x01) - \x05%d \x01 (\x04Inf\x01) by vote."
-		"chi"		"\x01分数已由投票设置为 \x05%d \x01 (\x04生还\x01) - \x05%d \x01 (\x04特感\x01)."
+		"en"		"{default}Scores set to {olive}%d {default} ({teamcolor}Sur{default}) - {olive}%d {default} ({teamcolor}Inf{default}) by vote."
+		"chi"		"{default}分数已由投票设置为 {olive}%d {default} ({teamcolor}生还{default}) - {olive}%d {default} ({teamcolor}特感{default})."
 	}
 
 	"ChangingScore"
