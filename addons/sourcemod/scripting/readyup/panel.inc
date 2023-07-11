@@ -81,7 +81,6 @@ void UpdatePanel()
 	Panel menuPanel = new Panel();
 
 	char ServerBuffer[128];
-	char CommandBuffer[128];
 	char ServerName[32];
 	char cfgName[32];
 
@@ -94,16 +93,15 @@ void UpdatePanel()
 	g_cvServerNamer.GetString(ServerName, sizeof(ServerName));
 	
 	l4d_ready_cfg_name.GetString(cfgName, sizeof(cfgName));
-	Format(ServerBuffer, sizeof(ServerBuffer), "%t", "ServerSlotsConfigs", ServerName, GetSeriousClientCount(), FindConVar("sv_maxplayers").IntValue, cfgName);		//▸ Server: %s \n▸ Slots: %d/%d\n▸ Config: %s
+	Format(ServerBuffer, sizeof(ServerBuffer), "▸ 服务器: %s \n▸ 位数: %d/%d\n▸ 配置: %s", ServerName, GetSeriousClientCount(), FindConVar("sv_maxplayers").IntValue, cfgName);		//▸ Server: %s \n▸ Slots: %d/%d\n▸ Config: %s
 	menuPanel.DrawText(ServerBuffer);
 	
 	FormatTime(ServerBuffer, sizeof(ServerBuffer), "▸ %m/%d/%Y - %I:%M%p");
-	Format(ServerBuffer, sizeof(ServerBuffer), "%t", "TimePassed", ServerBuffer, iPassTime / 60, iPassTime % 60);		//%s (%02d:%02d)
-	Format(CommandBuffer, sizeof(CommandBuffer), "%t", "Command");
+	Format(ServerBuffer, sizeof(ServerBuffer), "%s (%02d:%02d)", ServerBuffer, iPassTime / 60, iPassTime % 60);		//%s (%02d:%02d)
 	menuPanel.DrawText(ServerBuffer);
 	
 	menuPanel.DrawText(" ");
-	menuPanel.DrawText(CommandBuffer);
+	menuPanel.DrawText("▸ 指令:");
 	menuPanel.DrawText(FooterGet(cmdFooter, curCmd));
 	menuPanel.DrawText(" ");
 	
@@ -167,7 +165,7 @@ void UpdatePanel()
 	{
 		survivorBuffer[bufLen] = '\0';
 		ReplaceString(survivorBuffer, sizeof(survivorBuffer), "#", "_");
-		Format(nameBuf, sizeof(nameBuf), "%t", "Survivors", ++textCount, isTeamReadyMode ? teamReadySymbol[survivorReady] : "");		//->%d. Survivors%s
+		Format(nameBuf, sizeof(nameBuf), "->%d. 生还者%s", ++textCount, isTeamReadyMode ? teamReadySymbol[survivorReady] : "");		//->%d. Survivors%s
 		menuPanel.DrawText(nameBuf);
 		menuPanel.DrawText(survivorBuffer);
 	}
@@ -177,7 +175,7 @@ void UpdatePanel()
 	{
 		infectedBuffer[bufLen] = '\0';
 		ReplaceString(infectedBuffer, sizeof(infectedBuffer), "#", "_");
-		Format(nameBuf, sizeof(nameBuf), "%t", "Infected", ++textCount, isTeamReadyMode ? teamReadySymbol[infectedReady] : "");		//->%d. Infected%s
+		Format(nameBuf, sizeof(nameBuf), "->%d. 感染者%s", ++textCount, isTeamReadyMode ? teamReadySymbol[infectedReady] : "");		//->%d. Infected%s
 		menuPanel.DrawText(nameBuf);
 		menuPanel.DrawText(infectedBuffer);
 	}
@@ -189,8 +187,10 @@ void UpdatePanel()
 		bufLen = strlen(casterBuffer);
 		if (bufLen != 0)
 		{
+			char Plural[8];
 			casterBuffer[bufLen] = '\0';
-			Format(nameBuf, sizeof(nameBuf), "%t", "Caster", ++textCount, casterCount > 1 ? "s" : "");		//->%d. Caster%s
+			Format(Plural, sizeof(Plural), "%t", "Plural")
+			Format(nameBuf, sizeof(nameBuf), "->%d. 解说%s", ++textCount, casterCount > 1 ? Plural : "");		//->%d. Caster%s
 			menuPanel.DrawText(nameBuf);
 			ReplaceString(casterBuffer, sizeof(casterBuffer), "#", "_", true);
 			menuPanel.DrawText(casterBuffer);
@@ -200,12 +200,14 @@ void UpdatePanel()
 	bufLen = strlen(specBuffer);
 	if (bufLen != 0)
 	{
+		char Plural[8];
 		specBuffer[bufLen] = '\0';
-		Format(nameBuf, sizeof(nameBuf), "%t", "Spectator", ++textCount, specCount > 1 ? "s" : "");		//->%d. Spectator%s
+		Format(Plural, sizeof(Plural), "%t", "Plural")
+		Format(nameBuf, sizeof(nameBuf), "->%d. 旁观者%s", ++textCount, specCount > 1 ? Plural : "");		//->%d. Spectator%s
 		menuPanel.DrawText(nameBuf);
 		ReplaceString(specBuffer, sizeof(specBuffer), "#", "_");
 		if (playerCount > l4d_ready_max_players.IntValue && specCount - casterCount > 1)
-			FormatEx(specBuffer, sizeof(specBuffer), "%t", "ManySpec", specCount - casterCount);
+			FormatEx(specBuffer, sizeof(specBuffer), "**许多** (%d)", specCount - casterCount);
 		menuPanel.DrawText(specBuffer);
 	}
 

@@ -14,7 +14,7 @@
 public Plugin myinfo =
 {
 	name = "L4D2 Ready-Up with convenience fixes",
-	author = "CanadaRox, Target, Lechuga, mergded, modified by blueblur",
+	author = "CanadaRox, Target, Lechuga, merged, modified by blueblur",
 	description = "New and improved ready-up plugin with optimal for convenience.",
 	version = PLUGIN_VERSION,
 	url = "https://github.com/Target5150/MoYu_Server_Stupid_Plugins"
@@ -344,6 +344,7 @@ public void OnClientPutInServer(int client)
 public Action ResetRoundNumberplz(Handle timer)
 {
 	GameRules_SetProp("m_nRoundNumber", 0);
+	return Plugin_Continue;
 }
 
 public Action FirstRoundReadyup(Handle timer)
@@ -355,6 +356,7 @@ public Action FirstRoundReadyup(Handle timer)
 	{
 		InitiateLive();
 	}
+	return Plugin_Continue;
 }
 public void OnRoundIsLive()
 {
@@ -421,6 +423,7 @@ public Action RestartCampaignAny1(Handle timer)
 	
 	L4D_RestartScenarioFromVote(currentmap);
 	CreateTimer(2.0, RestartCampaignAny2, _);
+	return Plugin_Continue;
 }
 
 public Action RestartCampaignAny2(Handle timer)
@@ -433,6 +436,7 @@ public Action RestartCampaignAny2(Handle timer)
 	
 	L4D_RestartScenarioFromVote(currentmap);
 	ServerCommand("l4d_ready_scavenge_restart 0");
+	return Plugin_Continue;
 }
 
 /* This ensures all cvars are reset if the map is changed during ready-up */
