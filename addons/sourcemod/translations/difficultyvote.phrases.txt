@@ -1,0 +1,44 @@
+﻿//  ~ \x01 ~ {default}
+//  ~ \x02
+//  ~ \x03 ~ {lightgreen}
+//  ~ \x04 ~ {green}
+//  ~ \x05 ~ {olive}
+//  ~ \x06
+// #include <colors> (new colors: {red}, {blue})
+
+"Phrases"
+{
+	"Not_allow"
+	{
+		"#format"	"{1:N},{2:s}"
+		"en"		"This vote is disabled now!"
+		"ru"		"Сейчас это голосование отключено!"
+	}
+	"Vote_in_progress"
+	{
+		"en"		"You can't start vote now!"
+		"ru"		"Вы не можете сейчас запустить голосование!"
+	}
+	"Not_survivor"
+	{
+		"en"		"!diff command is available only for {blue}Survivors!"
+		"ru"		"Команда !diff только для {blue}Выживших!"
+	}
+	"Already_enabled"
+	{
+		"#format"	"{1:s}"
+		"en"		"Difficulty is set to {1} already!"
+		"ru"		"Сложность {1} уже включена!"
+	}
+	"Usage"
+	{
+		"en"		"Usage: !diff <difficulty> (easy;normal;hard;impossible)"
+		"ru"		"Использовать: !diff <сложность> (easy;normal;hard;impossible)"
+	}
+	"Difficulty_changed"
+	{
+		"#format"	"{1:s}"
+		"en"		"Difficulty has been set to {1}."
+		"ru"		"Включена сложность: {1}."
+	}
+}

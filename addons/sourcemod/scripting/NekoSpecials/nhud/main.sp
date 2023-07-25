@@ -7,7 +7,7 @@ public Action RefreshHUD(Handle timer)
 	{
 		char ReadPlayerName[MAX_NAME_LENGTH], leftline[256], leftline1[256], rightline[256], rightline1[256];
 		ArrayList PlayerKillNum = new ArrayList(256, 0);
-		ArrayList PlayerFriendlyFire = new ArrayList(256, 0);
+		ArrayList PlayerFriendlyFire = new (256, 0);
 		
 		for (int i = 1; i <= MaxClients; i++)
 		{

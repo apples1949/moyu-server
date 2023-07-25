@@ -76,6 +76,17 @@ stock int GetScavengeItemsRemaining()
 }
 
 /*
+ * Sets the amount of current round's items(gas cans) remaining
+ *
+ * @param count		amount to set 
+ * @noreturn
+ */
+stock void SetScavengeItemsRemaining(int count)
+{
+	GameRules_SetProp("m_nScavengeItemsRemaining", count);
+}
+
+/*
  * Returns the goal amount of this match.
  *
  * @return 			goal amount of this match
@@ -83,6 +94,17 @@ stock int GetScavengeItemsRemaining()
 stock int GetScavengeItemsGoal()
 {
 	return GameRules_GetProp("m_nScavengeItemsGoal");
+}
+
+/*
+ * Sets the goal amount of current round.
+ *
+ * @param count		amount to set
+ * @noreturn
+ */
+stock void SetScavengeItemsGoal(int count)
+{
+	GameRules_SetProp("m_nScavengeItemsGoal", count)
 }
 
 /* InSecondHalfOfRound() and FormatScavengeRoundTime() */
@@ -183,7 +205,7 @@ stock int GetScavengeTeamScore(int team, int round = -1)
 		-Member: 009 (offset 36) (type integer) (bits 6)
 	*/
 
-	// '(2*(round-1))+team' can just be the result from 0 to 9. each number represents the round score a survivor team scured.
+	// '(2*(round-1))+team' can just be the result from 0 to 9. each number represents the round score a survivor team secured.
 	// In this formula, interger round = 1 to 5, interger team = 1 or 0.
 }
 

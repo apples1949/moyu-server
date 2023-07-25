@@ -349,6 +349,10 @@
 		{
 			"name" "Coop 战役"
 		}
+		"coop_singal"
+		{
+			"name" "Coop 战役单人"
+		}
 		"realism"
 		{
 			"name" "Realism 写实"
