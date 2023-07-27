@@ -78,7 +78,7 @@ stock int GetScavengeItemsRemaining()
 /*
  * Sets the amount of current round's items(gas cans) remaining
  *
- * @param count		amount to set 
+ * @param count		amount to set
  * @noreturn
  */
 stock void SetScavengeItemsRemaining(int count)
@@ -102,8 +102,7 @@ stock int GetScavengeItemsGoal()
  * @param count		amount to set
  * @noreturn
  */
-stock void SetScavengeItemsGoal(int count)
-{
+stock void SetScavengeItemsGoal(int count){
 	GameRules_SetProp("m_nScavengeItemsGoal", count)
 }
 
@@ -153,7 +152,7 @@ stock int FormatScavengeRoundTime(char[] buffer, int maxlen, int team, bool node
  *
  * @param team		team index. valid value is 2 or 3
  * @return			float value of this round duration.
- *					if the team index is not 2 or 3, return -1.0
+ * @return			if the team index is not 2 or 3, return -1.0
  */
 stock float GetScavengeRoundDuration(int team)
 {
@@ -176,7 +175,7 @@ stock float GetScavengeRoundDuration(int team)
  * @param team 		team index. valid value is 2 and 3
  * @param round		current round number. default value is -1
  * @return 			the team score of this round.
- * 					if the team index is not 2 or 3, return -1
+ * @return			if the team index is not 2 or 3, return -1
  */
 stock int GetScavengeTeamScore(int team, int round = -1)
 {
@@ -210,8 +209,8 @@ stock int GetScavengeTeamScore(int team, int round = -1)
 	/*
 	 team index has been converted to 0 and 1 from 2 and 3.
 	 Tooth table:
-	 	team | round | result
-	   	  2	  	 1 	  	 0
+		team | round | result
+		  2	  	 1 	  	 0
 		  2		 2		 2
 		  2		 3	 	 4
 		  2		 4		 6
@@ -247,7 +246,7 @@ stock void SetScavengeTeamScore(int team, int round, int score)
  *
  * @param team 		team index. valid value is 2 and 3
  * @return 			the team match score of this match.
- * 					if the team index is not 2 or 3, return -1
+ * @return			if the team index is not 2 or 3, return -1
  */
 stock int GetScavengeMatchScore(int team)
 {
@@ -274,10 +273,10 @@ stock void SetScavengeMatchScore(int team, int score)
  * Convert "2" or "3" to "0" or "1" for global static indices.
  * Defaultly recongnise 2 as team survivors and 3 as team infected.
  *
- * @param team 		team index. valid value is 2 and 3. other values returns -1
+ * @param team 		team index. valid value is 2 and 3.
  * @return 			1 if the team survivors flipped or team is infected
- *					0 if the team is survivors or team infected flipped
- *					-1 if the team index value is not 2 or 3
+ * @return			0 if the team is survivors or team infected flipped
+ * @return			-1 if the team index value is not 2 or 3
  */
 stock int L4D2_TeamNumberToTeamIndex(int team)
 {
@@ -323,4 +322,67 @@ stock int GetGasCanCount()
 	}
 
 	return count;
+}
+
+/*
+ * On second half of round, which team won the match?
+ *
+ * @return      1 if the survivor team won the match. 
+ * @return	    0 if the infected team won the match. 
+ * @return	    -1 if we are currently not in second half of the round. 
+ * @return	    -2 if currently no winner showing up on this match. 
+ */
+stock int WhoWonTheMatch()
+{
+	bool IsSurvWin, IsInfecWin, IsNoWinner, IsSecondHalfOfRound;
+
+	if (view_as<bool>(GameRules_GetProp("m_bInSecondHalfOfRound", 1)) == true)
+	{
+		int TeamSurvivor = GetScavengeMatchScore(2);	// converted team index is 1
+		int TeamInfected = GetScavengeMatchScore(3);	// converted team index is 0
+
+		switch (GetScavengeRoundLimit())
+		{
+			case 5:
+			{
+				if (TeamSurvivor == 3)
+					IsSurvWin = true;
+				else
+					IsNoWinner = true;
+
+				if (TeamInfected == 3)
+					IsInfecWin = true;
+				else
+					IsNoWinner = true;
+			}
+
+			case 3:
+			{
+				if (TeamSurvivor == 2)
+					IsSurvWin = true;
+				else
+					IsNoWinner = true;
+
+				if (TeamInfected == 2)
+					IsInfecWin = true;
+				else
+					IsNoWinner = true;
+			}
+
+			case 1:			// one round draw the winner out.
+			{
+				if (TeamSurvivor == 1)
+					IsSurvWin = true;
+					
+				if (TeamInfected == 1)
+					IsInfecWin = true;
+			}
+		}
+	}
+	else
+	{
+		IsSecondHalfOfRound = false;
+	}
+
+	return IsSecondHalfOfRound ? (IsSurvWin ? 1 : (IsInfecWin ? 0 : (IsNoWinner ? -1 : -1))) : -2;
 }
